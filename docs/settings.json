@@ -11,7 +11,7 @@
     "background_shapes": true,
     "iqr_box": true,
     "polygon_outline": 1.5,
-    "color_scale_center": "none",
+    "color_scale_center": "median",
     "table_autoscroll": true,
     "table_scroll_behavior": "smooth",
     "hide_tooltips": false
@@ -22,10 +22,10 @@
     "variables": ["time", "2year_colleges_access_scores:norm_3sfca", "3rd_grade_median_read_score:median_read_pass_rate", "civilian_employment_rate:employment_rate", "community_college_computer_sciences_fca:3sfca_capacity", "community_college_engineering_fca:3sfca_capacity", "community_college_engineering_related_fca:3sfca_capacity", "daycare_services_access_scores:daycare_cnt", "daycare_services_access_scores:daycare_norm_3sfca", "dei_index:norm_dei", "dentist_access_scores:dent_cnt", "dentist_access_scores:dent_e2sfca", "download_speeds:download", "drive_times_nearest_2year_colleges:median_drive_time_top5", "drive_times_nearest_daycares:median_drive_time_top5", "drive_times_nearest_trade_schools:median_drive_time_top5", "drug_overdose_ed_visits:avg_overdose_per_100k", "ems_access_scores:ems_10near_median", "ems_access_scores:ems_3sfca", "ems_access_scores:ems_cnt", "food_insecurity_and_cost:Child_Food_Insecurity_Rate", "food_insecurity_and_cost:Cost_Per_Meal", "food_insecurity_and_cost:Food_Insecurity_Rate", "food_insecurity_and_cost:Num_Child_Food_Insecure", "health_literacy_estimates:health_literacy_estimate", "hospital_access_scores:hos_10near_median", "hospital_access_scores:hos_3sfca", "hospital_access_scores:hos_cnt", "mental_access_scores:mental_10near_median", "mental_access_scores:mental_3sfca", "mental_access_scores:mental_cnt", "no_health_insurance_19_to_64:no_hlth_ins_pct", "obgyn_access_scores:obgyn_cnt", "obgyn_access_scores:obgyn_e2sfca", "pediatrics_access_scores:ped_cnt", "pediatrics_access_scores:ped_e2sfca", "perc_income_on_internet:perc_income_avg_nat_package", "perc_income_on_internet:perc_income_min_price_100", "perc_income_on_internet:perc_income_min_price_25", "percent_poor_ment_hlth_days_14_and_over:perc_poor_ment_hlth_days_14_and_over", "percent_poor_phys_hlth_days_14_and_over:perc_poor_phys_hlth_days_14_and_over", "post_hs_education:perc_post_hs_edu", "preventable_hospitalizations:prevent_hosp_rate", "primary_care_access_scores:prim_cnt", "primary_care_access_scores:prim_e2sfca", "substance_access_scores:subs_10near_median", "substance_access_scores:subs_3sfca", "substance_access_scores:subs_cnt", "trade_schools_access_scores:norm_3sfca", "earnings_per_job:earnings_per_job", "broadband_withoutint_compdev:perc_hh_with_broadband", "broadband_withoutint_compdev:perc_hh_with_cable_fiber_dsl", "broadband_withoutint_compdev:perc_hh_without_compdev", "broadband_withoutint_compdev:perc_hh_without_internet"],
     "info": {
       "tract": {
-        "bytes": 14281443,
+        "bytes": 14241444,
         "encoding": "ISO-8859-1",
-        "md5": "e16faa3a5fef5682100f8024a13051ee",
-        "sha512": "68ef026e7747d83dfafdb1eaa18e6d806934944c1e969df4e3c64c375993c1694df758805b5463ab81e9bce1969428ddfa495e24ac57729bd636d1e79b30da24",
+        "md5": "b551b45b5fb0f5ff1299d936b6637b33",
+        "sha512": "e81c22de706b6569adcbe01a1b6551e821f084fafb2c722e7d7ee55fcd558fc898bcad951b01c63e28a71490c76f1cad510f8181fd71b7752efd5154bea3a9de",
         "format": "csv",
         "name": "tract",
         "filename": "tract.csv",
@@ -38,8 +38,8 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-02-17 01:53:31",
-        "last_modified": "2021-11-29 21:36:30",
+        "created": "2022-02-23 20:43:45",
+        "last_modified": "2022-02-23 20:43:45",
         "rowcount": 22884,
         "schema": {
           "fields": [
@@ -381,10 +381,10 @@
               },
               "type": "integer",
               "missing": 21919,
-              "mean": 4.457,
-              "sd": 4.9641,
-              "min": 1,
-              "max": 39
+              "mean": 4456.9948,
+              "sd": 4964.1312,
+              "min": 1000,
+              "max": 39000
             },
             {
               "name": "dentist_access_scores:dent_e2sfca",
@@ -416,10 +416,10 @@
               },
               "type": "float",
               "missing": 20985,
-              "mean": 0.0004,
-              "sd": 0.0002,
+              "mean": 0.3916,
+              "sd": 0.2271,
               "min": 0,
-              "max": 0.0011
+              "max": 1.1074
             },
             {
               "name": "download_speeds:download",
@@ -1878,10 +1878,10 @@
         "site_file": "https://uva-bi-sdad.github.io/community_example//tract.json"
       },
       "county": {
-        "bytes": 1056168,
+        "bytes": 1053460,
         "encoding": "ISO-8859-1",
-        "md5": "1a78d630aea4be168511636291654f1f",
-        "sha512": "eb7dd0294213e52b4fd05e74296de8def4ddcb6f3d6e5e3068d9ccf6e267cc1c7dadd947c6cb154471771b1eca1371e4f653e07a1de6901589ff4cbc45d2238c",
+        "md5": "5959cc4a8c74ac31d86320793628a857",
+        "sha512": "dc90aa0087b47d94e043ab6c537d49159e3f03db122d15d127c28decf6f896c41e97e5b5ef262523224c4f6d90d4b2e669d16ecc0b8fb38bfff7afe2e06d93b6",
         "format": "csv",
         "name": "county",
         "filename": "county.csv",
@@ -1894,8 +1894,8 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-02-17 01:53:28",
-        "last_modified": "2021-11-29 21:36:30",
+        "created": "2022-02-23 20:43:43",
+        "last_modified": "2022-02-23 20:43:43",
         "rowcount": 1596,
         "schema": {
           "fields": [
@@ -2241,10 +2241,10 @@
               },
               "type": "integer",
               "missing": 1463,
-              "mean": 32.3383,
-              "sd": 89.6895,
+              "mean": 32338.3459,
+              "sd": 89689.5223,
               "min": 0,
-              "max": 894
+              "max": 894000
             },
             {
               "name": "dentist_access_scores:dent_e2sfca",
@@ -2276,10 +2276,10 @@
               },
               "type": "float",
               "missing": 1463,
-              "mean": 0.0003,
-              "sd": 0.0002,
+              "mean": 0.2645,
+              "sd": 0.2005,
               "min": 0,
-              "max": 0.0011
+              "max": 1.1074
             },
             {
               "name": "download_speeds:download",
@@ -3754,10 +3754,10 @@
         "site_file": "https://uva-bi-sdad.github.io/community_example//county.json"
       },
       "district": {
-        "bytes": 284522,
+        "bytes": 283777,
         "encoding": "ISO-8859-1",
-        "md5": "95c6d7788d302e974bafb69df647e8f4",
-        "sha512": "ce0a22e84724d1d292d5c4ac46cee7c8c877d901e70cef12fdc445463cd1cbc60d161529cd5ad648bd3376d5d20249f657e0ce2af99d893463c6e4b08d31ab25",
+        "md5": "b29748c18eefdc64e727d4a098756890",
+        "sha512": "b117ebe509cd526246609791d39d742d7f2b4c3a1e5d4241540e228374b35936db4fa85a8b91ffaa582223b8f0fe869ddb4af158f286a6647b33fdd82c1060d1",
         "format": "csv",
         "name": "district",
         "filename": "health_district.csv",
@@ -3770,8 +3770,8 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-02-17 01:53:31",
-        "last_modified": "2021-11-29 21:36:30",
+        "created": "2022-02-23 20:43:45",
+        "last_modified": "2022-02-23 20:43:45",
         "rowcount": 420,
         "schema": {
           "fields": [
@@ -4101,10 +4101,10 @@
               },
               "type": "integer",
               "missing": 385,
-              "mean": 122.8857,
-              "sd": 170.4947,
-              "min": 15,
-              "max": 1000
+              "mean": 122885.7143,
+              "sd": 170494.7423,
+              "min": 15000,
+              "max": 1000000
             },
             {
               "name": "dentist_access_scores:dent_e2sfca",
@@ -4136,10 +4136,10 @@
               },
               "type": "float",
               "missing": 385,
-              "mean": 0.0003,
-              "sd": 0.0001,
-              "min": 0.0001,
-              "max": 0.0007
+              "mean": 0.3308,
+              "sd": 0.15,
+              "min": 0.1264,
+              "max": 0.6757
             },
             {
               "name": "download_speeds:download",

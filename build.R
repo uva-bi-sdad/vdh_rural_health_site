@@ -15,3 +15,4 @@ site_build(
   '../vdh_rural_health_site', variables = names(vars),
   parent = "https://uva-bi-sdad.github.io/community_example/"
 )
+

@@ -9,10 +9,10 @@
   },
   "resources": [
     {
-      "bytes": 284522,
+      "bytes": 283777,
       "encoding": "ISO-8859-1",
-      "md5": "95c6d7788d302e974bafb69df647e8f4",
-      "sha512": "ce0a22e84724d1d292d5c4ac46cee7c8c877d901e70cef12fdc445463cd1cbc60d161529cd5ad648bd3376d5d20249f657e0ce2af99d893463c6e4b08d31ab25",
+      "md5": "b29748c18eefdc64e727d4a098756890",
+      "sha512": "b117ebe509cd526246609791d39d742d7f2b4c3a1e5d4241540e228374b35936db4fa85a8b91ffaa582223b8f0fe869ddb4af158f286a6647b33fdd82c1060d1",
       "format": "csv",
       "name": "district",
       "filename": "health_district.csv",
@@ -25,8 +25,8 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-02-17 01:53:31",
-      "last_modified": "2021-11-29 21:36:30",
+      "created": "2022-02-23 20:43:45",
+      "last_modified": "2022-02-23 20:43:45",
       "rowcount": 420,
       "schema": {
         "fields": [
@@ -1614,10 +1614,10 @@
             },
             "type": "float",
             "missing": 385,
-            "mean": 0.0016,
-            "sd": 0.0007,
-            "min": 0.0006,
-            "max": 0.003
+            "mean": 1.5591,
+            "sd": 0.6597,
+            "min": 0.6227,
+            "max": 3.0078
           },
           {
             "name": "dentist_access_scores:dent_e2sfca",
@@ -1644,10 +1644,10 @@
             },
             "type": "float",
             "missing": 385,
-            "mean": 0.0003,
-            "sd": 0.0001,
-            "min": 0.0001,
-            "max": 0.0007
+            "mean": 0.3308,
+            "sd": 0.15,
+            "min": 0.1264,
+            "max": 0.6757
           },
           {
             "name": "dentist_access_scores:dent_2sfca",
@@ -1658,10 +1658,10 @@
             },
             "type": "float",
             "missing": 385,
-            "mean": 0.0003,
-            "sd": 0.0001,
-            "min": 0.0001,
-            "max": 0.0006
+            "mean": 0.338,
+            "sd": 0.1341,
+            "min": 0.0916,
+            "max": 0.6265
           },
           {
             "name": "dentist_access_scores:dent_3sfca",
@@ -1672,10 +1672,10 @@
             },
             "type": "float",
             "missing": 385,
-            "mean": 0.0003,
-            "sd": 0.0001,
-            "min": 0.0001,
-            "max": 0.0007
+            "mean": 0.334,
+            "sd": 0.1288,
+            "min": 0.1455,
+            "max": 0.678
           },
           {
             "name": "dentist_access_scores:dent_cnt",
@@ -1702,10 +1702,10 @@
             },
             "type": "integer",
             "missing": 385,
-            "mean": 122.8857,
-            "sd": 170.4947,
-            "min": 15,
-            "max": 1000
+            "mean": 122885.7143,
+            "sd": 170494.7423,
+            "min": 15000,
+            "max": 1000000
           },
           {
             "name": "dentist_access_scores:dent_pop_cnt",
@@ -1716,10 +1716,10 @@
             },
             "type": "integer",
             "missing": 385,
-            "mean": 241556.0857,
-            "sd": 199619.7931,
-            "min": 44558,
-            "max": 1183521
+            "mean": 241556085.7143,
+            "sd": 199619793.1232,
+            "min": 44558000,
+            "max": 1183521000
           },
           {
             "name": "dentist_access_scores:dent_mean10",
@@ -1730,10 +1730,10 @@
             },
             "type": "float",
             "missing": 385,
-            "mean": 13.3875,
-            "sd": 8.5398,
-            "min": 2.725,
-            "max": 33.6921
+            "mean": 13387.4632,
+            "sd": 8539.7771,
+            "min": 2724.9519,
+            "max": 33692.1085
           },
           {
             "name": "dentist_access_scores:dent_median10",
@@ -1744,10 +1744,10 @@
             },
             "type": "float",
             "missing": 385,
-            "mean": 13.8498,
-            "sd": 8.9334,
-            "min": 2.8685,
-            "max": 36.4012
+            "mean": 13849.8246,
+            "sd": 8933.4314,
+            "min": 2868.4939,
+            "max": 36401.1535
           },
           {
             "name": "ems_access_scores:ems_fca",
@@ -3233,10 +3233,10 @@
       }
     },
     {
-      "bytes": 1056168,
+      "bytes": 1053460,
       "encoding": "ISO-8859-1",
-      "md5": "1a78d630aea4be168511636291654f1f",
-      "sha512": "eb7dd0294213e52b4fd05e74296de8def4ddcb6f3d6e5e3068d9ccf6e267cc1c7dadd947c6cb154471771b1eca1371e4f653e07a1de6901589ff4cbc45d2238c",
+      "md5": "5959cc4a8c74ac31d86320793628a857",
+      "sha512": "dc90aa0087b47d94e043ab6c537d49159e3f03db122d15d127c28decf6f896c41e97e5b5ef262523224c4f6d90d4b2e669d16ecc0b8fb38bfff7afe2e06d93b6",
       "format": "csv",
       "name": "county",
       "filename": "county.csv",
@@ -3249,8 +3249,8 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-02-17 01:53:28",
-      "last_modified": "2021-11-29 21:36:30",
+      "created": "2022-02-23 20:43:43",
+      "last_modified": "2022-02-23 20:43:43",
       "rowcount": 1596,
       "schema": {
         "fields": [
@@ -4906,10 +4906,10 @@
             },
             "type": "float",
             "missing": 1470,
-            "mean": 0.0013,
-            "sd": 0.0008,
-            "min": 0.0003,
-            "max": 0.0052
+            "mean": 1.3139,
+            "sd": 0.7874,
+            "min": 0.2513,
+            "max": 5.2443
           },
           {
             "name": "dentist_access_scores:dent_e2sfca",
@@ -4936,10 +4936,10 @@
             },
             "type": "float",
             "missing": 1463,
-            "mean": 0.0003,
-            "sd": 0.0002,
+            "mean": 0.2645,
+            "sd": 0.2005,
             "min": 0,
-            "max": 0.0011
+            "max": 1.1074
           },
           {
             "name": "dentist_access_scores:dent_2sfca",
@@ -4950,10 +4950,10 @@
             },
             "type": "float",
             "missing": 1463,
-            "mean": 0.0003,
-            "sd": 0.0001,
-            "min": 0,
-            "max": 0.0007
+            "mean": 0.2632,
+            "sd": 0.1386,
+            "min": 0.0331,
+            "max": 0.6683
           },
           {
             "name": "dentist_access_scores:dent_3sfca",
@@ -4964,10 +4964,10 @@
             },
             "type": "float",
             "missing": 1463,
-            "mean": 0.0003,
-            "sd": 0.0002,
-            "min": 1e-06,
-            "max": 0.0008
+            "mean": 0.2789,
+            "sd": 0.1689,
+            "min": 0.0007,
+            "max": 0.7649
           },
           {
             "name": "dentist_access_scores:dent_cnt",
@@ -4994,10 +4994,10 @@
             },
             "type": "integer",
             "missing": 1463,
-            "mean": 32.3383,
-            "sd": 89.6895,
+            "mean": 32338.3459,
+            "sd": 89689.5223,
             "min": 0,
-            "max": 894
+            "max": 894000
           },
           {
             "name": "dentist_access_scores:dent_pop_cnt",
@@ -5008,10 +5008,10 @@
             },
             "type": "integer",
             "missing": 1463,
-            "mean": 63567.391,
-            "sd": 126063.5236,
-            "min": 2204,
-            "max": 1145862
+            "mean": 63567390.9774,
+            "sd": 126063523.6382,
+            "min": 2204000,
+            "max": 1145862000
           },
           {
             "name": "dentist_access_scores:dent_mean10",
@@ -5022,10 +5022,10 @@
             },
             "type": "float",
             "missing": 1463,
-            "mean": 18.6797,
-            "sd": 12.5895,
-            "min": 1.97,
-            "max": 53.8
+            "mean": 18679.6538,
+            "sd": 12589.5163,
+            "min": 1970,
+            "max": 53800
           },
           {
             "name": "dentist_access_scores:dent_median10",
@@ -5036,10 +5036,10 @@
             },
             "type": "float",
             "missing": 1463,
-            "mean": 19.3929,
-            "sd": 13.802,
-            "min": 2.1,
-            "max": 56.25
+            "mean": 19392.9097,
+            "sd": 13801.9919,
+            "min": 2100,
+            "max": 56250
           },
           {
             "name": "ems_access_scores:ems_fca",
@@ -6525,10 +6525,10 @@
       }
     },
     {
-      "bytes": 14281443,
+      "bytes": 14241444,
       "encoding": "ISO-8859-1",
-      "md5": "e16faa3a5fef5682100f8024a13051ee",
-      "sha512": "68ef026e7747d83dfafdb1eaa18e6d806934944c1e969df4e3c64c375993c1694df758805b5463ab81e9bce1969428ddfa495e24ac57729bd636d1e79b30da24",
+      "md5": "b551b45b5fb0f5ff1299d936b6637b33",
+      "sha512": "e81c22de706b6569adcbe01a1b6551e821f084fafb2c722e7d7ee55fcd558fc898bcad951b01c63e28a71490c76f1cad510f8181fd71b7752efd5154bea3a9de",
       "format": "csv",
       "name": "tract",
       "filename": "tract.csv",
@@ -6541,8 +6541,8 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-02-17 01:53:31",
-      "last_modified": "2021-11-29 21:36:30",
+      "created": "2022-02-23 20:43:45",
+      "last_modified": "2022-02-23 20:43:45",
       "rowcount": 22884,
       "schema": {
         "fields": [
@@ -8154,10 +8154,10 @@
             },
             "type": "float",
             "missing": 21063,
-            "mean": 0.0018,
-            "sd": 0.0008,
+            "mean": 1.8269,
+            "sd": 0.8105,
             "min": 0,
-            "max": 0.0065
+            "max": 6.4801
           },
           {
             "name": "dentist_access_scores:dent_e2sfca",
@@ -8184,10 +8184,10 @@
             },
             "type": "float",
             "missing": 20985,
-            "mean": 0.0004,
-            "sd": 0.0002,
+            "mean": 0.3916,
+            "sd": 0.2271,
             "min": 0,
-            "max": 0.0011
+            "max": 1.1074
           },
           {
             "name": "dentist_access_scores:dent_2sfca",
@@ -8198,10 +8198,10 @@
             },
             "type": "float",
             "missing": 20987,
-            "mean": 0.0004,
-            "sd": 0.0002,
+            "mean": 0.3864,
+            "sd": 0.1605,
             "min": 0,
-            "max": 0.0007
+            "max": 0.7016
           },
           {
             "name": "dentist_access_scores:dent_3sfca",
@@ -8212,10 +8212,10 @@
             },
             "type": "float",
             "missing": 20985,
-            "mean": 0.0004,
-            "sd": 0.0002,
+            "mean": 0.387,
+            "sd": 0.1816,
             "min": 0,
-            "max": 0.0009
+            "max": 0.862
           },
           {
             "name": "dentist_access_scores:dent_cnt",
@@ -8242,10 +8242,10 @@
             },
             "type": "integer",
             "missing": 21919,
-            "mean": 4.457,
-            "sd": 4.9641,
-            "min": 1,
-            "max": 39
+            "mean": 4456.9948,
+            "sd": 4964.1312,
+            "min": 1000,
+            "max": 39000
           },
           {
             "name": "dentist_access_scores:dent_pop_cnt",
@@ -8256,10 +8256,10 @@
             },
             "type": "integer",
             "missing": 20977,
-            "mean": 4433.3838,
-            "sd": 2043.9675,
+            "mean": 4433383.849,
+            "sd": 2043967.5028,
             "min": 0,
-            "max": 19438
+            "max": 19438000
           },
           {
             "name": "dentist_access_scores:dent_mean10",
@@ -8268,12 +8268,12 @@
               "sources": {},
               "citations": {}
             },
-            "type": "float",
+            "type": "integer",
             "missing": 20986,
-            "mean": 10.7536,
-            "sd": 10.7145,
-            "min": 0.67,
-            "max": 76.73
+            "mean": 10753.5616,
+            "sd": 10714.5062,
+            "min": 670,
+            "max": 76730
           },
           {
             "name": "dentist_access_scores:dent_median10",
@@ -8282,12 +8282,12 @@
               "sources": {},
               "citations": {}
             },
-            "type": "float",
+            "type": "integer",
             "missing": 20986,
-            "mean": 11.1099,
-            "sd": 11.4558,
-            "min": 0.55,
-            "max": 80.65
+            "mean": 11109.9052,
+            "sd": 11455.8085,
+            "min": 550,
+            "max": 80650
           },
           {
             "name": "ems_access_scores:ems_fca",
