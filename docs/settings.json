@@ -11,7 +11,7 @@
     "background_shapes": true,
     "iqr_box": true,
     "polygon_outline": 1.5,
-    "color_scale_center": "median",
+    "color_scale_center": "none",
     "table_autoscroll": true,
     "table_scroll_behavior": "smooth",
     "hide_tooltips": false
