@@ -6,7 +6,7 @@
     "boxplots": true,
     "theme_dark": false,
     "partial_init": true,
-    "palette": "rdylbu7",
+    "palette": "orrd7",
     "hide_url_parameters": false,
     "background_shapes": true,
     "iqr_box": true,

@@ -1,7 +1,7 @@
 library(community)
 
 # make copy (could be "uva-bi-sdad/community_example" to get from repo)
-site_make_child("../community_example", "../vdh_rural_health_site")
+site_make_child("../community_example", "../vdh_rural_health_site", overwrite = TRUE)
 
 # retrieved most recent metadata
 download.file(
