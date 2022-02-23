@@ -126,8 +126,9 @@ page_panel(
     list(variable_type = "Nutrition and Food Security", selected_variable = "food_insecurity_and_cost:Child_Food_Insecurity_Rate")
   ),
   '<p class="lead">Healthy Moms And Babies</p>',
-  input_button("Coming Soon", class = "disabled"),
-  '<p class="lead">Access to Health Care Services</p>',
+  input_button("Adequacy of Prenatal Care Utilization", class = "disabled"),
+
+  '<div class="coming-soon"><b>Coming Soon</b></div><p class="lead">Access to Health Care Services</p>',
   input_button(
     "Avoidable Hospitalizations",
     list(variable_type = "Health", selected_variable = "preventable_hospitalizations:prevent_hosp_rate")

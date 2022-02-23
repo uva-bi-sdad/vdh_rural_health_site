@@ -24,3 +24,13 @@
 .output-text{
 	margin: 0;
 }
+
+.coming-soon {
+  margin-top: -45px; 
+  margin-bottom: 39px; 
+  padding-left: 35px; 
+  padding-top:0px; 
+  transform: rotate(-25deg); 
+  color: black; 
+  opacity: .3;
+}
