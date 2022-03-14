@@ -190,7 +190,7 @@ page_menu(
     },
     input_select(
       "Variable", options = "variables",
-      default = "no_health_insurance_19_to_64:no_hlth_ins_pct", depends = "shapes",
+      default = "no_health_insurance_19_to_64:hlth_ins_pct", depends = "shapes",
       id = "selected_variable", filters = list(category = "variable_type"),
       note = paste(
         "Determines which variable is shown on the plot's y-axis, in the rank table,",
@@ -305,7 +305,7 @@ page_section(
       dataview = "primary_view",
       click = "region_select",
       id = "main_map",
-      subto = c("main_plot", "rank_table"),
+      subto = c("main_plot", "rank_table", "main_legend"),
       options = list(
         attributionControl = FALSE,
         scrollWheelZoom = FALSE,
@@ -350,7 +350,7 @@ page_section(
           title = "features.name",
           default = c(title = "Virginia", body = "Hover over or select a region for more information."),
           dataview = "primary_view",
-          subto = c("main_map", "main_plot", "rank_table")
+          subto = c("main_map", "main_plot", "rank_table", "main_legend")
         ),
         output_info(
           body = c(
@@ -360,11 +360,14 @@ page_section(
           ),
           row_style = c("table", "stack"),
           dataview = "primary_view",
-          subto = c("main_map", "main_plot", "rank_table"),
+          subto = c("main_map", "main_plot", "rank_table", "main_legend"),
           variable_info = FALSE
         )
       ),
-      output_legend("settings.palette", dataview = "primary_view", subto = c("main_map", "main_plot")),
+      output_legend(
+        "settings.palette", dataview = "primary_view", click = "region_select",
+        subto = c("main_map", "main_plot", "rank_table", "main_legend"), id = "main_legend"
+      ),
       wraps = c("row", "row mb-auto", "row")
     )
   ),
@@ -377,7 +380,7 @@ page_section(
         name = "Plot",
         output_plot(
           x = "time", y = "selected_variable", dataview = "primary_view",
-          click = "region_select", subto = c("main_map", "rank_table"), id = "main_plot",
+          click = "region_select", subto = c("main_map", "rank_table", "main_legend"), id = "main_plot",
           options = list(
             layout = list(
               showlegend = FALSE,
@@ -413,7 +416,7 @@ page_section(
       searching = FALSE,
       scrollY = 455,
       dom = "<'row't>"
-    ), id = "rank_table", click = "region_select", subto = c("main_map", "main_plot"))
+    ), id = "rank_table", click = "region_select", subto = c("main_map", "main_plot", "main_legend"))
   )
 )
 

@@ -6423,7 +6423,7 @@
       },
       "floating": false,
       "dataview": "primary_view",
-      "subto": ["main_map", "main_plot", "rank_table"],
+      "subto": ["main_map", "main_plot", "rank_table", "main_legend"],
       "variable_info": false
     },
     "info14": {
@@ -6448,7 +6448,7 @@
       "default": [],
       "floating": false,
       "dataview": "primary_view",
-      "subto": ["main_map", "main_plot", "rank_table"],
+      "subto": ["main_map", "main_plot", "rank_table", "main_legend"],
       "variable_info": false
     }
   },
@@ -6650,7 +6650,7 @@
       "scrollY": 455,
       "dom": "<'row't>",
       "variables": "selected_variable",
-      "subto": ["main_map", "main_plot"],
+      "subto": ["main_map", "main_plot", "main_legend"],
       "single_variable": true,
       "wide": true,
       "paging": true,
@@ -6707,7 +6707,7 @@
           "marker.line.width": 1
         }
       ],
-      "subto": ["main_map", "rank_table"]
+      "subto": ["main_map", "rank_table", "main_legend"]
     }
   },
   "map": {
@@ -6735,7 +6735,7 @@
         "center": [38, -79.5],
         "zoom": 7,
         "height": "430px",
-        "subto": ["main_plot", "rank_table"],
+        "subto": ["main_plot", "rank_table", "main_legend"],
         "background_shapes": "county"
       },
       "tiles": {
@@ -6750,9 +6750,9 @@
     "_raw": []
   },
   "legend": {
-    "legend16": {
+    "main_legend": {
       "palette": "settings.palette",
-      "subto": ["main_map", "main_plot"]
+      "subto": ["main_map", "main_plot", "rank_table", "main_legend"]
     }
   },
   "credits": {
