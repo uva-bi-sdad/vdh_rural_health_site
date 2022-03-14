@@ -15,21 +15,20 @@
     "table_autoscroll": true,
     "table_scroll_behavior": "smooth",
     "hide_tooltips": false,
-    "map_zoom_animation": true
+    "map_animations": "all"
   },
   "metadata": {
     "package": "data/datapackage.json",
     "datasets": ["tract", "county", "district"],
-    "variables": ["time", "2year_colleges_access_scores:norm_3sfca", "3rd_grade_median_read_score:median_read_pass_rate", "civilian_employment_rate:employment_rate", "community_college_computer_sciences_fca:3sfca_capacity", "community_college_engineering_fca:3sfca_capacity", "community_college_engineering_related_fca:3sfca_capacity", "daycare_services_access_scores:daycare_cnt", "daycare_services_access_scores:daycare_norm_3sfca", "dei_index:norm_dei", "dentist_access_scores:dent_cnt", "dentist_access_scores:dent_e2sfca", "download_speeds:download", "drive_times_nearest_2year_colleges:median_drive_time_top5", "drive_times_nearest_daycares:median_drive_time_top5", "drive_times_nearest_trade_schools:median_drive_time_top5", "drug_overdose_ed_visits:avg_overdose_per_100k", "ems_access_scores:ems_10near_median", "ems_access_scores:ems_3sfca", "ems_access_scores:ems_cnt", "food_insecurity_and_cost:Child_Food_Insecurity_Rate", "food_insecurity_and_cost:Cost_Per_Meal", "food_insecurity_and_cost:Food_Insecurity_Rate", "food_insecurity_and_cost:Num_Child_Food_Insecure", "health_literacy_estimates:health_literacy_estimate", "hospital_access_scores:hos_10near_median", "hospital_access_scores:hos_3sfca", "hospital_access_scores:hos_cnt", "mental_access_scores:mental_10near_median", "mental_access_scores:mental_3sfca", "mental_access_scores:mental_cnt", "no_health_insurance_19_to_64:no_hlth_ins_pct", "obgyn_access_scores:obgyn_cnt", "obgyn_access_scores:obgyn_e2sfca", "pediatrics_access_scores:ped_cnt", "pediatrics_access_scores:ped_e2sfca", "perc_income_on_internet:perc_income_avg_nat_package", "perc_income_on_internet:perc_income_min_price_100", "perc_income_on_internet:perc_income_min_price_25", "percent_poor_ment_hlth_days_14_and_over:perc_poor_ment_hlth_days_14_and_over", "percent_poor_phys_hlth_days_14_and_over:perc_poor_phys_hlth_days_14_and_over", "post_hs_education:perc_post_hs_edu", "preventable_hospitalizations:prevent_hosp_rate", "primary_care_access_scores:prim_cnt", "primary_care_access_scores:prim_e2sfca", "substance_access_scores:subs_10near_median", "substance_access_scores:subs_3sfca", "substance_access_scores:subs_cnt", "trade_schools_access_scores:norm_3sfca", "earnings_per_job:earnings_per_job", "broadband_withoutint_compdev:perc_hh_with_broadband", "broadband_withoutint_compdev:perc_hh_with_cable_fiber_dsl", "broadband_withoutint_compdev:perc_hh_without_compdev", "broadband_withoutint_compdev:perc_hh_without_internet"],
+    "variables": ["2year_colleges_access_scores:norm_3sfca", "3rd_grade_median_read_score:median_read_pass_rate", "civilian_employment_rate:employment_rate", "community_college_computer_sciences_fca:3sfca_capacity", "community_college_engineering_fca:3sfca_capacity", "community_college_engineering_related_fca:3sfca_capacity", "daycare_services_access_scores:daycare_cnt", "daycare_services_access_scores:daycare_norm_3sfca", "dei_index:norm_dei", "dentist_access_scores:dent_cnt", "dentist_access_scores:dent_e2sfca", "download_speeds:download", "drive_times_nearest_2year_colleges:median_drive_time_top5", "drive_times_nearest_daycares:median_drive_time_top5", "drive_times_nearest_trade_schools:median_drive_time_top5", "drug_overdose_ed_visits:avg_overdose_per_100k", "ems_access_scores:ems_10near_median", "ems_access_scores:ems_3sfca", "ems_access_scores:ems_cnt", "food_insecurity_and_cost:Child_Food_Insecurity_Rate", "food_insecurity_and_cost:Cost_Per_Meal", "food_insecurity_and_cost:Food_Insecurity_Rate", "food_insecurity_and_cost:Num_Child_Food_Insecure", "health_literacy_estimates:health_literacy_estimate", "hospital_access_scores:hos_10near_median", "hospital_access_scores:hos_3sfca", "hospital_access_scores:hos_cnt", "mental_access_scores:mental_10near_median", "mental_access_scores:mental_3sfca", "mental_access_scores:mental_cnt", "no_health_insurance_19_to_64:hlth_ins_pct", "obgyn_access_scores:obgyn_cnt", "obgyn_access_scores:obgyn_e2sfca", "pediatrics_access_scores:ped_cnt", "pediatrics_access_scores:ped_e2sfca", "perc_income_on_internet:perc_income_avg_nat_package", "perc_income_on_internet:perc_income_min_price_100", "perc_income_on_internet:perc_income_min_price_25", "percent_poor_ment_hlth_days_14_and_over:perc_poor_ment_hlth_days_14_and_over", "percent_poor_phys_hlth_days_14_and_over:perc_poor_phys_hlth_days_14_and_over", "post_hs_education:perc_post_hs_edu", "preventable_hospitalizations:prevent_hosp_rate", "primary_care_access_scores:prim_cnt", "primary_care_access_scores:prim_e2sfca", "substance_access_scores:subs_10near_median", "substance_access_scores:subs_3sfca", "substance_access_scores:subs_cnt", "trade_schools_access_scores:norm_3sfca", "earnings_per_job:earnings_per_job", "broadband_withoutint_compdev:perc_hh_with_broadband", "broadband_withoutint_compdev:perc_hh_with_cable_fiber_dsl", "broadband_withoutint_compdev:perc_hh_without_compdev", "broadband_withoutint_compdev:perc_hh_without_internet"],
     "info": {
       "tract": {
-        "bytes": 14210174,
+        "bytes": 827836,
         "encoding": "ISO-8859-1",
-        "md5": "2191b406caaed92db10bdfa0f5f989f0",
-        "sha512": "a8bafb31edc0144f39da78f1eab7a0ca2bd7d314f39b89a7822500f9ad7c6e14035180305a6933a7166c60d0bce93e578b8fd3c3b7fef7aca036473983ec65ac",
+        "md5": "d22e58749cd3fe4033cf2e7951433e55",
         "format": "csv",
         "name": "tract",
-        "filename": "tract.csv",
+        "filename": "tract.csv.xz",
         "source": [],
         "ids": [
           {
@@ -39,8 +38,8 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-02-24 03:14:30",
-        "last_modified": "2022-02-24 03:14:30",
+        "created": "2022-03-14 05:59:02",
+        "last_modified": "2022-03-14 05:12:26",
         "row_count": 22884,
         "entity_count": 1907,
         "schema": {
@@ -203,14 +202,14 @@
               ],
               "type": "float",
               "missing": 20986,
-              "mean": 1.0627,
-              "sd": 1.3608,
+              "mean": 1062.6801,
+              "sd": 1360.8262,
               "min": 0,
-              "max": 6.0917
+              "max": 6091.6765
             },
             {
               "name": "community_college_engineering_fca:3sfca_capacity",
-              "duplicates": 22792,
+              "duplicates": 22684,
               "info": {
                 "type": "index",
                 "short_name": "Community college engineering program access score",
@@ -241,11 +240,11 @@
                 10
               ],
               "type": "float",
-              "missing": 20989,
-              "mean": 1.041,
-              "sd": 1.0838,
+              "missing": 20985,
+              "mean": 1105.7099,
+              "sd": 1711.3735,
               "min": 0,
-              "max": 8.9778
+              "max": 14410.786
             },
             {
               "name": "community_college_engineering_related_fca:3sfca_capacity",
@@ -281,10 +280,10 @@
               ],
               "type": "float",
               "missing": 20985,
-              "mean": 1.1057,
-              "sd": 1.7114,
+              "mean": 1105.7099,
+              "sd": 1711.3735,
               "min": 0,
-              "max": 14.4108
+              "max": 14410.786
             },
             {
               "name": "daycare_services_access_scores:daycare_cnt",
@@ -1121,23 +1120,23 @@
               "max": 4
             },
             {
-              "name": "no_health_insurance_19_to_64:no_hlth_ins_pct",
+              "name": "no_health_insurance_19_to_64:hlth_ins_pct",
               "duplicates": 21407,
               "info": {
                 "type": "percent",
-                "short_name": "Uninsured population",
-                "full_name": "no_health_insurance_19_to_64:no_hlth_ins_pct",
+                "short_name": "Insured population",
+                "full_name": "health_insurance_19_to_64:hlth_ins_pct",
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_acs5_2015_2019_no_health_insurance_19_to_64",
-                "measure": "no_hlth_ins_pct",
-                "long_name": "Percent of population without health insurance",
-                "short_description": "Percent of the population (ages 16-64) self-reported to not be currently covered by any type of health insurance or health coverage plan",
-                "long_description": "Percent of the population self-reported to not be currently covered by any type of health insurance or health coverage plan. Based on American Community Survey Tables B18135 and C27001I in ACS 2015/2019 5-year estimates.",
-                "statement": "{value} of the population has no health insurance in {features.name}.",
+                "measure": "hlth_ins_pct",
+                "long_name": "Percent of population with health insurance",
+                "short_description": "Percent of the population (ages 19-64) self-reported to be currently covered by any type of health insurance or health coverage plan",
+                "long_description": "Percent of the population self-reported to be currently covered by any type of health insurance or health coverage plan. Based on American Community Survey Tables B27010 in ACS 2015/2019 5-year estimates.",
+                "statement": "{value} of the population has health insurance in {features.name}.",
                 "sources": [
                   {
-                    "name": "American Community Survey",
-                    "date_accessed": 2021,
+                    "name": "American Community Survey, Table B27010",
+                    "date_accessed": 2022,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
                 ],
@@ -1149,10 +1148,10 @@
               ],
               "type": "float",
               "missing": 13514,
-              "mean": 2.7716,
+              "mean": 97.2284,
               "sd": 5.3258,
-              "min": 0,
-              "max": 66.75
+              "min": 33.25,
+              "max": 100
             },
             {
               "name": "obgyn_access_scores:obgyn_cnt",
@@ -1302,7 +1301,7 @@
             },
             {
               "name": "perc_income_on_internet:perc_income_avg_nat_package",
-              "duplicates": 21066,
+              "duplicates": 19260,
               "info": {
                 "type": "percent",
                 "short_name": "Percent of income for internet (average)",
@@ -1330,12 +1329,12 @@
               },
               "time_range": [
                 10,
-                10
+                11
               ],
               "type": "float",
-              "missing": 21020,
+              "missing": 19156,
               "mean": 1.229,
-              "sd": 0.9108,
+              "sd": 0.9106,
               "min": 0.3072,
               "max": 27.9883
             },
@@ -1487,7 +1486,7 @@
             },
             {
               "name": "post_hs_education:perc_post_hs_edu",
-              "duplicates": 21008,
+              "duplicates": 4367,
               "info": {
                 "type": "percent",
                 "short_name": "Population with post-high school education",
@@ -1509,14 +1508,14 @@
                 "citations": {}
               },
               "time_range": [
-                9,
+                0,
                 9
               ],
               "type": "float",
-              "missing": 21005,
-              "mean": 64.7933,
-              "sd": 17.3377,
-              "min": 15.5943,
+              "missing": 4090,
+              "mean": 62.5511,
+              "sd": 18.2734,
+              "min": 0,
               "max": 100
             },
             {
@@ -2093,16 +2092,16 @@
             "doi": "10.1111/jep.13341"
           }
         },
+        "sha512": "573e46d96828776677affc7c379504cd468aeeefc2a64cab8a075ff8e9edbd00b78530ead9923e09fa6b9e9947ab3931713cd8292185fd6e60cb5f60ef060ce4",
         "site_file": "https://uva-bi-sdad.github.io/community_example//tract.json"
       },
       "county": {
-        "bytes": 1051221,
+        "bytes": 90476,
         "encoding": "ISO-8859-1",
-        "md5": "efe78d0f5040ce638d56ab2aed321268",
-        "sha512": "192f9ab1ec5722d272a1ac45cab961b0f3cb533742cba8b672ded1f7e87cf2500ee1a3184f1ea36f4ebbd5d45f5b8eda8c029907e1df342475aa2e8befd01398",
+        "md5": "325d6bbbd1674bfa968ca1605b05fc16",
         "format": "csv",
         "name": "county",
-        "filename": "county.csv",
+        "filename": "county.csv.xz",
         "source": [],
         "ids": [
           {
@@ -2112,8 +2111,8 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-02-24 03:14:30",
-        "last_modified": "2022-02-24 03:14:30",
+        "created": "2022-03-14 05:59:00",
+        "last_modified": "2022-03-14 05:12:26",
         "row_count": 1596,
         "entity_count": 133,
         "schema": {
@@ -2280,10 +2279,10 @@
               ],
               "type": "float",
               "missing": 1463,
-              "mean": 0.4113,
-              "sd": 0.7636,
+              "mean": 411.2862,
+              "sd": 763.6235,
               "min": 0,
-              "max": 4.6862
+              "max": 4686.1865
             },
             {
               "name": "community_college_engineering_fca:3sfca_capacity",
@@ -2319,10 +2318,10 @@
               ],
               "type": "float",
               "missing": 1463,
-              "mean": 0.4818,
-              "sd": 0.9926,
+              "mean": 481.7762,
+              "sd": 992.555,
               "min": 0,
-              "max": 6.7681
+              "max": 6768.0816
             },
             {
               "name": "community_college_engineering_related_fca:3sfca_capacity",
@@ -2358,10 +2357,10 @@
               ],
               "type": "float",
               "missing": 1463,
-              "mean": 0.9322,
-              "sd": 1.6849,
+              "mean": 932.2389,
+              "sd": 1684.8548,
               "min": 0,
-              "max": 11.7183
+              "max": 11718.2849
             },
             {
               "name": "daycare_services_access_scores:daycare_cnt",
@@ -2742,8 +2741,8 @@
                 "citations": {}
               },
               "time_range": [
-                -1,
-                -1
+                11,
+                11
               ],
               "type": "unknown",
               "missing": 1596
@@ -3023,8 +3022,8 @@
                 "citations": {}
               },
               "time_range": [
-                -1,
-                -1
+                11,
+                11
               ],
               "type": "unknown",
               "missing": 1596
@@ -3126,8 +3125,8 @@
                 "citations": {}
               },
               "time_range": [
-                -1,
-                -1
+                11,
+                11
               ],
               "type": "unknown",
               "missing": 1596
@@ -3206,23 +3205,23 @@
               "max": 21
             },
             {
-              "name": "no_health_insurance_19_to_64:no_hlth_ins_pct",
+              "name": "no_health_insurance_19_to_64:hlth_ins_pct",
               "duplicates": 1270,
               "info": {
                 "type": "percent",
-                "short_name": "Uninsured population",
-                "full_name": "no_health_insurance_19_to_64:no_hlth_ins_pct",
+                "short_name": "Insured population",
+                "full_name": "health_insurance_19_to_64:hlth_ins_pct",
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_acs5_2015_2019_no_health_insurance_19_to_64",
-                "measure": "no_hlth_ins_pct",
-                "long_name": "Percent of population without health insurance",
-                "short_description": "Percent of the population (ages 16-64) self-reported to not be currently covered by any type of health insurance or health coverage plan",
-                "long_description": "Percent of the population self-reported to not be currently covered by any type of health insurance or health coverage plan. Based on American Community Survey Tables B18135 and C27001I in ACS 2015/2019 5-year estimates.",
-                "statement": "{value} of the population has no health insurance in {features.name}.",
+                "measure": "hlth_ins_pct",
+                "long_name": "Percent of population with health insurance",
+                "short_description": "Percent of the population (ages 19-64) self-reported to be currently covered by any type of health insurance or health coverage plan",
+                "long_description": "Percent of the population self-reported to be currently covered by any type of health insurance or health coverage plan. Based on American Community Survey Tables B27010 in ACS 2015/2019 5-year estimates.",
+                "statement": "{value} of the population has health insurance in {features.name}.",
                 "sources": [
                   {
-                    "name": "American Community Survey",
-                    "date_accessed": 2021,
+                    "name": "American Community Survey, Table B27010",
+                    "date_accessed": 2022,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
                 ],
@@ -3234,10 +3233,10 @@
               ],
               "type": "float",
               "missing": 931,
-              "mean": 1.8443,
+              "mean": 98.1557,
               "sd": 2.5411,
-              "min": 0,
-              "max": 21.15
+              "min": 78.85,
+              "max": 100
             },
             {
               "name": "obgyn_access_scores:obgyn_cnt",
@@ -3387,7 +3386,7 @@
             },
             {
               "name": "perc_income_on_internet:perc_income_avg_nat_package",
-              "duplicates": 1462,
+              "duplicates": 1329,
               "info": {
                 "type": "percent",
                 "short_name": "Percent of income for internet (average)",
@@ -3415,13 +3414,13 @@
               },
               "time_range": [
                 10,
-                10
+                11
               ],
               "type": "float",
-              "missing": 1463,
-              "mean": 1.4486,
-              "sd": 0.47,
-              "min": 0.5629,
+              "missing": 1330,
+              "mean": 1.4312,
+              "sd": 0.4629,
+              "min": 0.5397,
               "max": 2.8556
             },
             {
@@ -3572,7 +3571,7 @@
             },
             {
               "name": "post_hs_education:perc_post_hs_edu",
-              "duplicates": 1462,
+              "duplicates": 265,
               "info": {
                 "type": "percent",
                 "short_name": "Population with post-high school education",
@@ -3594,15 +3593,15 @@
                 "citations": {}
               },
               "time_range": [
-                9,
+                0,
                 9
               ],
               "type": "float",
-              "missing": 1463,
-              "mean": 55.6125,
-              "sd": 11.4797,
-              "min": 35.0119,
-              "max": 91.618
+              "missing": 266,
+              "mean": 52.4375,
+              "sd": 12.1397,
+              "min": 24.4028,
+              "max": 93.3023
             },
             {
               "name": "preventable_hospitalizations:prevent_hosp_rate",
@@ -3735,8 +3734,8 @@
                 "citations": {}
               },
               "time_range": [
-                -1,
-                -1
+                11,
+                11
               ],
               "type": "unknown",
               "missing": 1596
@@ -4186,16 +4185,16 @@
             "doi": "10.1111/jep.13341"
           }
         },
+        "sha512": "403f6b3e97f8b0028614d23ddf24c88ac93e1d07b334d833e505c8c5aab9a22a34dbf6d65587fc2559ecda067734087cf3a2b7f3ad662650c023a2aace0d0534",
         "site_file": "https://uva-bi-sdad.github.io/community_example//county.json"
       },
       "district": {
-        "bytes": 283271,
+        "bytes": 24648,
         "encoding": "ISO-8859-1",
-        "md5": "a41723730a159c3ed398630870202610",
-        "sha512": "3d1ffde41ca2df95ae7f92b700a249d32d003cc6d93f876493649d062524134a8cb76742935eac7761e152f0d6ff05d43092c1648ac010d8ec9dce49afa89825",
+        "md5": "6af19b5af8d4f73757e891d858528c0e",
         "format": "csv",
         "name": "district",
-        "filename": "health_district.csv",
+        "filename": "health_district.csv.xz",
         "source": [],
         "ids": [
           {
@@ -4205,8 +4204,8 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-02-24 03:14:30",
-        "last_modified": "2022-02-24 03:14:30",
+        "created": "2022-03-14 05:59:02",
+        "last_modified": "2022-03-14 05:12:31",
         "row_count": 420,
         "entity_count": 35,
         "schema": {
@@ -4329,8 +4328,8 @@
                 "citations": {}
               },
               "time_range": [
-                -1,
-                -1
+                9,
+                9
               ],
               "type": "unknown",
               "missing": 420
@@ -4364,8 +4363,8 @@
                 ]
               },
               "time_range": [
-                -1,
-                -1
+                10,
+                10
               ],
               "type": "unknown",
               "missing": 420
@@ -4399,8 +4398,8 @@
                 ]
               },
               "time_range": [
-                -1,
-                -1
+                10,
+                10
               ],
               "type": "unknown",
               "missing": 420
@@ -4434,8 +4433,8 @@
                 ]
               },
               "time_range": [
-                -1,
-                -1
+                10,
+                10
               ],
               "type": "unknown",
               "missing": 420
@@ -4465,7 +4464,7 @@
               },
               "time_range": [
                 9,
-                9
+                11
               ],
               "type": "integer",
               "missing": 385,
@@ -4504,7 +4503,7 @@
               },
               "time_range": [
                 9,
-                9
+                11
               ],
               "type": "float",
               "missing": 385,
@@ -4819,8 +4818,8 @@
                 "citations": {}
               },
               "time_range": [
-                -1,
-                -1
+                11,
+                11
               ],
               "type": "unknown",
               "missing": 420
@@ -5100,8 +5099,8 @@
                 "citations": {}
               },
               "time_range": [
-                -1,
-                -1
+                11,
+                11
               ],
               "type": "unknown",
               "missing": 420
@@ -5203,8 +5202,8 @@
                 "citations": {}
               },
               "time_range": [
-                -1,
-                -1
+                11,
+                11
               ],
               "type": "unknown",
               "missing": 420
@@ -5283,23 +5282,23 @@
               "max": 22
             },
             {
-              "name": "no_health_insurance_19_to_64:no_hlth_ins_pct",
+              "name": "no_health_insurance_19_to_64:hlth_ins_pct",
               "duplicates": 252,
               "info": {
                 "type": "percent",
-                "short_name": "Uninsured population",
-                "full_name": "no_health_insurance_19_to_64:no_hlth_ins_pct",
+                "short_name": "Insured population",
+                "full_name": "health_insurance_19_to_64:hlth_ins_pct",
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_acs5_2015_2019_no_health_insurance_19_to_64",
-                "measure": "no_hlth_ins_pct",
-                "long_name": "Percent of population without health insurance",
-                "short_description": "Percent of the population (ages 16-64) self-reported to not be currently covered by any type of health insurance or health coverage plan",
-                "long_description": "Percent of the population self-reported to not be currently covered by any type of health insurance or health coverage plan. Based on American Community Survey Tables B18135 and C27001I in ACS 2015/2019 5-year estimates.",
-                "statement": "{value} of the population has no health insurance in {features.name}.",
+                "measure": "hlth_ins_pct",
+                "long_name": "Percent of population with health insurance",
+                "short_description": "Percent of the population (ages 19-64) self-reported to be currently covered by any type of health insurance or health coverage plan",
+                "long_description": "Percent of the population self-reported to be currently covered by any type of health insurance or health coverage plan. Based on American Community Survey Tables B27010 in ACS 2015/2019 5-year estimates.",
+                "statement": "{value} of the population has health insurance in {features.name}.",
                 "sources": [
                   {
-                    "name": "American Community Survey",
-                    "date_accessed": 2021,
+                    "name": "American Community Survey, Table B27010",
+                    "date_accessed": 2022,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
                 ],
@@ -5311,10 +5310,10 @@
               ],
               "type": "float",
               "missing": 245,
-              "mean": 2.3091,
+              "mean": 97.6909,
               "sd": 2.4521,
-              "min": 0.2,
-              "max": 15.4533
+              "min": 84.5467,
+              "max": 99.8
             },
             {
               "name": "obgyn_access_scores:obgyn_cnt",
@@ -5464,7 +5463,7 @@
             },
             {
               "name": "perc_income_on_internet:perc_income_avg_nat_package",
-              "duplicates": 384,
+              "duplicates": 349,
               "info": {
                 "type": "percent",
                 "short_name": "Percent of income for internet (average)",
@@ -5492,18 +5491,18 @@
               },
               "time_range": [
                 10,
-                10
+                11
               ],
               "type": "float",
-              "missing": 385,
-              "mean": 1.3613,
-              "sd": 0.4498,
-              "min": 0.5629,
+              "missing": 350,
+              "mean": 1.3153,
+              "sd": 0.4303,
+              "min": 0.5397,
               "max": 2.1182
             },
             {
               "name": "perc_income_on_internet:perc_income_min_price_100",
-              "duplicates": 384,
+              "duplicates": 349,
               "info": {
                 "type": "percent",
                 "short_name": "Percent of income for fast internet",
@@ -5531,18 +5530,18 @@
               },
               "time_range": [
                 10,
-                10
+                11
               ],
               "type": "float",
-              "missing": 385,
-              "mean": 1.3685,
-              "sd": 0.9447,
-              "min": 0.3673,
+              "missing": 350,
+              "mean": 1.3141,
+              "sd": 0.9502,
+              "min": 0.3372,
               "max": 5.0806
             },
             {
               "name": "perc_income_on_internet:perc_income_min_price_25",
-              "duplicates": 384,
+              "duplicates": 349,
               "info": {
                 "type": "percent",
                 "short_name": "Percent of income for good internet",
@@ -5570,14 +5569,14 @@
               },
               "time_range": [
                 10,
-                10
+                11
               ],
               "type": "float",
-              "missing": 385,
-              "mean": 0.6988,
-              "sd": 0.2473,
-              "min": 0.296,
-              "max": 1.2042
+              "missing": 350,
+              "mean": 0.6579,
+              "sd": 0.244,
+              "min": 0.2529,
+              "max": 1.2732
             },
             {
               "name": "percent_poor_ment_hlth_days_14_and_over:perc_poor_ment_hlth_days_14_and_over",
@@ -5649,7 +5648,7 @@
             },
             {
               "name": "post_hs_education:perc_post_hs_edu",
-              "duplicates": 384,
+              "duplicates": 69,
               "info": {
                 "type": "percent",
                 "short_name": "Population with post-high school education",
@@ -5671,19 +5670,19 @@
                 "citations": {}
               },
               "time_range": [
-                9,
+                0,
                 9
               ],
               "type": "float",
-              "missing": 385,
-              "mean": 60.4963,
-              "sd": 11.7451,
-              "min": 41.4343,
+              "missing": 70,
+              "mean": 57.7926,
+              "sd": 12.1914,
+              "min": 34.7046,
               "max": 86.5411
             },
             {
               "name": "preventable_hospitalizations:prevent_hosp_rate",
-              "duplicates": 176,
+              "duplicates": 419,
               "info": {
                 "type": "rate",
                 "short_name": "Preventable hospitalizations per 100,000",
@@ -5708,12 +5707,8 @@
                 5,
                 11
               ],
-              "type": "float",
-              "missing": 175,
-              "mean": 4915.6413,
-              "sd": 1551.2408,
-              "min": 2106,
-              "max": 15047.25
+              "type": "unknown",
+              "missing": 420
             },
             {
               "name": "primary_care_access_scores:prim_cnt",
@@ -5812,15 +5807,15 @@
                 "citations": {}
               },
               "time_range": [
-                -1,
-                -1
+                11,
+                11
               ],
               "type": "unknown",
               "missing": 420
             },
             {
               "name": "substance_access_scores:subs_3sfca",
-              "duplicates": 384,
+              "duplicates": 419,
               "info": {
                 "type": "index",
                 "short_name": "Substance use/behavioral health services access score",
@@ -5850,16 +5845,12 @@
                 11,
                 11
               ],
-              "type": "float",
-              "missing": 385,
-              "mean": 0,
-              "sd": 0,
-              "min": 4e-06,
-              "max": 0.0001
+              "type": "unknown",
+              "missing": 420
             },
             {
               "name": "substance_access_scores:subs_cnt",
-              "duplicates": 407,
+              "duplicates": 419,
               "info": {
                 "type": "count",
                 "short_name": "Substance use/behavioral health  access (count)",
@@ -5884,12 +5875,8 @@
                 11,
                 11
               ],
-              "type": "integer",
-              "missing": 385,
-              "mean": 5.7714,
-              "sd": 3.3614,
-              "min": 0,
-              "max": 19
+              "type": "unknown",
+              "missing": 420
             },
             {
               "name": "trade_schools_access_scores:norm_3sfca",
@@ -5954,8 +5941,8 @@
                 "citations": {}
               },
               "time_range": [
-                -1,
-                -1
+                5,
+                10
               ],
               "type": "unknown",
               "missing": 420
@@ -6259,10 +6246,11 @@
             "doi": "10.1111/jep.13341"
           }
         },
+        "sha512": "de616a3080ea28a2c5e83d090e58eeca40e1ab7be5e64aaff2a7c736c0c374be21a07ebf785a11536de72ffdaa09d41bc43a9c9ec130dcb2390520f465b74007",
         "site_file": "https://uva-bi-sdad.github.io/community_example//district.json"
       }
     },
-    "files": ["tract.csv", "county.csv", "health_district.csv"]
+    "files": ["tract.csv.xz", "county.csv.xz", "health_district.csv.xz"]
   },
   "rules": [
     {
@@ -6796,12 +6784,12 @@
     "plotly": {
       "name": "Plotly",
       "url": "https://plotly.com/javascript/getting-started",
-      "version": "2.8.3"
+      "version": "2.9.0"
     },
     "datatables": {
       "name": "DataTables",
       "url": "https://datatables.net",
-      "version": "1.11.4"
+      "version": "1.11.5"
     }
   },
   "button": {
