@@ -6,7 +6,7 @@ site_make_child("../community_example", "../vdh_rural_health_site", include = "d
 # build site
 vars <- jsonlite::read_json('../vdh_rural_health_site/docs/data/measure_info.json')
 site_build(
-  '../vdh_rural_health_site', variables = names(vars), version = "dev",
+  "../vdh_rural_health_site", variables = names(vars),
   parent = "https://uva-bi-sdad.github.io/community_example/"
 )
 

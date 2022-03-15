@@ -171,12 +171,7 @@
     "short_description": "Index of 3-year college accessibility based on supply and demand of providers",
     "long_description": "2-year college access score based on 3-step floating catchment areas. This method is an aggregation of college capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for 2-year college (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (graduate and undergraduate).",
     "statement": "The 2-year college accessibility score for {features.name} is {value}.",
-    "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
-    ],
+    "citations": ["lou04", "lou09", "lou03", "saxon20"],
     "sources": [
       {
         "name": "National Center for Education Statistics",
@@ -234,12 +229,7 @@
     "short_description": "Index of community college computer science program accessibility based on supply and demand of programs",
     "long_description": "Community college computer science program access score based on 3-step floating catchment areas. This method is an aggregation of programs per population ratios weighted by distance or travel time in each catchment area (area within which a program is accessible). Weights are defined for the demand for programs (adult population) and the supply is the capacity of programs (number of seats).",
     "statement": "The community college computer science program accessibility score in {features.name} is {value}.",
-    "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
-    ],
+    "citations": ["lou04", "lou09", "lou03", "saxon20"],
     "sources": [
       {
         "name": "National Center for Education Statistics",
@@ -259,12 +249,7 @@
     "short_description": "Index of community college engineering program accessibility based on supply and demand of programs",
     "long_description": "Community college engineering program access score based on 3-step floating catchment areas. This method is an aggregation of programs per population ratios weighted by distance or travel time in each catchment area (area within which a program is accessible). Weights are defined for the demand for programs (adult population) and the supply is the capacity of programs (number of seats).",
     "statement": "The community college engineering program accessibility score in {features.name} is {value}.",
-    "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
-    ],
+    "citations": ["lou04", "lou09", "lou03", "saxon20"],
     "sources": [
       {
         "name": "National Center for Education Statistics",
@@ -284,12 +269,7 @@
     "short_description": "Index of community college engineering-related program accessibility based on supply and demand of programs",
     "long_description": "Community college engineering-related program access score based on 3-step floating catchment areas. This method is an aggregation of programs per population ratios weighted by distance or travel time in each catchment area (area within which a program is accessible). Weights are defined for the demand for programs (adult population) and the supply is the capacity of programs (number of seats).",
     "statement": "The community college engineering-related program accessibility score in {features.name} is {value}.",
-    "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
-    ],
+    "citations": ["lou04", "lou09", "lou03", "saxon20"],
     "sources": [
       {
         "name": "National Center for Education Statistics",
@@ -328,12 +308,7 @@
     "short_description": "Index of day care accessibility based on supply of and demand for providers",
     "long_description": "Day care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of day care facilities per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Provider address data was collected from Virginia Department of Social Services day care search tool. The demand for day care services is the population 0-12 years old and the supply is the capacity of day cares (number of seats).",
     "statement": "The daycare accessibility score for {features.name} is {value}.",
-    "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
-    ],
+    "citations": ["lou04", "lou09", "lou03", "saxon20"],
     "sources": [
       {
         "name": "Virginia Department of Social Services",
@@ -353,9 +328,7 @@
     "short_description": "Digital Equity Index captures the relative equity of digital access, with 0 being a score of relative equity and 100 being relative inequity.",
     "long_description": "The Digital Equity Index (DEI) is a composite variable indicating the degree of broadband equity as it relates to adoption, accessibility, and infrastructure. It ranges from 0 to 100, where 100 indicates the most equitable broadband access. The DEI is constructed at the Census tract level and is composed of the following variables: percent of the population under 65 years of age, percent of the population with at least a high school education, percent of the population with income below the poverty level, percent of the population without a disability, the ratio between the share of homes making $75,000 or more per year with internet and the share of homes making less than $35,000 per year without internet, percent of the population with at least one computer, percent of the population with internet access, percent of the population that is low income (less than 30% of HUD Area Median Family Income) and have a housing cost burden over 30%, and average download speeds, upload speeds, and latency from Ookla speed tests.",
     "statement": "The Digital Equity Index for {features.name} is {value}.",
-    "citations": [
-      "gallardo20"
-    ],
+    "citations": ["gallardo20"],
     "sources": [
       {
         "name": "American Community Survey",
@@ -399,12 +372,7 @@
     "short_description": "Index of dental care accessibility based on supply and demand of providers",
     "long_description": "Dental care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of dentists per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for dentists (population served by dentists). Provider address data was collected from WebMD's online Physician Directory.",
     "statement": "The dental care access score for {features.name} is {value}.",
-    "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
-    ],
+    "citations": ["lou04", "lou09", "lou03", "saxon20"],
     "sources": [
       {
         "name": "SafeGraph Core",
@@ -538,12 +506,7 @@
     "short_description": "Index of emergency medical services accessibility based on supply and demand of facilities",
     "long_description": "Emergency medical services access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
     "statement": "The emergency medical services accessibility score for {features.name} is {value}.",
-    "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
-    ],
+    "citations": ["lou04", "lou09", "lou03", "saxon20"],
     "sources": [
       {
         "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -658,10 +621,7 @@
     "short_description": "Health literacy estimate captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions",
     "long_description": "The health literacy estimate captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions. Health literacy estimate is based on variables of demographic characteristics, health status, and health care use.",
     "statement": "The health literacy estimate for {features.name} is {value}.",
-    "citations": [
-      "savitz20",
-      "liang17"
-    ],
+    "citations": ["savitz20", "liang17"],
     "sources": [
       {
         "name": "Medical Expenditure Panel Survey",
@@ -705,12 +665,7 @@
     "short_description": "Index of hospital accessibility based on supply and demand of facilities",
     "long_description": "Hospital access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
     "statement": "The hospital accessibility score for {features.name} is {value}.",
-    "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
-    ],
+    "citations": ["lou04", "lou09", "lou03", "saxon20"],
     "sources": [
       {
         "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -768,12 +723,7 @@
     "short_description": "Index of mental health services accessibility based on supply and demand of facilities",
     "long_description": "Mental health services access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
     "statement": "The mental health services accessibility score for {features.name} is {value}.",
-    "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
-    ],
+    "citations": ["lou04", "lou09", "lou03", "saxon20"],
     "sources": [
       {
         "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -801,21 +751,21 @@
       }
     ]
   },
-  "no_health_insurance_19_to_64:no_hlth_ins_pct": {
+  "no_health_insurance_19_to_64:hlth_ins_pct": {
     "category": "Health",
     "measure_table": "dc_health_behavior_diet.va_hdcttr_acs5_2015_2019_no_health_insurance_19_to_64",
-    "full_name": "no_health_insurance_19_to_64:no_hlth_ins_pct",
-    "measure": "no_hlth_ins_pct",
+    "full_name": "health_insurance_19_to_64:hlth_ins_pct",
+    "measure": "hlth_ins_pct",
     "type": "percent",
-    "short_name": "Uninsured population",
-    "long_name": "Percent of population without health insurance",
-    "short_description": "Percent of the population (ages 16-64) self-reported to not be currently covered by any type of health insurance or health coverage plan",
-    "long_description": "Percent of the population self-reported to not be currently covered by any type of health insurance or health coverage plan. Based on American Community Survey Tables B18135 and C27001I in ACS 2015/2019 5-year estimates.",
-    "statement": "{value} of the population has no health insurance in {features.name}.",
+    "short_name": "Insured population",
+    "long_name": "Percent of population with health insurance",
+    "short_description": "Percent of the population (ages 19-64) self-reported to be currently covered by any type of health insurance or health coverage plan",
+    "long_description": "Percent of the population self-reported to be currently covered by any type of health insurance or health coverage plan. Based on American Community Survey Tables B27010 in ACS 2015/2019 5-year estimates.",
+    "statement": "{value} of the population has health insurance in {features.name}.",
     "sources": [
       {
-        "name": "American Community Survey",
-        "date_accessed": 2021,
+        "name": "American Community Survey, Table B27010",
+        "date_accessed": 2022,
         "url": "https://www.census.gov/programs-surveys/acs.html"
       }
     ]
@@ -850,12 +800,7 @@
     "short_description": "Index of OBGYN care accessibility based on supply and demand of providers",
     "long_description": "OBGYN care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data was collected from WebMD's online physician directory.",
     "statement": "The OBGYN access score for {features.name} is {value}.",
-    "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
-    ],
+    "citations": ["lou04", "lou09", "lou03", "saxon20"],
     "sources": [
       {
         "name": "WebMD Physician Directory",
@@ -894,12 +839,7 @@
     "short_description": "Index of pediatric care physician accessibility based on supply and demand of providers",
     "long_description": "Pediatric care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of pediatricians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for pediatricians (population under 16). Provider address data was collected from WebMD's online Physician Directory.",
     "statement": "The pediatric care accessibility score for {features.name} is {value}.",
-    "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
-    ],
+    "citations": ["lou04", "lou09", "lou03", "saxon20"],
     "sources": [
       {
         "name": "WebMD Physician Directory",
@@ -1086,12 +1026,7 @@
     "short_description": "Index of primary care physician accessibility based on supply and demand of providers",
     "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data was collected from WebMD's online Physician Directory.",
     "statement": "The primary care accessibility score for {features.name} is {value}.",
-    "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
-    ],
+    "citations": ["lou04", "lou09", "lou03", "saxon20"],
     "sources": [
       {
         "name": "WebMD Physician Directory",
@@ -1130,12 +1065,7 @@
     "short_description": "Index of substance use/behavioral health services accessibility based on supply and demand of facilities",
     "long_description": "Substance use/behavioral health services access score based on 3-step  floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
     "statement": "The substance use/behavioral health services accessibility score for {features.name} is {value}.",
-    "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
-    ],
+    "citations": ["lou04", "lou09", "lou03", "saxon20"],
     "sources": [
       {
         "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -1179,12 +1109,7 @@
     "short_description": "Index of trade school accessibility based on supply and demand of providers",
     "long_description": "Trade school access score based on 3-step floating catchment areas. This method is an aggregation of trade school capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for trade schools (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (undergraduate).",
     "statement": "The trade school accessibility score for {features.name} is {value}.",
-    "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
-    ],
+    "citations": ["lou04", "lou09", "lou03", "saxon20"],
     "sources": [
       {
         "name": "National Center for Education Statistics",
