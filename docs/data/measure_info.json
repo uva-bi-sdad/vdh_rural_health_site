@@ -342,10 +342,10 @@
       }
     ]
   },
-  "dentist_access_scores:dent_cnt": {
+  "access_scores_dentists:dent_cnt": {
     "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores",
-    "full_name": "dentist_access_scores:dent_cnt",
+    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_dentists",
+    "full_name": "access_scores_dentists:dent_cnt",
     "measure": "dent_cnt",
     "type": "count",
     "short_name": "Dental care access (count)",
@@ -361,10 +361,10 @@
       }
     ]
   },
-  "dentist_access_scores:dent_e2sfca": {
+  "access_scores_dentists:dent_e2sfca": {
     "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores",
-    "full_name": "dentist_access_scores:dent_e2sfca",
+    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_dentists",
+    "full_name": "access_scores_dentists:dent_e2sfca",
     "measure": "dent_e2sfca",
     "type": "index",
     "short_name": "Dental care access score",
@@ -476,11 +476,11 @@
       }
     ]
   },
-  "ems_access_scores:ems_10near_median": {
+  "access_scores_ems:ems_near_10_median": {
     "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
-    "full_name": "ems_access_scores:ems_10near_median",
-    "measure": "ems_10near_median",
+    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_ems",
+    "full_name": "access_scores_ems:ems_near_10_median",
+    "measure": "ems_near_10_median",
     "type": "drive time",
     "short_name": "Emergency medical services access (drive time)",
     "long_name": "Emergency medical services access by median drive time to the ten closest facilities in minutes",
@@ -495,10 +495,10 @@
       }
     ]
   },
-  "ems_access_scores:ems_3sfca": {
+  "access_scores_ems:ems_3sfca": {
     "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
-    "full_name": "ems_access_scores:ems_3sfca",
+    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_ems",
+    "full_name": "access_scores_ems:ems_3sfca",
     "measure": "ems_3sfca",
     "type": "index",
     "short_name": "Emergency medical services access score",
@@ -515,10 +515,10 @@
       }
     ]
   },
-  "ems_access_scores:ems_cnt": {
+  "access_scores_ems:ems_cnt": {
     "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
-    "full_name": "ems_access_scores:ems_cnt",
+    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_ems",
+    "full_name": "access_scores_ems:ems_cnt",
     "measure": "ems_cnt",
     "type": "count",
     "short_name": "Emergency medical services access (count)",
@@ -635,11 +635,11 @@
       }
     ]
   },
-  "hospital_access_scores:hos_10near_median": {
+  "access_scores_hospitals:hosp_near_10_median": {
     "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
-    "full_name": "hospital_access_scores:hos_10near_median",
-    "measure": "hospital_10near_median",
+    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_hospitals",
+    "full_name": "access_scores_hospitals:hosp_near_10_median",
+    "measure": "hospital_near_10_median",
     "type": "drive time",
     "short_name": "Hospital access (drive time)",
     "long_name": "Hospital access by median drive time to the ten closest facilities in minutes",
@@ -654,10 +654,10 @@
       }
     ]
   },
-  "hospital_access_scores:hos_3sfca": {
+  "access_scores_hospitals:hosp_3sfca": {
     "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
-    "full_name": "hospital_access_scores:hos_3sfca",
+    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_hospitals",
+    "full_name": "access_scores_hospitals:hosp_3sfca",
     "measure": "hospital_3sfca",
     "type": "index",
     "short_name": "Hospital access score",
@@ -674,10 +674,10 @@
       }
     ]
   },
-  "hospital_access_scores:hos_cnt": {
+  "access_scores_hospitals:hosp_beds_cnt": {
     "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
-    "full_name": "hospital_access_scores:hos_cnt",
+    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_hospitals",
+    "full_name": "access_scores_hospitals:hosp_beds_cnt",
     "measure": "hospital_cnt",
     "type": "count",
     "short_name": "Hospital access (count)",
@@ -760,7 +760,7 @@
     "short_name": "Insured population",
     "long_name": "Percent of population with health insurance",
     "short_description": "Percent of the population (ages 19-64) self-reported to be currently covered by any type of health insurance or health coverage plan",
-    "long_description": "Percent of the population self-reported to be currently covered by any type of health insurance or health coverage plan. Based on American Community Survey Tables B27010 in ACS 2015/2019 5-year estimates.",
+    "long_description": "Percent of the population self-reported to be currently covered by any type of health insurance or health coverage plan. Based on American Community Survey Table B27010 in ACS 2015/2019 5-year estimates.",
     "statement": "{value} of the population has health insurance in {features.name}.",
     "sources": [
       {
@@ -770,10 +770,10 @@
       }
     ]
   },
-  "obgyn_access_scores:obgyn_cnt": {
+  "access_scores_obgyn:obgyn_cnt": {
     "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_obgyn_access_scores",
-    "full_name": "obgyn_access_scores:obgyn_cnt",
+    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_obgyn",
+    "full_name": "access_scores_obgyn:obgyn_cnt",
     "measure": "obgyn_cnt",
     "type": "count",
     "short_name": "OBGYN care access (count)",
@@ -789,10 +789,10 @@
       }
     ]
   },
-  "obgyn_access_scores:obgyn_e2sfca": {
+  "access_scores_obgyn:obgyn_e2sfca": {
     "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_obgyn_access_scores",
-    "full_name": "obgyn_access_scores:obgyn_e2sfca",
+    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_obgyn",
+    "full_name": "access_scores_obgyn:obgyn_e2sfca",
     "measure": "obgyn_e2sfca",
     "type": "index",
     "short_name": "OBGYN care access score",
@@ -809,10 +809,10 @@
       }
     ]
   },
-  "pediatrics_access_scores:ped_cnt": {
+  "access_scores_pediatric:ped_cnt": {
     "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_pediatrics_access_scores",
-    "full_name": "pediatrics_access_scores:ped_cnt",
+    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_pediatric",
+    "full_name": "access_scores_pediatric:ped_cnt",
     "measure": "ped_cnt",
     "type": "count",
     "short_name": "Pediatric care access (count)",
@@ -828,10 +828,10 @@
       }
     ]
   },
-  "pediatrics_access_scores:ped_e2sfca": {
+  "access_scores_pediatric:ped_e2sfca": {
     "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_pediatrics_access_scores",
-    "full_name": "pediatrics_access_scores:ped_e2sfca",
+    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_pediatric",
+    "full_name": "access_scores_pediatric:ped_e2sfca",
     "measure": "ped_e2sfca",
     "type": "index",
     "short_name": "Pediatric care access score",
@@ -996,10 +996,10 @@
       }
     ]
   },
-  "primary_care_access_scores:prim_cnt": {
+  "access_scores_primcare:primcare_cnt": {
     "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_access_scores",
-    "full_name": "primary_care_access_scores:prim_cnt",
+    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_primcare",
+    "full_name": "access_scores_primcare:primcare_cnt",
     "measure": "prim_cnt",
     "type": "count",
     "short_name": "Primary care access (count)",
@@ -1015,10 +1015,10 @@
       }
     ]
   },
-  "primary_care_access_scores:prim_e2sfca": {
+  "access_scores_primcare:primcare_e2sfca": {
     "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_access_scores",
-    "full_name": "primary_care_access_scores:prim_e2sfca",
+    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_primcare",
+    "full_name": "access_scores_primcare:primcare_e2sfca",
     "measure": "prim_e2sfca",
     "type": "index",
     "short_name": "Primary care access score",
@@ -1039,7 +1039,7 @@
     "category": "Health",
     "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_substance_access_scores",
     "full_name": "substance_access_scores:subs_10near_median",
-    "measure": "substance_10near_median",
+    "measure": "substance_near_10_median",
     "type": "drive time",
     "short_name": "Substance use/behavioral health services access (drive time)",
     "long_name": "Substance use/behavioral health services access by median drive time to the ten closest facilities in minutes",
@@ -1092,11 +1092,6 @@
         "url": "https://hifld-geoplatform.opendata.arcgis.com/"
       }
     ]
-  },
-  "time": {
-    "type": "year",
-    "short_name": "Year",
-    "full_name": "time"
   },
   "trade_schools_access_scores:norm_3sfca": {
     "category": "Education",
