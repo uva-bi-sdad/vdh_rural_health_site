@@ -20,7 +20,6 @@ page_navbar(
     class = "menu-compact",
     items = list(
       input_switch("Dark Theme", id = "settings.theme_dark"),
-      input_select("Color Palette", options = "palettes", id = "settings.palette", floating_label = FALSE),
       input_switch(
         "Color by Rank", id = "settings.color_by_order",
         note = paste(
@@ -28,15 +27,15 @@ page_navbar(
           "This may help differentiate regions with similar values."
         )
       ),
-      input_switch("Hide URL Settings", id = "settings.hide_url_parameters"),
-      input_switch("Hide Tooltips", id = "settings.hide_tooltips"),
-      input_number("Digits", "settings.digits", default = 2, min = 0, max = 6, floating_label = FALSE),
       input_select(
-        "Color Scale Center", options = c("none", "median", "mean"), default = 0,
+        "Color Scale Center", options = c("none", "median", "mean"), default = "none",
         display = c("None", "Median", "Mean"), id = "settings.color_scale_center",
         floating_label = FALSE,
         note = "Determines whether and on what the color scale should be centered."
       ),
+      input_switch("Hide URL Settings", id = "settings.hide_url_parameters"),
+      input_switch("Hide Tooltips", id = "settings.hide_tooltips"),
+      input_number("Digits", "settings.digits", default = 2, min = 0, max = 6, floating_label = FALSE),
       input_select(
         "Summary Level", options = c("dataset", "filtered", "all"), default = "dataset",
         display = c("All Regions", "Selected Region Types", "Selected Region"), id = "settings.summary_selection",
@@ -47,8 +46,6 @@ page_navbar(
           "Selected Region are filtered by region selection."
         )
       ),
-      input_number("Variable Min", "variable_min", floating_label = FALSE),
-      input_number("Variable Max", "variable_max", floating_label = FALSE),
       '<p class="section-heading">Map Options</p>',
       input_switch("Show Background Shapes", id = "settings.background_shapes"),
       input_number(
@@ -58,10 +55,6 @@ page_navbar(
       '<p class="section-heading">Plot Options</p>',
       input_select("Plot Type", c("scatter", "bar"), "scatter", id = "plot_type", floating_label = FALSE),
       input_switch("Box Plots", default_on = TRUE, id = "settings.boxplots"),
-      input_switch(
-        "Use IQR Whiskers", default_on = TRUE, id = "settings.iqr_box",
-        note = "Define the extreme fences of the box plots by 1.5 * interquartile range (true) or min and max (false)."
-      ),
       input_number(
         "Trace Limit", "settings.trace_limit", default = 20, floating_label = FALSE,
         note = "Limit the number of plot traces that can be drawn, split between extremes of the variable."
@@ -239,6 +232,10 @@ input_variable("selected_region", list(
   "selected_county" = "selected_county"
 ), "selected_district")
 
+input_variable("set_palette", list(
+  "settings.color_by_order" = "lajolla"
+), "vik")
+
 ## `input_dataview` can collect multiple inputs as filters for a shared data view
 input_dataview(
   "primary_view",
@@ -247,10 +244,6 @@ input_dataview(
   dataset = "shapes",
   ids = "selected_region",
   features = c(type = "region_type"),
-  variables = list(
-    list(variable = "selected_variable", type = "<=", value = "variable_min"),
-    list(variable = "selected_variable", type = ">=", value = "variable_max")
-  ),
   time_agg = "selected_year",
   time_filters = list(
     list(
@@ -263,7 +256,8 @@ input_dataview(
       type = "<=",
       value = "max_year"
     )
-  )
+  ),
+  palette = "set_palette"
 )
 
 # use `page_section` to build the page's layout
@@ -365,7 +359,7 @@ page_section(
         )
       ),
       output_legend(
-        "settings.palette", dataview = "primary_view", click = "region_select",
+        dataview = "primary_view", click = "region_select",
         subto = c("main_map", "main_plot", "rank_table", "main_legend"), id = "main_legend"
       ),
       wraps = c("row", "row mb-auto", "row")
@@ -421,8 +415,7 @@ page_section(
 )
 
 # render the site
-vars <- jsonlite::read_json('../vdh_rural_health_site/docs/data/measure_info.json')
 site_build(
-  '../vdh_rural_health_site', variables = names(vars), version = "dev",
+  '../vdh_rural_health_site', serve = TRUE,
   parent = "https://uva-bi-sdad.github.io/community_example/"
 )
