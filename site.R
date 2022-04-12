@@ -128,7 +128,7 @@ page_panel(
   ),
   '<p class="lead">Behavioral Health, Substance Use Disorder and Recovery</p>',
   input_button(
-    "Overdose Hospitalizations",
+    "Overdose ED Visits",
     list(variable_type = "Behavioral Health, Substance Use Disorder and Recovery", selected_variable = "drug_overdose_ed_visits:avg_overdose_per_100k")
   ),
   '<p class="lead">Employment/Workforce Development</p>',

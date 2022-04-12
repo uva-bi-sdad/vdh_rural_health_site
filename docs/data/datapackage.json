@@ -24,8 +24,8 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-03-29 14:44:00",
-      "last_modified": "2022-03-16 12:31:38",
+      "created": "2022-04-12 15:41:41",
+      "last_modified": "2022-04-12 15:41:41",
       "row_count": 420,
       "entity_count": 35,
       "schema": {
@@ -454,7 +454,7 @@
                 {
                   "name": "Virginia Department of Health",
                   "date_accessed": "2021",
-                  "url": "https://www.vdh.virginia.gov/opioid-data/deaths/"
+                  "url": "https://www.vdh.virginia.gov/surveillance-and-investigation/syndromic-surveillance/drug-overdose-surveillance/"
                 }
               ],
               "citations": {}
@@ -1854,8 +1854,8 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-03-29 14:43:58",
-      "last_modified": "2022-03-16 12:31:38",
+      "created": "2022-04-12 15:41:40",
+      "last_modified": "2022-04-12 15:41:40",
       "row_count": 1596,
       "entity_count": 133,
       "schema": {
@@ -2308,7 +2308,7 @@
                 {
                   "name": "Virginia Department of Health",
                   "date_accessed": "2021",
-                  "url": "https://www.vdh.virginia.gov/opioid-data/deaths/"
+                  "url": "https://www.vdh.virginia.gov/surveillance-and-investigation/syndromic-surveillance/drug-overdose-surveillance/"
                 }
               ],
               "citations": {}
@@ -3716,8 +3716,8 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-03-29 14:44:00",
-      "last_modified": "2022-03-16 12:31:38",
+      "created": "2022-04-12 15:41:41",
+      "last_modified": "2022-04-12 15:41:41",
       "row_count": 22884,
       "entity_count": 1907,
       "schema": {
@@ -4142,7 +4142,7 @@
                 {
                   "name": "Virginia Department of Health",
                   "date_accessed": "2021",
-                  "url": "https://www.vdh.virginia.gov/opioid-data/deaths/"
+                  "url": "https://www.vdh.virginia.gov/surveillance-and-investigation/syndromic-surveillance/drug-overdose-surveillance/"
                 }
               ],
               "citations": {}
