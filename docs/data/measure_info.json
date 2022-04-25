@@ -278,16 +278,16 @@
       }
     ]
   },
-  "daycare_services_access_scores:daycare_cnt": {
+  "daycare_access_scores:daycare_cnt": {
     "category": "Education",
-    "measure_table": "dc_education_training.va_hdcttr_sdad_2021_daycare_services_access_scores",
+    "measure_table": "dc_education_training.va_hdcttrbg_dss_2021_daycare_access_scores",
     "full_name": "daycare_services_access_scores:daycare_cnt",
     "measure": "daycare_cnt",
     "type": "count",
-    "short_name": "Day care access (count)",
-    "long_name": "Access to day care by count",
+    "short_name": "Day care capacity",
+    "long_name": "Access to day care by capacity",
     "short_description": "Count of day care capacity (seats) based on provider locations",
-    "long_description": "Count of day care capacity (seats) based on provider locations. Address and capacity data was collected from Virginia Department of Social Services day care search tool.",
+    "long_description": "Count of day care capacity (seats) based on provider locations. Address and capacity data were collected from Virginia Department of Social Services day care search tool.",
     "statement": "There are {value} daycares in {features.name}.",
     "sources": [
       {
@@ -297,18 +297,37 @@
       }
     ]
   },
-  "daycare_services_access_scores:daycare_norm_3sfca": {
+  "daycare_access_scores:daycare_3sfca": {
     "category": "Education",
-    "measure_table": "dc_education_training.va_hdcttr_sdad_2021_daycare_services_access_scores",
-    "full_name": "daycare_services_access_scores:daycare_norm_3sfca",
-    "measure": "daycare_norm_3sefca",
+    "measure_table": "dc_education_training.va_hdcttrbg_dss_2021_daycare_access_scores",
+    "full_name": "daycare_access_scores:daycare_3sfca",
+    "measure": "daycare_3sfca",
     "type": "index",
     "short_name": "Day care access score",
     "long_name": "Day care access score (3-step floating catchment area)",
     "short_description": "Index of day care accessibility based on supply of and demand for providers",
-    "long_description": "Day care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of day care facilities per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Provider address data was collected from Virginia Department of Social Services day care search tool. The demand for day care services is the population 0-12 years old and the supply is the capacity of day cares (number of seats).",
+    "long_description": "Day care access score based on 3-step floating catchment areas. This method is an aggregation of day care facilities per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Provider address data were collected from Virginia Department of Social Services day care search tool. The demand for day care services is the population 0-15 years old and the supply is the capacity of day cares (number of seats).",
     "statement": "The daycare accessibility score for {features.name} is {value}.",
     "citations": ["lou04", "lou09", "lou03", "saxon20"],
+    "sources": [
+      {
+        "name": "Virginia Department of Social Services",
+        "date_accessed": 2021,
+        "url": "https://www.dss.virginia.gov/facility/search/cc.cgi"
+      }
+    ]
+  },
+  "daycare_access_scores:daycare_median_drive_time_top5": {
+    "category": "Education",
+    "measure_table": "dc_education_training.va_hdcttrbg_dss_2021_daycare_access_scores",
+    "full_name": "daycare_access_scores:daycare_median_drive_time_top5",
+    "measure": "median_drive_time_top5",
+    "type": "drive time",
+    "short_name": "Day care access (drive time)",
+    "long_name": "Day care access by median drive time to the five closest day cares in minutes",
+    "short_description": "Median drive time (minutes) to the five closest day cares from centroid of selected region",
+    "long_description": "Median drive time in minutes to the five closest day cares from centroid of selected region. Address data were collected from the Virginia Department of Social Services Child Day Care Facility search (Dataset for year 2019). Drive times were computed using Open Source Routing Machine (Using roads for year 2022).",
+    "statement": "The median drive time to the five closest day cares to {features.name} is {value}.",
     "sources": [
       {
         "name": "Virginia Department of Social Services",
@@ -416,25 +435,6 @@
         "name": "National Center for Education Statistics",
         "date_accessed": 2021,
         "url": "https://nces.ed.gov"
-      }
-    ]
-  },
-  "drive_times_nearest_daycares:median_drive_time_top5": {
-    "category": "Education",
-    "measure_table": "dc_education_training.va_hdcttr_osrm_2021_drive_times_nearest_daycares",
-    "full_name": "drive_times_nearest_daycares:median_drive_time_top5",
-    "measure": "median_drive_time_top5",
-    "type": "drive time",
-    "short_name": "Day care access (drive time)",
-    "long_name": "Day care access by median drive time to the five closest day cares in minutes",
-    "short_description": "Median drive time (minutes) to the five closest day cares from centroid of selected region",
-    "long_description": "Median drive time in minutes to the five closest day cares from centroid of selected region. Address data was collected from the Virginia Department of Social Services Child Day Care Facility search (Dataset for year 2019). Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-    "statement": "The median drive time to the five closest day cares to {features.name} is {value}.",
-    "sources": [
-      {
-        "name": "Virginia Department of Social Services",
-        "date_accessed": 2021,
-        "url": "https://www.dss.virginia.gov/facility/search/cc.cgi"
       }
     ]
   },
