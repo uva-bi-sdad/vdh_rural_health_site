@@ -288,7 +288,7 @@
     "long_name": "Access to day care by capacity",
     "short_description": "Count of day care capacity (seats) based on provider locations",
     "long_description": "Count of day care capacity (seats) based on provider locations. Address and capacity data were collected from Virginia Department of Social Services day care search tool.",
-    "statement": "There are {value} daycares in {features.name}.",
+    "statement": "There are {value} daycare seats in {features.name}.",
     "sources": [
       {
         "name": "Virginia Department of Social Services",
@@ -986,8 +986,8 @@
     "short_name": "Preventable hospitalizations per 100,000",
     "long_name": "Preventable hospital stays per 100,000 Medicare enrollees",
     "short_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees",
-    "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. This data is based on Medicare claims and comes from County Health Rankings.",
-    "statement": "The rate of preventable (due to conditions usually treated in outpatient settings) hospitalizations in {features.name} is {value}.",
+    "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. This data are based on Medicare claims and come from County Health Rankings.",
+    "statement": "{value} of the hospitalizations in {features.name} were preventable (due to conditions usually treated in outpatient settings).",
     "sources": [
       {
         "name": "County Health Rankings",

@@ -23,9 +23,9 @@
     "variables": {},
     "info": {
       "tract": {
-        "bytes": 872792,
+        "bytes": 872420,
         "encoding": "ISO-8859-1",
-        "md5": "884d13ee14d9ab084fead939081217b0",
+        "md5": "67f7128561d816595d67102309626a28",
         "format": "csv",
         "name": "tract",
         "filename": "tract.csv.xz",
@@ -38,8 +38,8 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-04-25 02:14:27",
-        "last_modified": "2022-04-12 15:41:41",
+        "created": "2022-05-02 04:38:31",
+        "last_modified": "2022-04-27 04:30:54",
         "row_count": 22884,
         "entity_count": 1907,
         "schema": {
@@ -284,16 +284,16 @@
             },
             {
               "name": "daycare_access_scores:daycare_cnt",
-              "duplicates": 22316,
+              "duplicates": 22317,
               "time_range": [
                 11,
                 11
               ],
               "type": "integer",
-              "missing": 21005,
-              "mean": 198.4566,
-              "sd": 235.6245,
-              "min": 0,
+              "missing": 21344,
+              "mean": 242.1429,
+              "sd": 239.0879,
+              "min": 4,
               "max": 2273,
               "info": {
                 "category": "Education",
@@ -305,7 +305,7 @@
                 "long_name": "Access to day care by capacity",
                 "short_description": "Count of day care capacity (seats) based on provider locations",
                 "long_description": "Count of day care capacity (seats) based on provider locations. Address and capacity data were collected from Virginia Department of Social Services day care search tool.",
-                "statement": "There are {value} daycares in {features.name}.",
+                "statement": "There are {value} daycare seats in {features.name}.",
                 "citations": {},
                 "sources": [
                   {
@@ -318,16 +318,16 @@
             },
             {
               "name": "daycare_access_scores:daycare_3sfca",
-              "duplicates": 21016,
+              "duplicates": 21017,
               "time_range": [
                 11,
                 11
               ],
               "type": "float",
-              "missing": 21005,
-              "mean": 3.4544,
-              "sd": 1.1875,
-              "min": 0,
+              "missing": 21018,
+              "mean": 3.4784,
+              "sd": 1.1559,
+              "min": 0.1929,
               "max": 7.172,
               "info": {
                 "category": "Education",
@@ -1533,8 +1533,8 @@
                 "short_name": "Preventable hospitalizations per 100,000",
                 "long_name": "Preventable hospital stays per 100,000 Medicare enrollees",
                 "short_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees",
-                "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. This data is based on Medicare claims and comes from County Health Rankings.",
-                "statement": "The rate of preventable (due to conditions usually treated in outpatient settings) hospitalizations in {features.name} is {value}.",
+                "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. This data are based on Medicare claims and come from County Health Rankings.",
+                "statement": "{value} of the hospitalizations in {features.name} were preventable (due to conditions usually treated in outpatient settings).",
                 "citations": {},
                 "sources": [
                   {
@@ -2089,7 +2089,7 @@
             "doi": "10.1111/jep.13341"
           }
         },
-        "sha512": "563d1b190759bc2afe4c6405be527f59a084155d6f81729f033feea70812106e3acb8a7bd1aab5e9c9d7de5b40eb05b3daf4e08d40ebb7e80f181dd0505773bd",
+        "sha512": "22a82e44226020c99a7689181807032e5350427a674bda04b839b9e24a27282d371b07dffda106f20609c24cf788d55b57b964b775cc0f7ebdac862e6609b1fe",
         "site_file": "https://uva-bi-sdad.github.io/community_example//tract.json"
       },
       "county": {
@@ -2108,8 +2108,8 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-04-25 02:14:25",
-        "last_modified": "2022-04-12 15:41:40",
+        "created": "2022-05-02 04:38:28",
+        "last_modified": "2022-04-27 04:30:54",
         "row_count": 1596,
         "entity_count": 133,
         "schema": {
@@ -2379,7 +2379,7 @@
                 "long_name": "Access to day care by capacity",
                 "short_description": "Count of day care capacity (seats) based on provider locations",
                 "long_description": "Count of day care capacity (seats) based on provider locations. Address and capacity data were collected from Virginia Department of Social Services day care search tool.",
-                "statement": "There are {value} daycares in {features.name}.",
+                "statement": "There are {value} daycare seats in {features.name}.",
                 "citations": {},
                 "sources": [
                   {
@@ -3627,8 +3627,8 @@
                 "short_name": "Preventable hospitalizations per 100,000",
                 "long_name": "Preventable hospital stays per 100,000 Medicare enrollees",
                 "short_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees",
-                "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. This data is based on Medicare claims and comes from County Health Rankings.",
-                "statement": "The rate of preventable (due to conditions usually treated in outpatient settings) hospitalizations in {features.name} is {value}.",
+                "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. This data are based on Medicare claims and come from County Health Rankings.",
+                "statement": "{value} of the hospitalizations in {features.name} were preventable (due to conditions usually treated in outpatient settings).",
                 "citations": {},
                 "sources": [
                   {
@@ -4191,9 +4191,9 @@
         "site_file": "https://uva-bi-sdad.github.io/community_example//county.json"
       },
       "district": {
-        "bytes": 25976,
+        "bytes": 26716,
         "encoding": "ISO-8859-1",
-        "md5": "2cd35efaa3fb8ccbd1360af9070ff467",
+        "md5": "2cb63369010b68010a09db581ffa80c8",
         "format": "csv",
         "name": "district",
         "filename": "health_district.csv.xz",
@@ -4206,8 +4206,8 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-04-25 02:14:27",
-        "last_modified": "2022-04-12 15:41:41",
+        "created": "2022-05-02 04:38:31",
+        "last_modified": "2022-04-27 04:30:54",
         "row_count": 420,
         "entity_count": 35,
         "schema": {
@@ -4440,13 +4440,17 @@
             },
             {
               "name": "daycare_access_scores:daycare_cnt",
-              "duplicates": 419,
+              "duplicates": 384,
               "time_range": [
-                -1,
-                -1
+                11,
+                11
               ],
-              "type": "unknown",
-              "missing": 420,
+              "type": "integer",
+              "missing": 385,
+              "mean": 10654.2857,
+              "sd": 12141.6284,
+              "min": 1027,
+              "max": 67459,
               "info": {
                 "category": "Education",
                 "measure_table": "dc_education_training.va_hdcttrbg_dss_2021_daycare_access_scores",
@@ -4457,7 +4461,7 @@
                 "long_name": "Access to day care by capacity",
                 "short_description": "Count of day care capacity (seats) based on provider locations",
                 "long_description": "Count of day care capacity (seats) based on provider locations. Address and capacity data were collected from Virginia Department of Social Services day care search tool.",
-                "statement": "There are {value} daycares in {features.name}.",
+                "statement": "There are {value} daycare seats in {features.name}.",
                 "citations": {},
                 "sources": [
                   {
@@ -5685,13 +5689,17 @@
             },
             {
               "name": "preventable_hospitalizations:prevent_hosp_rate",
-              "duplicates": 419,
+              "duplicates": 237,
               "time_range": [
-                -1,
-                -1
+                5,
+                11
               ],
-              "type": "unknown",
-              "missing": 420,
+              "type": "float",
+              "missing": 238,
+              "mean": 5025.5964,
+              "sd": 1666.5633,
+              "min": 2510,
+              "max": 15047.25,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdct_chr_2015_2021_preventable_hospitalizations",
@@ -5701,8 +5709,8 @@
                 "short_name": "Preventable hospitalizations per 100,000",
                 "long_name": "Preventable hospital stays per 100,000 Medicare enrollees",
                 "short_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees",
-                "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. This data is based on Medicare claims and comes from County Health Rankings.",
-                "statement": "The rate of preventable (due to conditions usually treated in outpatient settings) hospitalizations in {features.name} is {value}.",
+                "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. This data are based on Medicare claims and come from County Health Rankings.",
+                "statement": "{value} of the hospitalizations in {features.name} were preventable (due to conditions usually treated in outpatient settings).",
                 "citations": {},
                 "sources": [
                   {
@@ -6249,7 +6257,7 @@
             "doi": "10.1111/jep.13341"
           }
         },
-        "sha512": "be655a8498545163ea7b46e0155fab9390701e0d54d1dfc4a1386f0f604bb833361ec2f0577cb75d2320a3c25cdfa0dd7b5ad4fb7af39d8422596008011cebe1",
+        "sha512": "95439dbf19dd46c9ec5a17201b049fe7338c12ba04f59b52ab677c51a64236579e7ae33e323d4c0363ef61a31a5c5ebb19efba337add9e6c37f9935635e9dfa2",
         "site_file": "https://uva-bi-sdad.github.io/community_example//district.json"
       }
     },
@@ -6422,7 +6430,7 @@
       "dataview": "primary_view",
       "variable_info": false
     },
-    "info13": {
+    "info14": {
       "title": "features.name",
       "body": [],
       "default": {
@@ -6434,7 +6442,7 @@
       "subto": ["main_map", "main_plot", "rank_table", "main_legend"],
       "variable_info": false
     },
-    "info14": {
+    "info15": {
       "title": "",
       "body": [
         {
@@ -6461,7 +6469,7 @@
     }
   },
   "text": {
-    "text8": {
+    "text9": {
       "text": [
         {
           "condition": [
@@ -6537,7 +6545,7 @@
         }
       ]
     },
-    "text9": {
+    "text10": {
       "text": [
         [
           {
@@ -6614,44 +6622,6 @@
     }
   },
   "datatable": {
-    "table20": {
-      "scrollY": 380,
-      "rowGroup": {
-        "dataSrc": "entity.features.name"
-      },
-      "columnDefs": [
-        {
-          "targets": "entity.features.name",
-          "visible": false
-        }
-      ],
-      "buttons": ["copy", "csv", "excel", "print"],
-      "dom": "<'row't><'row'<'col-sm'B><'col'f>>",
-      "features": [
-        {
-          "name": "id",
-          "title": "ID"
-        },
-        {
-          "name": "name",
-          "title": "Name"
-        },
-        {
-          "name": "type",
-          "title": "Type"
-        }
-      ],
-      "filters": {
-        "category": "variable_type"
-      },
-      "single_variable": false,
-      "wide": false,
-      "paging": true,
-      "scrollX": 500,
-      "scrollCollapse": true,
-      "scroller": true,
-      "deferRender": true
-    },
     "rank_table": {
       "info": false,
       "searching": false,
@@ -6857,6 +6827,29 @@
       "effects": {
         "variable_type": "Employment/Workforce Development",
         "selected_variable": "civilian_employment_rate:employment_rate"
+      }
+    },
+    "DownloadSelection": {
+      "effects": "export",
+      "dataview": "primary_view",
+      "query": {
+        "include": "selected_variable",
+        "features": {
+          "geoid": "id",
+          "name": "name",
+          "region_type": "type"
+        }
+      }
+    },
+    "DownloadAll": {
+      "effects": "export",
+      "dataview": {},
+      "query": {
+        "features": {
+          "geoid": "id",
+          "name": "name",
+          "region_type": "type"
+        }
       }
     }
   }
