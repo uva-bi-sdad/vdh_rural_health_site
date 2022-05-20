@@ -15,7 +15,8 @@
     "table_autoscroll": true,
     "table_scroll_behavior": "smooth",
     "hide_tooltips": false,
-    "map_animations": "all"
+    "map_animations": "all",
+    "trace_limit": 20
   },
   "metadata": {
     "package": "data/datapackage.json",
@@ -59,7 +60,10 @@
               "max": 2021,
               "info": {
                 "citations": {},
-                "sources": {}
+                "sources": {},
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -86,6 +90,7 @@
                 "short_description": "Index of 3-year college accessibility based on supply and demand of providers",
                 "long_description": "2-year college access score based on 3-step floating catchment areas. This method is an aggregation of college capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for 2-year college (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (graduate and undergraduate).",
                 "statement": "The 2-year college accessibility score for {features.name} is {value}.",
+                "equity_category": "Accessibility",
                 "citations": [
                   "lou04",
                   "lou09",
@@ -98,7 +103,13 @@
                     "date_accessed": 2021,
                     "url": "https://nces.ed.gov"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {
+                    "doi": "doi:10.18130/V3/7VXR00",
+                    "fileId": 55908
+                  }
+                }
               }
             },
             {
@@ -128,7 +139,10 @@
                     "date_accessed": 2021,
                     "url": "https://www.doe.virginia.gov/statistics_reports/sol-pass-rates/index.shtml"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -162,7 +176,10 @@
                     "date_accessed": "2021",
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -201,7 +218,10 @@
                     "date_accessed": 2021,
                     "url": "https://nces.ed.gov"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -240,7 +260,10 @@
                     "date_accessed": 2021,
                     "url": "https://nces.ed.gov"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -279,7 +302,10 @@
                     "date_accessed": 2021,
                     "url": "https://nces.ed.gov"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -313,7 +339,10 @@
                     "date_accessed": 2021,
                     "url": "https://www.dss.virginia.gov/facility/search/cc.cgi"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -352,7 +381,10 @@
                     "date_accessed": 2021,
                     "url": "https://www.dss.virginia.gov/facility/search/cc.cgi"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -386,7 +418,10 @@
                     "date_accessed": 2021,
                     "url": "https://www.dss.virginia.gov/facility/search/cc.cgi"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -425,7 +460,10 @@
                     "date_accessed": 2021,
                     "url": "https://www.ookla.com/ookla-for-good/open-data"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -443,7 +481,7 @@
               "max": 39,
               "info": {
                 "category": "Health",
-                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_dentists",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores",
                 "full_name": "access_scores_dentists:dent_cnt",
                 "measure": "dent_cnt",
                 "type": "count",
@@ -455,11 +493,14 @@
                 "citations": {},
                 "sources": [
                   {
-                    "name": "SafeGraph Core",
+                    "name": "WebMD Physician Directory",
                     "date_accessed": 2021,
-                    "url": "https://www.safegraph.com/products/core"
+                    "url": "https://doctor.webmd.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -477,7 +518,7 @@
               "max": 1.5626,
               "info": {
                 "category": "Health",
-                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_dentists",
+                "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_dentists_access_scores",
                 "full_name": "access_scores_dentists:dent_e2sfca",
                 "measure": "dent_e2sfca",
                 "type": "index",
@@ -494,11 +535,14 @@
                 ],
                 "sources": [
                   {
-                    "name": "SafeGraph Core",
+                    "name": "WebMD Physician Directory",
                     "date_accessed": 2021,
-                    "url": "https://www.safegraph.com/products/core"
+                    "url": "https://doctor.webmd.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -532,7 +576,10 @@
                     "date_accessed": 2021,
                     "url": "https://www.ookla.com/ookla-for-good/open-data"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -566,7 +613,10 @@
                     "date_accessed": 2021,
                     "url": "https://nces.ed.gov"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -600,7 +650,10 @@
                     "date_accessed": 2021,
                     "url": "https://nces.ed.gov"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -630,7 +683,10 @@
                     "date_accessed": "2021",
                     "url": "https://www.vdh.virginia.gov/surveillance-and-investigation/syndromic-surveillance/drug-overdose-surveillance/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -664,7 +720,10 @@
                     "date_accessed": 2021,
                     "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -682,7 +741,7 @@
               "max": 1.7956,
               "info": {
                 "category": "Health",
-                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_ems",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
                 "full_name": "access_scores_ems:ems_3sfca",
                 "measure": "ems_3sfca",
                 "type": "index",
@@ -703,7 +762,10 @@
                     "date_accessed": 2021,
                     "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -721,7 +783,7 @@
               "max": 6,
               "info": {
                 "category": "Health",
-                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_ems",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
                 "full_name": "access_scores_ems:ems_cnt",
                 "measure": "ems_cnt",
                 "type": "count",
@@ -737,7 +799,10 @@
                     "date_accessed": 2021,
                     "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -767,7 +832,10 @@
                     "date_accessed": "2021",
                     "url": "https://www.feedingamerica.org/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -797,7 +865,10 @@
                     "date_accessed": "2021",
                     "url": "https://www.feedingamerica.org/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -827,7 +898,10 @@
                     "date_accessed": "2021",
                     "url": "https://www.feedingamerica.org/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -857,7 +931,10 @@
                     "date_accessed": "2021",
                     "url": "https://www.feedingamerica.org/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -899,7 +976,10 @@
                     "date_accessed": 2021,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -933,7 +1013,10 @@
                     "date_accessed": 2021,
                     "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -972,7 +1055,10 @@
                     "date_accessed": 2021,
                     "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -1006,7 +1092,10 @@
                     "date_accessed": 2021,
                     "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -1040,7 +1129,10 @@
                     "date_accessed": 2021,
                     "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -1079,7 +1171,10 @@
                     "date_accessed": 2021,
                     "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -1113,7 +1208,10 @@
                     "date_accessed": 2021,
                     "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -1147,7 +1245,10 @@
                     "date_accessed": 2022,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -1181,7 +1282,10 @@
                     "date_accessed": 2021,
                     "url": "https://doctor.webmd.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -1220,7 +1324,10 @@
                     "date_accessed": 2021,
                     "url": "https://doctor.webmd.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -1254,7 +1361,10 @@
                     "date_accessed": 2021,
                     "url": "https://doctor.webmd.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -1293,7 +1403,10 @@
                     "date_accessed": 2021,
                     "url": "https://doctor.webmd.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -1332,7 +1445,10 @@
                     "date_accessed": 2021,
                     "url": "https://broadbandnow.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -1371,7 +1487,10 @@
                     "date_accessed": 2021,
                     "url": "https://broadbandnow.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -1410,7 +1529,10 @@
                     "date_accessed": 2021,
                     "url": "https://broadbandnow.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -1432,11 +1554,12 @@
                 "full_name": "percent_poor_ment_hlth_days_14_and_over:perc_poor_ment_hlth_days_14_and_over",
                 "measure": "perc_poor_ment_hlth_days_14_and_over",
                 "type": "percent",
-                "short_name": "Poor mental health population",
-                "long_name": "Percent of the population with poor mental health",
+                "short_name": "Percentage reporting poor mental health",
+                "long_name": "Percentage reporting poor mental health",
                 "short_description": "Percent of the population self-reporting poor mental health",
                 "long_description": "Percent of the population self-reporting poor mental health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
                 "statement": "{value} of the population in {features.name} reports poor mental health.",
+                "equity_category": "Status",
                 "citations": {},
                 "sources": [
                   {
@@ -1444,7 +1567,10 @@
                     "date_accessed": 2021,
                     "url": "https://www.vdh.virginia.gov/brfss/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -1466,11 +1592,12 @@
                 "full_name": "percent_poor_phys_hlth_days_14_and_over:perc_poor_phys_hlth_days_14_and_over",
                 "measure": "perc_poor_phys_hlth_days_14_and_over",
                 "type": "percent",
-                "short_name": "Poor physical health population",
-                "long_name": "Percent of the population with poor physical health",
+                "short_name": "Percentage reporting poor physical health",
+                "long_name": "Percentage reporting poor physical health",
                 "short_description": "Percent of the population self-reporting poor physical health",
                 "long_description": "Percent of the population self-reporting poor physical health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
                 "statement": "{value} of the population in {features.name} reports poor physical health.",
+                "equity_category": "Status",
                 "citations": {},
                 "sources": [
                   {
@@ -1478,7 +1605,10 @@
                     "date_accessed": 2021,
                     "url": "https://www.vdh.virginia.gov/brfss/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -1500,19 +1630,23 @@
                 "full_name": "post_hs_education:perc_post_hs_edu",
                 "measure": "perc_post_hs_edu",
                 "type": "percent",
-                "short_name": "Population with post-high school education",
-                "long_name": "Percent  of population with post-high school education",
-                "short_description": "Percent of the population self-reported to have post-high school level degree",
-                "long_description": "Percent of the population self-reported to have post-high school level degree. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.",
-                "statement": "{value} of the population in {features.name} has a post-high school education.",
+                "short_name": "Percentage with post-secondary education",
+                "long_name": "Percentage with post-secondary education",
+                "short_description": "Percentage of the population self-reported to have post-secondary education",
+                "long_description": "Percentage of the population self-reported to have post-secondary education. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.",
+                "statement": "{value} of the population in {features.name} has a post-secondary education.",
+                "equity_category": "Status",
                 "citations": {},
                 "sources": [
                   {
-                    "name": "American Community Survey",
+                    "name": "American Community Survey Table B15003",
                     "date_accessed": 2021,
                     "url": "https://www.census.gov/data/developers/data-sets/acs-5year.html"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -1533,8 +1667,9 @@
                 "short_name": "Preventable hospitalizations per 100,000",
                 "long_name": "Preventable hospital stays per 100,000 Medicare enrollees",
                 "short_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees",
-                "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. This data are based on Medicare claims and come from County Health Rankings.",
+                "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. Data are based on Medicare claims and come from County Health Rankings.",
                 "statement": "{value} of the hospitalizations in {features.name} were preventable (due to conditions usually treated in outpatient settings).",
+                "equity_category": "Status",
                 "citations": {},
                 "sources": [
                   {
@@ -1542,7 +1677,10 @@
                     "date_accessed": 2021,
                     "url": "https://www.countyhealthrankings.org/app/virginia/2021/measure/factors/5/description"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -1567,8 +1705,9 @@
                 "short_name": "Primary care access (count)",
                 "long_name": "Primary care access by count",
                 "short_description": "Count of primary care physicians based on provider locations",
-                "long_description": "Count of primary care physicians based on provider locations. Address data was collected from WebMD's online Physician Directory.",
+                "long_description": "Count of primary care physicians based on provider locations. Address data were collected from WebMD's online Physician Directory.",
                 "statement": "There are {value} primary care physicians in {features.name}.",
+                "equity_category": "Availability",
                 "citations": {},
                 "sources": [
                   {
@@ -1576,7 +1715,10 @@
                     "date_accessed": 2021,
                     "url": "https://doctor.webmd.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -1594,15 +1736,16 @@
               "max": 205.667,
               "info": {
                 "category": "Health",
-                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_primcare",
+                "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_primcare_access_scores",
                 "full_name": "access_scores_primcare:primcare_e2sfca",
-                "measure": "prim_e2sfca",
+                "measure": "primcare_e2sfca",
                 "type": "index",
                 "short_name": "Primary care access score",
                 "long_name": "Primary care access score (2-step enhanced floating catchment areas)",
                 "short_description": "Index of primary care physician accessibility based on supply and demand of providers",
-                "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data was collected from WebMD's online Physician Directory.",
+                "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data were collected from WebMD's online Physician Directory.",
                 "statement": "The primary care accessibility score for {features.name} is {value}.",
+                "equity_category": "Accessibility",
                 "citations": [
                   "lou04",
                   "lou09",
@@ -1615,7 +1758,10 @@
                     "date_accessed": 2021,
                     "url": "https://doctor.webmd.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -1640,8 +1786,9 @@
                 "short_name": "Substance use/behavioral health services access (drive time)",
                 "long_name": "Substance use/behavioral health services access by median drive time to the ten closest facilities in minutes",
                 "short_description": "Median drive time (minutes) to the ten closest substance use/behavioral health services facilities",
-                "long_description": "Median drive time in minutes to the ten closest substance use/behavioral health services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+                "long_description": "Median drive time in minutes to the ten closest substance use/behavioral health services facilities. Facility location data were collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
                 "statement": "The median drive time to the ten closest substance use/behavioral health service facilities to {features.name} is {value}.",
+                "equity_category": "Accessibility",
                 "citations": {},
                 "sources": [
                   {
@@ -1649,7 +1796,10 @@
                     "date_accessed": 2021,
                     "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -1688,7 +1838,10 @@
                     "date_accessed": 2021,
                     "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -1722,7 +1875,10 @@
                     "date_accessed": 2021,
                     "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -1749,6 +1905,7 @@
                 "short_description": "Index of trade school accessibility based on supply and demand of providers",
                 "long_description": "Trade school access score based on 3-step floating catchment areas. This method is an aggregation of trade school capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for trade schools (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (undergraduate).",
                 "statement": "The trade school accessibility score for {features.name} is {value}.",
+                "equity_category": "Accessibility",
                 "citations": [
                   "lou04",
                   "lou09",
@@ -1761,7 +1918,10 @@
                     "date_accessed": 2021,
                     "url": "https://nces.ed.gov"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -1791,7 +1951,10 @@
                     "date_accessed": "2021",
                     "url": "https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=1&acrdn=6"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -1814,18 +1977,22 @@
                 "measure": "perc_hh_with_broadband",
                 "type": "percent",
                 "short_name": "Households with broadband",
-                "long_name": "Percent of households with broadband",
-                "short_description": "Percent of households self-reported to have a broadband internet connection (any type of internet other than a dial-up)",
-                "long_description": "Percent of households self-reported to have a broadband internet connection. Broadband internet is defined as any type of internet other than a dial-up. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-                "statement": "{value} of the households in {features.name} has a broadband connection.",
+                "long_name": "Percentage of households with broadband",
+                "short_description": "Percentage of households self-reported to have a broadband internet connection (any type of internet other than a dial-up)",
+                "long_description": "Percentage of households self-reported to have a broadband internet connection. Broadband internet is defined as any type of internet other than a dial-up. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+                "statement": "{value} of households in {features.name} have a broadband connection.",
+                "equity_category": "Availability",
                 "citations": {},
                 "sources": [
                   {
-                    "name": "American Community Survey",
+                    "name": "American Community Survey Table B28002",
                     "date_accessed": 2021,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -1844,18 +2011,22 @@
                 "measure": "perc_hh_with_cable_fiber_dsl",
                 "type": "percent",
                 "short_name": "Households with cable, fiber optic, or DSL",
-                "long_name": "Percent of households with a high speed internet service (cable, fiber optic, or DSL)",
-                "short_description": "Percent of households self-reported to have a high speed internet service (cable, fiber optic, or DSL)",
-                "long_description": "Percent of households self-reported to have a high speed internet service. A high speed internet service is defined as a cable, fiber optic, or DSL internet connection. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-                "statement": "{value} of the households in {features.name} has a cable fiber or DSL internet connection.",
+                "long_name": "Percentage of households with a high speed internet service (cable, fiber optic, or DSL)",
+                "short_description": "Percentage of households self-reported to have a high speed internet service (cable, fiber optic, or DSL)",
+                "long_description": "Percentage of households self-reported to have a high speed internet service. A high speed internet service is defined as a cable, fiber optic, or DSL internet connection. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+                "statement": "{value} of households in {features.name} have a cable, fiber optic, or DSL internet connection.",
+                "equity_category": "Availability",
                 "citations": {},
                 "sources": [
                   {
-                    "name": "American Community Survey",
+                    "name": "American Community Survey Table B28002",
                     "date_accessed": 2021,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -1878,18 +2049,22 @@
                 "measure": "perc_hh_without_compdev",
                 "type": "percent",
                 "short_name": "Households without a computer",
-                "long_name": "Percent of households without a computer",
-                "short_description": "Percent of the households self-reported to not have a computer or device at home",
-                "long_description": "Percent of the households self-reported to not have a computer or device at home. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-                "statement": "{value} of the households in {features.name} have a computer or device.",
+                "long_name": "Percentage of households without a computer",
+                "short_description": "Percentage of households self-reported to not have a computer or device at home",
+                "long_description": "Percentage of the households self-reported to not have a computer or device at home. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+                "statement": "{value} of households in {features.name} do not have a computer or device.",
+                "equity_category": "Accessibility",
                 "citations": {},
                 "sources": [
                   {
-                    "name": "American Community Survey",
+                    "name": "American Community Survey Table B28002",
                     "date_accessed": 2021,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -1912,18 +2087,22 @@
                 "measure": "perc_hh_without_internet",
                 "type": "percent",
                 "short_name": "Households without internet access",
-                "long_name": "Percent of households without internet access",
-                "short_description": "Percent of households self-reported to not have internet access at home",
-                "long_description": "Percent of households self-reported to not have internet access at home. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-                "statement": "{value} of the households in {features.name} have not internet access.",
+                "long_name": "Percentage of households without internet access",
+                "short_description": "Percentage of households self-reported to not have internet access at home",
+                "long_description": "Percentage of households self-reported to not have internet access at home. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+                "statement": "{value} of households in {features.name} do not have internet access.",
+                "equity_category": "Availability",
                 "citations": {},
                 "sources": [
                   {
-                    "name": "American Community Survey",
+                    "name": "American Community Survey Table B28002",
                     "date_accessed": 2021,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             }
           ]
@@ -2087,6 +2266,41 @@
             "number": 6,
             "page": "1711-1721",
             "doi": "10.1111/jep.13341"
+          },
+          "wan12": {
+            "id": "wan12",
+            "author": [
+              {
+                "given": "Neng",
+                "family": "Wan"
+              },
+              {
+                "given": "Bin",
+                "family": "Zou"
+              },
+              {
+                "given": "Troy",
+                "family": "Sternberg"
+              }
+            ],
+            "year": 2012,
+            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+            "journal": "International Journal of Geographical Information Science",
+            "volume": "26",
+            "page": "1073-1089",
+            "doi": "10.1080/13658816.2011.624987"
+          },
+          "bii21": {
+            "id": "bii21",
+            "author": [
+              {
+                "family": "Biocomplexity Institute and Initiative"
+              }
+            ],
+            "year": 2021,
+            "title": "catchment: Calculate spatial access and availability metrics",
+            "version": "0.0.1",
+            "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
         "sha512": "22a82e44226020c99a7689181807032e5350427a674bda04b839b9e24a27282d371b07dffda106f20609c24cf788d55b57b964b775cc0f7ebdac862e6609b1fe",
@@ -2129,7 +2343,10 @@
               "max": 2021,
               "info": {
                 "citations": {},
-                "sources": {}
+                "sources": {},
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -2156,6 +2373,7 @@
                 "short_description": "Index of 3-year college accessibility based on supply and demand of providers",
                 "long_description": "2-year college access score based on 3-step floating catchment areas. This method is an aggregation of college capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for 2-year college (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (graduate and undergraduate).",
                 "statement": "The 2-year college accessibility score for {features.name} is {value}.",
+                "equity_category": "Accessibility",
                 "citations": [
                   "lou04",
                   "lou09",
@@ -2168,7 +2386,13 @@
                     "date_accessed": 2021,
                     "url": "https://nces.ed.gov"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {
+                    "doi": "doi:10.18130/V3/7VXR00",
+                    "fileId": 55908
+                  }
+                }
               }
             },
             {
@@ -2202,7 +2426,10 @@
                     "date_accessed": 2021,
                     "url": "https://www.doe.virginia.gov/statistics_reports/sol-pass-rates/index.shtml"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -2236,7 +2463,10 @@
                     "date_accessed": "2021",
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -2275,7 +2505,10 @@
                     "date_accessed": 2021,
                     "url": "https://nces.ed.gov"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -2314,7 +2547,10 @@
                     "date_accessed": 2021,
                     "url": "https://nces.ed.gov"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -2353,7 +2589,10 @@
                     "date_accessed": 2021,
                     "url": "https://nces.ed.gov"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -2387,7 +2626,10 @@
                     "date_accessed": 2021,
                     "url": "https://www.dss.virginia.gov/facility/search/cc.cgi"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -2426,7 +2668,10 @@
                     "date_accessed": 2021,
                     "url": "https://www.dss.virginia.gov/facility/search/cc.cgi"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -2460,7 +2705,10 @@
                     "date_accessed": 2021,
                     "url": "https://www.dss.virginia.gov/facility/search/cc.cgi"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -2499,7 +2747,10 @@
                     "date_accessed": 2021,
                     "url": "https://www.ookla.com/ookla-for-good/open-data"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -2517,7 +2768,7 @@
               "max": 894,
               "info": {
                 "category": "Health",
-                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_dentists",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores",
                 "full_name": "access_scores_dentists:dent_cnt",
                 "measure": "dent_cnt",
                 "type": "count",
@@ -2529,11 +2780,14 @@
                 "citations": {},
                 "sources": [
                   {
-                    "name": "SafeGraph Core",
+                    "name": "WebMD Physician Directory",
                     "date_accessed": 2021,
-                    "url": "https://www.safegraph.com/products/core"
+                    "url": "https://doctor.webmd.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -2551,7 +2805,7 @@
               "max": 1.4349,
               "info": {
                 "category": "Health",
-                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_dentists",
+                "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_dentists_access_scores",
                 "full_name": "access_scores_dentists:dent_e2sfca",
                 "measure": "dent_e2sfca",
                 "type": "index",
@@ -2568,11 +2822,14 @@
                 ],
                 "sources": [
                   {
-                    "name": "SafeGraph Core",
+                    "name": "WebMD Physician Directory",
                     "date_accessed": 2021,
-                    "url": "https://www.safegraph.com/products/core"
+                    "url": "https://doctor.webmd.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -2606,7 +2863,10 @@
                     "date_accessed": 2021,
                     "url": "https://www.ookla.com/ookla-for-good/open-data"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -2640,7 +2900,10 @@
                     "date_accessed": 2021,
                     "url": "https://nces.ed.gov"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -2674,7 +2937,10 @@
                     "date_accessed": 2021,
                     "url": "https://nces.ed.gov"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -2708,7 +2974,10 @@
                     "date_accessed": "2021",
                     "url": "https://www.vdh.virginia.gov/surveillance-and-investigation/syndromic-surveillance/drug-overdose-surveillance/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -2742,7 +3011,10 @@
                     "date_accessed": 2021,
                     "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -2760,7 +3032,7 @@
               "max": 1.7956,
               "info": {
                 "category": "Health",
-                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_ems",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
                 "full_name": "access_scores_ems:ems_3sfca",
                 "measure": "ems_3sfca",
                 "type": "index",
@@ -2781,7 +3053,10 @@
                     "date_accessed": 2021,
                     "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -2799,7 +3074,7 @@
               "max": 42,
               "info": {
                 "category": "Health",
-                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_ems",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
                 "full_name": "access_scores_ems:ems_cnt",
                 "measure": "ems_cnt",
                 "type": "count",
@@ -2815,7 +3090,10 @@
                     "date_accessed": 2021,
                     "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -2849,7 +3127,10 @@
                     "date_accessed": "2021",
                     "url": "https://www.feedingamerica.org/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -2883,7 +3164,10 @@
                     "date_accessed": "2021",
                     "url": "https://www.feedingamerica.org/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -2917,7 +3201,10 @@
                     "date_accessed": "2021",
                     "url": "https://www.feedingamerica.org/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -2951,7 +3238,10 @@
                     "date_accessed": "2021",
                     "url": "https://www.feedingamerica.org/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -2993,7 +3283,10 @@
                     "date_accessed": 2021,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -3027,7 +3320,10 @@
                     "date_accessed": 2021,
                     "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -3066,7 +3362,10 @@
                     "date_accessed": 2021,
                     "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -3100,7 +3399,10 @@
                     "date_accessed": 2021,
                     "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -3130,7 +3432,10 @@
                     "date_accessed": 2021,
                     "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -3169,7 +3474,10 @@
                     "date_accessed": 2021,
                     "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -3203,7 +3511,10 @@
                     "date_accessed": 2021,
                     "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -3237,7 +3548,10 @@
                     "date_accessed": 2022,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -3271,7 +3585,10 @@
                     "date_accessed": 2021,
                     "url": "https://doctor.webmd.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -3310,7 +3627,10 @@
                     "date_accessed": 2021,
                     "url": "https://doctor.webmd.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -3344,7 +3664,10 @@
                     "date_accessed": 2021,
                     "url": "https://doctor.webmd.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -3383,7 +3706,10 @@
                     "date_accessed": 2021,
                     "url": "https://doctor.webmd.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -3422,7 +3748,10 @@
                     "date_accessed": 2021,
                     "url": "https://broadbandnow.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -3461,7 +3790,10 @@
                     "date_accessed": 2021,
                     "url": "https://broadbandnow.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -3500,7 +3832,10 @@
                     "date_accessed": 2021,
                     "url": "https://broadbandnow.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -3522,11 +3857,12 @@
                 "full_name": "percent_poor_ment_hlth_days_14_and_over:perc_poor_ment_hlth_days_14_and_over",
                 "measure": "perc_poor_ment_hlth_days_14_and_over",
                 "type": "percent",
-                "short_name": "Poor mental health population",
-                "long_name": "Percent of the population with poor mental health",
+                "short_name": "Percentage reporting poor mental health",
+                "long_name": "Percentage reporting poor mental health",
                 "short_description": "Percent of the population self-reporting poor mental health",
                 "long_description": "Percent of the population self-reporting poor mental health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
                 "statement": "{value} of the population in {features.name} reports poor mental health.",
+                "equity_category": "Status",
                 "citations": {},
                 "sources": [
                   {
@@ -3534,7 +3870,10 @@
                     "date_accessed": 2021,
                     "url": "https://www.vdh.virginia.gov/brfss/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -3556,11 +3895,12 @@
                 "full_name": "percent_poor_phys_hlth_days_14_and_over:perc_poor_phys_hlth_days_14_and_over",
                 "measure": "perc_poor_phys_hlth_days_14_and_over",
                 "type": "percent",
-                "short_name": "Poor physical health population",
-                "long_name": "Percent of the population with poor physical health",
+                "short_name": "Percentage reporting poor physical health",
+                "long_name": "Percentage reporting poor physical health",
                 "short_description": "Percent of the population self-reporting poor physical health",
                 "long_description": "Percent of the population self-reporting poor physical health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
                 "statement": "{value} of the population in {features.name} reports poor physical health.",
+                "equity_category": "Status",
                 "citations": {},
                 "sources": [
                   {
@@ -3568,7 +3908,10 @@
                     "date_accessed": 2021,
                     "url": "https://www.vdh.virginia.gov/brfss/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -3590,19 +3933,23 @@
                 "full_name": "post_hs_education:perc_post_hs_edu",
                 "measure": "perc_post_hs_edu",
                 "type": "percent",
-                "short_name": "Population with post-high school education",
-                "long_name": "Percent  of population with post-high school education",
-                "short_description": "Percent of the population self-reported to have post-high school level degree",
-                "long_description": "Percent of the population self-reported to have post-high school level degree. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.",
-                "statement": "{value} of the population in {features.name} has a post-high school education.",
+                "short_name": "Percentage with post-secondary education",
+                "long_name": "Percentage with post-secondary education",
+                "short_description": "Percentage of the population self-reported to have post-secondary education",
+                "long_description": "Percentage of the population self-reported to have post-secondary education. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.",
+                "statement": "{value} of the population in {features.name} has a post-secondary education.",
+                "equity_category": "Status",
                 "citations": {},
                 "sources": [
                   {
-                    "name": "American Community Survey",
+                    "name": "American Community Survey Table B15003",
                     "date_accessed": 2021,
                     "url": "https://www.census.gov/data/developers/data-sets/acs-5year.html"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -3627,8 +3974,9 @@
                 "short_name": "Preventable hospitalizations per 100,000",
                 "long_name": "Preventable hospital stays per 100,000 Medicare enrollees",
                 "short_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees",
-                "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. This data are based on Medicare claims and come from County Health Rankings.",
+                "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. Data are based on Medicare claims and come from County Health Rankings.",
                 "statement": "{value} of the hospitalizations in {features.name} were preventable (due to conditions usually treated in outpatient settings).",
+                "equity_category": "Status",
                 "citations": {},
                 "sources": [
                   {
@@ -3636,7 +3984,10 @@
                     "date_accessed": 2021,
                     "url": "https://www.countyhealthrankings.org/app/virginia/2021/measure/factors/5/description"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -3661,8 +4012,9 @@
                 "short_name": "Primary care access (count)",
                 "long_name": "Primary care access by count",
                 "short_description": "Count of primary care physicians based on provider locations",
-                "long_description": "Count of primary care physicians based on provider locations. Address data was collected from WebMD's online Physician Directory.",
+                "long_description": "Count of primary care physicians based on provider locations. Address data were collected from WebMD's online Physician Directory.",
                 "statement": "There are {value} primary care physicians in {features.name}.",
+                "equity_category": "Availability",
                 "citations": {},
                 "sources": [
                   {
@@ -3670,7 +4022,10 @@
                     "date_accessed": 2021,
                     "url": "https://doctor.webmd.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -3688,15 +4043,16 @@
               "max": 89.615,
               "info": {
                 "category": "Health",
-                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_primcare",
+                "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_primcare_access_scores",
                 "full_name": "access_scores_primcare:primcare_e2sfca",
-                "measure": "prim_e2sfca",
+                "measure": "primcare_e2sfca",
                 "type": "index",
                 "short_name": "Primary care access score",
                 "long_name": "Primary care access score (2-step enhanced floating catchment areas)",
                 "short_description": "Index of primary care physician accessibility based on supply and demand of providers",
-                "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data was collected from WebMD's online Physician Directory.",
+                "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data were collected from WebMD's online Physician Directory.",
                 "statement": "The primary care accessibility score for {features.name} is {value}.",
+                "equity_category": "Accessibility",
                 "citations": [
                   "lou04",
                   "lou09",
@@ -3709,7 +4065,10 @@
                     "date_accessed": 2021,
                     "url": "https://doctor.webmd.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -3730,8 +4089,9 @@
                 "short_name": "Substance use/behavioral health services access (drive time)",
                 "long_name": "Substance use/behavioral health services access by median drive time to the ten closest facilities in minutes",
                 "short_description": "Median drive time (minutes) to the ten closest substance use/behavioral health services facilities",
-                "long_description": "Median drive time in minutes to the ten closest substance use/behavioral health services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+                "long_description": "Median drive time in minutes to the ten closest substance use/behavioral health services facilities. Facility location data were collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
                 "statement": "The median drive time to the ten closest substance use/behavioral health service facilities to {features.name} is {value}.",
+                "equity_category": "Accessibility",
                 "citations": {},
                 "sources": [
                   {
@@ -3739,7 +4099,10 @@
                     "date_accessed": 2021,
                     "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -3778,7 +4141,10 @@
                     "date_accessed": 2021,
                     "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -3812,7 +4178,10 @@
                     "date_accessed": 2021,
                     "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -3839,6 +4208,7 @@
                 "short_description": "Index of trade school accessibility based on supply and demand of providers",
                 "long_description": "Trade school access score based on 3-step floating catchment areas. This method is an aggregation of trade school capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for trade schools (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (undergraduate).",
                 "statement": "The trade school accessibility score for {features.name} is {value}.",
+                "equity_category": "Accessibility",
                 "citations": [
                   "lou04",
                   "lou09",
@@ -3851,7 +4221,10 @@
                     "date_accessed": 2021,
                     "url": "https://nces.ed.gov"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -3885,7 +4258,10 @@
                     "date_accessed": "2021",
                     "url": "https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=1&acrdn=6"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -3908,18 +4284,22 @@
                 "measure": "perc_hh_with_broadband",
                 "type": "percent",
                 "short_name": "Households with broadband",
-                "long_name": "Percent of households with broadband",
-                "short_description": "Percent of households self-reported to have a broadband internet connection (any type of internet other than a dial-up)",
-                "long_description": "Percent of households self-reported to have a broadband internet connection. Broadband internet is defined as any type of internet other than a dial-up. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-                "statement": "{value} of the households in {features.name} has a broadband connection.",
+                "long_name": "Percentage of households with broadband",
+                "short_description": "Percentage of households self-reported to have a broadband internet connection (any type of internet other than a dial-up)",
+                "long_description": "Percentage of households self-reported to have a broadband internet connection. Broadband internet is defined as any type of internet other than a dial-up. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+                "statement": "{value} of households in {features.name} have a broadband connection.",
+                "equity_category": "Availability",
                 "citations": {},
                 "sources": [
                   {
-                    "name": "American Community Survey",
+                    "name": "American Community Survey Table B28002",
                     "date_accessed": 2021,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -3942,18 +4322,22 @@
                 "measure": "perc_hh_with_cable_fiber_dsl",
                 "type": "percent",
                 "short_name": "Households with cable, fiber optic, or DSL",
-                "long_name": "Percent of households with a high speed internet service (cable, fiber optic, or DSL)",
-                "short_description": "Percent of households self-reported to have a high speed internet service (cable, fiber optic, or DSL)",
-                "long_description": "Percent of households self-reported to have a high speed internet service. A high speed internet service is defined as a cable, fiber optic, or DSL internet connection. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-                "statement": "{value} of the households in {features.name} has a cable fiber or DSL internet connection.",
+                "long_name": "Percentage of households with a high speed internet service (cable, fiber optic, or DSL)",
+                "short_description": "Percentage of households self-reported to have a high speed internet service (cable, fiber optic, or DSL)",
+                "long_description": "Percentage of households self-reported to have a high speed internet service. A high speed internet service is defined as a cable, fiber optic, or DSL internet connection. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+                "statement": "{value} of households in {features.name} have a cable, fiber optic, or DSL internet connection.",
+                "equity_category": "Availability",
                 "citations": {},
                 "sources": [
                   {
-                    "name": "American Community Survey",
+                    "name": "American Community Survey Table B28002",
                     "date_accessed": 2021,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -3976,18 +4360,22 @@
                 "measure": "perc_hh_without_compdev",
                 "type": "percent",
                 "short_name": "Households without a computer",
-                "long_name": "Percent of households without a computer",
-                "short_description": "Percent of the households self-reported to not have a computer or device at home",
-                "long_description": "Percent of the households self-reported to not have a computer or device at home. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-                "statement": "{value} of the households in {features.name} have a computer or device.",
+                "long_name": "Percentage of households without a computer",
+                "short_description": "Percentage of households self-reported to not have a computer or device at home",
+                "long_description": "Percentage of the households self-reported to not have a computer or device at home. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+                "statement": "{value} of households in {features.name} do not have a computer or device.",
+                "equity_category": "Accessibility",
                 "citations": {},
                 "sources": [
                   {
-                    "name": "American Community Survey",
+                    "name": "American Community Survey Table B28002",
                     "date_accessed": 2021,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -4010,18 +4398,22 @@
                 "measure": "perc_hh_without_internet",
                 "type": "percent",
                 "short_name": "Households without internet access",
-                "long_name": "Percent of households without internet access",
-                "short_description": "Percent of households self-reported to not have internet access at home",
-                "long_description": "Percent of households self-reported to not have internet access at home. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-                "statement": "{value} of the households in {features.name} have not internet access.",
+                "long_name": "Percentage of households without internet access",
+                "short_description": "Percentage of households self-reported to not have internet access at home",
+                "long_description": "Percentage of households self-reported to not have internet access at home. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+                "statement": "{value} of households in {features.name} do not have internet access.",
+                "equity_category": "Availability",
                 "citations": {},
                 "sources": [
                   {
-                    "name": "American Community Survey",
+                    "name": "American Community Survey Table B28002",
                     "date_accessed": 2021,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             }
           ]
@@ -4185,6 +4577,41 @@
             "number": 6,
             "page": "1711-1721",
             "doi": "10.1111/jep.13341"
+          },
+          "wan12": {
+            "id": "wan12",
+            "author": [
+              {
+                "given": "Neng",
+                "family": "Wan"
+              },
+              {
+                "given": "Bin",
+                "family": "Zou"
+              },
+              {
+                "given": "Troy",
+                "family": "Sternberg"
+              }
+            ],
+            "year": 2012,
+            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+            "journal": "International Journal of Geographical Information Science",
+            "volume": "26",
+            "page": "1073-1089",
+            "doi": "10.1080/13658816.2011.624987"
+          },
+          "bii21": {
+            "id": "bii21",
+            "author": [
+              {
+                "family": "Biocomplexity Institute and Initiative"
+              }
+            ],
+            "year": 2021,
+            "title": "catchment: Calculate spatial access and availability metrics",
+            "version": "0.0.1",
+            "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
         "sha512": "b52f42e1876a3fb53412c47a2046e2c0271f9d84fc29e22da4cf9f834ffa2cd0b295c97bf2a47bb22f083c30f1dff1ba35672224334943685ccfbd41b0f719c2",
@@ -4227,7 +4654,10 @@
               "max": 2021,
               "info": {
                 "citations": {},
-                "sources": {}
+                "sources": {},
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -4254,6 +4684,7 @@
                 "short_description": "Index of 3-year college accessibility based on supply and demand of providers",
                 "long_description": "2-year college access score based on 3-step floating catchment areas. This method is an aggregation of college capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for 2-year college (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (graduate and undergraduate).",
                 "statement": "The 2-year college accessibility score for {features.name} is {value}.",
+                "equity_category": "Accessibility",
                 "citations": [
                   "lou04",
                   "lou09",
@@ -4266,7 +4697,13 @@
                     "date_accessed": 2021,
                     "url": "https://nces.ed.gov"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {
+                    "doi": "doi:10.18130/V3/7VXR00",
+                    "fileId": 55908
+                  }
+                }
               }
             },
             {
@@ -4300,7 +4737,10 @@
                     "date_accessed": 2021,
                     "url": "https://www.doe.virginia.gov/statistics_reports/sol-pass-rates/index.shtml"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -4330,7 +4770,10 @@
                     "date_accessed": "2021",
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -4365,7 +4808,10 @@
                     "date_accessed": 2021,
                     "url": "https://nces.ed.gov"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -4400,7 +4846,10 @@
                     "date_accessed": 2021,
                     "url": "https://nces.ed.gov"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -4435,7 +4884,10 @@
                     "date_accessed": 2021,
                     "url": "https://nces.ed.gov"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -4469,7 +4921,10 @@
                     "date_accessed": 2021,
                     "url": "https://www.dss.virginia.gov/facility/search/cc.cgi"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -4508,7 +4963,10 @@
                     "date_accessed": 2021,
                     "url": "https://www.dss.virginia.gov/facility/search/cc.cgi"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -4542,7 +5000,10 @@
                     "date_accessed": 2021,
                     "url": "https://www.dss.virginia.gov/facility/search/cc.cgi"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -4581,7 +5042,10 @@
                     "date_accessed": 2021,
                     "url": "https://www.ookla.com/ookla-for-good/open-data"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -4599,7 +5063,7 @@
               "max": 1000,
               "info": {
                 "category": "Health",
-                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_dentists",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores",
                 "full_name": "access_scores_dentists:dent_cnt",
                 "measure": "dent_cnt",
                 "type": "count",
@@ -4611,11 +5075,14 @@
                 "citations": {},
                 "sources": [
                   {
-                    "name": "SafeGraph Core",
+                    "name": "WebMD Physician Directory",
                     "date_accessed": 2021,
-                    "url": "https://www.safegraph.com/products/core"
+                    "url": "https://doctor.webmd.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -4633,7 +5100,7 @@
               "max": 1.4019,
               "info": {
                 "category": "Health",
-                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_dentists",
+                "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_dentists_access_scores",
                 "full_name": "access_scores_dentists:dent_e2sfca",
                 "measure": "dent_e2sfca",
                 "type": "index",
@@ -4650,11 +5117,14 @@
                 ],
                 "sources": [
                   {
-                    "name": "SafeGraph Core",
+                    "name": "WebMD Physician Directory",
                     "date_accessed": 2021,
-                    "url": "https://www.safegraph.com/products/core"
+                    "url": "https://doctor.webmd.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -4688,7 +5158,10 @@
                     "date_accessed": 2021,
                     "url": "https://www.ookla.com/ookla-for-good/open-data"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -4722,7 +5195,10 @@
                     "date_accessed": 2021,
                     "url": "https://nces.ed.gov"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -4756,7 +5232,10 @@
                     "date_accessed": 2021,
                     "url": "https://nces.ed.gov"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -4790,7 +5269,10 @@
                     "date_accessed": "2021",
                     "url": "https://www.vdh.virginia.gov/surveillance-and-investigation/syndromic-surveillance/drug-overdose-surveillance/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -4824,7 +5306,10 @@
                     "date_accessed": 2021,
                     "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -4842,7 +5327,7 @@
               "max": 0.4985,
               "info": {
                 "category": "Health",
-                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_ems",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
                 "full_name": "access_scores_ems:ems_3sfca",
                 "measure": "ems_3sfca",
                 "type": "index",
@@ -4863,7 +5348,10 @@
                     "date_accessed": 2021,
                     "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -4881,7 +5369,7 @@
               "max": 58,
               "info": {
                 "category": "Health",
-                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_ems",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
                 "full_name": "access_scores_ems:ems_cnt",
                 "measure": "ems_cnt",
                 "type": "count",
@@ -4897,7 +5385,10 @@
                     "date_accessed": 2021,
                     "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -4931,7 +5422,10 @@
                     "date_accessed": "2021",
                     "url": "https://www.feedingamerica.org/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -4965,7 +5459,10 @@
                     "date_accessed": "2021",
                     "url": "https://www.feedingamerica.org/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -4999,7 +5496,10 @@
                     "date_accessed": "2021",
                     "url": "https://www.feedingamerica.org/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -5033,7 +5533,10 @@
                     "date_accessed": "2021",
                     "url": "https://www.feedingamerica.org/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -5075,7 +5578,10 @@
                     "date_accessed": 2021,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -5109,7 +5615,10 @@
                     "date_accessed": 2021,
                     "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -5148,7 +5657,10 @@
                     "date_accessed": 2021,
                     "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -5182,7 +5694,10 @@
                     "date_accessed": 2021,
                     "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -5212,7 +5727,10 @@
                     "date_accessed": 2021,
                     "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -5251,7 +5769,10 @@
                     "date_accessed": 2021,
                     "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -5285,7 +5806,10 @@
                     "date_accessed": 2021,
                     "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -5319,7 +5843,10 @@
                     "date_accessed": 2022,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -5353,7 +5880,10 @@
                     "date_accessed": 2021,
                     "url": "https://doctor.webmd.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -5392,7 +5922,10 @@
                     "date_accessed": 2021,
                     "url": "https://doctor.webmd.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -5426,7 +5959,10 @@
                     "date_accessed": 2021,
                     "url": "https://doctor.webmd.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -5465,7 +6001,10 @@
                     "date_accessed": 2021,
                     "url": "https://doctor.webmd.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -5504,7 +6043,10 @@
                     "date_accessed": 2021,
                     "url": "https://broadbandnow.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -5543,7 +6085,10 @@
                     "date_accessed": 2021,
                     "url": "https://broadbandnow.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -5582,7 +6127,10 @@
                     "date_accessed": 2021,
                     "url": "https://broadbandnow.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -5604,11 +6152,12 @@
                 "full_name": "percent_poor_ment_hlth_days_14_and_over:perc_poor_ment_hlth_days_14_and_over",
                 "measure": "perc_poor_ment_hlth_days_14_and_over",
                 "type": "percent",
-                "short_name": "Poor mental health population",
-                "long_name": "Percent of the population with poor mental health",
+                "short_name": "Percentage reporting poor mental health",
+                "long_name": "Percentage reporting poor mental health",
                 "short_description": "Percent of the population self-reporting poor mental health",
                 "long_description": "Percent of the population self-reporting poor mental health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
                 "statement": "{value} of the population in {features.name} reports poor mental health.",
+                "equity_category": "Status",
                 "citations": {},
                 "sources": [
                   {
@@ -5616,7 +6165,10 @@
                     "date_accessed": 2021,
                     "url": "https://www.vdh.virginia.gov/brfss/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -5638,11 +6190,12 @@
                 "full_name": "percent_poor_phys_hlth_days_14_and_over:perc_poor_phys_hlth_days_14_and_over",
                 "measure": "perc_poor_phys_hlth_days_14_and_over",
                 "type": "percent",
-                "short_name": "Poor physical health population",
-                "long_name": "Percent of the population with poor physical health",
+                "short_name": "Percentage reporting poor physical health",
+                "long_name": "Percentage reporting poor physical health",
                 "short_description": "Percent of the population self-reporting poor physical health",
                 "long_description": "Percent of the population self-reporting poor physical health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
                 "statement": "{value} of the population in {features.name} reports poor physical health.",
+                "equity_category": "Status",
                 "citations": {},
                 "sources": [
                   {
@@ -5650,7 +6203,10 @@
                     "date_accessed": 2021,
                     "url": "https://www.vdh.virginia.gov/brfss/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -5672,19 +6228,23 @@
                 "full_name": "post_hs_education:perc_post_hs_edu",
                 "measure": "perc_post_hs_edu",
                 "type": "percent",
-                "short_name": "Population with post-high school education",
-                "long_name": "Percent  of population with post-high school education",
-                "short_description": "Percent of the population self-reported to have post-high school level degree",
-                "long_description": "Percent of the population self-reported to have post-high school level degree. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.",
-                "statement": "{value} of the population in {features.name} has a post-high school education.",
+                "short_name": "Percentage with post-secondary education",
+                "long_name": "Percentage with post-secondary education",
+                "short_description": "Percentage of the population self-reported to have post-secondary education",
+                "long_description": "Percentage of the population self-reported to have post-secondary education. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.",
+                "statement": "{value} of the population in {features.name} has a post-secondary education.",
+                "equity_category": "Status",
                 "citations": {},
                 "sources": [
                   {
-                    "name": "American Community Survey",
+                    "name": "American Community Survey Table B15003",
                     "date_accessed": 2021,
                     "url": "https://www.census.gov/data/developers/data-sets/acs-5year.html"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -5709,8 +6269,9 @@
                 "short_name": "Preventable hospitalizations per 100,000",
                 "long_name": "Preventable hospital stays per 100,000 Medicare enrollees",
                 "short_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees",
-                "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. This data are based on Medicare claims and come from County Health Rankings.",
+                "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. Data are based on Medicare claims and come from County Health Rankings.",
                 "statement": "{value} of the hospitalizations in {features.name} were preventable (due to conditions usually treated in outpatient settings).",
+                "equity_category": "Status",
                 "citations": {},
                 "sources": [
                   {
@@ -5718,7 +6279,10 @@
                     "date_accessed": 2021,
                     "url": "https://www.countyhealthrankings.org/app/virginia/2021/measure/factors/5/description"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -5743,8 +6307,9 @@
                 "short_name": "Primary care access (count)",
                 "long_name": "Primary care access by count",
                 "short_description": "Count of primary care physicians based on provider locations",
-                "long_description": "Count of primary care physicians based on provider locations. Address data was collected from WebMD's online Physician Directory.",
+                "long_description": "Count of primary care physicians based on provider locations. Address data were collected from WebMD's online Physician Directory.",
                 "statement": "There are {value} primary care physicians in {features.name}.",
+                "equity_category": "Availability",
                 "citations": {},
                 "sources": [
                   {
@@ -5752,7 +6317,10 @@
                     "date_accessed": 2021,
                     "url": "https://doctor.webmd.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -5770,15 +6338,16 @@
               "max": 21.3119,
               "info": {
                 "category": "Health",
-                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_primcare",
+                "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_primcare_access_scores",
                 "full_name": "access_scores_primcare:primcare_e2sfca",
-                "measure": "prim_e2sfca",
+                "measure": "primcare_e2sfca",
                 "type": "index",
                 "short_name": "Primary care access score",
                 "long_name": "Primary care access score (2-step enhanced floating catchment areas)",
                 "short_description": "Index of primary care physician accessibility based on supply and demand of providers",
-                "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data was collected from WebMD's online Physician Directory.",
+                "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data were collected from WebMD's online Physician Directory.",
                 "statement": "The primary care accessibility score for {features.name} is {value}.",
+                "equity_category": "Accessibility",
                 "citations": [
                   "lou04",
                   "lou09",
@@ -5791,7 +6360,10 @@
                     "date_accessed": 2021,
                     "url": "https://doctor.webmd.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -5812,8 +6384,9 @@
                 "short_name": "Substance use/behavioral health services access (drive time)",
                 "long_name": "Substance use/behavioral health services access by median drive time to the ten closest facilities in minutes",
                 "short_description": "Median drive time (minutes) to the ten closest substance use/behavioral health services facilities",
-                "long_description": "Median drive time in minutes to the ten closest substance use/behavioral health services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+                "long_description": "Median drive time in minutes to the ten closest substance use/behavioral health services facilities. Facility location data were collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
                 "statement": "The median drive time to the ten closest substance use/behavioral health service facilities to {features.name} is {value}.",
+                "equity_category": "Accessibility",
                 "citations": {},
                 "sources": [
                   {
@@ -5821,7 +6394,10 @@
                     "date_accessed": 2021,
                     "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -5856,7 +6432,10 @@
                     "date_accessed": 2021,
                     "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -5886,7 +6465,10 @@
                     "date_accessed": 2021,
                     "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -5913,6 +6495,7 @@
                 "short_description": "Index of trade school accessibility based on supply and demand of providers",
                 "long_description": "Trade school access score based on 3-step floating catchment areas. This method is an aggregation of trade school capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for trade schools (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (undergraduate).",
                 "statement": "The trade school accessibility score for {features.name} is {value}.",
+                "equity_category": "Accessibility",
                 "citations": [
                   "lou04",
                   "lou09",
@@ -5925,7 +6508,10 @@
                     "date_accessed": 2021,
                     "url": "https://nces.ed.gov"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -5955,7 +6541,10 @@
                     "date_accessed": "2021",
                     "url": "https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=1&acrdn=6"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -5978,18 +6567,22 @@
                 "measure": "perc_hh_with_broadband",
                 "type": "percent",
                 "short_name": "Households with broadband",
-                "long_name": "Percent of households with broadband",
-                "short_description": "Percent of households self-reported to have a broadband internet connection (any type of internet other than a dial-up)",
-                "long_description": "Percent of households self-reported to have a broadband internet connection. Broadband internet is defined as any type of internet other than a dial-up. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-                "statement": "{value} of the households in {features.name} has a broadband connection.",
+                "long_name": "Percentage of households with broadband",
+                "short_description": "Percentage of households self-reported to have a broadband internet connection (any type of internet other than a dial-up)",
+                "long_description": "Percentage of households self-reported to have a broadband internet connection. Broadband internet is defined as any type of internet other than a dial-up. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+                "statement": "{value} of households in {features.name} have a broadband connection.",
+                "equity_category": "Availability",
                 "citations": {},
                 "sources": [
                   {
-                    "name": "American Community Survey",
+                    "name": "American Community Survey Table B28002",
                     "date_accessed": 2021,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -6012,18 +6605,22 @@
                 "measure": "perc_hh_with_cable_fiber_dsl",
                 "type": "percent",
                 "short_name": "Households with cable, fiber optic, or DSL",
-                "long_name": "Percent of households with a high speed internet service (cable, fiber optic, or DSL)",
-                "short_description": "Percent of households self-reported to have a high speed internet service (cable, fiber optic, or DSL)",
-                "long_description": "Percent of households self-reported to have a high speed internet service. A high speed internet service is defined as a cable, fiber optic, or DSL internet connection. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-                "statement": "{value} of the households in {features.name} has a cable fiber or DSL internet connection.",
+                "long_name": "Percentage of households with a high speed internet service (cable, fiber optic, or DSL)",
+                "short_description": "Percentage of households self-reported to have a high speed internet service (cable, fiber optic, or DSL)",
+                "long_description": "Percentage of households self-reported to have a high speed internet service. A high speed internet service is defined as a cable, fiber optic, or DSL internet connection. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+                "statement": "{value} of households in {features.name} have a cable, fiber optic, or DSL internet connection.",
+                "equity_category": "Availability",
                 "citations": {},
                 "sources": [
                   {
-                    "name": "American Community Survey",
+                    "name": "American Community Survey Table B28002",
                     "date_accessed": 2021,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -6046,18 +6643,22 @@
                 "measure": "perc_hh_without_compdev",
                 "type": "percent",
                 "short_name": "Households without a computer",
-                "long_name": "Percent of households without a computer",
-                "short_description": "Percent of the households self-reported to not have a computer or device at home",
-                "long_description": "Percent of the households self-reported to not have a computer or device at home. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-                "statement": "{value} of the households in {features.name} have a computer or device.",
+                "long_name": "Percentage of households without a computer",
+                "short_description": "Percentage of households self-reported to not have a computer or device at home",
+                "long_description": "Percentage of the households self-reported to not have a computer or device at home. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+                "statement": "{value} of households in {features.name} do not have a computer or device.",
+                "equity_category": "Accessibility",
                 "citations": {},
                 "sources": [
                   {
-                    "name": "American Community Survey",
+                    "name": "American Community Survey Table B28002",
                     "date_accessed": 2021,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             },
             {
@@ -6080,18 +6681,22 @@
                 "measure": "perc_hh_without_internet",
                 "type": "percent",
                 "short_name": "Households without internet access",
-                "long_name": "Percent of households without internet access",
-                "short_description": "Percent of households self-reported to not have internet access at home",
-                "long_description": "Percent of households self-reported to not have internet access at home. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-                "statement": "{value} of the households in {features.name} have not internet access.",
+                "long_name": "Percentage of households without internet access",
+                "short_description": "Percentage of households self-reported to not have internet access at home",
+                "long_description": "Percentage of households self-reported to not have internet access at home. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+                "statement": "{value} of households in {features.name} do not have internet access.",
+                "equity_category": "Availability",
                 "citations": {},
                 "sources": [
                   {
-                    "name": "American Community Survey",
+                    "name": "American Community Survey Table B28002",
                     "date_accessed": 2021,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
-                ]
+                ],
+                "access": {
+                  "dataverse": {}
+                }
               }
             }
           ]
@@ -6255,6 +6860,41 @@
             "number": 6,
             "page": "1711-1721",
             "doi": "10.1111/jep.13341"
+          },
+          "wan12": {
+            "id": "wan12",
+            "author": [
+              {
+                "given": "Neng",
+                "family": "Wan"
+              },
+              {
+                "given": "Bin",
+                "family": "Zou"
+              },
+              {
+                "given": "Troy",
+                "family": "Sternberg"
+              }
+            ],
+            "year": 2012,
+            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+            "journal": "International Journal of Geographical Information Science",
+            "volume": "26",
+            "page": "1073-1089",
+            "doi": "10.1080/13658816.2011.624987"
+          },
+          "bii21": {
+            "id": "bii21",
+            "author": [
+              {
+                "family": "Biocomplexity Institute and Initiative"
+              }
+            ],
+            "year": 2021,
+            "title": "catchment: Calculate spatial access and availability metrics",
+            "version": "0.0.1",
+            "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
         "sha512": "95439dbf19dd46c9ec5a17201b049fe7338c12ba04f59b52ab677c51a64236579e7ae33e323d4c0363ef61a31a5c5ebb19efba337add9e6c37f9935635e9dfa2",
@@ -6839,7 +7479,8 @@
           "name": "name",
           "region_type": "type"
         }
-      }
+      },
+      "api": false
     },
     "DownloadAll": {
       "effects": "export",
@@ -6850,7 +7491,8 @@
           "name": "name",
           "region_type": "type"
         }
-      }
+      },
+      "api": false
     }
   }
 }

@@ -158,6 +158,41 @@
       "number": 6,
       "page": "1711-1721",
       "doi": "10.1111/jep.13341"
+    },
+    "wan12": {
+      "id": "wan12",
+      "author": [
+        {
+          "given": "Neng",
+          "family": "Wan"
+        },
+        {
+          "given": "Bin",
+          "family": "Zou"
+        },
+        {
+          "given": "Troy",
+          "family": "Sternberg"
+        }
+      ],
+      "year": 2012,
+      "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+      "journal": "International Journal of Geographical Information Science",
+      "volume": "26",
+      "page": "1073–1089",
+      "doi": "10.1080/13658816.2011.624987"
+    },
+    "bii21": {
+      "id": "bii21",
+      "author": [
+        {
+          "family": "Biocomplexity Institute and Initiative"
+        }
+      ],
+      "year": 2021,
+      "title": "catchment: Calculate spatial access and availability metrics",
+      "version": "0.0.1",
+      "url": "https://github.com/uva-bi-sdad/catchment"
     }
   },
   "2year_colleges_access_scores:norm_3sfca": {
@@ -171,14 +206,26 @@
     "short_description": "Index of 3-year college accessibility based on supply and demand of providers",
     "long_description": "2-year college access score based on 3-step floating catchment areas. This method is an aggregation of college capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for 2-year college (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (graduate and undergraduate).",
     "statement": "The 2-year college accessibility score for {features.name} is {value}.",
-    "citations": ["lou04", "lou09", "lou03", "saxon20"],
+    "equity_category": "Accessibility",
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
     "sources": [
       {
         "name": "National Center for Education Statistics",
         "date_accessed": 2021,
         "url": "https://nces.ed.gov"
       }
-    ]
+    ],
+    "access": {
+      "dataverse": {
+        "doi": "doi:10.18130/V3/7VXR00",
+        "fileId": 55908
+      }
+    }
   },
   "3rd_grade_median_read_score:median_read_pass_rate": {
     "category": "Education",
@@ -229,7 +276,12 @@
     "short_description": "Index of community college computer science program accessibility based on supply and demand of programs",
     "long_description": "Community college computer science program access score based on 3-step floating catchment areas. This method is an aggregation of programs per population ratios weighted by distance or travel time in each catchment area (area within which a program is accessible). Weights are defined for the demand for programs (adult population) and the supply is the capacity of programs (number of seats).",
     "statement": "The community college computer science program accessibility score in {features.name} is {value}.",
-    "citations": ["lou04", "lou09", "lou03", "saxon20"],
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
     "sources": [
       {
         "name": "National Center for Education Statistics",
@@ -249,7 +301,12 @@
     "short_description": "Index of community college engineering program accessibility based on supply and demand of programs",
     "long_description": "Community college engineering program access score based on 3-step floating catchment areas. This method is an aggregation of programs per population ratios weighted by distance or travel time in each catchment area (area within which a program is accessible). Weights are defined for the demand for programs (adult population) and the supply is the capacity of programs (number of seats).",
     "statement": "The community college engineering program accessibility score in {features.name} is {value}.",
-    "citations": ["lou04", "lou09", "lou03", "saxon20"],
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
     "sources": [
       {
         "name": "National Center for Education Statistics",
@@ -269,7 +326,12 @@
     "short_description": "Index of community college engineering-related program accessibility based on supply and demand of programs",
     "long_description": "Community college engineering-related program access score based on 3-step floating catchment areas. This method is an aggregation of programs per population ratios weighted by distance or travel time in each catchment area (area within which a program is accessible). Weights are defined for the demand for programs (adult population) and the supply is the capacity of programs (number of seats).",
     "statement": "The community college engineering-related program accessibility score in {features.name} is {value}.",
-    "citations": ["lou04", "lou09", "lou03", "saxon20"],
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
     "sources": [
       {
         "name": "National Center for Education Statistics",
@@ -308,7 +370,12 @@
     "short_description": "Index of day care accessibility based on supply of and demand for providers",
     "long_description": "Day care access score based on 3-step floating catchment areas. This method is an aggregation of day care facilities per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Provider address data were collected from Virginia Department of Social Services day care search tool. The demand for day care services is the population 0-15 years old and the supply is the capacity of day cares (number of seats).",
     "statement": "The daycare accessibility score for {features.name} is {value}.",
-    "citations": ["lou04", "lou09", "lou03", "saxon20"],
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
     "sources": [
       {
         "name": "Virginia Department of Social Services",
@@ -347,7 +414,9 @@
     "short_description": "Digital Equity Index captures the relative equity of digital access, with 0 being a score of relative equity and 100 being relative inequity.",
     "long_description": "The Digital Equity Index (DEI) is a composite variable indicating the degree of broadband equity as it relates to adoption, accessibility, and infrastructure. It ranges from 0 to 100, where 100 indicates the most equitable broadband access. The DEI is constructed at the Census tract level and is composed of the following variables: percent of the population under 65 years of age, percent of the population with at least a high school education, percent of the population with income below the poverty level, percent of the population without a disability, the ratio between the share of homes making $75,000 or more per year with internet and the share of homes making less than $35,000 per year without internet, percent of the population with at least one computer, percent of the population with internet access, percent of the population that is low income (less than 30% of HUD Area Median Family Income) and have a housing cost burden over 30%, and average download speeds, upload speeds, and latency from Ookla speed tests.",
     "statement": "The Digital Equity Index for {features.name} is {value}.",
-    "citations": ["gallardo20"],
+    "citations": [
+      "gallardo20"
+    ],
     "sources": [
       {
         "name": "American Community Survey",
@@ -363,7 +432,7 @@
   },
   "access_scores_dentists:dent_cnt": {
     "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_dentists",
+    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores",
     "full_name": "access_scores_dentists:dent_cnt",
     "measure": "dent_cnt",
     "type": "count",
@@ -374,15 +443,15 @@
     "statement": "There are {value} dentists in {features.name}.",
     "sources": [
       {
-        "name": "SafeGraph Core",
+        "name": "WebMD Physician Directory",
         "date_accessed": 2021,
-        "url": "https://www.safegraph.com/products/core"
+        "url": "https://doctor.webmd.com/"
       }
     ]
   },
   "access_scores_dentists:dent_e2sfca": {
     "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_dentists",
+    "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_dentists_access_scores",
     "full_name": "access_scores_dentists:dent_e2sfca",
     "measure": "dent_e2sfca",
     "type": "index",
@@ -391,12 +460,17 @@
     "short_description": "Index of dental care accessibility based on supply and demand of providers",
     "long_description": "Dental care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of dentists per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for dentists (population served by dentists). Provider address data was collected from WebMD's online Physician Directory.",
     "statement": "The dental care access score for {features.name} is {value}.",
-    "citations": ["lou04", "lou09", "lou03", "saxon20"],
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
     "sources": [
       {
-        "name": "SafeGraph Core",
+        "name": "WebMD Physician Directory",
         "date_accessed": 2021,
-        "url": "https://www.safegraph.com/products/core"
+        "url": "https://doctor.webmd.com/"
       }
     ]
   },
@@ -497,7 +571,7 @@
   },
   "access_scores_ems:ems_3sfca": {
     "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_ems",
+    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
     "full_name": "access_scores_ems:ems_3sfca",
     "measure": "ems_3sfca",
     "type": "index",
@@ -506,7 +580,12 @@
     "short_description": "Index of emergency medical services accessibility based on supply and demand of facilities",
     "long_description": "Emergency medical services access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
     "statement": "The emergency medical services accessibility score for {features.name} is {value}.",
-    "citations": ["lou04", "lou09", "lou03", "saxon20"],
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
     "sources": [
       {
         "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -517,7 +596,7 @@
   },
   "access_scores_ems:ems_cnt": {
     "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_ems",
+    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
     "full_name": "access_scores_ems:ems_cnt",
     "measure": "ems_cnt",
     "type": "count",
@@ -621,7 +700,10 @@
     "short_description": "Health literacy estimate captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions",
     "long_description": "The health literacy estimate captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions. Health literacy estimate is based on variables of demographic characteristics, health status, and health care use.",
     "statement": "The health literacy estimate for {features.name} is {value}.",
-    "citations": ["savitz20", "liang17"],
+    "citations": [
+      "savitz20",
+      "liang17"
+    ],
     "sources": [
       {
         "name": "Medical Expenditure Panel Survey",
@@ -665,7 +747,12 @@
     "short_description": "Index of hospital accessibility based on supply and demand of facilities",
     "long_description": "Hospital access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
     "statement": "The hospital accessibility score for {features.name} is {value}.",
-    "citations": ["lou04", "lou09", "lou03", "saxon20"],
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
     "sources": [
       {
         "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -723,7 +810,12 @@
     "short_description": "Index of mental health services accessibility based on supply and demand of facilities",
     "long_description": "Mental health services access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
     "statement": "The mental health services accessibility score for {features.name} is {value}.",
-    "citations": ["lou04", "lou09", "lou03", "saxon20"],
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
     "sources": [
       {
         "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -800,7 +892,12 @@
     "short_description": "Index of OBGYN care accessibility based on supply and demand of providers",
     "long_description": "OBGYN care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data was collected from WebMD's online physician directory.",
     "statement": "The OBGYN access score for {features.name} is {value}.",
-    "citations": ["lou04", "lou09", "lou03", "saxon20"],
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
     "sources": [
       {
         "name": "WebMD Physician Directory",
@@ -839,7 +936,12 @@
     "short_description": "Index of pediatric care physician accessibility based on supply and demand of providers",
     "long_description": "Pediatric care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of pediatricians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for pediatricians (population under 16). Provider address data was collected from WebMD's online Physician Directory.",
     "statement": "The pediatric care accessibility score for {features.name} is {value}.",
-    "citations": ["lou04", "lou09", "lou03", "saxon20"],
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
     "sources": [
       {
         "name": "WebMD Physician Directory",
@@ -926,11 +1028,12 @@
     "full_name": "percent_poor_ment_hlth_days_14_and_over:perc_poor_ment_hlth_days_14_and_over",
     "measure": "perc_poor_ment_hlth_days_14_and_over",
     "type": "percent",
-    "short_name": "Poor mental health population",
-    "long_name": "Percent of the population with poor mental health",
+    "short_name": "Percentage reporting poor mental health",
+    "long_name": "Percentage reporting poor mental health",
     "short_description": "Percent of the population self-reporting poor mental health",
     "long_description": "Percent of the population self-reporting poor mental health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
     "statement": "{value} of the population in {features.name} reports poor mental health.",
+    "equity_category": "Status",
     "sources": [
       {
         "name": "Virginia Behavioral Risk Factor Surveillance System",
@@ -945,11 +1048,12 @@
     "full_name": "percent_poor_phys_hlth_days_14_and_over:perc_poor_phys_hlth_days_14_and_over",
     "measure": "perc_poor_phys_hlth_days_14_and_over",
     "type": "percent",
-    "short_name": "Poor physical health population",
-    "long_name": "Percent of the population with poor physical health",
+    "short_name": "Percentage reporting poor physical health",
+    "long_name": "Percentage reporting poor physical health",
     "short_description": "Percent of the population self-reporting poor physical health",
     "long_description": "Percent of the population self-reporting poor physical health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
     "statement": "{value} of the population in {features.name} reports poor physical health.",
+    "equity_category": "Status",
     "sources": [
       {
         "name": "Virginia Behavioral Risk Factor Surveillance System",
@@ -964,14 +1068,15 @@
     "full_name": "post_hs_education:perc_post_hs_edu",
     "measure": "perc_post_hs_edu",
     "type": "percent",
-    "short_name": "Population with post-high school education",
-    "long_name": "Percent  of population with post-high school education",
-    "short_description": "Percent of the population self-reported to have post-high school level degree",
-    "long_description": "Percent of the population self-reported to have post-high school level degree. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.",
-    "statement": "{value} of the population in {features.name} has a post-high school education.",
+    "short_name": "Percentage with post-secondary education",
+    "long_name": "Percentage with post-secondary education",
+    "short_description": "Percentage of the population self-reported to have post-secondary education",
+    "long_description": "Percentage of the population self-reported to have post-secondary education. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.",
+    "statement": "{value} of the population in {features.name} has a post-secondary education.",
+    "equity_category": "Status",
     "sources": [
       {
-        "name": "American Community Survey",
+        "name": "American Community Survey Table B15003",
         "date_accessed": 2021,
         "url": "https://www.census.gov/data/developers/data-sets/acs-5year.html"
       }
@@ -986,8 +1091,9 @@
     "short_name": "Preventable hospitalizations per 100,000",
     "long_name": "Preventable hospital stays per 100,000 Medicare enrollees",
     "short_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees",
-    "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. This data are based on Medicare claims and come from County Health Rankings.",
+    "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. Data are based on Medicare claims and come from County Health Rankings.",
     "statement": "{value} of the hospitalizations in {features.name} were preventable (due to conditions usually treated in outpatient settings).",
+    "equity_category": "Status",
     "sources": [
       {
         "name": "County Health Rankings",
@@ -1005,8 +1111,9 @@
     "short_name": "Primary care access (count)",
     "long_name": "Primary care access by count",
     "short_description": "Count of primary care physicians based on provider locations",
-    "long_description": "Count of primary care physicians based on provider locations. Address data was collected from WebMD's online Physician Directory.",
+    "long_description": "Count of primary care physicians based on provider locations. Address data were collected from WebMD's online Physician Directory.",
     "statement": "There are {value} primary care physicians in {features.name}.",
+    "equity_category": "Availability",
     "sources": [
       {
         "name": "WebMD Physician Directory",
@@ -1017,16 +1124,22 @@
   },
   "access_scores_primcare:primcare_e2sfca": {
     "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_primcare",
+    "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_primcare_access_scores",
     "full_name": "access_scores_primcare:primcare_e2sfca",
-    "measure": "prim_e2sfca",
+    "measure": "primcare_e2sfca",
     "type": "index",
     "short_name": "Primary care access score",
     "long_name": "Primary care access score (2-step enhanced floating catchment areas)",
     "short_description": "Index of primary care physician accessibility based on supply and demand of providers",
-    "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data was collected from WebMD's online Physician Directory.",
+    "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data were collected from WebMD's online Physician Directory.",
     "statement": "The primary care accessibility score for {features.name} is {value}.",
-    "citations": ["lou04", "lou09", "lou03", "saxon20"],
+    "equity_category": "Accessibility",
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
     "sources": [
       {
         "name": "WebMD Physician Directory",
@@ -1044,8 +1157,9 @@
     "short_name": "Substance use/behavioral health services access (drive time)",
     "long_name": "Substance use/behavioral health services access by median drive time to the ten closest facilities in minutes",
     "short_description": "Median drive time (minutes) to the ten closest substance use/behavioral health services facilities",
-    "long_description": "Median drive time in minutes to the ten closest substance use/behavioral health services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+    "long_description": "Median drive time in minutes to the ten closest substance use/behavioral health services facilities. Facility location data were collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
     "statement": "The median drive time to the ten closest substance use/behavioral health service facilities to {features.name} is {value}.",
+    "equity_category": "Accessibility",
     "sources": [
       {
         "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -1065,7 +1179,12 @@
     "short_description": "Index of substance use/behavioral health services accessibility based on supply and demand of facilities",
     "long_description": "Substance use/behavioral health services access score based on 3-step  floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
     "statement": "The substance use/behavioral health services accessibility score for {features.name} is {value}.",
-    "citations": ["lou04", "lou09", "lou03", "saxon20"],
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
     "sources": [
       {
         "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -1104,7 +1223,13 @@
     "short_description": "Index of trade school accessibility based on supply and demand of providers",
     "long_description": "Trade school access score based on 3-step floating catchment areas. This method is an aggregation of trade school capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for trade schools (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (undergraduate).",
     "statement": "The trade school accessibility score for {features.name} is {value}.",
-    "citations": ["lou04", "lou09", "lou03", "saxon20"],
+    "equity_category": "Accessibility",
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
     "sources": [
       {
         "name": "National Center for Education Statistics",
@@ -1139,13 +1264,14 @@
     "measure": "perc_hh_with_broadband",
     "type": "percent",
     "short_name": "Households with broadband",
-    "long_name": "Percent of households with broadband",
-    "short_description": "Percent of households self-reported to have a broadband internet connection (any type of internet other than a dial-up)",
-    "long_description": "Percent of households self-reported to have a broadband internet connection. Broadband internet is defined as any type of internet other than a dial-up. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "statement": "{value} of the households in {features.name} has a broadband connection.",
+    "long_name": "Percentage of households with broadband",
+    "short_description": "Percentage of households self-reported to have a broadband internet connection (any type of internet other than a dial-up)",
+    "long_description": "Percentage of households self-reported to have a broadband internet connection. Broadband internet is defined as any type of internet other than a dial-up. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+    "statement": "{value} of households in {features.name} have a broadband connection.",
+    "equity_category": "Availability",
     "sources": [
       {
-        "name": "American Community Survey",
+        "name": "American Community Survey Table B28002",
         "date_accessed": 2021,
         "url": "https://www.census.gov/programs-surveys/acs.html"
       }
@@ -1158,13 +1284,14 @@
     "measure": "perc_hh_with_cable_fiber_dsl",
     "type": "percent",
     "short_name": "Households with cable, fiber optic, or DSL",
-    "long_name": "Percent of households with a high speed internet service (cable, fiber optic, or DSL)",
-    "short_description": "Percent of households self-reported to have a high speed internet service (cable, fiber optic, or DSL)",
-    "long_description": "Percent of households self-reported to have a high speed internet service. A high speed internet service is defined as a cable, fiber optic, or DSL internet connection. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "statement": "{value} of the households in {features.name} has a cable fiber or DSL internet connection.",
+    "long_name": "Percentage of households with a high speed internet service (cable, fiber optic, or DSL)",
+    "short_description": "Percentage of households self-reported to have a high speed internet service (cable, fiber optic, or DSL)",
+    "long_description": "Percentage of households self-reported to have a high speed internet service. A high speed internet service is defined as a cable, fiber optic, or DSL internet connection. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+    "statement": "{value} of households in {features.name} have a cable, fiber optic, or DSL internet connection.",
+    "equity_category": "Availability",
     "sources": [
       {
-        "name": "American Community Survey",
+        "name": "American Community Survey Table B28002",
         "date_accessed": 2021,
         "url": "https://www.census.gov/programs-surveys/acs.html"
       }
@@ -1177,13 +1304,14 @@
     "measure": "perc_hh_without_compdev",
     "type": "percent",
     "short_name": "Households without a computer",
-    "long_name": "Percent of households without a computer",
-    "short_description": "Percent of the households self-reported to not have a computer or device at home",
-    "long_description": "Percent of the households self-reported to not have a computer or device at home. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "statement": "{value} of the households in {features.name} have a computer or device.",
+    "long_name": "Percentage of households without a computer",
+    "short_description": "Percentage of households self-reported to not have a computer or device at home",
+    "long_description": "Percentage of the households self-reported to not have a computer or device at home. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+    "statement": "{value} of households in {features.name} do not have a computer or device.",
+    "equity_category": "Accessibility",
     "sources": [
       {
-        "name": "American Community Survey",
+        "name": "American Community Survey Table B28002",
         "date_accessed": 2021,
         "url": "https://www.census.gov/programs-surveys/acs.html"
       }
@@ -1196,13 +1324,14 @@
     "measure": "perc_hh_without_internet",
     "type": "percent",
     "short_name": "Households without internet access",
-    "long_name": "Percent of households without internet access",
-    "short_description": "Percent of households self-reported to not have internet access at home",
-    "long_description": "Percent of households self-reported to not have internet access at home. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "statement": "{value} of the households in {features.name} have not internet access.",
+    "long_name": "Percentage of households without internet access",
+    "short_description": "Percentage of households self-reported to not have internet access at home",
+    "long_description": "Percentage of households self-reported to not have internet access at home. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+    "statement": "{value} of households in {features.name} do not have internet access.",
+    "equity_category": "Availability",
     "sources": [
       {
-        "name": "American Community Survey",
+        "name": "American Community Survey Table B28002",
         "date_accessed": 2021,
         "url": "https://www.census.gov/programs-surveys/acs.html"
       }
