@@ -79,6 +79,9 @@ page_navbar(
           "[Virginia Department of Health](https://www.vdh.virginia.gov)."
         ),
         "View its source on [GitHub](https://github.com/uva-bi-sdad/vdh_rural_health_site).",
+        input_button("Download All Data", "export", query = list(
+          features = list(geoid = "id", name = "name", region_type = "type")
+        ), class = "btn-full"),
         "Credits",
         paste(
           "Built in [R](https://www.r-project.org) with the",
@@ -213,20 +216,9 @@ page_menu(
       breakpoints = "md"
     )
   ),
-  page_section(
-    input_button(
-      "Download Selection", "export", dataview = "primary_view", query = list(
-        include = "selected_variable",
-        features = list(geoid = "id", name = "name", region_type = "type")
-      ), class = "btn-full"
-    ),
-    input_button("Download All", "export", query = list(
-      features = list(geoid = "id", name = "name", region_type = "type")
-    ), class = "btn-full")
-  ),
   position = "top",
   default_open = TRUE,
-  sizes = c(1, NA, 1, NA, 3, 1)
+  sizes = c(1, NA, 1, NA, 3)
 )
 
 ## `input_variable` can be used to set up logical controls
@@ -342,12 +334,28 @@ page_section(
     ),
     page_section(
       type = "d-flex flex-column col align-items-end compact",
-      ## use `output_info` to display information about selected and hovered-over entities
       output_info(
         title = "variables.short_name",
-        body = "variables.sources",
         dataview = "primary_view",
         id = "variable_info_pane",
+      ),
+      page_section(
+        wraps = "col", sizes = c(8, NA),
+        output_info(body = "variables.sources", dataview = "primary_view"),
+        page_section(
+          input_button(
+            "Download", "export", dataview = "primary_view", query = list(
+              include = "selected_variable",
+              features = list(geoid = "id", name = "name", region_type = "type")
+            ), class = "btn-full"
+          ),
+          input_button(
+            "Copy API link", "copy", dataview = "primary_view", query = list(
+              include = "selected_variable", dataset = "shapes",
+              features = list(geoid = "id", name = "name", region_type = "type")
+            ), class = "btn-full"
+          )
+        )
       ),
       page_section(
         wraps = "row",
@@ -369,23 +377,30 @@ page_section(
           variable_info = FALSE
         )
       ),
-      output_legend(
-        dataview = "primary_view", click = "region_select",
-        subto = c("main_map", "main_plot", "rank_table", "main_legend"), id = "main_legend"
-      ),
-      wraps = c("row", "row mb-auto", "row")
+      wraps = "row"
     )
   ),
   page_section(
     type = "row",
     wraps = "col",
-    sizes = c(7, 5),
+    sizes = c(5, 7),
+    page_section(
+      output_legend(
+        "settings.palette", dataview = "primary_view", click = "region_select",
+        subto = c("main_map", "main_plot", "rank_table"), id = "main_legend"
+      ),
+      output_table("selected_variable", dataview = "primary_view", options = list(
+        info = FALSE,
+        searching = FALSE,
+        scrollY = 300,
+        dom = "<'row't>"
+      ), id = "rank_table", click = "region_select", subto = c("main_map", "main_plot", "main_legend"))
+    ),
     output_plot(
       x = "time", y = "selected_variable", dataview = "primary_view",
       click = "region_select", subto = c("main_map", "rank_table", "main_legend"), id = "main_plot",
       options = list(
         layout = list(
-          showlegend = FALSE,
           xaxis = list(title = FALSE, fixedrange = TRUE),
           yaxis = list(fixedrange = TRUE, zeroline = FALSE)
         ),
@@ -396,18 +411,6 @@ page_section(
         ),
         config = list(modeBarButtonsToRemove = c("select2d", "lasso2d", "sendDataToCloud"))
       )
-    ),
-    output_table("selected_variable", dataview = "primary_view", options = list(
-      info = FALSE,
-      searching = FALSE,
-      scrollY = 455,
-      dom = "<'row't>"
-    ), id = "rank_table", click = "region_select", subto = c("main_map", "main_plot", "main_legend"))
+    )
   )
-)
-
-# render the site
-site_build(
-  '../vdh_rural_health_site', serve = TRUE,
-  parent = "https://uva-bi-sdad.github.io/community_example/"
 )
