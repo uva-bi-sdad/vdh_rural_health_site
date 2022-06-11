@@ -180,6 +180,46 @@
       }
     ]
   },
+  "brfss_sae:perc_poor_phys_hlth_days_14_and_over": {
+    "category": "Health",
+    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2015_2019_percent_poor_phys_hlth_days_14_and_over",
+    "full_name": "brfss_sae:perc_poor_phys_hlth_days_14_and_over",
+    "measure": "perc_poor_phys_hlth_days_14_and_over",
+    "type": "percent",
+    "short_name": "Percentage reporting poor physical health",
+    "long_name": "Percentage reporting poor physical health",
+    "short_description": "Percent of the population self-reporting poor physical health",
+    "long_description": "Percent of the population self-reporting poor physical health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
+    "statement": "{value} of the population in {features.name} reports poor physical health.",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "Virginia Behavioral Risk Factor Surveillance System",
+        "date_accessed": 2021,
+        "url": "https://www.vdh.virginia.gov/brfss/"
+      }
+    ]
+  },
+  "brfss_sae:perc_poor_ment_hlth_days_14_and_over": {
+    "category": "Health",
+    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2015_2019_percent_poor_ment_hlth_days_14_and_over",
+    "full_name": "brfss_sae:perc_poor_ment_hlth_days_14_and_over",
+    "measure": "perc_poor_ment_hlth_days_14_and_over",
+    "type": "percent",
+    "short_name": "Percentage reporting poor mental health",
+    "long_name": "Percentage reporting poor mental health",
+    "short_description": "Percent of the population self-reporting poor mental health",
+    "long_description": "Percent of the population self-reporting poor mental health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
+    "statement": "{value} of the population in {features.name} reports poor mental health.",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "Virginia Behavioral Risk Factor Surveillance System",
+        "date_accessed": 2021,
+        "url": "https://www.vdh.virginia.gov/brfss/"
+      }
+    ]
+  },
   "speed_measurements:avg_down_using_devices": {
     "category": "Broadband",
     "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
@@ -228,6 +268,26 @@
         "name": "Ookla",
         "date_accessed": 2021,
         "url": "https://www.ookla.com/ookla-for-good/open-data"
+      }
+    ]
+  },
+  "daycare_access_scores:daycare_median_drive_time_top5": {
+    "category": "Education",
+    "measure_table": "dc_education_training.va_hdcttrbg_dss_2021_daycare_access_scores",
+    "full_name": "daycare_access_scores:daycare_median_drive_time_top5",
+    "measure": "median_drive_time_top5",
+    "type": "drive time",
+    "short_name": "Day care availability (drive time)",
+    "long_name": "Day care availability by median drive time to the five closest day cares in minutes",
+    "short_description": "Median drive time (minutes) to the five closest day cares from centroid of selected region",
+    "long_description": "Median drive time in minutes to the five closest day cares from centroid of selected region. Address data were collected from the Virginia Department of Social Services Child Day Care Facility search (Dataset for year 2019). Drive times were computed using Open Source Routing Machine (Using roads for year 2022).",
+    "statement": "The median drive time to the five closest day cares to {features.name} is {value}.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "Virginia Department of Social Services",
+        "date_accessed": 2021,
+        "url": "https://www.dss.virginia.gov/facility/search/cc.cgi"
       }
     ]
   },
@@ -661,6 +721,52 @@
       }
     ]
   },
+  "access_scores_obgyn:obgyn_3sfca": {
+    "category": "Health",
+    "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_obgyns_access_scores",
+    "full_name": "access_scores_obgyn:obgyn_3sfca",
+    "measure": "obgyn_3sfca",
+    "type": "index",
+    "short_name": "OBGYN care geographic availability",
+    "long_name": "OBGYN care geographic availability (3-step floating catchment areas)",
+    "short_description": "Index of OBGYN care availability based on supply and demand of providers",
+    "long_description": "OBGYN care availability based on 3-step floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data were collected from WebMD's online physician directory.",
+    "statement": "The OBGYN availability for {features.name} is {value}.",
+    "equity_category": "Availability",
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
+    "sources": [
+      {
+        "name": "WebMD Physician Directory",
+        "date_accessed": 2021,
+        "url": "https://doctor.webmd.com/"
+      }
+    ]
+  },
+  "access_scores_obgyn:obgyn_cnt": {
+    "category": "Health",
+    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_obgyn_access_scores",
+    "full_name": "access_scores_obgyn:obgyn_cnt",
+    "measure": "obgyn_cnt",
+    "type": "count",
+    "short_name": "OBGYN care availability (count)",
+    "long_name": "OBGYN care availability by count",
+    "short_description": "Count of OBGYNs based on provider locations",
+    "long_description": "Count of OBGYN care providers based on provider locations. Address data were collected from WebMD's online Physician Directory.",
+    "statement": "There are {value} OBGYNs in {features.name}.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "WebMD Physician Directory",
+        "date_accessed": 2021,
+        "url": "https://doctor.webmd.com/"
+      }
+    ]
+  },
   "access_scores_dentists:dent_e2sfca": {
     "category": "Health",
     "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_dentists_access_scores",
@@ -707,6 +813,32 @@
       }
     ]
   },
+  "access_scores_primcare:primcare_3sfca": {
+    "category": "Health",
+    "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_primcare_access_scores",
+    "full_name": "access_scores_primcare:primcare_3sfca",
+    "measure": "primcare_3sfca",
+    "type": "index",
+    "short_name": "Primary care geographic availability",
+    "long_name": "Primary care geographic availability (3-step floating catchment areas)",
+    "short_description": "Index of primary care physician availability based on supply and demand of providers",
+    "long_description": "Primary care availability based on 3-step floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data were collected from WebMD's online Physician Directory.",
+    "statement": "The primary care availability for {features.name} is {value}.",
+    "equity_category": "Availability",
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
+    "sources": [
+      {
+        "name": "WebMD Physician Directory",
+        "date_accessed": 2021,
+        "url": "https://doctor.webmd.com/"
+      }
+    ]
+  },
   "access_scores_primcare:primcare_cnt": {
     "category": "Health",
     "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_primcare",
@@ -718,6 +850,52 @@
     "short_description": "Count of primary care physicians based on provider locations",
     "long_description": "Count of primary care physicians based on provider locations. Address data were collected from WebMD's online Physician Directory.",
     "statement": "There are {value} primary care physicians in {features.name}.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "WebMD Physician Directory",
+        "date_accessed": 2021,
+        "url": "https://doctor.webmd.com/"
+      }
+    ]
+  },
+  "access_scores_pediatric:ped_3sfca": {
+    "category": "Health",
+    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_pediatrics_access_scores",
+    "full_name": "access_scores_pediatric:ped_3sfca",
+    "measure": "ped_3sfca",
+    "type": "index",
+    "short_name": "Pediatric care geographic availability",
+    "long_name": "Pediatric care geographic availability (3-step floating catchment areas)",
+    "short_description": "Index of pediatric care physician availability based on supply and demand of providers",
+    "long_description": "Pediatric care availability based on 3-step floating catchment areas. This method is an aggregation of pediatricians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for pediatricians (population under 16). Provider address data were collected from WebMD's online Physician Directory.",
+    "statement": "The pediatric care availability for {features.name} is {value}.",
+    "equity_category": "Availability",
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
+    "sources": [
+      {
+        "name": "WebMD Physician Directory",
+        "date_accessed": 2021,
+        "url": "https://doctor.webmd.com/"
+      }
+    ]
+  },
+  "access_scores_pediatric:ped_cnt": {
+    "category": "Health",
+    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_pediatrics_access_scores",
+    "full_name": "access_scores_pediatric:ped_cnt",
+    "measure": "ped_cnt",
+    "type": "count",
+    "short_name": "Pediatric care availability (count)",
+    "long_name": "Pediatric care availability by count",
+    "short_description": "Count of pediatricians based on provider locations",
+    "long_description": "Count of pediatricians based on provider locations. Address data were collected from WebMD's online Physician Directory.",
+    "statement": "There are {value} pediatricians in {features.name}.",
     "equity_category": "Availability",
     "sources": [
       {
@@ -1098,6 +1276,26 @@
       }
     ]
   },
+  "demographics:perc_65_plus": {
+    "category": "Demographics",
+    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+    "full_name": "demographics:perc_65_plus",
+    "measure": "perc_65_plus",
+    "short_name": "65 plus population",
+    "long_name": "65 plus population (percent)",
+    "short_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The percent of the population over age 64 is {value} in {features.name}.",
+    "type": "percent",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
   "demographics:perc_20_64": {
     "category": "Demographics",
     "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
@@ -1148,6 +1346,26 @@
     "short_description": "The two or more races population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
     "long_description": "The two or more races population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
     "statement": "The two or more races population is {value} in {features.name}.",
+    "type": "percent",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "demographics:perc_other": {
+    "category": "Demographics",
+    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+    "full_name": "demographics:perc_other",
+    "measure": "perc_other",
+    "short_name": "Other racial population",
+    "long_name": "Other racial population (percent)",
+    "short_description": "The Other racial population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The Other racial population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The Other racial population is {value} in {features.name}.",
     "type": "percent",
     "equity_category": "Status",
     "sources": [
