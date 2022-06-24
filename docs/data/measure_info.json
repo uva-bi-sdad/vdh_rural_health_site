@@ -905,6 +905,471 @@
       }
     ]
   },
+  "health_literacy_estimates:health_literacy_estimate": {
+    "category": "Education",
+    "measure_table": "dc_education_training.va_hdcttr_sdad_2019_health_literacy_estimates",
+    "full_name": "health_literacy_estimates:health_literacy_estimate",
+    "measure": "health_literacy_estimate",
+    "type": "index",
+    "short_name": "Health literacy composite",
+    "long_name": "Health literacy composite",
+    "short_description": "Health literacy composite captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions",
+    "long_description": "The health literacy composite captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions. Health literacy composite is based on variables of demographic characteristics, health status, and health care use.",
+    "statement": "The health literacy composite for {features.name} is {value}.",
+    "equity_category": "Status",
+    "citations": [
+      "savitz20",
+      "liang17"
+    ],
+    "sources": [
+      {
+        "name": "Medical Expenditure Panel Survey",
+        "date_accessed": 2021,
+        "url": "https://www.meps.ahrq.gov/mepsweb/"
+      },
+      {
+        "name": "American Community Survey",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "perc_income_on_internet:perc_income_min_price_25": {
+    "category": "Broadband",
+    "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
+    "full_name": "perc_income_on_internet:perc_income_min_price_25",
+    "measure": "perc_income_min_price_25",
+    "type": "percent",
+    "short_name": "Percentage of income for good internet",
+    "long_name": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income",
+    "short_description": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income",
+    "long_description": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income.",
+    "statement": "Good internet costs {value} of the median household income in {features.name}.",
+    "equity_category": "Affordability",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Broadband Now",
+        "date_accessed": 2021,
+        "url": "https://broadbandnow.com/"
+      }
+    ]
+  },
+  "perc_income_on_internet:perc_income_min_price_100": {
+    "category": "Broadband",
+    "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
+    "full_name": "perc_income_on_internet:perc_income_min_price_100",
+    "measure": "perc_income_min_price_100",
+    "type": "percent",
+    "short_name": "Percentage of income for fast internet",
+    "long_name": "The minimum price for fast internet (100 MB/s upload) as a percentage of median household income",
+    "short_description": "The minimum price for fast internet (100 MB/s upload) as a percent of median household income",
+    "long_description": "The minimum price for fast internet (100 MB/s upload) as a percentage of median household income.",
+    "statement": "Fast internet costs {value} of the median household income in {features.name}.",
+    "equity_category": "Affordability",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Broadband Now",
+        "date_accessed": 2021,
+        "url": "https://broadbandnow.com/"
+      }
+    ]
+  },
+  "perc_income_on_internet:perc_income_avg_nat_package": {
+    "category": "Broadband",
+    "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
+    "full_name": "perc_income_on_internet:perc_income_avg_nat_package",
+    "measure": "perc_income_avg_nat_package",
+    "type": "percent",
+    "short_name": "Percentage of income for internet (average)",
+    "long_name": "The national average price for internet as a percentage of average income",
+    "short_description": "The national average price for internet ($64) as a percentage of median household income",
+    "long_description": "The national average price for internet ($64) as a percentage of median household income.",
+    "statement": "The national average internet package costs {value} of the median household income in {features.name}.",
+    "equity_category": "Affordability",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Broadband Now",
+        "date_accessed": 2021,
+        "url": "https://broadbandnow.com/"
+      }
+    ]
+  },
+  "broadband_withoutint_compdev:perc_hh_without_internet": {
+    "category": "Broadband",
+    "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev",
+    "full_name": "broadband_withoutint_compdev:perc_hh_without_internet",
+    "measure": "perc_hh_without_internet",
+    "type": "percent",
+    "short_name": "Households without internet access",
+    "long_name": "Percentage of households without internet access",
+    "short_description": "Percentage of households self-reported to not have internet access at home",
+    "long_description": "Percentage of households self-reported to not have internet access at home. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+    "statement": "{value} of households in {features.name} do not have internet access.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "American Community Survey Table B28002",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "broadband_withoutint_compdev:perc_hh_without_compdev": {
+    "category": "Broadband",
+    "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev",
+    "full_name": "broadband_withoutint_compdev:perc_hh_without_compdev",
+    "measure": "perc_hh_without_compdev",
+    "type": "percent",
+    "short_name": "Households without a computer",
+    "long_name": "Percentage of households without a computer",
+    "short_description": "Percentage of households self-reported to not have a computer or device at home",
+    "long_description": "Percentage of the households self-reported to not have a computer or device at home. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+    "statement": "{value} of households in {features.name} do not have a computer or device.",
+    "equity_category": "Accessibility",
+    "sources": [
+      {
+        "name": "American Community Survey Table B28002",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "broadband_withoutint_compdev:perc_hh_with_cable_fiber_dsl": {
+    "category": "Broadband",
+    "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev",
+    "full_name": "broadband_withoutint_compdev:perc_hh_with_cable_fiber_dsl",
+    "measure": "perc_hh_with_cable_fiber_dsl",
+    "type": "percent",
+    "short_name": "Households with cable, fiber optic, or DSL",
+    "long_name": "Percentage of households with a high speed internet service (cable, fiber optic, or DSL)",
+    "short_description": "Percentage of households self-reported to have a high speed internet service (cable, fiber optic, or DSL)",
+    "long_description": "Percentage of households self-reported to have a high speed internet service. A high speed internet service is defined as a cable, fiber optic, or DSL internet connection. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+    "statement": "{value} of households in {features.name} have a cable, fiber optic, or DSL internet connection.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "American Community Survey Table B28002",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "broadband_withoutint_compdev:perc_hh_with_broadband": {
+    "category": "Broadband",
+    "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev ",
+    "full_name": "broadband_withoutint_compdev:perc_hh_with_broadband",
+    "measure": "perc_hh_with_broadband",
+    "type": "percent",
+    "short_name": "Households with broadband",
+    "long_name": "Percentage of households with broadband",
+    "short_description": "Percentage of households self-reported to have a broadband internet connection (any type of internet other than a dial-up)",
+    "long_description": "Percentage of households self-reported to have a broadband internet connection. Broadband internet is defined as any type of internet other than a dial-up. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+    "statement": "{value} of households in {features.name} have a broadband connection.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "American Community Survey Table B28002",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "no_health_insurance_19_to_64:hlth_ins_pct": {
+    "category": "Health",
+    "measure_table": "dc_health_behavior_diet.va_hdcttr_acs5_2015_2019_no_health_insurance_19_to_64",
+    "full_name": "health_insurance_19_to_64:hlth_ins_pct",
+    "measure": "hlth_ins_pct",
+    "type": "percent",
+    "short_name": "Insured population",
+    "long_name": "Percentage of population with health insurance",
+    "short_description": "Percentage of the population (ages 19-64) self-reported to be currently covered by any type of health insurance or health coverage plan",
+    "long_description": "Percentage of the population self-reported to be currently covered by any type of health insurance or health coverage plan. Based on American Community Survey Table B27010 in ACS 2015/2019 5-year estimates.",
+    "statement": "{value} of the population has health insurance in {features.name}.",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "location": "Table B27010",
+        "date_accessed": 2022,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "post_hs_education:perc_post_hs_edu": {
+    "category": "Education",
+    "measure_table": "dc_education_training.va_hdcttr_acs_2015_2019_post_hs_education",
+    "full_name": "post_hs_education:perc_post_hs_edu",
+    "measure": "perc_post_hs_edu",
+    "type": "percent",
+    "short_name": "Percentage with post-secondary education",
+    "long_name": "Percentage with post-secondary education",
+    "short_description": "Percentage of the population self-reported to have post-secondary education",
+    "long_description": "Percentage of the population self-reported to have post-secondary education. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.",
+    "statement": "{value} of the population in {features.name} has a post-secondary education.",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey Table B15003",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/data/developers/data-sets/acs-5year.html"
+      }
+    ]
+  },
+  "demographics:perc_hh_limited_english": {
+    "category": "Demographics",
+    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+    "full_name": "acs_demographics:perc_hh_limited_english",
+    "measure": "perc_hh_limited_english",
+    "short_name": "Limited English households",
+    "long_name": "Limited English households (percent)",
+    "short_description": "The percent of households with limited English. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The percent of households with limited English. Based on American Community Survey ACS 2015/2019 5-year estimates Table C16002.",
+    "statement": "The percent of households with limited English is {value} in {features.name}.",
+    "type": "percent",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey Table C16002",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "demographics:perc_veteran": {
+    "category": "Demographics",
+    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+    "full_name": "acs_demographics:perc_veteran",
+    "measure": "perc_veteran",
+    "short_name": "Veteran population",
+    "long_name": "Veteran population (percent)",
+    "short_description": "The Veteran population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The Veteran population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The Veteran population is {value} in {features.name}.",
+    "type": "percent",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "demographics:perc_65_plus": {
+    "category": "Demographics",
+    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+    "full_name": "demographics:perc_65_plus",
+    "measure": "perc_65_plus",
+    "short_name": "65 plus population",
+    "long_name": "65 plus population (percent)",
+    "short_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The percent of the population over age 64 is {value} in {features.name}.",
+    "type": "percent",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "demographics:perc_20_64": {
+    "category": "Demographics",
+    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+    "full_name": "acs_demographics:perc_20_64",
+    "measure": "perc_20_64",
+    "short_name": "20 to 64 population",
+    "long_name": "20 to 64 population (percent)",
+    "short_description": "The percent of the population between age 20 and 64. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The percent of the population between age 20 and 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The percent of the population between age 20 and 64 is {value} in {features.name}.",
+    "type": "percent",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "demographics:perc_under_20": {
+    "category": "Demographics",
+    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+    "full_name": "acs_demographics:perc_under_20",
+    "measure": "perc_under_20",
+    "short_name": "Under 20 population",
+    "long_name": "Under 20 population (percent)",
+    "short_description": "The percent of the population under age 20. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The percent of the population under age 20. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The percent of the population under age 20 is {value} in {features.name}.",
+    "type": "percent",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "demographics:perc_two_or_more_races": {
+    "category": "Demographics",
+    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+    "full_name": "acs_demographics:perc_two_or_more_races",
+    "measure": "perc_two_or_more_races",
+    "short_name": "Two or more races population",
+    "long_name": "Two or more races population (percent)",
+    "short_description": "The two or more races population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The two or more races population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The two or more races population is {value} in {features.name}.",
+    "type": "percent",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "demographics:perc_other": {
+    "category": "Demographics",
+    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+    "full_name": "demographics:perc_other",
+    "measure": "perc_other",
+    "short_name": "Other racial population",
+    "long_name": "Other racial population (percent)",
+    "short_description": "The Other racial population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The Other racial population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The Other racial population is {value} in {features.name}.",
+    "type": "percent",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "demographics:perc_hispanic_or_latino": {
+    "category": "Demographics",
+    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+    "full_name": "acs_demographics:perc_hispanic_or_latino",
+    "measure": "perc_hispanic_or_latino",
+    "short_name": "Hispanic/Latino population",
+    "long_name": "Hispanic/Latino population (percent)",
+    "short_description": "The Hispanic/Latino population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The Hispanic/Latino population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The Hispanic/Latino population is {value} in {features.name}.",
+    "type": "percent",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "demographics:perc_white": {
+    "category": "Demographics",
+    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+    "full_name": "acs_demographics:perc_white",
+    "measure": "perc_white",
+    "short_name": "White population",
+    "long_name": "White population (percent)",
+    "short_description": "The White population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The White population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The White population is {value} in {features.name}.",
+    "type": "percent",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "demographics:perc_AAPI": {
+    "category": "Demographics",
+    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+    "full_name": "acs_demographics:perc_AAPI",
+    "measure": "perc_AAPI",
+    "short_name": "Asian American/Pacific Islander population",
+    "long_name": "Asian American/Pacific Islander population (percent)",
+    "short_description": "The Asian American/Pacific Islander population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The Asian American/Pacific Islander population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The Asian American/Pacific Islander population is {value} in {features.name}.",
+    "type": "percent",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "demographics:perc_native": {
+    "category": "Demographics",
+    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+    "full_name": "acs_demographics:perc_native",
+    "measure": "perc_native",
+    "short_name": "Native population",
+    "long_name": "Native population (percent)",
+    "short_description": "The Native population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The Native population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The Native population is {value} in {features.name}.",
+    "type": "percent",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "demographics:perc_black": {
+    "category": "Demographics",
+    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+    "full_name": "acs_demographics:perc_black",
+    "measure": "perc_black",
+    "short_name": "Black population",
+    "long_name": "Black population (percent)",
+    "short_description": "The Black population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The Black population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The Black population is {value} in {features.name}.",
+    "type": "percent",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
   "nces:schools_2year_with_science_program_per_100k": {
     "category": "Education",
     "full_name": "nces:schools_2year_with_science_program_per_100k",
@@ -1216,472 +1681,98 @@
       }
     ]
   },
-  "post_hs_education:perc_post_hs_edu": {
-    "category": "Education",
-    "measure_table": "dc_education_training.va_hdcttr_acs_2015_2019_post_hs_education",
-    "full_name": "post_hs_education:perc_post_hs_edu",
-    "measure": "perc_post_hs_edu",
-    "type": "percent",
-    "short_name": "Percentage with post-secondary education",
-    "long_name": "Percentage with post-secondary education",
-    "short_description": "Percentage of the population self-reported to have post-secondary education",
-    "long_description": "Percentage of the population self-reported to have post-secondary education. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.",
-    "statement": "{value} of the population in {features.name} has a post-secondary education.",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "American Community Survey Table B15003",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/data/developers/data-sets/acs-5year.html"
-      }
-    ]
-  },
-  "demographics:perc_hh_limited_english": {
-    "category": "Demographics",
-    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
-    "full_name": "acs_demographics:perc_hh_limited_english",
-    "measure": "perc_hh_limited_english",
-    "short_name": "Limited English households",
-    "long_name": "Limited English households (percent)",
-    "short_description": "The percent of households with limited English. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "long_description": "The percent of households with limited English. Based on American Community Survey ACS 2015/2019 5-year estimates Table C16002.",
-    "statement": "The percent of households with limited English is {value} in {features.name}.",
-    "type": "percent",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "American Community Survey Table C16002",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
-  "demographics:perc_veteran": {
-    "category": "Demographics",
-    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
-    "full_name": "acs_demographics:perc_veteran",
-    "measure": "perc_veteran",
-    "short_name": "Veteran population",
-    "long_name": "Veteran population (percent)",
-    "short_description": "The Veteran population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "long_description": "The Veteran population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "statement": "The Veteran population is {value} in {features.name}.",
-    "type": "percent",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
-  "demographics:perc_65_plus": {
-    "category": "Demographics",
-    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
-    "full_name": "demographics:perc_65_plus",
-    "measure": "perc_65_plus",
-    "short_name": "65 plus population",
-    "long_name": "65 plus population (percent)",
-    "short_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "long_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "statement": "The percent of the population over age 64 is {value} in {features.name}.",
-    "type": "percent",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
-  "demographics:perc_20_64": {
-    "category": "Demographics",
-    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
-    "full_name": "acs_demographics:perc_20_64",
-    "measure": "perc_20_64",
-    "short_name": "20 to 64 population",
-    "long_name": "20 to 64 population (percent)",
-    "short_description": "The percent of the population between age 20 and 64. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "long_description": "The percent of the population between age 20 and 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "statement": "The percent of the population between age 20 and 64 is {value} in {features.name}.",
-    "type": "percent",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
-  "demographics:perc_under_20": {
-    "category": "Demographics",
-    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
-    "full_name": "acs_demographics:perc_under_20",
-    "measure": "perc_under_20",
-    "short_name": "Under 20 population",
-    "long_name": "Under 20 population (percent)",
-    "short_description": "The percent of the population under age 20. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "long_description": "The percent of the population under age 20. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "statement": "The percent of the population under age 20 is {value} in {features.name}.",
-    "type": "percent",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
-  "demographics:perc_two_or_more_races": {
-    "category": "Demographics",
-    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
-    "full_name": "acs_demographics:perc_two_or_more_races",
-    "measure": "perc_two_or_more_races",
-    "short_name": "Two or more races population",
-    "long_name": "Two or more races population (percent)",
-    "short_description": "The two or more races population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "long_description": "The two or more races population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "statement": "The two or more races population is {value} in {features.name}.",
-    "type": "percent",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
-  "demographics:perc_other": {
-    "category": "Demographics",
-    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
-    "full_name": "demographics:perc_other",
-    "measure": "perc_other",
-    "short_name": "Other racial population",
-    "long_name": "Other racial population (percent)",
-    "short_description": "The Other racial population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "long_description": "The Other racial population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "statement": "The Other racial population is {value} in {features.name}.",
-    "type": "percent",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
-  "demographics:perc_hispanic_or_latino": {
-    "category": "Demographics",
-    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
-    "full_name": "acs_demographics:perc_hispanic_or_latino",
-    "measure": "perc_hispanic_or_latino",
-    "short_name": "Hispanic/Latino population",
-    "long_name": "Hispanic/Latino population (percent)",
-    "short_description": "The Hispanic/Latino population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "long_description": "The Hispanic/Latino population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "statement": "The Hispanic/Latino population is {value} in {features.name}.",
-    "type": "percent",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
-  "demographics:perc_white": {
-    "category": "Demographics",
-    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
-    "full_name": "acs_demographics:perc_white",
-    "measure": "perc_white",
-    "short_name": "White population",
-    "long_name": "White population (percent)",
-    "short_description": "The White population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "long_description": "The White population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "statement": "The White population is {value} in {features.name}.",
-    "type": "percent",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
-  "demographics:perc_AAPI": {
-    "category": "Demographics",
-    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
-    "full_name": "acs_demographics:perc_AAPI",
-    "measure": "perc_AAPI",
-    "short_name": "Asian American/Pacific Islander population",
-    "long_name": "Asian American/Pacific Islander population (percent)",
-    "short_description": "The Asian American/Pacific Islander population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "long_description": "The Asian American/Pacific Islander population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "statement": "The Asian American/Pacific Islander population is {value} in {features.name}.",
-    "type": "percent",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
-  "demographics:perc_native": {
-    "category": "Demographics",
-    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
-    "full_name": "acs_demographics:perc_native",
-    "measure": "perc_native",
-    "short_name": "Native population",
-    "long_name": "Native population (percent)",
-    "short_description": "The Native population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "long_description": "The Native population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "statement": "The Native population is {value} in {features.name}.",
-    "type": "percent",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
-  "demographics:perc_black": {
-    "category": "Demographics",
-    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
-    "full_name": "acs_demographics:perc_black",
-    "measure": "perc_black",
-    "short_name": "Black population",
-    "long_name": "Black population (percent)",
-    "short_description": "The Black population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "long_description": "The Black population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "statement": "The Black population is {value} in {features.name}.",
-    "type": "percent",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
-  "health_literacy_estimates:health_literacy_estimate": {
-    "category": "Education",
-    "measure_table": "dc_education_training.va_hdcttr_sdad_2019_health_literacy_estimates",
-    "full_name": "health_literacy_estimates:health_literacy_estimate",
-    "measure": "health_literacy_estimate",
-    "type": "index",
-    "short_name": "Health literacy composite",
-    "long_name": "Health literacy composite",
-    "short_description": "Health literacy composite captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions",
-    "long_description": "The health literacy composite captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions. Health literacy composite is based on variables of demographic characteristics, health status, and health care use.",
-    "statement": "The health literacy composite for {features.name} is {value}.",
-    "equity_category": "Status",
-    "citations": [
-      "savitz20",
-      "liang17"
-    ],
-    "sources": [
-      {
-        "name": "Medical Expenditure Panel Survey",
-        "date_accessed": 2021,
-        "url": "https://www.meps.ahrq.gov/mepsweb/"
-      },
-      {
-        "name": "American Community Survey",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
-  "perc_income_on_internet:perc_income_min_price_25": {
-    "category": "Broadband",
-    "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
-    "full_name": "perc_income_on_internet:perc_income_min_price_25",
-    "measure": "perc_income_min_price_25",
-    "type": "percent",
-    "short_name": "Percentage of income for good internet",
-    "long_name": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income",
-    "short_description": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income",
-    "long_description": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income.",
-    "statement": "Good internet costs {value} of the median household income in {features.name}.",
-    "equity_category": "Affordability",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      },
-      {
-        "name": "Broadband Now",
-        "date_accessed": 2021,
-        "url": "https://broadbandnow.com/"
-      }
-    ]
-  },
-  "perc_income_on_internet:perc_income_min_price_100": {
-    "category": "Broadband",
-    "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
-    "full_name": "perc_income_on_internet:perc_income_min_price_100",
-    "measure": "perc_income_min_price_100",
-    "type": "percent",
-    "short_name": "Percentage of income for fast internet",
-    "long_name": "The minimum price for fast internet (100 MB/s upload) as a percentage of median household income",
-    "short_description": "The minimum price for fast internet (100 MB/s upload) as a percent of median household income",
-    "long_description": "The minimum price for fast internet (100 MB/s upload) as a percentage of median household income.",
-    "statement": "Fast internet costs {value} of the median household income in {features.name}.",
-    "equity_category": "Affordability",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      },
-      {
-        "name": "Broadband Now",
-        "date_accessed": 2021,
-        "url": "https://broadbandnow.com/"
-      }
-    ]
-  },
-  "perc_income_on_internet:perc_income_avg_nat_package": {
-    "category": "Broadband",
-    "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
-    "full_name": "perc_income_on_internet:perc_income_avg_nat_package",
-    "measure": "perc_income_avg_nat_package",
-    "type": "percent",
-    "short_name": "Percentage of income for internet (average)",
-    "long_name": "The national average price for internet as a percentage of average income",
-    "short_description": "The national average price for internet ($64) as a percentage of median household income",
-    "long_description": "The national average price for internet ($64) as a percentage of median household income.",
-    "statement": "The national average internet package costs {value} of the median household income in {features.name}.",
-    "equity_category": "Affordability",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      },
-      {
-        "name": "Broadband Now",
-        "date_accessed": 2021,
-        "url": "https://broadbandnow.com/"
-      }
-    ]
-  },
-  "broadband_withoutint_compdev:perc_hh_without_internet": {
-    "category": "Broadband",
-    "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev",
-    "full_name": "broadband_withoutint_compdev:perc_hh_without_internet",
-    "measure": "perc_hh_without_internet",
-    "type": "percent",
-    "short_name": "Households without internet access",
-    "long_name": "Percentage of households without internet access",
-    "short_description": "Percentage of households self-reported to not have internet access at home",
-    "long_description": "Percentage of households self-reported to not have internet access at home. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
-    "statement": "{value} of households in {features.name} do not have internet access.",
-    "equity_category": "Availability",
-    "sources": [
-      {
-        "name": "American Community Survey Table B28002",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
-  "broadband_withoutint_compdev:perc_hh_without_compdev": {
-    "category": "Broadband",
-    "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev",
-    "full_name": "broadband_withoutint_compdev:perc_hh_without_compdev",
-    "measure": "perc_hh_without_compdev",
-    "type": "percent",
-    "short_name": "Households without a computer",
-    "long_name": "Percentage of households without a computer",
-    "short_description": "Percentage of households self-reported to not have a computer or device at home",
-    "long_description": "Percentage of the households self-reported to not have a computer or device at home. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
-    "statement": "{value} of households in {features.name} do not have a computer or device.",
-    "equity_category": "Accessibility",
-    "sources": [
-      {
-        "name": "American Community Survey Table B28002",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
-  "broadband_withoutint_compdev:perc_hh_with_cable_fiber_dsl": {
-    "category": "Broadband",
-    "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev",
-    "full_name": "broadband_withoutint_compdev:perc_hh_with_cable_fiber_dsl",
-    "measure": "perc_hh_with_cable_fiber_dsl",
-    "type": "percent",
-    "short_name": "Households with cable, fiber optic, or DSL",
-    "long_name": "Percentage of households with a high speed internet service (cable, fiber optic, or DSL)",
-    "short_description": "Percentage of households self-reported to have a high speed internet service (cable, fiber optic, or DSL)",
-    "long_description": "Percentage of households self-reported to have a high speed internet service. A high speed internet service is defined as a cable, fiber optic, or DSL internet connection. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
-    "statement": "{value} of households in {features.name} have a cable, fiber optic, or DSL internet connection.",
-    "equity_category": "Availability",
-    "sources": [
-      {
-        "name": "American Community Survey Table B28002",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
-  "broadband_withoutint_compdev:perc_hh_with_broadband": {
-    "category": "Broadband",
-    "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev ",
-    "full_name": "broadband_withoutint_compdev:perc_hh_with_broadband",
-    "measure": "perc_hh_with_broadband",
-    "type": "percent",
-    "short_name": "Households with broadband",
-    "long_name": "Percentage of households with broadband",
-    "short_description": "Percentage of households self-reported to have a broadband internet connection (any type of internet other than a dial-up)",
-    "long_description": "Percentage of households self-reported to have a broadband internet connection. Broadband internet is defined as any type of internet other than a dial-up. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
-    "statement": "{value} of households in {features.name} have a broadband connection.",
-    "equity_category": "Availability",
-    "sources": [
-      {
-        "name": "American Community Survey Table B28002",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
-  "no_health_insurance_19_to_64:hlth_ins_pct": {
-    "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_acs5_2015_2019_no_health_insurance_19_to_64",
-    "full_name": "health_insurance_19_to_64:hlth_ins_pct",
-    "measure": "hlth_ins_pct",
-    "type": "percent",
-    "short_name": "Insured population",
-    "long_name": "Percentage of population with health insurance",
-    "short_description": "Percentage of the population (ages 19-64) self-reported to be currently covered by any type of health insurance or health coverage plan",
-    "long_description": "Percentage of the population self-reported to be currently covered by any type of health insurance or health coverage plan. Based on American Community Survey Table B27010 in ACS 2015/2019 5-year estimates.",
-    "statement": "{value} of the population has health insurance in {features.name}.",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "location": "Table B27010",
-        "date_accessed": 2022,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
   "_references": {
+    "wan12": {
+      "id": "wan12",
+      "author": [
+        {
+          "given": "Neng",
+          "family": "Wan"
+        },
+        {
+          "given": "Bin",
+          "family": "Zou"
+        },
+        {
+          "given": "Troy",
+          "family": "Sternberg"
+        }
+      ],
+      "year": 2012,
+      "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+      "journal": "International Journal of Geographical Information Science",
+      "volume": "26",
+      "page": "1073–1089",
+      "doi": "10.1080/13658816.2011.624987"
+    },
+    "bii21": {
+      "id": "bii21",
+      "author": [
+        {
+          "family": "Biocomplexity Institute and Initiative"
+        }
+      ],
+      "year": 2021,
+      "title": "catchment: Calculate spatial access and availability metrics",
+      "version": "0.0.1",
+      "url": "https://github.com/uva-bi-sdad/catchment"
+    },
+    "liang17": {
+      "id": "liang17",
+      "author": [
+        {
+          "given": "Lan",
+          "family": "Liang"
+        },
+        {
+          "given": "Cindy",
+          "family": "Branch"
+        }
+      ],
+      "year": 2017,
+      "title": "Health Literacy Universal Precautions Are Still a Distant Dream: Analysis of U.S. Data on Health Literate Practices",
+      "journal": "Health Literacy Research and Practice",
+      "volume": "1",
+      "number": 4,
+      "page": "e216-e230",
+      "doi": "10.3928/24748307-20170929-01"
+    },
+    "savitz20": {
+      "id": "savitz20",
+      "author": [
+        {
+          "given": "Samuel",
+          "family": "Savitz"
+        },
+        {
+          "given": "Stacy",
+          "family": "Bailey"
+        },
+        {
+          "given": "Stacie",
+          "family": "Dusetzina"
+        },
+        {
+          "given": "W.",
+          "family": "Schuyler Jones"
+        },
+        {
+          "given": "Justin",
+          "family": "Trogdon"
+        },
+        {
+          "given": "Sally",
+          "family": "Stearns"
+        }
+      ],
+      "year": 2020,
+      "title": "Treatment selection and medication adherence for stable angina: The role of area-based health literacy",
+      "journal": "Journal of Evaluation in Clinical Practice",
+      "volume": "26",
+      "number": 6,
+      "page": "1711-1721",
+      "doi": "10.1111/jep.13341"
+    },
     "lou04": {
       "id": "lou04",
       "author": [
@@ -1784,97 +1875,6 @@
       "title": "Digital Divide Index",
       "journal": "Purdue Center for Regional Development",
       "url": "http://pcrd.purdue.edu/ddi"
-    },
-    "liang17": {
-      "id": "liang17",
-      "author": [
-        {
-          "given": "Lan",
-          "family": "Liang"
-        },
-        {
-          "given": "Cindy",
-          "family": "Branch"
-        }
-      ],
-      "year": 2017,
-      "title": "Health Literacy Universal Precautions Are Still a Distant Dream: Analysis of U.S. Data on Health Literate Practices",
-      "journal": "Health Literacy Research and Practice",
-      "volume": "1",
-      "number": 4,
-      "page": "e216-e230",
-      "doi": "10.3928/24748307-20170929-01"
-    },
-    "savitz20": {
-      "id": "savitz20",
-      "author": [
-        {
-          "given": "Samuel",
-          "family": "Savitz"
-        },
-        {
-          "given": "Stacy",
-          "family": "Bailey"
-        },
-        {
-          "given": "Stacie",
-          "family": "Dusetzina"
-        },
-        {
-          "given": "W.",
-          "family": "Schuyler Jones"
-        },
-        {
-          "given": "Justin",
-          "family": "Trogdon"
-        },
-        {
-          "given": "Sally",
-          "family": "Stearns"
-        }
-      ],
-      "year": 2020,
-      "title": "Treatment selection and medication adherence for stable angina: The role of area-based health literacy",
-      "journal": "Journal of Evaluation in Clinical Practice",
-      "volume": "26",
-      "number": 6,
-      "page": "1711-1721",
-      "doi": "10.1111/jep.13341"
-    },
-    "wan12": {
-      "id": "wan12",
-      "author": [
-        {
-          "given": "Neng",
-          "family": "Wan"
-        },
-        {
-          "given": "Bin",
-          "family": "Zou"
-        },
-        {
-          "given": "Troy",
-          "family": "Sternberg"
-        }
-      ],
-      "year": 2012,
-      "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-      "journal": "International Journal of Geographical Information Science",
-      "volume": "26",
-      "page": "1073–1089",
-      "doi": "10.1080/13658816.2011.624987"
-    },
-    "bii21": {
-      "id": "bii21",
-      "author": [
-        {
-          "family": "Biocomplexity Institute and Initiative"
-        }
-      ],
-      "year": 2021,
-      "title": "catchment: Calculate spatial access and availability metrics",
-      "version": "0.0.1",
-      "url": "https://github.com/uva-bi-sdad/catchment"
     }
   }
 }

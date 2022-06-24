@@ -16,7 +16,9 @@
     "table_scroll_behavior": "smooth",
     "hide_tooltips": false,
     "map_animations": "all",
-    "trace_limit": 20
+    "trace_limit": 20,
+    "map_overlay": true,
+    "circle_radius": 5
   },
   "metadata": {
     "package": "data/datapackage.json",
@@ -24,9 +26,9 @@
     "variables": {},
     "info": {
       "tract": {
-        "bytes": 3226968,
+        "bytes": 3268880,
         "encoding": "ISO-8859-1",
-        "md5": "37d4c656711f46a0ffbf52815c578c3d",
+        "md5": "74434d413f4cb3a62b27b25ed4d830cb",
         "format": "csv",
         "name": "tract",
         "filename": "tract.csv.xz",
@@ -39,15 +41,15 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-06-10 23:44:50",
+        "created": "2022-06-24 03:46:35",
         "last_modified": "2022-04-27 04:30:54",
-        "row_count": 24791,
-        "entity_count": 1907,
+        "row_count": 31889,
+        "entity_count": 2453,
         "schema": {
           "fields": [
             {
               "name": "time",
-              "duplicates": 24778,
+              "duplicates": 31876,
               "time_range": [
                 0,
                 12
@@ -66,13 +68,13 @@
             },
             {
               "name": "3rd_grade_mean_median_read_score:median_read_pass_rate",
-              "duplicates": 24790,
+              "duplicates": 31888,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 24791,
+              "missing": 31889,
               "info": {
                 "category": "Education",
                 "measure_table": "dc_education_training.va_hdct_vdoe_2019_2021_3rd_grade_median_read_score",
@@ -97,15 +99,15 @@
             },
             {
               "name": "emp_rate:emp_rate",
-              "duplicates": 15803,
+              "duplicates": 22916,
               "time_range": [
                 6,
                 10
               ],
               "type": "float",
-              "missing": 15417,
-              "mean": 94.1272,
-              "sd": 4.0197,
+              "missing": 22535,
+              "mean": 94.1343,
+              "sd": 4.0183,
               "min": 63.5048,
               "max": 100,
               "info": {
@@ -133,15 +135,15 @@
             },
             {
               "name": "daycare_access_scores:daycare_cnt",
-              "duplicates": 24224,
+              "duplicates": 31322,
               "time_range": [
                 12,
                 12
               ],
               "type": "integer",
-              "missing": 23251,
-              "mean": 242.1429,
-              "sd": 239.0879,
+              "missing": 30350,
+              "mean": 242.0312,
+              "sd": 239.1255,
               "min": 4,
               "max": 2273,
               "info": {
@@ -168,15 +170,15 @@
             },
             {
               "name": "daycare_access_scores:daycare_3sfca",
-              "duplicates": 22924,
+              "duplicates": 30025,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 22925,
-              "mean": 3.4784,
-              "sd": 1.1559,
+              "missing": 30026,
+              "mean": 3.4796,
+              "sd": 1.1565,
               "min": 0.1929,
               "max": 7.172,
               "info": {
@@ -208,15 +210,15 @@
             },
             {
               "name": "daycare_access_scores:daycare_median_drive_time_top5",
-              "duplicates": 24495,
+              "duplicates": 31593,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 22892,
-              "mean": 7.7349,
-              "sd": 8.0094,
+              "missing": 29998,
+              "mean": 7.7267,
+              "sd": 8.0121,
               "min": 0.4,
               "max": 71.7,
               "info": {
@@ -243,17 +245,17 @@
             },
             {
               "name": "nces:schools_2year_per_100k",
-              "duplicates": 10029,
+              "duplicates": 16619,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
-              "missing": 9864,
-              "mean": 0.8864,
-              "sd": 0.8936,
+              "missing": 16468,
+              "mean": 0.8945,
+              "sd": 0.9401,
               "min": 0,
-              "max": 8.8323,
+              "max": 7.7964,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_2year_per_100k",
@@ -294,14 +296,17 @@
             },
             {
               "name": "nces:schools_2year_min_drivetime",
-              "duplicates": 22641,
+              "duplicates": 29507,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
-              "missing": 9872,
+              "missing": 16468,
+              "mean": 20.7123,
+              "sd": 14.6234,
               "min": 1.2,
+              "max": 85.5,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_2year_min_drivetime",
@@ -332,17 +337,17 @@
             },
             {
               "name": "nces:schools_under2year_per_100k",
-              "duplicates": 10029,
+              "duplicates": 16619,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
-              "missing": 9864,
-              "mean": 0.6057,
-              "sd": 0.5531,
+              "missing": 16468,
+              "mean": 0.616,
+              "sd": 0.5678,
               "min": 0,
-              "max": 3.7558,
+              "max": 3.6694,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_under2year_per_100k",
@@ -383,14 +388,17 @@
             },
             {
               "name": "nces:schools_under2year_min_drivetime",
-              "duplicates": 21918,
+              "duplicates": 28579,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
-              "missing": 9872,
+              "missing": 16468,
+              "mean": 27.6361,
+              "sd": 23.9901,
               "min": 0.5,
+              "max": 132.1,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_under2year_min_drivetime",
@@ -421,17 +429,17 @@
             },
             {
               "name": "nces:schools_2year_with_biomedical_program_per_100k",
-              "duplicates": 10029,
+              "duplicates": 16619,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
-              "missing": 9864,
-              "mean": 0.0148,
-              "sd": 0.0834,
+              "missing": 16468,
+              "mean": 0.006,
+              "sd": 0.0799,
               "min": 0,
-              "max": 2.2396,
+              "max": 2.2001,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_2year_with_biomedical_program_per_100k",
@@ -472,17 +480,17 @@
             },
             {
               "name": "nces:schools_2year_with_computer_program_per_100k",
-              "duplicates": 10029,
+              "duplicates": 16619,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
-              "missing": 9864,
-              "mean": 0.5017,
-              "sd": 0.7908,
+              "missing": 16468,
+              "mean": 0.4925,
+              "sd": 0.8063,
               "min": 0,
-              "max": 8.8323,
+              "max": 7.7326,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_2year_with_computer_program_per_100k",
@@ -523,17 +531,17 @@
             },
             {
               "name": "nces:schools_2year_with_engineering_program_per_100k",
-              "duplicates": 10029,
+              "duplicates": 16619,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
-              "missing": 9864,
-              "mean": 0.4599,
-              "sd": 0.8249,
+              "missing": 16468,
+              "mean": 0.448,
+              "sd": 0.8453,
               "min": 0,
-              "max": 8.8323,
+              "max": 7.7964,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_2year_with_engineering_program_per_100k",
@@ -574,17 +582,17 @@
             },
             {
               "name": "nces:schools_2year_with_physical_program_per_100k",
-              "duplicates": 10029,
+              "duplicates": 16619,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
-              "missing": 9864,
-              "mean": 0.0279,
-              "sd": 0.1554,
+              "missing": 16468,
+              "mean": 0.0208,
+              "sd": 0.1524,
               "min": 0,
-              "max": 2.4036,
+              "max": 2.3685,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_2year_with_physical_program_per_100k",
@@ -625,17 +633,17 @@
             },
             {
               "name": "nces:schools_2year_with_science_program_per_100k",
-              "duplicates": 10029,
+              "duplicates": 16619,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
-              "missing": 9864,
-              "mean": 0.0494,
-              "sd": 0.1937,
+              "missing": 16468,
+              "mean": 0.0496,
+              "sd": 0.1885,
               "min": 0,
-              "max": 5.3935,
+              "max": 5.4203,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_2year_with_science_program_per_100k",
@@ -676,15 +684,15 @@
             },
             {
               "name": "dei:norm_dei",
-              "duplicates": 19190,
+              "duplicates": 26294,
               "time_range": [
                 10,
                 12
               ],
               "type": "float",
-              "missing": 19187,
-              "mean": 61.4466,
-              "sd": 17.4033,
+              "missing": 26291,
+              "mean": 61.4622,
+              "sd": 17.3967,
               "min": 0,
               "max": 100,
               "info": {
@@ -720,15 +728,15 @@
             },
             {
               "name": "access_scores_dentists:dent_cnt",
-              "duplicates": 24757,
+              "duplicates": 31855,
               "time_range": [
                 12,
                 12
               ],
               "type": "integer",
-              "missing": 22892,
-              "mean": 2.2649,
-              "sd": 4.1798,
+              "missing": 29998,
+              "mean": 2.2702,
+              "sd": 4.1852,
               "min": 0,
               "max": 39,
               "info": {
@@ -755,15 +763,15 @@
             },
             {
               "name": "access_scores_dentists:dent_e2sfca",
-              "duplicates": 22913,
+              "duplicates": 30018,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 22913,
-              "mean": 0.566,
-              "sd": 0.3408,
+              "missing": 30018,
+              "mean": 0.5672,
+              "sd": 0.3409,
               "min": 0.0088,
               "max": 1.5626,
               "info": {
@@ -795,15 +803,15 @@
             },
             {
               "name": "speed_measurements:avg_down_using_devices",
-              "duplicates": 19114,
+              "duplicates": 26231,
               "time_range": [
                 10,
                 12
               ],
               "type": "float",
-              "missing": 19115,
-              "mean": 139.5072,
-              "sd": 50.7945,
+              "missing": 26232,
+              "mean": 139.674,
+              "sd": 50.6746,
               "min": 5.1905,
               "max": 347.608,
               "info": {
@@ -829,13 +837,13 @@
             },
             {
               "name": "drug_overdose_ed_visits:avg_monthly_rate",
-              "duplicates": 24790,
+              "duplicates": 31888,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 24791,
+              "missing": 31889,
               "info": {
                 "category": "Behavioral Health, Substance Use Disorder and Recovery",
                 "measure_table": "drug_overdose_ed_visits",
@@ -860,15 +868,15 @@
             },
             {
               "name": "ems_access_scores:ems_10near_median",
-              "duplicates": 24254,
+              "duplicates": 31353,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 22893,
-              "mean": 14.8955,
-              "sd": 8.248,
+              "missing": 29999,
+              "mean": 14.8749,
+              "sd": 8.2428,
               "min": 3.7,
               "max": 60.75,
               "info": {
@@ -895,13 +903,13 @@
             },
             {
               "name": "ems_access_scores:ems_3sfca",
-              "duplicates": 22898,
+              "duplicates": 30004,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 22892,
+              "missing": 29998,
               "mean": 0.0001,
               "sd": 0.0001,
               "min": 0,
@@ -935,15 +943,15 @@
             },
             {
               "name": "ems_access_scores:ems_cnt",
-              "duplicates": 24784,
+              "duplicates": 31882,
               "time_range": [
                 12,
                 12
               ],
               "type": "integer",
-              "missing": 24022,
-              "mean": 1.4538,
-              "sd": 0.7927,
+              "missing": 31123,
+              "mean": 1.4543,
+              "sd": 0.7937,
               "min": 1,
               "max": 6,
               "info": {
@@ -970,13 +978,13 @@
             },
             {
               "name": "food_insecurity_and_cost:Child_Food_Insecurity_Rate",
-              "duplicates": 24790,
+              "duplicates": 31888,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 24791,
+              "missing": 31889,
               "info": {
                 "category": "Nutrition and Food Security",
                 "measure_table": "Child_Food_Insecurity_Rate",
@@ -1001,13 +1009,13 @@
             },
             {
               "name": "food_insecurity_and_cost:Cost_Per_Meal",
-              "duplicates": 24790,
+              "duplicates": 31888,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 24791,
+              "missing": 31889,
               "info": {
                 "category": "Nutrition and Food Security",
                 "measure_table": "food_insecurity_and_cost",
@@ -1032,13 +1040,13 @@
             },
             {
               "name": "food_insecurity_and_cost:Food_Insecurity_Rate",
-              "duplicates": 24790,
+              "duplicates": 31888,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 24791,
+              "missing": 31889,
               "info": {
                 "category": "Nutrition and Food Security",
                 "measure_table": "food_insecurity_and_cost",
@@ -1063,13 +1071,13 @@
             },
             {
               "name": "food_insecurity_and_cost:Num_Child_Food_Insecure",
-              "duplicates": 24790,
+              "duplicates": 31888,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 24791,
+              "missing": 31889,
               "info": {
                 "category": "Nutrition and Food Security",
                 "measure_table": "food_insecurity_and_cost",
@@ -1094,15 +1102,15 @@
             },
             {
               "name": "health_literacy_estimates:health_literacy_estimate",
-              "duplicates": 24777,
+              "duplicates": 31875,
               "time_range": [
                 10,
                 10
               ],
               "type": "float",
-              "missing": 22884,
-              "mean": 0.4329,
-              "sd": 0.8731,
+              "missing": 29992,
+              "mean": 0.4354,
+              "sd": 0.8695,
               "min": -2.995,
               "max": 3.005,
               "info": {
@@ -1137,15 +1145,15 @@
             },
             {
               "name": "hospital_access_scores:hos_10near_median",
-              "duplicates": 23726,
+              "duplicates": 30827,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 22893,
-              "mean": 41.3264,
-              "sd": 24.0153,
+              "missing": 29999,
+              "mean": 41.2678,
+              "sd": 24.0138,
               "min": 8.05,
               "max": 184.65,
               "info": {
@@ -1172,13 +1180,13 @@
             },
             {
               "name": "hospital_access_scores:hos_3sfca",
-              "duplicates": 23585,
+              "duplicates": 30687,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 22892,
+              "missing": 29998,
               "mean": 0,
               "sd": 0,
               "min": 0,
@@ -1212,15 +1220,15 @@
             },
             {
               "name": "hospital_access_scores:hos_cnt",
-              "duplicates": 24787,
+              "duplicates": 31885,
               "time_range": [
                 12,
                 12
               ],
               "type": "integer",
-              "missing": 24693,
-              "mean": 1.1429,
-              "sd": 0.4308,
+              "missing": 31792,
+              "mean": 1.1443,
+              "sd": 0.4328,
               "min": 1,
               "max": 3,
               "info": {
@@ -1247,15 +1255,15 @@
             },
             {
               "name": "mental_access_scores:mental_10near_median",
-              "duplicates": 23916,
+              "duplicates": 31018,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 22893,
-              "mean": 26.5859,
-              "sd": 18.8488,
+              "missing": 29999,
+              "mean": 26.5253,
+              "sd": 18.8278,
               "min": 2.8,
               "max": 179.75,
               "info": {
@@ -1282,15 +1290,15 @@
             },
             {
               "name": "mental_access_scores:mental_3sfca",
-              "duplicates": 23146,
+              "duplicates": 30251,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 22892,
-              "mean": 0.0282,
-              "sd": 0.0248,
+              "missing": 29998,
+              "mean": 0.0281,
+              "sd": 0.0246,
               "min": 0,
               "max": 0.3102,
               "info": {
@@ -1322,15 +1330,15 @@
             },
             {
               "name": "mental_access_scores:mental_cnt",
-              "duplicates": 24786,
+              "duplicates": 31884,
               "time_range": [
                 12,
                 12
               ],
               "type": "integer",
-              "missing": 24592,
-              "mean": 1.1859,
-              "sd": 0.493,
+              "missing": 31691,
+              "mean": 1.1869,
+              "sd": 0.4941,
               "min": 1,
               "max": 4,
               "info": {
@@ -1357,15 +1365,15 @@
             },
             {
               "name": "no_health_insurance_19_to_64:hlth_ins_pct",
-              "duplicates": 15603,
+              "duplicates": 22721,
               "time_range": [
                 6,
                 10
               ],
               "type": "float",
-              "missing": 15421,
-              "mean": 86.0428,
-              "sd": 8.6158,
+              "missing": 22539,
+              "mean": 86.0399,
+              "sd": 8.6191,
               "min": 29.4533,
               "max": 100,
               "info": {
@@ -1393,15 +1401,15 @@
             },
             {
               "name": "access_scores_obgyn:obgyn_cnt",
-              "duplicates": 24747,
+              "duplicates": 31845,
               "time_range": [
                 12,
                 12
               ],
               "type": "integer",
-              "missing": 22892,
-              "mean": 1.5998,
-              "sd": 7.1419,
+              "missing": 29998,
+              "mean": 1.6044,
+              "sd": 7.1563,
               "min": 0,
               "max": 136,
               "info": {
@@ -1428,15 +1436,15 @@
             },
             {
               "name": "access_scores_obgyn:obgyn_3sfca",
-              "duplicates": 22915,
+              "duplicates": 30018,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 22916,
-              "mean": 2.1002,
-              "sd": 3.8709,
+              "missing": 30019,
+              "mean": 2.1041,
+              "sd": 3.8753,
               "min": 0.0067,
               "max": 62.378,
               "info": {
@@ -1468,14 +1476,14 @@
             },
             {
               "name": "perc_income_on_internet:perc_income_avg_nat_package",
-              "duplicates": 22973,
+              "duplicates": 30074,
               "time_range": [
                 11,
                 11
               ],
               "type": "float",
-              "missing": 22927,
-              "mean": 1.229,
+              "missing": 30028,
+              "mean": 1.2275,
               "sd": 0.9108,
               "min": 0.3072,
               "max": 27.9883,
@@ -1508,15 +1516,15 @@
             },
             {
               "name": "perc_income_on_internet:perc_income_min_price_100",
-              "duplicates": 23039,
+              "duplicates": 30139,
               "time_range": [
                 11,
                 11
               ],
               "type": "float",
-              "missing": 23022,
-              "mean": 1.1163,
-              "sd": 0.9766,
+              "missing": 30122,
+              "mean": 1.1155,
+              "sd": 0.9769,
               "min": 0.1685,
               "max": 11.1153,
               "info": {
@@ -1548,15 +1556,15 @@
             },
             {
               "name": "perc_income_on_internet:perc_income_min_price_25",
-              "duplicates": 23049,
+              "duplicates": 30149,
               "time_range": [
                 11,
                 11
               ],
               "type": "float",
-              "missing": 23022,
-              "mean": 0.6097,
-              "sd": 0.361,
+              "missing": 30122,
+              "mean": 0.6086,
+              "sd": 0.3591,
               "min": 0.144,
               "max": 3.3527,
               "info": {
@@ -1588,15 +1596,15 @@
             },
             {
               "name": "brfss_sae:perc_poor_ment_hlth_days_14_and_over",
-              "duplicates": 15423,
+              "duplicates": 22541,
               "time_range": [
                 6,
                 10
               ],
               "type": "float",
-              "missing": 15424,
-              "mean": 11.0718,
-              "sd": 2.9202,
+              "missing": 22542,
+              "mean": 11.0701,
+              "sd": 2.9212,
               "min": 4.2515,
               "max": 30.9632,
               "info": {
@@ -1623,15 +1631,15 @@
             },
             {
               "name": "brfss_sae:perc_poor_phys_hlth_days_14_and_over",
-              "duplicates": 15423,
+              "duplicates": 22541,
               "time_range": [
                 6,
                 10
               ],
               "type": "float",
-              "missing": 15424,
-              "mean": 11.6625,
-              "sd": 3.9075,
+              "missing": 22542,
+              "mean": 11.6644,
+              "sd": 3.9065,
               "min": 2.185,
               "max": 39.2897,
               "info": {
@@ -1658,15 +1666,15 @@
             },
             {
               "name": "post_hs_education:perc_post_hs_edu",
-              "duplicates": 6275,
+              "duplicates": 13427,
               "time_range": [
                 1,
                 10
               ],
               "type": "float",
-              "missing": 5997,
-              "mean": 62.5511,
-              "sd": 18.2734,
+              "missing": 13156,
+              "mean": 62.6456,
+              "sd": 18.204,
               "min": 0,
               "max": 100,
               "info": {
@@ -1693,13 +1701,13 @@
             },
             {
               "name": "preventable_hospitalizations:prevent_hosp_rate",
-              "duplicates": 24790,
+              "duplicates": 31888,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 24791,
+              "missing": 31889,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdct_chr_2015_2021_preventable_hospitalizations",
@@ -1724,15 +1732,15 @@
             },
             {
               "name": "substance_access_scores:subs_10near_median",
-              "duplicates": 23902,
+              "duplicates": 31002,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 22893,
-              "mean": 29.1517,
-              "sd": 21.9092,
+              "missing": 29999,
+              "mean": 29.0772,
+              "sd": 21.8861,
               "min": 3.85,
               "max": 179.3,
               "info": {
@@ -1759,13 +1767,13 @@
             },
             {
               "name": "substance_access_scores:subs_3sfca",
-              "duplicates": 23201,
+              "duplicates": 30304,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 22892,
+              "missing": 29998,
               "mean": 0,
               "sd": 0,
               "min": 0,
@@ -1799,13 +1807,13 @@
             },
             {
               "name": "substance_access_scores:subs_cnt",
-              "duplicates": 24787,
+              "duplicates": 31885,
               "time_range": [
                 12,
                 12
               ],
               "type": "integer",
-              "missing": 24614,
+              "missing": 31712,
               "mean": 1.1412,
               "sd": 0.3804,
               "min": 1,
@@ -1834,13 +1842,13 @@
             },
             {
               "name": "earnings_per_job:earnings_per_job",
-              "duplicates": 24790,
+              "duplicates": 31888,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 24791,
+              "missing": 31889,
               "info": {
                 "category": "Employment/Workforce Development",
                 "measure_table": "earnings_per_job",
@@ -1865,16 +1873,16 @@
             },
             {
               "name": "broadband_withoutint_compdev:perc_hh_with_broadband",
-              "duplicates": 19283,
+              "duplicates": 26392,
               "time_range": [
                 8,
                 10
               ],
               "type": "float",
-              "missing": 19171,
-              "mean": 81.2353,
-              "sd": 13.4042,
-              "min": 0,
+              "missing": 26281,
+              "mean": 81.2892,
+              "sd": 13.3091,
+              "min": 23.4487,
               "max": 100,
               "info": {
                 "category": "Broadband",
@@ -1900,13 +1908,13 @@
             },
             {
               "name": "broadband_withoutint_compdev:perc_hh_with_cable_fiber_dsl",
-              "duplicates": 24790,
+              "duplicates": 31888,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 24791,
+              "missing": 31889,
               "info": {
                 "category": "Broadband",
                 "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev",
@@ -1931,15 +1939,15 @@
             },
             {
               "name": "broadband_withoutint_compdev:perc_hh_without_compdev",
-              "duplicates": 19489,
+              "duplicates": 26596,
               "time_range": [
                 8,
                 10
               ],
               "type": "float",
-              "missing": 19171,
-              "mean": 10.5758,
-              "sd": 9.088,
+              "missing": 26281,
+              "mean": 10.5644,
+              "sd": 9.0788,
               "min": 0,
               "max": 100,
               "info": {
@@ -1966,15 +1974,15 @@
             },
             {
               "name": "broadband_withoutint_compdev:perc_hh_without_internet",
-              "duplicates": 19369,
+              "duplicates": 26475,
               "time_range": [
                 8,
                 10
               ],
               "type": "float",
-              "missing": 19171,
-              "mean": 14.9338,
-              "sd": 11.7216,
+              "missing": 26281,
+              "mean": 14.9227,
+              "sd": 11.7127,
               "min": 0,
               "max": 69.3844,
               "info": {
@@ -2001,15 +2009,15 @@
             },
             {
               "name": "demographics:perc_hispanic_or_latino",
-              "duplicates": 6251,
+              "duplicates": 13407,
               "time_range": [
                 0,
                 10
               ],
               "type": "float",
-              "missing": 4918,
-              "mean": 7.7959,
-              "sd": 9.3738,
+              "missing": 12077,
+              "mean": 7.8077,
+              "sd": 9.3846,
               "min": 0,
               "max": 82.8518,
               "info": {
@@ -2036,15 +2044,15 @@
             },
             {
               "name": "demographics:perc_white",
-              "duplicates": 5120,
+              "duplicates": 12280,
               "time_range": [
                 0,
                 10
               ],
               "type": "float",
-              "missing": 4918,
-              "mean": 68.328,
-              "sd": 22.9069,
+              "missing": 12077,
+              "mean": 68.3864,
+              "sd": 22.8697,
               "min": 0,
               "max": 100,
               "info": {
@@ -2071,15 +2079,15 @@
             },
             {
               "name": "demographics:perc_black",
-              "duplicates": 5607,
+              "duplicates": 12766,
               "time_range": [
                 0,
                 10
               ],
               "type": "float",
-              "missing": 4918,
-              "mean": 20.7564,
-              "sd": 22.2143,
+              "missing": 12077,
+              "mean": 20.6912,
+              "sd": 22.1675,
               "min": 0,
               "max": 100,
               "info": {
@@ -2106,15 +2114,15 @@
             },
             {
               "name": "demographics:perc_native",
-              "duplicates": 17126,
+              "duplicates": 24243,
               "time_range": [
                 0,
                 10
               ],
               "type": "float",
-              "missing": 4918,
-              "mean": 0.2996,
-              "sd": 0.7644,
+              "missing": 12077,
+              "mean": 0.3,
+              "sd": 0.7654,
               "min": 0,
               "max": 28.5714,
               "info": {
@@ -2141,15 +2149,15 @@
             },
             {
               "name": "demographics:perc_AAPI",
-              "duplicates": 8584,
+              "duplicates": 15725,
               "time_range": [
                 0,
                 10
               ],
               "type": "float",
-              "missing": 4918,
-              "mean": 5.4212,
-              "sd": 7.6602,
+              "missing": 12077,
+              "mean": 5.4266,
+              "sd": 7.662,
               "min": 0,
               "max": 63.2455,
               "info": {
@@ -2176,15 +2184,15 @@
             },
             {
               "name": "demographics:perc_other",
-              "duplicates": 10735,
+              "duplicates": 17873,
               "time_range": [
                 0,
                 10
               ],
               "type": "float",
-              "missing": 4918,
-              "mean": 2.231,
-              "sd": 4.0986,
+              "missing": 12077,
+              "mean": 2.2339,
+              "sd": 4.1043,
               "min": 0,
               "max": 66.6667,
               "info": {
@@ -2211,15 +2219,15 @@
             },
             {
               "name": "demographics:perc_two_or_more_races",
-              "duplicates": 6910,
+              "duplicates": 14062,
               "time_range": [
                 0,
                 10
               ],
               "type": "float",
-              "missing": 4918,
-              "mean": 2.9639,
-              "sd": 2.4152,
+              "missing": 12077,
+              "mean": 2.9619,
+              "sd": 2.416,
               "min": 0,
               "max": 24.3792,
               "info": {
@@ -2246,15 +2254,15 @@
             },
             {
               "name": "demographics:perc_under_20",
-              "duplicates": 5205,
+              "duplicates": 12354,
               "time_range": [
                 0,
                 10
               ],
               "type": "float",
-              "missing": 4918,
-              "mean": 24.9132,
-              "sd": 7.3526,
+              "missing": 12077,
+              "mean": 24.9258,
+              "sd": 7.2311,
               "min": 0,
               "max": 86.2415,
               "info": {
@@ -2281,15 +2289,15 @@
             },
             {
               "name": "demographics:perc_20_64",
-              "duplicates": 5197,
+              "duplicates": 12351,
               "time_range": [
                 0,
                 10
               ],
               "type": "float",
-              "missing": 4918,
-              "mean": 61.3971,
-              "sd": 7.9331,
+              "missing": 12077,
+              "mean": 61.3612,
+              "sd": 7.7832,
               "min": 0,
               "max": 100,
               "info": {
@@ -2316,15 +2324,15 @@
             },
             {
               "name": "demographics:perc_65_plus",
-              "duplicates": 5314,
+              "duplicates": 12469,
               "time_range": [
                 0,
                 10
               ],
               "type": "float",
-              "missing": 4918,
-              "mean": 13.0797,
-              "sd": 6.828,
+              "missing": 12077,
+              "mean": 13.1021,
+              "sd": 6.8133,
               "min": 0,
               "max": 100,
               "info": {
@@ -2351,15 +2359,15 @@
             },
             {
               "name": "demographics:perc_veteran",
-              "duplicates": 5423,
+              "duplicates": 12577,
               "time_range": [
                 0,
                 10
               ],
               "type": "float",
-              "missing": 4926,
-              "mean": 13.6727,
-              "sd": 9.9701,
+              "missing": 12085,
+              "mean": 13.6861,
+              "sd": 9.9742,
               "min": 0,
               "max": 100,
               "info": {
@@ -2386,15 +2394,15 @@
             },
             {
               "name": "demographics:perc_hh_limited_english",
-              "duplicates": 19921,
+              "duplicates": 27029,
               "time_range": [
                 7,
                 10
               ],
               "type": "float",
-              "missing": 17298,
-              "mean": 2.5771,
-              "sd": 4.0378,
+              "missing": 24412,
+              "mean": 2.5791,
+              "sd": 4.0405,
               "min": 0,
               "max": 36.3636,
               "info": {
@@ -2421,15 +2429,15 @@
             },
             {
               "name": "access_scores_ems:ems_near_10_median",
-              "duplicates": 22959,
+              "duplicates": 30063,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 22913,
-              "mean": 14.7204,
-              "sd": 7.7931,
+              "missing": 30018,
+              "mean": 14.6985,
+              "sd": 7.783,
               "min": 3.7,
               "max": 60.6948,
               "info": {
@@ -2456,15 +2464,15 @@
             },
             {
               "name": "access_scores_ems:ems_3sfca",
-              "duplicates": 22912,
+              "duplicates": 30017,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 22913,
-              "mean": 0.139,
-              "sd": 0.1233,
+              "missing": 30018,
+              "mean": 0.1385,
+              "sd": 0.1228,
               "min": 0.0257,
               "max": 1.7956,
               "info": {
@@ -2496,15 +2504,15 @@
             },
             {
               "name": "access_scores_ems:ems_cnt",
-              "duplicates": 24783,
+              "duplicates": 31881,
               "time_range": [
                 12,
                 12
               ],
               "type": "integer",
-              "missing": 22892,
-              "mean": 0.5872,
-              "sd": 0.8729,
+              "missing": 29998,
+              "mean": 0.5886,
+              "sd": 0.8741,
               "min": 0,
               "max": 6,
               "info": {
@@ -2531,15 +2539,15 @@
             },
             {
               "name": "access_scores_hospitals:hosp_near_10_median",
-              "duplicates": 22924,
+              "duplicates": 30029,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 22913,
-              "mean": 41.5035,
-              "sd": 23.3874,
+              "missing": 30018,
+              "mean": 41.4404,
+              "sd": 23.3781,
               "min": 8.05,
               "max": 156.6575,
               "info": {
@@ -2566,17 +2574,17 @@
             },
             {
               "name": "access_scores_hospitals:hosp_3sfca",
-              "duplicates": 22912,
+              "duplicates": 30017,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 22913,
-              "mean": 2.5163,
-              "sd": 1.8188,
+              "missing": 30018,
+              "mean": 2.5104,
+              "sd": 1.8048,
               "min": 0.0055,
-              "max": 12.9973,
+              "max": 12.3053,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_hospitals",
@@ -2606,15 +2614,15 @@
             },
             {
               "name": "access_scores_hospitals:hosp_beds_cnt",
-              "duplicates": 24786,
+              "duplicates": 31884,
               "time_range": [
                 12,
                 12
               ],
               "type": "integer",
-              "missing": 22892,
-              "mean": 0.0569,
-              "sd": 0.2675,
+              "missing": 29998,
+              "mean": 0.0571,
+              "sd": 0.2681,
               "min": 0,
               "max": 3,
               "info": {
@@ -2641,15 +2649,15 @@
             },
             {
               "name": "access_scores_pediatric:ped_cnt",
-              "duplicates": 24746,
+              "duplicates": 31844,
               "time_range": [
                 12,
                 12
               ],
               "type": "integer",
-              "missing": 22892,
-              "mean": 2.0853,
-              "sd": 8.8685,
+              "missing": 29998,
+              "mean": 2.0925,
+              "sd": 8.8864,
               "min": 0,
               "max": 190,
               "info": {
@@ -2676,15 +2684,15 @@
             },
             {
               "name": "access_scores_pediatric:ped_3sfca",
-              "duplicates": 22921,
+              "duplicates": 30022,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 22922,
-              "mean": 6.1067,
-              "sd": 13.0751,
+              "missing": 30023,
+              "mean": 6.1131,
+              "sd": 13.0846,
               "min": 0.0091,
               "max": 234.5924,
               "info": {
@@ -2716,15 +2724,15 @@
             },
             {
               "name": "access_scores_primcare:primcare_cnt",
-              "duplicates": 24683,
+              "duplicates": 31781,
               "time_range": [
                 12,
                 12
               ],
               "type": "integer",
-              "missing": 22892,
-              "mean": 10.1991,
-              "sd": 34.42,
+              "missing": 29998,
+              "mean": 10.238,
+              "sd": 34.4874,
               "min": 0,
               "max": 835,
               "info": {
@@ -2751,15 +2759,15 @@
             },
             {
               "name": "access_scores_primcare:primcare_3sfca",
-              "duplicates": 22912,
+              "duplicates": 30017,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 22913,
-              "mean": 5.5622,
-              "sd": 10.9634,
+              "missing": 30018,
+              "mean": 5.5748,
+              "sd": 10.9818,
               "min": 0.0315,
               "max": 212.4402,
               "info": {
@@ -2792,6 +2800,97 @@
           ]
         },
         "_references": {
+          "wan12": {
+            "id": "wan12",
+            "author": [
+              {
+                "given": "Neng",
+                "family": "Wan"
+              },
+              {
+                "given": "Bin",
+                "family": "Zou"
+              },
+              {
+                "given": "Troy",
+                "family": "Sternberg"
+              }
+            ],
+            "year": 2012,
+            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+            "journal": "International Journal of Geographical Information Science",
+            "volume": "26",
+            "page": "1073-1089",
+            "doi": "10.1080/13658816.2011.624987"
+          },
+          "bii21": {
+            "id": "bii21",
+            "author": [
+              {
+                "family": "Biocomplexity Institute and Initiative"
+              }
+            ],
+            "year": 2021,
+            "title": "catchment: Calculate spatial access and availability metrics",
+            "version": "0.0.1",
+            "url": "https://github.com/uva-bi-sdad/catchment"
+          },
+          "liang17": {
+            "id": "liang17",
+            "author": [
+              {
+                "given": "Lan",
+                "family": "Liang"
+              },
+              {
+                "given": "Cindy",
+                "family": "Branch"
+              }
+            ],
+            "year": 2017,
+            "title": "Health Literacy Universal Precautions Are Still a Distant Dream: Analysis of U.S. Data on Health Literate Practices",
+            "journal": "Health Literacy Research and Practice",
+            "volume": "1",
+            "number": 4,
+            "page": "e216-e230",
+            "doi": "10.3928/24748307-20170929-01"
+          },
+          "savitz20": {
+            "id": "savitz20",
+            "author": [
+              {
+                "given": "Samuel",
+                "family": "Savitz"
+              },
+              {
+                "given": "Stacy",
+                "family": "Bailey"
+              },
+              {
+                "given": "Stacie",
+                "family": "Dusetzina"
+              },
+              {
+                "given": "W.",
+                "family": "Schuyler Jones"
+              },
+              {
+                "given": "Justin",
+                "family": "Trogdon"
+              },
+              {
+                "given": "Sally",
+                "family": "Stearns"
+              }
+            ],
+            "year": 2020,
+            "title": "Treatment selection and medication adherence for stable angina: The role of area-based health literacy",
+            "journal": "Journal of Evaluation in Clinical Practice",
+            "volume": "26",
+            "number": 6,
+            "page": "1711-1721",
+            "doi": "10.1111/jep.13341"
+          },
           "lou04": {
             "id": "lou04",
             "author": [
@@ -2894,106 +2993,15 @@
             "title": "Digital Divide Index",
             "journal": "Purdue Center for Regional Development",
             "url": "http://pcrd.purdue.edu/ddi"
-          },
-          "liang17": {
-            "id": "liang17",
-            "author": [
-              {
-                "given": "Lan",
-                "family": "Liang"
-              },
-              {
-                "given": "Cindy",
-                "family": "Branch"
-              }
-            ],
-            "year": 2017,
-            "title": "Health Literacy Universal Precautions Are Still a Distant Dream: Analysis of U.S. Data on Health Literate Practices",
-            "journal": "Health Literacy Research and Practice",
-            "volume": "1",
-            "number": 4,
-            "page": "e216-e230",
-            "doi": "10.3928/24748307-20170929-01"
-          },
-          "savitz20": {
-            "id": "savitz20",
-            "author": [
-              {
-                "given": "Samuel",
-                "family": "Savitz"
-              },
-              {
-                "given": "Stacy",
-                "family": "Bailey"
-              },
-              {
-                "given": "Stacie",
-                "family": "Dusetzina"
-              },
-              {
-                "given": "W.",
-                "family": "Schuyler Jones"
-              },
-              {
-                "given": "Justin",
-                "family": "Trogdon"
-              },
-              {
-                "given": "Sally",
-                "family": "Stearns"
-              }
-            ],
-            "year": 2020,
-            "title": "Treatment selection and medication adherence for stable angina: The role of area-based health literacy",
-            "journal": "Journal of Evaluation in Clinical Practice",
-            "volume": "26",
-            "number": 6,
-            "page": "1711-1721",
-            "doi": "10.1111/jep.13341"
-          },
-          "wan12": {
-            "id": "wan12",
-            "author": [
-              {
-                "given": "Neng",
-                "family": "Wan"
-              },
-              {
-                "given": "Bin",
-                "family": "Zou"
-              },
-              {
-                "given": "Troy",
-                "family": "Sternberg"
-              }
-            ],
-            "year": 2012,
-            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-            "journal": "International Journal of Geographical Information Science",
-            "volume": "26",
-            "page": "1073-1089",
-            "doi": "10.1080/13658816.2011.624987"
-          },
-          "bii21": {
-            "id": "bii21",
-            "author": [
-              {
-                "family": "Biocomplexity Institute and Initiative"
-              }
-            ],
-            "year": 2021,
-            "title": "catchment: Calculate spatial access and availability metrics",
-            "version": "0.0.1",
-            "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
-        "sha512": "2f93b2de0e30df5cd1bde4f580b52f1a95c563bcb3ccd4d7ace0a23653ec55a242480ee689e1abfb78028c2d80f8b437a35eee6f86082d31d51301ae84007fa2",
+        "sha512": "342d2754dbaf25ade8e1c87c3f439d5fa7384c321fbe844bff5a9505a8ff6def2954f2ad6b831da8e97e0bb6a56a717f97f64b5fe3e00a3849ce7795bfe3fa00",
         "site_file": "https://uva-bi-sdad.github.io/community_example//tract.json"
       },
       "county": {
-        "bytes": 290332,
+        "bytes": 290428,
         "encoding": "ISO-8859-1",
-        "md5": "3ddfba88b63914ab41ccd10094411455",
+        "md5": "9cbd58e127dbfe48899f4b5f39fbbfa5",
         "format": "csv",
         "name": "county",
         "filename": "county.csv.xz",
@@ -3006,15 +3014,15 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-06-10 23:44:41",
+        "created": "2022-06-24 03:46:27",
         "last_modified": "2022-04-27 04:30:54",
-        "row_count": 1729,
-        "entity_count": 133,
+        "row_count": 1742,
+        "entity_count": 134,
         "schema": {
           "fields": [
             {
               "name": "time",
-              "duplicates": 1716,
+              "duplicates": 1729,
               "time_range": [
                 0,
                 12
@@ -3033,13 +3041,13 @@
             },
             {
               "name": "3rd_grade_mean_median_read_score:median_read_pass_rate",
-              "duplicates": 1643,
+              "duplicates": 1656,
               "time_range": [
                 10,
                 12
               ],
               "type": "float",
-              "missing": 1475,
+              "missing": 1488,
               "mean": 64.0276,
               "sd": 13.5331,
               "min": 24,
@@ -3068,13 +3076,13 @@
             },
             {
               "name": "emp_rate:emp_rate",
-              "duplicates": 1728,
+              "duplicates": 1741,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 1729,
+              "missing": 1742,
               "info": {
                 "category": "Employment/Workforce Development",
                 "measure_table": "civilian_employment_rate",
@@ -3100,13 +3108,13 @@
             },
             {
               "name": "daycare_access_scores:daycare_cnt",
-              "duplicates": 1598,
+              "duplicates": 1611,
               "time_range": [
                 12,
                 12
               ],
               "type": "integer",
-              "missing": 1596,
+              "missing": 1609,
               "mean": 2803.7594,
               "sd": 7029.0683,
               "min": 19,
@@ -3135,13 +3143,13 @@
             },
             {
               "name": "daycare_access_scores:daycare_3sfca",
-              "duplicates": 1595,
+              "duplicates": 1608,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 1596,
+              "missing": 1609,
               "mean": 3.0802,
               "sd": 0.8641,
               "min": 1.5868,
@@ -3175,13 +3183,13 @@
             },
             {
               "name": "daycare_access_scores:daycare_median_drive_time_top5",
-              "duplicates": 1632,
+              "duplicates": 1645,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 1596,
+              "missing": 1609,
               "mean": 10.3143,
               "sd": 9.4465,
               "min": 0.9,
@@ -3210,17 +3218,17 @@
             },
             {
               "name": "nces:schools_2year_per_100k",
-              "duplicates": 664,
+              "duplicates": 677,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
-              "missing": 665,
-              "mean": 1.0256,
-              "sd": 1.1462,
+              "missing": 678,
+              "mean": 1.078,
+              "sd": 1.2648,
               "min": 0.0001,
-              "max": 6.4133,
+              "max": 7.1978,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_2year_per_100k",
@@ -3261,14 +3269,17 @@
             },
             {
               "name": "nces:schools_2year_min_drivetime",
-              "duplicates": 1091,
+              "duplicates": 1078,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
-              "missing": 673,
-              "min": 2.8875,
+              "missing": 678,
+              "mean": 31.9998,
+              "sd": 17.2249,
+              "min": 2.95,
+              "max": 77.96,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_2year_min_drivetime",
@@ -3299,17 +3310,17 @@
             },
             {
               "name": "nces:schools_under2year_per_100k",
-              "duplicates": 664,
+              "duplicates": 677,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
-              "missing": 665,
-              "mean": 0.3519,
-              "sd": 0.5264,
+              "missing": 678,
+              "mean": 0.3417,
+              "sd": 0.5397,
               "min": 0,
-              "max": 3.506,
+              "max": 3.4261,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_under2year_per_100k",
@@ -3350,14 +3361,17 @@
             },
             {
               "name": "nces:schools_under2year_min_drivetime",
-              "duplicates": 954,
+              "duplicates": 895,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
-              "missing": 673,
+              "missing": 678,
+              "mean": 47.1199,
+              "sd": 25.8863,
               "min": 3.025,
+              "max": 114.175,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_under2year_min_drivetime",
@@ -3388,17 +3402,17 @@
             },
             {
               "name": "nces:schools_2year_with_biomedical_program_per_100k",
-              "duplicates": 664,
+              "duplicates": 677,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
-              "missing": 665,
-              "mean": 0.0135,
-              "sd": 0.0928,
+              "missing": 678,
+              "mean": 0.0098,
+              "sd": 0.0924,
               "min": 0,
-              "max": 1.5245,
+              "max": 1.5038,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_2year_with_biomedical_program_per_100k",
@@ -3439,17 +3453,17 @@
             },
             {
               "name": "nces:schools_2year_with_computer_program_per_100k",
-              "duplicates": 664,
+              "duplicates": 677,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
-              "missing": 665,
-              "mean": 0.7507,
-              "sd": 1.0897,
-              "min": 3e-06,
-              "max": 6.4133,
+              "missing": 678,
+              "mean": 0.7941,
+              "sd": 1.1933,
+              "min": 0.0001,
+              "max": 7.1978,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_2year_with_computer_program_per_100k",
@@ -3490,17 +3504,17 @@
             },
             {
               "name": "nces:schools_2year_with_engineering_program_per_100k",
-              "duplicates": 664,
+              "duplicates": 677,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
-              "missing": 665,
-              "mean": 0.7579,
-              "sd": 1.1247,
-              "min": 3e-06,
-              "max": 6.4133,
+              "missing": 678,
+              "mean": 0.8039,
+              "sd": 1.2346,
+              "min": 0.0001,
+              "max": 7.1978,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_2year_with_engineering_program_per_100k",
@@ -3541,17 +3555,17 @@
             },
             {
               "name": "nces:schools_2year_with_physical_program_per_100k",
-              "duplicates": 664,
+              "duplicates": 677,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
-              "missing": 665,
-              "mean": 0.0371,
-              "sd": 0.1829,
+              "missing": 678,
+              "mean": 0.0355,
+              "sd": 0.1814,
               "min": 0,
-              "max": 1.5572,
+              "max": 1.5328,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_2year_with_physical_program_per_100k",
@@ -3592,17 +3606,17 @@
             },
             {
               "name": "nces:schools_2year_with_science_program_per_100k",
-              "duplicates": 664,
+              "duplicates": 677,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
-              "missing": 665,
-              "mean": 0.0479,
-              "sd": 0.2574,
+              "missing": 678,
+              "mean": 0.0511,
+              "sd": 0.251,
               "min": 0,
-              "max": 4.5007,
+              "max": 4.2058,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_2year_with_science_program_per_100k",
@@ -3643,13 +3657,13 @@
             },
             {
               "name": "dei:norm_dei",
-              "duplicates": 1333,
+              "duplicates": 1346,
               "time_range": [
                 10,
                 12
               ],
               "type": "float",
-              "missing": 1330,
+              "missing": 1343,
               "mean": 41.862,
               "sd": 23.139,
               "min": 0,
@@ -3687,13 +3701,13 @@
             },
             {
               "name": "access_scores_dentists:dent_cnt",
-              "duplicates": 1678,
+              "duplicates": 1691,
               "time_range": [
                 12,
                 12
               ],
               "type": "integer",
-              "missing": 1596,
+              "missing": 1609,
               "mean": 32.3383,
               "sd": 89.6899,
               "min": 0,
@@ -3722,13 +3736,13 @@
             },
             {
               "name": "access_scores_dentists:dent_e2sfca",
-              "duplicates": 1595,
+              "duplicates": 1608,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 1596,
+              "missing": 1609,
               "mean": 0.3553,
               "sd": 0.2504,
               "min": 0.0171,
@@ -3762,13 +3776,13 @@
             },
             {
               "name": "speed_measurements:avg_down_using_devices",
-              "duplicates": 1329,
+              "duplicates": 1342,
               "time_range": [
                 10,
                 12
               ],
               "type": "float",
-              "missing": 1330,
+              "missing": 1343,
               "mean": 113.3846,
               "sd": 50.4184,
               "min": 8.3439,
@@ -3796,13 +3810,13 @@
             },
             {
               "name": "drug_overdose_ed_visits:avg_monthly_rate",
-              "duplicates": 1008,
+              "duplicates": 1021,
               "time_range": [
                 6,
                 12
               ],
               "type": "float",
-              "missing": 803,
+              "missing": 816,
               "mean": 16.0866,
               "sd": 9.6737,
               "min": 0,
@@ -3831,13 +3845,13 @@
             },
             {
               "name": "ems_access_scores:ems_10near_median",
-              "duplicates": 1728,
+              "duplicates": 1741,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 1729,
+              "missing": 1742,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
@@ -3862,13 +3876,13 @@
             },
             {
               "name": "ems_access_scores:ems_3sfca",
-              "duplicates": 1595,
+              "duplicates": 1608,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 1596,
+              "missing": 1609,
               "mean": 0.0003,
               "sd": 0.0002,
               "min": 0,
@@ -3902,13 +3916,13 @@
             },
             {
               "name": "ems_access_scores:ems_cnt",
-              "duplicates": 1702,
+              "duplicates": 1715,
               "time_range": [
                 12,
                 12
               ],
               "type": "integer",
-              "missing": 1596,
+              "missing": 1609,
               "mean": 8.406,
               "sd": 6.7622,
               "min": 0,
@@ -3937,13 +3951,13 @@
             },
             {
               "name": "food_insecurity_and_cost:Child_Food_Insecurity_Rate",
-              "duplicates": 1498,
+              "duplicates": 1511,
               "time_range": [
                 1,
                 10
               ],
               "type": "float",
-              "missing": 399,
+              "missing": 412,
               "mean": 16.7853,
               "sd": 4.715,
               "min": 1.4,
@@ -3972,13 +3986,13 @@
             },
             {
               "name": "food_insecurity_and_cost:Cost_Per_Meal",
-              "duplicates": 1453,
+              "duplicates": 1466,
               "time_range": [
                 2,
                 10
               ],
               "type": "float",
-              "missing": 532,
+              "missing": 545,
               "mean": 3.0402,
               "sd": 0.2853,
               "min": 2.41,
@@ -4007,13 +4021,13 @@
             },
             {
               "name": "food_insecurity_and_cost:Food_Insecurity_Rate",
-              "duplicates": 1530,
+              "duplicates": 1543,
               "time_range": [
                 1,
                 10
               ],
               "type": "float",
-              "missing": 399,
+              "missing": 412,
               "mean": 12.2723,
               "sd": 4.2626,
               "min": 3.4,
@@ -4042,13 +4056,13 @@
             },
             {
               "name": "food_insecurity_and_cost:Num_Child_Food_Insecure",
-              "duplicates": 1309,
+              "duplicates": 1322,
               "time_range": [
                 1,
                 10
               ],
               "type": "integer",
-              "missing": 399,
+              "missing": 412,
               "mean": 1913.2782,
               "sd": 3241.5838,
               "min": 40,
@@ -4077,13 +4091,13 @@
             },
             {
               "name": "health_literacy_estimates:health_literacy_estimate",
-              "duplicates": 1723,
+              "duplicates": 1736,
               "time_range": [
                 10,
                 10
               ],
               "type": "float",
-              "missing": 1596,
+              "missing": 1609,
               "mean": 0.3165,
               "sd": 0.6769,
               "min": -0.995,
@@ -4120,13 +4134,13 @@
             },
             {
               "name": "hospital_access_scores:hos_10near_median",
-              "duplicates": 1728,
+              "duplicates": 1741,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 1729,
+              "missing": 1742,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
@@ -4151,13 +4165,13 @@
             },
             {
               "name": "hospital_access_scores:hos_3sfca",
-              "duplicates": 1595,
+              "duplicates": 1608,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 1596,
+              "missing": 1609,
               "mean": 0,
               "sd": 0,
               "min": 0,
@@ -4191,13 +4205,13 @@
             },
             {
               "name": "hospital_access_scores:hos_cnt",
-              "duplicates": 1720,
+              "duplicates": 1733,
               "time_range": [
                 12,
                 12
               ],
               "type": "integer",
-              "missing": 1596,
+              "missing": 1609,
               "mean": 0.8421,
               "sd": 1.2238,
               "min": 0,
@@ -4226,13 +4240,13 @@
             },
             {
               "name": "mental_access_scores:mental_10near_median",
-              "duplicates": 1728,
+              "duplicates": 1741,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 1729,
+              "missing": 1742,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores",
@@ -4257,13 +4271,13 @@
             },
             {
               "name": "mental_access_scores:mental_3sfca",
-              "duplicates": 1595,
+              "duplicates": 1608,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 1596,
+              "missing": 1609,
               "mean": 0.0396,
               "sd": 0.03,
               "min": 0,
@@ -4297,13 +4311,13 @@
             },
             {
               "name": "mental_access_scores:mental_cnt",
-              "duplicates": 1717,
+              "duplicates": 1730,
               "time_range": [
                 12,
                 12
               ],
               "type": "integer",
-              "missing": 1596,
+              "missing": 1609,
               "mean": 1.7744,
               "sd": 2.4576,
               "min": 0,
@@ -4332,13 +4346,13 @@
             },
             {
               "name": "no_health_insurance_19_to_64:hlth_ins_pct",
-              "duplicates": 1063,
+              "duplicates": 1076,
               "time_range": [
                 6,
                 10
               ],
               "type": "float",
-              "missing": 1064,
+              "missing": 1077,
               "mean": 84.3503,
               "sd": 4.8821,
               "min": 67.7416,
@@ -4368,13 +4382,13 @@
             },
             {
               "name": "access_scores_obgyn:obgyn_cnt",
-              "duplicates": 1683,
+              "duplicates": 1696,
               "time_range": [
                 12,
                 12
               ],
               "type": "integer",
-              "missing": 1596,
+              "missing": 1609,
               "mean": 22.8421,
               "sd": 59.8737,
               "min": 0,
@@ -4403,13 +4417,13 @@
             },
             {
               "name": "access_scores_obgyn:obgyn_3sfca",
-              "duplicates": 1595,
+              "duplicates": 1608,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 1596,
+              "missing": 1609,
               "mean": 2.4261,
               "sd": 5.0643,
               "min": 0.0482,
@@ -4443,13 +4457,13 @@
             },
             {
               "name": "perc_income_on_internet:perc_income_avg_nat_package",
-              "duplicates": 1595,
+              "duplicates": 1608,
               "time_range": [
                 11,
                 11
               ],
               "type": "float",
-              "missing": 1596,
+              "missing": 1609,
               "mean": 1.4486,
               "sd": 0.47,
               "min": 0.5629,
@@ -4483,13 +4497,13 @@
             },
             {
               "name": "perc_income_on_internet:perc_income_min_price_100",
-              "duplicates": 1598,
+              "duplicates": 1611,
               "time_range": [
                 11,
                 11
               ],
               "type": "float",
-              "missing": 1599,
+              "missing": 1612,
               "mean": 1.3831,
               "sd": 0.8034,
               "min": 0.2601,
@@ -4523,13 +4537,13 @@
             },
             {
               "name": "perc_income_on_internet:perc_income_min_price_25",
-              "duplicates": 1598,
+              "duplicates": 1611,
               "time_range": [
                 11,
                 11
               ],
               "type": "float",
-              "missing": 1599,
+              "missing": 1612,
               "mean": 0.7812,
               "sd": 0.2915,
               "min": 0.2095,
@@ -4563,13 +4577,13 @@
             },
             {
               "name": "brfss_sae:perc_poor_ment_hlth_days_14_and_over",
-              "duplicates": 1063,
+              "duplicates": 1076,
               "time_range": [
                 6,
                 10
               ],
               "type": "float",
-              "missing": 1064,
+              "missing": 1077,
               "mean": 10.9624,
               "sd": 2.1822,
               "min": 5.8043,
@@ -4598,13 +4612,13 @@
             },
             {
               "name": "brfss_sae:perc_poor_phys_hlth_days_14_and_over",
-              "duplicates": 1063,
+              "duplicates": 1076,
               "time_range": [
                 6,
                 10
               ],
               "type": "float",
-              "missing": 1064,
+              "missing": 1077,
               "mean": 12.1872,
               "sd": 2.8533,
               "min": 5.1487,
@@ -4633,15 +4647,15 @@
             },
             {
               "name": "post_hs_education:perc_post_hs_edu",
-              "duplicates": 398,
+              "duplicates": 407,
               "time_range": [
                 1,
                 10
               ],
               "type": "float",
-              "missing": 399,
-              "mean": 52.4375,
-              "sd": 12.1397,
+              "missing": 408,
+              "mean": 52.4363,
+              "sd": 12.1216,
               "min": 24.4028,
               "max": 93.3023,
               "info": {
@@ -4668,15 +4682,15 @@
             },
             {
               "name": "preventable_hospitalizations:prevent_hosp_rate",
-              "duplicates": 906,
+              "duplicates": 917,
               "time_range": [
                 6,
                 12
               ],
               "type": "integer",
-              "missing": 828,
-              "mean": 5159.8357,
-              "sd": 1880.8151,
+              "missing": 839,
+              "mean": 5161.0676,
+              "sd": 1879.0309,
               "min": 2091,
               "max": 18247,
               "info": {
@@ -4703,13 +4717,13 @@
             },
             {
               "name": "substance_access_scores:subs_10near_median",
-              "duplicates": 1728,
+              "duplicates": 1741,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 1729,
+              "missing": 1742,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_substance_access_scores",
@@ -4734,13 +4748,13 @@
             },
             {
               "name": "substance_access_scores:subs_3sfca",
-              "duplicates": 1595,
+              "duplicates": 1608,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 1596,
+              "missing": 1609,
               "mean": 0,
               "sd": 0,
               "min": 0,
@@ -4774,13 +4788,13 @@
             },
             {
               "name": "substance_access_scores:subs_cnt",
-              "duplicates": 1718,
+              "duplicates": 1731,
               "time_range": [
                 12,
                 12
               ],
               "type": "integer",
-              "missing": 1596,
+              "missing": 1609,
               "mean": 1.5188,
               "sd": 2.3179,
               "min": 0,
@@ -4809,13 +4823,13 @@
             },
             {
               "name": "earnings_per_job:earnings_per_job",
-              "duplicates": 1236,
+              "duplicates": 1249,
               "time_range": [
                 6,
                 11
               ],
               "type": "float",
-              "missing": 1237,
+              "missing": 1250,
               "mean": 46255.4608,
               "sd": 15246.1732,
               "min": 23169.8842,
@@ -4844,13 +4858,13 @@
             },
             {
               "name": "broadband_withoutint_compdev:perc_hh_with_broadband",
-              "duplicates": 1329,
+              "duplicates": 1342,
               "time_range": [
                 8,
                 10
               ],
               "type": "float",
-              "missing": 1330,
+              "missing": 1343,
               "mean": 73.1099,
               "sd": 10.3811,
               "min": 48.2457,
@@ -4879,13 +4893,13 @@
             },
             {
               "name": "broadband_withoutint_compdev:perc_hh_with_cable_fiber_dsl",
-              "duplicates": 1329,
+              "duplicates": 1342,
               "time_range": [
                 8,
                 10
               ],
               "type": "float",
-              "missing": 1330,
+              "missing": 1343,
               "mean": 54.313,
               "sd": 17.1723,
               "min": 10.0733,
@@ -4914,13 +4928,13 @@
             },
             {
               "name": "broadband_withoutint_compdev:perc_hh_without_compdev",
-              "duplicates": 1329,
+              "duplicates": 1342,
               "time_range": [
                 8,
                 10
               ],
               "type": "float",
-              "missing": 1330,
+              "missing": 1343,
               "mean": 16.0661,
               "sd": 7.569,
               "min": 1.7489,
@@ -4949,13 +4963,13 @@
             },
             {
               "name": "broadband_withoutint_compdev:perc_hh_without_internet",
-              "duplicates": 1329,
+              "duplicates": 1342,
               "time_range": [
                 8,
                 10
               ],
               "type": "float",
-              "missing": 1330,
+              "missing": 1343,
               "mean": 22.0161,
               "sd": 9.2136,
               "min": 2.6932,
@@ -4984,15 +4998,15 @@
             },
             {
               "name": "demographics:perc_hispanic_or_latino",
-              "duplicates": 279,
+              "duplicates": 287,
               "time_range": [
                 0,
                 10
               ],
               "type": "float",
-              "missing": 266,
-              "mean": 4.6719,
-              "sd": 5.3926,
+              "missing": 274,
+              "mean": 4.6644,
+              "sd": 5.3858,
               "min": 0,
               "max": 39.7327,
               "info": {
@@ -5019,15 +5033,15 @@
             },
             {
               "name": "demographics:perc_white",
-              "duplicates": 265,
+              "duplicates": 273,
               "time_range": [
                 0,
                 10
               ],
               "type": "float",
-              "missing": 266,
-              "mean": 75.4474,
-              "sd": 17.2457,
+              "missing": 274,
+              "mean": 75.4458,
+              "sd": 17.2166,
               "min": 16.9391,
               "max": 99.8682,
               "info": {
@@ -5054,15 +5068,15 @@
             },
             {
               "name": "demographics:perc_black",
-              "duplicates": 275,
+              "duplicates": 283,
               "time_range": [
                 0,
                 10
               ],
               "type": "float",
-              "missing": 266,
-              "mean": 18.9243,
-              "sd": 16.5839,
+              "missing": 274,
+              "mean": 18.9354,
+              "sd": 16.557,
               "min": 0,
               "max": 79.5165,
               "info": {
@@ -5089,15 +5103,15 @@
             },
             {
               "name": "demographics:perc_native",
-              "duplicates": 458,
+              "duplicates": 471,
               "time_range": [
                 0,
                 10
               ],
               "type": "float",
-              "missing": 266,
-              "mean": 0.3004,
-              "sd": 0.6001,
+              "missing": 274,
+              "mean": 0.2994,
+              "sd": 0.5993,
               "min": 0,
               "max": 7.1928,
               "info": {
@@ -5124,15 +5138,15 @@
             },
             {
               "name": "demographics:perc_AAPI",
-              "duplicates": 327,
+              "duplicates": 336,
               "time_range": [
                 0,
                 10
               ],
               "type": "float",
-              "missing": 266,
-              "mean": 1.9525,
-              "sd": 3.0516,
+              "missing": 274,
+              "mean": 1.9471,
+              "sd": 3.0479,
               "min": 0,
               "max": 19.247,
               "info": {
@@ -5159,15 +5173,15 @@
             },
             {
               "name": "demographics:perc_other",
-              "duplicates": 350,
+              "duplicates": 358,
               "time_range": [
                 0,
                 10
               ],
               "type": "float",
-              "missing": 266,
-              "mean": 1.2383,
-              "sd": 1.6631,
+              "missing": 274,
+              "mean": 1.2347,
+              "sd": 1.6614,
               "min": 0,
               "max": 16.6767,
               "info": {
@@ -5194,15 +5208,15 @@
             },
             {
               "name": "demographics:perc_two_or_more_races",
-              "duplicates": 274,
+              "duplicates": 282,
               "time_range": [
                 0,
                 10
               ],
               "type": "float",
-              "missing": 266,
-              "mean": 2.1372,
-              "sd": 1.3058,
+              "missing": 274,
+              "mean": 2.1376,
+              "sd": 1.304,
               "min": 0,
               "max": 8.3609,
               "info": {
@@ -5229,15 +5243,15 @@
             },
             {
               "name": "demographics:perc_under_20",
-              "duplicates": 265,
+              "duplicates": 273,
               "time_range": [
                 0,
                 10
               ],
               "type": "float",
-              "missing": 266,
-              "mean": 23.9316,
-              "sd": 3.4361,
+              "missing": 274,
+              "mean": 23.9344,
+              "sd": 3.4371,
               "min": 8.6934,
               "max": 35.2126,
               "info": {
@@ -5264,15 +5278,15 @@
             },
             {
               "name": "demographics:perc_20_64",
-              "duplicates": 266,
+              "duplicates": 274,
               "time_range": [
                 0,
                 10
               ],
               "type": "float",
-              "missing": 266,
-              "mean": 59.2617,
-              "sd": 3.6239,
+              "missing": 274,
+              "mean": 59.2496,
+              "sd": 3.6243,
               "min": 46.4889,
               "max": 76.6131,
               "info": {
@@ -5299,15 +5313,15 @@
             },
             {
               "name": "demographics:perc_65_plus",
-              "duplicates": 265,
+              "duplicates": 273,
               "time_range": [
                 0,
                 10
               ],
               "type": "float",
-              "missing": 266,
-              "mean": 16.0671,
-              "sd": 4.8891,
+              "missing": 274,
+              "mean": 16.0743,
+              "sd": 4.8855,
               "min": 5.1307,
               "max": 39.8367,
               "info": {
@@ -5334,15 +5348,15 @@
             },
             {
               "name": "demographics:perc_veteran",
-              "duplicates": 265,
+              "duplicates": 273,
               "time_range": [
                 0,
                 10
               ],
               "type": "float",
-              "missing": 266,
-              "mean": 14.3728,
-              "sd": 11.2511,
+              "missing": 274,
+              "mean": 14.389,
+              "sd": 11.264,
               "min": 2.7783,
               "max": 65.5126,
               "info": {
@@ -5369,13 +5383,13 @@
             },
             {
               "name": "demographics:perc_hh_limited_english",
-              "duplicates": 1252,
+              "duplicates": 1265,
               "time_range": [
                 7,
                 10
               ],
               "type": "float",
-              "missing": 1197,
+              "missing": 1210,
               "mean": 1.2455,
               "sd": 1.705,
               "min": 0,
@@ -5404,13 +5418,13 @@
             },
             {
               "name": "access_scores_ems:ems_near_10_median",
-              "duplicates": 1595,
+              "duplicates": 1608,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 1596,
+              "missing": 1609,
               "mean": 20.8895,
               "sd": 9.1188,
               "min": 6.9339,
@@ -5439,13 +5453,13 @@
             },
             {
               "name": "access_scores_ems:ems_3sfca",
-              "duplicates": 1595,
+              "duplicates": 1608,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 1596,
+              "missing": 1609,
               "mean": 0.2513,
               "sd": 0.1852,
               "min": 0.0417,
@@ -5479,13 +5493,13 @@
             },
             {
               "name": "access_scores_ems:ems_cnt",
-              "duplicates": 1702,
+              "duplicates": 1715,
               "time_range": [
                 12,
                 12
               ],
               "type": "integer",
-              "missing": 1596,
+              "missing": 1609,
               "mean": 8.3835,
               "sd": 6.7293,
               "min": 0,
@@ -5514,13 +5528,13 @@
             },
             {
               "name": "access_scores_hospitals:hosp_near_10_median",
-              "duplicates": 1595,
+              "duplicates": 1608,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 1596,
+              "missing": 1609,
               "mean": 59.7735,
               "sd": 22.5411,
               "min": 11.7641,
@@ -5549,13 +5563,13 @@
             },
             {
               "name": "access_scores_hospitals:hosp_3sfca",
-              "duplicates": 1595,
+              "duplicates": 1608,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 1596,
+              "missing": 1609,
               "mean": 2.5429,
               "sd": 2.0609,
               "min": 0.325,
@@ -5589,13 +5603,13 @@
             },
             {
               "name": "access_scores_hospitals:hosp_beds_cnt",
-              "duplicates": 1720,
+              "duplicates": 1733,
               "time_range": [
                 12,
                 12
               ],
               "type": "integer",
-              "missing": 1596,
+              "missing": 1609,
               "mean": 0.812,
               "sd": 1.2007,
               "min": 0,
@@ -5624,13 +5638,13 @@
             },
             {
               "name": "access_scores_pediatric:ped_cnt",
-              "duplicates": 1683,
+              "duplicates": 1696,
               "time_range": [
                 12,
                 12
               ],
               "type": "integer",
-              "missing": 1596,
+              "missing": 1609,
               "mean": 29.7744,
               "sd": 82.7815,
               "min": 0,
@@ -5659,13 +5673,13 @@
             },
             {
               "name": "access_scores_pediatric:ped_3sfca",
-              "duplicates": 1595,
+              "duplicates": 1608,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 1596,
+              "missing": 1609,
               "mean": 7.4295,
               "sd": 19.1013,
               "min": 0.2891,
@@ -5699,13 +5713,13 @@
             },
             {
               "name": "access_scores_primcare:primcare_cnt",
-              "duplicates": 1634,
+              "duplicates": 1647,
               "time_range": [
                 12,
                 12
               ],
               "type": "integer",
-              "missing": 1596,
+              "missing": 1609,
               "mean": 145.6241,
               "sd": 338.5321,
               "min": 1,
@@ -5734,13 +5748,13 @@
             },
             {
               "name": "access_scores_primcare:primcare_3sfca",
-              "duplicates": 1595,
+              "duplicates": 1608,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 1596,
+              "missing": 1609,
               "mean": 7.335,
               "sd": 19.9352,
               "min": 0.8027,
@@ -5775,6 +5789,97 @@
           ]
         },
         "_references": {
+          "wan12": {
+            "id": "wan12",
+            "author": [
+              {
+                "given": "Neng",
+                "family": "Wan"
+              },
+              {
+                "given": "Bin",
+                "family": "Zou"
+              },
+              {
+                "given": "Troy",
+                "family": "Sternberg"
+              }
+            ],
+            "year": 2012,
+            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+            "journal": "International Journal of Geographical Information Science",
+            "volume": "26",
+            "page": "1073-1089",
+            "doi": "10.1080/13658816.2011.624987"
+          },
+          "bii21": {
+            "id": "bii21",
+            "author": [
+              {
+                "family": "Biocomplexity Institute and Initiative"
+              }
+            ],
+            "year": 2021,
+            "title": "catchment: Calculate spatial access and availability metrics",
+            "version": "0.0.1",
+            "url": "https://github.com/uva-bi-sdad/catchment"
+          },
+          "liang17": {
+            "id": "liang17",
+            "author": [
+              {
+                "given": "Lan",
+                "family": "Liang"
+              },
+              {
+                "given": "Cindy",
+                "family": "Branch"
+              }
+            ],
+            "year": 2017,
+            "title": "Health Literacy Universal Precautions Are Still a Distant Dream: Analysis of U.S. Data on Health Literate Practices",
+            "journal": "Health Literacy Research and Practice",
+            "volume": "1",
+            "number": 4,
+            "page": "e216-e230",
+            "doi": "10.3928/24748307-20170929-01"
+          },
+          "savitz20": {
+            "id": "savitz20",
+            "author": [
+              {
+                "given": "Samuel",
+                "family": "Savitz"
+              },
+              {
+                "given": "Stacy",
+                "family": "Bailey"
+              },
+              {
+                "given": "Stacie",
+                "family": "Dusetzina"
+              },
+              {
+                "given": "W.",
+                "family": "Schuyler Jones"
+              },
+              {
+                "given": "Justin",
+                "family": "Trogdon"
+              },
+              {
+                "given": "Sally",
+                "family": "Stearns"
+              }
+            ],
+            "year": 2020,
+            "title": "Treatment selection and medication adherence for stable angina: The role of area-based health literacy",
+            "journal": "Journal of Evaluation in Clinical Practice",
+            "volume": "26",
+            "number": 6,
+            "page": "1711-1721",
+            "doi": "10.1111/jep.13341"
+          },
           "lou04": {
             "id": "lou04",
             "author": [
@@ -5877,106 +5982,15 @@
             "title": "Digital Divide Index",
             "journal": "Purdue Center for Regional Development",
             "url": "http://pcrd.purdue.edu/ddi"
-          },
-          "liang17": {
-            "id": "liang17",
-            "author": [
-              {
-                "given": "Lan",
-                "family": "Liang"
-              },
-              {
-                "given": "Cindy",
-                "family": "Branch"
-              }
-            ],
-            "year": 2017,
-            "title": "Health Literacy Universal Precautions Are Still a Distant Dream: Analysis of U.S. Data on Health Literate Practices",
-            "journal": "Health Literacy Research and Practice",
-            "volume": "1",
-            "number": 4,
-            "page": "e216-e230",
-            "doi": "10.3928/24748307-20170929-01"
-          },
-          "savitz20": {
-            "id": "savitz20",
-            "author": [
-              {
-                "given": "Samuel",
-                "family": "Savitz"
-              },
-              {
-                "given": "Stacy",
-                "family": "Bailey"
-              },
-              {
-                "given": "Stacie",
-                "family": "Dusetzina"
-              },
-              {
-                "given": "W.",
-                "family": "Schuyler Jones"
-              },
-              {
-                "given": "Justin",
-                "family": "Trogdon"
-              },
-              {
-                "given": "Sally",
-                "family": "Stearns"
-              }
-            ],
-            "year": 2020,
-            "title": "Treatment selection and medication adherence for stable angina: The role of area-based health literacy",
-            "journal": "Journal of Evaluation in Clinical Practice",
-            "volume": "26",
-            "number": 6,
-            "page": "1711-1721",
-            "doi": "10.1111/jep.13341"
-          },
-          "wan12": {
-            "id": "wan12",
-            "author": [
-              {
-                "given": "Neng",
-                "family": "Wan"
-              },
-              {
-                "given": "Bin",
-                "family": "Zou"
-              },
-              {
-                "given": "Troy",
-                "family": "Sternberg"
-              }
-            ],
-            "year": 2012,
-            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-            "journal": "International Journal of Geographical Information Science",
-            "volume": "26",
-            "page": "1073-1089",
-            "doi": "10.1080/13658816.2011.624987"
-          },
-          "bii21": {
-            "id": "bii21",
-            "author": [
-              {
-                "family": "Biocomplexity Institute and Initiative"
-              }
-            ],
-            "year": 2021,
-            "title": "catchment: Calculate spatial access and availability metrics",
-            "version": "0.0.1",
-            "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
-        "sha512": "73f1fb2f5c6e3921ca766a4153053a0a484b5f7f23e3408cef043a49387c5cc44428174bee383dab665afb0855c193a3faa368e314277afe79930f016c71df6b",
+        "sha512": "3977f3117636cea94f65aba287fb20e891ecec30131c8d9d7d181d3ee566c54ad6719df5333cbbdbb259e67bd22ce8a7b06458a22e454e016b7e2e9ead752e75",
         "site_file": "https://uva-bi-sdad.github.io/community_example//county.json"
       },
       "district": {
-        "bytes": 75096,
+        "bytes": 75224,
         "encoding": "ISO-8859-1",
-        "md5": "2f6a474a22de347505ef7f5744dedc5b",
+        "md5": "fce16db2face0017874e44bdf9301ec6",
         "format": "csv",
         "name": "district",
         "filename": "health_district.csv.xz",
@@ -5989,7 +6003,7 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-06-10 23:44:40",
+        "created": "2022-06-24 03:46:27",
         "last_modified": "2022-04-27 04:30:54",
         "row_count": 455,
         "entity_count": 35,
@@ -6200,10 +6214,10 @@
               ],
               "type": "float",
               "missing": 175,
-              "mean": 1.0246,
-              "sd": 0.5718,
-              "min": 0.1636,
-              "max": 3.4074,
+              "mean": 1.0627,
+              "sd": 0.6359,
+              "min": 0.1529,
+              "max": 3.4168,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_2year_per_100k",
@@ -6244,14 +6258,17 @@
             },
             {
               "name": "nces:schools_2year_min_drivetime",
-              "duplicates": 211,
+              "duplicates": 191,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
-              "missing": 183,
-              "min": 5.3702,
+              "missing": 175,
+              "mean": 24.2496,
+              "sd": 12.1931,
+              "min": 5.9525,
+              "max": 61.5325,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_2year_min_drivetime",
@@ -6289,10 +6306,10 @@
               ],
               "type": "float",
               "missing": 175,
-              "mean": 0.5292,
-              "sd": 0.425,
-              "min": 0.0025,
-              "max": 1.7432,
+              "mean": 0.5265,
+              "sd": 0.4378,
+              "min": 0.0001,
+              "max": 1.7606,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_under2year_per_100k",
@@ -6333,14 +6350,17 @@
             },
             {
               "name": "nces:schools_under2year_min_drivetime",
-              "duplicates": 193,
+              "duplicates": 180,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
-              "missing": 183,
-              "min": 5.5627,
+              "missing": 175,
+              "mean": 35.475,
+              "sd": 24.4586,
+              "min": 6.3382,
+              "max": 97.0865,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_under2year_min_drivetime",
@@ -6378,10 +6398,10 @@
               ],
               "type": "float",
               "missing": 175,
-              "mean": 0.0148,
-              "sd": 0.0653,
+              "mean": 0.0077,
+              "sd": 0.0637,
               "min": 0,
-              "max": 0.7291,
+              "max": 0.7293,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_2year_with_biomedical_program_per_100k",
@@ -6429,10 +6449,10 @@
               ],
               "type": "float",
               "missing": 175,
-              "mean": 0.6158,
-              "sd": 0.4654,
-              "min": 0.0054,
-              "max": 3.295,
+              "mean": 0.6324,
+              "sd": 0.5129,
+              "min": 0.0002,
+              "max": 3.2835,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_2year_with_computer_program_per_100k",
@@ -6480,10 +6500,10 @@
               ],
               "type": "float",
               "missing": 175,
-              "mean": 0.6476,
-              "sd": 0.6139,
-              "min": 0.0652,
-              "max": 3.4066,
+              "mean": 0.6641,
+              "sd": 0.6539,
+              "min": 0.0085,
+              "max": 3.416,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_2year_with_engineering_program_per_100k",
@@ -6531,10 +6551,10 @@
               ],
               "type": "float",
               "missing": 175,
-              "mean": 0.028,
-              "sd": 0.1241,
+              "mean": 0.0239,
+              "sd": 0.1244,
               "min": 0,
-              "max": 0.7584,
+              "max": 0.7591,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_2year_with_physical_program_per_100k",
@@ -6582,10 +6602,10 @@
               ],
               "type": "float",
               "missing": 175,
-              "mean": 0.0567,
-              "sd": 0.1826,
+              "mean": 0.0578,
+              "sd": 0.1941,
               "min": 0,
-              "max": 1.4727,
+              "max": 1.6753,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_2year_with_science_program_per_100k",
@@ -8718,6 +8738,97 @@
           ]
         },
         "_references": {
+          "wan12": {
+            "id": "wan12",
+            "author": [
+              {
+                "given": "Neng",
+                "family": "Wan"
+              },
+              {
+                "given": "Bin",
+                "family": "Zou"
+              },
+              {
+                "given": "Troy",
+                "family": "Sternberg"
+              }
+            ],
+            "year": 2012,
+            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+            "journal": "International Journal of Geographical Information Science",
+            "volume": "26",
+            "page": "1073-1089",
+            "doi": "10.1080/13658816.2011.624987"
+          },
+          "bii21": {
+            "id": "bii21",
+            "author": [
+              {
+                "family": "Biocomplexity Institute and Initiative"
+              }
+            ],
+            "year": 2021,
+            "title": "catchment: Calculate spatial access and availability metrics",
+            "version": "0.0.1",
+            "url": "https://github.com/uva-bi-sdad/catchment"
+          },
+          "liang17": {
+            "id": "liang17",
+            "author": [
+              {
+                "given": "Lan",
+                "family": "Liang"
+              },
+              {
+                "given": "Cindy",
+                "family": "Branch"
+              }
+            ],
+            "year": 2017,
+            "title": "Health Literacy Universal Precautions Are Still a Distant Dream: Analysis of U.S. Data on Health Literate Practices",
+            "journal": "Health Literacy Research and Practice",
+            "volume": "1",
+            "number": 4,
+            "page": "e216-e230",
+            "doi": "10.3928/24748307-20170929-01"
+          },
+          "savitz20": {
+            "id": "savitz20",
+            "author": [
+              {
+                "given": "Samuel",
+                "family": "Savitz"
+              },
+              {
+                "given": "Stacy",
+                "family": "Bailey"
+              },
+              {
+                "given": "Stacie",
+                "family": "Dusetzina"
+              },
+              {
+                "given": "W.",
+                "family": "Schuyler Jones"
+              },
+              {
+                "given": "Justin",
+                "family": "Trogdon"
+              },
+              {
+                "given": "Sally",
+                "family": "Stearns"
+              }
+            ],
+            "year": 2020,
+            "title": "Treatment selection and medication adherence for stable angina: The role of area-based health literacy",
+            "journal": "Journal of Evaluation in Clinical Practice",
+            "volume": "26",
+            "number": 6,
+            "page": "1711-1721",
+            "doi": "10.1111/jep.13341"
+          },
           "lou04": {
             "id": "lou04",
             "author": [
@@ -8820,100 +8931,9 @@
             "title": "Digital Divide Index",
             "journal": "Purdue Center for Regional Development",
             "url": "http://pcrd.purdue.edu/ddi"
-          },
-          "liang17": {
-            "id": "liang17",
-            "author": [
-              {
-                "given": "Lan",
-                "family": "Liang"
-              },
-              {
-                "given": "Cindy",
-                "family": "Branch"
-              }
-            ],
-            "year": 2017,
-            "title": "Health Literacy Universal Precautions Are Still a Distant Dream: Analysis of U.S. Data on Health Literate Practices",
-            "journal": "Health Literacy Research and Practice",
-            "volume": "1",
-            "number": 4,
-            "page": "e216-e230",
-            "doi": "10.3928/24748307-20170929-01"
-          },
-          "savitz20": {
-            "id": "savitz20",
-            "author": [
-              {
-                "given": "Samuel",
-                "family": "Savitz"
-              },
-              {
-                "given": "Stacy",
-                "family": "Bailey"
-              },
-              {
-                "given": "Stacie",
-                "family": "Dusetzina"
-              },
-              {
-                "given": "W.",
-                "family": "Schuyler Jones"
-              },
-              {
-                "given": "Justin",
-                "family": "Trogdon"
-              },
-              {
-                "given": "Sally",
-                "family": "Stearns"
-              }
-            ],
-            "year": 2020,
-            "title": "Treatment selection and medication adherence for stable angina: The role of area-based health literacy",
-            "journal": "Journal of Evaluation in Clinical Practice",
-            "volume": "26",
-            "number": 6,
-            "page": "1711-1721",
-            "doi": "10.1111/jep.13341"
-          },
-          "wan12": {
-            "id": "wan12",
-            "author": [
-              {
-                "given": "Neng",
-                "family": "Wan"
-              },
-              {
-                "given": "Bin",
-                "family": "Zou"
-              },
-              {
-                "given": "Troy",
-                "family": "Sternberg"
-              }
-            ],
-            "year": 2012,
-            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-            "journal": "International Journal of Geographical Information Science",
-            "volume": "26",
-            "page": "1073-1089",
-            "doi": "10.1080/13658816.2011.624987"
-          },
-          "bii21": {
-            "id": "bii21",
-            "author": [
-              {
-                "family": "Biocomplexity Institute and Initiative"
-              }
-            ],
-            "year": 2021,
-            "title": "catchment: Calculate spatial access and availability metrics",
-            "version": "0.0.1",
-            "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
-        "sha512": "db620c2dfbc660611f0fe2f0000a92875029b4c31e937903e031ec3956ee1bc6050a973c1dded0d6415db5254e701d31e31a728e7fd8212c8b93572960985d08",
+        "sha512": "e2b1a96fb557edbfc5ef5d24996df5c58522a25b316a3ec93a5d14ce82d5d4c191102d066ddabb5f6b395800e32d769a2c9e26dda15048fe5a29cff139c6f2ef",
         "site_file": "https://uva-bi-sdad.github.io/community_example//district.json"
       }
     },
@@ -9370,6 +9390,7 @@
           "id_property": "id"
         }
       ],
+      "overlays": {},
       "options": {
         "attributionControl": false,
         "scrollWheelZoom": false,
@@ -9400,7 +9421,7 @@
     "bootstrap": {
       "name": "Bootstrap",
       "url": "https://getbootstrap.com",
-      "version": "5.1.3"
+      "version": "5.2.0-beta1"
     },
     "colorbrewer": {
       "name": "ColorBrewer",
