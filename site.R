@@ -265,7 +265,7 @@ page_section(
   page_section(
     type = "container-xsm",
     input_number(
-      "Selected Year", min = "min_year", max = "max_year", default = "max",
+      "Selected Year", min = "filter.time_min", max = "filter.time_max", default = "max",
       id = "selected_year", buttons = TRUE, note = paste(
         "Year of the selected variable to color the map shapes and plot elements by, and to show on hover."
       )
