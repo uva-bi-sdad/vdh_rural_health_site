@@ -41,7 +41,7 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-06-24 03:46:35",
+        "created": "2022-07-06 01:16:09",
         "last_modified": "2022-04-27 04:30:54",
         "row_count": 31889,
         "entity_count": 2453,
@@ -3014,7 +3014,7 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-06-24 03:46:27",
+        "created": "2022-07-06 01:15:59",
         "last_modified": "2022-04-27 04:30:54",
         "row_count": 1742,
         "entity_count": 134,
@@ -6003,7 +6003,7 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-06-24 03:46:27",
+        "created": "2022-07-06 01:16:00",
         "last_modified": "2022-04-27 04:30:54",
         "row_count": 455,
         "entity_count": 35,
@@ -9100,7 +9100,7 @@
       "dataview": "primary_view",
       "variable_info": false
     },
-    "info13": {
+    "info11": {
       "title": "",
       "body": [
         {
@@ -9114,7 +9114,7 @@
       "dataview": "primary_view",
       "variable_info": false
     },
-    "info16": {
+    "info14": {
       "title": "features.name",
       "body": [],
       "default": {
@@ -9126,7 +9126,7 @@
       "subto": ["main_map", "main_plot", "rank_table", "main_legend"],
       "variable_info": false
     },
-    "info17": {
+    "info15": {
       "title": "",
       "body": [
         {
@@ -9153,7 +9153,7 @@
     }
   },
   "text": {
-    "text8": {
+    "text6": {
       "text": [
         {
           "condition": [
@@ -9229,7 +9229,7 @@
         }
       ]
     },
-    "text9": {
+    "text7": {
       "text": [
         [
           {
@@ -9376,21 +9376,449 @@
       "shapes": [
         {
           "name": "tract",
-          "url": "https://uva-bi-sdad.github.io/community/dist/shapes/VA/tract.geojson",
-          "id_property": "id"
+          "time": 2010,
+          "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/va_geo_census_cb_2010_census_tracts/distribution/va_geo_census_cb_2010_census_tracts.geojson",
+          "id_property": "geoid"
         },
         {
           "name": "county",
-          "url": "https://uva-bi-sdad.github.io/community/dist/shapes/VA/county.geojson",
-          "id_property": "id"
+          "time": 2010,
+          "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/va_geo_census_cb_2010_counties/distribution/va_geo_census_cb_2010_counties.geojson",
+          "id_property": "geoid"
+        },
+        {
+          "name": "tract",
+          "time": 2020,
+          "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/va_geo_census_cb_2020_census_tracts/distribution/va_geo_census_cb_2020_census_tracts.geojson",
+          "id_property": "geoid"
+        },
+        {
+          "name": "county",
+          "time": 2020,
+          "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/va_geo_census_cb_2020_counties/distribution/va_geo_census_cb_2020_counties.geojson",
+          "id_property": "geoid"
         },
         {
           "name": "district",
-          "url": "https://uva-bi-sdad.github.io/community/dist/shapes/VA/district.geojson",
-          "id_property": "id"
+          "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/va_geo_vhd_2020_health_districts/distribution/va_geo_vhd_2020_health_districts.geojson",
+          "id_property": "geoid"
         }
       ],
-      "overlays": {},
+      "overlays": [
+        {
+          "variable": "nces:schools_2year_per_100k",
+          "source": [
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2013.geojson",
+              "time": 2013
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2014.geojson",
+              "time": 2014
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2015.geojson",
+              "time": 2015
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2016.geojson",
+              "time": 2016
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2017.geojson",
+              "time": 2017
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2018.geojson",
+              "time": 2018
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2019.geojson",
+              "time": 2019
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2020.geojson",
+              "time": 2020
+            }
+          ],
+          "filter": {
+            "feature": "ICLEVEL",
+            "operator": "=",
+            "value": 2
+          }
+        },
+        {
+          "variable": "nces:schools_under2year_per_100k",
+          "source": [
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2013.geojson",
+              "time": 2013
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2014.geojson",
+              "time": 2014
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2015.geojson",
+              "time": 2015
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2016.geojson",
+              "time": 2016
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2017.geojson",
+              "time": 2017
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2018.geojson",
+              "time": 2018
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2019.geojson",
+              "time": 2019
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2020.geojson",
+              "time": 2020
+            }
+          ],
+          "filter": {
+            "feature": "ICLEVEL",
+            "operator": "=",
+            "value": 3
+          }
+        },
+        {
+          "variable": "nces:schools_2year_min_drivetime",
+          "source": [
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2013.geojson",
+              "time": 2013
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2014.geojson",
+              "time": 2014
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2015.geojson",
+              "time": 2015
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2016.geojson",
+              "time": 2016
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2017.geojson",
+              "time": 2017
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2018.geojson",
+              "time": 2018
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2019.geojson",
+              "time": 2019
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2020.geojson",
+              "time": 2020
+            }
+          ],
+          "filter": {
+            "feature": "ICLEVEL",
+            "operator": "=",
+            "value": 2
+          }
+        },
+        {
+          "variable": "nces:schools_under2year_min_drivetime",
+          "source": [
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2013.geojson",
+              "time": 2013
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2014.geojson",
+              "time": 2014
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2015.geojson",
+              "time": 2015
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2016.geojson",
+              "time": 2016
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2017.geojson",
+              "time": 2017
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2018.geojson",
+              "time": 2018
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2019.geojson",
+              "time": 2019
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2020.geojson",
+              "time": 2020
+            }
+          ],
+          "filter": {
+            "feature": "ICLEVEL",
+            "operator": "=",
+            "value": 3
+          }
+        },
+        {
+          "variable": "nces:schools_2year_with_biomedical_program_per_100k",
+          "source": [
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2013.geojson",
+              "time": 2013
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2014.geojson",
+              "time": 2014
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2015.geojson",
+              "time": 2015
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2016.geojson",
+              "time": 2016
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2017.geojson",
+              "time": 2017
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2018.geojson",
+              "time": 2018
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2019.geojson",
+              "time": 2019
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2020.geojson",
+              "time": 2020
+            }
+          ],
+          "filter": [
+            {
+              "feature": "ICLEVEL",
+              "operator": "=",
+              "value": 2
+            },
+            {
+              "feature": "biomedical",
+              "operator": "=",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "variable": "nces:schools_2year_with_computer_program_per_100k",
+          "source": [
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2013.geojson",
+              "time": 2013
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2014.geojson",
+              "time": 2014
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2015.geojson",
+              "time": 2015
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2016.geojson",
+              "time": 2016
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2017.geojson",
+              "time": 2017
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2018.geojson",
+              "time": 2018
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2019.geojson",
+              "time": 2019
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2020.geojson",
+              "time": 2020
+            }
+          ],
+          "filter": [
+            {
+              "feature": "ICLEVEL",
+              "operator": "=",
+              "value": 2
+            },
+            {
+              "feature": "computer",
+              "operator": "=",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "variable": "nces:schools_2year_with_engineering_program_per_100k",
+          "source": [
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2013.geojson",
+              "time": 2013
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2014.geojson",
+              "time": 2014
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2015.geojson",
+              "time": 2015
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2016.geojson",
+              "time": 2016
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2017.geojson",
+              "time": 2017
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2018.geojson",
+              "time": 2018
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2019.geojson",
+              "time": 2019
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2020.geojson",
+              "time": 2020
+            }
+          ],
+          "filter": [
+            {
+              "feature": "ICLEVEL",
+              "operator": "=",
+              "value": 2
+            },
+            {
+              "feature": "engineering",
+              "operator": "=",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "variable": "nces:schools_2year_with_physical_program_per_100k",
+          "source": [
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2013.geojson",
+              "time": 2013
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2014.geojson",
+              "time": 2014
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2015.geojson",
+              "time": 2015
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2016.geojson",
+              "time": 2016
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2017.geojson",
+              "time": 2017
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2018.geojson",
+              "time": 2018
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2019.geojson",
+              "time": 2019
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2020.geojson",
+              "time": 2020
+            }
+          ],
+          "filter": [
+            {
+              "feature": "ICLEVEL",
+              "operator": "=",
+              "value": 2
+            },
+            {
+              "feature": "physical",
+              "operator": "=",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "variable": "nces:schools_2year_with_science_program_per_100k",
+          "source": [
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2013.geojson",
+              "time": 2013
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2014.geojson",
+              "time": 2014
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2015.geojson",
+              "time": 2015
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2016.geojson",
+              "time": 2016
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2017.geojson",
+              "time": 2017
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2018.geojson",
+              "time": 2018
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2019.geojson",
+              "time": 2019
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2020.geojson",
+              "time": 2020
+            }
+          ],
+          "filter": [
+            {
+              "feature": "ICLEVEL",
+              "operator": "=",
+              "value": 2
+            },
+            {
+              "feature": "science",
+              "operator": "=",
+              "value": 1
+            }
+          ]
+        }
+      ],
       "options": {
         "attributionControl": false,
         "scrollWheelZoom": false,

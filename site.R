@@ -1,19 +1,16 @@
 library(community)
 
-# use `page_` functions to add parts of a page
-
-## `page_head` adds to the page's meta data, and can be a place to import script and style sheets
 page_head(
   title = "Virginia Department of Health Data Commons",
   description = "Virginia Department of Health Data Commons.",
   icon = "https://uva-bi-sdad.github.io/community_example/icon.svg"
 )
 
-## `page_header` adds to the top bar (navbar) of the page
 page_navbar(
   title = "Virginia Department of Health Data Commons",
   logo = "https://uva-bi-sdad.github.io/community_example/icon.svg",
   input_button("Reset", "reset_selection", "reset.selection", class = "btn-link", note = "Reset the menu inputs to their defaults."),
+  input_button("Filter", "filter", "open.filter", class = "btn-link"),
   list(
     name = "Settings",
     backdrop = "false",
@@ -47,10 +44,18 @@ page_navbar(
         )
       ),
       '<p class="section-heading">Map Options</p>',
-      input_switch("Show Background Shapes", id = "settings.background_shapes"),
+      input_select(
+        "Animations", c("fly", "zoom", "none"), "fly",
+        note = "Fly animates the whole move to different regions; Zoom only animates changes in zoom level.",
+        id = "settings.map_animations", floating_label = FALSE
+      ),
       input_number(
         "Outline Weight", "settings.polygon_outline", default = 1.5, step = .5, floating_label = FALSE,
         note = "Thickness of the outline around region shapes."
+      ),
+      input_number(
+        "Overlay Circle Size", "settings.circle_radius", default = 5, step = 1, floating_label = FALSE,
+        note = "Radius of the circles that are parts of overlays."
       ),
       '<p class="section-heading">Plot Options</p>',
       input_select("Plot Type", c("scatter", "bar"), "scatter", id = "plot_type", floating_label = FALSE),
@@ -145,7 +150,6 @@ page_panel(
   )
 )
 
-# use `input_` functions to add input elements that affect outputs
 page_menu(
   input_checkbox(
     "Starting Layer", c("district", "county", "tract"), 1, c("Districts", "Counties", "Census Tracts"),
@@ -155,13 +159,13 @@ page_menu(
     type = "col",
     wraps = "row form-row",
     input_select(
-      "Health District", options = "ids", dataset = "district", dataview = "primary_view",
+      "Health District", options = "ids", subset = "full_filter", dataset = "district", dataview = "primary_view",
       id = "selected_district", reset_button = TRUE, note = paste(
         "Health districts are sets of counties defined by the Virginia Department of Health."
       )
     ),
     input_select(
-      "County", options = "ids", dataset = "county", dataview = "primary_view",
+      "County", options = "ids", subset = "full_filter", dataset = "county", dataview = "primary_view",
       id = "selected_county", reset_button = TRUE
     ),
     conditions = c("starting_shapes == district", "starting_shapes != district || selected_district")
@@ -177,7 +181,7 @@ page_menu(
     type = "col",
     wraps = "row form-row",
     {
-      vars <- jsonlite::read_json('../vdh_rural_health_site/docs/data/measure_info.json')
+      vars <- jsonlite::read_json('../community_example/docs/data/measure_info.json')
       varcats <- Filter(nchar, unique(vapply(vars, function(v) if (is.null(v$category)) "" else v$category, "")))
       input_select(
         "Variable Category", options = varcats, default = "Health", id = "variable_type",
@@ -194,31 +198,9 @@ page_menu(
       )
     )
   ),
-  page_section(
-    type = "col",
-    page_section(
-      type = "row",
-      wraps = "col",
-      input_number(
-        "First Year", "min_year", default = "min", max = "max_year", dataview = "primary_view",
-        note = paste(
-          "First year to display in the plot and rank table, between the variable's first",
-          "available year and the specified last year."
-        )
-      ),
-      input_number(
-        "Last Year", "max_year", default = "max", min = "min_year", dataview = "primary_view",
-        note = paste(
-          "Last year to display in the plot and rank table, between the specified first year",
-          "and variable's last available year."
-        )
-      ),
-      breakpoints = "md"
-    )
-  ),
   position = "top",
   default_open = TRUE,
-  sizes = c(1, NA, 1, NA, 3)
+  sizes = c(1, NA, 1, NA)
 )
 
 ## `input_variable` can be used to set up logical controls
@@ -294,11 +276,85 @@ page_section(
     wraps = "col",
     sizes = c(NA, 5),
     output_map(
-      lapply(c("tract", "county", "district"), function(s) list(
-        name = s,
-        url = paste0("https://uva-bi-sdad.github.io/community/dist/shapes/VA/", s, ".geojson"),
-        id_property = "id"
-      )),
+      list(
+        list(
+          name = "tract",
+          time = 2010,
+          url = paste0(
+            "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/",
+            "va_geo_census_cb_2010_census_tracts/distribution/va_geo_census_cb_2010_census_tracts.geojson"
+          )
+        ),
+        list(
+          name = "county",
+          time = 2010,
+          url = paste0(
+            "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/",
+            "va_geo_census_cb_2010_counties/distribution/va_geo_census_cb_2010_counties.geojson"
+          )
+        ),
+        list(
+          name = "tract",
+          time = 2020,
+          url = paste0(
+            "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/",
+            "va_geo_census_cb_2020_census_tracts/distribution/va_geo_census_cb_2020_census_tracts.geojson"
+          )
+        ),
+        list(
+          name = "county",
+          time = 2020,
+          url = paste0(
+            "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/",
+            "va_geo_census_cb_2020_counties/distribution/va_geo_census_cb_2020_counties.geojson"
+          )
+        ),
+        list(
+          name = "district",
+          url = paste0(
+            "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/",
+            "va_geo_vhd_2020_health_districts/distribution/va_geo_vhd_2020_health_districts.geojson"
+          )
+        )
+      ),
+      overlays = {
+        layers <- lapply(2013:2020, function(year) list(
+          url = paste0("https://uva-bi-sdad.github.io/dc.education/points_", year, ".geojson"),
+          time = year
+        ))
+        c(
+          list(
+            list(
+              variable = "nces:schools_2year_per_100k",
+              source = layers,
+              filter = list(feature = "ICLEVEL", operator = "=", value = 2)
+            ),
+            list(
+              variable = "nces:schools_under2year_per_100k",
+              source = layers,
+              filter = list(feature = "ICLEVEL", operator = "=", value = 3)
+            ),
+            list(
+              variable = "nces:schools_2year_min_drivetime",
+              source = layers,
+              filter = list(feature = "ICLEVEL", operator = "=", value = 2)
+            ),
+            list(
+              variable = "nces:schools_under2year_min_drivetime",
+              source = layers,
+              filter = list(feature = "ICLEVEL", operator = "=", value = 3)
+            )
+          ),
+          lapply(c("biomedical", "computer", "engineering", "physical", "science"), function(p) list(
+            variable = paste0("nces:schools_2year_with_", p, "_program_per_100k"),
+            source = layers,
+            filter = list(
+              list(feature = "ICLEVEL", operator = "=", value = 2),
+              list(feature = p, operator = "=", value = 1)
+            )
+          ))
+        )
+      },
       dataview = "primary_view",
       click = "region_select",
       id = "main_map",
