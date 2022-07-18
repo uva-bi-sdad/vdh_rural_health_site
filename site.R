@@ -127,9 +127,23 @@ page_panel(
     list(variable_type = "Nutrition and Food Security", selected_variable = "food_insecurity_and_cost:Child_Food_Insecurity_Rate")
   ),
   '<p class="lead">Healthy Moms And Babies</p>',
-  input_button("Adequacy of Prenatal Care Utilization", class = "disabled"),
-
-  '<div class="coming-soon"><b>Coming Soon</b></div><p class="lead">Access to Health Care Services</p>',
+  input_button(
+    "APCU: Inadequate",
+    list(variable_type = "Health", selected_variable = "kotelchuck_apncu_index:inadequate_pc")
+  ),
+  input_button(
+    "APCU: Intermediate",
+    list(variable_type = "Health", selected_variable = "kotelchuck_apncu_index:intermediate_pc")
+  ),
+  input_button(
+    "APCU: Adequate",
+    list(variable_type = "Health", selected_variable = "kotelchuck_apncu_index:adequate_pc")
+  ),
+  input_button(
+    "APCU: Adequate Plus",
+    list(variable_type = "Health", selected_variable = "kotelchuck_apncu_index:adequateplus_pc")
+  ),
+  '<p class="lead">Access to Health Care Services</p>',
   input_button(
     "Avoidable Hospitalizations",
     list(variable_type = "Health", selected_variable = "preventable_hospitalizations:prevent_hosp_rate")

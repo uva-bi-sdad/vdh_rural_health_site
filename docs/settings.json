@@ -26,9 +26,9 @@
     "variables": {},
     "info": {
       "tract": {
-        "bytes": 3268880,
+        "bytes": 3311852,
         "encoding": "ISO-8859-1",
-        "md5": "74434d413f4cb3a62b27b25ed4d830cb",
+        "md5": "3fb226639174d350187dfb6132af839a",
         "format": "csv",
         "name": "tract",
         "filename": "tract.csv.xz",
@@ -41,7 +41,7 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-07-06 01:16:09",
+        "created": "2022-07-18 14:47:29",
         "last_modified": "2022-04-27 04:30:54",
         "row_count": 31889,
         "entity_count": 2453,
@@ -2796,6 +2796,254 @@
                   "saxon20"
                 ]
               }
+            },
+            {
+              "name": "kotelchuck_apncu_index:inadequate",
+              "duplicates": 31888,
+              "time_range": [
+                -1,
+                -1
+              ],
+              "type": "unknown",
+              "missing": 31889,
+              "info": {
+                "category": "Health",
+                "measure_table": "kotelchuck_apncu_index",
+                "full_name": "kotelchuck_apncu_index:inadequate",
+                "measure": "inadequate",
+                "type": "integer",
+                "short_name": "Kotelchuck (inadequate count)",
+                "long_name": "Adequacy of Prenatal Care Utilization: Inadequate",
+                "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Inadequate",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of inadequate.",
+                "statement": "There are {value} cases rated as inadequate in {features.name}.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Centers for Disease Control and Prevention",
+                    "date_accessed": "2022",
+                    "url": "https://www.cdc.gov"
+                  }
+                ],
+                "citations": {}
+              }
+            },
+            {
+              "name": "kotelchuck_apncu_index:intermediate",
+              "duplicates": 31888,
+              "time_range": [
+                -1,
+                -1
+              ],
+              "type": "unknown",
+              "missing": 31889,
+              "info": {
+                "category": "Health",
+                "measure_table": "kotelchuck_apncu_index",
+                "full_name": "kotelchuck_apncu_index:intermediate",
+                "measure": "intermediate",
+                "type": "integer",
+                "short_name": "Kotelchuck (intermediate count)",
+                "long_name": "Adequacy of Prenatal Care Utilization: Intermediate",
+                "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Intermediate",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of intermediate.",
+                "statement": "There are {value} cases rated as intermediate in {features.name}.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Centers for Disease Control and Prevention",
+                    "date_accessed": "2022",
+                    "url": "https://www.cdc.gov"
+                  }
+                ],
+                "citations": {}
+              }
+            },
+            {
+              "name": "kotelchuck_apncu_index:adequate",
+              "duplicates": 31888,
+              "time_range": [
+                -1,
+                -1
+              ],
+              "type": "unknown",
+              "missing": 31889,
+              "info": {
+                "category": "Health",
+                "measure_table": "kotelchuck_apncu_index",
+                "full_name": "kotelchuck_apncu_index:adequate",
+                "measure": "adequate",
+                "type": "integer",
+                "short_name": "Kotelchuck (adequate count)",
+                "long_name": "Adequacy of Prenatal Care Utilization: Adequate",
+                "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Adequate",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of adequate.",
+                "statement": "There are {value} cases rated as adequate in {features.name}.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Centers for Disease Control and Prevention",
+                    "date_accessed": "2022",
+                    "url": "https://www.cdc.gov"
+                  }
+                ],
+                "citations": {}
+              }
+            },
+            {
+              "name": "kotelchuck_apncu_index:adequateplus",
+              "duplicates": 31888,
+              "time_range": [
+                -1,
+                -1
+              ],
+              "type": "unknown",
+              "missing": 31889,
+              "info": {
+                "category": "Health",
+                "measure_table": "kotelchuck_apncu_index",
+                "full_name": "kotelchuck_apncu_index:adequateplus",
+                "measure": "adequateplus",
+                "type": "integer",
+                "short_name": "Kotelchuck (adequate plus count)",
+                "long_name": "Adequacy of Prenatal Care Utilization: Adequate Plus",
+                "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Adequate Plus",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of adequate plus.",
+                "statement": "There are {value} cases rated as adequate plus in {features.name}.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Centers for Disease Control and Prevention",
+                    "date_accessed": "2022",
+                    "url": "https://www.cdc.gov"
+                  }
+                ],
+                "citations": {}
+              }
+            },
+            {
+              "name": "kotelchuck_apncu_index:inadequate_pc",
+              "duplicates": 31888,
+              "time_range": [
+                -1,
+                -1
+              ],
+              "type": "unknown",
+              "missing": 31889,
+              "info": {
+                "category": "Health",
+                "measure_table": "kotelchuck_apncu_index",
+                "full_name": "kotelchuck_apncu_index:inadequate_pc",
+                "measure": "inadequate_pc",
+                "type": "percent",
+                "short_name": "Kotelchuck (inadequate percent)",
+                "long_name": "Adequacy of Prenatal Care Utilization: Inadequate",
+                "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Inadequate",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of inadequate.",
+                "statement": "{value} of the cases in {features.name} rated as inadequate.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Centers for Disease Control and Prevention",
+                    "date_accessed": "2022",
+                    "url": "https://www.cdc.gov"
+                  }
+                ],
+                "citations": {}
+              }
+            },
+            {
+              "name": "kotelchuck_apncu_index:intermediate_pc",
+              "duplicates": 31888,
+              "time_range": [
+                -1,
+                -1
+              ],
+              "type": "unknown",
+              "missing": 31889,
+              "info": {
+                "category": "Health",
+                "measure_table": "kotelchuck_apncu_index",
+                "full_name": "kotelchuck_apncu_index:intermediate_pc",
+                "measure": "intermediate",
+                "type": "percent",
+                "short_name": "Kotelchuck (intermediate percent)",
+                "long_name": "Adequacy of Prenatal Care Utilization: Intermediate",
+                "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Intermediate",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of intermediate.",
+                "statement": "{value} of the cases in {features.name} rated as intermediate.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Centers for Disease Control and Prevention",
+                    "date_accessed": "2022",
+                    "url": "https://www.cdc.gov"
+                  }
+                ],
+                "citations": {}
+              }
+            },
+            {
+              "name": "kotelchuck_apncu_index:adequate_pc",
+              "duplicates": 31888,
+              "time_range": [
+                -1,
+                -1
+              ],
+              "type": "unknown",
+              "missing": 31889,
+              "info": {
+                "category": "Health",
+                "measure_table": "kotelchuck_apncu_index",
+                "full_name": "kotelchuck_apncu_index:adequate_pc",
+                "measure": "adequate",
+                "type": "percent",
+                "short_name": "Kotelchuck (adequate percent)",
+                "long_name": "Adequacy of Prenatal Care Utilization: Adequate",
+                "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Adequate",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of adequate.",
+                "statement": "{value} of the cases in {features.name} rated as adequate.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Centers for Disease Control and Prevention",
+                    "date_accessed": "2022",
+                    "url": "https://www.cdc.gov"
+                  }
+                ],
+                "citations": {}
+              }
+            },
+            {
+              "name": "kotelchuck_apncu_index:adequateplus_pc",
+              "duplicates": 31888,
+              "time_range": [
+                -1,
+                -1
+              ],
+              "type": "unknown",
+              "missing": 31889,
+              "info": {
+                "category": "Health",
+                "measure_table": "kotelchuck_apncu_index",
+                "full_name": "kotelchuck_apncu_index:adequateplus_pc",
+                "measure": "adequateplus",
+                "type": "percent",
+                "short_name": "Kotelchuck (adequate plus percent)",
+                "long_name": "Adequacy of Prenatal Care Utilization: Adequate Plus",
+                "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Adequate Plus",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of adequate plus.",
+                "statement": "{value} of the cases in {features.name} rated as adequate plus.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Centers for Disease Control and Prevention",
+                    "date_accessed": "2022",
+                    "url": "https://www.cdc.gov"
+                  }
+                ],
+                "citations": {}
+              }
             }
           ]
         },
@@ -2995,13 +3243,13 @@
             "url": "http://pcrd.purdue.edu/ddi"
           }
         },
-        "sha512": "342d2754dbaf25ade8e1c87c3f439d5fa7384c321fbe844bff5a9505a8ff6def2954f2ad6b831da8e97e0bb6a56a717f97f64b5fe3e00a3849ce7795bfe3fa00",
+        "sha512": "b1663bb5a6c097cbfe6dfb2d2adce1690f49a100a342e82808b79390efa48672dbe607698b01d1fee74f0755f4269a68d1188489fa5bf967d2e777350c34d55c",
         "site_file": "https://uva-bi-sdad.github.io/community_example//tract.json"
       },
       "county": {
-        "bytes": 290428,
+        "bytes": 299492,
         "encoding": "ISO-8859-1",
-        "md5": "9cbd58e127dbfe48899f4b5f39fbbfa5",
+        "md5": "84107a86167a67614edc55d9ea99e2bc",
         "format": "csv",
         "name": "county",
         "filename": "county.csv.xz",
@@ -3014,7 +3262,7 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-07-06 01:15:59",
+        "created": "2022-07-18 14:47:20",
         "last_modified": "2022-04-27 04:30:54",
         "row_count": 1742,
         "entity_count": 134,
@@ -5785,6 +6033,286 @@
                   "saxon20"
                 ]
               }
+            },
+            {
+              "name": "kotelchuck_apncu_index:inadequate",
+              "duplicates": 1505,
+              "time_range": [
+                5,
+                11
+              ],
+              "type": "integer",
+              "missing": 961,
+              "mean": 106.8233,
+              "sd": 253.8777,
+              "min": 0,
+              "max": 2370,
+              "info": {
+                "category": "Health",
+                "measure_table": "kotelchuck_apncu_index",
+                "full_name": "kotelchuck_apncu_index:inadequate",
+                "measure": "inadequate",
+                "type": "integer",
+                "short_name": "Kotelchuck (inadequate count)",
+                "long_name": "Adequacy of Prenatal Care Utilization: Inadequate",
+                "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Inadequate",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of inadequate.",
+                "statement": "There are {value} cases rated as inadequate in {features.name}.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Centers for Disease Control and Prevention",
+                    "date_accessed": "2022",
+                    "url": "https://www.cdc.gov"
+                  }
+                ],
+                "citations": {}
+              }
+            },
+            {
+              "name": "kotelchuck_apncu_index:intermediate",
+              "duplicates": 1492,
+              "time_range": [
+                5,
+                11
+              ],
+              "type": "integer",
+              "missing": 961,
+              "mean": 134.0487,
+              "sd": 353.5125,
+              "min": 0,
+              "max": 3879,
+              "info": {
+                "category": "Health",
+                "measure_table": "kotelchuck_apncu_index",
+                "full_name": "kotelchuck_apncu_index:intermediate",
+                "measure": "intermediate",
+                "type": "integer",
+                "short_name": "Kotelchuck (intermediate count)",
+                "long_name": "Adequacy of Prenatal Care Utilization: Intermediate",
+                "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Intermediate",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of intermediate.",
+                "statement": "There are {value} cases rated as intermediate in {features.name}.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Centers for Disease Control and Prevention",
+                    "date_accessed": "2022",
+                    "url": "https://www.cdc.gov"
+                  }
+                ],
+                "citations": {}
+              }
+            },
+            {
+              "name": "kotelchuck_apncu_index:adequate",
+              "duplicates": 1430,
+              "time_range": [
+                5,
+                11
+              ],
+              "type": "integer",
+              "missing": 961,
+              "mean": 374.2305,
+              "sd": 937.0563,
+              "min": 0,
+              "max": 9374,
+              "info": {
+                "category": "Health",
+                "measure_table": "kotelchuck_apncu_index",
+                "full_name": "kotelchuck_apncu_index:adequate",
+                "measure": "adequate",
+                "type": "integer",
+                "short_name": "Kotelchuck (adequate count)",
+                "long_name": "Adequacy of Prenatal Care Utilization: Adequate",
+                "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Adequate",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of adequate.",
+                "statement": "There are {value} cases rated as adequate in {features.name}.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Centers for Disease Control and Prevention",
+                    "date_accessed": "2022",
+                    "url": "https://www.cdc.gov"
+                  }
+                ],
+                "citations": {}
+              }
+            },
+            {
+              "name": "kotelchuck_apncu_index:adequateplus",
+              "duplicates": 1474,
+              "time_range": [
+                5,
+                11
+              ],
+              "type": "integer",
+              "missing": 961,
+              "mean": 193.4789,
+              "sd": 519.3577,
+              "min": 0,
+              "max": 5173,
+              "info": {
+                "category": "Health",
+                "measure_table": "kotelchuck_apncu_index",
+                "full_name": "kotelchuck_apncu_index:adequateplus",
+                "measure": "adequateplus",
+                "type": "integer",
+                "short_name": "Kotelchuck (adequate plus count)",
+                "long_name": "Adequacy of Prenatal Care Utilization: Adequate Plus",
+                "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Adequate Plus",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of adequate plus.",
+                "statement": "There are {value} cases rated as adequate plus in {features.name}.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Centers for Disease Control and Prevention",
+                    "date_accessed": "2022",
+                    "url": "https://www.cdc.gov"
+                  }
+                ],
+                "citations": {}
+              }
+            },
+            {
+              "name": "kotelchuck_apncu_index:inadequate_pc",
+              "duplicates": 1537,
+              "time_range": [
+                5,
+                11
+              ],
+              "type": "float",
+              "missing": 961,
+              "mean": 21.5012,
+              "sd": 26.3146,
+              "min": 0,
+              "max": 100,
+              "info": {
+                "category": "Health",
+                "measure_table": "kotelchuck_apncu_index",
+                "full_name": "kotelchuck_apncu_index:inadequate_pc",
+                "measure": "inadequate_pc",
+                "type": "percent",
+                "short_name": "Kotelchuck (inadequate percent)",
+                "long_name": "Adequacy of Prenatal Care Utilization: Inadequate",
+                "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Inadequate",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of inadequate.",
+                "statement": "{value} of the cases in {features.name} rated as inadequate.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Centers for Disease Control and Prevention",
+                    "date_accessed": "2022",
+                    "url": "https://www.cdc.gov"
+                  }
+                ],
+                "citations": {}
+              }
+            },
+            {
+              "name": "kotelchuck_apncu_index:intermediate_pc",
+              "duplicates": 1524,
+              "time_range": [
+                5,
+                11
+              ],
+              "type": "float",
+              "missing": 961,
+              "mean": 20.7323,
+              "sd": 24.3188,
+              "min": 0,
+              "max": 100,
+              "info": {
+                "category": "Health",
+                "measure_table": "kotelchuck_apncu_index",
+                "full_name": "kotelchuck_apncu_index:intermediate_pc",
+                "measure": "intermediate",
+                "type": "percent",
+                "short_name": "Kotelchuck (intermediate percent)",
+                "long_name": "Adequacy of Prenatal Care Utilization: Intermediate",
+                "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Intermediate",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of intermediate.",
+                "statement": "{value} of the cases in {features.name} rated as intermediate.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Centers for Disease Control and Prevention",
+                    "date_accessed": "2022",
+                    "url": "https://www.cdc.gov"
+                  }
+                ],
+                "citations": {}
+              }
+            },
+            {
+              "name": "kotelchuck_apncu_index:adequate_pc",
+              "duplicates": 1484,
+              "time_range": [
+                5,
+                11
+              ],
+              "type": "float",
+              "missing": 961,
+              "mean": 45.0305,
+              "sd": 28.3503,
+              "min": 0,
+              "max": 100,
+              "info": {
+                "category": "Health",
+                "measure_table": "kotelchuck_apncu_index",
+                "full_name": "kotelchuck_apncu_index:adequate_pc",
+                "measure": "adequate",
+                "type": "percent",
+                "short_name": "Kotelchuck (adequate percent)",
+                "long_name": "Adequacy of Prenatal Care Utilization: Adequate",
+                "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Adequate",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of adequate.",
+                "statement": "{value} of the cases in {features.name} rated as adequate.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Centers for Disease Control and Prevention",
+                    "date_accessed": "2022",
+                    "url": "https://www.cdc.gov"
+                  }
+                ],
+                "citations": {}
+              }
+            },
+            {
+              "name": "kotelchuck_apncu_index:adequateplus_pc",
+              "duplicates": 1516,
+              "time_range": [
+                5,
+                11
+              ],
+              "type": "float",
+              "missing": 961,
+              "mean": 12.7335,
+              "sd": 16.274,
+              "min": 0,
+              "max": 100,
+              "info": {
+                "category": "Health",
+                "measure_table": "kotelchuck_apncu_index",
+                "full_name": "kotelchuck_apncu_index:adequateplus_pc",
+                "measure": "adequateplus",
+                "type": "percent",
+                "short_name": "Kotelchuck (adequate plus percent)",
+                "long_name": "Adequacy of Prenatal Care Utilization: Adequate Plus",
+                "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Adequate Plus",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of adequate plus.",
+                "statement": "{value} of the cases in {features.name} rated as adequate plus.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Centers for Disease Control and Prevention",
+                    "date_accessed": "2022",
+                    "url": "https://www.cdc.gov"
+                  }
+                ],
+                "citations": {}
+              }
             }
           ]
         },
@@ -5984,13 +6512,13 @@
             "url": "http://pcrd.purdue.edu/ddi"
           }
         },
-        "sha512": "3977f3117636cea94f65aba287fb20e891ecec30131c8d9d7d181d3ee566c54ad6719df5333cbbdbb259e67bd22ce8a7b06458a22e454e016b7e2e9ead752e75",
+        "sha512": "ff73607f0300cd66119b7ea13eebc3cd2ae2ed130ee2f8b9e5a91c0c4c657adfd89e5a34972333f93f6241f04c430b0502548c0439a96cf253518687eb0c0237",
         "site_file": "https://uva-bi-sdad.github.io/community_example//county.json"
       },
       "district": {
-        "bytes": 75224,
+        "bytes": 75900,
         "encoding": "ISO-8859-1",
-        "md5": "fce16db2face0017874e44bdf9301ec6",
+        "md5": "a0cbfe8d0822ffa4f0f190c09c28ff95",
         "format": "csv",
         "name": "district",
         "filename": "health_district.csv.xz",
@@ -6003,7 +6531,7 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-07-06 01:16:00",
+        "created": "2022-07-18 14:47:21",
         "last_modified": "2022-04-27 04:30:54",
         "row_count": 455,
         "entity_count": 35,
@@ -8734,6 +9262,254 @@
                   "saxon20"
                 ]
               }
+            },
+            {
+              "name": "kotelchuck_apncu_index:inadequate",
+              "duplicates": 454,
+              "time_range": [
+                -1,
+                -1
+              ],
+              "type": "unknown",
+              "missing": 455,
+              "info": {
+                "category": "Health",
+                "measure_table": "kotelchuck_apncu_index",
+                "full_name": "kotelchuck_apncu_index:inadequate",
+                "measure": "inadequate",
+                "type": "integer",
+                "short_name": "Kotelchuck (inadequate count)",
+                "long_name": "Adequacy of Prenatal Care Utilization: Inadequate",
+                "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Inadequate",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of inadequate.",
+                "statement": "There are {value} cases rated as inadequate in {features.name}.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Centers for Disease Control and Prevention",
+                    "date_accessed": "2022",
+                    "url": "https://www.cdc.gov"
+                  }
+                ],
+                "citations": {}
+              }
+            },
+            {
+              "name": "kotelchuck_apncu_index:intermediate",
+              "duplicates": 454,
+              "time_range": [
+                -1,
+                -1
+              ],
+              "type": "unknown",
+              "missing": 455,
+              "info": {
+                "category": "Health",
+                "measure_table": "kotelchuck_apncu_index",
+                "full_name": "kotelchuck_apncu_index:intermediate",
+                "measure": "intermediate",
+                "type": "integer",
+                "short_name": "Kotelchuck (intermediate count)",
+                "long_name": "Adequacy of Prenatal Care Utilization: Intermediate",
+                "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Intermediate",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of intermediate.",
+                "statement": "There are {value} cases rated as intermediate in {features.name}.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Centers for Disease Control and Prevention",
+                    "date_accessed": "2022",
+                    "url": "https://www.cdc.gov"
+                  }
+                ],
+                "citations": {}
+              }
+            },
+            {
+              "name": "kotelchuck_apncu_index:adequate",
+              "duplicates": 454,
+              "time_range": [
+                -1,
+                -1
+              ],
+              "type": "unknown",
+              "missing": 455,
+              "info": {
+                "category": "Health",
+                "measure_table": "kotelchuck_apncu_index",
+                "full_name": "kotelchuck_apncu_index:adequate",
+                "measure": "adequate",
+                "type": "integer",
+                "short_name": "Kotelchuck (adequate count)",
+                "long_name": "Adequacy of Prenatal Care Utilization: Adequate",
+                "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Adequate",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of adequate.",
+                "statement": "There are {value} cases rated as adequate in {features.name}.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Centers for Disease Control and Prevention",
+                    "date_accessed": "2022",
+                    "url": "https://www.cdc.gov"
+                  }
+                ],
+                "citations": {}
+              }
+            },
+            {
+              "name": "kotelchuck_apncu_index:adequateplus",
+              "duplicates": 454,
+              "time_range": [
+                -1,
+                -1
+              ],
+              "type": "unknown",
+              "missing": 455,
+              "info": {
+                "category": "Health",
+                "measure_table": "kotelchuck_apncu_index",
+                "full_name": "kotelchuck_apncu_index:adequateplus",
+                "measure": "adequateplus",
+                "type": "integer",
+                "short_name": "Kotelchuck (adequate plus count)",
+                "long_name": "Adequacy of Prenatal Care Utilization: Adequate Plus",
+                "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Adequate Plus",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of adequate plus.",
+                "statement": "There are {value} cases rated as adequate plus in {features.name}.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Centers for Disease Control and Prevention",
+                    "date_accessed": "2022",
+                    "url": "https://www.cdc.gov"
+                  }
+                ],
+                "citations": {}
+              }
+            },
+            {
+              "name": "kotelchuck_apncu_index:inadequate_pc",
+              "duplicates": 454,
+              "time_range": [
+                -1,
+                -1
+              ],
+              "type": "unknown",
+              "missing": 455,
+              "info": {
+                "category": "Health",
+                "measure_table": "kotelchuck_apncu_index",
+                "full_name": "kotelchuck_apncu_index:inadequate_pc",
+                "measure": "inadequate_pc",
+                "type": "percent",
+                "short_name": "Kotelchuck (inadequate percent)",
+                "long_name": "Adequacy of Prenatal Care Utilization: Inadequate",
+                "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Inadequate",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of inadequate.",
+                "statement": "{value} of the cases in {features.name} rated as inadequate.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Centers for Disease Control and Prevention",
+                    "date_accessed": "2022",
+                    "url": "https://www.cdc.gov"
+                  }
+                ],
+                "citations": {}
+              }
+            },
+            {
+              "name": "kotelchuck_apncu_index:intermediate_pc",
+              "duplicates": 454,
+              "time_range": [
+                -1,
+                -1
+              ],
+              "type": "unknown",
+              "missing": 455,
+              "info": {
+                "category": "Health",
+                "measure_table": "kotelchuck_apncu_index",
+                "full_name": "kotelchuck_apncu_index:intermediate_pc",
+                "measure": "intermediate",
+                "type": "percent",
+                "short_name": "Kotelchuck (intermediate percent)",
+                "long_name": "Adequacy of Prenatal Care Utilization: Intermediate",
+                "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Intermediate",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of intermediate.",
+                "statement": "{value} of the cases in {features.name} rated as intermediate.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Centers for Disease Control and Prevention",
+                    "date_accessed": "2022",
+                    "url": "https://www.cdc.gov"
+                  }
+                ],
+                "citations": {}
+              }
+            },
+            {
+              "name": "kotelchuck_apncu_index:adequate_pc",
+              "duplicates": 454,
+              "time_range": [
+                -1,
+                -1
+              ],
+              "type": "unknown",
+              "missing": 455,
+              "info": {
+                "category": "Health",
+                "measure_table": "kotelchuck_apncu_index",
+                "full_name": "kotelchuck_apncu_index:adequate_pc",
+                "measure": "adequate",
+                "type": "percent",
+                "short_name": "Kotelchuck (adequate percent)",
+                "long_name": "Adequacy of Prenatal Care Utilization: Adequate",
+                "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Adequate",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of adequate.",
+                "statement": "{value} of the cases in {features.name} rated as adequate.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Centers for Disease Control and Prevention",
+                    "date_accessed": "2022",
+                    "url": "https://www.cdc.gov"
+                  }
+                ],
+                "citations": {}
+              }
+            },
+            {
+              "name": "kotelchuck_apncu_index:adequateplus_pc",
+              "duplicates": 454,
+              "time_range": [
+                -1,
+                -1
+              ],
+              "type": "unknown",
+              "missing": 455,
+              "info": {
+                "category": "Health",
+                "measure_table": "kotelchuck_apncu_index",
+                "full_name": "kotelchuck_apncu_index:adequateplus_pc",
+                "measure": "adequateplus",
+                "type": "percent",
+                "short_name": "Kotelchuck (adequate plus percent)",
+                "long_name": "Adequacy of Prenatal Care Utilization: Adequate Plus",
+                "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Adequate Plus",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of adequate plus.",
+                "statement": "{value} of the cases in {features.name} rated as adequate plus.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Centers for Disease Control and Prevention",
+                    "date_accessed": "2022",
+                    "url": "https://www.cdc.gov"
+                  }
+                ],
+                "citations": {}
+              }
             }
           ]
         },
@@ -8933,7 +9709,7 @@
             "url": "http://pcrd.purdue.edu/ddi"
           }
         },
-        "sha512": "e2b1a96fb557edbfc5ef5d24996df5c58522a25b316a3ec93a5d14ce82d5d4c191102d066ddabb5f6b395800e32d769a2c9e26dda15048fe5a29cff139c6f2ef",
+        "sha512": "2ccd659153900793d9da3610ae7b3d4b3f1a3c3ddf27d80c71d8cf15782cb4ff5333c72bc7ddb69c15a9a9ed8fd021fe60c9486d7940f44487aa7e5abd2954d0",
         "site_file": "https://uva-bi-sdad.github.io/community_example//district.json"
       }
     },
@@ -9927,6 +10703,30 @@
       "effects": {
         "variable_type": "Nutrition and Food Security",
         "selected_variable": "food_insecurity_and_cost:Child_Food_Insecurity_Rate"
+      }
+    },
+    "APCU:Inadequate": {
+      "effects": {
+        "variable_type": "Health",
+        "selected_variable": "kotelchuck_apncu_index:inadequate_pc"
+      }
+    },
+    "APCU:Intermediate": {
+      "effects": {
+        "variable_type": "Health",
+        "selected_variable": "kotelchuck_apncu_index:intermediate_pc"
+      }
+    },
+    "APCU:Adequate": {
+      "effects": {
+        "variable_type": "Health",
+        "selected_variable": "kotelchuck_apncu_index:adequate_pc"
+      }
+    },
+    "APCU:AdequatePlus": {
+      "effects": {
+        "variable_type": "Health",
+        "selected_variable": "kotelchuck_apncu_index:adequateplus_pc"
       }
     },
     "AvoidableHospitalizations": {
