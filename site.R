@@ -128,19 +128,19 @@ page_panel(
   ),
   '<p class="lead">Healthy Moms And Babies</p>',
   input_button(
-    "APCU: Inadequate",
+    "APNCU: Inadequate",
     list(variable_type = "Health", selected_variable = "kotelchuck_apncu_index:inadequate_pc")
   ),
   input_button(
-    "APCU: Intermediate",
+    "APNCU: Intermediate",
     list(variable_type = "Health", selected_variable = "kotelchuck_apncu_index:intermediate_pc")
   ),
   input_button(
-    "APCU: Adequate",
+    "APNCU: Adequate",
     list(variable_type = "Health", selected_variable = "kotelchuck_apncu_index:adequate_pc")
   ),
   input_button(
-    "APCU: Adequate Plus",
+    "APNCU: Adequate Plus",
     list(variable_type = "Health", selected_variable = "kotelchuck_apncu_index:adequateplus_pc")
   ),
   '<p class="lead">Access to Health Care Services</p>',

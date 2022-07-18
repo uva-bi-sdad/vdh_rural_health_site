@@ -2815,7 +2815,7 @@
                 "short_name": "Kotelchuck (inadequate count)",
                 "long_name": "Adequacy of Prenatal Care Utilization: Inadequate",
                 "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Inadequate",
-                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of inadequate.",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of inadequate. Inadequate levels occurs when prenatal care begins in the 5th month or later or no prenatal care, regardless of the number of visits or, with less than 50% or more recommended visits received from 1st through 4th month.  The recommended number of prenatal care visits received from the time prenatal care began until the time of delivery is defined by the American College of Obstetricians and Gynecologists.",
                 "statement": "There are {value} cases rated as inadequate in {features.name}.",
                 "equity_category": "Status",
                 "sources": [
@@ -2846,7 +2846,7 @@
                 "short_name": "Kotelchuck (intermediate count)",
                 "long_name": "Adequacy of Prenatal Care Utilization: Intermediate",
                 "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Intermediate",
-                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of intermediate.",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of intermediate. Intermediate prenatal care occurs when prenatal care begins from 1st through 4th month, and the proportion of the number of visits is between 50-79%.   The recommended number of prenatal care visits received from the time prenatal care began until the time of delivery is defined by the American College of Obstetricians and Gynecologists.",
                 "statement": "There are {value} cases rated as intermediate in {features.name}.",
                 "equity_category": "Status",
                 "sources": [
@@ -2877,7 +2877,7 @@
                 "short_name": "Kotelchuck (adequate count)",
                 "long_name": "Adequacy of Prenatal Care Utilization: Adequate",
                 "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Adequate",
-                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of adequate.",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of adequate. Adequate prenatal care occurs when prenatal care begins from 1st through 4th month and the proportion of the number of recommended visits is between 80% and 109%. The recommended number of prenatal care visits received from the time prenatal care began until the time of delivery is defined by the American College of Obstetricians and Gynecologists.",
                 "statement": "There are {value} cases rated as adequate in {features.name}.",
                 "equity_category": "Status",
                 "sources": [
@@ -2908,7 +2908,7 @@
                 "short_name": "Kotelchuck (adequate plus count)",
                 "long_name": "Adequacy of Prenatal Care Utilization: Adequate Plus",
                 "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Adequate Plus",
-                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of adequate plus.",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of adequate plus.  Adequate Plus  prenatal care occurs when prenatal care begins from 1st through 4th month and the proportion of the number of recommended visits is  110% or more. The recommended number of prenatal care visits received from the time prenatal care began until the time of delivery is defined by the American College of Obstetricians and Gynecologists.",
                 "statement": "There are {value} cases rated as adequate plus in {features.name}.",
                 "equity_category": "Status",
                 "sources": [
@@ -2939,7 +2939,7 @@
                 "short_name": "Kotelchuck (inadequate percent)",
                 "long_name": "Adequacy of Prenatal Care Utilization: Inadequate",
                 "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Inadequate",
-                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of inadequate.",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of inadequate. Proportion of pregnant mothers receiving inadequate prenatal care. Inadequate levels occurs when prenatal care begins in the 5th month or later or no prenatal care, regardless of the number of visits or, with less than 50% or more recommended visits received from 1st through 4th month.  The recommended number of prenatal care visits received from the time prenatal care began until the time of delivery is defined by the American College of Obstetricians and Gynecologists.",
                 "statement": "{value} of the cases in {features.name} rated as inadequate.",
                 "equity_category": "Status",
                 "sources": [
@@ -2970,7 +2970,7 @@
                 "short_name": "Kotelchuck (intermediate percent)",
                 "long_name": "Adequacy of Prenatal Care Utilization: Intermediate",
                 "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Intermediate",
-                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of intermediate.",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of intermediate. Proportion of pregnant mothers receiving intermediate prenatal care. Intermediate prenatal care occurs when prenatal care begins from 1st through 4th month, and the proportion of the number of visits is between 50-79%.   The recommended number of prenatal care visits received from the time prenatal care began until the time of delivery is defined by the American College of Obstetricians and Gynecologists.",
                 "statement": "{value} of the cases in {features.name} rated as intermediate.",
                 "equity_category": "Status",
                 "sources": [
@@ -3001,7 +3001,7 @@
                 "short_name": "Kotelchuck (adequate percent)",
                 "long_name": "Adequacy of Prenatal Care Utilization: Adequate",
                 "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Adequate",
-                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of adequate.",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of adequate. Proportion of pregnant mothers receiving adequate prenatal care.  Adequate prenatal care occurs when prenatal care begins from 1st through 4th month and the proportion of the number of recommended visits is between 80% and 109%. The recommended number of prenatal care visits received from the time prenatal care began until the time of delivery is defined by the American College of Obstetricians and Gynecologists.",
                 "statement": "{value} of the cases in {features.name} rated as adequate.",
                 "equity_category": "Status",
                 "sources": [
@@ -3032,7 +3032,7 @@
                 "short_name": "Kotelchuck (adequate plus percent)",
                 "long_name": "Adequacy of Prenatal Care Utilization: Adequate Plus",
                 "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Adequate Plus",
-                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of adequate plus.",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of adequate plus.  Proportion of pregnant mothers receiving prenatal care beyond adequate levels. Adequate Plus  prenatal care occurs when prenatal care begins from 1st through 4th month and the proportion of the number of recommended visits is  110% or more. The recommended number of prenatal care visits received from the time prenatal care began until the time of delivery is defined by the American College of Obstetricians and Gynecologists.",
                 "statement": "{value} of the cases in {features.name} rated as adequate plus.",
                 "equity_category": "Status",
                 "sources": [
@@ -6056,7 +6056,7 @@
                 "short_name": "Kotelchuck (inadequate count)",
                 "long_name": "Adequacy of Prenatal Care Utilization: Inadequate",
                 "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Inadequate",
-                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of inadequate.",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of inadequate. Inadequate levels occurs when prenatal care begins in the 5th month or later or no prenatal care, regardless of the number of visits or, with less than 50% or more recommended visits received from 1st through 4th month.  The recommended number of prenatal care visits received from the time prenatal care began until the time of delivery is defined by the American College of Obstetricians and Gynecologists.",
                 "statement": "There are {value} cases rated as inadequate in {features.name}.",
                 "equity_category": "Status",
                 "sources": [
@@ -6091,7 +6091,7 @@
                 "short_name": "Kotelchuck (intermediate count)",
                 "long_name": "Adequacy of Prenatal Care Utilization: Intermediate",
                 "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Intermediate",
-                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of intermediate.",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of intermediate. Intermediate prenatal care occurs when prenatal care begins from 1st through 4th month, and the proportion of the number of visits is between 50-79%.   The recommended number of prenatal care visits received from the time prenatal care began until the time of delivery is defined by the American College of Obstetricians and Gynecologists.",
                 "statement": "There are {value} cases rated as intermediate in {features.name}.",
                 "equity_category": "Status",
                 "sources": [
@@ -6126,7 +6126,7 @@
                 "short_name": "Kotelchuck (adequate count)",
                 "long_name": "Adequacy of Prenatal Care Utilization: Adequate",
                 "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Adequate",
-                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of adequate.",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of adequate. Adequate prenatal care occurs when prenatal care begins from 1st through 4th month and the proportion of the number of recommended visits is between 80% and 109%. The recommended number of prenatal care visits received from the time prenatal care began until the time of delivery is defined by the American College of Obstetricians and Gynecologists.",
                 "statement": "There are {value} cases rated as adequate in {features.name}.",
                 "equity_category": "Status",
                 "sources": [
@@ -6161,7 +6161,7 @@
                 "short_name": "Kotelchuck (adequate plus count)",
                 "long_name": "Adequacy of Prenatal Care Utilization: Adequate Plus",
                 "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Adequate Plus",
-                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of adequate plus.",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of adequate plus.  Adequate Plus  prenatal care occurs when prenatal care begins from 1st through 4th month and the proportion of the number of recommended visits is  110% or more. The recommended number of prenatal care visits received from the time prenatal care began until the time of delivery is defined by the American College of Obstetricians and Gynecologists.",
                 "statement": "There are {value} cases rated as adequate plus in {features.name}.",
                 "equity_category": "Status",
                 "sources": [
@@ -6196,7 +6196,7 @@
                 "short_name": "Kotelchuck (inadequate percent)",
                 "long_name": "Adequacy of Prenatal Care Utilization: Inadequate",
                 "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Inadequate",
-                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of inadequate.",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of inadequate. Proportion of pregnant mothers receiving inadequate prenatal care. Inadequate levels occurs when prenatal care begins in the 5th month or later or no prenatal care, regardless of the number of visits or, with less than 50% or more recommended visits received from 1st through 4th month.  The recommended number of prenatal care visits received from the time prenatal care began until the time of delivery is defined by the American College of Obstetricians and Gynecologists.",
                 "statement": "{value} of the cases in {features.name} rated as inadequate.",
                 "equity_category": "Status",
                 "sources": [
@@ -6231,7 +6231,7 @@
                 "short_name": "Kotelchuck (intermediate percent)",
                 "long_name": "Adequacy of Prenatal Care Utilization: Intermediate",
                 "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Intermediate",
-                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of intermediate.",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of intermediate. Proportion of pregnant mothers receiving intermediate prenatal care. Intermediate prenatal care occurs when prenatal care begins from 1st through 4th month, and the proportion of the number of visits is between 50-79%.   The recommended number of prenatal care visits received from the time prenatal care began until the time of delivery is defined by the American College of Obstetricians and Gynecologists.",
                 "statement": "{value} of the cases in {features.name} rated as intermediate.",
                 "equity_category": "Status",
                 "sources": [
@@ -6266,7 +6266,7 @@
                 "short_name": "Kotelchuck (adequate percent)",
                 "long_name": "Adequacy of Prenatal Care Utilization: Adequate",
                 "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Adequate",
-                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of adequate.",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of adequate. Proportion of pregnant mothers receiving adequate prenatal care.  Adequate prenatal care occurs when prenatal care begins from 1st through 4th month and the proportion of the number of recommended visits is between 80% and 109%. The recommended number of prenatal care visits received from the time prenatal care began until the time of delivery is defined by the American College of Obstetricians and Gynecologists.",
                 "statement": "{value} of the cases in {features.name} rated as adequate.",
                 "equity_category": "Status",
                 "sources": [
@@ -6301,7 +6301,7 @@
                 "short_name": "Kotelchuck (adequate plus percent)",
                 "long_name": "Adequacy of Prenatal Care Utilization: Adequate Plus",
                 "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Adequate Plus",
-                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of adequate plus.",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of adequate plus.  Proportion of pregnant mothers receiving prenatal care beyond adequate levels. Adequate Plus  prenatal care occurs when prenatal care begins from 1st through 4th month and the proportion of the number of recommended visits is  110% or more. The recommended number of prenatal care visits received from the time prenatal care began until the time of delivery is defined by the American College of Obstetricians and Gynecologists.",
                 "statement": "{value} of the cases in {features.name} rated as adequate plus.",
                 "equity_category": "Status",
                 "sources": [
@@ -9281,7 +9281,7 @@
                 "short_name": "Kotelchuck (inadequate count)",
                 "long_name": "Adequacy of Prenatal Care Utilization: Inadequate",
                 "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Inadequate",
-                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of inadequate.",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of inadequate. Inadequate levels occurs when prenatal care begins in the 5th month or later or no prenatal care, regardless of the number of visits or, with less than 50% or more recommended visits received from 1st through 4th month.  The recommended number of prenatal care visits received from the time prenatal care began until the time of delivery is defined by the American College of Obstetricians and Gynecologists.",
                 "statement": "There are {value} cases rated as inadequate in {features.name}.",
                 "equity_category": "Status",
                 "sources": [
@@ -9312,7 +9312,7 @@
                 "short_name": "Kotelchuck (intermediate count)",
                 "long_name": "Adequacy of Prenatal Care Utilization: Intermediate",
                 "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Intermediate",
-                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of intermediate.",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of intermediate. Intermediate prenatal care occurs when prenatal care begins from 1st through 4th month, and the proportion of the number of visits is between 50-79%.   The recommended number of prenatal care visits received from the time prenatal care began until the time of delivery is defined by the American College of Obstetricians and Gynecologists.",
                 "statement": "There are {value} cases rated as intermediate in {features.name}.",
                 "equity_category": "Status",
                 "sources": [
@@ -9343,7 +9343,7 @@
                 "short_name": "Kotelchuck (adequate count)",
                 "long_name": "Adequacy of Prenatal Care Utilization: Adequate",
                 "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Adequate",
-                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of adequate.",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of adequate. Adequate prenatal care occurs when prenatal care begins from 1st through 4th month and the proportion of the number of recommended visits is between 80% and 109%. The recommended number of prenatal care visits received from the time prenatal care began until the time of delivery is defined by the American College of Obstetricians and Gynecologists.",
                 "statement": "There are {value} cases rated as adequate in {features.name}.",
                 "equity_category": "Status",
                 "sources": [
@@ -9374,7 +9374,7 @@
                 "short_name": "Kotelchuck (adequate plus count)",
                 "long_name": "Adequacy of Prenatal Care Utilization: Adequate Plus",
                 "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Adequate Plus",
-                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of adequate plus.",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of adequate plus.  Adequate Plus  prenatal care occurs when prenatal care begins from 1st through 4th month and the proportion of the number of recommended visits is  110% or more. The recommended number of prenatal care visits received from the time prenatal care began until the time of delivery is defined by the American College of Obstetricians and Gynecologists.",
                 "statement": "There are {value} cases rated as adequate plus in {features.name}.",
                 "equity_category": "Status",
                 "sources": [
@@ -9405,7 +9405,7 @@
                 "short_name": "Kotelchuck (inadequate percent)",
                 "long_name": "Adequacy of Prenatal Care Utilization: Inadequate",
                 "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Inadequate",
-                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of inadequate.",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of inadequate. Proportion of pregnant mothers receiving inadequate prenatal care. Inadequate levels occurs when prenatal care begins in the 5th month or later or no prenatal care, regardless of the number of visits or, with less than 50% or more recommended visits received from 1st through 4th month.  The recommended number of prenatal care visits received from the time prenatal care began until the time of delivery is defined by the American College of Obstetricians and Gynecologists.",
                 "statement": "{value} of the cases in {features.name} rated as inadequate.",
                 "equity_category": "Status",
                 "sources": [
@@ -9436,7 +9436,7 @@
                 "short_name": "Kotelchuck (intermediate percent)",
                 "long_name": "Adequacy of Prenatal Care Utilization: Intermediate",
                 "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Intermediate",
-                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of intermediate.",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of intermediate. Proportion of pregnant mothers receiving intermediate prenatal care. Intermediate prenatal care occurs when prenatal care begins from 1st through 4th month, and the proportion of the number of visits is between 50-79%.   The recommended number of prenatal care visits received from the time prenatal care began until the time of delivery is defined by the American College of Obstetricians and Gynecologists.",
                 "statement": "{value} of the cases in {features.name} rated as intermediate.",
                 "equity_category": "Status",
                 "sources": [
@@ -9467,7 +9467,7 @@
                 "short_name": "Kotelchuck (adequate percent)",
                 "long_name": "Adequacy of Prenatal Care Utilization: Adequate",
                 "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Adequate",
-                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of adequate.",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of adequate. Proportion of pregnant mothers receiving adequate prenatal care.  Adequate prenatal care occurs when prenatal care begins from 1st through 4th month and the proportion of the number of recommended visits is between 80% and 109%. The recommended number of prenatal care visits received from the time prenatal care began until the time of delivery is defined by the American College of Obstetricians and Gynecologists.",
                 "statement": "{value} of the cases in {features.name} rated as adequate.",
                 "equity_category": "Status",
                 "sources": [
@@ -9498,7 +9498,7 @@
                 "short_name": "Kotelchuck (adequate plus percent)",
                 "long_name": "Adequacy of Prenatal Care Utilization: Adequate Plus",
                 "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Adequate Plus",
-                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of adequate plus.",
+                "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of adequate plus.  Proportion of pregnant mothers receiving prenatal care beyond adequate levels. Adequate Plus  prenatal care occurs when prenatal care begins from 1st through 4th month and the proportion of the number of recommended visits is  110% or more. The recommended number of prenatal care visits received from the time prenatal care began until the time of delivery is defined by the American College of Obstetricians and Gynecologists.",
                 "statement": "{value} of the cases in {features.name} rated as adequate plus.",
                 "equity_category": "Status",
                 "sources": [
@@ -10705,25 +10705,25 @@
         "selected_variable": "food_insecurity_and_cost:Child_Food_Insecurity_Rate"
       }
     },
-    "APCU:Inadequate": {
+    "APNCU:Inadequate": {
       "effects": {
         "variable_type": "Health",
         "selected_variable": "kotelchuck_apncu_index:inadequate_pc"
       }
     },
-    "APCU:Intermediate": {
+    "APNCU:Intermediate": {
       "effects": {
         "variable_type": "Health",
         "selected_variable": "kotelchuck_apncu_index:intermediate_pc"
       }
     },
-    "APCU:Adequate": {
+    "APNCU:Adequate": {
       "effects": {
         "variable_type": "Health",
         "selected_variable": "kotelchuck_apncu_index:adequate_pc"
       }
     },
-    "APCU:AdequatePlus": {
+    "APNCU:AdequatePlus": {
       "effects": {
         "variable_type": "Health",
         "selected_variable": "kotelchuck_apncu_index:adequateplus_pc"
