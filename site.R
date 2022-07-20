@@ -110,7 +110,7 @@ page_panel(
   '<p class="lead">Education</p>',
   input_button(
     "Child Readiness",
-    list(variable_type = "Education", selected_variable = "3rd_grade_median_read_score:median_read_pass_rate")
+    list(variable_type = "Education", selected_variable = "3rd_grade_mean_median_read_score:median_read_pass_rate")
   ),
   '<p class="lead">Broadband</p>',
   input_button(
@@ -151,7 +151,7 @@ page_panel(
   '<p class="lead">Behavioral Health, Substance Use Disorder and Recovery</p>',
   input_button(
     "Overdose ED Visits",
-    list(variable_type = "Behavioral Health, Substance Use Disorder and Recovery", selected_variable = "drug_overdose_ed_visits:avg_overdose_per_100k")
+    list(variable_type = "Behavioral Health, Substance Use Disorder and Recovery", selected_variable = "drug_overdose_ed_visits:avg_monthly_rate")
   ),
   '<p class="lead">Employment/Workforce Development</p>',
   input_button(
@@ -160,7 +160,7 @@ page_panel(
   ),
   input_button(
     "Employment Rate",
-    list(variable_type = "Employment/Workforce Development", selected_variable = "civilian_employment_rate:employment_rate")
+    list(variable_type = "Employment/Workforce Development", selected_variable = "emp_rate:emp_rate")
   )
 )
 

@@ -10684,7 +10684,7 @@
     "ChildReadiness": {
       "effects": {
         "variable_type": "Education",
-        "selected_variable": "3rd_grade_median_read_score:median_read_pass_rate"
+        "selected_variable": "3rd_grade_mean_median_read_score:median_read_pass_rate"
       }
     },
     "HouseholdswithBroadband": {
@@ -10738,7 +10738,7 @@
     "OverdoseEDVisits": {
       "effects": {
         "variable_type": "Behavioral Health, Substance Use Disorder and Recovery",
-        "selected_variable": "drug_overdose_ed_visits:avg_overdose_per_100k"
+        "selected_variable": "drug_overdose_ed_visits:avg_monthly_rate"
       }
     },
     "EarningsperJob": {
@@ -10750,7 +10750,7 @@
     "EmploymentRate": {
       "effects": {
         "variable_type": "Employment/Workforce Development",
-        "selected_variable": "civilian_employment_rate:employment_rate"
+        "selected_variable": "emp_rate:emp_rate"
       }
     },
     "Download": {
