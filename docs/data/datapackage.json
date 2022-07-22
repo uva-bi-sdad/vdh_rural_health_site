@@ -9,9 +9,9 @@
   },
   "resources": [
     {
-      "bytes": 74748,
+      "bytes": 75772,
       "encoding": "ISO-8859-1",
-      "md5": "3a29a2439e835acd76b7d23f2529f3d8",
+      "md5": "e8e445d8e6dd25152b9cdbcfd844935d",
       "format": "csv",
       "name": "district",
       "filename": "health_district.csv.xz",
@@ -24,8 +24,8 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-07-22 12:57:24",
-      "last_modified": "2022-07-22 12:57:24",
+      "created": "2022-07-22 14:18:29",
+      "last_modified": "2022-07-22 14:15:21",
       "row_count": 455,
       "entity_count": 35,
       "schema": {
@@ -1285,19 +1285,19 @@
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_substance_access_scores",
               "full_name": "substance_access_scores:subs_10near_median",
-              "measure": "substance_near_10_median",
+              "measure": "substance_10near_median",
               "type": "drive time",
-              "short_name": "Substance use/behavioral health services availability (drive time)",
-              "long_name": "Substance use/behavioral health services availability by median drive time to the ten closest facilities in minutes",
+              "short_name": "Substance use/behavioral health services access (drive time)",
+              "long_name": "Substance use/behavioral health services access by median drive time to the ten closest facilities in minutes",
               "short_description": "Median drive time (minutes) to the ten closest substance use/behavioral health services facilities",
-              "long_description": "Median drive time in minutes to the ten closest substance use/behavioral health services facilities. Facility location data were collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+              "long_description": "Median drive time in minutes to the ten closest substance use/behavioral health services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
               "statement": "The median drive time to the ten closest substance use/behavioral health service facilities to {features.name} is {value}.",
-              "equity_category": "Availability",
+              "equity_category": {},
               "sources": [
                 {
-                  "name": "Substance Abuse and Mental Health Services Administration (SAMHSA)",
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
                   "date_accessed": 2021,
-                  "url": "https://www.samhsa.gov/"
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                 }
               ],
               "citations": {}
@@ -2410,10 +2410,217 @@
               ],
               "citations": {}
             }
+          },
+          {
+            "name": "hifld:hospitals",
+            "duplicates": 449,
+            "time_range": [11, 11],
+            "type": "integer",
+            "missing": 420,
+            "mean": 2.6571,
+            "sd": 1.2821,
+            "min": 1,
+            "max": 5,
+            "info": {
+              "category": "Health",
+              "full_name": "hifld:hospitals",
+              "measure": "hospitals",
+              "type": "count",
+              "short_name": "hospitals",
+              "long_name": "number of hospital",
+              "short_description": "Number hospitals within the region.",
+              "long_description": "The number of hospital within each region, as collected from various government sources by Oak Ridge National Laboratory.",
+              "statement": "There are {value} hospitals in {features.name}.",
+              "equity_category": "Accessibility",
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data",
+                  "location": "HIFLD Open Portal > Public Health > Hospitals",
+                  "location_url": "https://hifld-geoplatform.opendata.arcgis.com/datasets/geoplatform::hospitals/about",
+                  "date_accessed": 2022,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "hifld:hospital_beds_per_100k",
+            "duplicates": 419,
+            "time_range": [11, 11],
+            "type": "float",
+            "missing": 420,
+            "mean": 270.7453,
+            "sd": 135.4095,
+            "min": 91.8214,
+            "max": 667.9031,
+            "info": {
+              "category": "Health",
+              "full_name": "hifld:hospital_beds_per_100k",
+              "measure": "hospital_beds_per_100k",
+              "type": "per 100k",
+              "short_name": "hospital beds",
+              "long_name": "hospital beds per 100k people",
+              "short_description": "Number hospital beds per 100k people.",
+              "long_description": "The number of hospital beds per 100k people, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) hospitals, with supply values as bed counts, as collected from various government sources by Oak Ridge National Laboratory [for hospitals with no bed counts, bed counts are median bed counts across all other hospitals in the included regions], (b) Census block groups, with demand values as the total population as reported in the American Community Survey 5-year summaries, and (c) distances between hospital locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
+              "statement": "There are {value} hospital beds per 100k people in {features.name}.",
+              "equity_category": "Accessibility",
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data",
+                  "location": "HIFLD Open Portal > Public Health > Hospitals",
+                  "location_url": "https://hifld-geoplatform.opendata.arcgis.com/datasets/geoplatform::hospitals/about",
+                  "date_accessed": 2022,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com"
+                },
+                {
+                  "name": "American Community Survey",
+                  "location": "data/5_year_seq_by_state",
+                  "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
+                  "date_accessed": 2022,
+                  "url": "https://www.census.gov/programs-surveys/acs.html"
+                },
+                {
+                  "name": "Open Source Routing Machine",
+                  "date_accessed": 2022,
+                  "url": "http://project-osrm.org"
+                }
+              ],
+              "citations": ["wan12", "bii21"]
+            }
+          },
+          {
+            "name": "hifld:hospitals_min_drivetime",
+            "duplicates": 419,
+            "time_range": [11, 11],
+            "type": "float",
+            "missing": 420,
+            "mean": 17.3614,
+            "sd": 8.533,
+            "min": 5.5679,
+            "max": 40.6326,
+            "info": {
+              "category": "Health",
+              "full_name": "hifld:hospitals_min_drivetime",
+              "measure": "hospitals_min_drivetime",
+              "type": "minutes",
+              "short_name": "hospital drive time",
+              "long_name": "drive time to nearest hospital",
+              "short_description": "Drive time to the nearest hospital.",
+              "long_description": "Minimal drive time to a hospital from the Census block group centroid, as calculated by the Open Source Routing Machine in 2022. Hospital locations are from various government sources, collected by Oak Ridge National Laboratory. All distances are calculated at the block group level, then averaged up to higher-level geographies.",
+              "statement": "It takes {value} to drive to a hospital from {features.name}'s block group centroids on average.",
+              "equity_category": "Accessibility",
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data",
+                  "location": "HIFLD Open Portal > Public Health > Hospitals",
+                  "location_url": "https://hifld-geoplatform.opendata.arcgis.com/datasets/geoplatform::hospitals/about",
+                  "date_accessed": 2022,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com"
+                },
+                {
+                  "name": "Open Source Routing Machine",
+                  "date_accessed": 2022,
+                  "url": "http://project-osrm.org"
+                }
+              ],
+              "citations": {}
+            }
           }
         ]
       },
       "_references": {
+        "wan12": {
+          "id": "wan12",
+          "author": [
+            {
+              "given": "Neng",
+              "family": "Wan"
+            },
+            {
+              "given": "Bin",
+              "family": "Zou"
+            },
+            {
+              "given": "Troy",
+              "family": "Sternberg"
+            }
+          ],
+          "year": 2012,
+          "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+          "journal": "International Journal of Geographical Information Science",
+          "volume": "26",
+          "page": "1073-1089",
+          "doi": "10.1080/13658816.2011.624987"
+        },
+        "bii21": {
+          "id": "bii21",
+          "author": [
+            {
+              "family": "Biocomplexity Institute and Initiative"
+            }
+          ],
+          "year": 2021,
+          "title": "catchment: Calculate spatial access and availability metrics",
+          "version": "0.0.1",
+          "url": "https://github.com/uva-bi-sdad/catchment"
+        },
+        "liang17": {
+          "id": "liang17",
+          "author": [
+            {
+              "given": "Lan",
+              "family": "Liang"
+            },
+            {
+              "given": "Cindy",
+              "family": "Branch"
+            }
+          ],
+          "year": 2017,
+          "title": "Health Literacy Universal Precautions Are Still a Distant Dream: Analysis of U.S. Data on Health Literate Practices",
+          "journal": "Health Literacy Research and Practice",
+          "volume": "1",
+          "number": 4,
+          "page": "e216-e230",
+          "doi": "10.3928/24748307-20170929-01"
+        },
+        "savitz20": {
+          "id": "savitz20",
+          "author": [
+            {
+              "given": "Samuel",
+              "family": "Savitz"
+            },
+            {
+              "given": "Stacy",
+              "family": "Bailey"
+            },
+            {
+              "given": "Stacie",
+              "family": "Dusetzina"
+            },
+            {
+              "given": "W.",
+              "family": "Schuyler Jones"
+            },
+            {
+              "given": "Justin",
+              "family": "Trogdon"
+            },
+            {
+              "given": "Sally",
+              "family": "Stearns"
+            }
+          ],
+          "year": 2020,
+          "title": "Treatment selection and medication adherence for stable angina: The role of area-based health literacy",
+          "journal": "Journal of Evaluation in Clinical Practice",
+          "volume": "26",
+          "number": 6,
+          "page": "1711-1721",
+          "doi": "10.1111/jep.13341"
+        },
         "lou04": {
           "id": "lou04",
           "author": [
@@ -2503,14 +2710,27 @@
           "journal": "University of Chicago: Center for Spatial Data Science",
           "volume": "Preprint",
           "doi": "10.13140/RG.2.2.12396.28807"
+        },
+        "gallardo20": {
+          "id": "gallardo20",
+          "author": [
+            {
+              "given": "Robert",
+              "family": "Gallardo"
+            }
+          ],
+          "year": 2020,
+          "title": "Digital Divide Index",
+          "journal": "Purdue Center for Regional Development",
+          "url": "http://pcrd.purdue.edu/ddi"
         }
       },
-      "sha512": "228ce528fc2ddf6235f0eb34118879f091e16abe7c4072372ba7ca3aee9df49cd23028344f41b19d89a1446103b9ee42e52daa84436e4f352253655487b96410"
+      "sha512": "72634551e7f5396cd9181abeaadffbb4043612d82e3ec47bad94b296d2319f6b91028a305e2c0cc9d771476600e7aacc34e66a5b69748ca68e887e88bb9dcf29"
     },
     {
-      "bytes": 298208,
+      "bytes": 301380,
       "encoding": "ISO-8859-1",
-      "md5": "53358f357d24d09d8c18fd4c3d7db310",
+      "md5": "7d98440ddae5a75dbf484b41d63968a1",
       "format": "csv",
       "name": "county",
       "filename": "county.csv.xz",
@@ -2523,8 +2743,8 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-07-22 12:57:24",
-      "last_modified": "2022-07-22 12:57:24",
+      "created": "2022-07-22 14:18:29",
+      "last_modified": "2022-07-22 14:15:21",
       "row_count": 1742,
       "entity_count": 134,
       "schema": {
@@ -3796,19 +4016,19 @@
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_substance_access_scores",
               "full_name": "substance_access_scores:subs_10near_median",
-              "measure": "substance_near_10_median",
+              "measure": "substance_10near_median",
               "type": "drive time",
-              "short_name": "Substance use/behavioral health services availability (drive time)",
-              "long_name": "Substance use/behavioral health services availability by median drive time to the ten closest facilities in minutes",
+              "short_name": "Substance use/behavioral health services access (drive time)",
+              "long_name": "Substance use/behavioral health services access by median drive time to the ten closest facilities in minutes",
               "short_description": "Median drive time (minutes) to the ten closest substance use/behavioral health services facilities",
-              "long_description": "Median drive time in minutes to the ten closest substance use/behavioral health services facilities. Facility location data were collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+              "long_description": "Median drive time in minutes to the ten closest substance use/behavioral health services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
               "statement": "The median drive time to the ten closest substance use/behavioral health service facilities to {features.name} is {value}.",
-              "equity_category": "Availability",
+              "equity_category": {},
               "sources": [
                 {
-                  "name": "Substance Abuse and Mental Health Services Administration (SAMHSA)",
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
                   "date_accessed": 2021,
-                  "url": "https://www.samhsa.gov/"
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                 }
               ],
               "citations": {}
@@ -4965,10 +5185,217 @@
               ],
               "citations": {}
             }
+          },
+          {
+            "name": "hifld:hospitals",
+            "duplicates": 1735,
+            "time_range": [11, 11],
+            "type": "integer",
+            "missing": 1609,
+            "mean": 0.6992,
+            "sd": 0.9454,
+            "min": 0,
+            "max": 5,
+            "info": {
+              "category": "Health",
+              "full_name": "hifld:hospitals",
+              "measure": "hospitals",
+              "type": "count",
+              "short_name": "hospitals",
+              "long_name": "number of hospital",
+              "short_description": "Number hospitals within the region.",
+              "long_description": "The number of hospital within each region, as collected from various government sources by Oak Ridge National Laboratory.",
+              "statement": "There are {value} hospitals in {features.name}.",
+              "equity_category": "Accessibility",
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data",
+                  "location": "HIFLD Open Portal > Public Health > Hospitals",
+                  "location_url": "https://hifld-geoplatform.opendata.arcgis.com/datasets/geoplatform::hospitals/about",
+                  "date_accessed": 2022,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "hifld:hospital_beds_per_100k",
+            "duplicates": 1608,
+            "time_range": [11, 11],
+            "type": "float",
+            "missing": 1609,
+            "mean": 245.5033,
+            "sd": 212.9226,
+            "min": 17.2829,
+            "max": 1323.312,
+            "info": {
+              "category": "Health",
+              "full_name": "hifld:hospital_beds_per_100k",
+              "measure": "hospital_beds_per_100k",
+              "type": "per 100k",
+              "short_name": "hospital beds",
+              "long_name": "hospital beds per 100k people",
+              "short_description": "Number hospital beds per 100k people.",
+              "long_description": "The number of hospital beds per 100k people, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) hospitals, with supply values as bed counts, as collected from various government sources by Oak Ridge National Laboratory [for hospitals with no bed counts, bed counts are median bed counts across all other hospitals in the included regions], (b) Census block groups, with demand values as the total population as reported in the American Community Survey 5-year summaries, and (c) distances between hospital locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
+              "statement": "There are {value} hospital beds per 100k people in {features.name}.",
+              "equity_category": "Accessibility",
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data",
+                  "location": "HIFLD Open Portal > Public Health > Hospitals",
+                  "location_url": "https://hifld-geoplatform.opendata.arcgis.com/datasets/geoplatform::hospitals/about",
+                  "date_accessed": 2022,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com"
+                },
+                {
+                  "name": "American Community Survey",
+                  "location": "data/5_year_seq_by_state",
+                  "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
+                  "date_accessed": 2022,
+                  "url": "https://www.census.gov/programs-surveys/acs.html"
+                },
+                {
+                  "name": "Open Source Routing Machine",
+                  "date_accessed": 2022,
+                  "url": "http://project-osrm.org"
+                }
+              ],
+              "citations": ["wan12", "bii21"]
+            }
+          },
+          {
+            "name": "hifld:hospitals_min_drivetime",
+            "duplicates": 1608,
+            "time_range": [11, 11],
+            "type": "float",
+            "missing": 1609,
+            "mean": 22.1606,
+            "sd": 12.6437,
+            "min": 3.5286,
+            "max": 57.0333,
+            "info": {
+              "category": "Health",
+              "full_name": "hifld:hospitals_min_drivetime",
+              "measure": "hospitals_min_drivetime",
+              "type": "minutes",
+              "short_name": "hospital drive time",
+              "long_name": "drive time to nearest hospital",
+              "short_description": "Drive time to the nearest hospital.",
+              "long_description": "Minimal drive time to a hospital from the Census block group centroid, as calculated by the Open Source Routing Machine in 2022. Hospital locations are from various government sources, collected by Oak Ridge National Laboratory. All distances are calculated at the block group level, then averaged up to higher-level geographies.",
+              "statement": "It takes {value} to drive to a hospital from {features.name}'s block group centroids on average.",
+              "equity_category": "Accessibility",
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data",
+                  "location": "HIFLD Open Portal > Public Health > Hospitals",
+                  "location_url": "https://hifld-geoplatform.opendata.arcgis.com/datasets/geoplatform::hospitals/about",
+                  "date_accessed": 2022,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com"
+                },
+                {
+                  "name": "Open Source Routing Machine",
+                  "date_accessed": 2022,
+                  "url": "http://project-osrm.org"
+                }
+              ],
+              "citations": {}
+            }
           }
         ]
       },
       "_references": {
+        "wan12": {
+          "id": "wan12",
+          "author": [
+            {
+              "given": "Neng",
+              "family": "Wan"
+            },
+            {
+              "given": "Bin",
+              "family": "Zou"
+            },
+            {
+              "given": "Troy",
+              "family": "Sternberg"
+            }
+          ],
+          "year": 2012,
+          "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+          "journal": "International Journal of Geographical Information Science",
+          "volume": "26",
+          "page": "1073-1089",
+          "doi": "10.1080/13658816.2011.624987"
+        },
+        "bii21": {
+          "id": "bii21",
+          "author": [
+            {
+              "family": "Biocomplexity Institute and Initiative"
+            }
+          ],
+          "year": 2021,
+          "title": "catchment: Calculate spatial access and availability metrics",
+          "version": "0.0.1",
+          "url": "https://github.com/uva-bi-sdad/catchment"
+        },
+        "liang17": {
+          "id": "liang17",
+          "author": [
+            {
+              "given": "Lan",
+              "family": "Liang"
+            },
+            {
+              "given": "Cindy",
+              "family": "Branch"
+            }
+          ],
+          "year": 2017,
+          "title": "Health Literacy Universal Precautions Are Still a Distant Dream: Analysis of U.S. Data on Health Literate Practices",
+          "journal": "Health Literacy Research and Practice",
+          "volume": "1",
+          "number": 4,
+          "page": "e216-e230",
+          "doi": "10.3928/24748307-20170929-01"
+        },
+        "savitz20": {
+          "id": "savitz20",
+          "author": [
+            {
+              "given": "Samuel",
+              "family": "Savitz"
+            },
+            {
+              "given": "Stacy",
+              "family": "Bailey"
+            },
+            {
+              "given": "Stacie",
+              "family": "Dusetzina"
+            },
+            {
+              "given": "W.",
+              "family": "Schuyler Jones"
+            },
+            {
+              "given": "Justin",
+              "family": "Trogdon"
+            },
+            {
+              "given": "Sally",
+              "family": "Stearns"
+            }
+          ],
+          "year": 2020,
+          "title": "Treatment selection and medication adherence for stable angina: The role of area-based health literacy",
+          "journal": "Journal of Evaluation in Clinical Practice",
+          "volume": "26",
+          "number": 6,
+          "page": "1711-1721",
+          "doi": "10.1111/jep.13341"
+        },
         "lou04": {
           "id": "lou04",
           "author": [
@@ -5058,14 +5485,27 @@
           "journal": "University of Chicago: Center for Spatial Data Science",
           "volume": "Preprint",
           "doi": "10.13140/RG.2.2.12396.28807"
+        },
+        "gallardo20": {
+          "id": "gallardo20",
+          "author": [
+            {
+              "given": "Robert",
+              "family": "Gallardo"
+            }
+          ],
+          "year": 2020,
+          "title": "Digital Divide Index",
+          "journal": "Purdue Center for Regional Development",
+          "url": "http://pcrd.purdue.edu/ddi"
         }
       },
-      "sha512": "1dd854fbd4ab286f89f72744a2e2784aa2d7e6be48577863f3a445f5f372cbbefe297edaeb965c9bf7800d8f5a9f4a8f2ef2444ad26ef387bec939ac68429c8d"
+      "sha512": "d06c29a224a9fb78c06cc9fb2097ee6d2077274a7f2f815dd2661b563fd68f39f8a0fc415d0dd162e83db7a58ab089d2e312ea82be73949c63ebdbd57ada8995"
     },
     {
-      "bytes": 3215980,
+      "bytes": 3271008,
       "encoding": "ISO-8859-1",
-      "md5": "689da672afae03205e039e1ba40cd33e",
+      "md5": "e530bd4795e00d0faeb3c072fef66fcb",
       "format": "csv",
       "name": "tract",
       "filename": "tract.csv.xz",
@@ -5078,8 +5518,8 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-07-22 12:57:31",
-      "last_modified": "2022-07-22 12:57:31",
+      "created": "2022-07-22 14:18:38",
+      "last_modified": "2022-07-22 14:15:21",
       "row_count": 31889,
       "entity_count": 2453,
       "schema": {
@@ -6335,19 +6775,19 @@
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_substance_access_scores",
               "full_name": "substance_access_scores:subs_10near_median",
-              "measure": "substance_near_10_median",
+              "measure": "substance_10near_median",
               "type": "drive time",
-              "short_name": "Substance use/behavioral health services availability (drive time)",
-              "long_name": "Substance use/behavioral health services availability by median drive time to the ten closest facilities in minutes",
+              "short_name": "Substance use/behavioral health services access (drive time)",
+              "long_name": "Substance use/behavioral health services access by median drive time to the ten closest facilities in minutes",
               "short_description": "Median drive time (minutes) to the ten closest substance use/behavioral health services facilities",
-              "long_description": "Median drive time in minutes to the ten closest substance use/behavioral health services facilities. Facility location data were collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+              "long_description": "Median drive time in minutes to the ten closest substance use/behavioral health services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
               "statement": "The median drive time to the ten closest substance use/behavioral health service facilities to {features.name} is {value}.",
-              "equity_category": "Availability",
+              "equity_category": {},
               "sources": [
                 {
-                  "name": "Substance Abuse and Mental Health Services Administration (SAMHSA)",
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
                   "date_accessed": 2021,
-                  "url": "https://www.samhsa.gov/"
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                 }
               ],
               "citations": {}
@@ -7464,10 +7904,217 @@
               ],
               "citations": {}
             }
+          },
+          {
+            "name": "hifld:hospitals",
+            "duplicates": 31885,
+            "time_range": [11, 11],
+            "type": "integer",
+            "missing": 29714,
+            "mean": 0.0428,
+            "sd": 0.2091,
+            "min": 0,
+            "max": 2,
+            "info": {
+              "category": "Health",
+              "full_name": "hifld:hospitals",
+              "measure": "hospitals",
+              "type": "count",
+              "short_name": "hospitals",
+              "long_name": "number of hospital",
+              "short_description": "Number hospitals within the region.",
+              "long_description": "The number of hospital within each region, as collected from various government sources by Oak Ridge National Laboratory.",
+              "statement": "There are {value} hospitals in {features.name}.",
+              "equity_category": "Accessibility",
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data",
+                  "location": "HIFLD Open Portal > Public Health > Hospitals",
+                  "location_url": "https://hifld-geoplatform.opendata.arcgis.com/datasets/geoplatform::hospitals/about",
+                  "date_accessed": 2022,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "hifld:hospital_beds_per_100k",
+            "duplicates": 29729,
+            "time_range": [11, 11],
+            "type": "float",
+            "missing": 29714,
+            "mean": 244.8621,
+            "sd": 177.0599,
+            "min": 0,
+            "max": 1323.312,
+            "info": {
+              "category": "Health",
+              "full_name": "hifld:hospital_beds_per_100k",
+              "measure": "hospital_beds_per_100k",
+              "type": "per 100k",
+              "short_name": "hospital beds",
+              "long_name": "hospital beds per 100k people",
+              "short_description": "Number hospital beds per 100k people.",
+              "long_description": "The number of hospital beds per 100k people, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) hospitals, with supply values as bed counts, as collected from various government sources by Oak Ridge National Laboratory [for hospitals with no bed counts, bed counts are median bed counts across all other hospitals in the included regions], (b) Census block groups, with demand values as the total population as reported in the American Community Survey 5-year summaries, and (c) distances between hospital locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
+              "statement": "There are {value} hospital beds per 100k people in {features.name}.",
+              "equity_category": "Accessibility",
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data",
+                  "location": "HIFLD Open Portal > Public Health > Hospitals",
+                  "location_url": "https://hifld-geoplatform.opendata.arcgis.com/datasets/geoplatform::hospitals/about",
+                  "date_accessed": 2022,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com"
+                },
+                {
+                  "name": "American Community Survey",
+                  "location": "data/5_year_seq_by_state",
+                  "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
+                  "date_accessed": 2022,
+                  "url": "https://www.census.gov/programs-surveys/acs.html"
+                },
+                {
+                  "name": "Open Source Routing Machine",
+                  "date_accessed": 2022,
+                  "url": "http://project-osrm.org"
+                }
+              ],
+              "citations": ["wan12", "bii21"]
+            }
+          },
+          {
+            "name": "hifld:hospitals_min_drivetime",
+            "duplicates": 30774,
+            "time_range": [11, 11],
+            "type": "float",
+            "missing": 29714,
+            "mean": 15.333,
+            "sd": 11.1564,
+            "min": 1.55,
+            "max": 102,
+            "info": {
+              "category": "Health",
+              "full_name": "hifld:hospitals_min_drivetime",
+              "measure": "hospitals_min_drivetime",
+              "type": "minutes",
+              "short_name": "hospital drive time",
+              "long_name": "drive time to nearest hospital",
+              "short_description": "Drive time to the nearest hospital.",
+              "long_description": "Minimal drive time to a hospital from the Census block group centroid, as calculated by the Open Source Routing Machine in 2022. Hospital locations are from various government sources, collected by Oak Ridge National Laboratory. All distances are calculated at the block group level, then averaged up to higher-level geographies.",
+              "statement": "It takes {value} to drive to a hospital from {features.name}'s block group centroids on average.",
+              "equity_category": "Accessibility",
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data",
+                  "location": "HIFLD Open Portal > Public Health > Hospitals",
+                  "location_url": "https://hifld-geoplatform.opendata.arcgis.com/datasets/geoplatform::hospitals/about",
+                  "date_accessed": 2022,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com"
+                },
+                {
+                  "name": "Open Source Routing Machine",
+                  "date_accessed": 2022,
+                  "url": "http://project-osrm.org"
+                }
+              ],
+              "citations": {}
+            }
           }
         ]
       },
       "_references": {
+        "wan12": {
+          "id": "wan12",
+          "author": [
+            {
+              "given": "Neng",
+              "family": "Wan"
+            },
+            {
+              "given": "Bin",
+              "family": "Zou"
+            },
+            {
+              "given": "Troy",
+              "family": "Sternberg"
+            }
+          ],
+          "year": 2012,
+          "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+          "journal": "International Journal of Geographical Information Science",
+          "volume": "26",
+          "page": "1073-1089",
+          "doi": "10.1080/13658816.2011.624987"
+        },
+        "bii21": {
+          "id": "bii21",
+          "author": [
+            {
+              "family": "Biocomplexity Institute and Initiative"
+            }
+          ],
+          "year": 2021,
+          "title": "catchment: Calculate spatial access and availability metrics",
+          "version": "0.0.1",
+          "url": "https://github.com/uva-bi-sdad/catchment"
+        },
+        "liang17": {
+          "id": "liang17",
+          "author": [
+            {
+              "given": "Lan",
+              "family": "Liang"
+            },
+            {
+              "given": "Cindy",
+              "family": "Branch"
+            }
+          ],
+          "year": 2017,
+          "title": "Health Literacy Universal Precautions Are Still a Distant Dream: Analysis of U.S. Data on Health Literate Practices",
+          "journal": "Health Literacy Research and Practice",
+          "volume": "1",
+          "number": 4,
+          "page": "e216-e230",
+          "doi": "10.3928/24748307-20170929-01"
+        },
+        "savitz20": {
+          "id": "savitz20",
+          "author": [
+            {
+              "given": "Samuel",
+              "family": "Savitz"
+            },
+            {
+              "given": "Stacy",
+              "family": "Bailey"
+            },
+            {
+              "given": "Stacie",
+              "family": "Dusetzina"
+            },
+            {
+              "given": "W.",
+              "family": "Schuyler Jones"
+            },
+            {
+              "given": "Justin",
+              "family": "Trogdon"
+            },
+            {
+              "given": "Sally",
+              "family": "Stearns"
+            }
+          ],
+          "year": 2020,
+          "title": "Treatment selection and medication adherence for stable angina: The role of area-based health literacy",
+          "journal": "Journal of Evaluation in Clinical Practice",
+          "volume": "26",
+          "number": 6,
+          "page": "1711-1721",
+          "doi": "10.1111/jep.13341"
+        },
         "lou04": {
           "id": "lou04",
           "author": [
@@ -7557,9 +8204,22 @@
           "journal": "University of Chicago: Center for Spatial Data Science",
           "volume": "Preprint",
           "doi": "10.13140/RG.2.2.12396.28807"
+        },
+        "gallardo20": {
+          "id": "gallardo20",
+          "author": [
+            {
+              "given": "Robert",
+              "family": "Gallardo"
+            }
+          ],
+          "year": 2020,
+          "title": "Digital Divide Index",
+          "journal": "Purdue Center for Regional Development",
+          "url": "http://pcrd.purdue.edu/ddi"
         }
       },
-      "sha512": "36b5a8a4e5d8cb04ee29c2ed458e9cf7c6f9c10bf8e41137855150841808bd2336992b7c120321c7ec59dfca4564f50ac41e1c5263275a5e37877ca1c7321734"
+      "sha512": "d215c2ae18650c36ff7dc76cfd05fcc530edead093f5a8477d9b270e1ccc60dab90b045cfb8a0a30704a56ac08c3c8df8dc20dc197dcc6499e193784ab40b037"
     }
   ]
 }
