@@ -9,9 +9,9 @@
   },
   "resources": [
     {
-      "bytes": 75900,
+      "bytes": 74748,
       "encoding": "ISO-8859-1",
-      "md5": "a0cbfe8d0822ffa4f0f190c09c28ff95",
+      "md5": "3a29a2439e835acd76b7d23f2529f3d8",
       "format": "csv",
       "name": "district",
       "filename": "health_district.csv.xz",
@@ -24,8 +24,8 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-07-18 14:47:21",
-      "last_modified": "2022-04-27 04:30:54",
+      "created": "2022-07-22 12:57:24",
+      "last_modified": "2022-07-22 12:57:24",
       "row_count": 455,
       "entity_count": 35,
       "schema": {
@@ -632,70 +632,6 @@
             }
           },
           {
-            "name": "access_scores_dentists:dent_cnt",
-            "duplicates": 421,
-            "time_range": [12, 12],
-            "type": "integer",
-            "missing": 420,
-            "mean": 122.8857,
-            "sd": 170.4947,
-            "min": 15,
-            "max": 1000,
-            "info": {
-              "category": "Health",
-              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores",
-              "full_name": "access_scores_dentists:dent_cnt",
-              "measure": "dent_cnt",
-              "type": "count",
-              "short_name": "Dental care availability (count)",
-              "long_name": "Dental care availability by count",
-              "short_description": "Count of dentists based on provider locations",
-              "long_description": "Count of dentists based on provider locations. Address data were collected from WebMD's online Physician Directory.",
-              "statement": "There are {value} dentists in {features.name}.",
-              "equity_category": "Availability",
-              "sources": [
-                {
-                  "name": "WebMD Physician Directory",
-                  "date_accessed": 2021,
-                  "url": "https://doctor.webmd.com/"
-                }
-              ],
-              "citations": {}
-            }
-          },
-          {
-            "name": "access_scores_dentists:dent_e2sfca",
-            "duplicates": 419,
-            "time_range": [12, 12],
-            "type": "float",
-            "missing": 420,
-            "mean": 0.4703,
-            "sd": 0.2715,
-            "min": 0.1816,
-            "max": 1.4019,
-            "info": {
-              "category": "Health",
-              "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_dentists_access_scores",
-              "full_name": "access_scores_dentists:dent_e2sfca",
-              "measure": "dent_e2sfca",
-              "type": "index",
-              "short_name": "Dental care geographic availability",
-              "long_name": "Dental care geographic availability (2 step-enhanced floating catchment areas)",
-              "short_description": "Index of dental care availability based on supply and demand of providers",
-              "long_description": "Dental care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of dentists per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for dentists (population served by dentists). Provider address data were collected from WebMD's online Physician Directory.",
-              "statement": "The dental care availability for {features.name} is {value}.",
-              "equity_category": "Availability",
-              "sources": [
-                {
-                  "name": "WebMD Physician Directory",
-                  "date_accessed": 2021,
-                  "url": "https://doctor.webmd.com/"
-                }
-              ],
-              "citations": ["lou04", "lou09", "lou03", "saxon20"]
-            }
-          },
-          {
             "name": "speed_measurements:avg_down_using_devices",
             "duplicates": 454,
             "time_range": [-1, -1],
@@ -749,90 +685,6 @@
                   "name": "Virginia Department of Health",
                   "date_accessed": "2021",
                   "url": "https://www.vdh.virginia.gov/surveillance-and-investigation/syndromic-surveillance/drug-overdose-surveillance/"
-                }
-              ],
-              "citations": {}
-            }
-          },
-          {
-            "name": "ems_access_scores:ems_10near_median",
-            "duplicates": 454,
-            "time_range": [-1, -1],
-            "type": "unknown",
-            "missing": 455,
-            "info": {
-              "category": "Health",
-              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
-              "full_name": "ems_access_scores:ems_10near_median",
-              "measure": "ems_10near_median",
-              "type": "drive time",
-              "short_name": "Emergency medical services access (drive time)",
-              "long_name": "Emergency medical services access by median drive time to the ten closest facilities in minutes",
-              "short_description": "Median drive time (minutes) to the ten closest emergency medical services facilities",
-              "long_description": "Median drive time in minutes to the ten closest emergency medical services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-              "statement": "The median drive time to the ten closest emergency medical service facilities to {features.name} is {value}.",
-              "equity_category": {},
-              "sources": [
-                {
-                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
-                  "date_accessed": 2021,
-                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
-                }
-              ],
-              "citations": {}
-            }
-          },
-          {
-            "name": "ems_access_scores:ems_3sfca",
-            "duplicates": 454,
-            "time_range": [-1, -1],
-            "type": "unknown",
-            "missing": 455,
-            "info": {
-              "category": "Health",
-              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
-              "full_name": "ems_access_scores:ems_3sfca",
-              "measure": "ems_3sfca",
-              "type": "index",
-              "short_name": "Emergency medical services access score",
-              "long_name": "Emergency medical services access score (3-step floating catchment areas)",
-              "short_description": "Index of emergency medical services accessibility based on supply and demand of facilities",
-              "long_description": "Emergency medical services access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
-              "statement": "The emergency medical services accessibility score for {features.name} is {value}.",
-              "equity_category": {},
-              "sources": [
-                {
-                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
-                  "date_accessed": 2021,
-                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
-                }
-              ],
-              "citations": ["lou04", "lou09", "lou03", "saxon20"]
-            }
-          },
-          {
-            "name": "ems_access_scores:ems_cnt",
-            "duplicates": 454,
-            "time_range": [-1, -1],
-            "type": "unknown",
-            "missing": 455,
-            "info": {
-              "category": "Health",
-              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
-              "full_name": "ems_access_scores:ems_cnt",
-              "measure": "ems_cnt",
-              "type": "count",
-              "short_name": "Emergency medical services access (count)",
-              "long_name": "Access to emergency medical services by count",
-              "short_description": "Count of emergency medical services facilities based on facility locations",
-              "long_description": "Count of emergency medical services facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
-              "statement": "There are {value} emergency medical services facilities in {features.name}.",
-              "equity_category": {},
-              "sources": [
-                {
-                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
-                  "date_accessed": 2021,
-                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                 }
               ],
               "citations": {}
@@ -1001,90 +853,6 @@
                 }
               ],
               "citations": ["savitz20", "liang17"]
-            }
-          },
-          {
-            "name": "hospital_access_scores:hos_10near_median",
-            "duplicates": 454,
-            "time_range": [-1, -1],
-            "type": "unknown",
-            "missing": 455,
-            "info": {
-              "category": "Health",
-              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
-              "full_name": "hospital_access_scores:hos_10near_median",
-              "measure": "hospital_10near_median",
-              "type": "drive time",
-              "short_name": "Hospital access (drive time)",
-              "long_name": "Hospital access by median drive time to the ten closest facilities in minutes",
-              "short_description": "Median drive time (minutes) to the ten closest hospitals",
-              "long_description": "Median drive time in minutes to the ten closest hospitals. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-              "statement": "The median drive time to the ten closest hospitals to {features.name} is {value}.",
-              "equity_category": {},
-              "sources": [
-                {
-                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
-                  "date_accessed": 2021,
-                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
-                }
-              ],
-              "citations": {}
-            }
-          },
-          {
-            "name": "hospital_access_scores:hos_3sfca",
-            "duplicates": 454,
-            "time_range": [-1, -1],
-            "type": "unknown",
-            "missing": 455,
-            "info": {
-              "category": "Health",
-              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
-              "full_name": "hospital_access_scores:hos_3sfca",
-              "measure": "hospital_3sfca",
-              "type": "index",
-              "short_name": "Hospital access score",
-              "long_name": "Hospital access score (3-step floating catchment areas)",
-              "short_description": "Index of hospital accessibility based on supply and demand of facilities",
-              "long_description": "Hospital access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
-              "statement": "The hospital accessibility score for {features.name} is {value}.",
-              "equity_category": {},
-              "sources": [
-                {
-                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
-                  "date_accessed": 2021,
-                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
-                }
-              ],
-              "citations": ["lou04", "lou09", "lou03", "saxon20"]
-            }
-          },
-          {
-            "name": "hospital_access_scores:hos_cnt",
-            "duplicates": 454,
-            "time_range": [-1, -1],
-            "type": "unknown",
-            "missing": 455,
-            "info": {
-              "category": "Health",
-              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
-              "full_name": "hospital_access_scores:hos_cnt",
-              "measure": "hospital_cnt",
-              "type": "count",
-              "short_name": "Hospital access (count)",
-              "long_name": "Access to hospitals by count",
-              "short_description": "Count of hospitals based on facility locations",
-              "long_description": "Count of hospitals based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
-              "statement": "There are {value} hospitals in {features.name}.",
-              "equity_category": {},
-              "sources": [
-                {
-                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
-                  "date_accessed": 2021,
-                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
-                }
-              ],
-              "citations": {}
             }
           },
           {
@@ -1517,19 +1285,19 @@
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_substance_access_scores",
               "full_name": "substance_access_scores:subs_10near_median",
-              "measure": "substance_10near_median",
+              "measure": "substance_near_10_median",
               "type": "drive time",
-              "short_name": "Substance use/behavioral health services access (drive time)",
-              "long_name": "Substance use/behavioral health services access by median drive time to the ten closest facilities in minutes",
+              "short_name": "Substance use/behavioral health services availability (drive time)",
+              "long_name": "Substance use/behavioral health services availability by median drive time to the ten closest facilities in minutes",
               "short_description": "Median drive time (minutes) to the ten closest substance use/behavioral health services facilities",
-              "long_description": "Median drive time in minutes to the ten closest substance use/behavioral health services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+              "long_description": "Median drive time in minutes to the ten closest substance use/behavioral health services facilities. Facility location data were collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
               "statement": "The median drive time to the ten closest substance use/behavioral health service facilities to {features.name} is {value}.",
-              "equity_category": {},
+              "equity_category": "Availability",
               "sources": [
                 {
-                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "name": "Substance Abuse and Mental Health Services Administration (SAMHSA)",
                   "date_accessed": 2021,
-                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                  "url": "https://www.samhsa.gov/"
                 }
               ],
               "citations": {}
@@ -2132,6 +1900,70 @@
             }
           },
           {
+            "name": "access_scores_dentists:dent_cnt",
+            "duplicates": 421,
+            "time_range": [12, 12],
+            "type": "integer",
+            "missing": 420,
+            "mean": 122.8857,
+            "sd": 170.4947,
+            "min": 15,
+            "max": 1000,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores",
+              "full_name": "access_scores_dentists:dent_cnt",
+              "measure": "dent_cnt",
+              "type": "count",
+              "short_name": "Dental care availability (count)",
+              "long_name": "Dental care availability by count",
+              "short_description": "Count of dentists based on provider locations",
+              "long_description": "Count of dentists based on provider locations. Address data were collected from WebMD's online Physician Directory.",
+              "statement": "There are {value} dentists in {features.name}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "WebMD Physician Directory",
+                  "date_accessed": 2021,
+                  "url": "https://doctor.webmd.com/"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "access_scores_dentists:dent_e2sfca",
+            "duplicates": 419,
+            "time_range": [12, 12],
+            "type": "float",
+            "missing": 420,
+            "mean": 0.4703,
+            "sd": 0.2715,
+            "min": 0.1816,
+            "max": 1.4019,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_dentists_access_scores",
+              "full_name": "access_scores_dentists:dent_e2sfca",
+              "measure": "dent_e2sfca",
+              "type": "index",
+              "short_name": "Dental care geographic availability",
+              "long_name": "Dental care geographic availability (2 step-enhanced floating catchment areas)",
+              "short_description": "Index of dental care availability based on supply and demand of providers",
+              "long_description": "Dental care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of dentists per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for dentists (population served by dentists). Provider address data were collected from WebMD's online Physician Directory.",
+              "statement": "The dental care availability for {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "WebMD Physician Directory",
+                  "date_accessed": 2021,
+                  "url": "https://doctor.webmd.com/"
+                }
+              ],
+              "citations": ["lou04", "lou09", "lou03", "saxon20"]
+            }
+          },
+          {
             "name": "access_scores_ems:ems_near_10_median",
             "duplicates": 419,
             "time_range": [12, 12],
@@ -2216,102 +2048,6 @@
               "short_description": "Count of emergency medical services facilities based on facility locations",
               "long_description": "Count of emergency medical services facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
               "statement": "There are {value} emergency medical services facilities in {features.name}.",
-              "equity_category": "Availability",
-              "sources": [
-                {
-                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
-                  "date_accessed": 2021,
-                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
-                }
-              ],
-              "citations": {}
-            }
-          },
-          {
-            "name": "access_scores_hospitals:hosp_near_10_median",
-            "duplicates": 419,
-            "time_range": [12, 12],
-            "type": "float",
-            "missing": 420,
-            "mean": 49.4055,
-            "sd": 25.4661,
-            "min": 11.7641,
-            "max": 111.8682,
-            "info": {
-              "category": "Health",
-              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_hospitals",
-              "full_name": "access_scores_hospitals:hosp_near_10_median",
-              "measure": "hospital_near_10_median",
-              "type": "drive time",
-              "short_name": "Hospital drive time",
-              "long_name": "Hospital availability by median drive time to the ten closest facilities in minutes",
-              "short_description": "Median drive time (minutes) to the ten closest hospitals",
-              "long_description": "Median drive time in minutes to the ten closest hospitals. Facility location data were collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-              "statement": "The median drive time to the ten closest hospitals to {features.name} is {value}.",
-              "equity_category": "Availability",
-              "sources": [
-                {
-                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
-                  "date_accessed": 2021,
-                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
-                }
-              ],
-              "citations": {}
-            }
-          },
-          {
-            "name": "access_scores_hospitals:hosp_3sfca",
-            "duplicates": 419,
-            "time_range": [12, 12],
-            "type": "float",
-            "missing": 420,
-            "mean": 2.7487,
-            "sd": 1.3778,
-            "min": 0.7829,
-            "max": 6.4268,
-            "info": {
-              "category": "Health",
-              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_hospitals",
-              "full_name": "access_scores_hospitals:hosp_3sfca",
-              "measure": "hospital_3sfca",
-              "type": "index",
-              "short_name": "Hospital geographic availability",
-              "long_name": "Hospital geographic availability (3-step floating catchment areas)",
-              "short_description": "Index of hospital availability based on supply and demand of facilities",
-              "long_description": "Hospital access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
-              "statement": "The hospital geographic availability score for {features.name} is {value}.",
-              "equity_category": "Availability",
-              "sources": [
-                {
-                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
-                  "date_accessed": 2021,
-                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
-                }
-              ],
-              "citations": ["lou04", "lou09", "lou03", "saxon20"]
-            }
-          },
-          {
-            "name": "access_scores_hospitals:hosp_beds_cnt",
-            "duplicates": 447,
-            "time_range": [12, 12],
-            "type": "integer",
-            "missing": 420,
-            "mean": 3.0857,
-            "sd": 1.6868,
-            "min": 1,
-            "max": 7,
-            "info": {
-              "category": "Health",
-              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_hospitals",
-              "full_name": "access_scores_hospitals:hosp_beds_cnt",
-              "measure": "hospital_cnt",
-              "type": "count",
-              "short_name": "Hospital availability (count)",
-              "long_name": "Availability of hospitals by count",
-              "short_description": "Count of hospitals based on facility locations",
-              "long_description": "Count of hospitals based on facility locations. Location data were collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
-              "statement": "There are {value} hospitals in {features.name}.",
               "equity_category": "Availability",
               "sources": [
                 {
@@ -2678,97 +2414,6 @@
         ]
       },
       "_references": {
-        "wan12": {
-          "id": "wan12",
-          "author": [
-            {
-              "given": "Neng",
-              "family": "Wan"
-            },
-            {
-              "given": "Bin",
-              "family": "Zou"
-            },
-            {
-              "given": "Troy",
-              "family": "Sternberg"
-            }
-          ],
-          "year": 2012,
-          "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-          "journal": "International Journal of Geographical Information Science",
-          "volume": "26",
-          "page": "1073-1089",
-          "doi": "10.1080/13658816.2011.624987"
-        },
-        "bii21": {
-          "id": "bii21",
-          "author": [
-            {
-              "family": "Biocomplexity Institute and Initiative"
-            }
-          ],
-          "year": 2021,
-          "title": "catchment: Calculate spatial access and availability metrics",
-          "version": "0.0.1",
-          "url": "https://github.com/uva-bi-sdad/catchment"
-        },
-        "liang17": {
-          "id": "liang17",
-          "author": [
-            {
-              "given": "Lan",
-              "family": "Liang"
-            },
-            {
-              "given": "Cindy",
-              "family": "Branch"
-            }
-          ],
-          "year": 2017,
-          "title": "Health Literacy Universal Precautions Are Still a Distant Dream: Analysis of U.S. Data on Health Literate Practices",
-          "journal": "Health Literacy Research and Practice",
-          "volume": "1",
-          "number": 4,
-          "page": "e216-e230",
-          "doi": "10.3928/24748307-20170929-01"
-        },
-        "savitz20": {
-          "id": "savitz20",
-          "author": [
-            {
-              "given": "Samuel",
-              "family": "Savitz"
-            },
-            {
-              "given": "Stacy",
-              "family": "Bailey"
-            },
-            {
-              "given": "Stacie",
-              "family": "Dusetzina"
-            },
-            {
-              "given": "W.",
-              "family": "Schuyler Jones"
-            },
-            {
-              "given": "Justin",
-              "family": "Trogdon"
-            },
-            {
-              "given": "Sally",
-              "family": "Stearns"
-            }
-          ],
-          "year": 2020,
-          "title": "Treatment selection and medication adherence for stable angina: The role of area-based health literacy",
-          "journal": "Journal of Evaluation in Clinical Practice",
-          "volume": "26",
-          "number": 6,
-          "page": "1711-1721",
-          "doi": "10.1111/jep.13341"
-        },
         "lou04": {
           "id": "lou04",
           "author": [
@@ -2858,27 +2503,14 @@
           "journal": "University of Chicago: Center for Spatial Data Science",
           "volume": "Preprint",
           "doi": "10.13140/RG.2.2.12396.28807"
-        },
-        "gallardo20": {
-          "id": "gallardo20",
-          "author": [
-            {
-              "given": "Robert",
-              "family": "Gallardo"
-            }
-          ],
-          "year": 2020,
-          "title": "Digital Divide Index",
-          "journal": "Purdue Center for Regional Development",
-          "url": "http://pcrd.purdue.edu/ddi"
         }
       },
-      "sha512": "2ccd659153900793d9da3610ae7b3d4b3f1a3c3ddf27d80c71d8cf15782cb4ff5333c72bc7ddb69c15a9a9ed8fd021fe60c9486d7940f44487aa7e5abd2954d0"
+      "sha512": "228ce528fc2ddf6235f0eb34118879f091e16abe7c4072372ba7ca3aee9df49cd23028344f41b19d89a1446103b9ee42e52daa84436e4f352253655487b96410"
     },
     {
-      "bytes": 299492,
+      "bytes": 298208,
       "encoding": "ISO-8859-1",
-      "md5": "84107a86167a67614edc55d9ea99e2bc",
+      "md5": "53358f357d24d09d8c18fd4c3d7db310",
       "format": "csv",
       "name": "county",
       "filename": "county.csv.xz",
@@ -2891,8 +2523,8 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-07-18 14:47:20",
-      "last_modified": "2022-04-27 04:30:54",
+      "created": "2022-07-22 12:57:24",
+      "last_modified": "2022-07-22 12:57:24",
       "row_count": 1742,
       "entity_count": 134,
       "schema": {
@@ -3499,70 +3131,6 @@
             }
           },
           {
-            "name": "access_scores_dentists:dent_cnt",
-            "duplicates": 1691,
-            "time_range": [12, 12],
-            "type": "integer",
-            "missing": 1609,
-            "mean": 32.3383,
-            "sd": 89.6899,
-            "min": 0,
-            "max": 894,
-            "info": {
-              "category": "Health",
-              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores",
-              "full_name": "access_scores_dentists:dent_cnt",
-              "measure": "dent_cnt",
-              "type": "count",
-              "short_name": "Dental care availability (count)",
-              "long_name": "Dental care availability by count",
-              "short_description": "Count of dentists based on provider locations",
-              "long_description": "Count of dentists based on provider locations. Address data were collected from WebMD's online Physician Directory.",
-              "statement": "There are {value} dentists in {features.name}.",
-              "equity_category": "Availability",
-              "sources": [
-                {
-                  "name": "WebMD Physician Directory",
-                  "date_accessed": 2021,
-                  "url": "https://doctor.webmd.com/"
-                }
-              ],
-              "citations": {}
-            }
-          },
-          {
-            "name": "access_scores_dentists:dent_e2sfca",
-            "duplicates": 1608,
-            "time_range": [12, 12],
-            "type": "float",
-            "missing": 1609,
-            "mean": 0.3553,
-            "sd": 0.2504,
-            "min": 0.0171,
-            "max": 1.4349,
-            "info": {
-              "category": "Health",
-              "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_dentists_access_scores",
-              "full_name": "access_scores_dentists:dent_e2sfca",
-              "measure": "dent_e2sfca",
-              "type": "index",
-              "short_name": "Dental care geographic availability",
-              "long_name": "Dental care geographic availability (2 step-enhanced floating catchment areas)",
-              "short_description": "Index of dental care availability based on supply and demand of providers",
-              "long_description": "Dental care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of dentists per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for dentists (population served by dentists). Provider address data were collected from WebMD's online Physician Directory.",
-              "statement": "The dental care availability for {features.name} is {value}.",
-              "equity_category": "Availability",
-              "sources": [
-                {
-                  "name": "WebMD Physician Directory",
-                  "date_accessed": 2021,
-                  "url": "https://doctor.webmd.com/"
-                }
-              ],
-              "citations": ["lou04", "lou09", "lou03", "saxon20"]
-            }
-          },
-          {
             "name": "speed_measurements:avg_down_using_devices",
             "duplicates": 1342,
             "time_range": [10, 12],
@@ -3620,98 +3188,6 @@
                   "name": "Virginia Department of Health",
                   "date_accessed": "2021",
                   "url": "https://www.vdh.virginia.gov/surveillance-and-investigation/syndromic-surveillance/drug-overdose-surveillance/"
-                }
-              ],
-              "citations": {}
-            }
-          },
-          {
-            "name": "ems_access_scores:ems_10near_median",
-            "duplicates": 1741,
-            "time_range": [-1, -1],
-            "type": "unknown",
-            "missing": 1742,
-            "info": {
-              "category": "Health",
-              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
-              "full_name": "ems_access_scores:ems_10near_median",
-              "measure": "ems_10near_median",
-              "type": "drive time",
-              "short_name": "Emergency medical services access (drive time)",
-              "long_name": "Emergency medical services access by median drive time to the ten closest facilities in minutes",
-              "short_description": "Median drive time (minutes) to the ten closest emergency medical services facilities",
-              "long_description": "Median drive time in minutes to the ten closest emergency medical services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-              "statement": "The median drive time to the ten closest emergency medical service facilities to {features.name} is {value}.",
-              "equity_category": {},
-              "sources": [
-                {
-                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
-                  "date_accessed": 2021,
-                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
-                }
-              ],
-              "citations": {}
-            }
-          },
-          {
-            "name": "ems_access_scores:ems_3sfca",
-            "duplicates": 1608,
-            "time_range": [12, 12],
-            "type": "float",
-            "missing": 1609,
-            "mean": 0.0003,
-            "sd": 0.0002,
-            "min": 0,
-            "max": 0.0012,
-            "info": {
-              "category": "Health",
-              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
-              "full_name": "ems_access_scores:ems_3sfca",
-              "measure": "ems_3sfca",
-              "type": "index",
-              "short_name": "Emergency medical services access score",
-              "long_name": "Emergency medical services access score (3-step floating catchment areas)",
-              "short_description": "Index of emergency medical services accessibility based on supply and demand of facilities",
-              "long_description": "Emergency medical services access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
-              "statement": "The emergency medical services accessibility score for {features.name} is {value}.",
-              "equity_category": {},
-              "sources": [
-                {
-                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
-                  "date_accessed": 2021,
-                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
-                }
-              ],
-              "citations": ["lou04", "lou09", "lou03", "saxon20"]
-            }
-          },
-          {
-            "name": "ems_access_scores:ems_cnt",
-            "duplicates": 1715,
-            "time_range": [12, 12],
-            "type": "integer",
-            "missing": 1609,
-            "mean": 8.406,
-            "sd": 6.7622,
-            "min": 0,
-            "max": 42,
-            "info": {
-              "category": "Health",
-              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
-              "full_name": "ems_access_scores:ems_cnt",
-              "measure": "ems_cnt",
-              "type": "count",
-              "short_name": "Emergency medical services access (count)",
-              "long_name": "Access to emergency medical services by count",
-              "short_description": "Count of emergency medical services facilities based on facility locations",
-              "long_description": "Count of emergency medical services facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
-              "statement": "There are {value} emergency medical services facilities in {features.name}.",
-              "equity_category": {},
-              "sources": [
-                {
-                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
-                  "date_accessed": 2021,
-                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                 }
               ],
               "citations": {}
@@ -3880,98 +3356,6 @@
                 }
               ],
               "citations": ["savitz20", "liang17"]
-            }
-          },
-          {
-            "name": "hospital_access_scores:hos_10near_median",
-            "duplicates": 1741,
-            "time_range": [-1, -1],
-            "type": "unknown",
-            "missing": 1742,
-            "info": {
-              "category": "Health",
-              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
-              "full_name": "hospital_access_scores:hos_10near_median",
-              "measure": "hospital_10near_median",
-              "type": "drive time",
-              "short_name": "Hospital access (drive time)",
-              "long_name": "Hospital access by median drive time to the ten closest facilities in minutes",
-              "short_description": "Median drive time (minutes) to the ten closest hospitals",
-              "long_description": "Median drive time in minutes to the ten closest hospitals. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-              "statement": "The median drive time to the ten closest hospitals to {features.name} is {value}.",
-              "equity_category": {},
-              "sources": [
-                {
-                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
-                  "date_accessed": 2021,
-                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
-                }
-              ],
-              "citations": {}
-            }
-          },
-          {
-            "name": "hospital_access_scores:hos_3sfca",
-            "duplicates": 1608,
-            "time_range": [12, 12],
-            "type": "float",
-            "missing": 1609,
-            "mean": 0,
-            "sd": 0,
-            "min": 0,
-            "max": 0.0002,
-            "info": {
-              "category": "Health",
-              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
-              "full_name": "hospital_access_scores:hos_3sfca",
-              "measure": "hospital_3sfca",
-              "type": "index",
-              "short_name": "Hospital access score",
-              "long_name": "Hospital access score (3-step floating catchment areas)",
-              "short_description": "Index of hospital accessibility based on supply and demand of facilities",
-              "long_description": "Hospital access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
-              "statement": "The hospital accessibility score for {features.name} is {value}.",
-              "equity_category": {},
-              "sources": [
-                {
-                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
-                  "date_accessed": 2021,
-                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
-                }
-              ],
-              "citations": ["lou04", "lou09", "lou03", "saxon20"]
-            }
-          },
-          {
-            "name": "hospital_access_scores:hos_cnt",
-            "duplicates": 1733,
-            "time_range": [12, 12],
-            "type": "integer",
-            "missing": 1609,
-            "mean": 0.8421,
-            "sd": 1.2238,
-            "min": 0,
-            "max": 7,
-            "info": {
-              "category": "Health",
-              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
-              "full_name": "hospital_access_scores:hos_cnt",
-              "measure": "hospital_cnt",
-              "type": "count",
-              "short_name": "Hospital access (count)",
-              "long_name": "Access to hospitals by count",
-              "short_description": "Count of hospitals based on facility locations",
-              "long_description": "Count of hospitals based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
-              "statement": "There are {value} hospitals in {features.name}.",
-              "equity_category": {},
-              "sources": [
-                {
-                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
-                  "date_accessed": 2021,
-                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
-                }
-              ],
-              "citations": {}
             }
           },
           {
@@ -4412,19 +3796,19 @@
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_substance_access_scores",
               "full_name": "substance_access_scores:subs_10near_median",
-              "measure": "substance_10near_median",
+              "measure": "substance_near_10_median",
               "type": "drive time",
-              "short_name": "Substance use/behavioral health services access (drive time)",
-              "long_name": "Substance use/behavioral health services access by median drive time to the ten closest facilities in minutes",
+              "short_name": "Substance use/behavioral health services availability (drive time)",
+              "long_name": "Substance use/behavioral health services availability by median drive time to the ten closest facilities in minutes",
               "short_description": "Median drive time (minutes) to the ten closest substance use/behavioral health services facilities",
-              "long_description": "Median drive time in minutes to the ten closest substance use/behavioral health services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+              "long_description": "Median drive time in minutes to the ten closest substance use/behavioral health services facilities. Facility location data were collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
               "statement": "The median drive time to the ten closest substance use/behavioral health service facilities to {features.name} is {value}.",
-              "equity_category": {},
+              "equity_category": "Availability",
               "sources": [
                 {
-                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "name": "Substance Abuse and Mental Health Services Administration (SAMHSA)",
                   "date_accessed": 2021,
-                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                  "url": "https://www.samhsa.gov/"
                 }
               ],
               "citations": {}
@@ -5039,6 +4423,70 @@
             }
           },
           {
+            "name": "access_scores_dentists:dent_cnt",
+            "duplicates": 1691,
+            "time_range": [12, 12],
+            "type": "integer",
+            "missing": 1609,
+            "mean": 32.3383,
+            "sd": 89.6899,
+            "min": 0,
+            "max": 894,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores",
+              "full_name": "access_scores_dentists:dent_cnt",
+              "measure": "dent_cnt",
+              "type": "count",
+              "short_name": "Dental care availability (count)",
+              "long_name": "Dental care availability by count",
+              "short_description": "Count of dentists based on provider locations",
+              "long_description": "Count of dentists based on provider locations. Address data were collected from WebMD's online Physician Directory.",
+              "statement": "There are {value} dentists in {features.name}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "WebMD Physician Directory",
+                  "date_accessed": 2021,
+                  "url": "https://doctor.webmd.com/"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "access_scores_dentists:dent_e2sfca",
+            "duplicates": 1608,
+            "time_range": [12, 12],
+            "type": "float",
+            "missing": 1609,
+            "mean": 0.3553,
+            "sd": 0.2504,
+            "min": 0.0171,
+            "max": 1.4349,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_dentists_access_scores",
+              "full_name": "access_scores_dentists:dent_e2sfca",
+              "measure": "dent_e2sfca",
+              "type": "index",
+              "short_name": "Dental care geographic availability",
+              "long_name": "Dental care geographic availability (2 step-enhanced floating catchment areas)",
+              "short_description": "Index of dental care availability based on supply and demand of providers",
+              "long_description": "Dental care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of dentists per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for dentists (population served by dentists). Provider address data were collected from WebMD's online Physician Directory.",
+              "statement": "The dental care availability for {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "WebMD Physician Directory",
+                  "date_accessed": 2021,
+                  "url": "https://doctor.webmd.com/"
+                }
+              ],
+              "citations": ["lou04", "lou09", "lou03", "saxon20"]
+            }
+          },
+          {
             "name": "access_scores_ems:ems_near_10_median",
             "duplicates": 1608,
             "time_range": [12, 12],
@@ -5123,102 +4571,6 @@
               "short_description": "Count of emergency medical services facilities based on facility locations",
               "long_description": "Count of emergency medical services facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
               "statement": "There are {value} emergency medical services facilities in {features.name}.",
-              "equity_category": "Availability",
-              "sources": [
-                {
-                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
-                  "date_accessed": 2021,
-                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
-                }
-              ],
-              "citations": {}
-            }
-          },
-          {
-            "name": "access_scores_hospitals:hosp_near_10_median",
-            "duplicates": 1608,
-            "time_range": [12, 12],
-            "type": "float",
-            "missing": 1609,
-            "mean": 59.7735,
-            "sd": 22.5411,
-            "min": 11.7641,
-            "max": 130.5932,
-            "info": {
-              "category": "Health",
-              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_hospitals",
-              "full_name": "access_scores_hospitals:hosp_near_10_median",
-              "measure": "hospital_near_10_median",
-              "type": "drive time",
-              "short_name": "Hospital drive time",
-              "long_name": "Hospital availability by median drive time to the ten closest facilities in minutes",
-              "short_description": "Median drive time (minutes) to the ten closest hospitals",
-              "long_description": "Median drive time in minutes to the ten closest hospitals. Facility location data were collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-              "statement": "The median drive time to the ten closest hospitals to {features.name} is {value}.",
-              "equity_category": "Availability",
-              "sources": [
-                {
-                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
-                  "date_accessed": 2021,
-                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
-                }
-              ],
-              "citations": {}
-            }
-          },
-          {
-            "name": "access_scores_hospitals:hosp_3sfca",
-            "duplicates": 1608,
-            "time_range": [12, 12],
-            "type": "float",
-            "missing": 1609,
-            "mean": 2.5429,
-            "sd": 2.0609,
-            "min": 0.325,
-            "max": 12.064,
-            "info": {
-              "category": "Health",
-              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_hospitals",
-              "full_name": "access_scores_hospitals:hosp_3sfca",
-              "measure": "hospital_3sfca",
-              "type": "index",
-              "short_name": "Hospital geographic availability",
-              "long_name": "Hospital geographic availability (3-step floating catchment areas)",
-              "short_description": "Index of hospital availability based on supply and demand of facilities",
-              "long_description": "Hospital access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
-              "statement": "The hospital geographic availability score for {features.name} is {value}.",
-              "equity_category": "Availability",
-              "sources": [
-                {
-                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
-                  "date_accessed": 2021,
-                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
-                }
-              ],
-              "citations": ["lou04", "lou09", "lou03", "saxon20"]
-            }
-          },
-          {
-            "name": "access_scores_hospitals:hosp_beds_cnt",
-            "duplicates": 1733,
-            "time_range": [12, 12],
-            "type": "integer",
-            "missing": 1609,
-            "mean": 0.812,
-            "sd": 1.2007,
-            "min": 0,
-            "max": 7,
-            "info": {
-              "category": "Health",
-              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_hospitals",
-              "full_name": "access_scores_hospitals:hosp_beds_cnt",
-              "measure": "hospital_cnt",
-              "type": "count",
-              "short_name": "Hospital availability (count)",
-              "long_name": "Availability of hospitals by count",
-              "short_description": "Count of hospitals based on facility locations",
-              "long_description": "Count of hospitals based on facility locations. Location data were collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
-              "statement": "There are {value} hospitals in {features.name}.",
               "equity_category": "Availability",
               "sources": [
                 {
@@ -5360,14 +4712,14 @@
           },
           {
             "name": "kotelchuck_apncu_index:inadequate",
-            "duplicates": 1505,
+            "duplicates": 1506,
             "time_range": [5, 11],
             "type": "integer",
-            "missing": 961,
-            "mean": 106.8233,
-            "sd": 253.8777,
+            "missing": 817,
+            "mean": 87.4368,
+            "sd": 190.2391,
             "min": 0,
-            "max": 2370,
+            "max": 1726,
             "info": {
               "category": "Health",
               "measure_table": "kotelchuck_apncu_index",
@@ -5392,14 +4744,14 @@
           },
           {
             "name": "kotelchuck_apncu_index:intermediate",
-            "duplicates": 1492,
+            "duplicates": 1489,
             "time_range": [5, 11],
             "type": "integer",
-            "missing": 961,
-            "mean": 134.0487,
-            "sd": 353.5125,
+            "missing": 817,
+            "mean": 108.8789,
+            "sd": 243.3522,
             "min": 0,
-            "max": 3879,
+            "max": 2463,
             "info": {
               "category": "Health",
               "measure_table": "kotelchuck_apncu_index",
@@ -5424,14 +4776,14 @@
           },
           {
             "name": "kotelchuck_apncu_index:adequate",
-            "duplicates": 1430,
+            "duplicates": 1329,
             "time_range": [5, 11],
             "type": "integer",
-            "missing": 961,
-            "mean": 374.2305,
-            "sd": 937.0563,
+            "missing": 817,
+            "mean": 305.1751,
+            "sd": 676.569,
             "min": 0,
-            "max": 9374,
+            "max": 6868,
             "info": {
               "category": "Health",
               "measure_table": "kotelchuck_apncu_index",
@@ -5456,14 +4808,14 @@
           },
           {
             "name": "kotelchuck_apncu_index:adequateplus",
-            "duplicates": 1474,
+            "duplicates": 1437,
             "time_range": [5, 11],
             "type": "integer",
-            "missing": 961,
-            "mean": 193.4789,
-            "sd": 519.3577,
+            "missing": 817,
+            "mean": 157.3189,
+            "sd": 351.0003,
             "min": 0,
-            "max": 5173,
+            "max": 3676,
             "info": {
               "category": "Health",
               "measure_table": "kotelchuck_apncu_index",
@@ -5488,14 +4840,14 @@
           },
           {
             "name": "kotelchuck_apncu_index:inadequate_pc",
-            "duplicates": 1537,
+            "duplicates": 1498,
             "time_range": [5, 11],
             "type": "float",
-            "missing": 961,
-            "mean": 21.5012,
-            "sd": 26.3146,
+            "missing": 817,
+            "mean": 14.3971,
+            "sd": 6.5875,
             "min": 0,
-            "max": 100,
+            "max": 50,
             "info": {
               "category": "Health",
               "measure_table": "kotelchuck_apncu_index",
@@ -5520,14 +4872,14 @@
           },
           {
             "name": "kotelchuck_apncu_index:intermediate_pc",
-            "duplicates": 1524,
+            "duplicates": 1481,
             "time_range": [5, 11],
             "type": "float",
-            "missing": 961,
-            "mean": 20.7323,
-            "sd": 24.3188,
+            "missing": 817,
+            "mean": 16.0434,
+            "sd": 6.8673,
             "min": 0,
-            "max": 100,
+            "max": 50,
             "info": {
               "category": "Health",
               "measure_table": "kotelchuck_apncu_index",
@@ -5552,12 +4904,12 @@
           },
           {
             "name": "kotelchuck_apncu_index:adequate_pc",
-            "duplicates": 1484,
+            "duplicates": 1432,
             "time_range": [5, 11],
             "type": "float",
-            "missing": 961,
-            "mean": 45.0305,
-            "sd": 28.3503,
+            "missing": 817,
+            "mean": 45.7015,
+            "sd": 9.0331,
             "min": 0,
             "max": 100,
             "info": {
@@ -5584,12 +4936,12 @@
           },
           {
             "name": "kotelchuck_apncu_index:adequateplus_pc",
-            "duplicates": 1516,
+            "duplicates": 1446,
             "time_range": [5, 11],
             "type": "float",
-            "missing": 961,
-            "mean": 12.7335,
-            "sd": 16.274,
+            "missing": 817,
+            "mean": 23.8596,
+            "sd": 8.6807,
             "min": 0,
             "max": 100,
             "info": {
@@ -5617,97 +4969,6 @@
         ]
       },
       "_references": {
-        "wan12": {
-          "id": "wan12",
-          "author": [
-            {
-              "given": "Neng",
-              "family": "Wan"
-            },
-            {
-              "given": "Bin",
-              "family": "Zou"
-            },
-            {
-              "given": "Troy",
-              "family": "Sternberg"
-            }
-          ],
-          "year": 2012,
-          "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-          "journal": "International Journal of Geographical Information Science",
-          "volume": "26",
-          "page": "1073-1089",
-          "doi": "10.1080/13658816.2011.624987"
-        },
-        "bii21": {
-          "id": "bii21",
-          "author": [
-            {
-              "family": "Biocomplexity Institute and Initiative"
-            }
-          ],
-          "year": 2021,
-          "title": "catchment: Calculate spatial access and availability metrics",
-          "version": "0.0.1",
-          "url": "https://github.com/uva-bi-sdad/catchment"
-        },
-        "liang17": {
-          "id": "liang17",
-          "author": [
-            {
-              "given": "Lan",
-              "family": "Liang"
-            },
-            {
-              "given": "Cindy",
-              "family": "Branch"
-            }
-          ],
-          "year": 2017,
-          "title": "Health Literacy Universal Precautions Are Still a Distant Dream: Analysis of U.S. Data on Health Literate Practices",
-          "journal": "Health Literacy Research and Practice",
-          "volume": "1",
-          "number": 4,
-          "page": "e216-e230",
-          "doi": "10.3928/24748307-20170929-01"
-        },
-        "savitz20": {
-          "id": "savitz20",
-          "author": [
-            {
-              "given": "Samuel",
-              "family": "Savitz"
-            },
-            {
-              "given": "Stacy",
-              "family": "Bailey"
-            },
-            {
-              "given": "Stacie",
-              "family": "Dusetzina"
-            },
-            {
-              "given": "W.",
-              "family": "Schuyler Jones"
-            },
-            {
-              "given": "Justin",
-              "family": "Trogdon"
-            },
-            {
-              "given": "Sally",
-              "family": "Stearns"
-            }
-          ],
-          "year": 2020,
-          "title": "Treatment selection and medication adherence for stable angina: The role of area-based health literacy",
-          "journal": "Journal of Evaluation in Clinical Practice",
-          "volume": "26",
-          "number": 6,
-          "page": "1711-1721",
-          "doi": "10.1111/jep.13341"
-        },
         "lou04": {
           "id": "lou04",
           "author": [
@@ -5797,27 +5058,14 @@
           "journal": "University of Chicago: Center for Spatial Data Science",
           "volume": "Preprint",
           "doi": "10.13140/RG.2.2.12396.28807"
-        },
-        "gallardo20": {
-          "id": "gallardo20",
-          "author": [
-            {
-              "given": "Robert",
-              "family": "Gallardo"
-            }
-          ],
-          "year": 2020,
-          "title": "Digital Divide Index",
-          "journal": "Purdue Center for Regional Development",
-          "url": "http://pcrd.purdue.edu/ddi"
         }
       },
-      "sha512": "ff73607f0300cd66119b7ea13eebc3cd2ae2ed130ee2f8b9e5a91c0c4c657adfd89e5a34972333f93f6241f04c430b0502548c0439a96cf253518687eb0c0237"
+      "sha512": "1dd854fbd4ab286f89f72744a2e2784aa2d7e6be48577863f3a445f5f372cbbefe297edaeb965c9bf7800d8f5a9f4a8f2ef2444ad26ef387bec939ac68429c8d"
     },
     {
-      "bytes": 3311852,
+      "bytes": 3215980,
       "encoding": "ISO-8859-1",
-      "md5": "3fb226639174d350187dfb6132af839a",
+      "md5": "689da672afae03205e039e1ba40cd33e",
       "format": "csv",
       "name": "tract",
       "filename": "tract.csv.xz",
@@ -5830,8 +5078,8 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-07-18 14:47:29",
-      "last_modified": "2022-04-27 04:30:54",
+      "created": "2022-07-22 12:57:31",
+      "last_modified": "2022-07-22 12:57:31",
       "row_count": 31889,
       "entity_count": 2453,
       "schema": {
@@ -6438,70 +5686,6 @@
             }
           },
           {
-            "name": "access_scores_dentists:dent_cnt",
-            "duplicates": 31855,
-            "time_range": [12, 12],
-            "type": "integer",
-            "missing": 29998,
-            "mean": 2.2702,
-            "sd": 4.1852,
-            "min": 0,
-            "max": 39,
-            "info": {
-              "category": "Health",
-              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores",
-              "full_name": "access_scores_dentists:dent_cnt",
-              "measure": "dent_cnt",
-              "type": "count",
-              "short_name": "Dental care availability (count)",
-              "long_name": "Dental care availability by count",
-              "short_description": "Count of dentists based on provider locations",
-              "long_description": "Count of dentists based on provider locations. Address data were collected from WebMD's online Physician Directory.",
-              "statement": "There are {value} dentists in {features.name}.",
-              "equity_category": "Availability",
-              "sources": [
-                {
-                  "name": "WebMD Physician Directory",
-                  "date_accessed": 2021,
-                  "url": "https://doctor.webmd.com/"
-                }
-              ],
-              "citations": {}
-            }
-          },
-          {
-            "name": "access_scores_dentists:dent_e2sfca",
-            "duplicates": 30018,
-            "time_range": [12, 12],
-            "type": "float",
-            "missing": 30018,
-            "mean": 0.5672,
-            "sd": 0.3409,
-            "min": 0.0088,
-            "max": 1.5626,
-            "info": {
-              "category": "Health",
-              "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_dentists_access_scores",
-              "full_name": "access_scores_dentists:dent_e2sfca",
-              "measure": "dent_e2sfca",
-              "type": "index",
-              "short_name": "Dental care geographic availability",
-              "long_name": "Dental care geographic availability (2 step-enhanced floating catchment areas)",
-              "short_description": "Index of dental care availability based on supply and demand of providers",
-              "long_description": "Dental care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of dentists per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for dentists (population served by dentists). Provider address data were collected from WebMD's online Physician Directory.",
-              "statement": "The dental care availability for {features.name} is {value}.",
-              "equity_category": "Availability",
-              "sources": [
-                {
-                  "name": "WebMD Physician Directory",
-                  "date_accessed": 2021,
-                  "url": "https://doctor.webmd.com/"
-                }
-              ],
-              "citations": ["lou04", "lou09", "lou03", "saxon20"]
-            }
-          },
-          {
             "name": "speed_measurements:avg_down_using_devices",
             "duplicates": 26231,
             "time_range": [10, 12],
@@ -6555,102 +5739,6 @@
                   "name": "Virginia Department of Health",
                   "date_accessed": "2021",
                   "url": "https://www.vdh.virginia.gov/surveillance-and-investigation/syndromic-surveillance/drug-overdose-surveillance/"
-                }
-              ],
-              "citations": {}
-            }
-          },
-          {
-            "name": "ems_access_scores:ems_10near_median",
-            "duplicates": 31353,
-            "time_range": [12, 12],
-            "type": "float",
-            "missing": 29999,
-            "mean": 14.8749,
-            "sd": 8.2428,
-            "min": 3.7,
-            "max": 60.75,
-            "info": {
-              "category": "Health",
-              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
-              "full_name": "ems_access_scores:ems_10near_median",
-              "measure": "ems_10near_median",
-              "type": "drive time",
-              "short_name": "Emergency medical services access (drive time)",
-              "long_name": "Emergency medical services access by median drive time to the ten closest facilities in minutes",
-              "short_description": "Median drive time (minutes) to the ten closest emergency medical services facilities",
-              "long_description": "Median drive time in minutes to the ten closest emergency medical services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-              "statement": "The median drive time to the ten closest emergency medical service facilities to {features.name} is {value}.",
-              "equity_category": {},
-              "sources": [
-                {
-                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
-                  "date_accessed": 2021,
-                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
-                }
-              ],
-              "citations": {}
-            }
-          },
-          {
-            "name": "ems_access_scores:ems_3sfca",
-            "duplicates": 30004,
-            "time_range": [12, 12],
-            "type": "float",
-            "missing": 29998,
-            "mean": 0.0001,
-            "sd": 0.0001,
-            "min": 0,
-            "max": 0.0014,
-            "info": {
-              "category": "Health",
-              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
-              "full_name": "ems_access_scores:ems_3sfca",
-              "measure": "ems_3sfca",
-              "type": "index",
-              "short_name": "Emergency medical services access score",
-              "long_name": "Emergency medical services access score (3-step floating catchment areas)",
-              "short_description": "Index of emergency medical services accessibility based on supply and demand of facilities",
-              "long_description": "Emergency medical services access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
-              "statement": "The emergency medical services accessibility score for {features.name} is {value}.",
-              "equity_category": {},
-              "sources": [
-                {
-                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
-                  "date_accessed": 2021,
-                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
-                }
-              ],
-              "citations": ["lou04", "lou09", "lou03", "saxon20"]
-            }
-          },
-          {
-            "name": "ems_access_scores:ems_cnt",
-            "duplicates": 31882,
-            "time_range": [12, 12],
-            "type": "integer",
-            "missing": 31123,
-            "mean": 1.4543,
-            "sd": 0.7937,
-            "min": 1,
-            "max": 6,
-            "info": {
-              "category": "Health",
-              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
-              "full_name": "ems_access_scores:ems_cnt",
-              "measure": "ems_cnt",
-              "type": "count",
-              "short_name": "Emergency medical services access (count)",
-              "long_name": "Access to emergency medical services by count",
-              "short_description": "Count of emergency medical services facilities based on facility locations",
-              "long_description": "Count of emergency medical services facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
-              "statement": "There are {value} emergency medical services facilities in {features.name}.",
-              "equity_category": {},
-              "sources": [
-                {
-                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
-                  "date_accessed": 2021,
-                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                 }
               ],
               "citations": {}
@@ -6803,102 +5891,6 @@
                 }
               ],
               "citations": ["savitz20", "liang17"]
-            }
-          },
-          {
-            "name": "hospital_access_scores:hos_10near_median",
-            "duplicates": 30827,
-            "time_range": [12, 12],
-            "type": "float",
-            "missing": 29999,
-            "mean": 41.2678,
-            "sd": 24.0138,
-            "min": 8.05,
-            "max": 184.65,
-            "info": {
-              "category": "Health",
-              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
-              "full_name": "hospital_access_scores:hos_10near_median",
-              "measure": "hospital_10near_median",
-              "type": "drive time",
-              "short_name": "Hospital access (drive time)",
-              "long_name": "Hospital access by median drive time to the ten closest facilities in minutes",
-              "short_description": "Median drive time (minutes) to the ten closest hospitals",
-              "long_description": "Median drive time in minutes to the ten closest hospitals. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-              "statement": "The median drive time to the ten closest hospitals to {features.name} is {value}.",
-              "equity_category": {},
-              "sources": [
-                {
-                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
-                  "date_accessed": 2021,
-                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
-                }
-              ],
-              "citations": {}
-            }
-          },
-          {
-            "name": "hospital_access_scores:hos_3sfca",
-            "duplicates": 30687,
-            "time_range": [12, 12],
-            "type": "float",
-            "missing": 29998,
-            "mean": 0,
-            "sd": 0,
-            "min": 0,
-            "max": 0.0002,
-            "info": {
-              "category": "Health",
-              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
-              "full_name": "hospital_access_scores:hos_3sfca",
-              "measure": "hospital_3sfca",
-              "type": "index",
-              "short_name": "Hospital access score",
-              "long_name": "Hospital access score (3-step floating catchment areas)",
-              "short_description": "Index of hospital accessibility based on supply and demand of facilities",
-              "long_description": "Hospital access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
-              "statement": "The hospital accessibility score for {features.name} is {value}.",
-              "equity_category": {},
-              "sources": [
-                {
-                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
-                  "date_accessed": 2021,
-                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
-                }
-              ],
-              "citations": ["lou04", "lou09", "lou03", "saxon20"]
-            }
-          },
-          {
-            "name": "hospital_access_scores:hos_cnt",
-            "duplicates": 31885,
-            "time_range": [12, 12],
-            "type": "integer",
-            "missing": 31792,
-            "mean": 1.1443,
-            "sd": 0.4328,
-            "min": 1,
-            "max": 3,
-            "info": {
-              "category": "Health",
-              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
-              "full_name": "hospital_access_scores:hos_cnt",
-              "measure": "hospital_cnt",
-              "type": "count",
-              "short_name": "Hospital access (count)",
-              "long_name": "Access to hospitals by count",
-              "short_description": "Count of hospitals based on facility locations",
-              "long_description": "Count of hospitals based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
-              "statement": "There are {value} hospitals in {features.name}.",
-              "equity_category": {},
-              "sources": [
-                {
-                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
-                  "date_accessed": 2021,
-                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
-                }
-              ],
-              "citations": {}
             }
           },
           {
@@ -7343,19 +6335,19 @@
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_substance_access_scores",
               "full_name": "substance_access_scores:subs_10near_median",
-              "measure": "substance_10near_median",
+              "measure": "substance_near_10_median",
               "type": "drive time",
-              "short_name": "Substance use/behavioral health services access (drive time)",
-              "long_name": "Substance use/behavioral health services access by median drive time to the ten closest facilities in minutes",
+              "short_name": "Substance use/behavioral health services availability (drive time)",
+              "long_name": "Substance use/behavioral health services availability by median drive time to the ten closest facilities in minutes",
               "short_description": "Median drive time (minutes) to the ten closest substance use/behavioral health services facilities",
-              "long_description": "Median drive time in minutes to the ten closest substance use/behavioral health services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+              "long_description": "Median drive time in minutes to the ten closest substance use/behavioral health services facilities. Facility location data were collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
               "statement": "The median drive time to the ten closest substance use/behavioral health service facilities to {features.name} is {value}.",
-              "equity_category": {},
+              "equity_category": "Availability",
               "sources": [
                 {
-                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "name": "Substance Abuse and Mental Health Services Administration (SAMHSA)",
                   "date_accessed": 2021,
-                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                  "url": "https://www.samhsa.gov/"
                 }
               ],
               "citations": {}
@@ -7962,6 +6954,70 @@
             }
           },
           {
+            "name": "access_scores_dentists:dent_cnt",
+            "duplicates": 31855,
+            "time_range": [12, 12],
+            "type": "integer",
+            "missing": 29998,
+            "mean": 2.2702,
+            "sd": 4.1852,
+            "min": 0,
+            "max": 39,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores",
+              "full_name": "access_scores_dentists:dent_cnt",
+              "measure": "dent_cnt",
+              "type": "count",
+              "short_name": "Dental care availability (count)",
+              "long_name": "Dental care availability by count",
+              "short_description": "Count of dentists based on provider locations",
+              "long_description": "Count of dentists based on provider locations. Address data were collected from WebMD's online Physician Directory.",
+              "statement": "There are {value} dentists in {features.name}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "WebMD Physician Directory",
+                  "date_accessed": 2021,
+                  "url": "https://doctor.webmd.com/"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "access_scores_dentists:dent_e2sfca",
+            "duplicates": 30018,
+            "time_range": [12, 12],
+            "type": "float",
+            "missing": 30018,
+            "mean": 0.5672,
+            "sd": 0.3409,
+            "min": 0.0088,
+            "max": 1.5626,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_dentists_access_scores",
+              "full_name": "access_scores_dentists:dent_e2sfca",
+              "measure": "dent_e2sfca",
+              "type": "index",
+              "short_name": "Dental care geographic availability",
+              "long_name": "Dental care geographic availability (2 step-enhanced floating catchment areas)",
+              "short_description": "Index of dental care availability based on supply and demand of providers",
+              "long_description": "Dental care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of dentists per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for dentists (population served by dentists). Provider address data were collected from WebMD's online Physician Directory.",
+              "statement": "The dental care availability for {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "WebMD Physician Directory",
+                  "date_accessed": 2021,
+                  "url": "https://doctor.webmd.com/"
+                }
+              ],
+              "citations": ["lou04", "lou09", "lou03", "saxon20"]
+            }
+          },
+          {
             "name": "access_scores_ems:ems_near_10_median",
             "duplicates": 30063,
             "time_range": [12, 12],
@@ -8046,102 +7102,6 @@
               "short_description": "Count of emergency medical services facilities based on facility locations",
               "long_description": "Count of emergency medical services facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
               "statement": "There are {value} emergency medical services facilities in {features.name}.",
-              "equity_category": "Availability",
-              "sources": [
-                {
-                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
-                  "date_accessed": 2021,
-                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
-                }
-              ],
-              "citations": {}
-            }
-          },
-          {
-            "name": "access_scores_hospitals:hosp_near_10_median",
-            "duplicates": 30029,
-            "time_range": [12, 12],
-            "type": "float",
-            "missing": 30018,
-            "mean": 41.4404,
-            "sd": 23.3781,
-            "min": 8.05,
-            "max": 156.6575,
-            "info": {
-              "category": "Health",
-              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_hospitals",
-              "full_name": "access_scores_hospitals:hosp_near_10_median",
-              "measure": "hospital_near_10_median",
-              "type": "drive time",
-              "short_name": "Hospital drive time",
-              "long_name": "Hospital availability by median drive time to the ten closest facilities in minutes",
-              "short_description": "Median drive time (minutes) to the ten closest hospitals",
-              "long_description": "Median drive time in minutes to the ten closest hospitals. Facility location data were collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-              "statement": "The median drive time to the ten closest hospitals to {features.name} is {value}.",
-              "equity_category": "Availability",
-              "sources": [
-                {
-                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
-                  "date_accessed": 2021,
-                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
-                }
-              ],
-              "citations": {}
-            }
-          },
-          {
-            "name": "access_scores_hospitals:hosp_3sfca",
-            "duplicates": 30017,
-            "time_range": [12, 12],
-            "type": "float",
-            "missing": 30018,
-            "mean": 2.5104,
-            "sd": 1.8048,
-            "min": 0.0055,
-            "max": 12.3053,
-            "info": {
-              "category": "Health",
-              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_hospitals",
-              "full_name": "access_scores_hospitals:hosp_3sfca",
-              "measure": "hospital_3sfca",
-              "type": "index",
-              "short_name": "Hospital geographic availability",
-              "long_name": "Hospital geographic availability (3-step floating catchment areas)",
-              "short_description": "Index of hospital availability based on supply and demand of facilities",
-              "long_description": "Hospital access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
-              "statement": "The hospital geographic availability score for {features.name} is {value}.",
-              "equity_category": "Availability",
-              "sources": [
-                {
-                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
-                  "date_accessed": 2021,
-                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
-                }
-              ],
-              "citations": ["lou04", "lou09", "lou03", "saxon20"]
-            }
-          },
-          {
-            "name": "access_scores_hospitals:hosp_beds_cnt",
-            "duplicates": 31884,
-            "time_range": [12, 12],
-            "type": "integer",
-            "missing": 29998,
-            "mean": 0.0571,
-            "sd": 0.2681,
-            "min": 0,
-            "max": 3,
-            "info": {
-              "category": "Health",
-              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_hospitals",
-              "full_name": "access_scores_hospitals:hosp_beds_cnt",
-              "measure": "hospital_cnt",
-              "type": "count",
-              "short_name": "Hospital availability (count)",
-              "long_name": "Availability of hospitals by count",
-              "short_description": "Count of hospitals based on facility locations",
-              "long_description": "Count of hospitals based on facility locations. Location data were collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
-              "statement": "There are {value} hospitals in {features.name}.",
               "equity_category": "Availability",
               "sources": [
                 {
@@ -8508,97 +7468,6 @@
         ]
       },
       "_references": {
-        "wan12": {
-          "id": "wan12",
-          "author": [
-            {
-              "given": "Neng",
-              "family": "Wan"
-            },
-            {
-              "given": "Bin",
-              "family": "Zou"
-            },
-            {
-              "given": "Troy",
-              "family": "Sternberg"
-            }
-          ],
-          "year": 2012,
-          "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-          "journal": "International Journal of Geographical Information Science",
-          "volume": "26",
-          "page": "1073-1089",
-          "doi": "10.1080/13658816.2011.624987"
-        },
-        "bii21": {
-          "id": "bii21",
-          "author": [
-            {
-              "family": "Biocomplexity Institute and Initiative"
-            }
-          ],
-          "year": 2021,
-          "title": "catchment: Calculate spatial access and availability metrics",
-          "version": "0.0.1",
-          "url": "https://github.com/uva-bi-sdad/catchment"
-        },
-        "liang17": {
-          "id": "liang17",
-          "author": [
-            {
-              "given": "Lan",
-              "family": "Liang"
-            },
-            {
-              "given": "Cindy",
-              "family": "Branch"
-            }
-          ],
-          "year": 2017,
-          "title": "Health Literacy Universal Precautions Are Still a Distant Dream: Analysis of U.S. Data on Health Literate Practices",
-          "journal": "Health Literacy Research and Practice",
-          "volume": "1",
-          "number": 4,
-          "page": "e216-e230",
-          "doi": "10.3928/24748307-20170929-01"
-        },
-        "savitz20": {
-          "id": "savitz20",
-          "author": [
-            {
-              "given": "Samuel",
-              "family": "Savitz"
-            },
-            {
-              "given": "Stacy",
-              "family": "Bailey"
-            },
-            {
-              "given": "Stacie",
-              "family": "Dusetzina"
-            },
-            {
-              "given": "W.",
-              "family": "Schuyler Jones"
-            },
-            {
-              "given": "Justin",
-              "family": "Trogdon"
-            },
-            {
-              "given": "Sally",
-              "family": "Stearns"
-            }
-          ],
-          "year": 2020,
-          "title": "Treatment selection and medication adherence for stable angina: The role of area-based health literacy",
-          "journal": "Journal of Evaluation in Clinical Practice",
-          "volume": "26",
-          "number": 6,
-          "page": "1711-1721",
-          "doi": "10.1111/jep.13341"
-        },
         "lou04": {
           "id": "lou04",
           "author": [
@@ -8688,22 +7557,9 @@
           "journal": "University of Chicago: Center for Spatial Data Science",
           "volume": "Preprint",
           "doi": "10.13140/RG.2.2.12396.28807"
-        },
-        "gallardo20": {
-          "id": "gallardo20",
-          "author": [
-            {
-              "given": "Robert",
-              "family": "Gallardo"
-            }
-          ],
-          "year": 2020,
-          "title": "Digital Divide Index",
-          "journal": "Purdue Center for Regional Development",
-          "url": "http://pcrd.purdue.edu/ddi"
         }
       },
-      "sha512": "b1663bb5a6c097cbfe6dfb2d2adce1690f49a100a342e82808b79390efa48672dbe607698b01d1fee74f0755f4269a68d1188489fa5bf967d2e777350c34d55c"
+      "sha512": "36b5a8a4e5d8cb04ee29c2ed458e9cf7c6f9c10bf8e41137855150841808bd2336992b7c120321c7ec59dfca4564f50ac41e1c5263275a5e37877ca1c7321734"
     }
   ]
 }
