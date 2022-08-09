@@ -199,26 +199,6 @@
       }
     ]
   },
-  "3rd_grade_mean_median_read_score:median_read_pass_rate": {
-    "category": "Education",
-    "measure_table": "dc_education_training.va_hdct_vdoe_2019_2021_3rd_grade_median_read_score",
-    "full_name": "3rd_grade_mean_median_read_score:median_read_pass_rate",
-    "measure": "median_read_pass_rate",
-    "type": "percent",
-    "short_name": "Percentage of 3rd graders passing reading",
-    "long_name": "Median percentage of 3rd graders passing reading test",
-    "short_description": "Median percentage of 3rd grade population passing reading test for schools in the region",
-    "long_description": "Median percentage of 3rd grade population passing reading test. The median is calculated across schools in the region.",
-    "statement": "On average {value} of 3rd graders pass reading in {features.name}.",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "Virginia Department of Education",
-        "date_accessed": 2021,
-        "url": "https://www.doe.virginia.gov/statistics_reports/sol-pass-rates/index.shtml"
-      }
-    ]
-  },
   "food_insecurity_and_cost:Food_Insecurity_Rate": {
     "category": "Nutrition and Food Security",
     "measure_table": "food_insecurity_and_cost",
@@ -396,104 +376,6 @@
         "name": "Ookla",
         "date_accessed": 2021,
         "url": "https://www.ookla.com/ookla-for-good/open-data"
-      }
-    ]
-  },
-  "dei:norm_dei": {
-    "category": "Broadband",
-    "measure_table": "dmv_cttrbg_sdad_2019_2021_dei",
-    "full_name": "dei:norm_dei",
-    "measure": "norm_dei",
-    "short_name": "Digital Equity Index",
-    "long_name": "Digital Equity Index",
-    "short_description": "Digital Equity Index captures the relative equity of digital access, with 0 being a score of relative equity and 100 being relative inequity.",
-    "long_description": "The Digital Equity Index (DEI) is a composite variable indicating the degree of broadband equity as it relates to adoption, accessibility, and infrastructure. It ranges from 0 to 100, where 100 indicates the most equitable broadband access. The DEI is constructed at the Census tract level and is composed of the following variables: percent of the population under 65 years of age, percent of the population with at least a high school education, percent of the population with income below the poverty level, percent of the population without a disability, the ratio between the share of homes making $75,000 or more per year with internet and the share of homes making less than $35,000 per year without internet, percent of the population with at least one computer, percent of the population with internet access, percent of the population that is low income (less than 30% of HUD Area Median Family Income) and have a housing cost burden over 30%, and average download speeds, upload speeds, and latency from Ookla speed tests.",
-    "statement": "The Digital Equity Index for {features.name} is {value}.",
-    "type": "index",
-    "citations": [
-      "gallardo20"
-    ],
-    "equity_category": [
-      "Accessibility",
-      "Availability",
-      "Affordability"
-    ],
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      },
-      {
-        "name": "Ookla",
-        "date_accessed": 2021,
-        "url": "https://www.ookla.com/ookla-for-good/open-data"
-      }
-    ]
-  },
-  "daycare_access_scores:daycare_median_drive_time_top5": {
-    "category": "Education",
-    "measure_table": "dc_education_training.va_hdcttrbg_dss_2021_daycare_access_scores",
-    "full_name": "daycare_access_scores:daycare_median_drive_time_top5",
-    "measure": "median_drive_time_top5",
-    "type": "drive time",
-    "short_name": "Day care availability (drive time)",
-    "long_name": "Day care availability by median drive time to the five closest day cares in minutes",
-    "short_description": "Median drive time (minutes) to the five closest day cares from centroid of selected region",
-    "long_description": "Median drive time in minutes to the five closest day cares from centroid of selected region. Address data were collected from the Virginia Department of Social Services Child Day Care Facility search (Dataset for year 2019). Drive times were computed using Open Source Routing Machine (Using roads for year 2022).",
-    "statement": "The median drive time to the five closest day cares to {features.name} is {value}.",
-    "equity_category": "Availability",
-    "sources": [
-      {
-        "name": "Virginia Department of Social Services",
-        "date_accessed": 2021,
-        "url": "https://www.dss.virginia.gov/facility/search/cc.cgi"
-      }
-    ]
-  },
-  "daycare_access_scores:daycare_3sfca": {
-    "category": "Education",
-    "measure_table": "dc_education_training.va_hdcttrbg_dss_2021_daycare_access_scores",
-    "full_name": "daycare_access_scores:daycare_3sfca",
-    "measure": "daycare_3sfca",
-    "type": "index",
-    "short_name": "Day care geographic availability",
-    "long_name": "Day care geographic availability (3-step floating catchment area)",
-    "short_description": "Index of day care availability based on supply of and demand for providers",
-    "long_description": "Day care availability based on 3-step floating catchment areas. This method is an aggregation of day care facilities per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Provider address data were collected from Virginia Department of Social Services day care search tool. The demand for day care services is the population 0-15 years old and the supply is the capacity of day cares (number of seats).",
-    "statement": "The daycare availability for {features.name} is {value}.",
-    "equity_category": "Availability",
-    "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
-    ],
-    "sources": [
-      {
-        "name": "Virginia Department of Social Services",
-        "date_accessed": 2021,
-        "url": "https://www.dss.virginia.gov/facility/search/cc.cgi"
-      }
-    ]
-  },
-  "daycare_access_scores:daycare_cnt": {
-    "category": "Education",
-    "measure_table": "dc_education_training.va_hdcttrbg_dss_2021_daycare_access_scores",
-    "full_name": "daycare_services_access_scores:daycare_cnt",
-    "measure": "daycare_cnt",
-    "type": "count",
-    "short_name": "Day care capacity",
-    "long_name": "Access to day care by capacity",
-    "short_description": "Count of day care capacity (seats) based on provider locations",
-    "long_description": "Count of day care capacity (seats) based on provider locations. Address and capacity data were collected from Virginia Department of Social Services day care search tool.",
-    "statement": "There are {value} daycare seats in {features.name}.",
-    "equity_category": "Availability",
-    "sources": [
-      {
-        "name": "Virginia Department of Social Services",
-        "date_accessed": 2021,
-        "url": "https://www.dss.virginia.gov/facility/search/cc.cgi"
       }
     ]
   },
@@ -873,35 +755,6 @@
       }
     ]
   },
-  "health_literacy_estimates:health_literacy_estimate": {
-    "category": "Education",
-    "measure_table": "dc_education_training.va_hdcttr_sdad_2019_health_literacy_estimates",
-    "full_name": "health_literacy_estimates:health_literacy_estimate",
-    "measure": "health_literacy_estimate",
-    "type": "index",
-    "short_name": "Health literacy composite",
-    "long_name": "Health literacy composite",
-    "short_description": "Health literacy composite captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions",
-    "long_description": "The health literacy composite captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions. Health literacy composite is based on variables of demographic characteristics, health status, and health care use.",
-    "statement": "The health literacy composite for {features.name} is {value}.",
-    "equity_category": "Status",
-    "citations": [
-      "savitz20",
-      "liang17"
-    ],
-    "sources": [
-      {
-        "name": "Medical Expenditure Panel Survey",
-        "date_accessed": 2021,
-        "url": "https://www.meps.ahrq.gov/mepsweb/"
-      },
-      {
-        "name": "American Community Survey",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
   "perc_income_on_internet:perc_income_min_price_25": {
     "category": "Broadband",
     "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
@@ -1075,26 +928,6 @@
         "location": "Table B27010",
         "date_accessed": 2022,
         "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
-  "post_hs_education:perc_post_hs_edu": {
-    "category": "Education",
-    "measure_table": "dc_education_training.va_hdcttr_acs_2015_2019_post_hs_education",
-    "full_name": "post_hs_education:perc_post_hs_edu",
-    "measure": "perc_post_hs_edu",
-    "type": "percent",
-    "short_name": "Percentage with post-secondary education",
-    "long_name": "Percentage with post-secondary education",
-    "short_description": "Percentage of the population self-reported to have post-secondary education",
-    "long_description": "Percentage of the population self-reported to have post-secondary education. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.",
-    "statement": "{value} of the population in {features.name} has a post-secondary education.",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "American Community Survey Table B15003",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/data/developers/data-sets/acs-5year.html"
       }
     ]
   },
@@ -1338,24 +1171,24 @@
       }
     ]
   },
-  "hifld:hospitals_min_drivetime": {
+  "hhs:childrens_hospitals_min_drivetime": {
     "category": "Health",
-    "full_name": "hifld:hospitals_min_drivetime",
-    "measure": "hospitals_min_drivetime",
+    "full_name": "hhs:childrens_hospitals_min_drivetime",
+    "measure": "childrens_hospitals_min_drivetime",
     "type": "minutes",
-    "short_name": "hospital drive time",
-    "long_name": "drive time to nearest hospital",
-    "short_description": "Drive time to the nearest hospital.",
-    "long_description": "Minimal drive time to a hospital from the Census block group centroid, as calculated by the Open Source Routing Machine in 2022. Hospital locations are from various government sources, collected by Oak Ridge National Laboratory. All distances are calculated at the block group level, then averaged up to higher-level geographies.",
-    "statement": "It takes {value} to drive to a hospital from {features.name}'s block group centroids on average.",
+    "short_name": "Children's Hospital Drive Time",
+    "long_name": "Drive time to nearest children's hospital",
+    "short_description": "Drive time to the nearest children's hospital.",
+    "long_description": "Minimal drive time to a children's hospital from the Census block group centroid, as calculated by the Open Source Routing Machine in 2022. Hospital locations are from the U.S. Health and Human Services. All distances are calculated at the block group level, then averaged up to higher-level geographies.",
+    "statement": "It takes {value} to drive to a children's hospital from {features.name}'s block group centroids on average.",
     "equity_category": "Accessibility",
     "sources": [
       {
-        "name": "Homeland Infrastructure Foundation-Level Data",
-        "location": "HIFLD Open Portal > Public Health > Hospitals",
-        "location_url": "https://hifld-geoplatform.opendata.arcgis.com/datasets/geoplatform::hospitals/about",
+        "name": "U.S. Department of Health & Human Services",
+        "location": "Hospital > COVID-19 Reported Patient Impact and Hospital Capacity by Facility",
+        "location_url": "https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/anag-cw7u",
         "date_accessed": 2022,
-        "url": "https://hifld-geoplatform.opendata.arcgis.com"
+        "url": "https://healthdata.gov"
       },
       {
         "name": "Open Source Routing Machine",
@@ -1364,16 +1197,68 @@
       }
     ]
   },
-  "hifld:hospital_beds_per_100k": {
+  "hhs:intensive_care_min_drivetime": {
     "category": "Health",
-    "full_name": "hifld:hospital_beds_per_100k",
-    "measure": "hospital_beds_per_100k",
+    "full_name": "hhs:intensive_care_min_drivetime",
+    "measure": "intensive_care_min_drivetime",
+    "type": "minutes",
+    "short_name": "Intensive Care Unit Drive Time",
+    "long_name": "Drive time to nearest hospital with intensive care unit beds",
+    "short_description": "Drive time to the nearest hospital with intensive care unit beds.",
+    "long_description": "Minimal drive time to a hospital with intensive care unit beds from the Census block group centroid, as calculated by the Open Source Routing Machine in 2022. Hospital locations are from the U.S. Health and Human Services. All distances are calculated at the block group level, then averaged up to higher-level geographies.",
+    "statement": "It takes {value} to drive to a hospital with intensive care unit beds from {features.name}'s block group centroids on average.",
+    "equity_category": "Accessibility",
+    "sources": [
+      {
+        "name": "U.S. Department of Health & Human Services",
+        "location": "Hospital > COVID-19 Reported Patient Impact and Hospital Capacity by Facility",
+        "location_url": "https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/anag-cw7u",
+        "date_accessed": 2022,
+        "url": "https://healthdata.gov"
+      },
+      {
+        "name": "Open Source Routing Machine",
+        "date_accessed": 2022,
+        "url": "http://project-osrm.org"
+      }
+    ]
+  },
+  "hhs:hospitals_min_drivetime": {
+    "category": "Health",
+    "full_name": "hhs:hospitals_min_drivetime",
+    "measure": "hospitals_min_drivetime",
+    "type": "minutes",
+    "short_name": "Hospital Drive Time",
+    "long_name": "Drive time to nearest hospital",
+    "short_description": "Drive time to the nearest hospital.",
+    "long_description": "Minimal drive time to a hospital from the Census block group centroid, as calculated by the Open Source Routing Machine in 2022. Hospital locations are from the U.S. Health and Human Services. All distances are calculated at the block group level, then averaged up to higher-level geographies.",
+    "statement": "It takes {value} to drive to a hospital from {features.name}'s block group centroids on average.",
+    "equity_category": "Accessibility",
+    "sources": [
+      {
+        "name": "U.S. Department of Health & Human Services",
+        "location": "Hospital > COVID-19 Reported Patient Impact and Hospital Capacity by Facility",
+        "location_url": "https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/anag-cw7u",
+        "date_accessed": 2022,
+        "url": "https://healthdata.gov"
+      },
+      {
+        "name": "Open Source Routing Machine",
+        "date_accessed": 2022,
+        "url": "http://project-osrm.org"
+      }
+    ]
+  },
+  "hhs:childrens_hospitals_per_100k": {
+    "category": "Health",
+    "full_name": "hhs:childrens_hospitals_per_100k",
+    "measure": "childrens_hospitals_per_100k",
     "type": "per 100k",
-    "short_name": "hospital beds",
-    "long_name": "hospital beds per 100k people",
-    "short_description": "Number hospital beds per 100k people.",
-    "long_description": "The number of hospital beds per 100k people, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) hospitals, with supply values as bed counts, as collected from various government sources by Oak Ridge National Laboratory [for hospitals with no bed counts, bed counts are median bed counts across all other hospitals in the included regions], (b) Census block groups, with demand values as the total population as reported in the American Community Survey 5-year summaries, and (c) distances between hospital locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
-    "statement": "There are {value} hospital beds per 100k people in {features.name}.",
+    "short_name": "Children's Hospital Beds",
+    "long_name": "Children's hospital beds per 100k people",
+    "short_description": "Number of children's hospital beds per 100k people.",
+    "long_description": "Number of children's hospital beds per 100k people, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) children's hospitals as listed by the U.S. Health and Human Services, with number of beds (overall average of 7 day averages) as supply values, (b) Census block groups, with supply values as the total population as reported the American Community Survey 5-year summaries, and (c) distance between hospital locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
+    "statement": "There are {value} children's hospital beds per 100k people in {features.name}.",
     "equity_category": "Accessibility",
     "citations": [
       "wan12",
@@ -1381,11 +1266,11 @@
     ],
     "sources": [
       {
-        "name": "Homeland Infrastructure Foundation-Level Data",
-        "location": "HIFLD Open Portal > Public Health > Hospitals",
-        "location_url": "https://hifld-geoplatform.opendata.arcgis.com/datasets/geoplatform::hospitals/about",
+        "name": "U.S. Department of Health & Human Services",
+        "location": "Hospital > COVID-19 Reported Patient Impact and Hospital Capacity by Facility",
+        "location_url": "https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/anag-cw7u",
         "date_accessed": 2022,
-        "url": "https://hifld-geoplatform.opendata.arcgis.com"
+        "url": "https://healthdata.gov"
       },
       {
         "name": "American Community Survey",
@@ -1401,24 +1286,97 @@
       }
     ]
   },
-  "hifld:hospitals": {
+  "hhs:intensive_care_per_100k": {
     "category": "Health",
-    "full_name": "hifld:hospitals",
-    "measure": "hospitals",
-    "type": "count",
-    "short_name": "hospitals",
-    "long_name": "number of hospital",
-    "short_description": "Number hospitals within the region.",
-    "long_description": "The number of hospital within each region, as collected from various government sources by Oak Ridge National Laboratory.",
-    "statement": "There are {value} hospitals in {features.name}.",
+    "full_name": "hhs:intensive_care_per_100k",
+    "measure": "intensive_care_per_100k",
+    "type": "per 100k",
+    "short_name": "Intensive Care Unit Beds",
+    "long_name": "Intensive care unit beds per 100k people",
+    "short_description": "Number of Intensive care unit beds per 100k people.",
+    "long_description": "Number of Intensive care unit beds per 100k people, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) hospitals with intensive care unit beds as listed by the U.S. Health and Human Services, with number of intensive care unit beds (overall average of 7 day averages) as supply values, (b) Census block groups, with supply values as the total population as reported the American Community Survey 5-year summaries, and (c) distance between hospital locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
+    "statement": "There are {value} intensive care unit beds per 100k people in {features.name}.",
     "equity_category": "Accessibility",
+    "citations": [
+      "wan12",
+      "bii21"
+    ],
     "sources": [
       {
-        "name": "Homeland Infrastructure Foundation-Level Data",
-        "location": "HIFLD Open Portal > Public Health > Hospitals",
-        "location_url": "https://hifld-geoplatform.opendata.arcgis.com/datasets/geoplatform::hospitals/about",
+        "name": "U.S. Department of Health & Human Services",
+        "location": "Hospital > COVID-19 Reported Patient Impact and Hospital Capacity by Facility",
+        "location_url": "https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/anag-cw7u",
         "date_accessed": 2022,
-        "url": "https://hifld-geoplatform.opendata.arcgis.com"
+        "url": "https://healthdata.gov"
+      },
+      {
+        "name": "American Community Survey",
+        "location": "data/5_year_seq_by_state",
+        "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
+        "date_accessed": 2022,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Open Source Routing Machine",
+        "date_accessed": 2022,
+        "url": "http://project-osrm.org"
+      }
+    ]
+  },
+  "hhs:hospitals_per_100k": {
+    "category": "Health",
+    "full_name": "hhs:hospitals_per_100k",
+    "measure": "hospitals_per_100k",
+    "type": "per 100k",
+    "short_name": "Hospital Beds",
+    "long_name": "Hospital beds per 100k people",
+    "short_description": "Number of hospital beds per 100k people.",
+    "long_description": "Number of hospital beds per 100k people, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) hospitals as listed by the U.S. Health and Human Services, with number of beds (overall average of 7 day averages) as supply values, (b) Census block groups, with supply values as the total population as reported the American Community Survey 5-year summaries, and (c) distance between hospital locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
+    "statement": "There are {value} hospital beds per 100k people in {features.name}.",
+    "equity_category": "Accessibility",
+    "citations": [
+      "wan12",
+      "bii21"
+    ],
+    "sources": [
+      {
+        "name": "U.S. Department of Health & Human Services",
+        "location": "Hospital > COVID-19 Reported Patient Impact and Hospital Capacity by Facility",
+        "location_url": "https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/anag-cw7u",
+        "date_accessed": 2022,
+        "url": "https://healthdata.gov"
+      },
+      {
+        "name": "American Community Survey",
+        "location": "data/5_year_seq_by_state",
+        "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
+        "date_accessed": 2022,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Open Source Routing Machine",
+        "date_accessed": 2022,
+        "url": "http://project-osrm.org"
+      }
+    ]
+  },
+  "3rd_grade_mean_median_read_score:median_read_pass_rate": {
+    "category": "Education",
+    "measure_table": "dc_education_training.va_hdct_vdoe_2019_2021_3rd_grade_median_read_score",
+    "full_name": "3rd_grade_mean_median_read_score:median_read_pass_rate",
+    "measure": "median_read_pass_rate",
+    "type": "percent",
+    "short_name": "Median 3rd graders passing reading",
+    "long_name": "Median percentage of 3rd graders passing reading test",
+    "short_description": "Median percentage of 3rd grade population passing reading test for schools in the region",
+    "long_description": "Median percentage of 3rd grade population passing reading test. The median is calculated across schools in the region.",
+    "statement": "On average, {value} of 3rd graders pass reading in {features.name}.",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "Virginia Department of Education",
+        "date_accessed": 2021,
+        "url": "https://www.doe.virginia.gov/statistics_reports/sol-pass-rates/index.shtml"
       }
     ]
   },
@@ -1733,98 +1691,122 @@
       }
     ]
   },
+  "post_hs_education:perc_post_hs_edu": {
+    "category": "Education",
+    "measure_table": "dc_education_training.va_hdcttr_acs_2015_2019_post_hs_education",
+    "full_name": "post_hs_education:perc_post_hs_edu",
+    "measure": "perc_post_hs_edu",
+    "type": "percent",
+    "short_name": "Post-secondary education (percent)",
+    "long_name": "Percentage with post-secondary education",
+    "short_description": "Percentage of the population self-reported to have post-secondary education",
+    "long_description": "Percentage of the population self-reported to have post-secondary education. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.",
+    "statement": "{value} of the population in {features.name} has a post-secondary education.",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey Table B15003",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/data/developers/data-sets/acs-5year.html"
+      }
+    ]
+  },
+  "health_literacy_estimates:health_literacy_estimate": {
+    "category": "Education",
+    "measure_table": "dc_education_training.va_hdcttr_sdad_2019_health_literacy_estimates",
+    "full_name": "health_literacy_estimates:health_literacy_estimate",
+    "measure": "health_literacy_estimate",
+    "type": "index",
+    "short_name": "Health literacy composite",
+    "long_name": "Health literacy composite",
+    "short_description": "Health literacy composite captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions",
+    "long_description": "The health literacy composite captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions. Health literacy composite is based on variables of demographic characteristics, health status, and health care use.",
+    "statement": "The health literacy composite for {features.name} is {value}.",
+    "equity_category": "Status",
+    "citations": [
+      "savitz20",
+      "liang17"
+    ],
+    "sources": [
+      {
+        "name": "Medical Expenditure Panel Survey",
+        "date_accessed": 2021,
+        "url": "https://www.meps.ahrq.gov/mepsweb/"
+      },
+      {
+        "name": "American Community Survey",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "daycare_access_scores:daycare_median_drive_time_top5": {
+    "category": "Education",
+    "measure_table": "dc_education_training.va_hdcttrbg_dss_2021_daycare_access_scores",
+    "full_name": "daycare_access_scores:daycare_median_drive_time_top5",
+    "measure": "median_drive_time_top5",
+    "type": "drive time",
+    "short_name": "Day care availability (drive time)",
+    "long_name": "Day care availability by median drive time to the five closest day cares in minutes",
+    "short_description": "Median drive time (minutes) to the five closest day cares from centroid of selected region",
+    "long_description": "Median drive time in minutes to the five closest day cares from centroid of selected region. Address data were collected from the Virginia Department of Social Services Child Day Care Facility search (Dataset for year 2019). Drive times were computed using Open Source Routing Machine (Using roads for year 2022).",
+    "statement": "The median drive time to the five closest day cares to {features.name} is {value}.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "Virginia Department of Social Services",
+        "date_accessed": 2021,
+        "url": "https://www.dss.virginia.gov/facility/search/cc.cgi"
+      }
+    ]
+  },
+  "daycare_access_scores:daycare_3sfca": {
+    "category": "Education",
+    "measure_table": "dc_education_training.va_hdcttrbg_dss_2021_daycare_access_scores",
+    "full_name": "daycare_access_scores:daycare_3sfca",
+    "measure": "daycare_3sfca",
+    "type": "index",
+    "short_name": "Day care geographic availability",
+    "long_name": "Day care geographic availability (3-step floating catchment area)",
+    "short_description": "Index of day care availability based on supply of and demand for providers",
+    "long_description": "Day care availability based on 3-step floating catchment areas. This method is an aggregation of day care facilities per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Provider address data were collected from Virginia Department of Social Services day care search tool. The demand for day care services is the population 0-15 years old and the supply is the capacity of day cares (number of seats).",
+    "statement": "The daycare availability for {features.name} is {value}.",
+    "equity_category": "Availability",
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
+    "sources": [
+      {
+        "name": "Virginia Department of Social Services",
+        "date_accessed": 2021,
+        "url": "https://www.dss.virginia.gov/facility/search/cc.cgi"
+      }
+    ]
+  },
+  "daycare_access_scores:daycare_cnt": {
+    "category": "Education",
+    "measure_table": "dc_education_training.va_hdcttrbg_dss_2021_daycare_access_scores",
+    "full_name": "daycare_services_access_scores:daycare_cnt",
+    "measure": "daycare_cnt",
+    "type": "count",
+    "short_name": "Day care capacity",
+    "long_name": "Access to day care by capacity",
+    "short_description": "Count of day care capacity (seats) based on provider locations",
+    "long_description": "Count of day care capacity (seats) based on provider locations. Address and capacity data were collected from Virginia Department of Social Services day care search tool.",
+    "statement": "There are {value} daycare seats in {features.name}.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "Virginia Department of Social Services",
+        "date_accessed": 2021,
+        "url": "https://www.dss.virginia.gov/facility/search/cc.cgi"
+      }
+    ]
+  },
   "_references": {
-    "wan12": {
-      "id": "wan12",
-      "author": [
-        {
-          "given": "Neng",
-          "family": "Wan"
-        },
-        {
-          "given": "Bin",
-          "family": "Zou"
-        },
-        {
-          "given": "Troy",
-          "family": "Sternberg"
-        }
-      ],
-      "year": 2012,
-      "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-      "journal": "International Journal of Geographical Information Science",
-      "volume": "26",
-      "page": "1073–1089",
-      "doi": "10.1080/13658816.2011.624987"
-    },
-    "bii21": {
-      "id": "bii21",
-      "author": [
-        {
-          "family": "Biocomplexity Institute and Initiative"
-        }
-      ],
-      "year": 2021,
-      "title": "catchment: Calculate spatial access and availability metrics",
-      "version": "0.0.1",
-      "url": "https://github.com/uva-bi-sdad/catchment"
-    },
-    "liang17": {
-      "id": "liang17",
-      "author": [
-        {
-          "given": "Lan",
-          "family": "Liang"
-        },
-        {
-          "given": "Cindy",
-          "family": "Branch"
-        }
-      ],
-      "year": 2017,
-      "title": "Health Literacy Universal Precautions Are Still a Distant Dream: Analysis of U.S. Data on Health Literate Practices",
-      "journal": "Health Literacy Research and Practice",
-      "volume": "1",
-      "number": 4,
-      "page": "e216-e230",
-      "doi": "10.3928/24748307-20170929-01"
-    },
-    "savitz20": {
-      "id": "savitz20",
-      "author": [
-        {
-          "given": "Samuel",
-          "family": "Savitz"
-        },
-        {
-          "given": "Stacy",
-          "family": "Bailey"
-        },
-        {
-          "given": "Stacie",
-          "family": "Dusetzina"
-        },
-        {
-          "given": "W.",
-          "family": "Schuyler Jones"
-        },
-        {
-          "given": "Justin",
-          "family": "Trogdon"
-        },
-        {
-          "given": "Sally",
-          "family": "Stearns"
-        }
-      ],
-      "year": 2020,
-      "title": "Treatment selection and medication adherence for stable angina: The role of area-based health literacy",
-      "journal": "Journal of Evaluation in Clinical Practice",
-      "volume": "26",
-      "number": 6,
-      "page": "1711-1721",
-      "doi": "10.1111/jep.13341"
-    },
     "lou04": {
       "id": "lou04",
       "author": [
@@ -1915,18 +1897,40 @@
       "volume": "Preprint",
       "doi": "10.13140/RG.2.2.12396.28807"
     },
-    "gallardo20": {
-      "id": "gallardo20",
+    "wan12": {
+      "id": "wan12",
       "author": [
         {
-          "given": "Robert",
-          "family": "Gallardo"
+          "given": "Neng",
+          "family": "Wan"
+        },
+        {
+          "given": "Bin",
+          "family": "Zou"
+        },
+        {
+          "given": "Troy",
+          "family": "Sternberg"
         }
       ],
-      "year": 2020,
-      "title": "Digital Divide Index",
-      "journal": "Purdue Center for Regional Development",
-      "url": "http://pcrd.purdue.edu/ddi"
+      "year": 2012,
+      "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+      "journal": "International Journal of Geographical Information Science",
+      "volume": "26",
+      "page": "1073–1089",
+      "doi": "10.1080/13658816.2011.624987"
+    },
+    "bii21": {
+      "id": "bii21",
+      "author": [
+        {
+          "family": "Biocomplexity Institute and Initiative"
+        }
+      ],
+      "year": 2021,
+      "title": "catchment: Calculate spatial access and availability metrics",
+      "version": "0.0.1",
+      "url": "https://github.com/uva-bi-sdad/catchment"
     }
   }
 }

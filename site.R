@@ -333,18 +333,43 @@ page_section(
       ),
       overlays = {
         layers <- lapply(2013:2020, function(year) list(
-          url = paste0("https://uva-bi-sdad.github.io/dc.education/points_", year, ".geojson"),
+          url = paste0("https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_", year, ".geojson"),
           time = year
         ))
         hospital_layer <- list(list(
-          url = "https://raw.githubusercontent.com/uva-bi-sdad/dc.hifld.ems/main/docs/points_2020.geojson",
+          url = "https://raw.githubusercontent.com/uva-bi-sdad/dc.hifld.hosp/master/docs/points_2020.geojson",
           time = 2020
         ))
         c(
           list(
-            list(variable = "hifld:hospitals", source = hospital_layer),
-            list(variable = "hifld:hospital_beds_per_100k", source = hospital_layer),
-            list(variable = "hifld:hospitals_min_drivetime", source = hospital_layer),
+            list(
+              variable = "hhs:hospitals_per_100k",
+              source = hospital_layer
+            ),
+            list(
+              variable = "hhs:hospitals_min_drivetime",
+              source = hospital_layer
+            ),
+            list(
+              variable = "hhs:intensive_care_per_100k",
+              source = hospital_layer,
+              filter = list(feature = "total_icu_beds_7_day_avg", operator = "!=", value = 0)
+            ),
+            list(
+              variable = "hhs:intensive_care_min_drivetime",
+              source = hospital_layer,
+              filter = list(feature = "total_icu_beds_7_day_avg", operator = "!=", value = 0)
+            ),
+            list(
+              variable = "hhs:childrens_hospitals_per_100k",
+              source = hospital_layer,
+              filter = list(feature = "hospital_subtype", operator = "=", value = "Childrens Hospitals")
+            ),
+            list(
+              variable = "hhs:childrens_hospitals_min_drivetime",
+              source = hospital_layer,
+              filter = list(feature = "hospital_subtype", operator = "=", value = "Childrens Hospitals")
+            ),
             list(
               variable = "nces:schools_2year_per_100k",
               source = layers,

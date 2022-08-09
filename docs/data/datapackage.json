@@ -9,9 +9,9 @@
   },
   "resources": [
     {
-      "bytes": 75772,
+      "bytes": 73524,
       "encoding": "ISO-8859-1",
-      "md5": "e8e445d8e6dd25152b9cdbcfd844935d",
+      "md5": "89e116a2ae8c67b1926e40d31c70c766",
       "format": "csv",
       "name": "district",
       "filename": "health_district.csv.xz",
@@ -24,7 +24,7 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-07-22 14:18:29",
+      "created": "2022-08-09 13:29:34",
       "last_modified": "2022-07-22 14:15:21",
       "row_count": 455,
       "entity_count": 35,
@@ -41,7 +41,6 @@
             "min": 2009,
             "max": 2021,
             "info": {
-              "equity_category": {},
               "sources": {},
               "citations": {}
             }
@@ -62,11 +61,11 @@
               "full_name": "3rd_grade_mean_median_read_score:median_read_pass_rate",
               "measure": "median_read_pass_rate",
               "type": "percent",
-              "short_name": "Percentage of 3rd graders passing reading",
+              "short_name": "Median 3rd graders passing reading",
               "long_name": "Median percentage of 3rd graders passing reading test",
               "short_description": "Median percentage of 3rd grade population passing reading test for schools in the region",
               "long_description": "Median percentage of 3rd grade population passing reading test. The median is calculated across schools in the region.",
-              "statement": "On average {value} of 3rd graders pass reading in {features.name}.",
+              "statement": "On average, {value} of 3rd graders pass reading in {features.name}.",
               "equity_category": "Status",
               "sources": [
                 {
@@ -595,43 +594,6 @@
             }
           },
           {
-            "name": "dei:norm_dei",
-            "duplicates": 353,
-            "time_range": [10, 12],
-            "type": "float",
-            "missing": 350,
-            "mean": 46.9833,
-            "sd": 26.0793,
-            "min": 0,
-            "max": 100,
-            "info": {
-              "category": "Broadband",
-              "measure_table": "dmv_cttrbg_sdad_2019_2021_dei",
-              "full_name": "dei:norm_dei",
-              "measure": "norm_dei",
-              "type": "index",
-              "short_name": "Digital Equity Index",
-              "long_name": "Digital Equity Index",
-              "short_description": "Digital Equity Index captures the relative equity of digital access, with 0 being a score of relative equity and 100 being relative inequity.",
-              "long_description": "The Digital Equity Index (DEI) is a composite variable indicating the degree of broadband equity as it relates to adoption, accessibility, and infrastructure. It ranges from 0 to 100, where 100 indicates the most equitable broadband access. The DEI is constructed at the Census tract level and is composed of the following variables: percent of the population under 65 years of age, percent of the population with at least a high school education, percent of the population with income below the poverty level, percent of the population without a disability, the ratio between the share of homes making $75,000 or more per year with internet and the share of homes making less than $35,000 per year without internet, percent of the population with at least one computer, percent of the population with internet access, percent of the population that is low income (less than 30% of HUD Area Median Family Income) and have a housing cost burden over 30%, and average download speeds, upload speeds, and latency from Ookla speed tests.",
-              "statement": "The Digital Equity Index for {features.name} is {value}.",
-              "equity_category": ["Accessibility", "Availability", "Affordability"],
-              "sources": [
-                {
-                  "name": "American Community Survey",
-                  "date_accessed": 2021,
-                  "url": "https://www.census.gov/programs-surveys/acs.html"
-                },
-                {
-                  "name": "Ookla",
-                  "date_accessed": 2021,
-                  "url": "https://www.ookla.com/ookla-for-good/open-data"
-                }
-              ],
-              "citations": "gallardo20"
-            }
-          },
-          {
             "name": "speed_measurements:avg_down_using_devices",
             "duplicates": 454,
             "time_range": [-1, -1],
@@ -872,7 +834,6 @@
               "short_description": "Median drive time (minutes) to the ten closest mental health services facilities",
               "long_description": "Median drive time in minutes to the ten closest mental health services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
               "statement": "The median drive time to the ten closest mental health service facilities to {features.name} is {value}.",
-              "equity_category": {},
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -904,7 +865,6 @@
               "short_description": "Index of mental health services accessibility based on supply and demand of facilities",
               "long_description": "Mental health services access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
               "statement": "The mental health services accessibility score for {features.name} is {value}.",
-              "equity_category": {},
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -936,7 +896,6 @@
               "short_description": "Count of mental health facilities based on facility locations",
               "long_description": "Count of mental health facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
               "statement": "There are {value} mental health facilities in {features.name}.",
-              "equity_category": {},
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -1213,21 +1172,17 @@
           },
           {
             "name": "post_hs_education:perc_post_hs_edu",
-            "duplicates": 104,
-            "time_range": [1, 10],
-            "type": "float",
-            "missing": 105,
-            "mean": 57.7926,
-            "sd": 12.1914,
-            "min": 34.7046,
-            "max": 86.5411,
+            "duplicates": 454,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 455,
             "info": {
               "category": "Education",
               "measure_table": "dc_education_training.va_hdcttr_acs_2015_2019_post_hs_education",
               "full_name": "post_hs_education:perc_post_hs_edu",
               "measure": "perc_post_hs_edu",
               "type": "percent",
-              "short_name": "Percentage with post-secondary education",
+              "short_name": "Post-secondary education (percent)",
               "long_name": "Percentage with post-secondary education",
               "short_description": "Percentage of the population self-reported to have post-secondary education",
               "long_description": "Percentage of the population self-reported to have post-secondary education. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.",
@@ -1292,7 +1247,6 @@
               "short_description": "Median drive time (minutes) to the ten closest substance use/behavioral health services facilities",
               "long_description": "Median drive time in minutes to the ten closest substance use/behavioral health services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
               "statement": "The median drive time to the ten closest substance use/behavioral health service facilities to {features.name} is {value}.",
-              "equity_category": {},
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -1320,7 +1274,6 @@
               "short_description": "Index of substance use/behavioral health services accessibility based on supply and demand of facilities",
               "long_description": "Substance use/behavioral health services access score based on 3-step  floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
               "statement": "The substance use/behavioral health services accessibility score for {features.name} is {value}.",
-              "equity_category": {},
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -1348,7 +1301,6 @@
               "short_description": "Count of substance use/behavioral health facilities based on facility locations",
               "long_description": "Count of substance use/behavioral health facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
               "statement": "There are {value} substance use facilities in {features.name}.",
-              "equity_category": {},
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -2412,66 +2364,33 @@
             }
           },
           {
-            "name": "hifld:hospitals",
-            "duplicates": 449,
-            "time_range": [11, 11],
-            "type": "integer",
-            "missing": 420,
-            "mean": 2.6571,
-            "sd": 1.2821,
-            "min": 1,
-            "max": 5,
-            "info": {
-              "category": "Health",
-              "full_name": "hifld:hospitals",
-              "measure": "hospitals",
-              "type": "count",
-              "short_name": "hospitals",
-              "long_name": "number of hospital",
-              "short_description": "Number hospitals within the region.",
-              "long_description": "The number of hospital within each region, as collected from various government sources by Oak Ridge National Laboratory.",
-              "statement": "There are {value} hospitals in {features.name}.",
-              "equity_category": "Accessibility",
-              "sources": [
-                {
-                  "name": "Homeland Infrastructure Foundation-Level Data",
-                  "location": "HIFLD Open Portal > Public Health > Hospitals",
-                  "location_url": "https://hifld-geoplatform.opendata.arcgis.com/datasets/geoplatform::hospitals/about",
-                  "date_accessed": 2022,
-                  "url": "https://hifld-geoplatform.opendata.arcgis.com"
-                }
-              ],
-              "citations": {}
-            }
-          },
-          {
-            "name": "hifld:hospital_beds_per_100k",
+            "name": "hhs:hospitals_per_100k",
             "duplicates": 419,
             "time_range": [11, 11],
             "type": "float",
             "missing": 420,
-            "mean": 270.7453,
-            "sd": 135.4095,
-            "min": 91.8214,
-            "max": 667.9031,
+            "mean": 231.7041,
+            "sd": 95.8933,
+            "min": 76.6344,
+            "max": 586.7374,
             "info": {
               "category": "Health",
-              "full_name": "hifld:hospital_beds_per_100k",
-              "measure": "hospital_beds_per_100k",
+              "full_name": "hhs:hospitals_per_100k",
+              "measure": "hospitals_per_100k",
               "type": "per 100k",
-              "short_name": "hospital beds",
-              "long_name": "hospital beds per 100k people",
-              "short_description": "Number hospital beds per 100k people.",
-              "long_description": "The number of hospital beds per 100k people, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) hospitals, with supply values as bed counts, as collected from various government sources by Oak Ridge National Laboratory [for hospitals with no bed counts, bed counts are median bed counts across all other hospitals in the included regions], (b) Census block groups, with demand values as the total population as reported in the American Community Survey 5-year summaries, and (c) distances between hospital locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
+              "short_name": "Hospital Beds",
+              "long_name": "Hospital beds per 100k people",
+              "short_description": "Number of hospital beds per 100k people.",
+              "long_description": "Number of hospital beds per 100k people, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) hospitals as listed by the U.S. Health and Human Services, with number of beds (overall average of 7 day averages) as supply values, (b) Census block groups, with supply values as the total population as reported the American Community Survey 5-year summaries, and (c) distance between hospital locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
               "statement": "There are {value} hospital beds per 100k people in {features.name}.",
               "equity_category": "Accessibility",
               "sources": [
                 {
-                  "name": "Homeland Infrastructure Foundation-Level Data",
-                  "location": "HIFLD Open Portal > Public Health > Hospitals",
-                  "location_url": "https://hifld-geoplatform.opendata.arcgis.com/datasets/geoplatform::hospitals/about",
+                  "name": "U.S. Department of Health & Human Services",
+                  "location": "Hospital > COVID-19 Reported Patient Impact and Hospital Capacity by Facility",
+                  "location_url": "https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/anag-cw7u",
                   "date_accessed": 2022,
-                  "url": "https://hifld-geoplatform.opendata.arcgis.com"
+                  "url": "https://healthdata.gov"
                 },
                 {
                   "name": "American Community Survey",
@@ -2490,33 +2409,199 @@
             }
           },
           {
-            "name": "hifld:hospitals_min_drivetime",
+            "name": "hhs:intensive_care_per_100k",
             "duplicates": 419,
             "time_range": [11, 11],
             "type": "float",
             "missing": 420,
-            "mean": 17.3614,
-            "sd": 8.533,
-            "min": 5.5679,
-            "max": 40.6326,
+            "mean": 26.8686,
+            "sd": 14.879,
+            "min": 6.4862,
+            "max": 76.9793,
             "info": {
               "category": "Health",
-              "full_name": "hifld:hospitals_min_drivetime",
+              "full_name": "hhs:intensive_care_per_100k",
+              "measure": "intensive_care_per_100k",
+              "type": "per 100k",
+              "short_name": "Intensive Care Unit Beds",
+              "long_name": "Intensive care unit beds per 100k people",
+              "short_description": "Number of Intensive care unit beds per 100k people.",
+              "long_description": "Number of Intensive care unit beds per 100k people, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) hospitals with intensive care unit beds as listed by the U.S. Health and Human Services, with number of intensive care unit beds (overall average of 7 day averages) as supply values, (b) Census block groups, with supply values as the total population as reported the American Community Survey 5-year summaries, and (c) distance between hospital locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
+              "statement": "There are {value} intensive care unit beds per 100k people in {features.name}.",
+              "equity_category": "Accessibility",
+              "sources": [
+                {
+                  "name": "U.S. Department of Health & Human Services",
+                  "location": "Hospital > COVID-19 Reported Patient Impact and Hospital Capacity by Facility",
+                  "location_url": "https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/anag-cw7u",
+                  "date_accessed": 2022,
+                  "url": "https://healthdata.gov"
+                },
+                {
+                  "name": "American Community Survey",
+                  "location": "data/5_year_seq_by_state",
+                  "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
+                  "date_accessed": 2022,
+                  "url": "https://www.census.gov/programs-surveys/acs.html"
+                },
+                {
+                  "name": "Open Source Routing Machine",
+                  "date_accessed": 2022,
+                  "url": "http://project-osrm.org"
+                }
+              ],
+              "citations": ["wan12", "bii21"]
+            }
+          },
+          {
+            "name": "hhs:childrens_hospitals_per_100k",
+            "duplicates": 419,
+            "time_range": [11, 11],
+            "type": "float",
+            "missing": 420,
+            "mean": 25.551,
+            "sd": 48.7643,
+            "min": 0,
+            "max": 237.7611,
+            "info": {
+              "category": "Health",
+              "full_name": "hhs:childrens_hospitals_per_100k",
+              "measure": "childrens_hospitals_per_100k",
+              "type": "per 100k",
+              "short_name": "Children's Hospital Beds",
+              "long_name": "Children's hospital beds per 100k people",
+              "short_description": "Number of children's hospital beds per 100k people.",
+              "long_description": "Number of children's hospital beds per 100k people, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) children's hospitals as listed by the U.S. Health and Human Services, with number of beds (overall average of 7 day averages) as supply values, (b) Census block groups, with supply values as the total population as reported the American Community Survey 5-year summaries, and (c) distance between hospital locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
+              "statement": "There are {value} children's hospital beds per 100k people in {features.name}.",
+              "equity_category": "Accessibility",
+              "sources": [
+                {
+                  "name": "U.S. Department of Health & Human Services",
+                  "location": "Hospital > COVID-19 Reported Patient Impact and Hospital Capacity by Facility",
+                  "location_url": "https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/anag-cw7u",
+                  "date_accessed": 2022,
+                  "url": "https://healthdata.gov"
+                },
+                {
+                  "name": "American Community Survey",
+                  "location": "data/5_year_seq_by_state",
+                  "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
+                  "date_accessed": 2022,
+                  "url": "https://www.census.gov/programs-surveys/acs.html"
+                },
+                {
+                  "name": "Open Source Routing Machine",
+                  "date_accessed": 2022,
+                  "url": "http://project-osrm.org"
+                }
+              ],
+              "citations": ["wan12", "bii21"]
+            }
+          },
+          {
+            "name": "hhs:hospitals_min_drivetime",
+            "duplicates": 419,
+            "time_range": [11, 11],
+            "type": "float",
+            "missing": 420,
+            "mean": 17.2798,
+            "sd": 8.3583,
+            "min": 6.1578,
+            "max": 38.4841,
+            "info": {
+              "category": "Health",
+              "full_name": "hhs:hospitals_min_drivetime",
               "measure": "hospitals_min_drivetime",
               "type": "minutes",
-              "short_name": "hospital drive time",
-              "long_name": "drive time to nearest hospital",
+              "short_name": "Hospital Drive Time",
+              "long_name": "Drive time to nearest hospital",
               "short_description": "Drive time to the nearest hospital.",
-              "long_description": "Minimal drive time to a hospital from the Census block group centroid, as calculated by the Open Source Routing Machine in 2022. Hospital locations are from various government sources, collected by Oak Ridge National Laboratory. All distances are calculated at the block group level, then averaged up to higher-level geographies.",
+              "long_description": "Minimal drive time to a hospital from the Census block group centroid, as calculated by the Open Source Routing Machine in 2022. Hospital locations are from the U.S. Health and Human Services. All distances are calculated at the block group level, then averaged up to higher-level geographies.",
               "statement": "It takes {value} to drive to a hospital from {features.name}'s block group centroids on average.",
               "equity_category": "Accessibility",
               "sources": [
                 {
-                  "name": "Homeland Infrastructure Foundation-Level Data",
-                  "location": "HIFLD Open Portal > Public Health > Hospitals",
-                  "location_url": "https://hifld-geoplatform.opendata.arcgis.com/datasets/geoplatform::hospitals/about",
+                  "name": "U.S. Department of Health & Human Services",
+                  "location": "Hospital > COVID-19 Reported Patient Impact and Hospital Capacity by Facility",
+                  "location_url": "https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/anag-cw7u",
                   "date_accessed": 2022,
-                  "url": "https://hifld-geoplatform.opendata.arcgis.com"
+                  "url": "https://healthdata.gov"
+                },
+                {
+                  "name": "Open Source Routing Machine",
+                  "date_accessed": 2022,
+                  "url": "http://project-osrm.org"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "hhs:intensive_care_min_drivetime",
+            "duplicates": 419,
+            "time_range": [11, 11],
+            "type": "float",
+            "missing": 420,
+            "mean": 18.0835,
+            "sd": 8.7583,
+            "min": 6.1578,
+            "max": 38.4841,
+            "info": {
+              "category": "Health",
+              "full_name": "hhs:intensive_care_min_drivetime",
+              "measure": "intensive_care_min_drivetime",
+              "type": "minutes",
+              "short_name": "Intensive Care Unit Drive Time",
+              "long_name": "Drive time to nearest hospital with intensive care unit beds",
+              "short_description": "Drive time to the nearest hospital with intensive care unit beds.",
+              "long_description": "Minimal drive time to a hospital with intensive care unit beds from the Census block group centroid, as calculated by the Open Source Routing Machine in 2022. Hospital locations are from the U.S. Health and Human Services. All distances are calculated at the block group level, then averaged up to higher-level geographies.",
+              "statement": "It takes {value} to drive to a hospital with intensive care unit beds from {features.name}'s block group centroids on average.",
+              "equity_category": "Accessibility",
+              "sources": [
+                {
+                  "name": "U.S. Department of Health & Human Services",
+                  "location": "Hospital > COVID-19 Reported Patient Impact and Hospital Capacity by Facility",
+                  "location_url": "https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/anag-cw7u",
+                  "date_accessed": 2022,
+                  "url": "https://healthdata.gov"
+                },
+                {
+                  "name": "Open Source Routing Machine",
+                  "date_accessed": 2022,
+                  "url": "http://project-osrm.org"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "hhs:childrens_hospitals_min_drivetime",
+            "duplicates": 419,
+            "time_range": [11, 11],
+            "type": "float",
+            "missing": 420,
+            "mean": 93.1992,
+            "sd": 75.9731,
+            "min": 10.6272,
+            "max": 247.3187,
+            "info": {
+              "category": "Health",
+              "full_name": "hhs:childrens_hospitals_min_drivetime",
+              "measure": "childrens_hospitals_min_drivetime",
+              "type": "minutes",
+              "short_name": "Children's Hospital Drive Time",
+              "long_name": "Drive time to nearest children's hospital",
+              "short_description": "Drive time to the nearest children's hospital.",
+              "long_description": "Minimal drive time to a children's hospital from the Census block group centroid, as calculated by the Open Source Routing Machine in 2022. Hospital locations are from the U.S. Health and Human Services. All distances are calculated at the block group level, then averaged up to higher-level geographies.",
+              "statement": "It takes {value} to drive to a children's hospital from {features.name}'s block group centroids on average.",
+              "equity_category": "Accessibility",
+              "sources": [
+                {
+                  "name": "U.S. Department of Health & Human Services",
+                  "location": "Hospital > COVID-19 Reported Patient Impact and Hospital Capacity by Facility",
+                  "location_url": "https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/anag-cw7u",
+                  "date_accessed": 2022,
+                  "url": "https://healthdata.gov"
                 },
                 {
                   "name": "Open Source Routing Machine",
@@ -2530,97 +2615,6 @@
         ]
       },
       "_references": {
-        "wan12": {
-          "id": "wan12",
-          "author": [
-            {
-              "given": "Neng",
-              "family": "Wan"
-            },
-            {
-              "given": "Bin",
-              "family": "Zou"
-            },
-            {
-              "given": "Troy",
-              "family": "Sternberg"
-            }
-          ],
-          "year": 2012,
-          "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-          "journal": "International Journal of Geographical Information Science",
-          "volume": "26",
-          "page": "1073-1089",
-          "doi": "10.1080/13658816.2011.624987"
-        },
-        "bii21": {
-          "id": "bii21",
-          "author": [
-            {
-              "family": "Biocomplexity Institute and Initiative"
-            }
-          ],
-          "year": 2021,
-          "title": "catchment: Calculate spatial access and availability metrics",
-          "version": "0.0.1",
-          "url": "https://github.com/uva-bi-sdad/catchment"
-        },
-        "liang17": {
-          "id": "liang17",
-          "author": [
-            {
-              "given": "Lan",
-              "family": "Liang"
-            },
-            {
-              "given": "Cindy",
-              "family": "Branch"
-            }
-          ],
-          "year": 2017,
-          "title": "Health Literacy Universal Precautions Are Still a Distant Dream: Analysis of U.S. Data on Health Literate Practices",
-          "journal": "Health Literacy Research and Practice",
-          "volume": "1",
-          "number": 4,
-          "page": "e216-e230",
-          "doi": "10.3928/24748307-20170929-01"
-        },
-        "savitz20": {
-          "id": "savitz20",
-          "author": [
-            {
-              "given": "Samuel",
-              "family": "Savitz"
-            },
-            {
-              "given": "Stacy",
-              "family": "Bailey"
-            },
-            {
-              "given": "Stacie",
-              "family": "Dusetzina"
-            },
-            {
-              "given": "W.",
-              "family": "Schuyler Jones"
-            },
-            {
-              "given": "Justin",
-              "family": "Trogdon"
-            },
-            {
-              "given": "Sally",
-              "family": "Stearns"
-            }
-          ],
-          "year": 2020,
-          "title": "Treatment selection and medication adherence for stable angina: The role of area-based health literacy",
-          "journal": "Journal of Evaluation in Clinical Practice",
-          "volume": "26",
-          "number": 6,
-          "page": "1711-1721",
-          "doi": "10.1111/jep.13341"
-        },
         "lou04": {
           "id": "lou04",
           "author": [
@@ -2711,26 +2705,48 @@
           "volume": "Preprint",
           "doi": "10.13140/RG.2.2.12396.28807"
         },
-        "gallardo20": {
-          "id": "gallardo20",
+        "wan12": {
+          "id": "wan12",
           "author": [
             {
-              "given": "Robert",
-              "family": "Gallardo"
+              "given": "Neng",
+              "family": "Wan"
+            },
+            {
+              "given": "Bin",
+              "family": "Zou"
+            },
+            {
+              "given": "Troy",
+              "family": "Sternberg"
             }
           ],
-          "year": 2020,
-          "title": "Digital Divide Index",
-          "journal": "Purdue Center for Regional Development",
-          "url": "http://pcrd.purdue.edu/ddi"
+          "year": 2012,
+          "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+          "journal": "International Journal of Geographical Information Science",
+          "volume": "26",
+          "page": "1073-1089",
+          "doi": "10.1080/13658816.2011.624987"
+        },
+        "bii21": {
+          "id": "bii21",
+          "author": [
+            {
+              "family": "Biocomplexity Institute and Initiative"
+            }
+          ],
+          "year": 2021,
+          "title": "catchment: Calculate spatial access and availability metrics",
+          "version": "0.0.1",
+          "url": "https://github.com/uva-bi-sdad/catchment"
         }
       },
-      "sha512": "72634551e7f5396cd9181abeaadffbb4043612d82e3ec47bad94b296d2319f6b91028a305e2c0cc9d771476600e7aacc34e66a5b69748ca68e887e88bb9dcf29"
+      "sha512": "f86ccb7b37666e0bf92ae2b02b608189bd76141f97f4b830685da296d9425a1328f88ff8944ea3a40082e6f4792603210eb8cd948e5f40024775e44ce86ec9e9"
     },
     {
-      "bytes": 301380,
+      "bytes": 301476,
       "encoding": "ISO-8859-1",
-      "md5": "7d98440ddae5a75dbf484b41d63968a1",
+      "md5": "8a203523b21d774b0cf832cea62fae44",
       "format": "csv",
       "name": "county",
       "filename": "county.csv.xz",
@@ -2743,7 +2759,7 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-07-22 14:18:29",
+      "created": "2022-08-09 13:29:34",
       "last_modified": "2022-07-22 14:15:21",
       "row_count": 1742,
       "entity_count": 134,
@@ -2760,7 +2776,6 @@
             "min": 2009,
             "max": 2021,
             "info": {
-              "equity_category": {},
               "sources": {},
               "citations": {}
             }
@@ -2781,11 +2796,11 @@
               "full_name": "3rd_grade_mean_median_read_score:median_read_pass_rate",
               "measure": "median_read_pass_rate",
               "type": "percent",
-              "short_name": "Percentage of 3rd graders passing reading",
+              "short_name": "Median 3rd graders passing reading",
               "long_name": "Median percentage of 3rd graders passing reading test",
               "short_description": "Median percentage of 3rd grade population passing reading test for schools in the region",
               "long_description": "Median percentage of 3rd grade population passing reading test. The median is calculated across schools in the region.",
-              "statement": "On average {value} of 3rd graders pass reading in {features.name}.",
+              "statement": "On average, {value} of 3rd graders pass reading in {features.name}.",
               "equity_category": "Status",
               "sources": [
                 {
@@ -3314,43 +3329,6 @@
             }
           },
           {
-            "name": "dei:norm_dei",
-            "duplicates": 1346,
-            "time_range": [10, 12],
-            "type": "float",
-            "missing": 1343,
-            "mean": 41.862,
-            "sd": 23.139,
-            "min": 0,
-            "max": 100,
-            "info": {
-              "category": "Broadband",
-              "measure_table": "dmv_cttrbg_sdad_2019_2021_dei",
-              "full_name": "dei:norm_dei",
-              "measure": "norm_dei",
-              "type": "index",
-              "short_name": "Digital Equity Index",
-              "long_name": "Digital Equity Index",
-              "short_description": "Digital Equity Index captures the relative equity of digital access, with 0 being a score of relative equity and 100 being relative inequity.",
-              "long_description": "The Digital Equity Index (DEI) is a composite variable indicating the degree of broadband equity as it relates to adoption, accessibility, and infrastructure. It ranges from 0 to 100, where 100 indicates the most equitable broadband access. The DEI is constructed at the Census tract level and is composed of the following variables: percent of the population under 65 years of age, percent of the population with at least a high school education, percent of the population with income below the poverty level, percent of the population without a disability, the ratio between the share of homes making $75,000 or more per year with internet and the share of homes making less than $35,000 per year without internet, percent of the population with at least one computer, percent of the population with internet access, percent of the population that is low income (less than 30% of HUD Area Median Family Income) and have a housing cost burden over 30%, and average download speeds, upload speeds, and latency from Ookla speed tests.",
-              "statement": "The Digital Equity Index for {features.name} is {value}.",
-              "equity_category": ["Accessibility", "Availability", "Affordability"],
-              "sources": [
-                {
-                  "name": "American Community Survey",
-                  "date_accessed": 2021,
-                  "url": "https://www.census.gov/programs-surveys/acs.html"
-                },
-                {
-                  "name": "Ookla",
-                  "date_accessed": 2021,
-                  "url": "https://www.ookla.com/ookla-for-good/open-data"
-                }
-              ],
-              "citations": "gallardo20"
-            }
-          },
-          {
             "name": "speed_measurements:avg_down_using_devices",
             "duplicates": 1342,
             "time_range": [10, 12],
@@ -3595,7 +3573,6 @@
               "short_description": "Median drive time (minutes) to the ten closest mental health services facilities",
               "long_description": "Median drive time in minutes to the ten closest mental health services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
               "statement": "The median drive time to the ten closest mental health service facilities to {features.name} is {value}.",
-              "equity_category": {},
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -3627,7 +3604,6 @@
               "short_description": "Index of mental health services accessibility based on supply and demand of facilities",
               "long_description": "Mental health services access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
               "statement": "The mental health services accessibility score for {features.name} is {value}.",
-              "equity_category": {},
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -3659,7 +3635,6 @@
               "short_description": "Count of mental health facilities based on facility locations",
               "long_description": "Count of mental health facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
               "statement": "There are {value} mental health facilities in {features.name}.",
-              "equity_category": {},
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -3948,17 +3923,17 @@
             "time_range": [1, 10],
             "type": "float",
             "missing": 408,
-            "mean": 52.4363,
-            "sd": 12.1216,
-            "min": 24.4028,
-            "max": 93.3023,
+            "mean": 0.5244,
+            "sd": 0.1212,
+            "min": 0.244,
+            "max": 0.933,
             "info": {
               "category": "Education",
               "measure_table": "dc_education_training.va_hdcttr_acs_2015_2019_post_hs_education",
               "full_name": "post_hs_education:perc_post_hs_edu",
               "measure": "perc_post_hs_edu",
               "type": "percent",
-              "short_name": "Percentage with post-secondary education",
+              "short_name": "Post-secondary education (percent)",
               "long_name": "Percentage with post-secondary education",
               "short_description": "Percentage of the population self-reported to have post-secondary education",
               "long_description": "Percentage of the population self-reported to have post-secondary education. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.",
@@ -4023,7 +3998,6 @@
               "short_description": "Median drive time (minutes) to the ten closest substance use/behavioral health services facilities",
               "long_description": "Median drive time in minutes to the ten closest substance use/behavioral health services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
               "statement": "The median drive time to the ten closest substance use/behavioral health service facilities to {features.name} is {value}.",
-              "equity_category": {},
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -4055,7 +4029,6 @@
               "short_description": "Index of substance use/behavioral health services accessibility based on supply and demand of facilities",
               "long_description": "Substance use/behavioral health services access score based on 3-step  floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
               "statement": "The substance use/behavioral health services accessibility score for {features.name} is {value}.",
-              "equity_category": {},
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -4087,7 +4060,6 @@
               "short_description": "Count of substance use/behavioral health facilities based on facility locations",
               "long_description": "Count of substance use/behavioral health facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
               "statement": "There are {value} substance use facilities in {features.name}.",
-              "equity_category": {},
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -5187,66 +5159,33 @@
             }
           },
           {
-            "name": "hifld:hospitals",
-            "duplicates": 1735,
-            "time_range": [11, 11],
-            "type": "integer",
-            "missing": 1609,
-            "mean": 0.6992,
-            "sd": 0.9454,
-            "min": 0,
-            "max": 5,
-            "info": {
-              "category": "Health",
-              "full_name": "hifld:hospitals",
-              "measure": "hospitals",
-              "type": "count",
-              "short_name": "hospitals",
-              "long_name": "number of hospital",
-              "short_description": "Number hospitals within the region.",
-              "long_description": "The number of hospital within each region, as collected from various government sources by Oak Ridge National Laboratory.",
-              "statement": "There are {value} hospitals in {features.name}.",
-              "equity_category": "Accessibility",
-              "sources": [
-                {
-                  "name": "Homeland Infrastructure Foundation-Level Data",
-                  "location": "HIFLD Open Portal > Public Health > Hospitals",
-                  "location_url": "https://hifld-geoplatform.opendata.arcgis.com/datasets/geoplatform::hospitals/about",
-                  "date_accessed": 2022,
-                  "url": "https://hifld-geoplatform.opendata.arcgis.com"
-                }
-              ],
-              "citations": {}
-            }
-          },
-          {
-            "name": "hifld:hospital_beds_per_100k",
+            "name": "hhs:hospitals_per_100k",
             "duplicates": 1608,
             "time_range": [11, 11],
             "type": "float",
             "missing": 1609,
-            "mean": 245.5033,
-            "sd": 212.9226,
-            "min": 17.2829,
-            "max": 1323.312,
+            "mean": 197.077,
+            "sd": 138.5653,
+            "min": 7.6417,
+            "max": 714.2293,
             "info": {
               "category": "Health",
-              "full_name": "hifld:hospital_beds_per_100k",
-              "measure": "hospital_beds_per_100k",
+              "full_name": "hhs:hospitals_per_100k",
+              "measure": "hospitals_per_100k",
               "type": "per 100k",
-              "short_name": "hospital beds",
-              "long_name": "hospital beds per 100k people",
-              "short_description": "Number hospital beds per 100k people.",
-              "long_description": "The number of hospital beds per 100k people, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) hospitals, with supply values as bed counts, as collected from various government sources by Oak Ridge National Laboratory [for hospitals with no bed counts, bed counts are median bed counts across all other hospitals in the included regions], (b) Census block groups, with demand values as the total population as reported in the American Community Survey 5-year summaries, and (c) distances between hospital locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
+              "short_name": "Hospital Beds",
+              "long_name": "Hospital beds per 100k people",
+              "short_description": "Number of hospital beds per 100k people.",
+              "long_description": "Number of hospital beds per 100k people, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) hospitals as listed by the U.S. Health and Human Services, with number of beds (overall average of 7 day averages) as supply values, (b) Census block groups, with supply values as the total population as reported the American Community Survey 5-year summaries, and (c) distance between hospital locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
               "statement": "There are {value} hospital beds per 100k people in {features.name}.",
               "equity_category": "Accessibility",
               "sources": [
                 {
-                  "name": "Homeland Infrastructure Foundation-Level Data",
-                  "location": "HIFLD Open Portal > Public Health > Hospitals",
-                  "location_url": "https://hifld-geoplatform.opendata.arcgis.com/datasets/geoplatform::hospitals/about",
+                  "name": "U.S. Department of Health & Human Services",
+                  "location": "Hospital > COVID-19 Reported Patient Impact and Hospital Capacity by Facility",
+                  "location_url": "https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/anag-cw7u",
                   "date_accessed": 2022,
-                  "url": "https://hifld-geoplatform.opendata.arcgis.com"
+                  "url": "https://healthdata.gov"
                 },
                 {
                   "name": "American Community Survey",
@@ -5265,33 +5204,199 @@
             }
           },
           {
-            "name": "hifld:hospitals_min_drivetime",
+            "name": "hhs:intensive_care_per_100k",
             "duplicates": 1608,
             "time_range": [11, 11],
             "type": "float",
             "missing": 1609,
-            "mean": 22.1606,
-            "sd": 12.6437,
-            "min": 3.5286,
-            "max": 57.0333,
+            "mean": 19.489,
+            "sd": 19.211,
+            "min": 0.0115,
+            "max": 155.5911,
             "info": {
               "category": "Health",
-              "full_name": "hifld:hospitals_min_drivetime",
+              "full_name": "hhs:intensive_care_per_100k",
+              "measure": "intensive_care_per_100k",
+              "type": "per 100k",
+              "short_name": "Intensive Care Unit Beds",
+              "long_name": "Intensive care unit beds per 100k people",
+              "short_description": "Number of Intensive care unit beds per 100k people.",
+              "long_description": "Number of Intensive care unit beds per 100k people, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) hospitals with intensive care unit beds as listed by the U.S. Health and Human Services, with number of intensive care unit beds (overall average of 7 day averages) as supply values, (b) Census block groups, with supply values as the total population as reported the American Community Survey 5-year summaries, and (c) distance between hospital locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
+              "statement": "There are {value} intensive care unit beds per 100k people in {features.name}.",
+              "equity_category": "Accessibility",
+              "sources": [
+                {
+                  "name": "U.S. Department of Health & Human Services",
+                  "location": "Hospital > COVID-19 Reported Patient Impact and Hospital Capacity by Facility",
+                  "location_url": "https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/anag-cw7u",
+                  "date_accessed": 2022,
+                  "url": "https://healthdata.gov"
+                },
+                {
+                  "name": "American Community Survey",
+                  "location": "data/5_year_seq_by_state",
+                  "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
+                  "date_accessed": 2022,
+                  "url": "https://www.census.gov/programs-surveys/acs.html"
+                },
+                {
+                  "name": "Open Source Routing Machine",
+                  "date_accessed": 2022,
+                  "url": "http://project-osrm.org"
+                }
+              ],
+              "citations": ["wan12", "bii21"]
+            }
+          },
+          {
+            "name": "hhs:childrens_hospitals_per_100k",
+            "duplicates": 1608,
+            "time_range": [11, 11],
+            "type": "float",
+            "missing": 1609,
+            "mean": 25.0521,
+            "sd": 145.4014,
+            "min": 0,
+            "max": 1587.3078,
+            "info": {
+              "category": "Health",
+              "full_name": "hhs:childrens_hospitals_per_100k",
+              "measure": "childrens_hospitals_per_100k",
+              "type": "per 100k",
+              "short_name": "Children's Hospital Beds",
+              "long_name": "Children's hospital beds per 100k people",
+              "short_description": "Number of children's hospital beds per 100k people.",
+              "long_description": "Number of children's hospital beds per 100k people, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) children's hospitals as listed by the U.S. Health and Human Services, with number of beds (overall average of 7 day averages) as supply values, (b) Census block groups, with supply values as the total population as reported the American Community Survey 5-year summaries, and (c) distance between hospital locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
+              "statement": "There are {value} children's hospital beds per 100k people in {features.name}.",
+              "equity_category": "Accessibility",
+              "sources": [
+                {
+                  "name": "U.S. Department of Health & Human Services",
+                  "location": "Hospital > COVID-19 Reported Patient Impact and Hospital Capacity by Facility",
+                  "location_url": "https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/anag-cw7u",
+                  "date_accessed": 2022,
+                  "url": "https://healthdata.gov"
+                },
+                {
+                  "name": "American Community Survey",
+                  "location": "data/5_year_seq_by_state",
+                  "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
+                  "date_accessed": 2022,
+                  "url": "https://www.census.gov/programs-surveys/acs.html"
+                },
+                {
+                  "name": "Open Source Routing Machine",
+                  "date_accessed": 2022,
+                  "url": "http://project-osrm.org"
+                }
+              ],
+              "citations": ["wan12", "bii21"]
+            }
+          },
+          {
+            "name": "hhs:hospitals_min_drivetime",
+            "duplicates": 1608,
+            "time_range": [11, 11],
+            "type": "float",
+            "missing": 1609,
+            "mean": 22.7147,
+            "sd": 12.743,
+            "min": 3.2667,
+            "max": 56.9,
+            "info": {
+              "category": "Health",
+              "full_name": "hhs:hospitals_min_drivetime",
               "measure": "hospitals_min_drivetime",
               "type": "minutes",
-              "short_name": "hospital drive time",
-              "long_name": "drive time to nearest hospital",
+              "short_name": "Hospital Drive Time",
+              "long_name": "Drive time to nearest hospital",
               "short_description": "Drive time to the nearest hospital.",
-              "long_description": "Minimal drive time to a hospital from the Census block group centroid, as calculated by the Open Source Routing Machine in 2022. Hospital locations are from various government sources, collected by Oak Ridge National Laboratory. All distances are calculated at the block group level, then averaged up to higher-level geographies.",
+              "long_description": "Minimal drive time to a hospital from the Census block group centroid, as calculated by the Open Source Routing Machine in 2022. Hospital locations are from the U.S. Health and Human Services. All distances are calculated at the block group level, then averaged up to higher-level geographies.",
               "statement": "It takes {value} to drive to a hospital from {features.name}'s block group centroids on average.",
               "equity_category": "Accessibility",
               "sources": [
                 {
-                  "name": "Homeland Infrastructure Foundation-Level Data",
-                  "location": "HIFLD Open Portal > Public Health > Hospitals",
-                  "location_url": "https://hifld-geoplatform.opendata.arcgis.com/datasets/geoplatform::hospitals/about",
+                  "name": "U.S. Department of Health & Human Services",
+                  "location": "Hospital > COVID-19 Reported Patient Impact and Hospital Capacity by Facility",
+                  "location_url": "https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/anag-cw7u",
                   "date_accessed": 2022,
-                  "url": "https://hifld-geoplatform.opendata.arcgis.com"
+                  "url": "https://healthdata.gov"
+                },
+                {
+                  "name": "Open Source Routing Machine",
+                  "date_accessed": 2022,
+                  "url": "http://project-osrm.org"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "hhs:intensive_care_min_drivetime",
+            "duplicates": 1608,
+            "time_range": [11, 11],
+            "type": "float",
+            "missing": 1609,
+            "mean": 24.4144,
+            "sd": 14.9078,
+            "min": 3.2667,
+            "max": 80.92,
+            "info": {
+              "category": "Health",
+              "full_name": "hhs:intensive_care_min_drivetime",
+              "measure": "intensive_care_min_drivetime",
+              "type": "minutes",
+              "short_name": "Intensive Care Unit Drive Time",
+              "long_name": "Drive time to nearest hospital with intensive care unit beds",
+              "short_description": "Drive time to the nearest hospital with intensive care unit beds.",
+              "long_description": "Minimal drive time to a hospital with intensive care unit beds from the Census block group centroid, as calculated by the Open Source Routing Machine in 2022. Hospital locations are from the U.S. Health and Human Services. All distances are calculated at the block group level, then averaged up to higher-level geographies.",
+              "statement": "It takes {value} to drive to a hospital with intensive care unit beds from {features.name}'s block group centroids on average.",
+              "equity_category": "Accessibility",
+              "sources": [
+                {
+                  "name": "U.S. Department of Health & Human Services",
+                  "location": "Hospital > COVID-19 Reported Patient Impact and Hospital Capacity by Facility",
+                  "location_url": "https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/anag-cw7u",
+                  "date_accessed": 2022,
+                  "url": "https://healthdata.gov"
+                },
+                {
+                  "name": "Open Source Routing Machine",
+                  "date_accessed": 2022,
+                  "url": "http://project-osrm.org"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "hhs:childrens_hospitals_min_drivetime",
+            "duplicates": 1608,
+            "time_range": [11, 11],
+            "type": "float",
+            "missing": 1609,
+            "mean": 114.6557,
+            "sd": 71.9934,
+            "min": 10.6272,
+            "max": 269.5,
+            "info": {
+              "category": "Health",
+              "full_name": "hhs:childrens_hospitals_min_drivetime",
+              "measure": "childrens_hospitals_min_drivetime",
+              "type": "minutes",
+              "short_name": "Children's Hospital Drive Time",
+              "long_name": "Drive time to nearest children's hospital",
+              "short_description": "Drive time to the nearest children's hospital.",
+              "long_description": "Minimal drive time to a children's hospital from the Census block group centroid, as calculated by the Open Source Routing Machine in 2022. Hospital locations are from the U.S. Health and Human Services. All distances are calculated at the block group level, then averaged up to higher-level geographies.",
+              "statement": "It takes {value} to drive to a children's hospital from {features.name}'s block group centroids on average.",
+              "equity_category": "Accessibility",
+              "sources": [
+                {
+                  "name": "U.S. Department of Health & Human Services",
+                  "location": "Hospital > COVID-19 Reported Patient Impact and Hospital Capacity by Facility",
+                  "location_url": "https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/anag-cw7u",
+                  "date_accessed": 2022,
+                  "url": "https://healthdata.gov"
                 },
                 {
                   "name": "Open Source Routing Machine",
@@ -5305,97 +5410,6 @@
         ]
       },
       "_references": {
-        "wan12": {
-          "id": "wan12",
-          "author": [
-            {
-              "given": "Neng",
-              "family": "Wan"
-            },
-            {
-              "given": "Bin",
-              "family": "Zou"
-            },
-            {
-              "given": "Troy",
-              "family": "Sternberg"
-            }
-          ],
-          "year": 2012,
-          "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-          "journal": "International Journal of Geographical Information Science",
-          "volume": "26",
-          "page": "1073-1089",
-          "doi": "10.1080/13658816.2011.624987"
-        },
-        "bii21": {
-          "id": "bii21",
-          "author": [
-            {
-              "family": "Biocomplexity Institute and Initiative"
-            }
-          ],
-          "year": 2021,
-          "title": "catchment: Calculate spatial access and availability metrics",
-          "version": "0.0.1",
-          "url": "https://github.com/uva-bi-sdad/catchment"
-        },
-        "liang17": {
-          "id": "liang17",
-          "author": [
-            {
-              "given": "Lan",
-              "family": "Liang"
-            },
-            {
-              "given": "Cindy",
-              "family": "Branch"
-            }
-          ],
-          "year": 2017,
-          "title": "Health Literacy Universal Precautions Are Still a Distant Dream: Analysis of U.S. Data on Health Literate Practices",
-          "journal": "Health Literacy Research and Practice",
-          "volume": "1",
-          "number": 4,
-          "page": "e216-e230",
-          "doi": "10.3928/24748307-20170929-01"
-        },
-        "savitz20": {
-          "id": "savitz20",
-          "author": [
-            {
-              "given": "Samuel",
-              "family": "Savitz"
-            },
-            {
-              "given": "Stacy",
-              "family": "Bailey"
-            },
-            {
-              "given": "Stacie",
-              "family": "Dusetzina"
-            },
-            {
-              "given": "W.",
-              "family": "Schuyler Jones"
-            },
-            {
-              "given": "Justin",
-              "family": "Trogdon"
-            },
-            {
-              "given": "Sally",
-              "family": "Stearns"
-            }
-          ],
-          "year": 2020,
-          "title": "Treatment selection and medication adherence for stable angina: The role of area-based health literacy",
-          "journal": "Journal of Evaluation in Clinical Practice",
-          "volume": "26",
-          "number": 6,
-          "page": "1711-1721",
-          "doi": "10.1111/jep.13341"
-        },
         "lou04": {
           "id": "lou04",
           "author": [
@@ -5486,26 +5500,48 @@
           "volume": "Preprint",
           "doi": "10.13140/RG.2.2.12396.28807"
         },
-        "gallardo20": {
-          "id": "gallardo20",
+        "wan12": {
+          "id": "wan12",
           "author": [
             {
-              "given": "Robert",
-              "family": "Gallardo"
+              "given": "Neng",
+              "family": "Wan"
+            },
+            {
+              "given": "Bin",
+              "family": "Zou"
+            },
+            {
+              "given": "Troy",
+              "family": "Sternberg"
             }
           ],
-          "year": 2020,
-          "title": "Digital Divide Index",
-          "journal": "Purdue Center for Regional Development",
-          "url": "http://pcrd.purdue.edu/ddi"
+          "year": 2012,
+          "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+          "journal": "International Journal of Geographical Information Science",
+          "volume": "26",
+          "page": "1073-1089",
+          "doi": "10.1080/13658816.2011.624987"
+        },
+        "bii21": {
+          "id": "bii21",
+          "author": [
+            {
+              "family": "Biocomplexity Institute and Initiative"
+            }
+          ],
+          "year": 2021,
+          "title": "catchment: Calculate spatial access and availability metrics",
+          "version": "0.0.1",
+          "url": "https://github.com/uva-bi-sdad/catchment"
         }
       },
-      "sha512": "d06c29a224a9fb78c06cc9fb2097ee6d2077274a7f2f815dd2661b563fd68f39f8a0fc415d0dd162e83db7a58ab089d2e312ea82be73949c63ebdbd57ada8995"
+      "sha512": "4df0938e816f9140bfa4fce7c9c307b7da70e94fb04373eb69e61d665d1c855628304671730dbea965c8377e77be3dd7b3bd8239e118ab046b4b5e8f710e4064"
     },
     {
-      "bytes": 3271008,
+      "bytes": 3267712,
       "encoding": "ISO-8859-1",
-      "md5": "e530bd4795e00d0faeb3c072fef66fcb",
+      "md5": "e9f8477673ef83d7875dbd26949f8bc6",
       "format": "csv",
       "name": "tract",
       "filename": "tract.csv.xz",
@@ -5518,7 +5554,7 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-07-22 14:18:38",
+      "created": "2022-08-09 13:29:42",
       "last_modified": "2022-07-22 14:15:21",
       "row_count": 31889,
       "entity_count": 2453,
@@ -5535,7 +5571,6 @@
             "min": 2009,
             "max": 2021,
             "info": {
-              "equity_category": {},
               "sources": {},
               "citations": {}
             }
@@ -5552,11 +5587,11 @@
               "full_name": "3rd_grade_mean_median_read_score:median_read_pass_rate",
               "measure": "median_read_pass_rate",
               "type": "percent",
-              "short_name": "Percentage of 3rd graders passing reading",
+              "short_name": "Median 3rd graders passing reading",
               "long_name": "Median percentage of 3rd graders passing reading test",
               "short_description": "Median percentage of 3rd grade population passing reading test for schools in the region",
               "long_description": "Median percentage of 3rd grade population passing reading test. The median is calculated across schools in the region.",
-              "statement": "On average {value} of 3rd graders pass reading in {features.name}.",
+              "statement": "On average, {value} of 3rd graders pass reading in {features.name}.",
               "equity_category": "Status",
               "sources": [
                 {
@@ -6089,43 +6124,6 @@
             }
           },
           {
-            "name": "dei:norm_dei",
-            "duplicates": 26294,
-            "time_range": [10, 12],
-            "type": "float",
-            "missing": 26291,
-            "mean": 61.4622,
-            "sd": 17.3967,
-            "min": 0,
-            "max": 100,
-            "info": {
-              "category": "Broadband",
-              "measure_table": "dmv_cttrbg_sdad_2019_2021_dei",
-              "full_name": "dei:norm_dei",
-              "measure": "norm_dei",
-              "type": "index",
-              "short_name": "Digital Equity Index",
-              "long_name": "Digital Equity Index",
-              "short_description": "Digital Equity Index captures the relative equity of digital access, with 0 being a score of relative equity and 100 being relative inequity.",
-              "long_description": "The Digital Equity Index (DEI) is a composite variable indicating the degree of broadband equity as it relates to adoption, accessibility, and infrastructure. It ranges from 0 to 100, where 100 indicates the most equitable broadband access. The DEI is constructed at the Census tract level and is composed of the following variables: percent of the population under 65 years of age, percent of the population with at least a high school education, percent of the population with income below the poverty level, percent of the population without a disability, the ratio between the share of homes making $75,000 or more per year with internet and the share of homes making less than $35,000 per year without internet, percent of the population with at least one computer, percent of the population with internet access, percent of the population that is low income (less than 30% of HUD Area Median Family Income) and have a housing cost burden over 30%, and average download speeds, upload speeds, and latency from Ookla speed tests.",
-              "statement": "The Digital Equity Index for {features.name} is {value}.",
-              "equity_category": ["Accessibility", "Availability", "Affordability"],
-              "sources": [
-                {
-                  "name": "American Community Survey",
-                  "date_accessed": 2021,
-                  "url": "https://www.census.gov/programs-surveys/acs.html"
-                },
-                {
-                  "name": "Ookla",
-                  "date_accessed": 2021,
-                  "url": "https://www.ookla.com/ookla-for-good/open-data"
-                }
-              ],
-              "citations": "gallardo20"
-            }
-          },
-          {
             "name": "speed_measurements:avg_down_using_devices",
             "duplicates": 26231,
             "time_range": [10, 12],
@@ -6354,7 +6352,6 @@
               "short_description": "Median drive time (minutes) to the ten closest mental health services facilities",
               "long_description": "Median drive time in minutes to the ten closest mental health services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
               "statement": "The median drive time to the ten closest mental health service facilities to {features.name} is {value}.",
-              "equity_category": {},
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -6386,7 +6383,6 @@
               "short_description": "Index of mental health services accessibility based on supply and demand of facilities",
               "long_description": "Mental health services access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
               "statement": "The mental health services accessibility score for {features.name} is {value}.",
-              "equity_category": {},
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -6418,7 +6414,6 @@
               "short_description": "Count of mental health facilities based on facility locations",
               "long_description": "Count of mental health facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
               "statement": "There are {value} mental health facilities in {features.name}.",
-              "equity_category": {},
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -6707,17 +6702,17 @@
             "time_range": [1, 10],
             "type": "float",
             "missing": 13156,
-            "mean": 62.6456,
-            "sd": 18.204,
+            "mean": 0.6265,
+            "sd": 0.182,
             "min": 0,
-            "max": 100,
+            "max": 1,
             "info": {
               "category": "Education",
               "measure_table": "dc_education_training.va_hdcttr_acs_2015_2019_post_hs_education",
               "full_name": "post_hs_education:perc_post_hs_edu",
               "measure": "perc_post_hs_edu",
               "type": "percent",
-              "short_name": "Percentage with post-secondary education",
+              "short_name": "Post-secondary education (percent)",
               "long_name": "Percentage with post-secondary education",
               "short_description": "Percentage of the population self-reported to have post-secondary education",
               "long_description": "Percentage of the population self-reported to have post-secondary education. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.",
@@ -6782,7 +6777,6 @@
               "short_description": "Median drive time (minutes) to the ten closest substance use/behavioral health services facilities",
               "long_description": "Median drive time in minutes to the ten closest substance use/behavioral health services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
               "statement": "The median drive time to the ten closest substance use/behavioral health service facilities to {features.name} is {value}.",
-              "equity_category": {},
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -6814,7 +6808,6 @@
               "short_description": "Index of substance use/behavioral health services accessibility based on supply and demand of facilities",
               "long_description": "Substance use/behavioral health services access score based on 3-step  floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
               "statement": "The substance use/behavioral health services accessibility score for {features.name} is {value}.",
-              "equity_category": {},
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -6846,7 +6839,6 @@
               "short_description": "Count of substance use/behavioral health facilities based on facility locations",
               "long_description": "Count of substance use/behavioral health facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
               "statement": "There are {value} substance use facilities in {features.name}.",
-              "equity_category": {},
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -7906,66 +7898,33 @@
             }
           },
           {
-            "name": "hifld:hospitals",
-            "duplicates": 31885,
-            "time_range": [11, 11],
-            "type": "integer",
-            "missing": 29714,
-            "mean": 0.0428,
-            "sd": 0.2091,
-            "min": 0,
-            "max": 2,
-            "info": {
-              "category": "Health",
-              "full_name": "hifld:hospitals",
-              "measure": "hospitals",
-              "type": "count",
-              "short_name": "hospitals",
-              "long_name": "number of hospital",
-              "short_description": "Number hospitals within the region.",
-              "long_description": "The number of hospital within each region, as collected from various government sources by Oak Ridge National Laboratory.",
-              "statement": "There are {value} hospitals in {features.name}.",
-              "equity_category": "Accessibility",
-              "sources": [
-                {
-                  "name": "Homeland Infrastructure Foundation-Level Data",
-                  "location": "HIFLD Open Portal > Public Health > Hospitals",
-                  "location_url": "https://hifld-geoplatform.opendata.arcgis.com/datasets/geoplatform::hospitals/about",
-                  "date_accessed": 2022,
-                  "url": "https://hifld-geoplatform.opendata.arcgis.com"
-                }
-              ],
-              "citations": {}
-            }
-          },
-          {
-            "name": "hifld:hospital_beds_per_100k",
+            "name": "hhs:hospitals_per_100k",
             "duplicates": 29729,
             "time_range": [11, 11],
             "type": "float",
             "missing": 29714,
-            "mean": 244.8621,
-            "sd": 177.0599,
+            "mean": 220.3406,
+            "sd": 133.8632,
             "min": 0,
-            "max": 1323.312,
+            "max": 947.6005,
             "info": {
               "category": "Health",
-              "full_name": "hifld:hospital_beds_per_100k",
-              "measure": "hospital_beds_per_100k",
+              "full_name": "hhs:hospitals_per_100k",
+              "measure": "hospitals_per_100k",
               "type": "per 100k",
-              "short_name": "hospital beds",
-              "long_name": "hospital beds per 100k people",
-              "short_description": "Number hospital beds per 100k people.",
-              "long_description": "The number of hospital beds per 100k people, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) hospitals, with supply values as bed counts, as collected from various government sources by Oak Ridge National Laboratory [for hospitals with no bed counts, bed counts are median bed counts across all other hospitals in the included regions], (b) Census block groups, with demand values as the total population as reported in the American Community Survey 5-year summaries, and (c) distances between hospital locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
+              "short_name": "Hospital Beds",
+              "long_name": "Hospital beds per 100k people",
+              "short_description": "Number of hospital beds per 100k people.",
+              "long_description": "Number of hospital beds per 100k people, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) hospitals as listed by the U.S. Health and Human Services, with number of beds (overall average of 7 day averages) as supply values, (b) Census block groups, with supply values as the total population as reported the American Community Survey 5-year summaries, and (c) distance between hospital locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
               "statement": "There are {value} hospital beds per 100k people in {features.name}.",
               "equity_category": "Accessibility",
               "sources": [
                 {
-                  "name": "Homeland Infrastructure Foundation-Level Data",
-                  "location": "HIFLD Open Portal > Public Health > Hospitals",
-                  "location_url": "https://hifld-geoplatform.opendata.arcgis.com/datasets/geoplatform::hospitals/about",
+                  "name": "U.S. Department of Health & Human Services",
+                  "location": "Hospital > COVID-19 Reported Patient Impact and Hospital Capacity by Facility",
+                  "location_url": "https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/anag-cw7u",
                   "date_accessed": 2022,
-                  "url": "https://hifld-geoplatform.opendata.arcgis.com"
+                  "url": "https://healthdata.gov"
                 },
                 {
                   "name": "American Community Survey",
@@ -7984,33 +7943,199 @@
             }
           },
           {
-            "name": "hifld:hospitals_min_drivetime",
-            "duplicates": 30774,
+            "name": "hhs:intensive_care_per_100k",
+            "duplicates": 29729,
             "time_range": [11, 11],
             "type": "float",
             "missing": 29714,
-            "mean": 15.333,
-            "sd": 11.1564,
-            "min": 1.55,
-            "max": 102,
+            "mean": 26.9807,
+            "sd": 20.0448,
+            "min": 0,
+            "max": 162.6608,
             "info": {
               "category": "Health",
-              "full_name": "hifld:hospitals_min_drivetime",
+              "full_name": "hhs:intensive_care_per_100k",
+              "measure": "intensive_care_per_100k",
+              "type": "per 100k",
+              "short_name": "Intensive Care Unit Beds",
+              "long_name": "Intensive care unit beds per 100k people",
+              "short_description": "Number of Intensive care unit beds per 100k people.",
+              "long_description": "Number of Intensive care unit beds per 100k people, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) hospitals with intensive care unit beds as listed by the U.S. Health and Human Services, with number of intensive care unit beds (overall average of 7 day averages) as supply values, (b) Census block groups, with supply values as the total population as reported the American Community Survey 5-year summaries, and (c) distance between hospital locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
+              "statement": "There are {value} intensive care unit beds per 100k people in {features.name}.",
+              "equity_category": "Accessibility",
+              "sources": [
+                {
+                  "name": "U.S. Department of Health & Human Services",
+                  "location": "Hospital > COVID-19 Reported Patient Impact and Hospital Capacity by Facility",
+                  "location_url": "https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/anag-cw7u",
+                  "date_accessed": 2022,
+                  "url": "https://healthdata.gov"
+                },
+                {
+                  "name": "American Community Survey",
+                  "location": "data/5_year_seq_by_state",
+                  "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
+                  "date_accessed": 2022,
+                  "url": "https://www.census.gov/programs-surveys/acs.html"
+                },
+                {
+                  "name": "Open Source Routing Machine",
+                  "date_accessed": 2022,
+                  "url": "http://project-osrm.org"
+                }
+              ],
+              "citations": ["wan12", "bii21"]
+            }
+          },
+          {
+            "name": "hhs:childrens_hospitals_per_100k",
+            "duplicates": 29736,
+            "time_range": [11, 11],
+            "type": "float",
+            "missing": 29714,
+            "mean": 23.735,
+            "sd": 101.5701,
+            "min": 0,
+            "max": 3420.3959,
+            "info": {
+              "category": "Health",
+              "full_name": "hhs:childrens_hospitals_per_100k",
+              "measure": "childrens_hospitals_per_100k",
+              "type": "per 100k",
+              "short_name": "Children's Hospital Beds",
+              "long_name": "Children's hospital beds per 100k people",
+              "short_description": "Number of children's hospital beds per 100k people.",
+              "long_description": "Number of children's hospital beds per 100k people, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) children's hospitals as listed by the U.S. Health and Human Services, with number of beds (overall average of 7 day averages) as supply values, (b) Census block groups, with supply values as the total population as reported the American Community Survey 5-year summaries, and (c) distance between hospital locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
+              "statement": "There are {value} children's hospital beds per 100k people in {features.name}.",
+              "equity_category": "Accessibility",
+              "sources": [
+                {
+                  "name": "U.S. Department of Health & Human Services",
+                  "location": "Hospital > COVID-19 Reported Patient Impact and Hospital Capacity by Facility",
+                  "location_url": "https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/anag-cw7u",
+                  "date_accessed": 2022,
+                  "url": "https://healthdata.gov"
+                },
+                {
+                  "name": "American Community Survey",
+                  "location": "data/5_year_seq_by_state",
+                  "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
+                  "date_accessed": 2022,
+                  "url": "https://www.census.gov/programs-surveys/acs.html"
+                },
+                {
+                  "name": "Open Source Routing Machine",
+                  "date_accessed": 2022,
+                  "url": "http://project-osrm.org"
+                }
+              ],
+              "citations": ["wan12", "bii21"]
+            }
+          },
+          {
+            "name": "hhs:hospitals_min_drivetime",
+            "duplicates": 30770,
+            "time_range": [11, 11],
+            "type": "float",
+            "missing": 29714,
+            "mean": 15.13,
+            "sd": 11.2541,
+            "min": 1.3,
+            "max": 78.6,
+            "info": {
+              "category": "Health",
+              "full_name": "hhs:hospitals_min_drivetime",
               "measure": "hospitals_min_drivetime",
               "type": "minutes",
-              "short_name": "hospital drive time",
-              "long_name": "drive time to nearest hospital",
+              "short_name": "Hospital Drive Time",
+              "long_name": "Drive time to nearest hospital",
               "short_description": "Drive time to the nearest hospital.",
-              "long_description": "Minimal drive time to a hospital from the Census block group centroid, as calculated by the Open Source Routing Machine in 2022. Hospital locations are from various government sources, collected by Oak Ridge National Laboratory. All distances are calculated at the block group level, then averaged up to higher-level geographies.",
+              "long_description": "Minimal drive time to a hospital from the Census block group centroid, as calculated by the Open Source Routing Machine in 2022. Hospital locations are from the U.S. Health and Human Services. All distances are calculated at the block group level, then averaged up to higher-level geographies.",
               "statement": "It takes {value} to drive to a hospital from {features.name}'s block group centroids on average.",
               "equity_category": "Accessibility",
               "sources": [
                 {
-                  "name": "Homeland Infrastructure Foundation-Level Data",
-                  "location": "HIFLD Open Portal > Public Health > Hospitals",
-                  "location_url": "https://hifld-geoplatform.opendata.arcgis.com/datasets/geoplatform::hospitals/about",
+                  "name": "U.S. Department of Health & Human Services",
+                  "location": "Hospital > COVID-19 Reported Patient Impact and Hospital Capacity by Facility",
+                  "location_url": "https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/anag-cw7u",
                   "date_accessed": 2022,
-                  "url": "https://hifld-geoplatform.opendata.arcgis.com"
+                  "url": "https://healthdata.gov"
+                },
+                {
+                  "name": "Open Source Routing Machine",
+                  "date_accessed": 2022,
+                  "url": "http://project-osrm.org"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "hhs:intensive_care_min_drivetime",
+            "duplicates": 30754,
+            "time_range": [11, 11],
+            "type": "float",
+            "missing": 29714,
+            "mean": 15.8107,
+            "sd": 11.9428,
+            "min": 1.4,
+            "max": 81.2667,
+            "info": {
+              "category": "Health",
+              "full_name": "hhs:intensive_care_min_drivetime",
+              "measure": "intensive_care_min_drivetime",
+              "type": "minutes",
+              "short_name": "Intensive Care Unit Drive Time",
+              "long_name": "Drive time to nearest hospital with intensive care unit beds",
+              "short_description": "Drive time to the nearest hospital with intensive care unit beds.",
+              "long_description": "Minimal drive time to a hospital with intensive care unit beds from the Census block group centroid, as calculated by the Open Source Routing Machine in 2022. Hospital locations are from the U.S. Health and Human Services. All distances are calculated at the block group level, then averaged up to higher-level geographies.",
+              "statement": "It takes {value} to drive to a hospital with intensive care unit beds from {features.name}'s block group centroids on average.",
+              "equity_category": "Accessibility",
+              "sources": [
+                {
+                  "name": "U.S. Department of Health & Human Services",
+                  "location": "Hospital > COVID-19 Reported Patient Impact and Hospital Capacity by Facility",
+                  "location_url": "https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/anag-cw7u",
+                  "date_accessed": 2022,
+                  "url": "https://healthdata.gov"
+                },
+                {
+                  "name": "Open Source Routing Machine",
+                  "date_accessed": 2022,
+                  "url": "http://project-osrm.org"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "hhs:childrens_hospitals_min_drivetime",
+            "duplicates": 30102,
+            "time_range": [11, 11],
+            "type": "float",
+            "missing": 29714,
+            "mean": 74.8372,
+            "sd": 69.4256,
+            "min": 1.3,
+            "max": 278.45,
+            "info": {
+              "category": "Health",
+              "full_name": "hhs:childrens_hospitals_min_drivetime",
+              "measure": "childrens_hospitals_min_drivetime",
+              "type": "minutes",
+              "short_name": "Children's Hospital Drive Time",
+              "long_name": "Drive time to nearest children's hospital",
+              "short_description": "Drive time to the nearest children's hospital.",
+              "long_description": "Minimal drive time to a children's hospital from the Census block group centroid, as calculated by the Open Source Routing Machine in 2022. Hospital locations are from the U.S. Health and Human Services. All distances are calculated at the block group level, then averaged up to higher-level geographies.",
+              "statement": "It takes {value} to drive to a children's hospital from {features.name}'s block group centroids on average.",
+              "equity_category": "Accessibility",
+              "sources": [
+                {
+                  "name": "U.S. Department of Health & Human Services",
+                  "location": "Hospital > COVID-19 Reported Patient Impact and Hospital Capacity by Facility",
+                  "location_url": "https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/anag-cw7u",
+                  "date_accessed": 2022,
+                  "url": "https://healthdata.gov"
                 },
                 {
                   "name": "Open Source Routing Machine",
@@ -8024,97 +8149,6 @@
         ]
       },
       "_references": {
-        "wan12": {
-          "id": "wan12",
-          "author": [
-            {
-              "given": "Neng",
-              "family": "Wan"
-            },
-            {
-              "given": "Bin",
-              "family": "Zou"
-            },
-            {
-              "given": "Troy",
-              "family": "Sternberg"
-            }
-          ],
-          "year": 2012,
-          "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-          "journal": "International Journal of Geographical Information Science",
-          "volume": "26",
-          "page": "1073-1089",
-          "doi": "10.1080/13658816.2011.624987"
-        },
-        "bii21": {
-          "id": "bii21",
-          "author": [
-            {
-              "family": "Biocomplexity Institute and Initiative"
-            }
-          ],
-          "year": 2021,
-          "title": "catchment: Calculate spatial access and availability metrics",
-          "version": "0.0.1",
-          "url": "https://github.com/uva-bi-sdad/catchment"
-        },
-        "liang17": {
-          "id": "liang17",
-          "author": [
-            {
-              "given": "Lan",
-              "family": "Liang"
-            },
-            {
-              "given": "Cindy",
-              "family": "Branch"
-            }
-          ],
-          "year": 2017,
-          "title": "Health Literacy Universal Precautions Are Still a Distant Dream: Analysis of U.S. Data on Health Literate Practices",
-          "journal": "Health Literacy Research and Practice",
-          "volume": "1",
-          "number": 4,
-          "page": "e216-e230",
-          "doi": "10.3928/24748307-20170929-01"
-        },
-        "savitz20": {
-          "id": "savitz20",
-          "author": [
-            {
-              "given": "Samuel",
-              "family": "Savitz"
-            },
-            {
-              "given": "Stacy",
-              "family": "Bailey"
-            },
-            {
-              "given": "Stacie",
-              "family": "Dusetzina"
-            },
-            {
-              "given": "W.",
-              "family": "Schuyler Jones"
-            },
-            {
-              "given": "Justin",
-              "family": "Trogdon"
-            },
-            {
-              "given": "Sally",
-              "family": "Stearns"
-            }
-          ],
-          "year": 2020,
-          "title": "Treatment selection and medication adherence for stable angina: The role of area-based health literacy",
-          "journal": "Journal of Evaluation in Clinical Practice",
-          "volume": "26",
-          "number": 6,
-          "page": "1711-1721",
-          "doi": "10.1111/jep.13341"
-        },
         "lou04": {
           "id": "lou04",
           "author": [
@@ -8205,21 +8239,43 @@
           "volume": "Preprint",
           "doi": "10.13140/RG.2.2.12396.28807"
         },
-        "gallardo20": {
-          "id": "gallardo20",
+        "wan12": {
+          "id": "wan12",
           "author": [
             {
-              "given": "Robert",
-              "family": "Gallardo"
+              "given": "Neng",
+              "family": "Wan"
+            },
+            {
+              "given": "Bin",
+              "family": "Zou"
+            },
+            {
+              "given": "Troy",
+              "family": "Sternberg"
             }
           ],
-          "year": 2020,
-          "title": "Digital Divide Index",
-          "journal": "Purdue Center for Regional Development",
-          "url": "http://pcrd.purdue.edu/ddi"
+          "year": 2012,
+          "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+          "journal": "International Journal of Geographical Information Science",
+          "volume": "26",
+          "page": "1073-1089",
+          "doi": "10.1080/13658816.2011.624987"
+        },
+        "bii21": {
+          "id": "bii21",
+          "author": [
+            {
+              "family": "Biocomplexity Institute and Initiative"
+            }
+          ],
+          "year": 2021,
+          "title": "catchment: Calculate spatial access and availability metrics",
+          "version": "0.0.1",
+          "url": "https://github.com/uva-bi-sdad/catchment"
         }
       },
-      "sha512": "d215c2ae18650c36ff7dc76cfd05fcc530edead093f5a8477d9b270e1ccc60dab90b045cfb8a0a30704a56ac08c3c8df8dc20dc197dcc6499e193784ab40b037"
+      "sha512": "489351a7f33ee9fac0b0ad89b101373722d697c4234af2ae9e67cb365c407a49f4bb1ecb8c2fc928ae5284334c3cdea254c7f204d8d9f997833072c9d1c2f63b"
     }
   ]
 }
