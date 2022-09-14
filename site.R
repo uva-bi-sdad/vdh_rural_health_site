@@ -295,45 +295,45 @@ page_section(
           name = "tract",
           time = 2010,
           url = paste0(
-            "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/",
-            "va_geo_census_cb_2010_census_tracts/distribution/va_geo_census_cb_2010_census_tracts.geojson"
+            "https://raw.githubusercontent.com/uva-bi-sdad/sdc.geographies/main/VA/Census%20Geographies/",
+            "Tract/2010/data/distribution/va_geo_census_cb_2010_census_tracts.geojson"
           )
         ),
         list(
           name = "county",
           time = 2010,
           url = paste0(
-            "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/",
-            "va_geo_census_cb_2010_counties/distribution/va_geo_census_cb_2010_counties.geojson"
+            "https://raw.githubusercontent.com/uva-bi-sdad/sdc.geographies/main/VA/Census%20Geographies/",
+            "County/2010/data/distribution/va_geo_census_cb_2010_counties.geojson"
           )
         ),
         list(
           name = "tract",
           time = 2020,
           url = paste0(
-            "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/",
-            "va_geo_census_cb_2020_census_tracts/distribution/va_geo_census_cb_2020_census_tracts.geojson"
+            "https://raw.githubusercontent.com/uva-bi-sdad/sdc.geographies/main/VA/Census%20Geographies/",
+            "Tract/2020/data/distribution/va_geo_census_cb_2020_census_tracts.geojson"
           )
         ),
         list(
           name = "county",
           time = 2020,
           url = paste0(
-            "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/",
-            "va_geo_census_cb_2020_counties/distribution/va_geo_census_cb_2020_counties.geojson"
+            "https://raw.githubusercontent.com/uva-bi-sdad/sdc.geographies/main/VA/Census%20Geographies/",
+            "County/2020/data/distribution/va_geo_census_cb_2020_counties.geojson"
           )
         ),
         list(
           name = "district",
           url = paste0(
-            "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/",
-            "va_geo_vhd_2020_health_districts/distribution/va_geo_vhd_2020_health_districts.geojson"
+            "https://raw.githubusercontent.com/uva-bi-sdad/sdc.geographies/main/VA/State%20Geographies/Health%20Districts/",
+            "2020/data/distribution/va_geo_vhd_2020_health_districts.geojson"
           )
         )
       ),
       overlays = {
         layers <- lapply(2013:2020, function(year) list(
-          url = paste0("https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_", year, ".geojson"),
+          url = paste0("https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_", year, ".geojson"),
           time = year
         ))
         hospital_layer <- list(list(
