@@ -41,8 +41,8 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-09-14 11:50:57",
-        "last_modified": "2022-09-14 11:50:57",
+        "created": "2022-08-09 13:29:42",
+        "last_modified": "2022-07-22 14:15:21",
         "row_count": 31889,
         "entity_count": 2453,
         "schema": {
@@ -3088,8 +3088,8 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-09-14 11:50:57",
-        "last_modified": "2022-09-14 11:50:57",
+        "created": "2022-08-09 13:29:34",
+        "last_modified": "2022-07-22 14:15:21",
         "row_count": 1742,
         "entity_count": 134,
         "schema": {
@@ -6191,8 +6191,8 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-09-14 11:50:57",
-        "last_modified": "2022-09-14 11:50:57",
+        "created": "2022-08-09 13:29:34",
+        "last_modified": "2022-07-22 14:15:21",
         "row_count": 455,
         "entity_count": 35,
         "schema": {
@@ -9584,7 +9584,9 @@
   },
   "select": {
     "selected_variable": {
-      "category": "variable_type"
+      "filters": {
+        "category": "variable_type"
+      }
     }
   },
   "datatable": {
@@ -10181,6 +10183,7 @@
         "center": [38, -79.5],
         "zoom": 7,
         "height": "430px",
+        "overlays_from_measures": true,
         "subto": ["main_plot", "rank_table", "main_legend"],
         "background_shapes": "county"
       },
@@ -10205,7 +10208,7 @@
     "bootstrap": {
       "name": "Bootstrap",
       "url": "https://getbootstrap.com",
-      "version": "5.2.0-beta1"
+      "version": "5.2.1"
     },
     "colorbrewer": {
       "name": "ColorBrewer",
@@ -10245,7 +10248,7 @@
     "plotly": {
       "name": "Plotly",
       "url": "https://plotly.com/javascript/getting-started",
-      "version": "2.12.1"
+      "version": "2.14.0"
     }
   },
   "button": {
