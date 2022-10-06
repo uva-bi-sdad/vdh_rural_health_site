@@ -1,1362 +1,50 @@
 {
-  "earnings_per_job:earnings_per_job": {
-    "category": "Employment/Workforce Development",
-    "measure_table": "earnings_per_job",
-    "full_name": "earnings_per_job:earnings_per_job",
-    "measure": "earnings_per_job",
-    "type": "dollar",
-    "short_name": "Earnings per job",
-    "long_name": "Earnings per job",
-    "short_description": "Average of earnings per job.",
-    "long_description": "Earnings per job is calculated based on the GDP and Personal Income table from the Bureau of Economic Analysis.",
-    "statement": "Earnings per job in {features.name} is {value}.",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "Bureau of Economic Analysis",
-        "date_accessed": "2021",
-        "url": "https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=1&acrdn=6"
-      }
-    ]
-  },
-  "kotelchuck_apncu_index:adequateplus_pc": {
-    "category": "Health",
-    "measure_table": "kotelchuck_apncu_index",
-    "full_name": "kotelchuck_apncu_index:adequateplus_pc",
-    "measure": "adequateplus",
+  "post_hs_education:perc_post_hs_edu": {
+    "category": "Education",
+    "measure_table": "dc_education_training.va_hdcttr_acs_2015_2019_post_hs_education",
+    "full_name": "post_hs_education:perc_post_hs_edu",
+    "measure": "perc_post_hs_edu",
     "type": "percent",
-    "short_name": "Kotelchuck (adequate plus percent)",
-    "long_name": "Adequacy of Prenatal Care Utilization: Adequate Plus",
-    "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Adequate Plus",
-    "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of adequate plus.  Proportion of pregnant mothers receiving prenatal care beyond adequate levels. Adequate Plus  prenatal care occurs when prenatal care begins from 1st through 4th month and the proportion of the number of recommended visits is  110% or more. The recommended number of prenatal care visits received from the time prenatal care began until the time of delivery is defined by the American College of Obstetricians and Gynecologists.",
-    "statement": "{value} of the cases in {features.name} rated as adequate plus.",
+    "short_name": "Percentage with post-secondary education",
+    "long_name": "Percentage with post-secondary education",
+    "short_description": "Percentage of the population self-reported to have post-secondary education",
+    "long_description": "Percentage of the population self-reported to have post-secondary education. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.",
+    "statement": "{value} of the population in {features.name} has a post-secondary education.",
     "equity_category": "Status",
     "sources": [
       {
-        "name": "Centers for Disease Control and Prevention",
-        "date_accessed": "2022",
-        "url": "https://www.cdc.gov"
-      }
-    ]
-  },
-  "kotelchuck_apncu_index:adequate_pc": {
-    "category": "Health",
-    "measure_table": "kotelchuck_apncu_index",
-    "full_name": "kotelchuck_apncu_index:adequate_pc",
-    "measure": "adequate",
-    "type": "percent",
-    "short_name": "Kotelchuck (adequate percent)",
-    "long_name": "Adequacy of Prenatal Care Utilization: Adequate",
-    "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Adequate",
-    "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of adequate. Proportion of pregnant mothers receiving adequate prenatal care.  Adequate prenatal care occurs when prenatal care begins from 1st through 4th month and the proportion of the number of recommended visits is between 80% and 109%. The recommended number of prenatal care visits received from the time prenatal care began until the time of delivery is defined by the American College of Obstetricians and Gynecologists.",
-    "statement": "{value} of the cases in {features.name} rated as adequate.",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "Centers for Disease Control and Prevention",
-        "date_accessed": "2022",
-        "url": "https://www.cdc.gov"
-      }
-    ]
-  },
-  "kotelchuck_apncu_index:intermediate_pc": {
-    "category": "Health",
-    "measure_table": "kotelchuck_apncu_index",
-    "full_name": "kotelchuck_apncu_index:intermediate_pc",
-    "measure": "intermediate",
-    "type": "percent",
-    "short_name": "Kotelchuck (intermediate percent)",
-    "long_name": "Adequacy of Prenatal Care Utilization: Intermediate",
-    "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Intermediate",
-    "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of intermediate. Proportion of pregnant mothers receiving intermediate prenatal care. Intermediate prenatal care occurs when prenatal care begins from 1st through 4th month, and the proportion of the number of visits is between 50-79%.   The recommended number of prenatal care visits received from the time prenatal care began until the time of delivery is defined by the American College of Obstetricians and Gynecologists.",
-    "statement": "{value} of the cases in {features.name} rated as intermediate.",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "Centers for Disease Control and Prevention",
-        "date_accessed": "2022",
-        "url": "https://www.cdc.gov"
-      }
-    ]
-  },
-  "kotelchuck_apncu_index:inadequate_pc": {
-    "category": "Health",
-    "measure_table": "kotelchuck_apncu_index",
-    "full_name": "kotelchuck_apncu_index:inadequate_pc",
-    "measure": "inadequate_pc",
-    "type": "percent",
-    "short_name": "Kotelchuck (inadequate percent)",
-    "long_name": "Adequacy of Prenatal Care Utilization: Inadequate",
-    "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Inadequate",
-    "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of inadequate. Proportion of pregnant mothers receiving inadequate prenatal care. Inadequate levels occurs when prenatal care begins in the 5th month or later or no prenatal care, regardless of the number of visits or, with less than 50% or more recommended visits received from 1st through 4th month.  The recommended number of prenatal care visits received from the time prenatal care began until the time of delivery is defined by the American College of Obstetricians and Gynecologists.",
-    "statement": "{value} of the cases in {features.name} rated as inadequate.",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "Centers for Disease Control and Prevention",
-        "date_accessed": "2022",
-        "url": "https://www.cdc.gov"
-      }
-    ]
-  },
-  "kotelchuck_apncu_index:adequateplus": {
-    "category": "Health",
-    "measure_table": "kotelchuck_apncu_index",
-    "full_name": "kotelchuck_apncu_index:adequateplus",
-    "measure": "adequateplus",
-    "type": "integer",
-    "short_name": "Kotelchuck (adequate plus count)",
-    "long_name": "Adequacy of Prenatal Care Utilization: Adequate Plus",
-    "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Adequate Plus",
-    "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of adequate plus.  Adequate Plus  prenatal care occurs when prenatal care begins from 1st through 4th month and the proportion of the number of recommended visits is  110% or more. The recommended number of prenatal care visits received from the time prenatal care began until the time of delivery is defined by the American College of Obstetricians and Gynecologists.",
-    "statement": "There are {value} cases rated as adequate plus in {features.name}.",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "Centers for Disease Control and Prevention",
-        "date_accessed": "2022",
-        "url": "https://www.cdc.gov"
-      }
-    ]
-  },
-  "kotelchuck_apncu_index:adequate": {
-    "category": "Health",
-    "measure_table": "kotelchuck_apncu_index",
-    "full_name": "kotelchuck_apncu_index:adequate",
-    "measure": "adequate",
-    "type": "integer",
-    "short_name": "Kotelchuck (adequate count)",
-    "long_name": "Adequacy of Prenatal Care Utilization: Adequate",
-    "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Adequate",
-    "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of adequate. Adequate prenatal care occurs when prenatal care begins from 1st through 4th month and the proportion of the number of recommended visits is between 80% and 109%. The recommended number of prenatal care visits received from the time prenatal care began until the time of delivery is defined by the American College of Obstetricians and Gynecologists.",
-    "statement": "There are {value} cases rated as adequate in {features.name}.",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "Centers for Disease Control and Prevention",
-        "date_accessed": "2022",
-        "url": "https://www.cdc.gov"
-      }
-    ]
-  },
-  "kotelchuck_apncu_index:intermediate": {
-    "category": "Health",
-    "measure_table": "kotelchuck_apncu_index",
-    "full_name": "kotelchuck_apncu_index:intermediate",
-    "measure": "intermediate",
-    "type": "integer",
-    "short_name": "Kotelchuck (intermediate count)",
-    "long_name": "Adequacy of Prenatal Care Utilization: Intermediate",
-    "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Intermediate",
-    "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of intermediate. Intermediate prenatal care occurs when prenatal care begins from 1st through 4th month, and the proportion of the number of visits is between 50-79%.   The recommended number of prenatal care visits received from the time prenatal care began until the time of delivery is defined by the American College of Obstetricians and Gynecologists.",
-    "statement": "There are {value} cases rated as intermediate in {features.name}.",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "Centers for Disease Control and Prevention",
-        "date_accessed": "2022",
-        "url": "https://www.cdc.gov"
-      }
-    ]
-  },
-  "kotelchuck_apncu_index:inadequate": {
-    "category": "Health",
-    "measure_table": "kotelchuck_apncu_index",
-    "full_name": "kotelchuck_apncu_index:inadequate",
-    "measure": "inadequate",
-    "type": "integer",
-    "short_name": "Kotelchuck (inadequate count)",
-    "long_name": "Adequacy of Prenatal Care Utilization: Inadequate",
-    "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Inadequate",
-    "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of inadequate. Inadequate levels occurs when prenatal care begins in the 5th month or later or no prenatal care, regardless of the number of visits or, with less than 50% or more recommended visits received from 1st through 4th month.  The recommended number of prenatal care visits received from the time prenatal care began until the time of delivery is defined by the American College of Obstetricians and Gynecologists.",
-    "statement": "There are {value} cases rated as inadequate in {features.name}.",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "Centers for Disease Control and Prevention",
-        "date_accessed": "2022",
-        "url": "https://www.cdc.gov"
-      }
-    ]
-  },
-  "preventable_hospitalizations:prevent_hosp_rate": {
-    "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdct_chr_2015_2021_preventable_hospitalizations",
-    "full_name": "preventable_hospitalizations:prevent_hosp_rate",
-    "measure": "prevent_hosp_rate",
-    "type": "rate",
-    "short_name": "Preventable hospitalizations per 100,000",
-    "long_name": "Preventable hospital stays per 100,000 Medicare enrollees",
-    "short_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees",
-    "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. Data are based on Medicare claims and come from County Health Rankings.",
-    "statement": "{value} of the hospitalizations in {features.name} were preventable (due to conditions usually treated in outpatient settings).",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "County Health Rankings",
+        "name": "American Community Survey Table B15003",
         "date_accessed": 2021,
-        "url": "https://www.countyhealthrankings.org/app/virginia/2021/measure/factors/5/description"
+        "url": "https://www.census.gov/data/developers/data-sets/acs-5year.html"
       }
     ]
   },
-  "food_insecurity_and_cost:Food_Insecurity_Rate": {
-    "category": "Nutrition and Food Security",
-    "measure_table": "food_insecurity_and_cost",
-    "full_name": "food_insecurity_and_cost:Food_Insecurity_Rate",
-    "measure": "Food_Insecurity_Rate",
-    "type": "percent",
-    "short_name": "Percentage of food insecure",
-    "long_name": "Percentage of food insecure",
-    "short_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods.",
-    "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
-    "statement": "{value} of the population in {features.name} are food insecure.",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "Feeding America",
-        "date_accessed": "2021",
-        "url": "https://www.feedingamerica.org/"
-      }
-    ]
-  },
-  "food_insecurity_and_cost:Num_Child_Food_Insecure": {
-    "category": "Nutrition and Food Security",
-    "measure_table": "food_insecurity_and_cost",
-    "full_name": "food_insecurity_and_cost:Num_Child_Food_Insecure",
-    "measure": "Num_Child_Food_Insecure",
-    "type": "count",
-    "short_name": "Food insecure children (count)",
-    "long_name": "Count of food insecure children",
-    "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
-    "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
-    "statement": "The population of food insecure children in {features.name} is {value}.",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "Feeding America",
-        "date_accessed": "2021",
-        "url": "https://www.feedingamerica.org/"
-      }
-    ]
-  },
-  "food_insecurity_and_cost:Cost_Per_Meal": {
-    "category": "Nutrition and Food Security",
-    "measure_table": "food_insecurity_and_cost",
-    "full_name": "food_insecurity_and_cost:Cost_Per_Meal",
-    "measure": "Cost_Per_Meal",
-    "type": "dollar",
-    "short_name": "Average meal cost ($)",
-    "long_name": "Average meal cost ($)",
-    "short_description": "The average weekly dollar amount food-secure individuals report spending on food.",
-    "long_description": "The average weekly dollar amount food-secure individuals report spending on food, as estimated by the Current Population Survey, divided by 21 (assuming three meals a day, seven days a week). This amount has been adjusted to reflect local food prices and relevant taxes.",
-    "statement": "The average meal cost in {features.name} is {value}.",
-    "equity_category": "Affordability",
-    "sources": [
-      {
-        "name": "Feeding America",
-        "date_accessed": "2021",
-        "url": "https://www.feedingamerica.org/"
-      }
-    ]
-  },
-  "food_insecurity_and_cost:Child_Food_Insecurity_Rate": {
-    "category": "Nutrition and Food Security",
-    "measure_table": "Child_Food_Insecurity_Rate",
-    "full_name": "food_insecurity_and_cost:Child_Food_Insecurity_Rate",
-    "measure": "Child_Food_Insecurity_Rate",
-    "type": "percent",
-    "short_name": "Percentage of food insecure children",
-    "long_name": "Percentage of food insecure children",
-    "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
-    "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
-    "statement": "{value} of the population of children in {features.name} are food insecure.",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "Feeding America",
-        "date_accessed": "2021",
-        "url": "https://www.feedingamerica.org/"
-      }
-    ]
-  },
-  "drug_overdose_ed_visits:avg_monthly_rate": {
-    "category": "Behavioral Health, Substance Use Disorder and Recovery",
-    "measure_table": "drug_overdose_ed_visits",
-    "full_name": "drug_overdose_ed_visits:avg_overdose_per_100",
-    "measure": "avg_overdose_per_100k",
-    "type": "rate",
-    "short_name": "Monthly average ED visits for drug overdose",
-    "long_name": "Monthly average emergency department visits for drug overdose rate per 100,000 residents",
-    "short_description": "Monthly average emergency department visits for drug overdose per 100,000 residents.",
-    "long_description": "Monthly average emergency department visits for drug overdose per 100,000 residents.",
-    "statement": "The average emergency department visits for drug overdose rate in {features.name} is {value}.",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "Virginia Department of Health",
-        "date_accessed": "2021",
-        "url": "https://www.vdh.virginia.gov/surveillance-and-investigation/syndromic-surveillance/drug-overdose-surveillance/"
-      }
-    ]
-  },
-  "emp_rate:emp_rate": {
-    "category": "Employment/Workforce Development",
-    "measure_table": "civilian_employment_rate",
-    "full_name": "civilian_employment_rate:employment_rate",
-    "measure": "employment_rate",
-    "type": "percent",
-    "short_name": "Percentage employed",
-    "long_name": "Percentage civilian employed",
-    "short_description": "Population self-reported as employed as a percentage of total civilian workforce population.",
-    "long_description": "Population self-reported as employed as a percentage of total civilian workforce population. Based on American Community Survey Table B23025 ACS 2015/2019 5-year estimates.",
-    "statement": "{value} of the population in {features.name} is employed.",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "location": "Table B23025",
-        "date_accessed": "2021",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
-  "brfss_sae:perc_poor_phys_hlth_days_14_and_over": {
-    "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2015_2019_percent_poor_phys_hlth_days_14_and_over",
-    "full_name": "brfss_sae:perc_poor_phys_hlth_days_14_and_over",
-    "measure": "perc_poor_phys_hlth_days_14_and_over",
-    "type": "percent",
-    "short_name": "Percentage reporting poor physical health",
-    "long_name": "Percentage reporting poor physical health",
-    "short_description": "Percent of the population self-reporting poor physical health",
-    "long_description": "Percent of the population self-reporting poor physical health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
-    "statement": "{value} of the population in {features.name} reports poor physical health.",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "Virginia Behavioral Risk Factor Surveillance System",
-        "date_accessed": 2021,
-        "url": "https://www.vdh.virginia.gov/brfss/"
-      }
-    ]
-  },
-  "brfss_sae:perc_poor_ment_hlth_days_14_and_over": {
-    "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2015_2019_percent_poor_ment_hlth_days_14_and_over",
-    "full_name": "brfss_sae:perc_poor_ment_hlth_days_14_and_over",
-    "measure": "perc_poor_ment_hlth_days_14_and_over",
-    "type": "percent",
-    "short_name": "Percentage reporting poor mental health",
-    "long_name": "Percentage reporting poor mental health",
-    "short_description": "Percent of the population self-reporting poor mental health",
-    "long_description": "Percent of the population self-reporting poor mental health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
-    "statement": "{value} of the population in {features.name} reports poor mental health.",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "Virginia Behavioral Risk Factor Surveillance System",
-        "date_accessed": 2021,
-        "url": "https://www.vdh.virginia.gov/brfss/"
-      }
-    ]
-  },
-  "speed_measurements:avg_down_using_devices": {
-    "category": "Broadband",
-    "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
-    "full_name": "speed_measurements:avg_down_using_devices",
-    "measure": "avg_down_using_devices",
-    "short_name": "Average Download Speed",
-    "long_name": "Average Download Speed",
-    "short_description": "Average download speed weighted by number of devices.",
-    "statement": "The average download speed is {value} in {features.name}.",
-    "type": "internet speed",
-    "equity_category": "Availability",
-    "sources": [
-      {
-        "name": "Ookla",
-        "date_accessed": 2021,
-        "url": "https://www.ookla.com/ookla-for-good/open-data"
-      }
-    ]
-  },
-  "substance_access_scores:subs_cnt": {
-    "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_substance_access_scores",
-    "full_name": "substance_access_scores:subs_cnt",
-    "measure": "substance_cnt",
-    "type": "count",
-    "short_name": "Substance use/behavioral health  access (count)",
-    "long_name": "Access to substance use/behavioral health  by count",
-    "short_description": "Count of substance use/behavioral health facilities based on facility locations",
-    "long_description": "Count of substance use/behavioral health facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
-    "statement": "There are {value} substance use facilities in {features.name}.",
-    "sources": [
-      {
-        "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
-        "date_accessed": 2021,
-        "url": "https://hifld-geoplatform.opendata.arcgis.com/"
-      }
-    ]
-  },
-  "substance_access_scores:subs_3sfca": {
-    "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_substance_access_scores",
-    "full_name": "substance_access_scores:subs_3sfca",
-    "measure": "substance_3sfca",
+  "health_literacy_estimates:health_literacy_estimate": {
+    "category": "Education",
+    "measure_table": "dc_education_training.va_hdcttr_sdad_2019_health_literacy_estimates",
+    "full_name": "health_literacy_estimates:health_literacy_estimate",
+    "measure": "health_literacy_estimate",
     "type": "index",
-    "short_name": "Substance use/behavioral health services access score",
-    "long_name": "Substance use/behavioral health services access score (3-step floating catchment areas)",
-    "short_description": "Index of substance use/behavioral health services accessibility based on supply and demand of facilities",
-    "long_description": "Substance use/behavioral health services access score based on 3-step  floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
-    "statement": "The substance use/behavioral health services accessibility score for {features.name} is {value}.",
+    "short_name": "Health literacy composite",
+    "long_name": "Health literacy composite",
+    "short_description": "Health literacy composite captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions",
+    "long_description": "The health literacy composite captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions. Health literacy composite is based on variables of demographic characteristics, health status, and health care use.",
+    "statement": "The health literacy composite for {features.name} is {value}.",
+    "equity_category": "Status",
     "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
+      "savitz20",
+      "liang17"
     ],
     "sources": [
       {
-        "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+        "name": "Medical Expenditure Panel Survey",
         "date_accessed": 2021,
-        "url": "https://hifld-geoplatform.opendata.arcgis.com/"
-      }
-    ]
-  },
-  "substance_access_scores:subs_10near_median": {
-    "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_substance_access_scores",
-    "full_name": "substance_access_scores:subs_10near_median",
-    "measure": "substance_10near_median",
-    "type": "drive time",
-    "short_name": "Substance use/behavioral health services access (drive time)",
-    "long_name": "Substance use/behavioral health services access by median drive time to the ten closest facilities in minutes",
-    "short_description": "Median drive time (minutes) to the ten closest substance use/behavioral health services facilities",
-    "long_description": "Median drive time in minutes to the ten closest substance use/behavioral health services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-    "statement": "The median drive time to the ten closest substance use/behavioral health service facilities to {features.name} is {value}.",
-    "sources": [
-      {
-        "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
-        "date_accessed": 2021,
-        "url": "https://hifld-geoplatform.opendata.arcgis.com/"
-      }
-    ]
-  },
-  "mental_access_scores:mental_cnt": {
-    "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores",
-    "full_name": "mental_access_scores:mental_cnt",
-    "measure": "mental_cnt",
-    "type": "count",
-    "short_name": "Mental health services access (count)",
-    "long_name": "Access to mental health services by count",
-    "short_description": "Count of mental health facilities based on facility locations",
-    "long_description": "Count of mental health facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
-    "statement": "There are {value} mental health facilities in {features.name}.",
-    "sources": [
-      {
-        "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
-        "date_accessed": 2021,
-        "url": "https://hifld-geoplatform.opendata.arcgis.com/"
-      }
-    ]
-  },
-  "mental_access_scores:mental_3sfca": {
-    "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores",
-    "full_name": "mental_access_scores:mental_3sfca",
-    "measure": "mental_3sfca",
-    "type": "index",
-    "short_name": "Mental health services access score",
-    "long_name": "Mental health services access score (3-step  floating catchment areas)",
-    "short_description": "Index of mental health services accessibility based on supply and demand of facilities",
-    "long_description": "Mental health services access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
-    "statement": "The mental health services accessibility score for {features.name} is {value}.",
-    "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
-    ],
-    "sources": [
-      {
-        "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
-        "date_accessed": 2021,
-        "url": "https://hifld-geoplatform.opendata.arcgis.com/"
-      }
-    ]
-  },
-  "mental_access_scores:mental_10near_median": {
-    "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores",
-    "full_name": "mental_access_scores:mental_10near_median",
-    "measure": "mental_10near_median",
-    "type": "drive time",
-    "short_name": "Mental health services access (drive time)",
-    "long_name": "Mental health services access by median drive time to the ten closest facilities in minutes",
-    "short_description": "Median drive time (minutes) to the ten closest mental health services facilities",
-    "long_description": "Median drive time in minutes to the ten closest mental health services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-    "statement": "The median drive time to the ten closest mental health service facilities to {features.name} is {value}.",
-    "sources": [
-      {
-        "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
-        "date_accessed": 2021,
-        "url": "https://hifld-geoplatform.opendata.arcgis.com/"
-      }
-    ]
-  },
-  "access_scores_ems:ems_3sfca": {
-    "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
-    "full_name": "access_scores_ems:ems_3sfca",
-    "measure": "ems_3sfca",
-    "type": "index",
-    "short_name": "Emergency medical services geographic availability",
-    "long_name": "Emergency medical services geographic availability (3-step floating catchment areas)",
-    "short_description": "Index of emergency medical services availability based on supply and demand of facilities",
-    "long_description": "Emergency medical services availability based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
-    "statement": "The emergency medical services availability for {features.name} is {value}.",
-    "equity_category": "Availability",
-    "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
-    ],
-    "sources": [
-      {
-        "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
-        "date_accessed": 2021,
-        "url": "https://hifld-geoplatform.opendata.arcgis.com/"
-      }
-    ]
-  },
-  "access_scores_ems:ems_cnt": {
-    "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
-    "full_name": "access_scores_ems:ems_cnt",
-    "measure": "ems_cnt",
-    "type": "count",
-    "short_name": "Emergency medical services availability (count)",
-    "long_name": "Availability of emergency medical services by count",
-    "short_description": "Count of emergency medical services facilities based on facility locations",
-    "long_description": "Count of emergency medical services facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
-    "statement": "There are {value} emergency medical services facilities in {features.name}.",
-    "equity_category": "Availability",
-    "sources": [
-      {
-        "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
-        "date_accessed": 2021,
-        "url": "https://hifld-geoplatform.opendata.arcgis.com/"
-      }
-    ]
-  },
-  "access_scores_ems:ems_near_10_median": {
-    "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_ems",
-    "full_name": "access_scores_ems:ems_near_10_median",
-    "measure": "ems_near_10_median",
-    "type": "drive time",
-    "short_name": "Emergency medical services availability (drive time)",
-    "long_name": "Emergency medical services availability by median drive time to the ten closest facilities in minutes",
-    "short_description": "Median drive time (minutes) to the ten closest emergency medical services facilities",
-    "long_description": "Median drive time in minutes to the ten closest emergency medical services facilities. Facility location data were collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-    "statement": "The median drive time to the ten closest emergency medical service facilities to {features.name} is {value}.",
-    "equity_category": "Availability",
-    "sources": [
-      {
-        "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
-        "date_accessed": 2021,
-        "url": "https://hifld-geoplatform.opendata.arcgis.com/"
-      }
-    ]
-  },
-  "access_scores_obgyn:obgyn_3sfca": {
-    "category": "Health",
-    "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_obgyns_access_scores",
-    "full_name": "access_scores_obgyn:obgyn_3sfca",
-    "measure": "obgyn_3sfca",
-    "type": "index",
-    "short_name": "OBGYN care geographic availability",
-    "long_name": "OBGYN care geographic availability (3-step floating catchment areas)",
-    "short_description": "Index of OBGYN care availability based on supply and demand of providers",
-    "long_description": "OBGYN care availability based on 3-step floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data were collected from WebMD's online physician directory.",
-    "statement": "The OBGYN availability for {features.name} is {value}.",
-    "equity_category": "Availability",
-    "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
-    ],
-    "sources": [
-      {
-        "name": "WebMD Physician Directory",
-        "date_accessed": 2021,
-        "url": "https://doctor.webmd.com/"
-      }
-    ]
-  },
-  "access_scores_obgyn:obgyn_cnt": {
-    "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_obgyn_access_scores",
-    "full_name": "access_scores_obgyn:obgyn_cnt",
-    "measure": "obgyn_cnt",
-    "type": "count",
-    "short_name": "OBGYN care availability (count)",
-    "long_name": "OBGYN care availability by count",
-    "short_description": "Count of OBGYNs based on provider locations",
-    "long_description": "Count of OBGYN care providers based on provider locations. Address data were collected from WebMD's online Physician Directory.",
-    "statement": "There are {value} OBGYNs in {features.name}.",
-    "equity_category": "Availability",
-    "sources": [
-      {
-        "name": "WebMD Physician Directory",
-        "date_accessed": 2021,
-        "url": "https://doctor.webmd.com/"
-      }
-    ]
-  },
-  "access_scores_dentists:dent_e2sfca": {
-    "category": "Health",
-    "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_dentists_access_scores",
-    "full_name": "access_scores_dentists:dent_e2sfca",
-    "measure": "dent_e2sfca",
-    "type": "index",
-    "short_name": "Dental care geographic availability",
-    "long_name": "Dental care geographic availability (2 step-enhanced floating catchment areas)",
-    "short_description": "Index of dental care availability based on supply and demand of providers",
-    "long_description": "Dental care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of dentists per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for dentists (population served by dentists). Provider address data were collected from WebMD's online Physician Directory.",
-    "statement": "The dental care availability for {features.name} is {value}.",
-    "equity_category": "Availability",
-    "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
-    ],
-    "sources": [
-      {
-        "name": "WebMD Physician Directory",
-        "date_accessed": 2021,
-        "url": "https://doctor.webmd.com/"
-      }
-    ]
-  },
-  "access_scores_dentists:dent_cnt": {
-    "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores",
-    "full_name": "access_scores_dentists:dent_cnt",
-    "measure": "dent_cnt",
-    "type": "count",
-    "short_name": "Dental care availability (count)",
-    "long_name": "Dental care availability by count",
-    "short_description": "Count of dentists based on provider locations",
-    "long_description": "Count of dentists based on provider locations. Address data were collected from WebMD's online Physician Directory.",
-    "statement": "There are {value} dentists in {features.name}.",
-    "equity_category": "Availability",
-    "sources": [
-      {
-        "name": "WebMD Physician Directory",
-        "date_accessed": 2021,
-        "url": "https://doctor.webmd.com/"
-      }
-    ]
-  },
-  "access_scores_primcare:primcare_3sfca": {
-    "category": "Health",
-    "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_primcare_access_scores",
-    "full_name": "access_scores_primcare:primcare_3sfca",
-    "measure": "primcare_3sfca",
-    "type": "index",
-    "short_name": "Primary care geographic availability",
-    "long_name": "Primary care geographic availability (3-step floating catchment areas)",
-    "short_description": "Index of primary care physician availability based on supply and demand of providers",
-    "long_description": "Primary care availability based on 3-step floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data were collected from WebMD's online Physician Directory.",
-    "statement": "The primary care availability for {features.name} is {value}.",
-    "equity_category": "Availability",
-    "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
-    ],
-    "sources": [
-      {
-        "name": "WebMD Physician Directory",
-        "date_accessed": 2021,
-        "url": "https://doctor.webmd.com/"
-      }
-    ]
-  },
-  "access_scores_primcare:primcare_cnt": {
-    "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_primcare",
-    "full_name": "access_scores_primcare:primcare_cnt",
-    "measure": "prim_cnt",
-    "type": "count",
-    "short_name": "Primary care availability (count)",
-    "long_name": "Primary care availability by count",
-    "short_description": "Count of primary care physicians based on provider locations",
-    "long_description": "Count of primary care physicians based on provider locations. Address data were collected from WebMD's online Physician Directory.",
-    "statement": "There are {value} primary care physicians in {features.name}.",
-    "equity_category": "Availability",
-    "sources": [
-      {
-        "name": "WebMD Physician Directory",
-        "date_accessed": 2021,
-        "url": "https://doctor.webmd.com/"
-      }
-    ]
-  },
-  "access_scores_pediatric:ped_3sfca": {
-    "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_pediatrics_access_scores",
-    "full_name": "access_scores_pediatric:ped_3sfca",
-    "measure": "ped_3sfca",
-    "type": "index",
-    "short_name": "Pediatric care geographic availability",
-    "long_name": "Pediatric care geographic availability (3-step floating catchment areas)",
-    "short_description": "Index of pediatric care physician availability based on supply and demand of providers",
-    "long_description": "Pediatric care availability based on 3-step floating catchment areas. This method is an aggregation of pediatricians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for pediatricians (population under 16). Provider address data were collected from WebMD's online Physician Directory.",
-    "statement": "The pediatric care availability for {features.name} is {value}.",
-    "equity_category": "Availability",
-    "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
-    ],
-    "sources": [
-      {
-        "name": "WebMD Physician Directory",
-        "date_accessed": 2021,
-        "url": "https://doctor.webmd.com/"
-      }
-    ]
-  },
-  "access_scores_pediatric:ped_cnt": {
-    "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_pediatrics_access_scores",
-    "full_name": "access_scores_pediatric:ped_cnt",
-    "measure": "ped_cnt",
-    "type": "count",
-    "short_name": "Pediatric care availability (count)",
-    "long_name": "Pediatric care availability by count",
-    "short_description": "Count of pediatricians based on provider locations",
-    "long_description": "Count of pediatricians based on provider locations. Address data were collected from WebMD's online Physician Directory.",
-    "statement": "There are {value} pediatricians in {features.name}.",
-    "equity_category": "Availability",
-    "sources": [
-      {
-        "name": "WebMD Physician Directory",
-        "date_accessed": 2021,
-        "url": "https://doctor.webmd.com/"
-      }
-    ]
-  },
-  "perc_income_on_internet:perc_income_min_price_25": {
-    "category": "Broadband",
-    "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
-    "full_name": "perc_income_on_internet:perc_income_min_price_25",
-    "measure": "perc_income_min_price_25",
-    "type": "percent",
-    "short_name": "Percentage of income for good internet",
-    "long_name": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income",
-    "short_description": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income",
-    "long_description": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income.",
-    "statement": "Good internet costs {value} of the median household income in {features.name}.",
-    "equity_category": "Affordability",
-    "sources": [
+        "url": "https://www.meps.ahrq.gov/mepsweb/"
+      },
       {
         "name": "American Community Survey",
         "date_accessed": 2021,
         "url": "https://www.census.gov/programs-surveys/acs.html"
-      },
-      {
-        "name": "Broadband Now",
-        "date_accessed": 2021,
-        "url": "https://broadbandnow.com/"
-      }
-    ]
-  },
-  "perc_income_on_internet:perc_income_min_price_100": {
-    "category": "Broadband",
-    "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
-    "full_name": "perc_income_on_internet:perc_income_min_price_100",
-    "measure": "perc_income_min_price_100",
-    "type": "percent",
-    "short_name": "Percentage of income for fast internet",
-    "long_name": "The minimum price for fast internet (100 MB/s upload) as a percentage of median household income",
-    "short_description": "The minimum price for fast internet (100 MB/s upload) as a percent of median household income",
-    "long_description": "The minimum price for fast internet (100 MB/s upload) as a percentage of median household income.",
-    "statement": "Fast internet costs {value} of the median household income in {features.name}.",
-    "equity_category": "Affordability",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      },
-      {
-        "name": "Broadband Now",
-        "date_accessed": 2021,
-        "url": "https://broadbandnow.com/"
-      }
-    ]
-  },
-  "perc_income_on_internet:perc_income_avg_nat_package": {
-    "category": "Broadband",
-    "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
-    "full_name": "perc_income_on_internet:perc_income_avg_nat_package",
-    "measure": "perc_income_avg_nat_package",
-    "type": "percent",
-    "short_name": "Percentage of income for internet (average)",
-    "long_name": "The national average price for internet as a percentage of average income",
-    "short_description": "The national average price for internet ($64) as a percentage of median household income",
-    "long_description": "The national average price for internet ($64) as a percentage of median household income.",
-    "statement": "The national average internet package costs {value} of the median household income in {features.name}.",
-    "equity_category": "Affordability",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      },
-      {
-        "name": "Broadband Now",
-        "date_accessed": 2021,
-        "url": "https://broadbandnow.com/"
-      }
-    ]
-  },
-  "broadband_withoutint_compdev:perc_hh_without_internet": {
-    "category": "Broadband",
-    "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev",
-    "full_name": "broadband_withoutint_compdev:perc_hh_without_internet",
-    "measure": "perc_hh_without_internet",
-    "type": "percent",
-    "short_name": "Households without internet access",
-    "long_name": "Percentage of households without internet access",
-    "short_description": "Percentage of households self-reported to not have internet access at home",
-    "long_description": "Percentage of households self-reported to not have internet access at home. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
-    "statement": "{value} of households in {features.name} do not have internet access.",
-    "equity_category": "Availability",
-    "sources": [
-      {
-        "name": "American Community Survey Table B28002",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
-  "broadband_withoutint_compdev:perc_hh_without_compdev": {
-    "category": "Broadband",
-    "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev",
-    "full_name": "broadband_withoutint_compdev:perc_hh_without_compdev",
-    "measure": "perc_hh_without_compdev",
-    "type": "percent",
-    "short_name": "Households without a computer",
-    "long_name": "Percentage of households without a computer",
-    "short_description": "Percentage of households self-reported to not have a computer or device at home",
-    "long_description": "Percentage of the households self-reported to not have a computer or device at home. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
-    "statement": "{value} of households in {features.name} do not have a computer or device.",
-    "equity_category": "Accessibility",
-    "sources": [
-      {
-        "name": "American Community Survey Table B28002",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
-  "broadband_withoutint_compdev:perc_hh_with_cable_fiber_dsl": {
-    "category": "Broadband",
-    "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev",
-    "full_name": "broadband_withoutint_compdev:perc_hh_with_cable_fiber_dsl",
-    "measure": "perc_hh_with_cable_fiber_dsl",
-    "type": "percent",
-    "short_name": "Households with cable, fiber optic, or DSL",
-    "long_name": "Percentage of households with a high speed internet service (cable, fiber optic, or DSL)",
-    "short_description": "Percentage of households self-reported to have a high speed internet service (cable, fiber optic, or DSL)",
-    "long_description": "Percentage of households self-reported to have a high speed internet service. A high speed internet service is defined as a cable, fiber optic, or DSL internet connection. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
-    "statement": "{value} of households in {features.name} have a cable, fiber optic, or DSL internet connection.",
-    "equity_category": "Availability",
-    "sources": [
-      {
-        "name": "American Community Survey Table B28002",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
-  "broadband_withoutint_compdev:perc_hh_with_broadband": {
-    "category": "Broadband",
-    "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev ",
-    "full_name": "broadband_withoutint_compdev:perc_hh_with_broadband",
-    "measure": "perc_hh_with_broadband",
-    "type": "percent",
-    "short_name": "Households with broadband",
-    "long_name": "Percentage of households with broadband",
-    "short_description": "Percentage of households self-reported to have a broadband internet connection (any type of internet other than a dial-up)",
-    "long_description": "Percentage of households self-reported to have a broadband internet connection. Broadband internet is defined as any type of internet other than a dial-up. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
-    "statement": "{value} of households in {features.name} have a broadband connection.",
-    "equity_category": "Availability",
-    "sources": [
-      {
-        "name": "American Community Survey Table B28002",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
-  "no_health_insurance_19_to_64:hlth_ins_pct": {
-    "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_acs5_2015_2019_no_health_insurance_19_to_64",
-    "full_name": "health_insurance_19_to_64:hlth_ins_pct",
-    "measure": "hlth_ins_pct",
-    "type": "percent",
-    "short_name": "Insured population",
-    "long_name": "Percentage of population with health insurance",
-    "short_description": "Percentage of the population (ages 19-64) self-reported to be currently covered by any type of health insurance or health coverage plan",
-    "long_description": "Percentage of the population self-reported to be currently covered by any type of health insurance or health coverage plan. Based on American Community Survey Table B27010 in ACS 2015/2019 5-year estimates.",
-    "statement": "{value} of the population has health insurance in {features.name}.",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "location": "Table B27010",
-        "date_accessed": 2022,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
-  "demographics:perc_hh_limited_english": {
-    "category": "Demographics",
-    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
-    "full_name": "acs_demographics:perc_hh_limited_english",
-    "measure": "perc_hh_limited_english",
-    "short_name": "Limited English households",
-    "long_name": "Limited English households (percent)",
-    "short_description": "The percent of households with limited English. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "long_description": "The percent of households with limited English. Based on American Community Survey ACS 2015/2019 5-year estimates Table C16002.",
-    "statement": "The percent of households with limited English is {value} in {features.name}.",
-    "type": "percent",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "American Community Survey Table C16002",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
-  "demographics:perc_veteran": {
-    "category": "Demographics",
-    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
-    "full_name": "acs_demographics:perc_veteran",
-    "measure": "perc_veteran",
-    "short_name": "Veteran population",
-    "long_name": "Veteran population (percent)",
-    "short_description": "The Veteran population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "long_description": "The Veteran population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "statement": "The Veteran population is {value} in {features.name}.",
-    "type": "percent",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
-  "demographics:perc_65_plus": {
-    "category": "Demographics",
-    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
-    "full_name": "demographics:perc_65_plus",
-    "measure": "perc_65_plus",
-    "short_name": "65 plus population",
-    "long_name": "65 plus population (percent)",
-    "short_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "long_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "statement": "The percent of the population over age 64 is {value} in {features.name}.",
-    "type": "percent",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
-  "demographics:perc_20_64": {
-    "category": "Demographics",
-    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
-    "full_name": "acs_demographics:perc_20_64",
-    "measure": "perc_20_64",
-    "short_name": "20 to 64 population",
-    "long_name": "20 to 64 population (percent)",
-    "short_description": "The percent of the population between age 20 and 64. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "long_description": "The percent of the population between age 20 and 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "statement": "The percent of the population between age 20 and 64 is {value} in {features.name}.",
-    "type": "percent",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
-  "demographics:perc_under_20": {
-    "category": "Demographics",
-    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
-    "full_name": "acs_demographics:perc_under_20",
-    "measure": "perc_under_20",
-    "short_name": "Under 20 population",
-    "long_name": "Under 20 population (percent)",
-    "short_description": "The percent of the population under age 20. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "long_description": "The percent of the population under age 20. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "statement": "The percent of the population under age 20 is {value} in {features.name}.",
-    "type": "percent",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
-  "demographics:perc_two_or_more_races": {
-    "category": "Demographics",
-    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
-    "full_name": "acs_demographics:perc_two_or_more_races",
-    "measure": "perc_two_or_more_races",
-    "short_name": "Two or more races population",
-    "long_name": "Two or more races population (percent)",
-    "short_description": "The two or more races population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "long_description": "The two or more races population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "statement": "The two or more races population is {value} in {features.name}.",
-    "type": "percent",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
-  "demographics:perc_other": {
-    "category": "Demographics",
-    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
-    "full_name": "demographics:perc_other",
-    "measure": "perc_other",
-    "short_name": "Other racial population",
-    "long_name": "Other racial population (percent)",
-    "short_description": "The Other racial population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "long_description": "The Other racial population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "statement": "The Other racial population is {value} in {features.name}.",
-    "type": "percent",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
-  "demographics:perc_hispanic_or_latino": {
-    "category": "Demographics",
-    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
-    "full_name": "acs_demographics:perc_hispanic_or_latino",
-    "measure": "perc_hispanic_or_latino",
-    "short_name": "Hispanic/Latino population",
-    "long_name": "Hispanic/Latino population (percent)",
-    "short_description": "The Hispanic/Latino population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "long_description": "The Hispanic/Latino population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "statement": "The Hispanic/Latino population is {value} in {features.name}.",
-    "type": "percent",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
-  "demographics:perc_white": {
-    "category": "Demographics",
-    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
-    "full_name": "acs_demographics:perc_white",
-    "measure": "perc_white",
-    "short_name": "White population",
-    "long_name": "White population (percent)",
-    "short_description": "The White population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "long_description": "The White population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "statement": "The White population is {value} in {features.name}.",
-    "type": "percent",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
-  "demographics:perc_AAPI": {
-    "category": "Demographics",
-    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
-    "full_name": "acs_demographics:perc_AAPI",
-    "measure": "perc_AAPI",
-    "short_name": "Asian American/Pacific Islander population",
-    "long_name": "Asian American/Pacific Islander population (percent)",
-    "short_description": "The Asian American/Pacific Islander population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "long_description": "The Asian American/Pacific Islander population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "statement": "The Asian American/Pacific Islander population is {value} in {features.name}.",
-    "type": "percent",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
-  "demographics:perc_native": {
-    "category": "Demographics",
-    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
-    "full_name": "acs_demographics:perc_native",
-    "measure": "perc_native",
-    "short_name": "Native population",
-    "long_name": "Native population (percent)",
-    "short_description": "The Native population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "long_description": "The Native population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "statement": "The Native population is {value} in {features.name}.",
-    "type": "percent",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
-  "demographics:perc_black": {
-    "category": "Demographics",
-    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
-    "full_name": "acs_demographics:perc_black",
-    "measure": "perc_black",
-    "short_name": "Black population",
-    "long_name": "Black population (percent)",
-    "short_description": "The Black population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "long_description": "The Black population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "statement": "The Black population is {value} in {features.name}.",
-    "type": "percent",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
-  "hhs:childrens_hospitals_min_drivetime": {
-    "category": "Health",
-    "full_name": "hhs:childrens_hospitals_min_drivetime",
-    "measure": "childrens_hospitals_min_drivetime",
-    "type": "minutes",
-    "short_name": "Children's Hospital Drive Time",
-    "long_name": "Drive time to nearest children's hospital",
-    "short_description": "Drive time to the nearest children's hospital.",
-    "long_description": "Minimal drive time to a children's hospital from the Census block group centroid, as calculated by the Open Source Routing Machine in 2022. Hospital locations are from the U.S. Health and Human Services. All distances are calculated at the block group level, then averaged up to higher-level geographies.",
-    "statement": "It takes {value} to drive to a children's hospital from {features.name}'s block group centroids on average.",
-    "equity_category": "Accessibility",
-    "sources": [
-      {
-        "name": "U.S. Department of Health & Human Services",
-        "location": "Hospital > COVID-19 Reported Patient Impact and Hospital Capacity by Facility",
-        "location_url": "https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/anag-cw7u",
-        "date_accessed": 2022,
-        "url": "https://healthdata.gov"
-      },
-      {
-        "name": "Open Source Routing Machine",
-        "date_accessed": 2022,
-        "url": "http://project-osrm.org"
-      }
-    ]
-  },
-  "hhs:intensive_care_min_drivetime": {
-    "category": "Health",
-    "full_name": "hhs:intensive_care_min_drivetime",
-    "measure": "intensive_care_min_drivetime",
-    "type": "minutes",
-    "short_name": "Intensive Care Unit Drive Time",
-    "long_name": "Drive time to nearest hospital with intensive care unit beds",
-    "short_description": "Drive time to the nearest hospital with intensive care unit beds.",
-    "long_description": "Minimal drive time to a hospital with intensive care unit beds from the Census block group centroid, as calculated by the Open Source Routing Machine in 2022. Hospital locations are from the U.S. Health and Human Services. All distances are calculated at the block group level, then averaged up to higher-level geographies.",
-    "statement": "It takes {value} to drive to a hospital with intensive care unit beds from {features.name}'s block group centroids on average.",
-    "equity_category": "Accessibility",
-    "sources": [
-      {
-        "name": "U.S. Department of Health & Human Services",
-        "location": "Hospital > COVID-19 Reported Patient Impact and Hospital Capacity by Facility",
-        "location_url": "https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/anag-cw7u",
-        "date_accessed": 2022,
-        "url": "https://healthdata.gov"
-      },
-      {
-        "name": "Open Source Routing Machine",
-        "date_accessed": 2022,
-        "url": "http://project-osrm.org"
-      }
-    ]
-  },
-  "hhs:hospitals_min_drivetime": {
-    "category": "Health",
-    "full_name": "hhs:hospitals_min_drivetime",
-    "measure": "hospitals_min_drivetime",
-    "type": "minutes",
-    "short_name": "Hospital Drive Time",
-    "long_name": "Drive time to nearest hospital",
-    "short_description": "Drive time to the nearest hospital.",
-    "long_description": "Minimal drive time to a hospital from the Census block group centroid, as calculated by the Open Source Routing Machine in 2022. Hospital locations are from the U.S. Health and Human Services. All distances are calculated at the block group level, then averaged up to higher-level geographies.",
-    "statement": "It takes {value} to drive to a hospital from {features.name}'s block group centroids on average.",
-    "equity_category": "Accessibility",
-    "sources": [
-      {
-        "name": "U.S. Department of Health & Human Services",
-        "location": "Hospital > COVID-19 Reported Patient Impact and Hospital Capacity by Facility",
-        "location_url": "https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/anag-cw7u",
-        "date_accessed": 2022,
-        "url": "https://healthdata.gov"
-      },
-      {
-        "name": "Open Source Routing Machine",
-        "date_accessed": 2022,
-        "url": "http://project-osrm.org"
-      }
-    ]
-  },
-  "hhs:childrens_hospitals_per_100k": {
-    "category": "Health",
-    "full_name": "hhs:childrens_hospitals_per_100k",
-    "measure": "childrens_hospitals_per_100k",
-    "type": "per 100k",
-    "short_name": "Children's Hospital Beds",
-    "long_name": "Children's hospital beds per 100k people",
-    "short_description": "Number of children's hospital beds per 100k people.",
-    "long_description": "Number of children's hospital beds per 100k people, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) children's hospitals as listed by the U.S. Health and Human Services, with number of beds (overall average of 7 day averages) as supply values, (b) Census block groups, with supply values as the total population as reported the American Community Survey 5-year summaries, and (c) distance between hospital locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
-    "statement": "There are {value} children's hospital beds per 100k people in {features.name}.",
-    "equity_category": "Accessibility",
-    "citations": [
-      "wan12",
-      "bii21"
-    ],
-    "sources": [
-      {
-        "name": "U.S. Department of Health & Human Services",
-        "location": "Hospital > COVID-19 Reported Patient Impact and Hospital Capacity by Facility",
-        "location_url": "https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/anag-cw7u",
-        "date_accessed": 2022,
-        "url": "https://healthdata.gov"
-      },
-      {
-        "name": "American Community Survey",
-        "location": "data/5_year_seq_by_state",
-        "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
-        "date_accessed": 2022,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      },
-      {
-        "name": "Open Source Routing Machine",
-        "date_accessed": 2022,
-        "url": "http://project-osrm.org"
-      }
-    ]
-  },
-  "hhs:intensive_care_per_100k": {
-    "category": "Health",
-    "full_name": "hhs:intensive_care_per_100k",
-    "measure": "intensive_care_per_100k",
-    "type": "per 100k",
-    "short_name": "Intensive Care Unit Beds",
-    "long_name": "Intensive care unit beds per 100k people",
-    "short_description": "Number of Intensive care unit beds per 100k people.",
-    "long_description": "Number of Intensive care unit beds per 100k people, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) hospitals with intensive care unit beds as listed by the U.S. Health and Human Services, with number of intensive care unit beds (overall average of 7 day averages) as supply values, (b) Census block groups, with supply values as the total population as reported the American Community Survey 5-year summaries, and (c) distance between hospital locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
-    "statement": "There are {value} intensive care unit beds per 100k people in {features.name}.",
-    "equity_category": "Accessibility",
-    "citations": [
-      "wan12",
-      "bii21"
-    ],
-    "sources": [
-      {
-        "name": "U.S. Department of Health & Human Services",
-        "location": "Hospital > COVID-19 Reported Patient Impact and Hospital Capacity by Facility",
-        "location_url": "https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/anag-cw7u",
-        "date_accessed": 2022,
-        "url": "https://healthdata.gov"
-      },
-      {
-        "name": "American Community Survey",
-        "location": "data/5_year_seq_by_state",
-        "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
-        "date_accessed": 2022,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      },
-      {
-        "name": "Open Source Routing Machine",
-        "date_accessed": 2022,
-        "url": "http://project-osrm.org"
-      }
-    ]
-  },
-  "hhs:hospitals_per_100k": {
-    "category": "Health",
-    "full_name": "hhs:hospitals_per_100k",
-    "measure": "hospitals_per_100k",
-    "type": "per 100k",
-    "short_name": "Hospital Beds",
-    "long_name": "Hospital beds per 100k people",
-    "short_description": "Number of hospital beds per 100k people.",
-    "long_description": "Number of hospital beds per 100k people, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) hospitals as listed by the U.S. Health and Human Services, with number of beds (overall average of 7 day averages) as supply values, (b) Census block groups, with supply values as the total population as reported the American Community Survey 5-year summaries, and (c) distance between hospital locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
-    "statement": "There are {value} hospital beds per 100k people in {features.name}.",
-    "equity_category": "Accessibility",
-    "citations": [
-      "wan12",
-      "bii21"
-    ],
-    "sources": [
-      {
-        "name": "U.S. Department of Health & Human Services",
-        "location": "Hospital > COVID-19 Reported Patient Impact and Hospital Capacity by Facility",
-        "location_url": "https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/anag-cw7u",
-        "date_accessed": 2022,
-        "url": "https://healthdata.gov"
-      },
-      {
-        "name": "American Community Survey",
-        "location": "data/5_year_seq_by_state",
-        "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
-        "date_accessed": 2022,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      },
-      {
-        "name": "Open Source Routing Machine",
-        "date_accessed": 2022,
-        "url": "http://project-osrm.org"
       }
     ]
   },
@@ -1691,55 +379,6 @@
       }
     ]
   },
-  "post_hs_education:perc_post_hs_edu": {
-    "category": "Education",
-    "measure_table": "dc_education_training.va_hdcttr_acs_2015_2019_post_hs_education",
-    "full_name": "post_hs_education:perc_post_hs_edu",
-    "measure": "perc_post_hs_edu",
-    "type": "percent",
-    "short_name": "Post-secondary education (percent)",
-    "long_name": "Percentage with post-secondary education",
-    "short_description": "Percentage of the population self-reported to have post-secondary education",
-    "long_description": "Percentage of the population self-reported to have post-secondary education. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.",
-    "statement": "{value} of the population in {features.name} has a post-secondary education.",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "American Community Survey Table B15003",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/data/developers/data-sets/acs-5year.html"
-      }
-    ]
-  },
-  "health_literacy_estimates:health_literacy_estimate": {
-    "category": "Education",
-    "measure_table": "dc_education_training.va_hdcttr_sdad_2019_health_literacy_estimates",
-    "full_name": "health_literacy_estimates:health_literacy_estimate",
-    "measure": "health_literacy_estimate",
-    "type": "index",
-    "short_name": "Health literacy composite",
-    "long_name": "Health literacy composite",
-    "short_description": "Health literacy composite captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions",
-    "long_description": "The health literacy composite captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions. Health literacy composite is based on variables of demographic characteristics, health status, and health care use.",
-    "statement": "The health literacy composite for {features.name} is {value}.",
-    "equity_category": "Status",
-    "citations": [
-      "savitz20",
-      "liang17"
-    ],
-    "sources": [
-      {
-        "name": "Medical Expenditure Panel Survey",
-        "date_accessed": 2021,
-        "url": "https://www.meps.ahrq.gov/mepsweb/"
-      },
-      {
-        "name": "American Community Survey",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
   "daycare_access_scores:daycare_median_drive_time_top5": {
     "category": "Education",
     "measure_table": "dc_education_training.va_hdcttrbg_dss_2021_daycare_access_scores",
@@ -1803,6 +442,1367 @@
         "name": "Virginia Department of Social Services",
         "date_accessed": 2021,
         "url": "https://www.dss.virginia.gov/facility/search/cc.cgi"
+      }
+    ]
+  },
+  "kotelchuck_apncu_index:adequateplus_pc": {
+    "category": "Health",
+    "measure_table": "kotelchuck_apncu_index",
+    "full_name": "kotelchuck_apncu_index:adequateplus_pc",
+    "measure": "adequateplus",
+    "type": "percent",
+    "short_name": "Kotelchuck (adequate plus percent)",
+    "long_name": "Adequacy of Prenatal Care Utilization: Adequate Plus",
+    "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Adequate Plus",
+    "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of adequate plus.  Proportion of pregnant mothers receiving prenatal care beyond adequate levels. Adequate Plus  prenatal care occurs when prenatal care begins from 1st through 4th month and the proportion of the number of recommended visits is  110% or more. The recommended number of prenatal care visits received from the time prenatal care began until the time of delivery is defined by the American College of Obstetricians and Gynecologists.",
+    "statement": "{value} of the cases in {features.name} rated as adequate plus.",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "Centers for Disease Control and Prevention",
+        "date_accessed": "2022",
+        "url": "https://www.cdc.gov"
+      }
+    ]
+  },
+  "kotelchuck_apncu_index:adequate_pc": {
+    "category": "Health",
+    "measure_table": "kotelchuck_apncu_index",
+    "full_name": "kotelchuck_apncu_index:adequate_pc",
+    "measure": "adequate",
+    "type": "percent",
+    "short_name": "Kotelchuck (adequate percent)",
+    "long_name": "Adequacy of Prenatal Care Utilization: Adequate",
+    "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Adequate",
+    "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of adequate. Proportion of pregnant mothers receiving adequate prenatal care.  Adequate prenatal care occurs when prenatal care begins from 1st through 4th month and the proportion of the number of recommended visits is between 80% and 109%. The recommended number of prenatal care visits received from the time prenatal care began until the time of delivery is defined by the American College of Obstetricians and Gynecologists.",
+    "statement": "{value} of the cases in {features.name} rated as adequate.",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "Centers for Disease Control and Prevention",
+        "date_accessed": "2022",
+        "url": "https://www.cdc.gov"
+      }
+    ]
+  },
+  "kotelchuck_apncu_index:intermediate_pc": {
+    "category": "Health",
+    "measure_table": "kotelchuck_apncu_index",
+    "full_name": "kotelchuck_apncu_index:intermediate_pc",
+    "measure": "intermediate",
+    "type": "percent",
+    "short_name": "Kotelchuck (intermediate percent)",
+    "long_name": "Adequacy of Prenatal Care Utilization: Intermediate",
+    "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Intermediate",
+    "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of intermediate. Proportion of pregnant mothers receiving intermediate prenatal care. Intermediate prenatal care occurs when prenatal care begins from 1st through 4th month, and the proportion of the number of visits is between 50-79%.   The recommended number of prenatal care visits received from the time prenatal care began until the time of delivery is defined by the American College of Obstetricians and Gynecologists.",
+    "statement": "{value} of the cases in {features.name} rated as intermediate.",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "Centers for Disease Control and Prevention",
+        "date_accessed": "2022",
+        "url": "https://www.cdc.gov"
+      }
+    ]
+  },
+  "kotelchuck_apncu_index:inadequate_pc": {
+    "category": "Health",
+    "measure_table": "kotelchuck_apncu_index",
+    "full_name": "kotelchuck_apncu_index:inadequate_pc",
+    "measure": "inadequate_pc",
+    "type": "percent",
+    "short_name": "Kotelchuck (inadequate percent)",
+    "long_name": "Adequacy of Prenatal Care Utilization: Inadequate",
+    "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Inadequate",
+    "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of inadequate. Proportion of pregnant mothers receiving inadequate prenatal care. Inadequate levels occurs when prenatal care begins in the 5th month or later or no prenatal care, regardless of the number of visits or, with less than 50% or more recommended visits received from 1st through 4th month.  The recommended number of prenatal care visits received from the time prenatal care began until the time of delivery is defined by the American College of Obstetricians and Gynecologists.",
+    "statement": "{value} of the cases in {features.name} rated as inadequate.",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "Centers for Disease Control and Prevention",
+        "date_accessed": "2022",
+        "url": "https://www.cdc.gov"
+      }
+    ]
+  },
+  "kotelchuck_apncu_index:adequateplus": {
+    "category": "Health",
+    "measure_table": "kotelchuck_apncu_index",
+    "full_name": "kotelchuck_apncu_index:adequateplus",
+    "measure": "adequateplus",
+    "type": "integer",
+    "short_name": "Kotelchuck (adequate plus count)",
+    "long_name": "Adequacy of Prenatal Care Utilization: Adequate Plus",
+    "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Adequate Plus",
+    "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of adequate plus.  Adequate Plus  prenatal care occurs when prenatal care begins from 1st through 4th month and the proportion of the number of recommended visits is  110% or more. The recommended number of prenatal care visits received from the time prenatal care began until the time of delivery is defined by the American College of Obstetricians and Gynecologists.",
+    "statement": "There are {value} cases rated as adequate plus in {features.name}.",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "Centers for Disease Control and Prevention",
+        "date_accessed": "2022",
+        "url": "https://www.cdc.gov"
+      }
+    ]
+  },
+  "kotelchuck_apncu_index:adequate": {
+    "category": "Health",
+    "measure_table": "kotelchuck_apncu_index",
+    "full_name": "kotelchuck_apncu_index:adequate",
+    "measure": "adequate",
+    "type": "integer",
+    "short_name": "Kotelchuck (adequate count)",
+    "long_name": "Adequacy of Prenatal Care Utilization: Adequate",
+    "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Adequate",
+    "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of adequate. Adequate prenatal care occurs when prenatal care begins from 1st through 4th month and the proportion of the number of recommended visits is between 80% and 109%. The recommended number of prenatal care visits received from the time prenatal care began until the time of delivery is defined by the American College of Obstetricians and Gynecologists.",
+    "statement": "There are {value} cases rated as adequate in {features.name}.",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "Centers for Disease Control and Prevention",
+        "date_accessed": "2022",
+        "url": "https://www.cdc.gov"
+      }
+    ]
+  },
+  "kotelchuck_apncu_index:intermediate": {
+    "category": "Health",
+    "measure_table": "kotelchuck_apncu_index",
+    "full_name": "kotelchuck_apncu_index:intermediate",
+    "measure": "intermediate",
+    "type": "integer",
+    "short_name": "Kotelchuck (intermediate count)",
+    "long_name": "Adequacy of Prenatal Care Utilization: Intermediate",
+    "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Intermediate",
+    "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of intermediate. Intermediate prenatal care occurs when prenatal care begins from 1st through 4th month, and the proportion of the number of visits is between 50-79%.   The recommended number of prenatal care visits received from the time prenatal care began until the time of delivery is defined by the American College of Obstetricians and Gynecologists.",
+    "statement": "There are {value} cases rated as intermediate in {features.name}.",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "Centers for Disease Control and Prevention",
+        "date_accessed": "2022",
+        "url": "https://www.cdc.gov"
+      }
+    ]
+  },
+  "kotelchuck_apncu_index:inadequate": {
+    "category": "Health",
+    "measure_table": "kotelchuck_apncu_index",
+    "full_name": "kotelchuck_apncu_index:inadequate",
+    "measure": "inadequate",
+    "type": "integer",
+    "short_name": "Kotelchuck (inadequate count)",
+    "long_name": "Adequacy of Prenatal Care Utilization: Inadequate",
+    "short_description": "Adequacy of Prenatal Care Utilization (APNCU): Inadequate",
+    "long_description": "Adequacy of Prenatal Care Utilization (APNCU) index, also known as the Kotelchuck index, with a rating of inadequate. Inadequate levels occurs when prenatal care begins in the 5th month or later or no prenatal care, regardless of the number of visits or, with less than 50% or more recommended visits received from 1st through 4th month.  The recommended number of prenatal care visits received from the time prenatal care began until the time of delivery is defined by the American College of Obstetricians and Gynecologists.",
+    "statement": "There are {value} cases rated as inadequate in {features.name}.",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "Centers for Disease Control and Prevention",
+        "date_accessed": "2022",
+        "url": "https://www.cdc.gov"
+      }
+    ]
+  },
+  "demographics:perc_hh_limited_english": {
+    "category": "Demographics",
+    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+    "full_name": "acs_demographics:perc_hh_limited_english",
+    "measure": "perc_hh_limited_english",
+    "short_name": "Limited English households",
+    "long_name": "Limited English households (percent)",
+    "short_description": "The percent of households with limited English. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The percent of households with limited English. Based on American Community Survey ACS 2015/2019 5-year estimates Table C16002.",
+    "statement": "The percent of households with limited English is {value} in {features.name}.",
+    "type": "percent",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey Table C16002",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "demographics:perc_veteran": {
+    "category": "Demographics",
+    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+    "full_name": "acs_demographics:perc_veteran",
+    "measure": "perc_veteran",
+    "short_name": "Veteran population",
+    "long_name": "Veteran population (percent)",
+    "short_description": "The Veteran population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The Veteran population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The Veteran population is {value} in {features.name}.",
+    "type": "percent",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "demographics:perc_65_plus": {
+    "category": "Demographics",
+    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+    "full_name": "demographics:perc_65_plus",
+    "measure": "perc_65_plus",
+    "short_name": "65 plus population",
+    "long_name": "65 plus population (percent)",
+    "short_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The percent of the population over age 64 is {value} in {features.name}.",
+    "type": "percent",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "demographics:perc_20_64": {
+    "category": "Demographics",
+    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+    "full_name": "acs_demographics:perc_20_64",
+    "measure": "perc_20_64",
+    "short_name": "20 to 64 population",
+    "long_name": "20 to 64 population (percent)",
+    "short_description": "The percent of the population between age 20 and 64. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The percent of the population between age 20 and 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The percent of the population between age 20 and 64 is {value} in {features.name}.",
+    "type": "percent",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "demographics:perc_under_20": {
+    "category": "Demographics",
+    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+    "full_name": "acs_demographics:perc_under_20",
+    "measure": "perc_under_20",
+    "short_name": "Under 20 population",
+    "long_name": "Under 20 population (percent)",
+    "short_description": "The percent of the population under age 20. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The percent of the population under age 20. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The percent of the population under age 20 is {value} in {features.name}.",
+    "type": "percent",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "demographics:perc_two_or_more_races": {
+    "category": "Demographics",
+    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+    "full_name": "acs_demographics:perc_two_or_more_races",
+    "measure": "perc_two_or_more_races",
+    "short_name": "Two or more races population",
+    "long_name": "Two or more races population (percent)",
+    "short_description": "The two or more races population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The two or more races population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The two or more races population is {value} in {features.name}.",
+    "type": "percent",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "demographics:perc_other": {
+    "category": "Demographics",
+    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+    "full_name": "demographics:perc_other",
+    "measure": "perc_other",
+    "short_name": "Other racial population",
+    "long_name": "Other racial population (percent)",
+    "short_description": "The Other racial population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The Other racial population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The Other racial population is {value} in {features.name}.",
+    "type": "percent",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "demographics:perc_hispanic_or_latino": {
+    "category": "Demographics",
+    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+    "full_name": "acs_demographics:perc_hispanic_or_latino",
+    "measure": "perc_hispanic_or_latino",
+    "short_name": "Hispanic/Latino population",
+    "long_name": "Hispanic/Latino population (percent)",
+    "short_description": "The Hispanic/Latino population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The Hispanic/Latino population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The Hispanic/Latino population is {value} in {features.name}.",
+    "type": "percent",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "demographics:perc_white": {
+    "category": "Demographics",
+    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+    "full_name": "acs_demographics:perc_white",
+    "measure": "perc_white",
+    "short_name": "White population",
+    "long_name": "White population (percent)",
+    "short_description": "The White population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The White population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The White population is {value} in {features.name}.",
+    "type": "percent",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "demographics:perc_AAPI": {
+    "category": "Demographics",
+    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+    "full_name": "acs_demographics:perc_AAPI",
+    "measure": "perc_AAPI",
+    "short_name": "Asian American/Pacific Islander population",
+    "long_name": "Asian American/Pacific Islander population (percent)",
+    "short_description": "The Asian American/Pacific Islander population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The Asian American/Pacific Islander population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The Asian American/Pacific Islander population is {value} in {features.name}.",
+    "type": "percent",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "demographics:perc_native": {
+    "category": "Demographics",
+    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+    "full_name": "acs_demographics:perc_native",
+    "measure": "perc_native",
+    "short_name": "Native population",
+    "long_name": "Native population (percent)",
+    "short_description": "The Native population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The Native population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The Native population is {value} in {features.name}.",
+    "type": "percent",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "demographics:perc_black": {
+    "category": "Demographics",
+    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+    "full_name": "acs_demographics:perc_black",
+    "measure": "perc_black",
+    "short_name": "Black population",
+    "long_name": "Black population (percent)",
+    "short_description": "The Black population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The Black population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The Black population is {value} in {features.name}.",
+    "type": "percent",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "food_insecurity_and_cost:Food_Insecurity_Rate": {
+    "category": "Nutrition and Food Security",
+    "measure_table": "food_insecurity_and_cost",
+    "full_name": "food_insecurity_and_cost:Food_Insecurity_Rate",
+    "measure": "Food_Insecurity_Rate",
+    "type": "percent",
+    "short_name": "Percentage of food insecure",
+    "long_name": "Percentage of food insecure",
+    "short_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods.",
+    "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
+    "statement": "{value} of the population in {features.name} are food insecure.",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "Feeding America",
+        "date_accessed": "2021",
+        "url": "https://www.feedingamerica.org/"
+      }
+    ]
+  },
+  "food_insecurity_and_cost:Num_Child_Food_Insecure": {
+    "category": "Nutrition and Food Security",
+    "measure_table": "food_insecurity_and_cost",
+    "full_name": "food_insecurity_and_cost:Num_Child_Food_Insecure",
+    "measure": "Num_Child_Food_Insecure",
+    "type": "count",
+    "short_name": "Food insecure children (count)",
+    "long_name": "Count of food insecure children",
+    "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
+    "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
+    "statement": "The population of food insecure children in {features.name} is {value}.",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "Feeding America",
+        "date_accessed": "2021",
+        "url": "https://www.feedingamerica.org/"
+      }
+    ]
+  },
+  "food_insecurity_and_cost:Cost_Per_Meal": {
+    "category": "Nutrition and Food Security",
+    "measure_table": "food_insecurity_and_cost",
+    "full_name": "food_insecurity_and_cost:Cost_Per_Meal",
+    "measure": "Cost_Per_Meal",
+    "type": "dollar",
+    "short_name": "Average meal cost ($)",
+    "long_name": "Average meal cost ($)",
+    "short_description": "The average weekly dollar amount food-secure individuals report spending on food.",
+    "long_description": "The average weekly dollar amount food-secure individuals report spending on food, as estimated by the Current Population Survey, divided by 21 (assuming three meals a day, seven days a week). This amount has been adjusted to reflect local food prices and relevant taxes.",
+    "statement": "The average meal cost in {features.name} is {value}.",
+    "equity_category": "Affordability",
+    "sources": [
+      {
+        "name": "Feeding America",
+        "date_accessed": "2021",
+        "url": "https://www.feedingamerica.org/"
+      }
+    ]
+  },
+  "food_insecurity_and_cost:Child_Food_Insecurity_Rate": {
+    "category": "Nutrition and Food Security",
+    "measure_table": "Child_Food_Insecurity_Rate",
+    "full_name": "food_insecurity_and_cost:Child_Food_Insecurity_Rate",
+    "measure": "Child_Food_Insecurity_Rate",
+    "type": "percent",
+    "short_name": "Percentage of food insecure children",
+    "long_name": "Percentage of food insecure children",
+    "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
+    "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
+    "statement": "{value} of the population of children in {features.name} are food insecure.",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "Feeding America",
+        "date_accessed": "2021",
+        "url": "https://www.feedingamerica.org/"
+      }
+    ]
+  },
+  "earnings_per_job:earnings_per_job": {
+    "category": "Employment/Workforce Development",
+    "measure_table": "earnings_per_job",
+    "full_name": "earnings_per_job:earnings_per_job",
+    "measure": "earnings_per_job",
+    "type": "dollar",
+    "short_name": "Earnings per job",
+    "long_name": "Earnings per job",
+    "short_description": "Average of earnings per job.",
+    "long_description": "Earnings per job is calculated based on the GDP and Personal Income table from the Bureau of Economic Analysis.",
+    "statement": "Earnings per job in {features.name} is {value}.",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "Bureau of Economic Analysis",
+        "date_accessed": "2021",
+        "url": "https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=1&acrdn=6"
+      }
+    ]
+  },
+  "emp_rate:emp_rate": {
+    "category": "Employment/Workforce Development",
+    "measure_table": "civilian_employment_rate",
+    "full_name": "civilian_employment_rate:employment_rate",
+    "measure": "employment_rate",
+    "type": "percent",
+    "short_name": "Percentage employed",
+    "long_name": "Percentage civilian employed",
+    "short_description": "Population self-reported as employed as a percentage of total civilian workforce population.",
+    "long_description": "Population self-reported as employed as a percentage of total civilian workforce population. Based on American Community Survey Table B23025 ACS 2015/2019 5-year estimates.",
+    "statement": "{value} of the population in {features.name} is employed.",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "location": "Table B23025",
+        "date_accessed": "2021",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "perc_income_on_internet:perc_income_min_price_25": {
+    "category": "Broadband",
+    "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
+    "full_name": "perc_income_on_internet:perc_income_min_price_25",
+    "measure": "perc_income_min_price_25",
+    "type": "percent",
+    "short_name": "Percentage of income for good internet",
+    "long_name": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income",
+    "short_description": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income",
+    "long_description": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income.",
+    "statement": "Good internet costs {value} of the median household income in {features.name}.",
+    "equity_category": "Affordability",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Broadband Now",
+        "date_accessed": 2021,
+        "url": "https://broadbandnow.com/"
+      }
+    ]
+  },
+  "perc_income_on_internet:perc_income_min_price_100": {
+    "category": "Broadband",
+    "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
+    "full_name": "perc_income_on_internet:perc_income_min_price_100",
+    "measure": "perc_income_min_price_100",
+    "type": "percent",
+    "short_name": "Percentage of income for fast internet",
+    "long_name": "The minimum price for fast internet (100 MB/s upload) as a percentage of median household income",
+    "short_description": "The minimum price for fast internet (100 MB/s upload) as a percent of median household income",
+    "long_description": "The minimum price for fast internet (100 MB/s upload) as a percentage of median household income.",
+    "statement": "Fast internet costs {value} of the median household income in {features.name}.",
+    "equity_category": "Affordability",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Broadband Now",
+        "date_accessed": 2021,
+        "url": "https://broadbandnow.com/"
+      }
+    ]
+  },
+  "perc_income_on_internet:perc_income_avg_nat_package": {
+    "category": "Broadband",
+    "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
+    "full_name": "perc_income_on_internet:perc_income_avg_nat_package",
+    "measure": "perc_income_avg_nat_package",
+    "type": "percent",
+    "short_name": "Percentage of income for internet (average)",
+    "long_name": "The national average price for internet as a percentage of average income",
+    "short_description": "The national average price for internet ($64) as a percentage of median household income",
+    "long_description": "The national average price for internet ($64) as a percentage of median household income.",
+    "statement": "The national average internet package costs {value} of the median household income in {features.name}.",
+    "equity_category": "Affordability",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Broadband Now",
+        "date_accessed": 2021,
+        "url": "https://broadbandnow.com/"
+      }
+    ]
+  },
+  "speed_measurements:avg_down_using_devices": {
+    "category": "Broadband",
+    "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
+    "full_name": "speed_measurements:avg_down_using_devices",
+    "measure": "avg_down_using_devices",
+    "short_name": "Average Download Speed",
+    "long_name": "Average Download Speed",
+    "short_description": "Average download speed weighted by number of devices.",
+    "statement": "The average download speed is {value} in {features.name}.",
+    "type": "internet speed",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "Ookla",
+        "date_accessed": 2021,
+        "url": "https://www.ookla.com/ookla-for-good/open-data"
+      }
+    ]
+  },
+  "broadband_withoutint_compdev:perc_hh_without_internet": {
+    "category": "Broadband",
+    "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev",
+    "full_name": "broadband_withoutint_compdev:perc_hh_without_internet",
+    "measure": "perc_hh_without_internet",
+    "type": "percent",
+    "short_name": "Households without internet access",
+    "long_name": "Percentage of households without internet access",
+    "short_description": "Percentage of households self-reported to not have internet access at home",
+    "long_description": "Percentage of households self-reported to not have internet access at home. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+    "statement": "{value} of households in {features.name} do not have internet access.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "American Community Survey Table B28002",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "broadband_withoutint_compdev:perc_hh_without_compdev": {
+    "category": "Broadband",
+    "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev",
+    "full_name": "broadband_withoutint_compdev:perc_hh_without_compdev",
+    "measure": "perc_hh_without_compdev",
+    "type": "percent",
+    "short_name": "Households without a computer",
+    "long_name": "Percentage of households without a computer",
+    "short_description": "Percentage of households self-reported to not have a computer or device at home",
+    "long_description": "Percentage of the households self-reported to not have a computer or device at home. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+    "statement": "{value} of households in {features.name} do not have a computer or device.",
+    "equity_category": "Accessibility",
+    "sources": [
+      {
+        "name": "American Community Survey Table B28002",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "broadband_withoutint_compdev:perc_hh_with_cable_fiber_dsl": {
+    "category": "Broadband",
+    "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev",
+    "full_name": "broadband_withoutint_compdev:perc_hh_with_cable_fiber_dsl",
+    "measure": "perc_hh_with_cable_fiber_dsl",
+    "type": "percent",
+    "short_name": "Households with cable, fiber optic, or DSL",
+    "long_name": "Percentage of households with a high speed internet service (cable, fiber optic, or DSL)",
+    "short_description": "Percentage of households self-reported to have a high speed internet service (cable, fiber optic, or DSL)",
+    "long_description": "Percentage of households self-reported to have a high speed internet service. A high speed internet service is defined as a cable, fiber optic, or DSL internet connection. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+    "statement": "{value} of households in {features.name} have a cable, fiber optic, or DSL internet connection.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "American Community Survey Table B28002",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "broadband_withoutint_compdev:perc_hh_with_broadband": {
+    "category": "Broadband",
+    "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev ",
+    "full_name": "broadband_withoutint_compdev:perc_hh_with_broadband",
+    "measure": "perc_hh_with_broadband",
+    "type": "percent",
+    "short_name": "Households with broadband",
+    "long_name": "Percentage of households with broadband",
+    "short_description": "Percentage of households self-reported to have a broadband internet connection (any type of internet other than a dial-up)",
+    "long_description": "Percentage of households self-reported to have a broadband internet connection. Broadband internet is defined as any type of internet other than a dial-up. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+    "statement": "{value} of households in {features.name} have a broadband connection.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "American Community Survey Table B28002",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "no_health_insurance_19_to_64:hlth_ins_pct": {
+    "category": "Health",
+    "measure_table": "dc_health_behavior_diet.va_hdcttr_acs5_2015_2019_no_health_insurance_19_to_64",
+    "full_name": "health_insurance_19_to_64:hlth_ins_pct",
+    "measure": "hlth_ins_pct",
+    "type": "percent",
+    "short_name": "Insured population",
+    "long_name": "Percentage of population with health insurance",
+    "short_description": "Percentage of the population (ages 19-64) self-reported to be currently covered by any type of health insurance or health coverage plan",
+    "long_description": "Percentage of the population self-reported to be currently covered by any type of health insurance or health coverage plan. Based on American Community Survey Table B27010 in ACS 2015/2019 5-year estimates.",
+    "statement": "{value} of the population has health insurance in {features.name}.",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "location": "Table B27010",
+        "date_accessed": 2022,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "brfss_sae:perc_poor_phys_hlth_days_14_and_over": {
+    "category": "Health",
+    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2015_2019_percent_poor_phys_hlth_days_14_and_over",
+    "full_name": "brfss_sae:perc_poor_phys_hlth_days_14_and_over",
+    "measure": "perc_poor_phys_hlth_days_14_and_over",
+    "type": "percent",
+    "short_name": "Percentage reporting poor physical health",
+    "long_name": "Percentage reporting poor physical health",
+    "short_description": "Percent of the population self-reporting poor physical health",
+    "long_description": "Percent of the population self-reporting poor physical health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
+    "statement": "{value} of the population in {features.name} reports poor physical health.",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "Virginia Behavioral Risk Factor Surveillance System",
+        "date_accessed": 2021,
+        "url": "https://www.vdh.virginia.gov/brfss/"
+      }
+    ]
+  },
+  "brfss_sae:perc_poor_ment_hlth_days_14_and_over": {
+    "category": "Health",
+    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2015_2019_percent_poor_ment_hlth_days_14_and_over",
+    "full_name": "brfss_sae:perc_poor_ment_hlth_days_14_and_over",
+    "measure": "perc_poor_ment_hlth_days_14_and_over",
+    "type": "percent",
+    "short_name": "Percentage reporting poor mental health",
+    "long_name": "Percentage reporting poor mental health",
+    "short_description": "Percent of the population self-reporting poor mental health",
+    "long_description": "Percent of the population self-reporting poor mental health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
+    "statement": "{value} of the population in {features.name} reports poor mental health.",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "Virginia Behavioral Risk Factor Surveillance System",
+        "date_accessed": 2021,
+        "url": "https://www.vdh.virginia.gov/brfss/"
+      }
+    ]
+  },
+  "preventable_hospitalizations:prevent_hosp_rate": {
+    "category": "Health",
+    "measure_table": "dc_health_behavior_diet.va_hdct_chr_2015_2021_preventable_hospitalizations",
+    "full_name": "preventable_hospitalizations:prevent_hosp_rate",
+    "measure": "prevent_hosp_rate",
+    "type": "rate",
+    "short_name": "Preventable hospitalizations per 100,000",
+    "long_name": "Preventable hospital stays per 100,000 Medicare enrollees",
+    "short_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees",
+    "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. Data are based on Medicare claims and come from County Health Rankings.",
+    "statement": "{value} of the hospitalizations in {features.name} were preventable (due to conditions usually treated in outpatient settings).",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "County Health Rankings",
+        "date_accessed": 2021,
+        "url": "https://www.countyhealthrankings.org/app/virginia/2021/measure/factors/5/description"
+      }
+    ]
+  },
+  "drug_overdose_ed_visits:avg_monthly_rate": {
+    "category": "Behavioral Health, Substance Use Disorder and Recovery",
+    "measure_table": "drug_overdose_ed_visits",
+    "full_name": "drug_overdose_ed_visits:avg_overdose_per_100",
+    "measure": "avg_overdose_per_100k",
+    "type": "rate",
+    "short_name": "Monthly average ED visits for drug overdose",
+    "long_name": "Monthly average emergency department visits for drug overdose rate per 100,000 residents",
+    "short_description": "Monthly average emergency department visits for drug overdose per 100,000 residents.",
+    "long_description": "Monthly average emergency department visits for drug overdose per 100,000 residents.",
+    "statement": "The average emergency department visits for drug overdose rate in {features.name} is {value}.",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "Virginia Department of Health",
+        "date_accessed": "2021",
+        "url": "https://www.vdh.virginia.gov/surveillance-and-investigation/syndromic-surveillance/drug-overdose-surveillance/"
+      }
+    ]
+  },
+  "substance_access_scores:subs_cnt": {
+    "category": "Health",
+    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_substance_access_scores",
+    "full_name": "substance_access_scores:subs_cnt",
+    "measure": "substance_cnt",
+    "type": "count",
+    "short_name": "Substance use/behavioral health  access (count)",
+    "long_name": "Access to substance use/behavioral health  by count",
+    "short_description": "Count of substance use/behavioral health facilities based on facility locations",
+    "long_description": "Count of substance use/behavioral health facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
+    "statement": "There are {value} substance use facilities in {features.name}.",
+    "sources": [
+      {
+        "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+        "date_accessed": 2021,
+        "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+      }
+    ]
+  },
+  "substance_access_scores:subs_3sfca": {
+    "category": "Health",
+    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_substance_access_scores",
+    "full_name": "substance_access_scores:subs_3sfca",
+    "measure": "substance_3sfca",
+    "type": "index",
+    "short_name": "Substance use/behavioral health services access score",
+    "long_name": "Substance use/behavioral health services access score (3-step floating catchment areas)",
+    "short_description": "Index of substance use/behavioral health services accessibility based on supply and demand of facilities",
+    "long_description": "Substance use/behavioral health services access score based on 3-step  floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+    "statement": "The substance use/behavioral health services accessibility score for {features.name} is {value}.",
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
+    "sources": [
+      {
+        "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+        "date_accessed": 2021,
+        "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+      }
+    ]
+  },
+  "substance_access_scores:subs_10near_median": {
+    "category": "Health",
+    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_substance_access_scores",
+    "full_name": "substance_access_scores:subs_10near_median",
+    "measure": "substance_10near_median",
+    "type": "drive time",
+    "short_name": "Substance use/behavioral health services access (drive time)",
+    "long_name": "Substance use/behavioral health services access by median drive time to the ten closest facilities in minutes",
+    "short_description": "Median drive time (minutes) to the ten closest substance use/behavioral health services facilities",
+    "long_description": "Median drive time in minutes to the ten closest substance use/behavioral health services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+    "statement": "The median drive time to the ten closest substance use/behavioral health service facilities to {features.name} is {value}.",
+    "sources": [
+      {
+        "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+        "date_accessed": 2021,
+        "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+      }
+    ]
+  },
+  "mental_access_scores:mental_cnt": {
+    "category": "Health",
+    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores",
+    "full_name": "mental_access_scores:mental_cnt",
+    "measure": "mental_cnt",
+    "type": "count",
+    "short_name": "Mental health services access (count)",
+    "long_name": "Access to mental health services by count",
+    "short_description": "Count of mental health facilities based on facility locations",
+    "long_description": "Count of mental health facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
+    "statement": "There are {value} mental health facilities in {features.name}.",
+    "sources": [
+      {
+        "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+        "date_accessed": 2021,
+        "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+      }
+    ]
+  },
+  "mental_access_scores:mental_3sfca": {
+    "category": "Health",
+    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores",
+    "full_name": "mental_access_scores:mental_3sfca",
+    "measure": "mental_3sfca",
+    "type": "index",
+    "short_name": "Mental health services access score",
+    "long_name": "Mental health services access score (3-step  floating catchment areas)",
+    "short_description": "Index of mental health services accessibility based on supply and demand of facilities",
+    "long_description": "Mental health services access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+    "statement": "The mental health services accessibility score for {features.name} is {value}.",
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
+    "sources": [
+      {
+        "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+        "date_accessed": 2021,
+        "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+      }
+    ]
+  },
+  "mental_access_scores:mental_10near_median": {
+    "category": "Health",
+    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores",
+    "full_name": "mental_access_scores:mental_10near_median",
+    "measure": "mental_10near_median",
+    "type": "drive time",
+    "short_name": "Mental health services access (drive time)",
+    "long_name": "Mental health services access by median drive time to the ten closest facilities in minutes",
+    "short_description": "Median drive time (minutes) to the ten closest mental health services facilities",
+    "long_description": "Median drive time in minutes to the ten closest mental health services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+    "statement": "The median drive time to the ten closest mental health service facilities to {features.name} is {value}.",
+    "sources": [
+      {
+        "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+        "date_accessed": 2021,
+        "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+      }
+    ]
+  },
+  "access_scores_ems:ems_3sfca": {
+    "category": "Health",
+    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+    "full_name": "access_scores_ems:ems_3sfca",
+    "measure": "ems_3sfca",
+    "type": "index",
+    "short_name": "Emergency medical services geographic availability",
+    "long_name": "Emergency medical services geographic availability (3-step floating catchment areas)",
+    "short_description": "Index of emergency medical services availability based on supply and demand of facilities",
+    "long_description": "Emergency medical services availability based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+    "statement": "The emergency medical services availability for {features.name} is {value}.",
+    "equity_category": "Availability",
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
+    "sources": [
+      {
+        "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+        "date_accessed": 2021,
+        "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+      }
+    ]
+  },
+  "access_scores_ems:ems_cnt": {
+    "category": "Health",
+    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+    "full_name": "access_scores_ems:ems_cnt",
+    "measure": "ems_cnt",
+    "type": "count",
+    "short_name": "Emergency medical services availability (count)",
+    "long_name": "Availability of emergency medical services by count",
+    "short_description": "Count of emergency medical services facilities based on facility locations",
+    "long_description": "Count of emergency medical services facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
+    "statement": "There are {value} emergency medical services facilities in {features.name}.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+        "date_accessed": 2021,
+        "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+      }
+    ]
+  },
+  "access_scores_ems:ems_near_10_median": {
+    "category": "Health",
+    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_ems",
+    "full_name": "access_scores_ems:ems_near_10_median",
+    "measure": "ems_near_10_median",
+    "type": "drive time",
+    "short_name": "Emergency medical services availability (drive time)",
+    "long_name": "Emergency medical services availability by median drive time to the ten closest facilities in minutes",
+    "short_description": "Median drive time (minutes) to the ten closest emergency medical services facilities",
+    "long_description": "Median drive time in minutes to the ten closest emergency medical services facilities. Facility location data were collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+    "statement": "The median drive time to the ten closest emergency medical service facilities to {features.name} is {value}.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+        "date_accessed": 2021,
+        "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+      }
+    ]
+  },
+  "hhs:childrens_hospitals_min_drivetime": {
+    "category": "Health",
+    "full_name": "hhs:childrens_hospitals_min_drivetime",
+    "measure": "childrens_hospitals_min_drivetime",
+    "type": "minutes",
+    "short_name": "Children's Hospital Drive Time",
+    "long_name": "Drive time to nearest children's hospital",
+    "short_description": "Drive time to the nearest children's hospital.",
+    "long_description": "Minimal drive time to a children's hospital from the Census block group centroid, as calculated by the Open Source Routing Machine in 2022. Hospital locations are from the U.S. Health and Human Services. All distances are calculated at the block group level, then averaged up to higher-level geographies.",
+    "statement": "It takes {value} to drive to a children's hospital from {features.name}'s block group centroids on average.",
+    "equity_category": "Accessibility",
+    "sources": [
+      {
+        "name": "U.S. Department of Health & Human Services",
+        "location": "Hospital > COVID-19 Reported Patient Impact and Hospital Capacity by Facility",
+        "location_url": "https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/anag-cw7u",
+        "date_accessed": 2022,
+        "url": "https://healthdata.gov"
+      },
+      {
+        "name": "Open Source Routing Machine",
+        "date_accessed": 2022,
+        "url": "http://project-osrm.org"
+      }
+    ]
+  },
+  "hhs:intensive_care_min_drivetime": {
+    "category": "Health",
+    "full_name": "hhs:intensive_care_min_drivetime",
+    "measure": "intensive_care_min_drivetime",
+    "type": "minutes",
+    "short_name": "Intensive Care Unit Drive Time",
+    "long_name": "Drive time to nearest hospital with intensive care unit beds",
+    "short_description": "Drive time to the nearest hospital with intensive care unit beds.",
+    "long_description": "Minimal drive time to a hospital with intensive care unit beds from the Census block group centroid, as calculated by the Open Source Routing Machine in 2022. Hospital locations are from the U.S. Health and Human Services. All distances are calculated at the block group level, then averaged up to higher-level geographies.",
+    "statement": "It takes {value} to drive to a hospital with intensive care unit beds from {features.name}'s block group centroids on average.",
+    "equity_category": "Accessibility",
+    "sources": [
+      {
+        "name": "U.S. Department of Health & Human Services",
+        "location": "Hospital > COVID-19 Reported Patient Impact and Hospital Capacity by Facility",
+        "location_url": "https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/anag-cw7u",
+        "date_accessed": 2022,
+        "url": "https://healthdata.gov"
+      },
+      {
+        "name": "Open Source Routing Machine",
+        "date_accessed": 2022,
+        "url": "http://project-osrm.org"
+      }
+    ]
+  },
+  "hhs:hospitals_min_drivetime": {
+    "category": "Health",
+    "full_name": "hhs:hospitals_min_drivetime",
+    "measure": "hospitals_min_drivetime",
+    "type": "minutes",
+    "short_name": "Hospital Drive Time",
+    "long_name": "Drive time to nearest hospital",
+    "short_description": "Drive time to the nearest hospital.",
+    "long_description": "Minimal drive time to a hospital from the Census block group centroid, as calculated by the Open Source Routing Machine in 2022. Hospital locations are from the U.S. Health and Human Services. All distances are calculated at the block group level, then averaged up to higher-level geographies.",
+    "statement": "It takes {value} to drive to a hospital from {features.name}'s block group centroids on average.",
+    "equity_category": "Accessibility",
+    "sources": [
+      {
+        "name": "U.S. Department of Health & Human Services",
+        "location": "Hospital > COVID-19 Reported Patient Impact and Hospital Capacity by Facility",
+        "location_url": "https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/anag-cw7u",
+        "date_accessed": 2022,
+        "url": "https://healthdata.gov"
+      },
+      {
+        "name": "Open Source Routing Machine",
+        "date_accessed": 2022,
+        "url": "http://project-osrm.org"
+      }
+    ]
+  },
+  "hhs:childrens_hospitals_per_100k": {
+    "category": "Health",
+    "full_name": "hhs:childrens_hospitals_per_100k",
+    "measure": "childrens_hospitals_per_100k",
+    "type": "per 100k",
+    "short_name": "Children's Hospital Beds",
+    "long_name": "Children's hospital beds per 100k people",
+    "short_description": "Number of children's hospital beds per 100k people.",
+    "long_description": "Number of children's hospital beds per 100k people, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) children's hospitals as listed by the U.S. Health and Human Services, with number of beds (overall average of 7 day averages) as supply values, (b) Census block groups, with supply values as the total population as reported the American Community Survey 5-year summaries, and (c) distance between hospital locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
+    "statement": "There are {value} children's hospital beds per 100k people in {features.name}.",
+    "equity_category": "Accessibility",
+    "citations": [
+      "wan12",
+      "bii21"
+    ],
+    "sources": [
+      {
+        "name": "U.S. Department of Health & Human Services",
+        "location": "Hospital > COVID-19 Reported Patient Impact and Hospital Capacity by Facility",
+        "location_url": "https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/anag-cw7u",
+        "date_accessed": 2022,
+        "url": "https://healthdata.gov"
+      },
+      {
+        "name": "American Community Survey",
+        "location": "data/5_year_seq_by_state",
+        "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
+        "date_accessed": 2022,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Open Source Routing Machine",
+        "date_accessed": 2022,
+        "url": "http://project-osrm.org"
+      }
+    ]
+  },
+  "hhs:intensive_care_per_100k": {
+    "category": "Health",
+    "full_name": "hhs:intensive_care_per_100k",
+    "measure": "intensive_care_per_100k",
+    "type": "per 100k",
+    "short_name": "Intensive Care Unit Beds",
+    "long_name": "Intensive care unit beds per 100k people",
+    "short_description": "Number of Intensive care unit beds per 100k people.",
+    "long_description": "Number of Intensive care unit beds per 100k people, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) hospitals with intensive care unit beds as listed by the U.S. Health and Human Services, with number of intensive care unit beds (overall average of 7 day averages) as supply values, (b) Census block groups, with supply values as the total population as reported the American Community Survey 5-year summaries, and (c) distance between hospital locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
+    "statement": "There are {value} intensive care unit beds per 100k people in {features.name}.",
+    "equity_category": "Accessibility",
+    "citations": [
+      "wan12",
+      "bii21"
+    ],
+    "sources": [
+      {
+        "name": "U.S. Department of Health & Human Services",
+        "location": "Hospital > COVID-19 Reported Patient Impact and Hospital Capacity by Facility",
+        "location_url": "https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/anag-cw7u",
+        "date_accessed": 2022,
+        "url": "https://healthdata.gov"
+      },
+      {
+        "name": "American Community Survey",
+        "location": "data/5_year_seq_by_state",
+        "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
+        "date_accessed": 2022,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Open Source Routing Machine",
+        "date_accessed": 2022,
+        "url": "http://project-osrm.org"
+      }
+    ]
+  },
+  "hhs:hospitals_per_100k": {
+    "category": "Health",
+    "full_name": "hhs:hospitals_per_100k",
+    "measure": "hospitals_per_100k",
+    "type": "per 100k",
+    "short_name": "Hospital Beds",
+    "long_name": "Hospital beds per 100k people",
+    "short_description": "Number of hospital beds per 100k people.",
+    "long_description": "Number of hospital beds per 100k people, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) hospitals as listed by the U.S. Health and Human Services, with number of beds (overall average of 7 day averages) as supply values, (b) Census block groups, with supply values as the total population as reported the American Community Survey 5-year summaries, and (c) distance between hospital locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
+    "statement": "There are {value} hospital beds per 100k people in {features.name}.",
+    "equity_category": "Accessibility",
+    "citations": [
+      "wan12",
+      "bii21"
+    ],
+    "sources": [
+      {
+        "name": "U.S. Department of Health & Human Services",
+        "location": "Hospital > COVID-19 Reported Patient Impact and Hospital Capacity by Facility",
+        "location_url": "https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/anag-cw7u",
+        "date_accessed": 2022,
+        "url": "https://healthdata.gov"
+      },
+      {
+        "name": "American Community Survey",
+        "location": "data/5_year_seq_by_state",
+        "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
+        "date_accessed": 2022,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Open Source Routing Machine",
+        "date_accessed": 2022,
+        "url": "http://project-osrm.org"
+      }
+    ]
+  },
+  "access_scores_obgyn:obgyn_3sfca": {
+    "category": "Health",
+    "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_obgyns_access_scores",
+    "full_name": "access_scores_obgyn:obgyn_3sfca",
+    "measure": "obgyn_3sfca",
+    "type": "index",
+    "short_name": "OBGYN care geographic availability",
+    "long_name": "OBGYN care geographic availability (3-step floating catchment areas)",
+    "short_description": "Index of OBGYN care availability based on supply and demand of providers",
+    "long_description": "OBGYN care availability based on 3-step floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data were collected from WebMD's online physician directory.",
+    "statement": "The OBGYN availability for {features.name} is {value}.",
+    "equity_category": "Availability",
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
+    "sources": [
+      {
+        "name": "WebMD Physician Directory",
+        "date_accessed": 2021,
+        "url": "https://doctor.webmd.com/"
+      }
+    ]
+  },
+  "access_scores_obgyn:obgyn_cnt": {
+    "category": "Health",
+    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_obgyn_access_scores",
+    "full_name": "access_scores_obgyn:obgyn_cnt",
+    "measure": "obgyn_cnt",
+    "type": "count",
+    "short_name": "OBGYN care availability (count)",
+    "long_name": "OBGYN care availability by count",
+    "short_description": "Count of OBGYNs based on provider locations",
+    "long_description": "Count of OBGYN care providers based on provider locations. Address data were collected from WebMD's online Physician Directory.",
+    "statement": "There are {value} OBGYNs in {features.name}.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "WebMD Physician Directory",
+        "date_accessed": 2021,
+        "url": "https://doctor.webmd.com/"
+      }
+    ]
+  },
+  "access_scores_dentists:dent_e2sfca": {
+    "category": "Health",
+    "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_dentists_access_scores",
+    "full_name": "access_scores_dentists:dent_e2sfca",
+    "measure": "dent_e2sfca",
+    "type": "index",
+    "short_name": "Dental care geographic availability",
+    "long_name": "Dental care geographic availability (2 step-enhanced floating catchment areas)",
+    "short_description": "Index of dental care availability based on supply and demand of providers",
+    "long_description": "Dental care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of dentists per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for dentists (population served by dentists). Provider address data were collected from WebMD's online Physician Directory.",
+    "statement": "The dental care availability for {features.name} is {value}.",
+    "equity_category": "Availability",
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
+    "sources": [
+      {
+        "name": "WebMD Physician Directory",
+        "date_accessed": 2021,
+        "url": "https://doctor.webmd.com/"
+      }
+    ]
+  },
+  "access_scores_dentists:dent_cnt": {
+    "category": "Health",
+    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores",
+    "full_name": "access_scores_dentists:dent_cnt",
+    "measure": "dent_cnt",
+    "type": "count",
+    "short_name": "Dental care availability (count)",
+    "long_name": "Dental care availability by count",
+    "short_description": "Count of dentists based on provider locations",
+    "long_description": "Count of dentists based on provider locations. Address data were collected from WebMD's online Physician Directory.",
+    "statement": "There are {value} dentists in {features.name}.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "WebMD Physician Directory",
+        "date_accessed": 2021,
+        "url": "https://doctor.webmd.com/"
+      }
+    ]
+  },
+  "access_scores_primcare:primcare_3sfca": {
+    "category": "Health",
+    "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_primcare_access_scores",
+    "full_name": "access_scores_primcare:primcare_3sfca",
+    "measure": "primcare_3sfca",
+    "type": "index",
+    "short_name": "Primary care geographic availability",
+    "long_name": "Primary care geographic availability (3-step floating catchment areas)",
+    "short_description": "Index of primary care physician availability based on supply and demand of providers",
+    "long_description": "Primary care availability based on 3-step floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data were collected from WebMD's online Physician Directory.",
+    "statement": "The primary care availability for {features.name} is {value}.",
+    "equity_category": "Availability",
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
+    "sources": [
+      {
+        "name": "WebMD Physician Directory",
+        "date_accessed": 2021,
+        "url": "https://doctor.webmd.com/"
+      }
+    ]
+  },
+  "access_scores_primcare:primcare_cnt": {
+    "category": "Health",
+    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_primcare",
+    "full_name": "access_scores_primcare:primcare_cnt",
+    "measure": "prim_cnt",
+    "type": "count",
+    "short_name": "Primary care availability (count)",
+    "long_name": "Primary care availability by count",
+    "short_description": "Count of primary care physicians based on provider locations",
+    "long_description": "Count of primary care physicians based on provider locations. Address data were collected from WebMD's online Physician Directory.",
+    "statement": "There are {value} primary care physicians in {features.name}.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "WebMD Physician Directory",
+        "date_accessed": 2021,
+        "url": "https://doctor.webmd.com/"
+      }
+    ]
+  },
+  "access_scores_pediatric:ped_3sfca": {
+    "category": "Health",
+    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_pediatrics_access_scores",
+    "full_name": "access_scores_pediatric:ped_3sfca",
+    "measure": "ped_3sfca",
+    "type": "index",
+    "short_name": "Pediatric care geographic availability",
+    "long_name": "Pediatric care geographic availability (3-step floating catchment areas)",
+    "short_description": "Index of pediatric care physician availability based on supply and demand of providers",
+    "long_description": "Pediatric care availability based on 3-step floating catchment areas. This method is an aggregation of pediatricians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for pediatricians (population under 16). Provider address data were collected from WebMD's online Physician Directory.",
+    "statement": "The pediatric care availability for {features.name} is {value}.",
+    "equity_category": "Availability",
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
+    "sources": [
+      {
+        "name": "WebMD Physician Directory",
+        "date_accessed": 2021,
+        "url": "https://doctor.webmd.com/"
+      }
+    ]
+  },
+  "access_scores_pediatric:ped_cnt": {
+    "category": "Health",
+    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_pediatrics_access_scores",
+    "full_name": "access_scores_pediatric:ped_cnt",
+    "measure": "ped_cnt",
+    "type": "count",
+    "short_name": "Pediatric care availability (count)",
+    "long_name": "Pediatric care availability by count",
+    "short_description": "Count of pediatricians based on provider locations",
+    "long_description": "Count of pediatricians based on provider locations. Address data were collected from WebMD's online Physician Directory.",
+    "statement": "There are {value} pediatricians in {features.name}.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "WebMD Physician Directory",
+        "date_accessed": 2021,
+        "url": "https://doctor.webmd.com/"
       }
     ]
   },
@@ -1931,6 +1931,62 @@
       "title": "catchment: Calculate spatial access and availability metrics",
       "version": "0.0.1",
       "url": "https://github.com/uva-bi-sdad/catchment"
+    },
+    "liang17": {
+      "id": "liang17",
+      "author": [
+        {
+          "given": "Lan",
+          "family": "Liang"
+        },
+        {
+          "given": "Cindy",
+          "family": "Branch"
+        }
+      ],
+      "year": 2017,
+      "title": "Health Literacy Universal Precautions Are Still a Distant Dream: Analysis of U.S. Data on Health Literate Practices",
+      "journal": "Health Literacy Research and Practice",
+      "volume": "1",
+      "number": 4,
+      "page": "e216-e230",
+      "doi": "10.3928/24748307-20170929-01"
+    },
+    "savitz20": {
+      "id": "savitz20",
+      "author": [
+        {
+          "given": "Samuel",
+          "family": "Savitz"
+        },
+        {
+          "given": "Stacy",
+          "family": "Bailey"
+        },
+        {
+          "given": "Stacie",
+          "family": "Dusetzina"
+        },
+        {
+          "given": "W.",
+          "family": "Schuyler Jones"
+        },
+        {
+          "given": "Justin",
+          "family": "Trogdon"
+        },
+        {
+          "given": "Sally",
+          "family": "Stearns"
+        }
+      ],
+      "year": 2020,
+      "title": "Treatment selection and medication adherence for stable angina: The role of area-based health literacy",
+      "journal": "Journal of Evaluation in Clinical Practice",
+      "volume": "26",
+      "number": 6,
+      "page": "1711-1721",
+      "doi": "10.1111/jep.13341"
     }
   }
 }
