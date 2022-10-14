@@ -69,8 +69,10 @@ page_navbar(
       input_select(
         "Scroll Behavior", c("instant", "smooth", "auto"), "auto",
         id = "settings.table_scroll_behavior", floating_label = FALSE
-      ),
-      input_button("Clear Settings", "reset_storage", "clear_storage", class = "btn-danger footer")
+      )
+    ),
+    foot = list(
+      input_button("Clear Settings", "reset_storage", "clear_storage", class = "btn-danger")
     )
   ),
   list(
