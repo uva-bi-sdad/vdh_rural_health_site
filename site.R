@@ -112,57 +112,57 @@ page_panel(
   '<p class="lead">Education</p>',
   input_button(
     "Child Readiness",
-    list(variable_type = "Education", selected_variable = "3rd_grade_mean_median_read_score:median_read_pass_rate")
+    list(selected_variable = "3rd_grade_mean_median_read_score:median_read_pass_rate")
   ),
   '<p class="lead">Broadband</p>',
   input_button(
     "Households with Broadband",
-    list(variable_type = "Broadband", selected_variable = "broadband_withoutint_compdev:perc_hh_with_broadband")
+    list(selected_variable = "broadband_withoutint_compdev:perc_hh_with_broadband")
   ),
   '<p class="lead">Nutrition and Food Security</p>',
   input_button(
     "Food Insecurity",
-    list(variable_type = "Nutrition and Food Security", selected_variable = "food_insecurity_and_cost:Food_Insecurity_Rate")
+    list(selected_variable = "food_insecurity_and_cost:Food_Insecurity_Rate")
   ),
   input_button(
     "Childhood Food Insecurity",
-    list(variable_type = "Nutrition and Food Security", selected_variable = "food_insecurity_and_cost:Child_Food_Insecurity_Rate")
+    list(selected_variable = "food_insecurity_and_cost:Child_Food_Insecurity_Rate")
   ),
   '<p class="lead">Healthy Moms And Babies</p>',
   input_button(
     "APNCU: Inadequate",
-    list(variable_type = "Health", selected_variable = "kotelchuck_apncu_index:inadequate_pc")
+    list(selected_variable = "kotelchuck_apncu_index:inadequate_pc")
   ),
   input_button(
     "APNCU: Intermediate",
-    list(variable_type = "Health", selected_variable = "kotelchuck_apncu_index:intermediate_pc")
+    list(selected_variable = "kotelchuck_apncu_index:intermediate_pc")
   ),
   input_button(
     "APNCU: Adequate",
-    list(variable_type = "Health", selected_variable = "kotelchuck_apncu_index:adequate_pc")
+    list(selected_variable = "kotelchuck_apncu_index:adequate_pc")
   ),
   input_button(
     "APNCU: Adequate Plus",
-    list(variable_type = "Health", selected_variable = "kotelchuck_apncu_index:adequateplus_pc")
+    list(selected_variable = "kotelchuck_apncu_index:adequateplus_pc")
   ),
   '<p class="lead">Access to Health Care Services</p>',
   input_button(
     "Avoidable Hospitalizations",
-    list(variable_type = "Health", selected_variable = "preventable_hospitalizations:prevent_hosp_rate")
+    list(selected_variable = "preventable_hospitalizations:prevent_hosp_rate")
   ),
   '<p class="lead">Behavioral Health, Substance Use Disorder and Recovery</p>',
   input_button(
     "Overdose ED Visits",
-    list(variable_type = "Behavioral Health, Substance Use Disorder and Recovery", selected_variable = "drug_overdose_ed_visits:avg_monthly_rate")
+    list(selected_variable = "drug_overdose_ed_visits:avg_monthly_rate")
   ),
   '<p class="lead">Employment/Workforce Development</p>',
   input_button(
     "Earnings per Job",
-    list(variable_type = "Employment/Workforce Development", selected_variable = "earnings_per_job:earnings_per_job")
+    list(selected_variable = "earnings_per_job:earnings_per_job")
   ),
   input_button(
     "Employment Rate",
-    list(variable_type = "Employment/Workforce Development", selected_variable = "emp_rate:emp_rate")
+    list(selected_variable = "emp_rate:emp_rate")
   )
 )
 
@@ -174,15 +174,15 @@ page_menu(
   page_section(
     type = "col",
     wraps = "row form-row",
-    input_select(
+    input_combobox(
       "Health District", options = "ids", subset = "full_filter", dataset = "district", dataview = "primary_view",
-      id = "selected_district", reset_button = TRUE, note = paste(
+      id = "selected_district", clearable = TRUE, note = paste(
         "Health districts are sets of counties defined by the Virginia Department of Health."
       )
     ),
-    input_select(
+    input_combobox(
       "County", options = "ids", subset = "full_filter", dataset = "county", dataview = "primary_view",
-      id = "selected_county", reset_button = TRUE
+      id = "selected_county", clearable = TRUE
     ),
     conditions = c("starting_shapes == district", "starting_shapes != district || selected_district")
   ),
@@ -193,25 +193,13 @@ page_menu(
       "have mixed types, and all tracts are of the same type as their county."
     )
   ),
-  page_section(
-    type = "col",
-    wraps = "row form-row",
-    {
-      vars <- jsonlite::read_json('../community_example/docs/data/measure_info.json')
-      varcats <- Filter(nchar, unique(vapply(vars, function(v) if (is.null(v$category)) "" else v$category, "")))
-      input_select(
-        "Variable Category", options = varcats, default = "Health", id = "variable_type",
-        note = "Determines which variables are selectable and show up in the Data table."
-      )
-    },
-    input_select(
-      "Variable", options = "variables",
-      default = "no_health_insurance_19_to_64:hlth_ins_pct", depends = "shapes",
-      id = "selected_variable", filters = list(category = "variable_type"),
-      note = paste(
-        "Determines which variable is shown on the plot's y-axis, in the rank table,",
-        "and info fields, and used to color map polygons and plot elements."
-      )
+  input_combobox(
+    "Variable", options = "variables",
+    default = "no_health_insurance_19_to_64:hlth_ins_pct", depends = "shapes",
+    id = "selected_variable", filters = list(category = "variable_type"),
+    note = paste(
+      "Determines which variable is shown on the plot's y-axis, in the rank table,",
+      "and info fields, and used to color map polygons and plot elements."
     )
   ),
   position = "top",
@@ -437,32 +425,30 @@ page_section(
       )
     ),
     page_section(
-      type = "d-flex flex-column col align-items-end compact",
+      type = "flex-column col",
       output_info(
         title = "variables.short_name",
         dataview = "primary_view",
         id = "variable_info_pane",
       ),
-      page_section(
-        wraps = "col", sizes = c(8, NA),
-        output_info(body = "variables.sources", dataview = "primary_view"),
-        page_section(
-          input_button(
-            "Download", "export", dataview = "primary_view", query = list(
-              include = "selected_variable",
-              features = list(geoid = "id", name = "name", region_type = "type")
-            ), class = "btn-full"
-          ),
-          input_button(
-            "Copy API link", "copy", dataview = "primary_view", query = list(
-              include = "selected_variable", dataset = "shapes",
-              features = list(geoid = "id", name = "name", region_type = "type")
-            ), class = "btn-full"
-          )
+      page_popup(
+        "Export",
+        input_button(
+          "Download", "export", dataview = "primary_view", query = list(
+            include = "selected_variable",
+            features = list(geoid = "id", name = "name", region_type = "type")
+          ), class = "btn-full"
+        ),
+        input_button(
+          "Copy API link", "copy", dataview = "primary_view", query = list(
+            include = "selected_variable", dataset = "shapes",
+            features = list(geoid = "id", name = "name", region_type = "type")
+          ), class = "btn-full"
         )
       ),
+      output_info(body = "summary", dataview = "primary_view"),
+      output_info("Filters", "filter", dataview = "primary_view"),
       page_section(
-        wraps = "row",
         output_info(
           title = "features.name",
           default = c(title = "Virginia", body = "Hover over or select a region for more information."),
@@ -480,8 +466,7 @@ page_section(
           subto = c("main_map", "main_plot", "rank_table", "main_legend"),
           variable_info = FALSE
         )
-      ),
-      wraps = "row"
+      )
     )
   ),
   page_section(

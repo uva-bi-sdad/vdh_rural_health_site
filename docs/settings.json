@@ -9555,7 +9555,7 @@
       "body": [
         {
           "name": "",
-          "value": "variables.sources",
+          "value": "summary",
           "style": "table"
         }
       ],
@@ -9564,7 +9564,21 @@
       "dataview": "primary_view",
       "variable_info": false
     },
-    "info14": {
+    "info12": {
+      "title": "Filters",
+      "body": [
+        {
+          "name": "",
+          "value": "filter",
+          "style": "table"
+        }
+      ],
+      "default": [],
+      "floating": false,
+      "dataview": "primary_view",
+      "variable_info": false
+    },
+    "info13": {
       "title": "features.name",
       "body": [],
       "default": {
@@ -9576,7 +9590,7 @@
       "subto": ["main_map", "main_plot", "rank_table", "main_legend"],
       "variable_info": false
     },
-    "info15": {
+    "info14": {
       "title": "",
       "body": [
         {
@@ -9603,7 +9617,7 @@
     }
   },
   "text": {
-    "text6": {
+    "text5": {
       "text": [
         {
           "condition": [
@@ -9679,7 +9693,7 @@
         }
       ]
     },
-    "text7": {
+    "text6": {
       "text": [
         [
           {
@@ -9748,13 +9762,6 @@
           }
         ]
       ]
-    }
-  },
-  "select": {
-    "selected_variable": {
-      "filters": {
-        "category": "variable_type"
-      }
     }
   },
   "datatable": {
@@ -10434,73 +10441,61 @@
     },
     "ChildReadiness": {
       "effects": {
-        "variable_type": "Education",
         "selected_variable": "3rd_grade_mean_median_read_score:median_read_pass_rate"
       }
     },
     "HouseholdswithBroadband": {
       "effects": {
-        "variable_type": "Broadband",
         "selected_variable": "broadband_withoutint_compdev:perc_hh_with_broadband"
       }
     },
     "FoodInsecurity": {
       "effects": {
-        "variable_type": "Nutrition and Food Security",
         "selected_variable": "food_insecurity_and_cost:Food_Insecurity_Rate"
       }
     },
     "ChildhoodFoodInsecurity": {
       "effects": {
-        "variable_type": "Nutrition and Food Security",
         "selected_variable": "food_insecurity_and_cost:Child_Food_Insecurity_Rate"
       }
     },
     "APNCU:Inadequate": {
       "effects": {
-        "variable_type": "Health",
         "selected_variable": "kotelchuck_apncu_index:inadequate_pc"
       }
     },
     "APNCU:Intermediate": {
       "effects": {
-        "variable_type": "Health",
         "selected_variable": "kotelchuck_apncu_index:intermediate_pc"
       }
     },
     "APNCU:Adequate": {
       "effects": {
-        "variable_type": "Health",
         "selected_variable": "kotelchuck_apncu_index:adequate_pc"
       }
     },
     "APNCU:AdequatePlus": {
       "effects": {
-        "variable_type": "Health",
         "selected_variable": "kotelchuck_apncu_index:adequateplus_pc"
       }
     },
     "AvoidableHospitalizations": {
       "effects": {
-        "variable_type": "Health",
         "selected_variable": "preventable_hospitalizations:prevent_hosp_rate"
       }
     },
     "OverdoseEDVisits": {
       "effects": {
-        "variable_type": "Behavioral Health, Substance Use Disorder and Recovery",
         "selected_variable": "drug_overdose_ed_visits:avg_monthly_rate"
       }
     },
     "EarningsperJob": {
       "effects": {
-        "variable_type": "Employment/Workforce Development",
         "selected_variable": "earnings_per_job:earnings_per_job"
       }
     },
     "EmploymentRate": {
       "effects": {
-        "variable_type": "Employment/Workforce Development",
         "selected_variable": "emp_rate:emp_rate"
       }
     },
@@ -10532,5 +10527,25 @@
       "api": false
     }
   },
-  "endpoint": "https://vdh-data-commons.netlify.app/api"
+  "endpoint": "https://vdh-data-commons.netlify.app/api",
+  "combobox": {
+    "selected_district": {
+      "strict": true,
+      "search": true,
+      "multi": false
+    },
+    "selected_county": {
+      "strict": true,
+      "search": true,
+      "multi": false
+    },
+    "selected_variable": {
+      "strict": true,
+      "search": true,
+      "multi": false,
+      "filters": {
+        "category": "variable_type"
+      }
+    }
+  }
 }
