@@ -10542,10 +10542,7 @@
     "selected_variable": {
       "strict": true,
       "search": true,
-      "multi": false,
-      "filters": {
-        "category": "variable_type"
-      }
+      "multi": false
     }
   }
 }

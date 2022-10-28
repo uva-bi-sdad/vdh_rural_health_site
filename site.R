@@ -196,7 +196,7 @@ page_menu(
   input_combobox(
     "Variable", options = "variables",
     default = "no_health_insurance_19_to_64:hlth_ins_pct", depends = "shapes",
-    id = "selected_variable", filters = list(category = "variable_type"),
+    id = "selected_variable",
     note = paste(
       "Determines which variable is shown on the plot's y-axis, in the rank table,",
       "and info fields, and used to color map polygons and plot elements."
