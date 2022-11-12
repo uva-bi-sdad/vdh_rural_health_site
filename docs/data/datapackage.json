@@ -22,6 +22,7 @@
           "map": "https://uva-bi-sdad.github.io/community/dist/shapes/VA/entity_info.json"
         }
       ],
+      "id_length": 8,
       "time": "time",
       "profile": "data-resource",
       "created": "2022-10-06 17:40:30",
@@ -2813,6 +2814,7 @@
           "map": "https://uva-bi-sdad.github.io/community/dist/shapes/VA/entity_info.json"
         }
       ],
+      "id_length": 5,
       "time": "time",
       "profile": "data-resource",
       "created": "2022-10-06 17:40:30",
@@ -5664,6 +5666,7 @@
           "map": "https://uva-bi-sdad.github.io/community/dist/shapes/VA/entity_info.json"
         }
       ],
+      "id_length": 11,
       "time": "time",
       "profile": "data-resource",
       "created": "2022-10-06 17:40:38",

@@ -39,6 +39,7 @@
             "map": "https://uva-bi-sdad.github.io/community/dist/shapes/VA/entity_info.json"
           }
         ],
+        "id_length": 11,
         "time": "time",
         "profile": "data-resource",
         "created": "2022-10-06 17:40:38",
@@ -3142,6 +3143,7 @@
             "map": "https://uva-bi-sdad.github.io/community/dist/shapes/VA/entity_info.json"
           }
         ],
+        "id_length": 5,
         "time": "time",
         "profile": "data-resource",
         "created": "2022-10-06 17:40:30",
@@ -6301,6 +6303,7 @@
             "map": "https://uva-bi-sdad.github.io/community/dist/shapes/VA/entity_info.json"
           }
         ],
+        "id_length": 8,
         "time": "time",
         "profile": "data-resource",
         "created": "2022-10-06 17:40:30",
@@ -9393,14 +9396,14 @@
     {
       "condition": [
         {
-          "id": "starting_shapes",
-          "type": "=",
-          "value": "district",
+          "id": "selected_county",
+          "type": "!",
+          "value": "",
           "any": false
         }
       ],
       "effects": {
-        "display": "sec41"
+        "lock": "sec41"
       }
     },
     {
@@ -9462,7 +9465,8 @@
           "value": "tract"
         }
       ],
-      "default": "county"
+      "default": "county",
+      "display": []
     },
     {
       "id": "region_select",
@@ -9479,7 +9483,8 @@
           "value": "selected_county"
         }
       ],
-      "default": "selected_district"
+      "default": "selected_district",
+      "display": []
     },
     {
       "id": "selected_region",
@@ -9496,7 +9501,8 @@
           "value": "selected_county"
         }
       ],
-      "default": "selected_district"
+      "default": "selected_district",
+      "display": []
     },
     {
       "id": "set_palette",
@@ -9513,7 +9519,26 @@
           "value": "lajolla"
         }
       ],
-      "default": "vik"
+      "default": "vik",
+      "display": []
+    },
+    {
+      "id": "county_subset",
+      "states": [
+        {
+          "condition": [
+            {
+              "id": "selected_district",
+              "type": "",
+              "value": "",
+              "any": false
+            }
+          ],
+          "value": "siblings"
+        }
+      ],
+      "default": "full_filter",
+      "display": []
     }
   ],
   "dataviews": {
@@ -9550,7 +9575,7 @@
       "dataview": "primary_view",
       "variable_info": false
     },
-    "info11": {
+    "info12": {
       "title": "",
       "body": [
         {
@@ -9564,7 +9589,7 @@
       "dataview": "primary_view",
       "variable_info": false
     },
-    "info12": {
+    "info13": {
       "title": "Filters",
       "body": [
         {
@@ -9578,7 +9603,7 @@
       "dataview": "primary_view",
       "variable_info": false
     },
-    "info13": {
+    "info14": {
       "title": "features.name",
       "body": [],
       "default": {
@@ -9590,7 +9615,7 @@
       "subto": ["main_map", "main_plot", "rank_table", "main_legend"],
       "variable_info": false
     },
-    "info14": {
+    "info15": {
       "title": "",
       "body": [
         {
@@ -9617,7 +9642,7 @@
     }
   },
   "text": {
-    "text5": {
+    "text6": {
       "text": [
         {
           "condition": [
@@ -9693,7 +9718,7 @@
         }
       ]
     },
-    "text6": {
+    "text7": {
       "text": [
         [
           {
@@ -10542,7 +10567,8 @@
     "selected_variable": {
       "strict": true,
       "search": true,
-      "multi": false
+      "multi": false,
+      "group": "category"
     }
   }
 }
