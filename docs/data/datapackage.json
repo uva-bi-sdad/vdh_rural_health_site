@@ -9,9 +9,9 @@
   },
   "resources": [
     {
-      "bytes": 73544,
+      "bytes": 73440,
       "encoding": "ISO-8859-1",
-      "md5": "1da5029ab659a60e83c04ab397a5941f",
+      "md5": "22066b5fd83bb538e4b76584402c3d82",
       "format": "csv",
       "name": "district",
       "filename": "health_district.csv.xz",
@@ -25,7 +25,7 @@
       "id_length": 8,
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-10-06 17:40:30",
+      "created": "2022-11-17 16:55:41",
       "last_modified": "2022-07-22 14:15:21",
       "row_count": 455,
       "entity_count": 35,
@@ -2612,6 +2612,34 @@
               ],
               "citations": {}
             }
+          },
+          {
+            "name": "median_household_income",
+            "duplicates": 454,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 455,
+            "info": {
+              "category": "Financial Well Being",
+              "measure_table": "va_cttrbg_2015_2019_median_household_income",
+              "full_name": "household_income:va:median_household_income",
+              "measure": "median_household_income",
+              "type": "dollar",
+              "short_name": "Median Household Income",
+              "long_name": "MEDIAN HOUSEHOLD INCOME IN THE PAST 12 MONTHS (IN 2019 INFLATION-ADJUSTED DOLLARS), ACS 5-Year Estimates",
+              "short_description": "",
+              "long_description": "",
+              "statement": "",
+              "equity_category": "Status",
+              "sources": [
+                {
+                  "date_accessed": 2022,
+                  "name": "Census Bureau, American Community Survey",
+                  "url": "https://www.census.gov/programs-surveys/acs"
+                }
+              ],
+              "citations": {}
+            }
           }
         ]
       },
@@ -2798,12 +2826,12 @@
           "doi": "10.1111/jep.13341"
         }
       },
-      "sha512": "b54f97ba92adebf8a64c6d72995daade47be894d9bcda7eeaaa59f0e857b7d3f2b42673bc4c81f34590b45e6c11c5f0f7f48754b8f0dc7465dbf29101474b78e"
+      "sha512": "c13554782900a189faed71108c70da5840ce880e5933e03bed89011ece40b568b64e68d76852808010b2d6f675e4ae667595dbf18c93d04e91aa43ba2cbd33aa"
     },
     {
-      "bytes": 304600,
+      "bytes": 307148,
       "encoding": "ISO-8859-1",
-      "md5": "804f5c821a92262f5151fa5af5eeb862",
+      "md5": "7899575ecabbb7af450cd1ff3e021148",
       "format": "csv",
       "name": "county",
       "filename": "county.csv.xz",
@@ -2817,7 +2845,7 @@
       "id_length": 5,
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-10-06 17:40:30",
+      "created": "2022-11-17 16:55:41",
       "last_modified": "2022-07-22 14:15:21",
       "row_count": 1742,
       "entity_count": 134,
@@ -5464,6 +5492,38 @@
               ],
               "citations": {}
             }
+          },
+          {
+            "name": "median_household_income",
+            "duplicates": 1081,
+            "time_range": [6, 10],
+            "type": "integer",
+            "missing": 1077,
+            "mean": 56538.0361,
+            "sd": 20687.3179,
+            "min": 26000,
+            "max": 142299,
+            "info": {
+              "category": "Financial Well Being",
+              "measure_table": "va_cttrbg_2015_2019_median_household_income",
+              "full_name": "household_income:va:median_household_income",
+              "measure": "median_household_income",
+              "type": "dollar",
+              "short_name": "Median Household Income",
+              "long_name": "MEDIAN HOUSEHOLD INCOME IN THE PAST 12 MONTHS (IN 2019 INFLATION-ADJUSTED DOLLARS), ACS 5-Year Estimates",
+              "short_description": "",
+              "long_description": "",
+              "statement": "",
+              "equity_category": "Status",
+              "sources": [
+                {
+                  "date_accessed": 2022,
+                  "name": "Census Bureau, American Community Survey",
+                  "url": "https://www.census.gov/programs-surveys/acs"
+                }
+              ],
+              "citations": {}
+            }
           }
         ]
       },
@@ -5650,12 +5710,12 @@
           "doi": "10.1111/jep.13341"
         }
       },
-      "sha512": "f818b791ae64c4a84af6b1f7362b97d52c8f4c6786892eb851c924836c617d3c2431039b78e34eb359490c0f86c3d150f742cdf3f1026344f1586b0a2312c393"
+      "sha512": "bea69248e2b6420bfa508e9fee466a0a96ac8e08be5e0dab1ec3fd598ac43fcf14bdd02a037205e4c36a9d9aa3a8b64fcbf34916b8fe247827b0171871067eca"
     },
     {
-      "bytes": 3302576,
+      "bytes": 3329464,
       "encoding": "ISO-8859-1",
-      "md5": "99b49ebbeea3b344d189d6bc06ea2282",
+      "md5": "f5714fccef08ac3bf22475351eb511e3",
       "format": "csv",
       "name": "tract",
       "filename": "tract.csv.xz",
@@ -5669,7 +5729,7 @@
       "id_length": 11,
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-10-06 17:40:38",
+      "created": "2022-11-17 16:55:50",
       "last_modified": "2022-07-22 14:15:21",
       "row_count": 32032,
       "entity_count": 2464,
@@ -8260,6 +8320,38 @@
               ],
               "citations": {}
             }
+          },
+          {
+            "name": "median_household_income",
+            "duplicates": 23668,
+            "time_range": [6, 10],
+            "type": "integer",
+            "missing": 22709,
+            "mean": 77160.8613,
+            "sd": 41938.4768,
+            "min": 2499,
+            "max": 250001,
+            "info": {
+              "category": "Financial Well Being",
+              "measure_table": "va_cttrbg_2015_2019_median_household_income",
+              "full_name": "household_income:va:median_household_income",
+              "measure": "median_household_income",
+              "type": "dollar",
+              "short_name": "Median Household Income",
+              "long_name": "MEDIAN HOUSEHOLD INCOME IN THE PAST 12 MONTHS (IN 2019 INFLATION-ADJUSTED DOLLARS), ACS 5-Year Estimates",
+              "short_description": "",
+              "long_description": "",
+              "statement": "",
+              "equity_category": "Status",
+              "sources": [
+                {
+                  "date_accessed": 2022,
+                  "name": "Census Bureau, American Community Survey",
+                  "url": "https://www.census.gov/programs-surveys/acs"
+                }
+              ],
+              "citations": {}
+            }
           }
         ]
       },
@@ -8446,7 +8538,7 @@
           "doi": "10.1111/jep.13341"
         }
       },
-      "sha512": "625eee242065367a325e750dbfe282ca79739bf3898e625d7fea97ab7d2a6081747f749101ad8c641bf2a64f378e1e2c5641d75bba37c7b707bdb5e45755f1c9"
+      "sha512": "8b481fc592911b531b33e742c8b4e8e1233ba0f7d0ce0c8391eca4c5d6a722481a00393d46d7861c74fa1d088703a0339ff0c6b9d3192f81eedbece314465537"
     }
   ]
 }
