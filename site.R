@@ -57,6 +57,10 @@ page_navbar(
         "Overlay Circle Size", "settings.circle_radius", default = 5, step = 1, floating_label = FALSE,
         note = "Radius of the circles that are parts of overlays."
       ),
+      input_select(
+        "Overlay Circle Property", "overlay_properties", id = "settings.circle_property", floating_label = FALSE,
+        note = "Property to adjust circle size by."
+      ),
       '<p class="section-heading">Plot Options</p>',
       input_select("Plot Type", c("scatter", "scattergl", "bar"), "scatter", id = "plot_type", floating_label = FALSE),
       input_switch("Box Plots", default_on = TRUE, id = "settings.boxplots"),
