@@ -116,57 +116,57 @@ page_panel(
   '<p class="lead">Education</p>',
   input_button(
     "Child Readiness",
-    list(selected_variable = "3rd_grade_mean_median_read_score:median_read_pass_rate")
+    list(selected_variable = "median_read_pass_rate")
   ),
   '<p class="lead">Broadband</p>',
   input_button(
     "Households with Broadband",
-    list(selected_variable = "broadband_withoutint_compdev:perc_hh_with_broadband")
+    list(selected_variable = "perc_hh_with_broadband")
   ),
   '<p class="lead">Nutrition and Food Security</p>',
   input_button(
     "Food Insecurity",
-    list(selected_variable = "food_insecurity_and_cost:Food_Insecurity_Rate")
+    list(selected_variable = "Food_Insecurity_Rate")
   ),
   input_button(
     "Childhood Food Insecurity",
-    list(selected_variable = "food_insecurity_and_cost:Child_Food_Insecurity_Rate")
+    list(selected_variable = "Child_Food_Insecurity_Rate")
   ),
   '<p class="lead">Healthy Moms And Babies</p>',
   input_button(
     "APNCU: Inadequate",
-    list(selected_variable = "kotelchuck_apncu_index:inadequate_pc")
+    list(selected_variable = "nadequate")
   ),
   input_button(
     "APNCU: Intermediate",
-    list(selected_variable = "kotelchuck_apncu_index:intermediate_pc")
+    list(selected_variable = "intermediate")
   ),
   input_button(
     "APNCU: Adequate",
-    list(selected_variable = "kotelchuck_apncu_index:adequate_pc")
+    list(selected_variable = "adequate")
   ),
   input_button(
     "APNCU: Adequate Plus",
-    list(selected_variable = "kotelchuck_apncu_index:adequateplus_pc")
+    list(selected_variable = "adequateplus")
   ),
   '<p class="lead">Access to Health Care Services</p>',
   input_button(
     "Avoidable Hospitalizations",
-    list(selected_variable = "preventable_hospitalizations:prevent_hosp_rate")
+    list(selected_variable = "prevent_hosp_rate")
   ),
   '<p class="lead">Behavioral Health, Substance Use Disorder and Recovery</p>',
   input_button(
     "Overdose ED Visits",
-    list(selected_variable = "drug_overdose_ed_visits:avg_monthly_rate")
+    list(selected_variable = "avg_monthly_rate")
   ),
   '<p class="lead">Employment/Workforce Development</p>',
   input_button(
     "Earnings per Job",
-    list(selected_variable = "earnings_per_job:earnings_per_job")
+    list(selected_variable = "earnings_per_job")
   ),
   input_button(
     "Employment Rate",
-    list(selected_variable = "emp_rate:emp_rate")
+    list(selected_variable = "emp_rate")
   )
 )
 
