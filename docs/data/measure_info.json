@@ -886,7 +886,7 @@
     "equity_category": "",
     "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. This measure is an estimate of the percent of people in food insecure households.  The brief providing the methodology of calculating these estimates is available at Feeding America's Map the Meal Gap website (linked below). Food insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
     "long_name": "Estimated percentage of total people in food insecure households",
-    "short_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. This measure is an estimate of the percent of people in food insecure households.  The brief providing the methodology of calculating these estimates is available at Feeding America's Map the Meal Gap website (linked below).",
+    "short_description": "Food insecure persons are people living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
     "short_name": "Food Insecure Population Percentage",
     "sources": [
       {
@@ -903,7 +903,7 @@
     "equity_category": "",
     "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. This measure is an estimate of the number of people in food insecure households.  The brief providing the methodology of calculating these estimates is available at Feeding America's Map the Meal Gap website (linked below). Food insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
     "long_name": "Estimated number of total people in food insecure households",
-    "short_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. This measure is an estimate of the number of people in food insecure households.  The brief providing the methodology of calculating these estimates is available at Feeding America's Map the Meal Gap website (linked below).",
+    "short_description": "Food insecure persons are people living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
     "short_name": "Food Insecure Population Count",
     "sources": [
       {
@@ -974,176 +974,6 @@
         "url": "https://www.feedingamerica.org/"
       }
     ]
-  },
-  "perc_afr_amer_alone": {
-    "category": "Demographics",
-    "equity_category": "Status",
-    "long_description": "The Black population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "long_name": "Black population (percent)",
-    "short_description": "The Black population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "Black population",
-    "sources": [
-      {
-        "date_accessed": 2021,
-        "name": "American Community Survey Table B01001",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The Black population is {value} in {features.name}.",
-    "type": "percent"
-  },
-  "perc_asian_alone": {
-    "category": "Demographics",
-    "equity_category": "Status",
-    "long_description": "The Asian American/Pacific Islander population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "long_name": "Asian American/Pacific Islander population (percent)",
-    "short_description": "The Asian American/Pacific Islander population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "Asian American/Pacific Islander population",
-    "sources": [
-      {
-        "date_accessed": 2021,
-        "name": "American Community Survey Table B01001",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The Asian American/Pacific Islander population is {value} in {features.name}.",
-    "type": "percent"
-  },
-  "perc_hispanic": {
-    "category": "Demographics",
-    "equity_category": "Status",
-    "long_description": "The Hispanic/Latino population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "long_name": "Hispanic/Latino population (percent)",
-    "short_description": "The Hispanic/Latino population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "Hispanic/Latino population",
-    "sources": [
-      {
-        "date_accessed": 2021,
-        "name": "American Community Survey Table B01001",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The Hispanic/Latino population is {value} in {features.name}.",
-    "type": "percent"
-  },
-  "perc_wht_alone": {
-    "category": "Demographics",
-    "equity_category": "Status",
-    "long_description": "The White population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "long_name": "White population (percent)",
-    "short_description": "The White population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "White population",
-    "sources": [
-      {
-        "date_accessed": 2021,
-        "name": "American Community Survey Table B01001",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The White population is {value} in {features.name}.",
-    "type": "percent"
-  },
-  "perc_amr_ind_alone": {
-    "category": "Demographics",
-    "equity_category": "Status",
-    "long_description": "The Native population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "long_name": "Native population (percent)",
-    "short_description": "The Native population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "Native population",
-    "sources": [
-      {
-        "date_accessed": 2021,
-        "name": "American Community Survey Table B01001",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The Native population is {value} in {features.name}.",
-    "type": "percent"
-  },
-  "perc_female": {
-    "category": "Demographics",
-    "equity_category": "Status",
-    "long_description": "The percent of females in the total population in percent. Based on American Community Survey ACS 2010/2021 5-year estimates table S0101.",
-    "long_name": "Female population (percent)",
-    "short_description": "The percent of females in population. Based on American Community Survey ACS 2010/2021 5-year estimates.",
-    "short_name": "Female population",
-    "sources": [
-      {
-        "date_accessed": 2022,
-        "name": "American Community Survey Table S0101",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The female population is {value} in {features.name}.",
-    "type": "percent"
-  },
-  "perc_male": {
-    "category": "Demographics",
-    "equity_category": "Status",
-    "long_description": "The percent of males in the total population in percent. Based on American Community Survey ACS 2010/2021 5-year estimates table S0101.",
-    "long_name": "Male population (percent)",
-    "short_description": "The percent of males in population. Based on American Community Survey ACS 2010/2021 5-year estimates.",
-    "short_name": "Male population",
-    "sources": [
-      {
-        "date_accessed": 2022,
-        "name": "American Community Survey Table S0101",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The male population is {value} in {features.name}.",
-    "type": "percent"
-  },
-  "perc_pop_under_20": {
-    "category": "Demographics",
-    "equity_category": "Status",
-    "long_description": "The percent of the population under age 20. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "long_name": "Under 20 population (percent)",
-    "short_description": "The percent of the population under age 20. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "Under 20 population",
-    "sources": [
-      {
-        "date_accessed": 2021,
-        "name": "American Community Survey Table B01001",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The percent of the population under age 20 is {value} in {features.name}.",
-    "type": "percent"
-  },
-  "perc_pop_65_plus": {
-    "category": "Demographics",
-    "equity_category": "Status",
-    "long_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "long_name": "65 plus population (percent)",
-    "short_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "65 plus population",
-    "sources": [
-      {
-        "date_accessed": 2021,
-        "name": "American Community Survey Table B01001",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The percent of the population over age 64 is {value} in {features.name}.",
-    "type": "percent"
-  },
-  "perc_pop_20_64": {
-    "category": "Demographics",
-    "equity_category": "Status",
-    "long_description": "The percent of the population between age 20 and 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "long_name": "20 to 64 population (percent)",
-    "short_description": "The percent of the population between age 20 and 64. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "20 to 64 population",
-    "sources": [
-      {
-        "date_accessed": 2021,
-        "name": "American Community Survey Table B01001",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The percent of the population between age 20 and 64 is {value} in {features.name}.",
-    "type": "percent"
   },
   "no_hlth_ins_pct": {
     "category": "Health",
@@ -2192,5 +2022,174 @@
       "version": "0.0.1",
       "url": "https://github.com/uva-bi-sdad/catchment"
     }
+  },
+  "perc_afr_amer_alone": {
+    "category": "Demographics",
+    "equity_category": "Status",
+    "long_description": "The Black population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "long_name": "Black population (percent)",
+    "short_description": "The Black population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "short_name": "Black population",
+    "sources": [
+      {
+        "date_accessed": 2023,
+        "name": "American Community Survey Table B01001",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The Black population is {value} in {features.name}.",
+    "type": "percent"
+  },
+  "perc_AAPI": {
+    "category": "Demographics",
+    "equity_category": "Status",
+    "long_description": "The Asian American/Pacific Islander population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "long_name": "Asian American/Pacific Islander population (percent)",
+    "short_description": "The Asian American/Pacific Islander population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "short_name": "Asian American/Pacific Islander population",
+    "sources": [
+      {
+        "date_accessed": 2023,
+        "name": "American Community Survey Table B01001",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The Asian American/Pacific Islander population is {value} in {features.name}.",
+    "type": "percent"
+  },
+  "perc_hispanic_or_latino": {
+    "category": "Demographics",
+    "equity_category": "Status",
+    "long_description": "The Hispanic/Latino population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "long_name": "Hispanic/Latino population (percent)",
+    "short_description": "The Hispanic/Latino population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "short_name": "Hispanic/Latino population",
+    "sources": [
+      {
+        "date_accessed": 2023,
+        "name": "American Community Survey Table B01001",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The Hispanic/Latino population is {value} in {features.name}.",
+    "type": "percent"
+  },
+  "perc_wht_alone": {
+    "category": "Demographics",
+    "equity_category": "Status",
+    "long_description": "The White population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "long_name": "White population (percent)",
+    "short_description": "The White population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "short_name": "White population",
+    "sources": [
+      {
+        "date_accessed": 2023,
+        "name": "American Community Survey Table B01001",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The White population is {value} in {features.name}.",
+    "type": "percent"
+  },
+  "perc_native_alone": {
+    "category": "Demographics",
+    "equity_category": "Status",
+    "long_description": "The Native population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "long_name": "Native population (percent)",
+    "short_description": "The Native population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "short_name": "Native population",
+    "sources": [
+      {
+        "date_accessed": 2023,
+        "name": "American Community Survey Table B01001",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The Native population is {value} in {features.name}.",
+    "type": "percent"
+  },
+  "perc_female": {
+    "category": "Demographics",
+    "equity_category": "Status",
+    "long_description": "The percent of females in the total population. Based on American Community Survey ACS 2010/2021 5-year estimates table S0101.",
+    "long_name": "Female population (percent)",
+    "short_description": "The percent of females in population. Based on American Community Survey ACS 2010/2021 5-year estimates.",
+    "short_name": "Female population",
+    "statement": "The female population is {value} in {features.name}.",
+    "sources": [
+      {
+        "date_accessed": 2023,
+        "name": "American Community Survey Table S0101",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "perc_male": {
+    "category": "Demographics",
+    "equity_category": "Status",
+    "long_description": "The percent of males in the total population. Based on American Community Survey ACS 2010/2021 5-year estimates table S0101.",
+    "long_name": "Male population (percent)",
+    "short_description": "The percent of males in population. Based on American Community Survey ACS 2010/2021 5-year estimates.",
+    "short_name": "Male population",
+    "statement": "The male population is {value} in {features.name}.",
+    "type": "percent",
+    "sources": [
+      {
+        "date_accessed": 2023,
+        "name": "American Community Survey Table S0101",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "perc_pop_under_20": {
+    "category": "Demographics",
+    "equity_category": "Status",
+    "long_description": "The percent of the population under age 20. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "long_name": "Under 20 population (percent)",
+    "short_description": "The percent of the population under age 20. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "short_name": "Under 20 population",
+    "sources": [
+      {
+        "date_accessed": 2021,
+        "name": "American Community Survey Table B01001",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The percent of the population under age 20 is {value} in {features.name}.",
+    "type": "percent"
+  },
+  "perc_pop_65_plus": {
+    "category": "Demographics",
+    "equity_category": "Status",
+    "long_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "long_name": "65 plus population (percent)",
+    "short_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "short_name": "65 plus population",
+    "sources": [
+      {
+        "date_accessed": 2021,
+        "name": "American Community Survey Table B01001",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The percent of the population over age 64 is {value} in {features.name}.",
+    "type": "percent"
+  },
+  "perc_pop_20_64": {
+    "category": "Demographics",
+    "equity_category": "Status",
+    "long_description": "The percent of the population between age 20 and 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "long_name": "20 to 64 population (percent)",
+    "short_description": "The percent of the population between age 20 and 64. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "short_name": "20 to 64 population",
+    "sources": [
+      {
+        "date_accessed": 2021,
+        "name": "American Community Survey Table B01001",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The percent of the population between age 20 and 64 is {value} in {features.name}.",
+    "type": "percent"
   }
 }

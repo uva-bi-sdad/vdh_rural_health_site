@@ -167,7 +167,11 @@ page_panel(
   input_button(
     "Employment Rate",
     list(selected_variable = "emp_rate")
-  )
+  ),
+  foot = input_switch("Share use data", "settings.tracking", as.checkbox = TRUE, note = paste(
+    "Sharing your use data (via Google Analytics) supports this project,",
+    "and can help us improve the site."
+  ))
 )
 
 page_menu(
@@ -202,7 +206,7 @@ page_menu(
     wraps = "row form-row",
     input_combobox(
       "Variable", options = "variables", group_feature = "category",
-      default = "no_health_insurance_19_to_64:hlth_ins_pct", depends = "shapes",
+      default = "perc_hh_with_broadband", depends = "shapes",
       id = "selected_variable", note = paste(
         "Determines which variable is shown on the plot's y-axis, in the rank table,",
         "and info fields, and used to color map polygons and plot elements."

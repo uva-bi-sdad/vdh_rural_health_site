@@ -9,9 +9,9 @@
   },
   "resources": [
     {
-      "bytes": 45620,
+      "bytes": 45628,
       "encoding": "ISO-8859-1",
-      "md5": "ea013ba01d4a0b9c911116031f348065",
+      "md5": "d472fdf15ec177b44eb7f4fbf1537c32",
       "format": "csv",
       "name": "district",
       "filename": "health_district.csv.xz",
@@ -25,7 +25,7 @@
       "id_length": 8,
       "time": "time",
       "profile": "data-resource",
-      "created": "2023-02-09 16:46:20",
+      "created": "2023-02-17 09:54:06",
       "last_modified": "2023-02-09 16:43:14",
       "row_count": 455,
       "entity_count": 35,
@@ -1049,7 +1049,7 @@
               "type": "percent",
               "short_name": "Food Insecure Population Percentage",
               "long_name": "Estimated percentage of total people in food insecure households",
-              "short_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. This measure is an estimate of the percent of people in food insecure households.  The brief providing the methodology of calculating these estimates is available at Feeding America's Map the Meal Gap website (linked below).",
+              "short_description": "Food insecure persons are people living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
               "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. This measure is an estimate of the percent of people in food insecure households.  The brief providing the methodology of calculating these estimates is available at Feeding America's Map the Meal Gap website (linked below). Food insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
               "statement": "{value} percent of the population in {features.name} are food insecure.",
               "equity_category": "",
@@ -1081,7 +1081,7 @@
               "type": "count",
               "short_name": "Food Insecure Population Count",
               "long_name": "Estimated number of total people in food insecure households",
-              "short_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. This measure is an estimate of the number of people in food insecure households.  The brief providing the methodology of calculating these estimates is available at Feeding America's Map the Meal Gap website (linked below).",
+              "short_description": "Food insecure persons are people living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
               "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. This measure is an estimate of the number of people in food insecure households.  The brief providing the methodology of calculating these estimates is available at Feeding America's Map the Meal Gap website (linked below). Food insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
               "statement": "{value} people in {features.name} are food insecure.",
               "equity_category": "",
@@ -1806,7 +1806,7 @@
             }
           },
           {
-            "name": "perc_hispanic",
+            "name": "perc_hispanic_or_latino",
             "duplicates": 454,
             "time_range": [-1, -1],
             "type": "unknown",
@@ -1822,7 +1822,7 @@
               "equity_category": "Status",
               "sources": [
                 {
-                  "date_accessed": 2021,
+                  "date_accessed": 2023,
                   "name": "American Community Survey Table B01001",
                   "url": "https://www.census.gov/programs-surveys/acs.html"
                 }
@@ -1850,7 +1850,7 @@
               "equity_category": "Status",
               "sources": [
                 {
-                  "date_accessed": 2021,
+                  "date_accessed": 2023,
                   "name": "American Community Survey Table B01001",
                   "url": "https://www.census.gov/programs-surveys/acs.html"
                 }
@@ -1878,7 +1878,7 @@
               "equity_category": "Status",
               "sources": [
                 {
-                  "date_accessed": 2021,
+                  "date_accessed": 2023,
                   "name": "American Community Survey Table B01001",
                   "url": "https://www.census.gov/programs-surveys/acs.html"
                 }
@@ -1890,7 +1890,7 @@
             }
           },
           {
-            "name": "perc_amr_ind_alone",
+            "name": "perc_native_alone",
             "duplicates": 454,
             "time_range": [-1, -1],
             "type": "unknown",
@@ -1906,7 +1906,7 @@
               "equity_category": "Status",
               "sources": [
                 {
-                  "date_accessed": 2021,
+                  "date_accessed": 2023,
                   "name": "American Community Survey Table B01001",
                   "url": "https://www.census.gov/programs-surveys/acs.html"
                 }
@@ -1918,7 +1918,7 @@
             }
           },
           {
-            "name": "perc_asian_alone",
+            "name": "perc_AAPI",
             "duplicates": 454,
             "time_range": [-1, -1],
             "type": "unknown",
@@ -1934,7 +1934,7 @@
               "equity_category": "Status",
               "sources": [
                 {
-                  "date_accessed": 2021,
+                  "date_accessed": 2023,
                   "name": "American Community Survey Table B01001",
                   "url": "https://www.census.gov/programs-surveys/acs.html"
                 }
@@ -2041,12 +2041,12 @@
               "short_name": "Male population",
               "long_name": "Male population (percent)",
               "short_description": "The percent of males in population. Based on American Community Survey ACS 2010/2021 5-year estimates.",
-              "long_description": "The percent of males in the total population in percent. Based on American Community Survey ACS 2010/2021 5-year estimates table S0101.",
+              "long_description": "The percent of males in the total population. Based on American Community Survey ACS 2010/2021 5-year estimates table S0101.",
               "statement": "The male population is {value} in {features.name}.",
               "equity_category": "Status",
               "sources": [
                 {
-                  "date_accessed": 2022,
+                  "date_accessed": 2023,
                   "name": "American Community Survey Table S0101",
                   "url": "https://www.census.gov/programs-surveys/acs.html"
                 }
@@ -2065,16 +2065,15 @@
             "missing": 455,
             "info": {
               "category": "Demographics",
-              "type": "percent",
               "short_name": "Female population",
               "long_name": "Female population (percent)",
               "short_description": "The percent of females in population. Based on American Community Survey ACS 2010/2021 5-year estimates.",
-              "long_description": "The percent of females in the total population in percent. Based on American Community Survey ACS 2010/2021 5-year estimates table S0101.",
+              "long_description": "The percent of females in the total population. Based on American Community Survey ACS 2010/2021 5-year estimates table S0101.",
               "statement": "The female population is {value} in {features.name}.",
               "equity_category": "Status",
               "sources": [
                 {
-                  "date_accessed": 2022,
+                  "date_accessed": 2023,
                   "name": "American Community Survey Table S0101",
                   "url": "https://www.census.gov/programs-surveys/acs.html"
                 }
@@ -3293,12 +3292,12 @@
           "url": "https://github.com/uva-bi-sdad/catchment"
         }
       },
-      "sha512": "dc8a7b3f8e59538595f0740ddfbd973dea8bc3c3da29e5fac3bc745d68fad1d557ee57e0ddd1fa40fea161e96c2a731c92f0cf9b506a172f9b24afe676bb5ba8"
+      "sha512": "59ec40f8b87d41941d370e807be25a553a8ac03f9984ced0f1d4c7380972a72a53c098cfdaa0fe947f9641513a92e82ef6b4a336788f09d2a6b9cc3dbbf36c72"
     },
     {
-      "bytes": 304576,
+      "bytes": 303164,
       "encoding": "ISO-8859-1",
-      "md5": "7b5e2fa0c7801e0b79aeb365a492fa05",
+      "md5": "86fbb806322de4a434f9bf8aa770d7b3",
       "format": "csv",
       "name": "county",
       "filename": "county.csv.xz",
@@ -3312,7 +3311,7 @@
       "id_length": 5,
       "time": "time",
       "profile": "data-resource",
-      "created": "2023-02-09 16:46:20",
+      "created": "2023-02-17 09:54:06",
       "last_modified": "2023-02-09 16:43:14",
       "row_count": 1742,
       "entity_count": 134,
@@ -4336,7 +4335,7 @@
               "type": "percent",
               "short_name": "Food Insecure Population Percentage",
               "long_name": "Estimated percentage of total people in food insecure households",
-              "short_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. This measure is an estimate of the percent of people in food insecure households.  The brief providing the methodology of calculating these estimates is available at Feeding America's Map the Meal Gap website (linked below).",
+              "short_description": "Food insecure persons are people living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
               "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. This measure is an estimate of the percent of people in food insecure households.  The brief providing the methodology of calculating these estimates is available at Feeding America's Map the Meal Gap website (linked below). Food insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
               "statement": "{value} percent of the population in {features.name} are food insecure.",
               "equity_category": "",
@@ -4368,7 +4367,7 @@
               "type": "count",
               "short_name": "Food Insecure Population Count",
               "long_name": "Estimated number of total people in food insecure households",
-              "short_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. This measure is an estimate of the number of people in food insecure households.  The brief providing the methodology of calculating these estimates is available at Feeding America's Map the Meal Gap website (linked below).",
+              "short_description": "Food insecure persons are people living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
               "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. This measure is an estimate of the number of people in food insecure households.  The brief providing the methodology of calculating these estimates is available at Feeding America's Map the Meal Gap website (linked below). Food insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
               "statement": "{value} people in {features.name} are food insecure.",
               "equity_category": "",
@@ -5121,15 +5120,15 @@
             }
           },
           {
-            "name": "perc_hispanic",
+            "name": "perc_hispanic_or_latino",
             "duplicates": 156,
             "time_range": [0, 11],
             "type": "float",
             "missing": 141,
-            "mean": 4.7444,
-            "sd": 5.4444,
+            "mean": 0.0474,
+            "sd": 0.0544,
             "min": 0,
-            "max": 40.0729,
+            "max": 0.4007,
             "info": {
               "category": "Demographics",
               "type": "percent",
@@ -5141,7 +5140,7 @@
               "equity_category": "Status",
               "sources": [
                 {
-                  "date_accessed": 2021,
+                  "date_accessed": 2023,
                   "name": "American Community Survey Table B01001",
                   "url": "https://www.census.gov/programs-surveys/acs.html"
                 }
@@ -5158,10 +5157,10 @@
             "time_range": [0, 11],
             "type": "float",
             "missing": 141,
-            "mean": 75.3287,
-            "sd": 17.2374,
-            "min": 16.5958,
-            "max": 99.8682,
+            "mean": 0.7533,
+            "sd": 0.1724,
+            "min": 0.166,
+            "max": 0.9987,
             "info": {
               "category": "Demographics",
               "type": "percent",
@@ -5173,7 +5172,7 @@
               "equity_category": "Status",
               "sources": [
                 {
-                  "date_accessed": 2021,
+                  "date_accessed": 2023,
                   "name": "American Community Survey Table B01001",
                   "url": "https://www.census.gov/programs-surveys/acs.html"
                 }
@@ -5190,10 +5189,10 @@
             "time_range": [0, 11],
             "type": "float",
             "missing": 141,
-            "mean": 18.8961,
-            "sd": 16.5182,
+            "mean": 0.189,
+            "sd": 0.1652,
             "min": 0,
-            "max": 79.5165,
+            "max": 0.7952,
             "info": {
               "category": "Demographics",
               "type": "percent",
@@ -5205,7 +5204,7 @@
               "equity_category": "Status",
               "sources": [
                 {
-                  "date_accessed": 2021,
+                  "date_accessed": 2023,
                   "name": "American Community Survey Table B01001",
                   "url": "https://www.census.gov/programs-surveys/acs.html"
                 }
@@ -5217,15 +5216,15 @@
             }
           },
           {
-            "name": "perc_amr_ind_alone",
+            "name": "perc_native_alone",
             "duplicates": 357,
             "time_range": [0, 11],
             "type": "float",
             "missing": 141,
-            "mean": 0.296,
-            "sd": 0.5948,
+            "mean": 0.003,
+            "sd": 0.0059,
             "min": 0,
-            "max": 7.1928,
+            "max": 0.0719,
             "info": {
               "category": "Demographics",
               "type": "percent",
@@ -5237,7 +5236,7 @@
               "equity_category": "Status",
               "sources": [
                 {
-                  "date_accessed": 2021,
+                  "date_accessed": 2023,
                   "name": "American Community Survey Table B01001",
                   "url": "https://www.census.gov/programs-surveys/acs.html"
                 }
@@ -5249,15 +5248,15 @@
             }
           },
           {
-            "name": "perc_asian_alone",
-            "duplicates": 224,
+            "name": "perc_AAPI",
+            "duplicates": 209,
             "time_range": [0, 11],
             "type": "float",
             "missing": 141,
-            "mean": 1.9293,
-            "sd": 3.0706,
+            "mean": 0.0197,
+            "sd": 0.0308,
             "min": 0,
-            "max": 19.8291,
+            "max": 0.1992,
             "info": {
               "category": "Demographics",
               "type": "percent",
@@ -5269,7 +5268,7 @@
               "equity_category": "Status",
               "sources": [
                 {
-                  "date_accessed": 2021,
+                  "date_accessed": 2023,
                   "name": "American Community Survey Table B01001",
                   "url": "https://www.census.gov/programs-surveys/acs.html"
                 }
@@ -5392,12 +5391,12 @@
               "short_name": "Male population",
               "long_name": "Male population (percent)",
               "short_description": "The percent of males in population. Based on American Community Survey ACS 2010/2021 5-year estimates.",
-              "long_description": "The percent of males in the total population in percent. Based on American Community Survey ACS 2010/2021 5-year estimates table S0101.",
+              "long_description": "The percent of males in the total population. Based on American Community Survey ACS 2010/2021 5-year estimates table S0101.",
               "statement": "The male population is {value} in {features.name}.",
               "equity_category": "Status",
               "sources": [
                 {
-                  "date_accessed": 2022,
+                  "date_accessed": 2023,
                   "name": "American Community Survey Table S0101",
                   "url": "https://www.census.gov/programs-surveys/acs.html"
                 }
@@ -5420,16 +5419,15 @@
             "max": 62.6401,
             "info": {
               "category": "Demographics",
-              "type": "percent",
               "short_name": "Female population",
               "long_name": "Female population (percent)",
               "short_description": "The percent of females in population. Based on American Community Survey ACS 2010/2021 5-year estimates.",
-              "long_description": "The percent of females in the total population in percent. Based on American Community Survey ACS 2010/2021 5-year estimates table S0101.",
+              "long_description": "The percent of females in the total population. Based on American Community Survey ACS 2010/2021 5-year estimates table S0101.",
               "statement": "The female population is {value} in {features.name}.",
               "equity_category": "Status",
               "sources": [
                 {
-                  "date_accessed": 2022,
+                  "date_accessed": 2023,
                   "name": "American Community Survey Table S0101",
                   "url": "https://www.census.gov/programs-surveys/acs.html"
                 }
@@ -6684,12 +6682,12 @@
           "url": "https://github.com/uva-bi-sdad/catchment"
         }
       },
-      "sha512": "66ddd490ed1bbfec37e520ecc4e5f4e6ca5dfdc308a49660911e111f40bbf408282017c0873ba69c700147016bfa9331bf4c4b795d959595bdf7b8cd60c59b8d"
+      "sha512": "aeb3ff26046e2230576a4393a04211268c5aefdc68438b8efb2ac98a838ebb53c4810dbf52b3199bb7efc1d5326f4b6d969d3724da1fd2b3bb4fc03e69197bef"
     },
     {
-      "bytes": 3535832,
+      "bytes": 3525988,
       "encoding": "ISO-8859-1",
-      "md5": "683226c172ff457e0e84e65f364921d5",
+      "md5": "932b73fec102d8210952ccc3e9c149ea",
       "format": "csv",
       "name": "tract",
       "filename": "tract.csv.xz",
@@ -6703,7 +6701,7 @@
       "id_length": 11,
       "time": "time",
       "profile": "data-resource",
-      "created": "2023-02-09 16:46:29",
+      "created": "2023-02-17 09:54:15",
       "last_modified": "2023-02-09 16:43:14",
       "row_count": 32032,
       "entity_count": 2464,
@@ -7711,7 +7709,7 @@
               "type": "percent",
               "short_name": "Food Insecure Population Percentage",
               "long_name": "Estimated percentage of total people in food insecure households",
-              "short_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. This measure is an estimate of the percent of people in food insecure households.  The brief providing the methodology of calculating these estimates is available at Feeding America's Map the Meal Gap website (linked below).",
+              "short_description": "Food insecure persons are people living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
               "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. This measure is an estimate of the percent of people in food insecure households.  The brief providing the methodology of calculating these estimates is available at Feeding America's Map the Meal Gap website (linked below). Food insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
               "statement": "{value} percent of the population in {features.name} are food insecure.",
               "equity_category": "",
@@ -7743,7 +7741,7 @@
               "type": "count",
               "short_name": "Food Insecure Population Count",
               "long_name": "Estimated number of total people in food insecure households",
-              "short_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. This measure is an estimate of the number of people in food insecure households.  The brief providing the methodology of calculating these estimates is available at Feeding America's Map the Meal Gap website (linked below).",
+              "short_description": "Food insecure persons are people living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
               "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. This measure is an estimate of the number of people in food insecure households.  The brief providing the methodology of calculating these estimates is available at Feeding America's Map the Meal Gap website (linked below). Food insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
               "statement": "{value} people in {features.name} are food insecure.",
               "equity_category": "",
@@ -8484,15 +8482,15 @@
             }
           },
           {
-            "name": "perc_hispanic",
+            "name": "perc_hispanic_or_latino",
             "duplicates": 11503,
             "time_range": [0, 11],
             "type": "float",
             "missing": 10001,
-            "mean": 7.8847,
-            "sd": 9.4484,
+            "mean": 0.0788,
+            "sd": 0.0945,
             "min": 0,
-            "max": 83.0282,
+            "max": 0.8303,
             "info": {
               "category": "Demographics",
               "type": "percent",
@@ -8504,7 +8502,7 @@
               "equity_category": "Status",
               "sources": [
                 {
-                  "date_accessed": 2021,
+                  "date_accessed": 2023,
                   "name": "American Community Survey Table B01001",
                   "url": "https://www.census.gov/programs-surveys/acs.html"
                 }
@@ -8521,10 +8519,10 @@
             "time_range": [0, 11],
             "type": "float",
             "missing": 10001,
-            "mean": 68.1382,
-            "sd": 22.907,
+            "mean": 0.6814,
+            "sd": 0.2291,
             "min": 0,
-            "max": 100,
+            "max": 1,
             "info": {
               "category": "Demographics",
               "type": "percent",
@@ -8536,7 +8534,7 @@
               "equity_category": "Status",
               "sources": [
                 {
-                  "date_accessed": 2021,
+                  "date_accessed": 2023,
                   "name": "American Community Survey Table B01001",
                   "url": "https://www.census.gov/programs-surveys/acs.html"
                 }
@@ -8553,10 +8551,10 @@
             "time_range": [0, 11],
             "type": "float",
             "missing": 10001,
-            "mean": 20.691,
-            "sd": 22.1393,
+            "mean": 0.2069,
+            "sd": 0.2214,
             "min": 0,
-            "max": 100,
+            "max": 1,
             "info": {
               "category": "Demographics",
               "type": "percent",
@@ -8568,7 +8566,7 @@
               "equity_category": "Status",
               "sources": [
                 {
-                  "date_accessed": 2021,
+                  "date_accessed": 2023,
                   "name": "American Community Survey Table B01001",
                   "url": "https://www.census.gov/programs-surveys/acs.html"
                 }
@@ -8580,15 +8578,15 @@
             }
           },
           {
-            "name": "perc_amr_ind_alone",
+            "name": "perc_native_alone",
             "duplicates": 23684,
             "time_range": [0, 11],
             "type": "float",
             "missing": 10001,
-            "mean": 0.2968,
-            "sd": 0.7568,
+            "mean": 0.003,
+            "sd": 0.0076,
             "min": 0,
-            "max": 28.5714,
+            "max": 0.2857,
             "info": {
               "category": "Demographics",
               "type": "percent",
@@ -8600,7 +8598,7 @@
               "equity_category": "Status",
               "sources": [
                 {
-                  "date_accessed": 2021,
+                  "date_accessed": 2023,
                   "name": "American Community Survey Table B01001",
                   "url": "https://www.census.gov/programs-surveys/acs.html"
                 }
@@ -8612,15 +8610,15 @@
             }
           },
           {
-            "name": "perc_asian_alone",
-            "duplicates": 14351,
+            "name": "perc_AAPI",
+            "duplicates": 14112,
             "time_range": [0, 11],
             "type": "float",
             "missing": 10001,
-            "mean": 5.4182,
-            "sd": 7.7529,
+            "mean": 0.0549,
+            "sd": 0.0778,
             "min": 0,
-            "max": 61.9838,
+            "max": 0.6325,
             "info": {
               "category": "Demographics",
               "type": "percent",
@@ -8632,7 +8630,7 @@
               "equity_category": "Status",
               "sources": [
                 {
-                  "date_accessed": 2021,
+                  "date_accessed": 2023,
                   "name": "American Community Survey Table B01001",
                   "url": "https://www.census.gov/programs-surveys/acs.html"
                 }
@@ -8755,12 +8753,12 @@
               "short_name": "Male population",
               "long_name": "Male population (percent)",
               "short_description": "The percent of males in population. Based on American Community Survey ACS 2010/2021 5-year estimates.",
-              "long_description": "The percent of males in the total population in percent. Based on American Community Survey ACS 2010/2021 5-year estimates table S0101.",
+              "long_description": "The percent of males in the total population. Based on American Community Survey ACS 2010/2021 5-year estimates table S0101.",
               "statement": "The male population is {value} in {features.name}.",
               "equity_category": "Status",
               "sources": [
                 {
-                  "date_accessed": 2022,
+                  "date_accessed": 2023,
                   "name": "American Community Survey Table S0101",
                   "url": "https://www.census.gov/programs-surveys/acs.html"
                 }
@@ -8783,16 +8781,15 @@
             "max": 100,
             "info": {
               "category": "Demographics",
-              "type": "percent",
               "short_name": "Female population",
               "long_name": "Female population (percent)",
               "short_description": "The percent of females in population. Based on American Community Survey ACS 2010/2021 5-year estimates.",
-              "long_description": "The percent of females in the total population in percent. Based on American Community Survey ACS 2010/2021 5-year estimates table S0101.",
+              "long_description": "The percent of females in the total population. Based on American Community Survey ACS 2010/2021 5-year estimates table S0101.",
               "statement": "The female population is {value} in {features.name}.",
               "equity_category": "Status",
               "sources": [
                 {
-                  "date_accessed": 2022,
+                  "date_accessed": 2023,
                   "name": "American Community Survey Table S0101",
                   "url": "https://www.census.gov/programs-surveys/acs.html"
                 }
@@ -10087,7 +10084,7 @@
           "url": "https://github.com/uva-bi-sdad/catchment"
         }
       },
-      "sha512": "b47076968b62cd623103d40f709a21b4e8c8260310c8f08f430ad31780eda6332bb4bcffbef48b350b3dae4c2da151e4f005e978a41aed98aa77aab8d36dfb7e"
+      "sha512": "d19cae0a724488be7ab5727d4c1a481c3c92f267d20f4b3ae652c3fc8e52093814ee81220594294500e4c31970a921d656ae9ad3e025dbe188dbaacc68ca5224"
     }
   ]
 }
