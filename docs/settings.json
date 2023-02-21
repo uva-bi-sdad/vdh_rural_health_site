@@ -43,7 +43,7 @@
         "id_length": 11,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-02-17 09:54:15",
+        "created": "2023-02-21 14:16:24",
         "last_modified": "2023-02-09 16:43:14",
         "row_count": 32032,
         "entity_count": 2464,
@@ -2018,6 +2018,7 @@
               "max": 0.8303,
               "info": {
                 "category": "Demographics",
+                "measure": "perc_hispanic_or_latino",
                 "type": "percent",
                 "short_name": "Hispanic/Latino population",
                 "long_name": "Hispanic/Latino population (percent)",
@@ -2027,8 +2028,8 @@
                 "equity_category": "Status",
                 "sources": [
                   {
-                    "date_accessed": 2023,
                     "name": "American Community Survey Table B01001",
+                    "date_accessed": 2021,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
                 ],
@@ -2053,6 +2054,7 @@
               "max": 1,
               "info": {
                 "category": "Demographics",
+                "measure": "perc_wht_alone",
                 "type": "percent",
                 "short_name": "White population",
                 "long_name": "White population (percent)",
@@ -2062,8 +2064,8 @@
                 "equity_category": "Status",
                 "sources": [
                   {
-                    "date_accessed": 2023,
                     "name": "American Community Survey Table B01001",
+                    "date_accessed": 2021,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
                 ],
@@ -2088,6 +2090,7 @@
               "max": 1,
               "info": {
                 "category": "Demographics",
+                "measure": "perc_afr_amer_alone",
                 "type": "percent",
                 "short_name": "Black population",
                 "long_name": "Black population (percent)",
@@ -2097,8 +2100,8 @@
                 "equity_category": "Status",
                 "sources": [
                   {
-                    "date_accessed": 2023,
                     "name": "American Community Survey Table B01001",
+                    "date_accessed": 2021,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
                 ],
@@ -2123,6 +2126,7 @@
               "max": 0.2857,
               "info": {
                 "category": "Demographics",
+                "measure": "perc_native_alone",
                 "type": "percent",
                 "short_name": "Native population",
                 "long_name": "Native population (percent)",
@@ -2132,8 +2136,8 @@
                 "equity_category": "Status",
                 "sources": [
                   {
-                    "date_accessed": 2023,
                     "name": "American Community Survey Table B01001",
+                    "date_accessed": 2021,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
                 ],
@@ -2158,6 +2162,7 @@
               "max": 0.6325,
               "info": {
                 "category": "Demographics",
+                "measure": "perc_AAPI",
                 "type": "percent",
                 "short_name": "Asian American/Pacific Islander population",
                 "long_name": "Asian American/Pacific Islander population (percent)",
@@ -2167,8 +2172,8 @@
                 "equity_category": "Status",
                 "sources": [
                   {
-                    "date_accessed": 2023,
                     "name": "American Community Survey Table B01001",
+                    "date_accessed": 2021,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
                 ],
@@ -2202,7 +2207,7 @@
                 "equity_category": "Status",
                 "sources": [
                   {
-                    "date_accessed": 2021,
+                    "date_accessed": 2023,
                     "name": "American Community Survey Table B01001",
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
@@ -2237,7 +2242,7 @@
                 "equity_category": "Status",
                 "sources": [
                   {
-                    "date_accessed": 2021,
+                    "date_accessed": 2023,
                     "name": "American Community Survey Table B01001",
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
@@ -2272,7 +2277,7 @@
                 "equity_category": "Status",
                 "sources": [
                   {
-                    "date_accessed": 2021,
+                    "date_accessed": 2023,
                     "name": "American Community Survey Table B01001",
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
@@ -3784,7 +3789,7 @@
         "id_length": 5,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-02-17 09:54:06",
+        "created": "2023-02-21 14:16:15",
         "last_modified": "2023-02-09 16:43:14",
         "row_count": 1742,
         "entity_count": 134,
@@ -5787,6 +5792,7 @@
               "max": 0.4007,
               "info": {
                 "category": "Demographics",
+                "measure": "perc_hispanic_or_latino",
                 "type": "percent",
                 "short_name": "Hispanic/Latino population",
                 "long_name": "Hispanic/Latino population (percent)",
@@ -5796,8 +5802,8 @@
                 "equity_category": "Status",
                 "sources": [
                   {
-                    "date_accessed": 2023,
                     "name": "American Community Survey Table B01001",
+                    "date_accessed": 2021,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
                 ],
@@ -5822,6 +5828,7 @@
               "max": 0.9987,
               "info": {
                 "category": "Demographics",
+                "measure": "perc_wht_alone",
                 "type": "percent",
                 "short_name": "White population",
                 "long_name": "White population (percent)",
@@ -5831,8 +5838,8 @@
                 "equity_category": "Status",
                 "sources": [
                   {
-                    "date_accessed": 2023,
                     "name": "American Community Survey Table B01001",
+                    "date_accessed": 2021,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
                 ],
@@ -5857,6 +5864,7 @@
               "max": 0.7952,
               "info": {
                 "category": "Demographics",
+                "measure": "perc_afr_amer_alone",
                 "type": "percent",
                 "short_name": "Black population",
                 "long_name": "Black population (percent)",
@@ -5866,8 +5874,8 @@
                 "equity_category": "Status",
                 "sources": [
                   {
-                    "date_accessed": 2023,
                     "name": "American Community Survey Table B01001",
+                    "date_accessed": 2021,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
                 ],
@@ -5892,6 +5900,7 @@
               "max": 0.0719,
               "info": {
                 "category": "Demographics",
+                "measure": "perc_native_alone",
                 "type": "percent",
                 "short_name": "Native population",
                 "long_name": "Native population (percent)",
@@ -5901,8 +5910,8 @@
                 "equity_category": "Status",
                 "sources": [
                   {
-                    "date_accessed": 2023,
                     "name": "American Community Survey Table B01001",
+                    "date_accessed": 2021,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
                 ],
@@ -5927,6 +5936,7 @@
               "max": 0.1992,
               "info": {
                 "category": "Demographics",
+                "measure": "perc_AAPI",
                 "type": "percent",
                 "short_name": "Asian American/Pacific Islander population",
                 "long_name": "Asian American/Pacific Islander population (percent)",
@@ -5936,8 +5946,8 @@
                 "equity_category": "Status",
                 "sources": [
                   {
-                    "date_accessed": 2023,
                     "name": "American Community Survey Table B01001",
+                    "date_accessed": 2021,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
                 ],
@@ -5971,7 +5981,7 @@
                 "equity_category": "Status",
                 "sources": [
                   {
-                    "date_accessed": 2021,
+                    "date_accessed": 2023,
                     "name": "American Community Survey Table B01001",
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
@@ -6006,7 +6016,7 @@
                 "equity_category": "Status",
                 "sources": [
                   {
-                    "date_accessed": 2021,
+                    "date_accessed": 2023,
                     "name": "American Community Survey Table B01001",
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
@@ -6041,7 +6051,7 @@
                 "equity_category": "Status",
                 "sources": [
                   {
-                    "date_accessed": 2021,
+                    "date_accessed": 2023,
                     "name": "American Community Survey Table B01001",
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
@@ -7513,7 +7523,7 @@
         "id_length": 8,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-02-17 09:54:06",
+        "created": "2023-02-21 14:16:15",
         "last_modified": "2023-02-09 16:43:14",
         "row_count": 455,
         "entity_count": 35,
@@ -9484,6 +9494,7 @@
               "missing": 455,
               "info": {
                 "category": "Demographics",
+                "measure": "perc_hispanic_or_latino",
                 "type": "percent",
                 "short_name": "Hispanic/Latino population",
                 "long_name": "Hispanic/Latino population (percent)",
@@ -9493,8 +9504,8 @@
                 "equity_category": "Status",
                 "sources": [
                   {
-                    "date_accessed": 2023,
                     "name": "American Community Survey Table B01001",
+                    "date_accessed": 2021,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
                 ],
@@ -9515,6 +9526,7 @@
               "missing": 455,
               "info": {
                 "category": "Demographics",
+                "measure": "perc_wht_alone",
                 "type": "percent",
                 "short_name": "White population",
                 "long_name": "White population (percent)",
@@ -9524,8 +9536,8 @@
                 "equity_category": "Status",
                 "sources": [
                   {
-                    "date_accessed": 2023,
                     "name": "American Community Survey Table B01001",
+                    "date_accessed": 2021,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
                 ],
@@ -9546,6 +9558,7 @@
               "missing": 455,
               "info": {
                 "category": "Demographics",
+                "measure": "perc_afr_amer_alone",
                 "type": "percent",
                 "short_name": "Black population",
                 "long_name": "Black population (percent)",
@@ -9555,8 +9568,8 @@
                 "equity_category": "Status",
                 "sources": [
                   {
-                    "date_accessed": 2023,
                     "name": "American Community Survey Table B01001",
+                    "date_accessed": 2021,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
                 ],
@@ -9577,6 +9590,7 @@
               "missing": 455,
               "info": {
                 "category": "Demographics",
+                "measure": "perc_native_alone",
                 "type": "percent",
                 "short_name": "Native population",
                 "long_name": "Native population (percent)",
@@ -9586,8 +9600,8 @@
                 "equity_category": "Status",
                 "sources": [
                   {
-                    "date_accessed": 2023,
                     "name": "American Community Survey Table B01001",
+                    "date_accessed": 2021,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
                 ],
@@ -9608,6 +9622,7 @@
               "missing": 455,
               "info": {
                 "category": "Demographics",
+                "measure": "perc_AAPI",
                 "type": "percent",
                 "short_name": "Asian American/Pacific Islander population",
                 "long_name": "Asian American/Pacific Islander population (percent)",
@@ -9617,8 +9632,8 @@
                 "equity_category": "Status",
                 "sources": [
                   {
-                    "date_accessed": 2023,
                     "name": "American Community Survey Table B01001",
+                    "date_accessed": 2021,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
                 ],
@@ -9648,7 +9663,7 @@
                 "equity_category": "Status",
                 "sources": [
                   {
-                    "date_accessed": 2021,
+                    "date_accessed": 2023,
                     "name": "American Community Survey Table B01001",
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
@@ -9679,7 +9694,7 @@
                 "equity_category": "Status",
                 "sources": [
                   {
-                    "date_accessed": 2021,
+                    "date_accessed": 2023,
                     "name": "American Community Survey Table B01001",
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
@@ -9710,7 +9725,7 @@
                 "equity_category": "Status",
                 "sources": [
                   {
-                    "date_accessed": 2021,
+                    "date_accessed": 2023,
                     "name": "American Community Survey Table B01001",
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
@@ -12208,7 +12223,7 @@
     },
     "FoodInsecurity": {
       "effects": {
-        "selected_variable": "Food_Insecurity_Rate"
+        "selected_variable": "percent_food_insecure"
       }
     },
     "ChildhoodFoodInsecurity": {
@@ -12218,7 +12233,7 @@
     },
     "APNCU:Inadequate": {
       "effects": {
-        "selected_variable": "nadequate"
+        "selected_variable": "inadequate"
       }
     },
     "APNCU:Intermediate": {

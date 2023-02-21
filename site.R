@@ -126,7 +126,7 @@ page_panel(
   '<p class="lead">Nutrition and Food Security</p>',
   input_button(
     "Food Insecurity",
-    list(selected_variable = "Food_Insecurity_Rate")
+    list(selected_variable = "percent_food_insecure")
   ),
   input_button(
     "Childhood Food Insecurity",
@@ -135,7 +135,7 @@ page_panel(
   '<p class="lead">Healthy Moms And Babies</p>',
   input_button(
     "APNCU: Inadequate",
-    list(selected_variable = "nadequate")
+    list(selected_variable = "inadequate")
   ),
   input_button(
     "APNCU: Intermediate",
