@@ -27,9 +27,9 @@
     "variables": {},
     "info": {
       "tract": {
-        "bytes": 3525988,
+        "bytes": 3528808,
         "encoding": "ISO-8859-1",
-        "md5": "932b73fec102d8210952ccc3e9c149ea",
+        "md5": "35097918beedde743a225da96cb0ccd7",
         "format": "csv",
         "name": "tract",
         "filename": "tract.csv.xz",
@@ -43,7 +43,7 @@
         "id_length": 11,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-02-21 14:16:24",
+        "created": "2023-02-24 04:39:45",
         "last_modified": "2023-02-09 16:43:14",
         "row_count": 32032,
         "entity_count": 2464,
@@ -2198,6 +2198,7 @@
               "max": 87.5674,
               "info": {
                 "category": "Demographics",
+                "measure": "perc_pop_under_20",
                 "type": "percent",
                 "short_name": "Under 20 population",
                 "long_name": "Under 20 population (percent)",
@@ -2233,6 +2234,7 @@
               "max": 100,
               "info": {
                 "category": "Demographics",
+                "measure": "perc_pop_20_64",
                 "type": "percent",
                 "short_name": "20 to 64 population",
                 "long_name": "20 to 64 population (percent)",
@@ -2268,6 +2270,7 @@
               "max": 100,
               "info": {
                 "category": "Demographics",
+                "measure": "perc_pop_65_plus",
                 "type": "percent",
                 "short_name": "65 plus population",
                 "long_name": "65 plus population (percent)",
@@ -2303,6 +2306,7 @@
               "max": 100,
               "info": {
                 "category": "Demographics",
+                "measure": "perc_male",
                 "type": "percent",
                 "short_name": "Male population",
                 "long_name": "Male population (percent)",
@@ -2338,6 +2342,8 @@
               "max": 100,
               "info": {
                 "category": "Demographics",
+                "measure": "perc_female",
+                "type": "percent",
                 "short_name": "Female population",
                 "long_name": "Female population (percent)",
                 "short_description": "The percent of females in population. Based on American Community Survey ACS 2010/2021 5-year estimates.",
@@ -3643,6 +3649,41 @@
           ]
         },
         "_references": {
+          "wan12": {
+            "id": "wan12",
+            "author": [
+              {
+                "given": "Neng",
+                "family": "Wan"
+              },
+              {
+                "given": "Bin",
+                "family": "Zou"
+              },
+              {
+                "given": "Troy",
+                "family": "Sternberg"
+              }
+            ],
+            "year": 2012,
+            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+            "journal": "International Journal of Geographical Information Science",
+            "volume": "26",
+            "page": "1073-1089",
+            "doi": "10.1080/13658816.2011.624987"
+          },
+          "bii21": {
+            "id": "bii21",
+            "author": [
+              {
+                "family": "Biocomplexity Institute and Initiative"
+              }
+            ],
+            "year": 2021,
+            "title": "catchment: Calculate spatial access and availability metrics",
+            "version": "0.0.1",
+            "url": "https://github.com/uva-bi-sdad/catchment"
+          },
           "lou04": {
             "id": "lou04",
             "author": [
@@ -3732,50 +3773,15 @@
             "journal": "University of Chicago: Center for Spatial Data Science",
             "volume": "Preprint",
             "doi": "10.13140/RG.2.2.12396.28807"
-          },
-          "wan12": {
-            "id": "wan12",
-            "author": [
-              {
-                "given": "Neng",
-                "family": "Wan"
-              },
-              {
-                "given": "Bin",
-                "family": "Zou"
-              },
-              {
-                "given": "Troy",
-                "family": "Sternberg"
-              }
-            ],
-            "year": 2012,
-            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-            "journal": "International Journal of Geographical Information Science",
-            "volume": "26",
-            "page": "1073-1089",
-            "doi": "10.1080/13658816.2011.624987"
-          },
-          "bii21": {
-            "id": "bii21",
-            "author": [
-              {
-                "family": "Biocomplexity Institute and Initiative"
-              }
-            ],
-            "year": 2021,
-            "title": "catchment: Calculate spatial access and availability metrics",
-            "version": "0.0.1",
-            "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
-        "sha512": "d19cae0a724488be7ab5727d4c1a481c3c92f267d20f4b3ae652c3fc8e52093814ee81220594294500e4c31970a921d656ae9ad3e025dbe188dbaacc68ca5224",
+        "sha512": "e7b37668a5894f6409f1d9494594e39f39de32fb7b7d936130834e3d1c0fab1c50fc671e2e1fae327b4fe1a4aa43ea992243b3c1614d8d2784cb9f6309609670",
         "site_file": "https://uva-bi-sdad.github.io/community_example//tract.json"
       },
       "county": {
-        "bytes": 303164,
+        "bytes": 302892,
         "encoding": "ISO-8859-1",
-        "md5": "86fbb806322de4a434f9bf8aa770d7b3",
+        "md5": "3bfa0ca4b09f7e3fbf7c61af688b21f5",
         "format": "csv",
         "name": "county",
         "filename": "county.csv.xz",
@@ -3789,7 +3795,7 @@
         "id_length": 5,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-02-21 14:16:15",
+        "created": "2023-02-24 04:39:35",
         "last_modified": "2023-02-09 16:43:14",
         "row_count": 1742,
         "entity_count": 134,
@@ -5407,8 +5413,8 @@
               ],
               "type": "float",
               "missing": 142,
-              "mean": 53.1277,
-              "sd": 12.1181,
+              "mean": 53.1247,
+              "sd": 12.1167,
               "min": 24.4028,
               "max": 93.3023,
               "info": {
@@ -5972,6 +5978,7 @@
               "max": 35.2126,
               "info": {
                 "category": "Demographics",
+                "measure": "perc_pop_under_20",
                 "type": "percent",
                 "short_name": "Under 20 population",
                 "long_name": "Under 20 population (percent)",
@@ -6007,6 +6014,7 @@
               "max": 76.6131,
               "info": {
                 "category": "Demographics",
+                "measure": "perc_pop_20_64",
                 "type": "percent",
                 "short_name": "20 to 64 population",
                 "long_name": "20 to 64 population (percent)",
@@ -6042,6 +6050,7 @@
               "max": 39.8367,
               "info": {
                 "category": "Demographics",
+                "measure": "perc_pop_65_plus",
                 "type": "percent",
                 "short_name": "65 plus population",
                 "long_name": "65 plus population (percent)",
@@ -6077,6 +6086,7 @@
               "max": 68.5266,
               "info": {
                 "category": "Demographics",
+                "measure": "perc_male",
                 "type": "percent",
                 "short_name": "Male population",
                 "long_name": "Male population (percent)",
@@ -6112,6 +6122,8 @@
               "max": 62.6401,
               "info": {
                 "category": "Demographics",
+                "measure": "perc_female",
+                "type": "percent",
                 "short_name": "Female population",
                 "long_name": "Female population (percent)",
                 "short_description": "The percent of females in population. Based on American Community Survey ACS 2010/2021 5-year estimates.",
@@ -7377,6 +7389,41 @@
           ]
         },
         "_references": {
+          "wan12": {
+            "id": "wan12",
+            "author": [
+              {
+                "given": "Neng",
+                "family": "Wan"
+              },
+              {
+                "given": "Bin",
+                "family": "Zou"
+              },
+              {
+                "given": "Troy",
+                "family": "Sternberg"
+              }
+            ],
+            "year": 2012,
+            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+            "journal": "International Journal of Geographical Information Science",
+            "volume": "26",
+            "page": "1073-1089",
+            "doi": "10.1080/13658816.2011.624987"
+          },
+          "bii21": {
+            "id": "bii21",
+            "author": [
+              {
+                "family": "Biocomplexity Institute and Initiative"
+              }
+            ],
+            "year": 2021,
+            "title": "catchment: Calculate spatial access and availability metrics",
+            "version": "0.0.1",
+            "url": "https://github.com/uva-bi-sdad/catchment"
+          },
           "lou04": {
             "id": "lou04",
             "author": [
@@ -7466,50 +7513,15 @@
             "journal": "University of Chicago: Center for Spatial Data Science",
             "volume": "Preprint",
             "doi": "10.13140/RG.2.2.12396.28807"
-          },
-          "wan12": {
-            "id": "wan12",
-            "author": [
-              {
-                "given": "Neng",
-                "family": "Wan"
-              },
-              {
-                "given": "Bin",
-                "family": "Zou"
-              },
-              {
-                "given": "Troy",
-                "family": "Sternberg"
-              }
-            ],
-            "year": 2012,
-            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-            "journal": "International Journal of Geographical Information Science",
-            "volume": "26",
-            "page": "1073-1089",
-            "doi": "10.1080/13658816.2011.624987"
-          },
-          "bii21": {
-            "id": "bii21",
-            "author": [
-              {
-                "family": "Biocomplexity Institute and Initiative"
-              }
-            ],
-            "year": 2021,
-            "title": "catchment: Calculate spatial access and availability metrics",
-            "version": "0.0.1",
-            "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
-        "sha512": "aeb3ff26046e2230576a4393a04211268c5aefdc68438b8efb2ac98a838ebb53c4810dbf52b3199bb7efc1d5326f4b6d969d3724da1fd2b3bb4fc03e69197bef",
+        "sha512": "4c60ba38622cab5e901fcbd5fbb189e071a3592364230f47be76f7f2663c600cff466f7d39ab467e8e2dafe0b9b5ab4fda58b8718310163174dc99fc9e3f889a",
         "site_file": "https://uva-bi-sdad.github.io/community_example//county.json"
       },
       "district": {
-        "bytes": 45628,
+        "bytes": 45592,
         "encoding": "ISO-8859-1",
-        "md5": "d472fdf15ec177b44eb7f4fbf1537c32",
+        "md5": "3f635aa56ee99b85ae313f528c4a0d3f",
         "format": "csv",
         "name": "district",
         "filename": "health_district.csv.xz",
@@ -7523,7 +7535,7 @@
         "id_length": 8,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-02-21 14:16:15",
+        "created": "2023-02-24 04:39:35",
         "last_modified": "2023-02-09 16:43:14",
         "row_count": 455,
         "entity_count": 35,
@@ -9121,9 +9133,9 @@
               ],
               "type": "float",
               "missing": 35,
-              "mean": 58.4126,
-              "sd": 12.1692,
-              "min": 34.6962,
+              "mean": 58.41,
+              "sd": 12.1696,
+              "min": 34.7046,
               "max": 87.4715,
               "info": {
                 "category": "Education",
@@ -9654,6 +9666,7 @@
               "missing": 455,
               "info": {
                 "category": "Demographics",
+                "measure": "perc_pop_under_20",
                 "type": "percent",
                 "short_name": "Under 20 population",
                 "long_name": "Under 20 population (percent)",
@@ -9685,6 +9698,7 @@
               "missing": 455,
               "info": {
                 "category": "Demographics",
+                "measure": "perc_pop_20_64",
                 "type": "percent",
                 "short_name": "20 to 64 population",
                 "long_name": "20 to 64 population (percent)",
@@ -9716,6 +9730,7 @@
               "missing": 455,
               "info": {
                 "category": "Demographics",
+                "measure": "perc_pop_65_plus",
                 "type": "percent",
                 "short_name": "65 plus population",
                 "long_name": "65 plus population (percent)",
@@ -9747,6 +9762,7 @@
               "missing": 455,
               "info": {
                 "category": "Demographics",
+                "measure": "perc_male",
                 "type": "percent",
                 "short_name": "Male population",
                 "long_name": "Male population (percent)",
@@ -9778,6 +9794,8 @@
               "missing": 455,
               "info": {
                 "category": "Demographics",
+                "measure": "perc_female",
+                "type": "percent",
                 "short_name": "Female population",
                 "long_name": "Female population (percent)",
                 "short_description": "The percent of females in population. Based on American Community Survey ACS 2010/2021 5-year estimates.",
@@ -11007,6 +11025,41 @@
           ]
         },
         "_references": {
+          "wan12": {
+            "id": "wan12",
+            "author": [
+              {
+                "given": "Neng",
+                "family": "Wan"
+              },
+              {
+                "given": "Bin",
+                "family": "Zou"
+              },
+              {
+                "given": "Troy",
+                "family": "Sternberg"
+              }
+            ],
+            "year": 2012,
+            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+            "journal": "International Journal of Geographical Information Science",
+            "volume": "26",
+            "page": "1073-1089",
+            "doi": "10.1080/13658816.2011.624987"
+          },
+          "bii21": {
+            "id": "bii21",
+            "author": [
+              {
+                "family": "Biocomplexity Institute and Initiative"
+              }
+            ],
+            "year": 2021,
+            "title": "catchment: Calculate spatial access and availability metrics",
+            "version": "0.0.1",
+            "url": "https://github.com/uva-bi-sdad/catchment"
+          },
           "lou04": {
             "id": "lou04",
             "author": [
@@ -11096,44 +11149,9 @@
             "journal": "University of Chicago: Center for Spatial Data Science",
             "volume": "Preprint",
             "doi": "10.13140/RG.2.2.12396.28807"
-          },
-          "wan12": {
-            "id": "wan12",
-            "author": [
-              {
-                "given": "Neng",
-                "family": "Wan"
-              },
-              {
-                "given": "Bin",
-                "family": "Zou"
-              },
-              {
-                "given": "Troy",
-                "family": "Sternberg"
-              }
-            ],
-            "year": 2012,
-            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-            "journal": "International Journal of Geographical Information Science",
-            "volume": "26",
-            "page": "1073-1089",
-            "doi": "10.1080/13658816.2011.624987"
-          },
-          "bii21": {
-            "id": "bii21",
-            "author": [
-              {
-                "family": "Biocomplexity Institute and Initiative"
-              }
-            ],
-            "year": 2021,
-            "title": "catchment: Calculate spatial access and availability metrics",
-            "version": "0.0.1",
-            "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
-        "sha512": "59ec40f8b87d41941d370e807be25a553a8ac03f9984ced0f1d4c7380972a72a53c098cfdaa0fe947f9641513a92e82ef6b4a336788f09d2a6b9cc3dbbf36c72",
+        "sha512": "dcd1db912f37506d05c87f27f8097b96e9566bf14ad18802c1eb848a429864597bc3c9271f32ef4eeef59d86d463c8011dd3d9256c71f39f4f86b26b56495e76",
         "site_file": "https://uva-bi-sdad.github.io/community_example//district.json"
       }
     },
