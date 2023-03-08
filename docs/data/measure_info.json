@@ -319,6 +319,42 @@
       }
     ]
   },
+  "hh_received_snap_pct": {
+    "category": "Nutrition and Food Security",
+    "equity_category": "",
+    "long_description": "The percentage of households in which at least one member of the household received benefits from the Food Stamp Program or the Supplemental Nutrition Assistance Program (SNAP) in the past 12 months.  This does not include households in which at least one member recieved benefits from WIC, the School Lunch Program, or assistance from food banks and not also from the Food Stamp Program or SNAP in the past 12 months.",
+    "long_name": "Percentage of Households That Received Supplemental Nutrition Assistance Program (SNAP)",
+    "short_description": "The percentage of households in which at least one member received benefits from the Food Stamp Program or SNAP in the past 12 months",
+    "short_name": "Percentage of Households That Received SNAP",
+    "sources": [
+      {
+        "date_accessed": 2022,
+        "name": "American Community Survey (ACS)",
+        "location": "Table B22010",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The percentage of households that received SNAP in {features.name} is {value}.",
+    "type": ""
+  },
+  "hh_received_snap_cnt": {
+    "category": "Nutrition and Food Security",
+    "equity_category": "",
+    "long_description": "The number of households in which at least one member of the household received benefits from the Food Stamp Program or the Supplemental Nutrition Assistance Program (SNAP) in the past 12 months.  This does not include households in which at least one member recieved benefits from WIC, the School Lunch Program, or assistance from food banks and not also from the Food Stamp Program or SNAP in the past 12 months.",
+    "long_name": "Count of Households That Received Supplemental Nutrition Assistance Program (SNAP)",
+    "short_description": "The number of households in which at least one member received benefits from the Food Stamp Program or SNAP in the past 12 months",
+    "short_name": "Count of Households That Received SNAP",
+    "sources": [
+      {
+        "date_accessed": 2022,
+        "name": "American Community Survey (ACS)",
+        "location": "Table B22010",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The count of households that received SNAP in {features.name} is {value}.",
+    "type": ""
+  },
   "no_hlth_ins_pct": {
     "category": "Health",
     "type": "percent",
@@ -1240,6 +1276,60 @@
       }
     ]
   },
+  "perc_veteran": {
+    "category": "Demographics",
+    "measure": "perc_veteran",
+    "short_name": "Veteran population",
+    "long_name": "Veteran population (percent)",
+    "short_description": "The Veteran population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The Veteran population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B21001.",
+    "statement": "The Veteran population is {value} in {features.name}.",
+    "equity_category": "Status",
+    "type": "percent",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "perc_two_or_more": {
+    "category": "Demographics",
+    "measure": "perc_two_or_more",
+    "short_name": "Two or more races population",
+    "long_name": "Two or more races population (percent)",
+    "short_description": "The two or more races population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The two or more races population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The two or more races population is {value} in {features.name}.",
+    "type": "percent",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "perc_other": {
+    "category": "Demographics",
+    "measure": "perc_other",
+    "short_name": "Other racial population",
+    "long_name": "Other racial population (percent)",
+    "short_description": "The Other racial population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The Other racial population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The Other racial population is {value} in {features.name}.",
+    "type": "percent",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
   "perc_hispanic_or_latino": {
     "category": "Demographics",
     "measure": "perc_hispanic_or_latino",
@@ -1326,6 +1416,24 @@
       {
         "name": "American Community Survey Table B01001",
         "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "perc_hh_limited_english": {
+    "category": "Demographics",
+    "measure": "perc_hh_limited_english",
+    "equity_category": "Status",
+    "short_name": "Limited English households",
+    "long_name": "Limited English households (percent)",
+    "short_description": "The percent of households with limited English. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The percent of households with limited English. Based on American Community Survey ACS 2015/2019 5-year estimates Table C16002.",
+    "statement": "The percent of households with limited English is {value} in {features.name}.",
+    "type": "percent",
+    "sources": [
+      {
+        "name": "American Community Survey Table C16002",
+        "date_accessed": 2023,
         "url": "https://www.census.gov/programs-surveys/acs.html"
       }
     ]
