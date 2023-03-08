@@ -8,5 +8,5 @@ site_build(
   "../vdh_rural_health_site", serve = TRUE,
   parent = "https://uva-bi-sdad.github.io/community_example/",
   endpoint = "https://vdh-data-commons.netlify.app/api",
-  tag_id = "GTM-5C65QCC"
+  tag_id = "G-WSQPEF0573"
 )
