@@ -27,9 +27,9 @@
     "variables": {},
     "info": {
       "tract": {
-        "bytes": 4353900,
+        "bytes": 4372512,
         "encoding": "ISO-8859-1",
-        "md5": "30d28bc1b312d5bc235430ec976fa88b",
+        "md5": "e7855cae00f822c617b7a8c33638995b",
         "format": "csv",
         "name": "tract",
         "filename": "tract.csv.xz",
@@ -43,8 +43,8 @@
         "id_length": 11,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-04-04 13:58:28",
-        "last_modified": "2023-04-04 13:58:28",
+        "created": "2023-04-04 17:16:02",
+        "last_modified": "2023-04-04 17:16:02",
         "row_count": 32032,
         "entity_count": 2464,
         "schema": {
@@ -628,16 +628,16 @@
             },
             {
               "name": "emp_rate",
-              "duplicates": 23050,
+              "duplicates": 30264,
               "time_range": [
                 6,
-                10
+                12
               ],
               "type": "float",
-              "missing": 22668,
-              "mean": 94.128,
-              "sd": 4.0213,
-              "min": 63.5048,
+              "missing": 18344,
+              "mean": 94.4519,
+              "sd": 4.0699,
+              "min": 29.41,
               "max": 100,
               "info": {
                 "category": "Employment/Workforce Development",
@@ -4401,6 +4401,45 @@
                 },
                 "citations": {}
               }
+            },
+            {
+              "name": "job_participate_rate",
+              "duplicates": 27752,
+              "time_range": [
+                6,
+                12
+              ],
+              "type": "float",
+              "missing": 18309,
+              "mean": 63.767,
+              "sd": 11.983,
+              "min": 0,
+              "max": 100,
+              "info": {
+                "category": "Employment/Workforce Development",
+                "type": "percent",
+                "short_name": "Job Participation Pecentage",
+                "long_name": "Job Participation Pecentage",
+                "short_description": "The percentage of individuals 16-64 years of age in the active labor force.",
+                "long_description": "The percentage of individuals 16-64 years of age in the active labor force. The job particpation rate is often used by economists as an indicator of economic development and growth.",
+                "statement": "{value} of the population in {features.name} is participating in the civilian job force.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "American Community Survey",
+                    "location": "Table B23025",
+                    "date_accessed": "2023",
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ],
+                "unit": "",
+                "data_type": "numeric",
+                "measure_type": "percent",
+                "layer": {
+                  "filter": {}
+                },
+                "citations": {}
+              }
             }
           ]
         },
@@ -4541,13 +4580,13 @@
             "url": "https://www.cdc.gov/obesity/downloads/census-tract-level-state-maps-mrfei_TAG508.pdf"
           }
         },
-        "sha512": "ba021e220e8f166fcd0bff6edaf729c42bbedf8a5e4215835731ae6b1059166bfcb5964cf393515eb5eef25130e0059cabe31401dbb2cfb0e6eff72c89b4a946",
+        "sha512": "290dd469c1c0d7c7377615b38c89ae82781c06587d1b8c61715ea69bc2a27ecef0c5d926413a62fd621778cace35b8b17682537c9ad73875480750152e817149",
         "site_file": "https://uva-bi-sdad.github.io/community_example//tract.json"
       },
       "county": {
-        "bytes": 377636,
+        "bytes": 382668,
         "encoding": "ISO-8859-1",
-        "md5": "13d6a48574c8a45108e42569fc87e0c3",
+        "md5": "a6d9430fb2c369ed52d4625bd814a915",
         "format": "csv",
         "name": "county",
         "filename": "county.csv.xz",
@@ -4561,8 +4600,8 @@
         "id_length": 5,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-04-04 13:58:18",
-        "last_modified": "2023-04-04 13:58:18",
+        "created": "2023-04-04 17:15:53",
+        "last_modified": "2023-04-04 17:15:53",
         "row_count": 1742,
         "entity_count": 134,
         "schema": {
@@ -5154,13 +5193,17 @@
             },
             {
               "name": "emp_rate",
-              "duplicates": 1741,
+              "duplicates": 1190,
               "time_range": [
-                -1,
-                -1
+                6,
+                12
               ],
-              "type": "unknown",
-              "missing": 1742,
+              "type": "float",
+              "missing": 811,
+              "mean": 94.1762,
+              "sd": 2.62,
+              "min": 76.63,
+              "max": 99.45,
               "info": {
                 "category": "Employment/Workforce Development",
                 "measure_table": "civilian_employment_rate",
@@ -8911,6 +8954,45 @@
                 },
                 "citations": {}
               }
+            },
+            {
+              "name": "job_participate_rate",
+              "duplicates": 964,
+              "time_range": [
+                6,
+                12
+              ],
+              "type": "float",
+              "missing": 811,
+              "mean": 58.2437,
+              "sd": 8.1199,
+              "min": 26.82,
+              "max": 77.85,
+              "info": {
+                "category": "Employment/Workforce Development",
+                "type": "percent",
+                "short_name": "Job Participation Pecentage",
+                "long_name": "Job Participation Pecentage",
+                "short_description": "The percentage of individuals 16-64 years of age in the active labor force.",
+                "long_description": "The percentage of individuals 16-64 years of age in the active labor force. The job particpation rate is often used by economists as an indicator of economic development and growth.",
+                "statement": "{value} of the population in {features.name} is participating in the civilian job force.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "American Community Survey",
+                    "location": "Table B23025",
+                    "date_accessed": "2023",
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ],
+                "unit": "",
+                "data_type": "numeric",
+                "measure_type": "percent",
+                "layer": {
+                  "filter": {}
+                },
+                "citations": {}
+              }
             }
           ]
         },
@@ -9051,13 +9133,13 @@
             "url": "https://www.cdc.gov/obesity/downloads/census-tract-level-state-maps-mrfei_TAG508.pdf"
           }
         },
-        "sha512": "98b534c6f934c62d46d0ff7f32a0d8a6ea4342a21eab14acdacb802cac2ba584af156bba2d5e05d2517db527108144adc3a77d25bb098fcb77854af08d09ca01",
+        "sha512": "281d23c2f9fa087dcb99a0447bf47e0e6d303fc197ff44b61ee8f7ba7b64f68f0299c0be22092f9deeb501a2902b1470581f075fa5296c7032e9d35c67675af9",
         "site_file": "https://uva-bi-sdad.github.io/community_example//county.json"
       },
       "district": {
-        "bytes": 53432,
+        "bytes": 53400,
         "encoding": "ISO-8859-1",
-        "md5": "3532ec5dc58c265e6137d0524633894b",
+        "md5": "98084a727f494ec393a98ca06e6e5ffe",
         "format": "csv",
         "name": "district",
         "filename": "health_district.csv.xz",
@@ -9071,8 +9153,8 @@
         "id_length": 8,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-04-04 13:58:19",
-        "last_modified": "2023-04-04 13:58:19",
+        "created": "2023-04-04 17:15:53",
+        "last_modified": "2023-04-04 17:15:53",
         "row_count": 455,
         "entity_count": 35,
         "schema": {
@@ -13293,6 +13375,41 @@
                 },
                 "citations": {}
               }
+            },
+            {
+              "name": "job_participate_rate",
+              "duplicates": 454,
+              "time_range": [
+                -1,
+                -1
+              ],
+              "type": "unknown",
+              "missing": 455,
+              "info": {
+                "category": "Employment/Workforce Development",
+                "type": "percent",
+                "short_name": "Job Participation Pecentage",
+                "long_name": "Job Participation Pecentage",
+                "short_description": "The percentage of individuals 16-64 years of age in the active labor force.",
+                "long_description": "The percentage of individuals 16-64 years of age in the active labor force. The job particpation rate is often used by economists as an indicator of economic development and growth.",
+                "statement": "{value} of the population in {features.name} is participating in the civilian job force.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "American Community Survey",
+                    "location": "Table B23025",
+                    "date_accessed": "2023",
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ],
+                "unit": "",
+                "data_type": "numeric",
+                "measure_type": "percent",
+                "layer": {
+                  "filter": {}
+                },
+                "citations": {}
+              }
             }
           ]
         },
@@ -13433,7 +13550,7 @@
             "url": "https://www.cdc.gov/obesity/downloads/census-tract-level-state-maps-mrfei_TAG508.pdf"
           }
         },
-        "sha512": "cda01820f60ba5687cabd0034b696ba7a3c588c12f3e6c106b4653400540e33e3e671c97409903b85d7315b9814801c3c56a3f2b9fc1d8c3455a7c5136e8e3e6",
+        "sha512": "98186e2c6b0c4f3ca397c37a3283575d7e3c81e64a6d60ff0b3c033aa40a05612c741624cbccc865a0208c14eae6d66f6ed84c8e770b94066dd814694a684818",
         "site_file": "https://uva-bi-sdad.github.io/community_example//district.json"
       }
     },

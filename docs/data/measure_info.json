@@ -1447,92 +1447,6 @@
     "data_type": "numeric",
     "measure_type": "percentage"
   },
-  "earnings_per_job": {
-    "category": "Employment/Workforce Development",
-    "measure_table": "earnings_per_job",
-    "full_name": "earnings_per_job:earnings_per_job",
-    "measure": "earnings_per_job",
-    "type": "dollar",
-    "short_name": "Earnings per job",
-    "long_name": "Earnings per job",
-    "short_description": "Average of earnings per job.",
-    "long_description": "Earnings per job is calculated based on the GDP and Personal Income table from the Bureau of Economic Analysis.",
-    "statement": "Earnings per job in {features.name} is {value}.",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "Bureau of Economic Analysis",
-        "date_accessed": "2021",
-        "url": "https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=1&acrdn=6"
-      }
-    ],
-    "unit": "",
-    "data_type": "numeric",
-    "measure_type": "dollars"
-  },
-  "gini_index": {
-    "category": "Financial Well Being",
-    "type": "",
-    "short_name": "Income Inequality (Gini Index)",
-    "long_name": "Income Inequality (Gini Index)",
-    "short_description": "The Gini Index is a summary measure of income inequality.",
-    "long_description": "The Gini Index is a summary measure of income inequality. The Gini coefficient incorporates the detailed shares data into a single statistic, which summarizes the dispersion of income across the entire income distribution. The Gini coefficient ranges from 0, indicating perfect equality (where everyone receives an equal share), to 1, perfect inequality (where only one recipient or group of recipients receives all the income). The Gini is based on the difference between the Lorenz curve (the observed cumulative income distribution) and the notion of a perfectly equal income distribution.",
-    "statement": "Income Inequality (Gini Index) in {features.name} is {value}.",
-    "equity_category": "",
-    "sources": [
-      {
-        "name": "U.S. Census American Community Survey",
-        "location": "Table B19083",
-        "date_accessed": "2023"
-      }
-    ]
-  },
-  "median_household_income": {
-    "category": "Financial Well Being",
-    "equity_category": "Status",
-    "long_description": "Self-reported median household income in the past 12 months (in 2019 inflation adjusted-dollars. Based on the American Community Survey Table B19013 ACS 2015/2019 5-year estimates.",
-    "long_name": "Median household income",
-    "measure_table": "ncr_cttrbg_2015_2019_median_household_income",
-    "short_description": "Self-reported median household income in the past 12 months (in 2019 inflation adjusted-dollars.",
-    "short_name": "Median household income",
-    "sources": [
-      {
-        "date_accessed": 2022,
-        "name": "American Community Survey",
-        "location": "Table B19013",
-        "url": "https://www.census.gov/programs-surveys/acs"
-      }
-    ],
-    "statement": "The median household income in {features.name} is {value} per year.",
-    "type": "dollar",
-    "unit": "",
-    "data_type": "numeric",
-    "measure_type": "count"
-  },
-  "emp_rate": {
-    "category": "Employment/Workforce Development",
-    "measure_table": "civilian_employment_rate",
-    "full_name": "civilian_employment_rate:employment_rate",
-    "measure": "employment_rate",
-    "type": "percent",
-    "short_name": "Percentage employed",
-    "long_name": "Percentage civilian employed",
-    "short_description": "Population self-reported as employed as a percentage of total civilian workforce population.",
-    "long_description": "Population self-reported as employed as a percentage of total civilian workforce population. Based on American Community Survey Table B23025 ACS 2015/2019 5-year estimates.",
-    "statement": "{value} of the population in {features.name} is employed.",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "location": "Table B23025",
-        "date_accessed": "2021",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "unit": "",
-    "data_type": "numeric",
-    "measure_type": "percent"
-  },
   "no_hlth_ins_pct": {
     "category": "Health",
     "type": "percent",
@@ -2734,5 +2648,112 @@
       "title": "Census Tract Level State Maps of the Modified Retail Food Environment Index (mRFEI)",
       "url": "https://www.cdc.gov/obesity/downloads/census-tract-level-state-maps-mrfei_TAG508.pdf"
     }
+  },
+  "earnings_per_job": {
+    "category": "Employment/Workforce Development",
+    "measure_table": "earnings_per_job",
+    "full_name": "earnings_per_job:earnings_per_job",
+    "measure": "earnings_per_job",
+    "type": "dollar",
+    "short_name": "Earnings per job",
+    "long_name": "Earnings per job",
+    "short_description": "Average of earnings per job.",
+    "long_description": "Earnings per job is calculated based on the GDP and Personal Income table from the Bureau of Economic Analysis.",
+    "statement": "Earnings per job in {features.name} is {value}.",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "Bureau of Economic Analysis",
+        "date_accessed": "2021",
+        "url": "https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=1&acrdn=6"
+      }
+    ],
+    "unit": "",
+    "data_type": "numeric",
+    "measure_type": "dollars"
+  },
+  "gini_index": {
+    "category": "Financial Well Being",
+    "type": "",
+    "short_name": "Income Inequality (Gini Index)",
+    "long_name": "Income Inequality (Gini Index)",
+    "short_description": "The Gini Index is a summary measure of income inequality.",
+    "long_description": "The Gini Index is a summary measure of income inequality. The Gini coefficient incorporates the detailed shares data into a single statistic, which summarizes the dispersion of income across the entire income distribution. The Gini coefficient ranges from 0, indicating perfect equality (where everyone receives an equal share), to 1, perfect inequality (where only one recipient or group of recipients receives all the income). The Gini is based on the difference between the Lorenz curve (the observed cumulative income distribution) and the notion of a perfectly equal income distribution.",
+    "statement": "Income Inequality (Gini Index) in {features.name} is {value}.",
+    "equity_category": "",
+    "sources": [
+      {
+        "name": "U.S. Census American Community Survey",
+        "location": "Table B19083",
+        "date_accessed": "2023"
+      }
+    ]
+  },
+  "median_household_income": {
+    "category": "Financial Well Being",
+    "equity_category": "Status",
+    "long_description": "Self-reported median household income in the past 12 months (in 2019 inflation adjusted-dollars. Based on the American Community Survey Table B19013 ACS 2015/2019 5-year estimates.",
+    "long_name": "Median household income",
+    "measure_table": "ncr_cttrbg_2015_2019_median_household_income",
+    "short_description": "Self-reported median household income in the past 12 months (in 2019 inflation adjusted-dollars.",
+    "short_name": "Median household income",
+    "sources": [
+      {
+        "date_accessed": 2022,
+        "name": "American Community Survey",
+        "location": "Table B19013",
+        "url": "https://www.census.gov/programs-surveys/acs"
+      }
+    ],
+    "statement": "The median household income in {features.name} is {value} per year.",
+    "type": "dollar",
+    "unit": "",
+    "data_type": "numeric",
+    "measure_type": "count"
+  },
+  "job_participate_rate": {
+    "category": "Employment/Workforce Development",
+    "type": "percent",
+    "short_name": "Job Participation Pecentage",
+    "long_name": "Job Participation Pecentage",
+    "short_description": "The percentage of individuals 16-64 years of age in the active labor force.",
+    "long_description": "The percentage of individuals 16-64 years of age in the active labor force. The job particpation rate is often used by economists as an indicator of economic development and growth.",
+    "statement": "{value} of the population in {features.name} is participating in the civilian job force.",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "location": "Table B23025",
+        "date_accessed": "2023",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "unit": "",
+    "data_type": "numeric",
+    "measure_type": "percent"
+  },
+  "emp_rate": {
+    "category": "Employment/Workforce Development",
+    "measure_table": "civilian_employment_rate",
+    "full_name": "civilian_employment_rate:employment_rate",
+    "measure": "employment_rate",
+    "type": "percent",
+    "short_name": "Percentage employed",
+    "long_name": "Percentage civilian employed",
+    "short_description": "Population self-reported as employed as a percentage of total civilian workforce population.",
+    "long_description": "Population self-reported as employed as a percentage of total civilian workforce population. Based on American Community Survey Table B23025 ACS 2015/2019 5-year estimates.",
+    "statement": "{value} of the population in {features.name} is employed.",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "location": "Table B23025",
+        "date_accessed": "2021",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "unit": "",
+    "data_type": "numeric",
+    "measure_type": "percent"
   }
 }
