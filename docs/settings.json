@@ -13560,6 +13560,58 @@
     {
       "condition": [
         {
+          "id": "metric_set",
+          "type": "=",
+          "value": "rural_health",
+          "any": false
+        }
+      ],
+      "effects": {
+        "display": "sec21"
+      }
+    },
+    {
+      "condition": [
+        {
+          "id": "metric_set",
+          "type": "=",
+          "value": "hoi",
+          "any": false
+        }
+      ],
+      "effects": {
+        "display": "sec22"
+      }
+    },
+    {
+      "condition": [
+        {
+          "id": "metric_set",
+          "type": "=",
+          "value": "rural_health",
+          "any": false
+        }
+      ],
+      "effects": {
+        "display": "panel22"
+      }
+    },
+    {
+      "condition": [
+        {
+          "id": "metric_set",
+          "type": "=",
+          "value": "hoi",
+          "any": false
+        }
+      ],
+      "effects": {
+        "display": "panel23"
+      }
+    },
+    {
+      "condition": [
+        {
           "id": "selected_county",
           "type": "!",
           "value": "",
@@ -13567,7 +13619,7 @@
         }
       ],
       "effects": {
-        "lock": "sec41"
+        "lock": "sec71"
       }
     },
     {
@@ -13586,7 +13638,7 @@
         }
       ],
       "effects": {
-        "display": "sec42"
+        "display": "sec72"
       }
     }
   ],
@@ -13739,7 +13791,7 @@
       "dataview": "primary_view",
       "variable_info": false
     },
-    "info12": {
+    "info15": {
       "title": "",
       "body": [
         {
@@ -13753,7 +13805,7 @@
       "dataview": "primary_view",
       "variable_info": false
     },
-    "info13": {
+    "info16": {
       "title": "Filters",
       "body": [
         {
@@ -13767,7 +13819,7 @@
       "dataview": "primary_view",
       "variable_info": false
     },
-    "info14": {
+    "info17": {
       "title": "features.name",
       "body": [],
       "default": {
@@ -13779,7 +13831,7 @@
       "subto": ["main_map", "main_plot", "rank_table", "main_legend"],
       "variable_info": false
     },
-    "info15": {
+    "info18": {
       "title": "",
       "body": [
         {
@@ -13806,7 +13858,7 @@
     }
   },
   "text": {
-    "text6": {
+    "text9": {
       "text": [
         {
           "condition": [
@@ -13882,7 +13934,7 @@
         }
       ]
     },
-    "text7": {
+    "text10": {
       "text": [
         [
           {
@@ -14686,6 +14738,16 @@
     "EmploymentRate": {
       "effects": {
         "selected_variable": "emp_rate"
+      }
+    },
+    "JobParticipation": {
+      "effects": {
+        "selected_variable": "job_participation_indicator"
+      }
+    },
+    "IncomeInequality": {
+      "effects": {
+        "selected_variable": "income_inequality_indicator"
       }
     },
     "Download": {
