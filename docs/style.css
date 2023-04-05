@@ -14,23 +14,17 @@
   --highlight: #173a64;
 }
 
-#variable_info_pane .info-title {
+.output-text {
+  margin: 0;
+}
+
+.panel {
+  width: 261px;
+}
+
+.panel .select-wrapper {
+  font-size: 0.9em;
+  font-weight: normal;
   text-align: left;
-}
-.info-body table {
-  margin: 0.2em 0 0.5em 0;
-}
-
-.output-text{
-	margin: 0;
-}
-
-.coming-soon {
-  margin-top: -45px; 
-  margin-bottom: 39px; 
-  padding-left: 35px; 
-  padding-top:0px; 
-  transform: rotate(-25deg); 
-  color: black; 
-  opacity: .3;
+  margin: 0 0 1em 0;
 }
