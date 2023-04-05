@@ -1153,300 +1153,6 @@
     "data_type": "numeric",
     "measure_type": "speed"
   },
-  "perc_veteran": {
-    "category": "Demographics",
-    "measure": "perc_veteran",
-    "short_name": "Veteran population",
-    "long_name": "Veteran population (percent)",
-    "short_description": "The Veteran population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "long_description": "The Veteran population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B21001.",
-    "statement": "The Veteran population is {value} in {features.name}.",
-    "equity_category": "Status",
-    "type": "percent",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "unit": "",
-    "data_type": "numeric",
-    "measure_type": "percentage"
-  },
-  "perc_two_or_more": {
-    "category": "Demographics",
-    "measure": "perc_two_or_more",
-    "short_name": "Two or more races population",
-    "long_name": "Two or more races population (percent)",
-    "short_description": "The two or more races population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "long_description": "The two or more races population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "statement": "The two or more races population is {value} in {features.name}.",
-    "type": "percent",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "unit": "",
-    "data_type": "numeric",
-    "measure_type": "percentage"
-  },
-  "perc_other": {
-    "category": "Demographics",
-    "measure": "perc_other",
-    "short_name": "Other racial population",
-    "long_name": "Other racial population (percent)",
-    "short_description": "The Other racial population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "long_description": "The Other racial population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "statement": "The Other racial population is {value} in {features.name}.",
-    "type": "percent",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "unit": "",
-    "data_type": "numeric",
-    "measure_type": "percentage"
-  },
-  "perc_hispanic_or_latino": {
-    "category": "Demographics",
-    "measure": "perc_hispanic_or_latino",
-    "short_name": "Hispanic/Latino population",
-    "long_name": "Hispanic/Latino population (percent)",
-    "short_description": "The Hispanic/Latino population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "long_description": "The Hispanic/Latino population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "statement": "The Hispanic/Latino population is {value} in {features.name}.",
-    "type": "percent",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "unit": "",
-    "data_type": "numeric",
-    "measure_type": "percentage"
-  },
-  "perc_wht_alone": {
-    "category": "Demographics",
-    "measure": "perc_wht_alone",
-    "short_name": "White population",
-    "long_name": "White population (percent)",
-    "short_description": "The White population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "long_description": "The White population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "statement": "The White population is {value} in {features.name}.",
-    "type": "percent",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "unit": "",
-    "data_type": "numeric",
-    "measure_type": "percentage"
-  },
-  "perc_AAPI": {
-    "category": "Demographics",
-    "measure": "perc_AAPI",
-    "short_name": "Asian American/Pacific Islander population",
-    "long_name": "Asian American/Pacific Islander population (percent)",
-    "short_description": "The Asian American/Pacific Islander population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "long_description": "The Asian American/Pacific Islander population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "statement": "The Asian American/Pacific Islander population is {value} in {features.name}.",
-    "type": "percent",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "unit": "",
-    "data_type": "numeric",
-    "measure_type": "percentage"
-  },
-  "perc_native_alone": {
-    "category": "Demographics",
-    "measure": "perc_native_alone",
-    "short_name": "Native population",
-    "long_name": "Native population (percent)",
-    "short_description": "The Native population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "long_description": "The Native population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "statement": "The Native population is {value} in {features.name}.",
-    "type": "percent",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "unit": "",
-    "data_type": "numeric",
-    "measure_type": "percentage"
-  },
-  "perc_afr_amer_alone": {
-    "category": "Demographics",
-    "measure": "perc_afr_amer_alone",
-    "short_name": "Black population",
-    "long_name": "Black population (percent)",
-    "short_description": "The Black population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "long_description": "The Black population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "statement": "The Black population is {value} in {features.name}.",
-    "type": "percent",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "unit": "",
-    "data_type": "numeric",
-    "measure_type": "percentage"
-  },
-  "perc_hh_limited_english": {
-    "category": "Demographics",
-    "measure": "perc_hh_limited_english",
-    "equity_category": "Status",
-    "short_name": "Limited English households",
-    "long_name": "Limited English households (percent)",
-    "short_description": "The percent of households with limited English. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "long_description": "The percent of households with limited English. Based on American Community Survey ACS 2015/2019 5-year estimates Table C16002.",
-    "statement": "The percent of households with limited English is {value} in {features.name}.",
-    "type": "percent",
-    "sources": [
-      {
-        "name": "American Community Survey Table C16002",
-        "date_accessed": 2023,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "unit": "",
-    "data_type": "numeric",
-    "measure_type": "percentage"
-  },
-  "perc_female": {
-    "category": "Demographics",
-    "measure": "perc_female",
-    "equity_category": "Status",
-    "long_description": "The percent of females in the total population. Based on American Community Survey ACS 2010/2021 5-year estimates table S0101.",
-    "long_name": "Female population (percent)",
-    "short_description": "The percent of females in population. Based on American Community Survey ACS 2010/2021 5-year estimates.",
-    "short_name": "Female population",
-    "statement": "The female population is {value} in {features.name}.",
-    "type": "percent",
-    "sources": [
-      {
-        "date_accessed": 2023,
-        "name": "American Community Survey Table S0101",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "unit": "",
-    "data_type": "numeric",
-    "measure_type": "percentage"
-  },
-  "perc_male": {
-    "category": "Demographics",
-    "measure": "perc_male",
-    "equity_category": "Status",
-    "long_description": "The percent of males in the total population. Based on American Community Survey ACS 2010/2021 5-year estimates table S0101.",
-    "long_name": "Male population (percent)",
-    "short_description": "The percent of males in population. Based on American Community Survey ACS 2010/2021 5-year estimates.",
-    "short_name": "Male population",
-    "statement": "The male population is {value} in {features.name}.",
-    "type": "percent",
-    "sources": [
-      {
-        "date_accessed": 2023,
-        "name": "American Community Survey Table S0101",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "unit": "",
-    "data_type": "numeric",
-    "measure_type": "percentage"
-  },
-  "perc_pop_under_20": {
-    "category": "Demographics",
-    "measure": "perc_pop_under_20",
-    "equity_category": "Status",
-    "long_description": "The percent of the population under age 20. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "long_name": "Under 20 population (percent)",
-    "short_description": "The percent of the population under age 20. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "Under 20 population",
-    "sources": [
-      {
-        "date_accessed": 2023,
-        "name": "American Community Survey Table B01001",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The percent of the population under age 20 is {value} in {features.name}.",
-    "type": "percent",
-    "unit": "",
-    "data_type": "numeric",
-    "measure_type": "percentage"
-  },
-  "perc_pop_65_plus": {
-    "category": "Demographics",
-    "measure": "perc_pop_65_plus",
-    "equity_category": "Status",
-    "long_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "long_name": "65 plus population (percent)",
-    "short_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "65 plus population",
-    "sources": [
-      {
-        "date_accessed": 2023,
-        "name": "American Community Survey Table B01001",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The percent of the population over age 64 is {value} in {features.name}.",
-    "type": "percent",
-    "unit": "",
-    "data_type": "numeric",
-    "measure_type": "percentage"
-  },
-  "perc_pop_20_64": {
-    "category": "Demographics",
-    "measure": "perc_pop_20_64",
-    "equity_category": "Status",
-    "long_description": "The percent of the population between age 20 and 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "long_name": "20 to 64 population (percent)",
-    "short_description": "The percent of the population between age 20 and 64. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "20 to 64 population",
-    "sources": [
-      {
-        "date_accessed": 2023,
-        "name": "American Community Survey Table B01001",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The percent of the population between age 20 and 64 is {value} in {features.name}.",
-    "type": "percent",
-    "unit": "",
-    "data_type": "numeric",
-    "measure_type": "percentage"
-  },
   "no_hlth_ins_pct": {
     "category": "Health",
     "type": "percent",
@@ -2755,5 +2461,299 @@
     "unit": "",
     "data_type": "numeric",
     "measure_type": "percent"
+  },
+  "perc_veteran": {
+    "category": "Demographics",
+    "measure": "perc_veteran",
+    "short_name": "Veteran population",
+    "long_name": "Veteran population (percent)",
+    "short_description": "The Veteran population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The Veteran population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B21001.",
+    "statement": "The Veteran population is {value} in {features.name}.",
+    "equity_category": "Status",
+    "type": "percent",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "unit": "",
+    "data_type": "numeric",
+    "measure_type": "percentage"
+  },
+  "perc_two_or_more": {
+    "category": "Demographics",
+    "measure": "perc_two_or_more",
+    "short_name": "Two or more races population",
+    "long_name": "Two or more races population (percent)",
+    "short_description": "The two or more races population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The two or more races population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The two or more races population is {value} in {features.name}.",
+    "type": "percent",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "unit": "",
+    "data_type": "numeric",
+    "measure_type": "percentage"
+  },
+  "perc_other": {
+    "category": "Demographics",
+    "measure": "perc_other",
+    "short_name": "Other racial population",
+    "long_name": "Other racial population (percent)",
+    "short_description": "The Other racial population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The Other racial population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The Other racial population is {value} in {features.name}.",
+    "type": "percent",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "unit": "",
+    "data_type": "numeric",
+    "measure_type": "percentage"
+  },
+  "perc_hispanic_or_latino": {
+    "category": "Demographics",
+    "measure": "perc_hispanic_or_latino",
+    "short_name": "Hispanic/Latino population",
+    "long_name": "Hispanic/Latino population (percent)",
+    "short_description": "The Hispanic/Latino population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The Hispanic/Latino population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The Hispanic/Latino population is {value} in {features.name}.",
+    "type": "percent",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "unit": "",
+    "data_type": "numeric",
+    "measure_type": "percentage"
+  },
+  "perc_wht_alone": {
+    "category": "Demographics",
+    "measure": "perc_wht_alone",
+    "short_name": "White population",
+    "long_name": "White population (percent)",
+    "short_description": "The White population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The White population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The White population is {value} in {features.name}.",
+    "type": "percent",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "unit": "",
+    "data_type": "numeric",
+    "measure_type": "percentage"
+  },
+  "perc_AAPI": {
+    "category": "Demographics",
+    "measure": "perc_AAPI",
+    "short_name": "Asian American/Pacific Islander population",
+    "long_name": "Asian American/Pacific Islander population (percent)",
+    "short_description": "The Asian American/Pacific Islander population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The Asian American/Pacific Islander population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The Asian American/Pacific Islander population is {value} in {features.name}.",
+    "type": "percent",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "unit": "",
+    "data_type": "numeric",
+    "measure_type": "percentage"
+  },
+  "perc_native_alone": {
+    "category": "Demographics",
+    "measure": "perc_native_alone",
+    "short_name": "Native population",
+    "long_name": "Native population (percent)",
+    "short_description": "The Native population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The Native population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The Native population is {value} in {features.name}.",
+    "type": "percent",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "unit": "",
+    "data_type": "numeric",
+    "measure_type": "percentage"
+  },
+  "perc_afr_amer_alone": {
+    "category": "Demographics",
+    "measure": "perc_afr_amer_alone",
+    "short_name": "Black population",
+    "long_name": "Black population (percent)",
+    "short_description": "The Black population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The Black population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The Black population is {value} in {features.name}.",
+    "type": "percent",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "unit": "",
+    "data_type": "numeric",
+    "measure_type": "percentage"
+  },
+  "perc_hh_limited_english": {
+    "category": "Demographics",
+    "measure": "perc_hh_limited_english",
+    "equity_category": "Status",
+    "short_name": "Limited English households",
+    "long_name": "Limited English households (percent)",
+    "short_description": "The percent of households with limited English. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The percent of households with limited English. Based on American Community Survey ACS 2015/2019 5-year estimates Table C16002.",
+    "statement": "The percent of households with limited English is {value} in {features.name}.",
+    "type": "percent",
+    "sources": [
+      {
+        "name": "American Community Survey Table C16002",
+        "date_accessed": 2023,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "unit": "",
+    "data_type": "numeric",
+    "measure_type": "percentage"
+  },
+  "perc_female": {
+    "category": "Demographics",
+    "measure": "perc_female",
+    "equity_category": "Status",
+    "long_description": "The percent of females in the total population. Based on American Community Survey ACS 2010/2021 5-year estimates table S0101.",
+    "long_name": "Female population (percent)",
+    "short_description": "The percent of females in population. Based on American Community Survey ACS 2010/2021 5-year estimates.",
+    "short_name": "Female population",
+    "statement": "The female population is {value} in {features.name}.",
+    "type": "percent",
+    "sources": [
+      {
+        "date_accessed": 2023,
+        "name": "American Community Survey Table S0101",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "unit": "",
+    "data_type": "numeric",
+    "measure_type": "percentage"
+  },
+  "perc_male": {
+    "category": "Demographics",
+    "measure": "perc_male",
+    "equity_category": "Status",
+    "long_description": "The percent of males in the total population. Based on American Community Survey ACS 2010/2021 5-year estimates table S0101.",
+    "long_name": "Male population (percent)",
+    "short_description": "The percent of males in population. Based on American Community Survey ACS 2010/2021 5-year estimates.",
+    "short_name": "Male population",
+    "statement": "The male population is {value} in {features.name}.",
+    "type": "percent",
+    "sources": [
+      {
+        "date_accessed": 2023,
+        "name": "American Community Survey Table S0101",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "unit": "",
+    "data_type": "numeric",
+    "measure_type": "percentage"
+  },
+  "perc_pop_under_20": {
+    "category": "Demographics",
+    "measure": "perc_pop_under_20",
+    "equity_category": "Status",
+    "long_description": "The percent of the population under age 20. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "long_name": "Under 20 population (percent)",
+    "short_description": "The percent of the population under age 20. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "short_name": "Under 20 population",
+    "sources": [
+      {
+        "date_accessed": 2023,
+        "name": "American Community Survey Table B01001",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The percent of the population under age 20 is {value} in {features.name}.",
+    "type": "percent",
+    "unit": "",
+    "data_type": "numeric",
+    "measure_type": "percentage"
+  },
+  "perc_pop_65_plus": {
+    "category": "Demographics",
+    "measure": "perc_pop_65_plus",
+    "equity_category": "Status",
+    "long_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "long_name": "65 plus population (percent)",
+    "short_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "short_name": "65 plus population",
+    "sources": [
+      {
+        "date_accessed": 2023,
+        "name": "American Community Survey Table B01001",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The percent of the population over age 64 is {value} in {features.name}.",
+    "type": "percent",
+    "unit": "",
+    "data_type": "numeric",
+    "measure_type": "percentage"
+  },
+  "perc_pop_20_64": {
+    "category": "Demographics",
+    "measure": "perc_pop_20_64",
+    "equity_category": "Status",
+    "long_description": "The percent of the population between age 20 and 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "long_name": "20 to 64 population (percent)",
+    "short_description": "The percent of the population between age 20 and 64. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "short_name": "20 to 64 population",
+    "sources": [
+      {
+        "date_accessed": 2023,
+        "name": "American Community Survey Table B01001",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The percent of the population between age 20 and 64 is {value} in {features.name}.",
+    "type": "percent",
+    "unit": "",
+    "data_type": "numeric",
+    "measure_type": "percentage"
   }
 }
