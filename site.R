@@ -189,12 +189,12 @@ page_panel(
     '<p class="lead">Employment</p>',
     input_button(
       "Job Participation",
-      list(selected_variable = "job_participation_indicator")
+      list(selected_variable = "job_participate_rate")
     ),
     '<p class="lead">Income</p>',
     input_button(
       "Income Inequality",
-      list(selected_variable = "income_inequality_indicator")
+      list(selected_variable = "gini_index")
     )
   ),
   foot = input_switch("Share use data", "settings.tracking", as.checkbox = TRUE, note = paste(
