@@ -27,9 +27,9 @@
     "variables": {},
     "info": {
       "tract": {
-        "bytes": 4465148,
+        "bytes": 4464688,
         "encoding": "ISO-8859-1",
-        "md5": "075f80eefe6612988b5b1df7613d3c04",
+        "md5": "bedc7c803c79efd78a449a5f9fd4eb12",
         "format": "csv",
         "name": "tract",
         "filename": "tract.csv.xz",
@@ -43,8 +43,8 @@
         "id_length": 11,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-04-07 08:57:43",
-        "last_modified": "2023-04-07 08:57:43",
+        "created": "2023-04-10 16:27:32",
+        "last_modified": "2023-04-10 16:27:32",
         "row_count": 34496,
         "entity_count": 2464,
         "schema": {
@@ -1504,10 +1504,10 @@
               "missing": 34496,
               "info": {
                 "category": "Nutrition and Food Security",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
                 "long_name": "Percentage of food insecure children",
                 "measure_type": "percent",
@@ -1522,10 +1522,7 @@
                 ],
                 "statement": "{value} of the population of children in {features.name} are food insecure.",
                 "type": "percent",
-                "unit": "",
-                "measure": "Child_Food_Insecurity_Rate",
-                "measure_table": "Child_Food_Insecurity_Rate",
-                "full_name": "food_insecurity_and_cost:Child_Food_Insecurity_Rate"
+                "unit": ""
               }
             },
             {
@@ -1539,10 +1536,10 @@
               "missing": 34496,
               "info": {
                 "category": "Nutrition and Food Security",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Affordability",
-                "layer": {},
+                "layer": "",
                 "long_description": "The average weekly dollar amount food-secure individuals report spending on food, as estimated by the Current Population Survey, divided by 21 (assuming three meals a day, seven days a week). This amount has been adjusted to reflect local food prices and relevant taxes.",
                 "long_name": "Average meal cost ($)",
                 "measure_type": "cost",
@@ -1557,10 +1554,7 @@
                 ],
                 "statement": "The average meal cost in {features.name} is {value}.",
                 "type": "dollar",
-                "unit": "",
-                "measure": "Cost_Per_Meal",
-                "measure_table": "food_insecurity_and_cost",
-                "full_name": "food_insecurity_and_cost:Cost_Per_Meal"
+                "unit": ""
               }
             },
             {
@@ -1574,10 +1568,10 @@
               "missing": 34496,
               "info": {
                 "category": "Nutrition and Food Security",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
                 "long_name": "Count of food insecure children",
                 "measure_type": "count",
@@ -1592,10 +1586,7 @@
                 ],
                 "statement": "The population of food insecure children in {features.name} is {value}.",
                 "type": "count",
-                "unit": "",
-                "measure": "Num_Child_Food_Insecure",
-                "measure_table": "food_insecurity_and_cost",
-                "full_name": "food_insecurity_and_cost:Num_Child_Food_Insecure"
+                "unit": ""
               }
             },
             {
@@ -1613,10 +1604,10 @@
               "max": 38.2,
               "info": {
                 "category": "Nutrition and Food Security",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "",
-                "layer": {},
+                "layer": "",
                 "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. This measure is an estimate of the percent of people in food insecure households.  The brief providing the methodology of calculating these estimates is available at Feeding America's Map the Meal Gap website (linked below). Food insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
                 "long_name": "Estimated percentage of total people in food insecure households",
                 "measure_type": "percent",
@@ -1649,10 +1640,10 @@
               "max": 1670,
               "info": {
                 "category": "Nutrition and Food Security",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "",
-                "layer": {},
+                "layer": "",
                 "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. This measure is an estimate of the number of people in food insecure households.  The brief providing the methodology of calculating these estimates is available at Feeding America's Map the Meal Gap website (linked below). Food insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
                 "long_name": "Estimated number of total people in food insecure households",
                 "measure_type": "count",
@@ -2270,10 +2261,10 @@
               "max": 83.0282,
               "info": {
                 "category": "Demographics",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "The Hispanic/Latino population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
                 "long_name": "Hispanic/Latino population (percent)",
                 "measure_type": "percentage",
@@ -2288,8 +2279,7 @@
                 ],
                 "statement": "The Hispanic/Latino population is {value} in {features.name}.",
                 "type": "percent",
-                "unit": "",
-                "measure": "perc_hispanic_or_latino"
+                "unit": ""
               }
             },
             {
@@ -2307,10 +2297,10 @@
               "max": 100,
               "info": {
                 "category": "Demographics",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "The White population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
                 "long_name": "White population (percent)",
                 "measure_type": "percentage",
@@ -2325,8 +2315,7 @@
                 ],
                 "statement": "The White population is {value} in {features.name}.",
                 "type": "percent",
-                "unit": "",
-                "measure": "perc_wht_alone"
+                "unit": ""
               }
             },
             {
@@ -2344,10 +2333,10 @@
               "max": 100,
               "info": {
                 "category": "Demographics",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "The Black population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
                 "long_name": "Black population (percent)",
                 "measure_type": "percentage",
@@ -2362,8 +2351,7 @@
                 ],
                 "statement": "The Black population is {value} in {features.name}.",
                 "type": "percent",
-                "unit": "",
-                "measure": "perc_afr_amer_alone"
+                "unit": ""
               }
             },
             {
@@ -2381,10 +2369,10 @@
               "max": 28.5714,
               "info": {
                 "category": "Demographics",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "The Native population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
                 "long_name": "Native population (percent)",
                 "measure_type": "percentage",
@@ -2399,8 +2387,7 @@
                 ],
                 "statement": "The Native population is {value} in {features.name}.",
                 "type": "percent",
-                "unit": "",
-                "measure": "perc_native_alone"
+                "unit": ""
               }
             },
             {
@@ -2418,10 +2405,10 @@
               "max": 63.2455,
               "info": {
                 "category": "Demographics",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "The Asian American/Pacific Islander population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
                 "long_name": "Asian American/Pacific Islander population (percent)",
                 "measure_type": "percentage",
@@ -2436,8 +2423,7 @@
                 ],
                 "statement": "The Asian American/Pacific Islander population is {value} in {features.name}.",
                 "type": "percent",
-                "unit": "",
-                "measure": "perc_AAPI"
+                "unit": ""
               }
             },
             {
@@ -2455,10 +2441,10 @@
               "max": 66.6667,
               "info": {
                 "category": "Demographics",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "The Other racial population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
                 "long_name": "Other racial population (percent)",
                 "measure_type": "percentage",
@@ -2473,8 +2459,7 @@
                 ],
                 "statement": "The Other racial population is {value} in {features.name}.",
                 "type": "percent",
-                "unit": "",
-                "measure": "perc_other"
+                "unit": ""
               }
             },
             {
@@ -2492,10 +2477,10 @@
               "max": 32.2062,
               "info": {
                 "category": "Demographics",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "The two or more races population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
                 "long_name": "Two or more races population (percent)",
                 "measure_type": "percentage",
@@ -2510,8 +2495,7 @@
                 ],
                 "statement": "The two or more races population is {value} in {features.name}.",
                 "type": "percent",
-                "unit": "",
-                "measure": "perc_two_or_more"
+                "unit": ""
               }
             },
             {
@@ -2529,10 +2513,10 @@
               "max": 87.5674,
               "info": {
                 "category": "Demographics",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "The percent of the population under age 20. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
                 "long_name": "Under 20 population (percent)",
                 "measure_type": "percentage",
@@ -2547,8 +2531,7 @@
                 ],
                 "statement": "The percent of the population under age 20 is {value} in {features.name}.",
                 "type": "percent",
-                "unit": "",
-                "measure": "perc_pop_under_20"
+                "unit": ""
               }
             },
             {
@@ -2566,10 +2549,10 @@
               "max": 100,
               "info": {
                 "category": "Demographics",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "The percent of the population between age 20 and 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
                 "long_name": "20 to 64 population (percent)",
                 "measure_type": "percentage",
@@ -2584,8 +2567,7 @@
                 ],
                 "statement": "The percent of the population between age 20 and 64 is {value} in {features.name}.",
                 "type": "percent",
-                "unit": "",
-                "measure": "perc_pop_20_64"
+                "unit": ""
               }
             },
             {
@@ -2603,10 +2585,10 @@
               "max": 100,
               "info": {
                 "category": "Demographics",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
                 "long_name": "65 plus population (percent)",
                 "measure_type": "percentage",
@@ -2621,8 +2603,7 @@
                 ],
                 "statement": "The percent of the population over age 64 is {value} in {features.name}.",
                 "type": "percent",
-                "unit": "",
-                "measure": "perc_pop_65_plus"
+                "unit": ""
               }
             },
             {
@@ -2640,10 +2621,10 @@
               "max": 100,
               "info": {
                 "category": "Demographics",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "The percent of males in the total population. Based on American Community Survey ACS 2010/2021 5-year estimates table S0101.",
                 "long_name": "Male population (percent)",
                 "measure_type": "percentage",
@@ -2658,8 +2639,7 @@
                 ],
                 "statement": "The male population is {value} in {features.name}.",
                 "type": "percent",
-                "unit": "",
-                "measure": "perc_male"
+                "unit": ""
               }
             },
             {
@@ -2677,10 +2657,10 @@
               "max": 100,
               "info": {
                 "category": "Demographics",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "The percent of females in the total population. Based on American Community Survey ACS 2010/2021 5-year estimates table S0101.",
                 "long_name": "Female population (percent)",
                 "measure_type": "percentage",
@@ -2695,8 +2675,7 @@
                 ],
                 "statement": "The female population is {value} in {features.name}.",
                 "type": "percent",
-                "unit": "",
-                "measure": "perc_female"
+                "unit": ""
               }
             },
             {
@@ -2714,10 +2693,10 @@
               "max": 100,
               "info": {
                 "category": "Demographics",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "The Veteran population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B21001.",
                 "long_name": "Veteran population (percent)",
                 "measure_type": "percentage",
@@ -2732,8 +2711,7 @@
                 ],
                 "statement": "The Veteran population is {value} in {features.name}.",
                 "type": "percent",
-                "unit": "",
-                "measure": "perc_veteran"
+                "unit": ""
               }
             },
             {
@@ -2751,10 +2729,10 @@
               "max": 37.3832,
               "info": {
                 "category": "Demographics",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "The percent of households with limited English. Based on American Community Survey ACS 2015/2019 5-year estimates Table C16002.",
                 "long_name": "Limited English households (percent)",
                 "measure_type": "percentage",
@@ -2769,8 +2747,7 @@
                 ],
                 "statement": "The percent of households with limited English is {value} in {features.name}.",
                 "type": "percent",
-                "unit": "",
-                "measure": "perc_hh_limited_english"
+                "unit": ""
               }
             },
             {
@@ -3502,12 +3479,12 @@
               "duplicates": 34490,
               "time_range": [
                 8,
-                8
+                13
               ],
               "type": "integer",
-              "missing": 32621,
-              "mean": 3.0027,
-              "sd": 1.4136,
+              "missing": 30458,
+              "mean": 3.0007,
+              "sd": 1.4138,
               "min": 1,
               "max": 5,
               "info": {
@@ -4107,10 +4084,10 @@
               "max": 1219,
               "info": {
                 "category": "Nutrition and Food Security",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "",
-                "layer": {},
+                "layer": "",
                 "long_description": "The number of households in which at least one member of the household received benefits from the Food Stamp Program or the Supplemental Nutrition Assistance Program (SNAP) in the past 12 months.  This does not include households in which at least one member recieved benefits from WIC, the School Lunch Program, or assistance from food banks and not also from the Food Stamp Program or SNAP in the past 12 months.",
                 "long_name": "Count of Households That Received Supplemental Nutrition Assistance Program (SNAP)",
                 "measure_type": "count",
@@ -4144,10 +4121,10 @@
               "max": 80.5115,
               "info": {
                 "category": "Nutrition and Food Security",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "",
-                "layer": {},
+                "layer": "",
                 "long_description": "The percentage of households in which at least one member of the household received benefits from the Food Stamp Program or the Supplemental Nutrition Assistance Program (SNAP) in the past 12 months.  This does not include households in which at least one member recieved benefits from WIC, the School Lunch Program, or assistance from food banks and not also from the Food Stamp Program or SNAP in the past 12 months.",
                 "long_name": "Percentage of Households That Received Supplemental Nutrition Assistance Program (SNAP)",
                 "measure_type": "percent",
@@ -4276,37 +4253,6 @@
           ]
         },
         "_references": {
-          "wan12": {
-            "id": "wan12",
-            "author": [
-              {
-                "given": "Neng",
-                "family": "Wan"
-              },
-              {
-                "given": "Bin",
-                "family": "Zou"
-              },
-              {
-                "given": "Troy",
-                "family": "Sternberg"
-              }
-            ],
-            "year": 2012,
-            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-            "journal": "International Journal of Geographical Information Science",
-            "volume": "26",
-            "page": "1073-1089",
-            "doi": "10.1080/13658816.2011.624987"
-          },
-          "bii21": {
-            "id": "bii21",
-            "author": "Biocomplexity Institute and Initiative",
-            "year": 2021,
-            "title": "catchment: Calculate spatial access and availability metrics",
-            "version": "0.0.1",
-            "url": "https://github.com/uva-bi-sdad/catchment"
-          },
           "lou04": {
             "id": "lou04",
             "author": [
@@ -4397,6 +4343,37 @@
             "volume": "Preprint",
             "doi": "10.13140/RG.2.2.12396.28807"
           },
+          "wan12": {
+            "id": "wan12",
+            "author": [
+              {
+                "given": "Neng",
+                "family": "Wan"
+              },
+              {
+                "given": "Bin",
+                "family": "Zou"
+              },
+              {
+                "given": "Troy",
+                "family": "Sternberg"
+              }
+            ],
+            "year": 2012,
+            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+            "journal": "International Journal of Geographical Information Science",
+            "volume": "26",
+            "page": "1073-1089",
+            "doi": "10.1080/13658816.2011.624987"
+          },
+          "bii21": {
+            "id": "bii21",
+            "author": "Biocomplexity Institute and Initiative",
+            "year": 2021,
+            "title": "catchment: Calculate spatial access and availability metrics",
+            "version": "0.0.1",
+            "url": "https://github.com/uva-bi-sdad/catchment"
+          },
           "cdc11a": {
             "id": "cdc11a",
             "author": "Centers for Disease Control and Prevention",
@@ -4412,7 +4389,7 @@
             "url": "https://www.cdc.gov/obesity/downloads/census-tract-level-state-maps-mrfei_TAG508.pdf"
           }
         },
-        "sha512": "2dae6724da1c5dfd28de13b555777b68a4b9ac9cb6c46c8a6a7b37f14dba7ae4939933ab026cdc4d7f8ef0b4045194ff322acc982422988a220eb5580e8f8a90",
+        "sha512": "5debd021c7f4012ad3cfd5f7de40cefc6746a075c153f5cbd34fbccb5e37736c9b70f614665b5ddaa912cd3cdb5b8b42e29119b48ed17fdce218310040b6fedb",
         "site_file": "https://uva-bi-sdad.github.io/community_example//tract.json"
       },
       "county": {
@@ -4432,8 +4409,8 @@
         "id_length": 5,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-04-07 08:57:33",
-        "last_modified": "2023-04-07 08:57:33",
+        "created": "2023-04-10 16:27:23",
+        "last_modified": "2023-04-10 16:27:23",
         "row_count": 1876,
         "entity_count": 134,
         "schema": {
@@ -5909,10 +5886,10 @@
               "max": 30,
               "info": {
                 "category": "Nutrition and Food Security",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
                 "long_name": "Percentage of food insecure children",
                 "measure_type": "percent",
@@ -5927,10 +5904,7 @@
                 ],
                 "statement": "{value} of the population of children in {features.name} are food insecure.",
                 "type": "percent",
-                "unit": "",
-                "measure": "Child_Food_Insecurity_Rate",
-                "measure_table": "Child_Food_Insecurity_Rate",
-                "full_name": "food_insecurity_and_cost:Child_Food_Insecurity_Rate"
+                "unit": ""
               }
             },
             {
@@ -5948,10 +5922,10 @@
               "max": 4.51,
               "info": {
                 "category": "Nutrition and Food Security",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Affordability",
-                "layer": {},
+                "layer": "",
                 "long_description": "The average weekly dollar amount food-secure individuals report spending on food, as estimated by the Current Population Survey, divided by 21 (assuming three meals a day, seven days a week). This amount has been adjusted to reflect local food prices and relevant taxes.",
                 "long_name": "Average meal cost ($)",
                 "measure_type": "cost",
@@ -5966,10 +5940,7 @@
                 ],
                 "statement": "The average meal cost in {features.name} is {value}.",
                 "type": "dollar",
-                "unit": "",
-                "measure": "Cost_Per_Meal",
-                "measure_table": "food_insecurity_and_cost",
-                "full_name": "food_insecurity_and_cost:Cost_Per_Meal"
+                "unit": ""
               }
             },
             {
@@ -5987,10 +5958,10 @@
               "max": 28610,
               "info": {
                 "category": "Nutrition and Food Security",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
                 "long_name": "Count of food insecure children",
                 "measure_type": "count",
@@ -6005,10 +5976,7 @@
                 ],
                 "statement": "The population of food insecure children in {features.name} is {value}.",
                 "type": "count",
-                "unit": "",
-                "measure": "Num_Child_Food_Insecure",
-                "measure_table": "food_insecurity_and_cost",
-                "full_name": "food_insecurity_and_cost:Num_Child_Food_Insecure"
+                "unit": ""
               }
             },
             {
@@ -6026,10 +5994,10 @@
               "max": 28.1,
               "info": {
                 "category": "Nutrition and Food Security",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "",
-                "layer": {},
+                "layer": "",
                 "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. This measure is an estimate of the percent of people in food insecure households.  The brief providing the methodology of calculating these estimates is available at Feeding America's Map the Meal Gap website (linked below). Food insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
                 "long_name": "Estimated percentage of total people in food insecure households",
                 "measure_type": "percent",
@@ -6062,10 +6030,10 @@
               "max": 66320,
               "info": {
                 "category": "Nutrition and Food Security",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "",
-                "layer": {},
+                "layer": "",
                 "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. This measure is an estimate of the number of people in food insecure households.  The brief providing the methodology of calculating these estimates is available at Feeding America's Map the Meal Gap website (linked below). Food insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
                 "long_name": "Estimated number of total people in food insecure households",
                 "measure_type": "count",
@@ -6691,10 +6659,10 @@
               "max": 40.0729,
               "info": {
                 "category": "Demographics",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "The Hispanic/Latino population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
                 "long_name": "Hispanic/Latino population (percent)",
                 "measure_type": "percentage",
@@ -6709,8 +6677,7 @@
                 ],
                 "statement": "The Hispanic/Latino population is {value} in {features.name}.",
                 "type": "percent",
-                "unit": "",
-                "measure": "perc_hispanic_or_latino"
+                "unit": ""
               }
             },
             {
@@ -6728,10 +6695,10 @@
               "max": 99.8682,
               "info": {
                 "category": "Demographics",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "The White population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
                 "long_name": "White population (percent)",
                 "measure_type": "percentage",
@@ -6746,8 +6713,7 @@
                 ],
                 "statement": "The White population is {value} in {features.name}.",
                 "type": "percent",
-                "unit": "",
-                "measure": "perc_wht_alone"
+                "unit": ""
               }
             },
             {
@@ -6765,10 +6731,10 @@
               "max": 79.5165,
               "info": {
                 "category": "Demographics",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "The Black population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
                 "long_name": "Black population (percent)",
                 "measure_type": "percentage",
@@ -6783,8 +6749,7 @@
                 ],
                 "statement": "The Black population is {value} in {features.name}.",
                 "type": "percent",
-                "unit": "",
-                "measure": "perc_afr_amer_alone"
+                "unit": ""
               }
             },
             {
@@ -6802,10 +6767,10 @@
               "max": 7.1928,
               "info": {
                 "category": "Demographics",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "The Native population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
                 "long_name": "Native population (percent)",
                 "measure_type": "percentage",
@@ -6820,8 +6785,7 @@
                 ],
                 "statement": "The Native population is {value} in {features.name}.",
                 "type": "percent",
-                "unit": "",
-                "measure": "perc_native_alone"
+                "unit": ""
               }
             },
             {
@@ -6839,10 +6803,10 @@
               "max": 19.9155,
               "info": {
                 "category": "Demographics",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "The Asian American/Pacific Islander population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
                 "long_name": "Asian American/Pacific Islander population (percent)",
                 "measure_type": "percentage",
@@ -6857,8 +6821,7 @@
                 ],
                 "statement": "The Asian American/Pacific Islander population is {value} in {features.name}.",
                 "type": "percent",
-                "unit": "",
-                "measure": "perc_AAPI"
+                "unit": ""
               }
             },
             {
@@ -6876,10 +6839,10 @@
               "max": 16.6767,
               "info": {
                 "category": "Demographics",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "The Other racial population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
                 "long_name": "Other racial population (percent)",
                 "measure_type": "percentage",
@@ -6894,8 +6857,7 @@
                 ],
                 "statement": "The Other racial population is {value} in {features.name}.",
                 "type": "percent",
-                "unit": "",
-                "measure": "perc_other"
+                "unit": ""
               }
             },
             {
@@ -6913,10 +6875,10 @@
               "max": 10.7433,
               "info": {
                 "category": "Demographics",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "The two or more races population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
                 "long_name": "Two or more races population (percent)",
                 "measure_type": "percentage",
@@ -6931,8 +6893,7 @@
                 ],
                 "statement": "The two or more races population is {value} in {features.name}.",
                 "type": "percent",
-                "unit": "",
-                "measure": "perc_two_or_more"
+                "unit": ""
               }
             },
             {
@@ -6950,10 +6911,10 @@
               "max": 35.2126,
               "info": {
                 "category": "Demographics",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "The percent of the population under age 20. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
                 "long_name": "Under 20 population (percent)",
                 "measure_type": "percentage",
@@ -6968,8 +6929,7 @@
                 ],
                 "statement": "The percent of the population under age 20 is {value} in {features.name}.",
                 "type": "percent",
-                "unit": "",
-                "measure": "perc_pop_under_20"
+                "unit": ""
               }
             },
             {
@@ -6987,10 +6947,10 @@
               "max": 76.6131,
               "info": {
                 "category": "Demographics",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "The percent of the population between age 20 and 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
                 "long_name": "20 to 64 population (percent)",
                 "measure_type": "percentage",
@@ -7005,8 +6965,7 @@
                 ],
                 "statement": "The percent of the population between age 20 and 64 is {value} in {features.name}.",
                 "type": "percent",
-                "unit": "",
-                "measure": "perc_pop_20_64"
+                "unit": ""
               }
             },
             {
@@ -7024,10 +6983,10 @@
               "max": 39.8367,
               "info": {
                 "category": "Demographics",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
                 "long_name": "65 plus population (percent)",
                 "measure_type": "percentage",
@@ -7042,8 +7001,7 @@
                 ],
                 "statement": "The percent of the population over age 64 is {value} in {features.name}.",
                 "type": "percent",
-                "unit": "",
-                "measure": "perc_pop_65_plus"
+                "unit": ""
               }
             },
             {
@@ -7061,10 +7019,10 @@
               "max": 68.5266,
               "info": {
                 "category": "Demographics",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "The percent of males in the total population. Based on American Community Survey ACS 2010/2021 5-year estimates table S0101.",
                 "long_name": "Male population (percent)",
                 "measure_type": "percentage",
@@ -7079,8 +7037,7 @@
                 ],
                 "statement": "The male population is {value} in {features.name}.",
                 "type": "percent",
-                "unit": "",
-                "measure": "perc_male"
+                "unit": ""
               }
             },
             {
@@ -7098,10 +7055,10 @@
               "max": 62.6401,
               "info": {
                 "category": "Demographics",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "The percent of females in the total population. Based on American Community Survey ACS 2010/2021 5-year estimates table S0101.",
                 "long_name": "Female population (percent)",
                 "measure_type": "percentage",
@@ -7116,8 +7073,7 @@
                 ],
                 "statement": "The female population is {value} in {features.name}.",
                 "type": "percent",
-                "unit": "",
-                "measure": "perc_female"
+                "unit": ""
               }
             },
             {
@@ -7135,10 +7091,10 @@
               "max": 65.5126,
               "info": {
                 "category": "Demographics",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "The Veteran population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B21001.",
                 "long_name": "Veteran population (percent)",
                 "measure_type": "percentage",
@@ -7153,8 +7109,7 @@
                 ],
                 "statement": "The Veteran population is {value} in {features.name}.",
                 "type": "percent",
-                "unit": "",
-                "measure": "perc_veteran"
+                "unit": ""
               }
             },
             {
@@ -7172,10 +7127,10 @@
               "max": 9.9694,
               "info": {
                 "category": "Demographics",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "The percent of households with limited English. Based on American Community Survey ACS 2015/2019 5-year estimates Table C16002.",
                 "long_name": "Limited English households (percent)",
                 "measure_type": "percentage",
@@ -7190,8 +7145,7 @@
                 ],
                 "statement": "The percent of households with limited English is {value} in {features.name}.",
                 "type": "percent",
-                "unit": "",
-                "measure": "perc_hh_limited_english"
+                "unit": ""
               }
             },
             {
@@ -8492,10 +8446,10 @@
               "max": 16604,
               "info": {
                 "category": "Nutrition and Food Security",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "",
-                "layer": {},
+                "layer": "",
                 "long_description": "The number of households in which at least one member of the household received benefits from the Food Stamp Program or the Supplemental Nutrition Assistance Program (SNAP) in the past 12 months.  This does not include households in which at least one member recieved benefits from WIC, the School Lunch Program, or assistance from food banks and not also from the Food Stamp Program or SNAP in the past 12 months.",
                 "long_name": "Count of Households That Received Supplemental Nutrition Assistance Program (SNAP)",
                 "measure_type": "count",
@@ -8529,10 +8483,10 @@
               "max": 36.4876,
               "info": {
                 "category": "Nutrition and Food Security",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "",
-                "layer": {},
+                "layer": "",
                 "long_description": "The percentage of households in which at least one member of the household received benefits from the Food Stamp Program or the Supplemental Nutrition Assistance Program (SNAP) in the past 12 months.  This does not include households in which at least one member recieved benefits from WIC, the School Lunch Program, or assistance from food banks and not also from the Food Stamp Program or SNAP in the past 12 months.",
                 "long_name": "Percentage of Households That Received Supplemental Nutrition Assistance Program (SNAP)",
                 "measure_type": "percent",
@@ -8657,37 +8611,6 @@
           ]
         },
         "_references": {
-          "wan12": {
-            "id": "wan12",
-            "author": [
-              {
-                "given": "Neng",
-                "family": "Wan"
-              },
-              {
-                "given": "Bin",
-                "family": "Zou"
-              },
-              {
-                "given": "Troy",
-                "family": "Sternberg"
-              }
-            ],
-            "year": 2012,
-            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-            "journal": "International Journal of Geographical Information Science",
-            "volume": "26",
-            "page": "1073-1089",
-            "doi": "10.1080/13658816.2011.624987"
-          },
-          "bii21": {
-            "id": "bii21",
-            "author": "Biocomplexity Institute and Initiative",
-            "year": 2021,
-            "title": "catchment: Calculate spatial access and availability metrics",
-            "version": "0.0.1",
-            "url": "https://github.com/uva-bi-sdad/catchment"
-          },
           "lou04": {
             "id": "lou04",
             "author": [
@@ -8778,6 +8701,37 @@
             "volume": "Preprint",
             "doi": "10.13140/RG.2.2.12396.28807"
           },
+          "wan12": {
+            "id": "wan12",
+            "author": [
+              {
+                "given": "Neng",
+                "family": "Wan"
+              },
+              {
+                "given": "Bin",
+                "family": "Zou"
+              },
+              {
+                "given": "Troy",
+                "family": "Sternberg"
+              }
+            ],
+            "year": 2012,
+            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+            "journal": "International Journal of Geographical Information Science",
+            "volume": "26",
+            "page": "1073-1089",
+            "doi": "10.1080/13658816.2011.624987"
+          },
+          "bii21": {
+            "id": "bii21",
+            "author": "Biocomplexity Institute and Initiative",
+            "year": 2021,
+            "title": "catchment: Calculate spatial access and availability metrics",
+            "version": "0.0.1",
+            "url": "https://github.com/uva-bi-sdad/catchment"
+          },
           "cdc11a": {
             "id": "cdc11a",
             "author": "Centers for Disease Control and Prevention",
@@ -8813,8 +8767,8 @@
         "id_length": 8,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-04-07 08:57:33",
-        "last_modified": "2023-04-07 08:57:33",
+        "created": "2023-04-10 16:27:23",
+        "last_modified": "2023-04-10 16:27:23",
         "row_count": 490,
         "entity_count": 35,
         "schema": {
@@ -10278,10 +10232,10 @@
               "max": 25.3694,
               "info": {
                 "category": "Nutrition and Food Security",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
                 "long_name": "Percentage of food insecure children",
                 "measure_type": "percent",
@@ -10296,10 +10250,7 @@
                 ],
                 "statement": "{value} of the population of children in {features.name} are food insecure.",
                 "type": "percent",
-                "unit": "",
-                "measure": "Child_Food_Insecurity_Rate",
-                "measure_table": "Child_Food_Insecurity_Rate",
-                "full_name": "food_insecurity_and_cost:Child_Food_Insecurity_Rate"
+                "unit": ""
               }
             },
             {
@@ -10317,10 +10268,10 @@
               "max": 4.38,
               "info": {
                 "category": "Nutrition and Food Security",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Affordability",
-                "layer": {},
+                "layer": "",
                 "long_description": "The average weekly dollar amount food-secure individuals report spending on food, as estimated by the Current Population Survey, divided by 21 (assuming three meals a day, seven days a week). This amount has been adjusted to reflect local food prices and relevant taxes.",
                 "long_name": "Average meal cost ($)",
                 "measure_type": "cost",
@@ -10335,10 +10286,7 @@
                 ],
                 "statement": "The average meal cost in {features.name} is {value}.",
                 "type": "dollar",
-                "unit": "",
-                "measure": "Cost_Per_Meal",
-                "measure_table": "food_insecurity_and_cost",
-                "full_name": "food_insecurity_and_cost:Cost_Per_Meal"
+                "unit": ""
               }
             },
             {
@@ -10356,10 +10304,10 @@
               "max": 29490,
               "info": {
                 "category": "Nutrition and Food Security",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
                 "long_name": "Count of food insecure children",
                 "measure_type": "count",
@@ -10374,10 +10322,7 @@
                 ],
                 "statement": "The population of food insecure children in {features.name} is {value}.",
                 "type": "count",
-                "unit": "",
-                "measure": "Num_Child_Food_Insecure",
-                "measure_table": "food_insecurity_and_cost",
-                "full_name": "food_insecurity_and_cost:Num_Child_Food_Insecure"
+                "unit": ""
               }
             },
             {
@@ -10395,10 +10340,10 @@
               "max": 21.6097,
               "info": {
                 "category": "Nutrition and Food Security",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "",
-                "layer": {},
+                "layer": "",
                 "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. This measure is an estimate of the percent of people in food insecure households.  The brief providing the methodology of calculating these estimates is available at Feeding America's Map the Meal Gap website (linked below). Food insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
                 "long_name": "Estimated percentage of total people in food insecure households",
                 "measure_type": "percent",
@@ -10431,10 +10376,10 @@
               "max": 68570,
               "info": {
                 "category": "Nutrition and Food Security",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "",
-                "layer": {},
+                "layer": "",
                 "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. This measure is an estimate of the number of people in food insecure households.  The brief providing the methodology of calculating these estimates is available at Feeding America's Map the Meal Gap website (linked below). Food insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
                 "long_name": "Estimated number of total people in food insecure households",
                 "measure_type": "count",
@@ -11036,10 +10981,10 @@
               "missing": 490,
               "info": {
                 "category": "Demographics",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "The Hispanic/Latino population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
                 "long_name": "Hispanic/Latino population (percent)",
                 "measure_type": "percentage",
@@ -11054,8 +10999,7 @@
                 ],
                 "statement": "The Hispanic/Latino population is {value} in {features.name}.",
                 "type": "percent",
-                "unit": "",
-                "measure": "perc_hispanic_or_latino"
+                "unit": ""
               }
             },
             {
@@ -11069,10 +11013,10 @@
               "missing": 490,
               "info": {
                 "category": "Demographics",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "The White population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
                 "long_name": "White population (percent)",
                 "measure_type": "percentage",
@@ -11087,8 +11031,7 @@
                 ],
                 "statement": "The White population is {value} in {features.name}.",
                 "type": "percent",
-                "unit": "",
-                "measure": "perc_wht_alone"
+                "unit": ""
               }
             },
             {
@@ -11102,10 +11045,10 @@
               "missing": 490,
               "info": {
                 "category": "Demographics",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "The Black population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
                 "long_name": "Black population (percent)",
                 "measure_type": "percentage",
@@ -11120,8 +11063,7 @@
                 ],
                 "statement": "The Black population is {value} in {features.name}.",
                 "type": "percent",
-                "unit": "",
-                "measure": "perc_afr_amer_alone"
+                "unit": ""
               }
             },
             {
@@ -11135,10 +11077,10 @@
               "missing": 490,
               "info": {
                 "category": "Demographics",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "The Native population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
                 "long_name": "Native population (percent)",
                 "measure_type": "percentage",
@@ -11153,8 +11095,7 @@
                 ],
                 "statement": "The Native population is {value} in {features.name}.",
                 "type": "percent",
-                "unit": "",
-                "measure": "perc_native_alone"
+                "unit": ""
               }
             },
             {
@@ -11168,10 +11109,10 @@
               "missing": 490,
               "info": {
                 "category": "Demographics",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "The Asian American/Pacific Islander population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
                 "long_name": "Asian American/Pacific Islander population (percent)",
                 "measure_type": "percentage",
@@ -11186,8 +11127,7 @@
                 ],
                 "statement": "The Asian American/Pacific Islander population is {value} in {features.name}.",
                 "type": "percent",
-                "unit": "",
-                "measure": "perc_AAPI"
+                "unit": ""
               }
             },
             {
@@ -11201,10 +11141,10 @@
               "missing": 490,
               "info": {
                 "category": "Demographics",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "The Other racial population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
                 "long_name": "Other racial population (percent)",
                 "measure_type": "percentage",
@@ -11219,8 +11159,7 @@
                 ],
                 "statement": "The Other racial population is {value} in {features.name}.",
                 "type": "percent",
-                "unit": "",
-                "measure": "perc_other"
+                "unit": ""
               }
             },
             {
@@ -11234,10 +11173,10 @@
               "missing": 490,
               "info": {
                 "category": "Demographics",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "The two or more races population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
                 "long_name": "Two or more races population (percent)",
                 "measure_type": "percentage",
@@ -11252,8 +11191,7 @@
                 ],
                 "statement": "The two or more races population is {value} in {features.name}.",
                 "type": "percent",
-                "unit": "",
-                "measure": "perc_two_or_more"
+                "unit": ""
               }
             },
             {
@@ -11267,10 +11205,10 @@
               "missing": 490,
               "info": {
                 "category": "Demographics",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "The percent of the population under age 20. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
                 "long_name": "Under 20 population (percent)",
                 "measure_type": "percentage",
@@ -11285,8 +11223,7 @@
                 ],
                 "statement": "The percent of the population under age 20 is {value} in {features.name}.",
                 "type": "percent",
-                "unit": "",
-                "measure": "perc_pop_under_20"
+                "unit": ""
               }
             },
             {
@@ -11300,10 +11237,10 @@
               "missing": 490,
               "info": {
                 "category": "Demographics",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "The percent of the population between age 20 and 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
                 "long_name": "20 to 64 population (percent)",
                 "measure_type": "percentage",
@@ -11318,8 +11255,7 @@
                 ],
                 "statement": "The percent of the population between age 20 and 64 is {value} in {features.name}.",
                 "type": "percent",
-                "unit": "",
-                "measure": "perc_pop_20_64"
+                "unit": ""
               }
             },
             {
@@ -11333,10 +11269,10 @@
               "missing": 490,
               "info": {
                 "category": "Demographics",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
                 "long_name": "65 plus population (percent)",
                 "measure_type": "percentage",
@@ -11351,8 +11287,7 @@
                 ],
                 "statement": "The percent of the population over age 64 is {value} in {features.name}.",
                 "type": "percent",
-                "unit": "",
-                "measure": "perc_pop_65_plus"
+                "unit": ""
               }
             },
             {
@@ -11366,10 +11301,10 @@
               "missing": 490,
               "info": {
                 "category": "Demographics",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "The percent of males in the total population. Based on American Community Survey ACS 2010/2021 5-year estimates table S0101.",
                 "long_name": "Male population (percent)",
                 "measure_type": "percentage",
@@ -11384,8 +11319,7 @@
                 ],
                 "statement": "The male population is {value} in {features.name}.",
                 "type": "percent",
-                "unit": "",
-                "measure": "perc_male"
+                "unit": ""
               }
             },
             {
@@ -11399,10 +11333,10 @@
               "missing": 490,
               "info": {
                 "category": "Demographics",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "The percent of females in the total population. Based on American Community Survey ACS 2010/2021 5-year estimates table S0101.",
                 "long_name": "Female population (percent)",
                 "measure_type": "percentage",
@@ -11417,8 +11351,7 @@
                 ],
                 "statement": "The female population is {value} in {features.name}.",
                 "type": "percent",
-                "unit": "",
-                "measure": "perc_female"
+                "unit": ""
               }
             },
             {
@@ -11432,10 +11365,10 @@
               "missing": 490,
               "info": {
                 "category": "Demographics",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "The Veteran population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B21001.",
                 "long_name": "Veteran population (percent)",
                 "measure_type": "percentage",
@@ -11450,8 +11383,7 @@
                 ],
                 "statement": "The Veteran population is {value} in {features.name}.",
                 "type": "percent",
-                "unit": "",
-                "measure": "perc_veteran"
+                "unit": ""
               }
             },
             {
@@ -11465,10 +11397,10 @@
               "missing": 490,
               "info": {
                 "category": "Demographics",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": {},
+                "layer": "",
                 "long_description": "The percent of households with limited English. Based on American Community Survey ACS 2015/2019 5-year estimates Table C16002.",
                 "long_name": "Limited English households (percent)",
                 "measure_type": "percentage",
@@ -11483,8 +11415,7 @@
                 ],
                 "statement": "The percent of households with limited English is {value} in {features.name}.",
                 "type": "percent",
-                "unit": "",
-                "measure": "perc_hh_limited_english"
+                "unit": ""
               }
             },
             {
@@ -12745,10 +12676,10 @@
               "max": 17079,
               "info": {
                 "category": "Nutrition and Food Security",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "",
-                "layer": {},
+                "layer": "",
                 "long_description": "The number of households in which at least one member of the household received benefits from the Food Stamp Program or the Supplemental Nutrition Assistance Program (SNAP) in the past 12 months.  This does not include households in which at least one member recieved benefits from WIC, the School Lunch Program, or assistance from food banks and not also from the Food Stamp Program or SNAP in the past 12 months.",
                 "long_name": "Count of Households That Received Supplemental Nutrition Assistance Program (SNAP)",
                 "measure_type": "count",
@@ -12782,10 +12713,10 @@
               "max": 22.1967,
               "info": {
                 "category": "Nutrition and Food Security",
-                "citations": {},
+                "citations": "",
                 "data_type": "numeric",
                 "equity_category": "",
-                "layer": {},
+                "layer": "",
                 "long_description": "The percentage of households in which at least one member of the household received benefits from the Food Stamp Program or the Supplemental Nutrition Assistance Program (SNAP) in the past 12 months.  This does not include households in which at least one member recieved benefits from WIC, the School Lunch Program, or assistance from food banks and not also from the Food Stamp Program or SNAP in the past 12 months.",
                 "long_name": "Percentage of Households That Received Supplemental Nutrition Assistance Program (SNAP)",
                 "measure_type": "percent",
@@ -12902,37 +12833,6 @@
           ]
         },
         "_references": {
-          "wan12": {
-            "id": "wan12",
-            "author": [
-              {
-                "given": "Neng",
-                "family": "Wan"
-              },
-              {
-                "given": "Bin",
-                "family": "Zou"
-              },
-              {
-                "given": "Troy",
-                "family": "Sternberg"
-              }
-            ],
-            "year": 2012,
-            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-            "journal": "International Journal of Geographical Information Science",
-            "volume": "26",
-            "page": "1073-1089",
-            "doi": "10.1080/13658816.2011.624987"
-          },
-          "bii21": {
-            "id": "bii21",
-            "author": "Biocomplexity Institute and Initiative",
-            "year": 2021,
-            "title": "catchment: Calculate spatial access and availability metrics",
-            "version": "0.0.1",
-            "url": "https://github.com/uva-bi-sdad/catchment"
-          },
           "lou04": {
             "id": "lou04",
             "author": [
@@ -13022,6 +12922,37 @@
             "journal": "University of Chicago: Center for Spatial Data Science",
             "volume": "Preprint",
             "doi": "10.13140/RG.2.2.12396.28807"
+          },
+          "wan12": {
+            "id": "wan12",
+            "author": [
+              {
+                "given": "Neng",
+                "family": "Wan"
+              },
+              {
+                "given": "Bin",
+                "family": "Zou"
+              },
+              {
+                "given": "Troy",
+                "family": "Sternberg"
+              }
+            ],
+            "year": 2012,
+            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+            "journal": "International Journal of Geographical Information Science",
+            "volume": "26",
+            "page": "1073-1089",
+            "doi": "10.1080/13658816.2011.624987"
+          },
+          "bii21": {
+            "id": "bii21",
+            "author": "Biocomplexity Institute and Initiative",
+            "year": 2021,
+            "title": "catchment: Calculate spatial access and availability metrics",
+            "version": "0.0.1",
+            "url": "https://github.com/uva-bi-sdad/catchment"
           },
           "cdc11a": {
             "id": "cdc11a",
