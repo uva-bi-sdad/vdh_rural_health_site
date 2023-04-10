@@ -14159,14 +14159,94 @@
         "selected_variable": "emp_rate"
       }
     },
+    "HealthOpportunityIndex": {
+      "effects": {
+        "selected_variable": "health_opportunity_indicator"
+      }
+    },
+    "EconomicOpportunity": {
+      "effects": {
+        "selected_variable": "economic_opportunity_indicator"
+      }
+    },
+    "CommunityEnvironment": {
+      "effects": {
+        "selected_variable": "community_environment_indicator"
+      }
+    },
+    "ConsumerOpportunity": {
+      "effects": {
+        "selected_variable": "consumer_opportunity_indicator"
+      }
+    },
+    "WellnessDisparity": {
+      "effects": {
+        "selected_variable": "wellness_disparity_indicator"
+      }
+    },
     "JobParticipation": {
       "effects": {
         "selected_variable": "job_participate_rate"
       }
     },
+    "EmploymentAccess": {
+      "effects": {
+        "selected_variable": "employment_access_indicator"
+      }
+    },
     "IncomeInequality": {
       "effects": {
         "selected_variable": "gini_index"
+      }
+    },
+    "MaterialDeprivation": {
+      "effects": {
+        "selected_variable": "material_deprivation_indicator"
+      }
+    },
+    "YearsofSchooling": {
+      "effects": {
+        "selected_variable": "average_years_schooling"
+      }
+    },
+    "AccesstoFood(VDH)": {
+      "effects": {
+        "selected_variable": "food_accessibility_indicator"
+      }
+    },
+    "PopulationChurn": {
+      "effects": {
+        "selected_variable": "pop_churning_indicator"
+      }
+    },
+    "PopulationDensity": {
+      "effects": {
+        "selected_variable": "pop_density_indicator"
+      }
+    },
+    "Segregation": {
+      "effects": {
+        "selected_variable": "segregation_indicator"
+      }
+    },
+    "Walkability": {
+      "effects": {
+        "selected_variable": "walkability_indicator"
+      }
+    },
+    "Affordability(H&T)": {
+      "effects": {
+        "selected_variable": "affordability_indicator"
+      }
+    },
+    "AirQuality": {
+      "effects": {
+        "selected_variable": "air_quality_indicator"
+      }
+    },
+    "CareAccess(VDH)": {
+      "effects": {
+        "selected_variable": "access_care_indicator"
       }
     },
     "Download": {
