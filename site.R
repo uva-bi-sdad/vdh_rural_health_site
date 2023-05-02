@@ -107,9 +107,9 @@ page_navbar(
 page_panel(
   page_section(
     wraps = "row",
-    conditions = c("", "metric_set == rural_health", "metric_set == hoi"),
+    conditions = c("", "metric_set == rural_health", "metric_set == hoi", "metric_set == vce"),
     input_select(
-      "Metric Set", c("rural_health", "hoi"), 0, c("Rural Health", "Health Equity"),
+      "Metric Set", c("rural_health", "hoi", "vce"), 0, c("Rural Health", "Health Equity", "Coop Extension"),
       id = "metric_set"
     ),
     c(
@@ -123,9 +123,13 @@ page_panel(
     c(
       '<p>Office of Health Equity</p>',
       '<p class="lead fs-6">- Health Opportunity Index -</p>'
+    ),
+    c(
+      '<p>Cooperative Extension</p>',
+      '<p class="lead fs-6">- Priority Metrics -</p>'
     )
   ),
-  conditions = c("metric_set == rural_health", "metric_set == hoi"),
+  conditions = c("metric_set == rural_health", "metric_set == hoi", "metric_set == vce"),
   page_section(
     type = "", id = "rural_health_panel",
     '<p class="lead">Education</p>',
@@ -261,8 +265,23 @@ page_panel(
       "Care Access (VDH)",
       list(selected_variable = "access_care_indicator")
     )
-    
-    
+  ),
+  page_section(
+    type = "", id = "vce_panel",
+    '<p class="lead" style="font-size:1em;text-weight:bold;">Acreage</p>',
+    input_button(
+      "Cropland Total Acres",
+      list(selected_variable = "total_cropland_acres")
+    ),
+    input_button(
+      "Cropland Total Irrigated",
+      list(selected_variable = "total_irrigatedCropland_acre")
+    ),
+    '<p class="lead" style="font-size:1em;text-weight:bold;">Sales</p>',
+    input_button(
+      "Fruit & Tree Nuts",
+      list(selected_variable = "fruit_treeNut_total_sales")
+    )
   ),
   foot = input_switch("Share use data", "settings.tracking", as.checkbox = TRUE, note = paste(
     "Sharing your use data (via Google Analytics) supports this project,",

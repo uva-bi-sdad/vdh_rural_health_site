@@ -13775,6 +13775,19 @@
         {
           "id": "metric_set",
           "type": "=",
+          "value": "vce",
+          "any": false
+        }
+      ],
+      "effects": {
+        "display": "sec24"
+      }
+    },
+    {
+      "condition": [
+        {
+          "id": "metric_set",
+          "type": "=",
           "value": "rural_health",
           "any": false
         }
@@ -13799,6 +13812,19 @@
     {
       "condition": [
         {
+          "id": "metric_set",
+          "type": "=",
+          "value": "vce",
+          "any": false
+        }
+      ],
+      "effects": {
+        "display": "panel23"
+      }
+    },
+    {
+      "condition": [
+        {
           "id": "selected_county",
           "type": "!",
           "value": "",
@@ -13806,7 +13832,7 @@
         }
       ],
       "effects": {
-        "lock": "sec71"
+        "lock": "sec81"
       }
     },
     {
@@ -13825,7 +13851,7 @@
         }
       ],
       "effects": {
-        "display": "sec72"
+        "display": "sec82"
       }
     }
   ],
@@ -13978,7 +14004,7 @@
       "dataview": "primary_view",
       "variable_info": false
     },
-    "info15": {
+    "info16": {
       "title": "",
       "body": [
         {
@@ -13992,7 +14018,7 @@
       "dataview": "primary_view",
       "variable_info": false
     },
-    "info16": {
+    "info17": {
       "title": "Filters",
       "body": [
         {
@@ -14006,7 +14032,7 @@
       "dataview": "primary_view",
       "variable_info": false
     },
-    "info17": {
+    "info18": {
       "title": "features.name",
       "body": [],
       "default": {
@@ -14018,7 +14044,7 @@
       "subto": ["main_map", "main_plot", "rank_table", "main_legend"],
       "variable_info": false
     },
-    "info18": {
+    "info19": {
       "title": "",
       "body": [
         {
@@ -14045,7 +14071,7 @@
     }
   },
   "text": {
-    "text9": {
+    "text10": {
       "text": [
         {
           "condition": [
@@ -14121,7 +14147,7 @@
         }
       ]
     },
-    "text10": {
+    "text11": {
       "text": [
         [
           {
@@ -15015,6 +15041,21 @@
     "CareAccess(VDH)": {
       "effects": {
         "selected_variable": "access_care_indicator"
+      }
+    },
+    "CroplandTotalAcres": {
+      "effects": {
+        "selected_variable": "total_cropland_acres"
+      }
+    },
+    "CroplandTotalIrrigated": {
+      "effects": {
+        "selected_variable": "total_irrigatedCropland_acre"
+      }
+    },
+    "Fruit&TreeNuts": {
+      "effects": {
+        "selected_variable": "fruit_treeNut_total_sales"
       }
     },
     "Download": {
