@@ -13775,7 +13775,7 @@
         {
           "id": "metric_set",
           "type": "=",
-          "value": "vce",
+          "value": "unit_profiles",
           "any": false
         }
       ],
@@ -13814,7 +13814,7 @@
         {
           "id": "metric_set",
           "type": "=",
-          "value": "vce",
+          "value": "unit_profiles",
           "any": false
         }
       ],
@@ -15043,19 +15043,64 @@
         "selected_variable": "access_care_indicator"
       }
     },
-    "CroplandTotalAcres": {
+    "ChildrenRaisedbyGrandparents": {
+      "effects": {
+        "selected_variable": "perc_children_raised_by_GPs"
+      }
+    },
+    "MalePopulation": {
+      "effects": {
+        "selected_variable": "perc_male"
+      }
+    },
+    "FemalePopulation": {
+      "effects": {
+        "selected_variable": "perc_female"
+      }
+    },
+    "Withoutvehicle": {
+      "effects": {
+        "selected_variable": "perc_no_vehicle"
+      }
+    },
+    "CroplandAcerage": {
       "effects": {
         "selected_variable": "total_cropland_acres"
       }
     },
-    "CroplandTotalIrrigated": {
+    "IrrigatedCroplandAcerage": {
       "effects": {
         "selected_variable": "total_irrigatedCropland_acre"
       }
     },
-    "Fruit&TreeNuts": {
+    "NumberofCroplandOperations": {
+      "effects": {
+        "selected_variable": "total_cropland_operations"
+      }
+    },
+    "ExpensestowardsAnimalIndustry": {
+      "effects": {
+        "selected_variable": "total_animal_expense"
+      }
+    },
+    "SalesofFruitsandTreenuts": {
       "effects": {
         "selected_variable": "fruit_treeNut_total_sales"
+      }
+    },
+    "SalesofAnimalProducts": {
+      "effects": {
+        "selected_variable": "total_animalProducts_sales"
+      }
+    },
+    "SalesofCommodities": {
+      "effects": {
+        "selected_variable": "total_commodity_sales"
+      }
+    },
+    "SalesofCalves": {
+      "effects": {
+        "selected_variable": "total_calves_sales"
       }
     },
     "Download": {

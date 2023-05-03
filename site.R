@@ -107,9 +107,9 @@ page_navbar(
 page_panel(
   page_section(
     wraps = "row",
-    conditions = c("", "metric_set == rural_health", "metric_set == hoi", "metric_set == vce"),
+    conditions = c("", "metric_set == rural_health", "metric_set == hoi", "metric_set == unit_profiles"),
     input_select(
-      "Metric Set", c("rural_health", "hoi", "vce"), 0, c("Rural Health", "Health Equity", "Coop Extension"),
+      "Metric Set", c("rural_health", "hoi", "unit_profiles"), 0, c("Rural Health", "Health Equity", "Unit Profiles"),
       id = "metric_set"
     ),
     c(
@@ -125,11 +125,12 @@ page_panel(
       '<p class="lead fs-6">- Health Opportunity Index -</p>'
     ),
     c(
-      '<p>Cooperative Extension</p>',
-      '<p class="lead fs-6">- Priority Metrics -</p>'
+      '<p>Virginia Cooperative Extension</p>',
+      '<p class="lead fs-6">- Unit Profiles -</p>'
     )
   ),
-  conditions = c("metric_set == rural_health", "metric_set == hoi", "metric_set == vce"),
+  conditions = c("metric_set == rural_health", "metric_set == hoi", "metric_set == unit_profiles"),
+  ## RURAL HEALTH PANEL -------------------------------------------------------
   page_section(
     type = "", id = "rural_health_panel",
     '<p class="lead">Education</p>',
@@ -188,6 +189,7 @@ page_panel(
       list(selected_variable = "emp_rate")
     )
   ),
+  ## HEALTH OPPORTUNITY INDEX PANEL -------------------------------------------
   page_section(
     type = "", id = "hoi_panel",
     input_button(
@@ -263,26 +265,63 @@ page_panel(
     ),
     input_button(
       "Care Access (VDH)",
-      list(selected_variable = "access_care_indicator")
-    )
-  ),
+      list(selected_variable = "access_care_indicator"))),
+  ## VCE UNIT PROFILES PANEL ------------------------------------------------ 
   page_section(
-    type = "", id = "vce_panel",
-    '<p class="lead" style="font-size:1em;text-weight:bold;">Acreage</p>',
+    type = "", id = "unit_profiles",
+    '<p class="lead" style="font-size:1em;text-weight:bold;">Demographic</p>',
     input_button(
-      "Cropland Total Acres",
+      "Children Raised by Grandparents",
+      list(selected_variable = "perc_children_raised_by_GPs")
+    ),
+    input_button(
+      "Male Population",
+      list(selected_variable = "perc_male")
+    ),
+    input_button(
+      "Female Population",
+      list(selected_variable = "perc_female")
+    ),
+    input_button(
+      "Without vehicle",
+      list(selected_variable = "perc_no_vehicle")
+    ),
+    '<p class="lead" style="font-size:1em;text-weight:bold;">Agriculture</p>',
+    input_button(
+      "Cropland Acerage",
       list(selected_variable = "total_cropland_acres")
     ),
     input_button(
-      "Cropland Total Irrigated",
+      "Irrigated Cropland Acerage",
       list(selected_variable = "total_irrigatedCropland_acre")
     ),
-    '<p class="lead" style="font-size:1em;text-weight:bold;">Sales</p>',
     input_button(
-      "Fruit & Tree Nuts",
+      "Number of Cropland Operations",
+      list(selected_variable = "total_cropland_operations")
+    ),
+    input_button(
+      "Expenses towards Animal Industry",
+      list(selected_variable = "total_animal_expense")
+    ),
+    input_button(
+      "Sales of Fruits and Treenuts",
       list(selected_variable = "fruit_treeNut_total_sales")
-    )
-  ),
+    ),
+    input_button(
+      "Sales of Animal Products",
+      list(selected_variable = "total_animalProducts_sales")
+    ),
+    input_button(
+      "Sales of Commodities",
+      list(selected_variable = "total_commodity_sales")
+    ),
+    input_button(
+      "Sales of Calves",
+      list(selected_variable = "total_calves_sales")
+    ),
+    '<p class="lead" style="font-size:1em;text-weight:bold;">Health</p>',
+    '<p class="lead" style="font-size:1em;text-weight:bold;">Education</p>',
+    '<p class="lead" style="font-size:1em;text-weight:bold;">Business and Employment</p>'),
   foot = input_switch("Share use data", "settings.tracking", as.checkbox = TRUE, note = paste(
     "Sharing your use data (via Google Analytics) supports this project,",
     "and can help us improve the site."
