@@ -69,7 +69,8 @@ page_navbar(
         note = "Limit the number of plot traces that can be drawn, split between extremes of the variable."
       ),
       '<p class="section-heading">Table Options</p>',
-      input_switch("Autoscroll", default_on = TRUE, id = "settings.table_autoscroll"),
+      input_switch("Auto-Sort", default_on = TRUE, id = "settings.table_autosort"),
+      input_switch("Auto-Scroll", default_on = TRUE, id = "settings.table_autoscroll"),
       input_select(
         "Scroll Behavior", c("instant", "smooth", "auto"), "auto",
         id = "settings.table_scroll_behavior", floating_label = FALSE
@@ -213,7 +214,7 @@ page_panel(
       "Wellness Disparity",
       list(selected_variable = "wellness_disparity_indicator")
     ),
-    
+
     '<p class="lead" style="font-size:1em;text-weight:bold;">Related Measures</p>',
     input_button(
       "Job Participation",
@@ -266,7 +267,7 @@ page_panel(
     input_button(
       "Care Access (VDH)",
       list(selected_variable = "access_care_indicator"))),
-  ## VCE UNIT PROFILES PANEL ------------------------------------------------ 
+  ## VCE UNIT PROFILES PANEL ------------------------------------------------
   page_section(
     type = "", id = "unit_profiles",
     '<p class="lead" style="font-size:1em;text-weight:bold;">Demographic</p>',
@@ -423,8 +424,7 @@ page_section(
   type = "col",
   # use `output_` functions to add state and data displays
   output_text(c(
-    "?{starting_shapes != district}State: Virginia[r selected_county]",
-    "?{starting_shapes == district}State: Virginia[r selected_district]",
+    "State: Virginia[r selected_county,selected_district]",
     "? > Health District: {selected_district}[r selected_county]",
     "? > {selected_county}"
   ), class = "compact"),
@@ -602,16 +602,23 @@ page_section(
       ),
       page_popup(
         "Export",
+        page_section(
+          wraps = "col",
+          input_select("Table Format", c("tall", "mixed", "wide"), "mixed", id = "export_table_format"),
+          input_select("File Format", c("csv", "tsv"), "csv", c("CSV", "TSV"), id = "export_file_format")
+        ),
         input_button(
           "Download", "export", dataview = "primary_view", query = list(
             include = "selected_variable",
-            features = list(geoid = "id", name = "name", region_type = "type")
+            features = list(geoid = "id", name = "name"),
+            table_format = "export_table_format", file_format = "export_file_format"
           ), class = "btn-full"
         ),
         input_button(
           "Copy API link", "copy", dataview = "primary_view", query = list(
             include = "selected_variable", dataset = "shapes",
-            features = list(geoid = "id", name = "name", region_type = "type")
+            features = list(geoid = "id", name = "name"),
+            table_format = "export_table_format", file_format = "export_file_format"
           ), class = "btn-full"
         )
       ),

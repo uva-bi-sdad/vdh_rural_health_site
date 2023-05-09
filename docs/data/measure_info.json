@@ -155,1141 +155,179 @@
     "type": "",
     "unit": ""
   },
-  "perc_income_avg_nat_package": {
-    "category": "Broadband",
+  "total_calves_sales": {
+    "category": "Agriculture Industry",
     "citations": "",
     "data_type": "numeric",
-    "equity_category": "Affordability",
-    "layer": "",
-    "long_description": "The national average price for internet ($64) as a percentage of median household income.",
-    "long_name": "The national average price for internet as a percentage of average income",
-    "measure_type": "percent",
-    "short_description": "The national average price for internet ($64) as a percentage of median household income",
-    "short_name": "Percentage of income for internet (average)",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      },
-      {
-        "name": "Broadband Now",
-        "date_accessed": 2021,
-        "url": "https://broadbandnow.com/"
-      }
-    ],
-    "statement": "The national average internet package costs {value} of the median household income in {features.name}.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_income_min_price_25": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Affordability",
-    "layer": "",
-    "long_description": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income.",
-    "long_name": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income",
-    "measure_type": "percent",
-    "short_description": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income",
-    "short_name": "Percentage of income for good internet",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      },
-      {
-        "name": "Broadband Now",
-        "date_accessed": 2021,
-        "url": "https://broadbandnow.com/"
-      }
-    ],
-    "statement": "Good internet costs {value} of the median household income in {features.name}.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_income_min_price_100": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Affordability",
-    "layer": "",
-    "long_description": "The minimum price for fast internet (100 MB/s upload) as a percentage of median household income.",
-    "long_name": "The minimum price for fast internet (100 MB/s upload) as a percentage of median household income",
-    "measure_type": "percent",
-    "short_description": "The minimum price for fast internet (100 MB/s upload) as a percent of median household income",
-    "short_name": "Percentage of income for fast internet",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      },
-      {
-        "name": "Broadband Now",
-        "date_accessed": 2021,
-        "url": "https://broadbandnow.com/"
-      }
-    ],
-    "statement": "Fast internet costs {value} of the median household income in {features.name}.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_hh_without_internet": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "Percentage of households self-reported to not have internet access at home. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
-    "long_name": "Percentage of households without internet access",
-    "measure_type": "percent",
-    "short_description": "Percentage of households self-reported to not have internet access at home",
-    "short_name": "Households without internet access",
-    "sources": [
-      {
-        "name": "American Community Survey Table B28002",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "{value} of households in {features.name} do not have internet access.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_hh_without_compdev": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Accessibility",
-    "layer": "",
-    "long_description": "Percentage of the households self-reported to not have a computer or device at home. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
-    "long_name": "Percentage of households without a computer",
-    "measure_type": "percent",
-    "short_description": "Percentage of households self-reported to not have a computer or device at home",
-    "short_name": "Households without a computer",
-    "sources": [
-      {
-        "name": "American Community Survey Table B28002",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "{value} of households in {features.name} do not have a computer or device.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_hh_with_cable_fiber_dsl": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "Percentage of households self-reported to have a high speed internet service. A high speed internet service is defined as a cable, fiber optic, or DSL internet connection. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
-    "long_name": "Percentage of households with a high speed internet service (cable, fiber optic, or DSL)",
-    "measure_type": "percent",
-    "short_description": "Percentage of households self-reported to have a high speed internet service (cable, fiber optic, or DSL)",
-    "short_name": "Households with cable, fiber optic, or DSL",
-    "sources": [
-      {
-        "name": "American Community Survey Table B28002",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "{value} of households in {features.name} have a cable, fiber optic, or DSL internet connection.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_hh_with_broadband": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "Percentage of households self-reported to have a broadband internet connection. Broadband internet is defined as any type of internet other than a dial-up. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
-    "long_name": "Percentage of households with broadband",
-    "measure_type": "percent",
-    "short_description": "Percentage of households self-reported to have a broadband internet connection (any type of internet other than a dial-up)",
-    "short_name": "Households with broadband",
-    "sources": [
-      {
-        "name": "American Community Survey Table B28002",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "{value} of households in {features.name} have a broadband connection.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_total_25_3_using_devices": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
+    "equity_category": "Status",
     "layer": "",
     "long_description": "",
-    "long_name": "Percent of the Total Population with Good Internet Speed",
-    "measure_type": "percent",
-    "short_description": "Percent of the total population with a good internet speed (above 25/3 MB/s, able to stream video or online game for one device).",
-    "short_name": "Percent Good (total)",
-    "sources": [
-      {
-        "name": "Ookla",
-        "date_accessed": 2021,
-        "url": "https://www.ookla.com/ookla-for-good/open-data"
-      }
-    ],
-    "statement": "{value} of the total population in {features.name} has a good internet speed.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_w_int_25_3_using_devices": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Percent of the Internet-Connected Population with Good Internet Speed",
-    "measure_type": "percent",
-    "short_description": "Percent of the internet-connected population with a good internet speed (above 25/3 MB/s, able to stream video or online game for one device).",
-    "short_name": "Percent Good (internet-connected)",
-    "sources": [
-      {
-        "name": "Ookla",
-        "date_accessed": 2021,
-        "url": "https://www.ookla.com/ookla-for-good/open-data"
-      }
-    ],
-    "statement": "{value} of the internet-connected population in {features.name} has a good internet speed.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_total_100_20_using_devices": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Percent of the Total Population with Fast Internet Speed",
-    "measure_type": "percent",
-    "short_description": "Percent of the total population with a fast internet speed (above 100/20 MB/s, able to stream HD video on multiple devices or download large files quickly).",
-    "short_name": "Percent Fast (total)",
-    "sources": [
-      {
-        "name": "Ookla",
-        "date_accessed": 2021,
-        "url": "https://www.ookla.com/ookla-for-good/open-data"
-      }
-    ],
-    "statement": "{value} of the total population in {features.name} has a fast internet speed.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_w_int_100_20_using_devices": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Percent of the Internet-Connected Population with Fast Internet Speed",
-    "measure_type": "percent",
-    "short_description": "Percent of the internet-connected population with a fast internet speed (above 100/20 MB/s, able to stream HD video on multiple devices or download large files quickly).",
-    "short_name": "Percent Fast (internet-connected)",
-    "sources": [
-      {
-        "name": "Ookla",
-        "date_accessed": 2021,
-        "url": "https://www.ookla.com/ookla-for-good/open-data"
-      }
-    ],
-    "statement": "{value} of the internet-connected population in {features.name} has a fast internet speed.",
-    "type": "percent",
-    "unit": ""
-  },
-  "devices": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Accessibility",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Number of devices",
+    "long_name": "Total sales of calves within a given county",
     "measure_type": "count",
-    "short_description": "The number of unique devices accessing Ookla Internet speed tests.",
-    "short_name": "Number of devices",
+    "short_description": "Total sales of calves",
+    "short_name": "Total sales of calves",
     "sources": [
       {
-        "name": "Ookla",
-        "date_accessed": 2021,
-        "url": "https://www.ookla.com/ookla-for-good/open-data"
+        "name": "Department of Agriculture National Agriculture Statistics Service",
+        "date_accessed": 2023,
+        "url": "https://www.nass.usda.gov/"
       }
     ],
-    "statement": "There are {value} unique devices in {features.name} accessing Ookla Internet speed tests.",
+    "statement": "Total sales of calves to {feature.name} is {value}.",
     "type": "count",
     "unit": ""
   },
-  "avg_up_using_devices": {
-    "category": "Broadband",
+  "total_commodity_sales": {
+    "category": "Agriculture Industry",
     "citations": "",
     "data_type": "numeric",
-    "equity_category": "Availability",
+    "equity_category": "Status",
     "layer": "",
     "long_description": "",
-    "long_name": "Average Upload Speed",
-    "measure_type": "mean",
-    "short_description": "Average upload speed weighted by number of devices.",
-    "short_name": "Average Upload Speed",
+    "long_name": "Total sales of commodities within a given county",
+    "measure_type": "count",
+    "short_description": "Total sales of commodities",
+    "short_name": "Total sales of commodities",
     "sources": [
       {
-        "name": "Ookla",
-        "date_accessed": 2021,
-        "url": "https://www.ookla.com/ookla-for-good/open-data"
+        "name": "Department of Agriculture National Agriculture Statistics Service",
+        "date_accessed": 2023,
+        "url": "https://www.nass.usda.gov/"
       }
     ],
-    "statement": "The average upload speed is {value} in {features.name}.",
-    "type": "internet speed",
-    "unit": ""
+    "statement": "Total sales of commodities to {feature.name} is {value}",
+    "type": "dollar",
+    "unit": "dollar"
   },
-  "avg_down_using_devices": {
-    "category": "Broadband",
+  "total_animalProducts_sales": {
+    "category": "Agriculture Industry",
     "citations": "",
     "data_type": "numeric",
-    "equity_category": "Availability",
+    "equity_category": "Status",
     "layer": "",
     "long_description": "",
-    "long_name": "Average Download Speed",
-    "measure_type": "speed",
-    "short_description": "Average download speed weighted by number of devices.",
-    "short_name": "Average Download Speed",
-    "sources": [
-      {
-        "name": "Ookla",
-        "date_accessed": 2021,
-        "url": "https://www.ookla.com/ookla-for-good/open-data"
-      }
-    ],
-    "statement": "The average download speed is {value} in {features.name}.",
-    "type": "internet speed",
-    "unit": ""
-  },
-  "earnings_per_job": {
-    "category": "Employment/Workforce Development",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "Earnings per job is calculated based on the GDP and Personal Income table from the Bureau of Economic Analysis.",
-    "long_name": "Earnings per job",
-    "measure_type": "dollars",
-    "short_description": "Average of earnings per job.",
-    "short_name": "Earnings per job",
-    "sources": [
-      {
-        "name": "Bureau of Economic Analysis",
-        "date_accessed": "2021",
-        "url": "https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=1&acrdn=6"
-      }
-    ],
-    "statement": "Earnings per job in {features.name} is {value}.",
-    "type": "dollar",
-    "unit": ""
-  },
-  "gini_index": {
-    "category": "Financial Well Being",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "",
-    "layer": "",
-    "long_description": "The Gini Index is a summary measure of income inequality. The Gini coefficient incorporates the detailed shares data into a single statistic, which summarizes the dispersion of income across the entire income distribution. The Gini coefficient ranges from 0, indicating perfect equality (where everyone receives an equal share), to 1, perfect inequality (where only one recipient or group of recipients receives all the income). The Gini is based on the difference between the Lorenz curve (the observed cumulative income distribution) and the notion of a perfectly equal income distribution.",
-    "long_name": "Income Inequality (Gini Index)",
-    "measure_type": "index",
-    "short_description": "The Gini Index is a summary measure of income inequality.",
-    "short_name": "Income Inequality (Gini Index)",
-    "sources": [
-      {
-        "name": "U.S. Census American Community Survey",
-        "location": "Table B19083",
-        "date_accessed": "2023"
-      }
-    ],
-    "statement": "Income Inequality (Gini Index) in {features.name} is {value}.",
-    "type": "",
-    "unit": ""
-  },
-  "median_household_income": {
-    "category": "Financial Well Being",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "Self-reported median household income in the past 12 months (in 2019 inflation adjusted-dollars. Based on the American Community Survey Table B19013 ACS 2015/2019 5-year estimates.",
-    "long_name": "Median household income",
+    "long_name": "Total sales of animal products within a given county",
     "measure_type": "count",
-    "short_description": "Self-reported median household income in the past 12 months (in 2019 inflation adjusted-dollars.",
-    "short_name": "Median household income",
+    "short_description": "Total sales of animal products",
+    "short_name": "Total sales of animal products",
     "sources": [
       {
-        "date_accessed": 2022,
-        "name": "American Community Survey",
-        "location": "Table B19013",
-        "url": "https://www.census.gov/programs-surveys/acs"
+        "name": "Department of Agriculture National Agriculture Statistics Service",
+        "date_accessed": 2023,
+        "url": "https://www.nass.usda.gov/"
       }
     ],
-    "statement": "The median household income in {features.name} is {value} per year.",
+    "statement": "Total sales of animal products to {features.name} is {value}.",
     "type": "dollar",
-    "unit": ""
+    "unit": "dollar"
   },
-  "job_participate_rate": {
-    "category": "Employment/Workforce Development",
+  "fruit_treeNut_total_sales": {
+    "category": "Agriculture Industry",
     "citations": "",
     "data_type": "numeric",
     "equity_category": "Status",
     "layer": "",
-    "long_description": "The percentage of individuals 16-64 years of age in the active labor force. The job particpation rate is often used by economists as an indicator of economic development and growth.",
-    "long_name": "Job Participation Pecentage",
-    "measure_type": "percent",
-    "short_description": "The percentage of individuals 16-64 years of age in the active labor force.",
-    "short_name": "Job Participation Pecentage",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "location": "Table B23025",
-        "date_accessed": "2023",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "{value} of the population in {features.name} is participating in the civilian job force.",
-    "type": "percent",
-    "unit": ""
-  },
-  "emp_rate": {
-    "category": "Employment/Workforce Development",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "Population self-reported as employed as a percentage of total civilian workforce population. Based on American Community Survey Table B23025 ACS 2015/2019 5-year estimates.",
-    "long_name": "Percentage civilian employed",
-    "measure_type": "percent",
-    "short_description": "Population self-reported as employed as a percentage of total civilian workforce population.",
-    "short_name": "Percentage employed",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "location": "Table B23025",
-        "date_accessed": "2021",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "{value} of the population in {features.name} is employed.",
-    "type": "percent",
-    "unit": ""
-  },
-  "average_years_schooling": {
-    "category": "Education",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "The Education Index measures the average education level achieved by the adult population in an area. This is based on the average years of schooling in an area. The calculation used to calculate the index can be found in (Bennett, D.L. Educational Inequailty in the United States: Methodology and Historical Estimates of Education Gini Coefficients. Econ. Modeling Microeconom. Stud. Health 2001). Higher educational attainment has been shown to have positive impacts on economic earning and positive health outcomes.",
-    "long_name": "Education Index (Average Years of Schooling)",
-    "measure_type": "average",
-    "short_description": "Education Index (Average Years of Schooling)",
-    "short_name": "Average Years of Schooling",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "location": "Table B15001",
-        "date_accessed": "2023",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "{value} is the avg yrs of schooling in {features.name}.",
-    "type": "average",
-    "unit": ""
-  },
-  "median_read_pass_rate": {
-    "category": "Education",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "Median percentage of 3rd grade population passing reading test. The median is calculated across schools in the region.",
-    "long_name": "Median percentage of 3rd graders passing reading test",
-    "measure_type": "percent",
-    "short_description": "Median percentage of 3rd grade population passing reading test for schools in the region",
-    "short_name": "Median 3rd graders passing reading",
-    "sources": [
-      {
-        "name": "Virginia Department of Education",
-        "location": "Data & Reports > Statistics & Reports > SOL Test Pass Rates & Other Results",
-        "location_url": "https://www.doe.virginia.gov/data-policy-funding/data-reports/statistics-reports/sol-test-pass-rates-other-results",
-        "date_accessed": 2021,
-        "url": "https://www.doe.virginia.gov"
-      }
-    ],
-    "statement": "On average, {value} of 3rd graders pass reading in {region_name}.",
-    "type": "percent",
-    "unit": "%"
-  },
-  "acs_postsecondary_percent": {
-    "category": "Education",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "Percentage of the population who reported any postsecondary education, according to the U.S. Census American Community Survey 5-year estimates.",
-    "long_name": "Estimated Percentage of Population With Any Postsecondary Education",
-    "measure_type": "percent",
-    "short_description": "Percentage of the population who reported any postsecondary education.",
-    "short_name": "Postsecondary Education (percent)",
-    "sources": [
-      {
-        "name": "U.S. Census, American Community Survey",
-        "location": "5-Year estimates, table B06009, via the API",
-        "location_url": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
-        "date_accessed": 2023,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "{value} of those in {region_name} report any postsecondary education.",
-    "type": "percent",
-    "unit": "%"
-  },
-  "schools_2year_with_science_program_per_100k": {
-    "category": "Education",
-    "citations": [
-      "wan12",
-      "bii21"
-    ],
-    "data_type": "numeric",
-    "equity_category": "Accessibility",
-    "layer": {
-      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Postsecondary/data/distribution/points_{time}.geojson",
-      "filter": [
-        {
-          "feature": "ICLEVEL",
-          "operator": "=",
-          "value": 2
-        },
-        {
-          "feature": "science",
-          "operator": "=",
-          "value": 1
-        }
-      ]
-    },
-    "long_description": "Number of schools authorized to award Associates degrees or less than 2-year or longer certificates with science programs (any with Classification of Institutional Programs [CIP] codes starting with 41) per 100k people over 14, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) 2-year schools with any degrees conferred in the given year with a CIP code starting with 41, as listed by the National Center for Education Statistics, with supply values of 1, (b) Census block groups, with supply values as the population over the age of 14 as reported the American Community Survey 5-year summaries, and (c) distances between school locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
-    "long_name": "2-year science programs per 100k people over 14",
-    "measure_type": "ratio",
-    "short_description": "Number of 2-year schools with science programs per 100k people over 14, calculated within floating catchment areas.",
-    "short_name": "2-year science programs",
-    "sources": [
-      {
-        "name": "National Center for Education Statistics",
-        "location": "Integrated Postsecondary Education Data System, Institutional Characteristics and Completions files",
-        "location_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
-        "date_accessed": 2023,
-        "url": "https://nces.ed.gov"
-      },
-      {
-        "name": "American Community Survey",
-        "location": "data/5_year_seq_by_state",
-        "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
-        "date_accessed": 2023,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      },
-      {
-        "name": "Open Source Routing Machine",
-        "date_accessed": 2022,
-        "url": "http://project-osrm.org"
-      }
-    ],
-    "statement": "There are {value} 2-year schools with a science program per 100k people over 14 in {region_name}.",
-    "type": "per 100k",
-    "unit": "per 100k"
-  },
-  "schools_2year_with_physical_program_per_100k": {
-    "category": "Education",
-    "citations": [
-      "wan12",
-      "bii21"
-    ],
-    "data_type": "numeric",
-    "equity_category": "Accessibility",
-    "layer": {
-      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Postsecondary/data/distribution/points_{time}.geojson",
-      "filter": [
-        {
-          "feature": "ICLEVEL",
-          "operator": "=",
-          "value": 2
-        },
-        {
-          "feature": "physical",
-          "operator": "=",
-          "value": 1
-        }
-      ]
-    },
-    "long_description": "Number of schools authorized to award Associates degrees or less than 2-year or longer certificates with physical science programs (any with Classification of Institutional Programs [CIP] codes starting with 40) per 100k people over 14, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) 2-year schools with any degrees conferred in the given year with a CIP code starting with 40, as listed by the National Center for Education Statistics, with supply values of 1, (b) Census block groups, with supply values as the population over the age of 14 as reported the American Community Survey 5-year summaries, and (c) distances between school locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
-    "long_name": "2-year physical science programs per 100k people over 14",
-    "measure_type": "ratio",
-    "short_description": "Number of 2-year schools with physical science programs per 100k people over 14, calculated within floating catchment areas.",
-    "short_name": "2-year physical science programs",
-    "sources": [
-      {
-        "name": "National Center for Education Statistics",
-        "location": "Integrated Postsecondary Education Data System, Institutional Characteristics and Completions files",
-        "location_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
-        "date_accessed": 2023,
-        "url": "https://nces.ed.gov"
-      },
-      {
-        "name": "American Community Survey",
-        "location": "data/5_year_seq_by_state",
-        "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
-        "date_accessed": 2023,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      },
-      {
-        "name": "Open Source Routing Machine",
-        "date_accessed": 2022,
-        "url": "http://project-osrm.org"
-      }
-    ],
-    "statement": "There are {value} 2-year schools with a physical science program per 100k people over 14 in {region_name}.",
-    "type": "per 100k",
-    "unit": "per 100k"
-  },
-  "schools_2year_with_engineering_program_per_100k": {
-    "category": "Education",
-    "citations": [
-      "wan12",
-      "bii21"
-    ],
-    "data_type": "numeric",
-    "equity_category": "Accessibility",
-    "layer": {
-      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Postsecondary/data/distribution/points_{time}.geojson",
-      "filter": [
-        {
-          "feature": "ICLEVEL",
-          "operator": "=",
-          "value": 2
-        },
-        {
-          "feature": "engineering",
-          "operator": "=",
-          "value": 1
-        }
-      ]
-    },
-    "long_description": "Number of schools authorized to award Associates degrees or less than 2-year or longer certificates with engineering or related programs (any with Classification of Institutional Programs [CIP] codes starting with 14 or 15) per 100k people over 14, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) 2-year schools with any degrees conferred in the given year with a CIP code starting with 14 or 15, as listed by the National Center for Education Statistics, with supply values of 1, (b) Census block groups, with supply values as the population over the age of 14 as reported the American Community Survey 5-year summaries, and (c) distances between school locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
-    "long_name": "2-year engineering or related programs per 100k people over 14",
-    "measure_type": "ratio",
-    "short_description": "Number of 2-year schools with engineering or related programs per 100k people over 14, calculated within floating catchment areas.",
-    "short_name": "2-year engineering or related programs",
-    "sources": [
-      {
-        "name": "National Center for Education Statistics",
-        "location": "Integrated Postsecondary Education Data System, Institutional Characteristics and Completions files",
-        "location_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
-        "date_accessed": 2023,
-        "url": "https://nces.ed.gov"
-      },
-      {
-        "name": "American Community Survey",
-        "location": "data/5_year_seq_by_state",
-        "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
-        "date_accessed": 2023,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      },
-      {
-        "name": "Open Source Routing Machine",
-        "date_accessed": 2022,
-        "url": "http://project-osrm.org"
-      }
-    ],
-    "statement": "There are {value} 2-year schools with a engineering or related program per 100k people over 14 in {region_name}.",
-    "type": "per 100k",
-    "unit": "per 100k"
-  },
-  "schools_2year_with_computer_program_per_100k": {
-    "category": "Education",
-    "citations": [
-      "wan12",
-      "bii21"
-    ],
-    "data_type": "numeric",
-    "equity_category": "Accessibility",
-    "layer": {
-      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Postsecondary/data/distribution/points_{time}.geojson",
-      "filter": [
-        {
-          "feature": "ICLEVEL",
-          "operator": "=",
-          "value": 2
-        },
-        {
-          "feature": "computer",
-          "operator": "=",
-          "value": 1
-        }
-      ]
-    },
-    "long_description": "Number of schools authorized to award Associates degrees or less than 2-year or longer certificates with computer science programs (any with Classification of Institutional Programs [CIP] codes starting with 11) per 100k people over 14, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) 2-year schools with any degrees conferred in the given year with a CIP code starting with 11, as listed by the National Center for Education Statistics, with supply values of 1, (b) Census block groups, with supply values as the population over the age of 14 as reported the American Community Survey 5-year summaries, and (c) distances between school locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
-    "long_name": "2-year computer science programs per 100k people over 14",
-    "measure_type": "ratio",
-    "short_description": "Number of 2-year schools with computer science programs per 100k people over 14, calculated within floating catchment areas.",
-    "short_name": "2-year computer science programs",
-    "sources": [
-      {
-        "name": "National Center for Education Statistics",
-        "location": "Integrated Postsecondary Education Data System, Institutional Characteristics and Completions files",
-        "location_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
-        "date_accessed": 2023,
-        "url": "https://nces.ed.gov"
-      },
-      {
-        "name": "American Community Survey",
-        "location": "data/5_year_seq_by_state",
-        "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
-        "date_accessed": 2023,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      },
-      {
-        "name": "Open Source Routing Machine",
-        "date_accessed": 2022,
-        "url": "http://project-osrm.org"
-      }
-    ],
-    "statement": "There are {value} 2-year schools with a computer science program per 100k people over 14 in {region_name}.",
-    "type": "per 100k",
-    "unit": "per 100k"
-  },
-  "schools_2year_with_biomedical_program_per_100k": {
-    "category": "Education",
-    "citations": [
-      "wan12",
-      "bii21"
-    ],
-    "data_type": "numeric",
-    "equity_category": "Accessibility",
-    "layer": {
-      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Postsecondary/data/distribution/points_{time}.geojson",
-      "filter": [
-        {
-          "feature": "ICLEVEL",
-          "operator": "=",
-          "value": 2
-        },
-        {
-          "feature": "biomedical",
-          "operator": "=",
-          "value": 1
-        }
-      ]
-    },
-    "long_description": "Number of schools authorized to award Associates degrees or less than 2-year or longer certificates with biomedical programs (any with Classification of Institutional Programs [CIP] codes starting with 26) per 100k people over 14, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) 2-year schools with any degrees conferred in the given year with a CIP code starting with 26, as listed by the National Center for Education Statistics, with supply values of 1, (b) Census block groups, with supply values as the population over the age of 14 as reported the American Community Survey 5-year summaries, and (c) distances between school locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
-    "long_name": "2-year biomedical programs per 100k people over 14",
-    "measure_type": "ratio",
-    "short_description": "Number of 2-year schools with biomedical programs per 100k people over 14, calculated within floating catchment areas.",
-    "short_name": "2-year biomedical programs",
-    "sources": [
-      {
-        "name": "National Center for Education Statistics",
-        "location": "Integrated Postsecondary Education Data System, Institutional Characteristics and Completions files",
-        "location_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
-        "date_accessed": 2023,
-        "url": "https://nces.ed.gov"
-      },
-      {
-        "name": "American Community Survey",
-        "location": "data/5_year_seq_by_state",
-        "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
-        "date_accessed": 2023,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      },
-      {
-        "name": "Open Source Routing Machine",
-        "date_accessed": 2022,
-        "url": "http://project-osrm.org"
-      }
-    ],
-    "statement": "There are {value} 2-year schools with a biomedical program per 100k people over 14 in {region_name}.",
-    "type": "per 100k",
-    "unit": "per 100k"
-  },
-  "schools_under2year_min_drivetime": {
-    "category": "Education",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Accessibility",
-    "layer": {
-      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Postsecondary/data/distribution/points_{time}.geojson",
-      "filter": {
-        "feature": "ICLEVEL",
-        "operator": "=",
-        "value": 3
-      }
-    },
-    "long_description": "Minimal drive time to a schools authorized to award certificates that are typically obtained in less than 2 years from the Census block group centroid, as calculated by the Open Source Routing Machine in 2022. School locations are from the National Center for Education Statistics. All distances are calculated at the block group level, then averaged up to higher-level geographies.",
-    "long_name": "drive time to nearest <2-year school",
-    "measure_type": "time",
-    "short_description": "Drive time to the nearest <2-year schools.",
-    "short_name": "<2-year school drive time",
-    "sources": [
-      {
-        "name": "National Center for Education Statistics",
-        "location": "Integrated Postsecondary Education Data System, Institutional Characteristics",
-        "location_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
-        "date_accessed": 2023,
-        "url": "https://nces.ed.gov"
-      },
-      {
-        "name": "Open Source Routing Machine",
-        "date_accessed": 2022,
-        "url": "http://project-osrm.org"
-      }
-    ],
-    "statement": "It takes {value} to drive to a <2-year school from {region_name}'s block group centroids on average.",
-    "type": "minutes",
-    "unit": "minutes"
-  },
-  "schools_under2year_per_100k": {
-    "category": "Education",
-    "citations": [
-      "wan12",
-      "bii21"
-    ],
-    "data_type": "numeric",
-    "equity_category": "Accessibility",
-    "layer": {
-      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Postsecondary/data/distribution/points_{time}.geojson",
-      "filter": {
-        "feature": "ICLEVEL",
-        "operator": "=",
-        "value": 3
-      }
-    },
-    "long_description": "Number of schools authorized to award certificates that are typically obtained in less than 2 years per 100k people over 14, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) <2-year schools as listed by the National Center for Education Statistics, with supply values of 1, (b) Census block groups, with supply values as the population over the age of 14 as reported the American Community Survey 5-year summaries, and (c) distances between school locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
-    "long_name": "<2-year schools per 100k people over 14",
-    "measure_type": "ratio",
-    "short_description": "Number of <2-year schools per 100k people over 14, calculated within floating catchment areas.",
-    "short_name": "<2-year schools",
-    "sources": [
-      {
-        "name": "National Center for Education Statistics",
-        "location": "Integrated Postsecondary Education Data System, Institutional Characteristics",
-        "location_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
-        "date_accessed": 2023,
-        "url": "https://nces.ed.gov"
-      },
-      {
-        "name": "American Community Survey",
-        "location": "data/5_year_seq_by_state",
-        "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
-        "date_accessed": 2023,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      },
-      {
-        "name": "Open Source Routing Machine",
-        "date_accessed": 2022,
-        "url": "http://project-osrm.org"
-      }
-    ],
-    "statement": "There are {value} <2-year schools per 100k people over 14 in {region_name}.",
-    "type": "per 100k",
-    "unit": "per 100k"
-  },
-  "schools_2year_min_drivetime": {
-    "category": "Education",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Accessibility",
-    "layer": {
-      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Postsecondary/data/distribution/points_{time}.geojson",
-      "filter": {
-        "feature": "ICLEVEL",
-        "operator": "=",
-        "value": 2
-      }
-    },
-    "long_description": "Minimal drive time to a school authorized to award Associates degrees or 2-year or longer certificates from the Census block group centroid, as calculated by the Open Source Routing Machine in 2022. School locations are from the National Center for Education Statistics. All distances are calculated at the block group level, then averaged up to higher-level geographies.",
-    "long_name": "drive time to nearest 2-year school",
-    "measure_type": "time",
-    "short_description": "Drive time to the nearest 2-year schools.",
-    "short_name": "2-year school drive time",
-    "sources": [
-      {
-        "name": "National Center for Education Statistics",
-        "location": "Integrated Postsecondary Education Data System, Institutional Characteristics",
-        "location_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
-        "date_accessed": 2023,
-        "url": "https://nces.ed.gov"
-      },
-      {
-        "name": "Open Source Routing Machine",
-        "date_accessed": 2022,
-        "url": "http://project-osrm.org"
-      }
-    ],
-    "statement": "It takes {value} to drive to a 2-year school from {region_name}'s block group centroids on average.",
-    "type": "minutes",
-    "unit": "minutes"
-  },
-  "schools_2year_per_100k": {
-    "category": "Education",
-    "citations": [
-      "wan12",
-      "bii21"
-    ],
-    "data_type": "numeric",
-    "equity_category": "Accessibility",
-    "layer": {
-      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Postsecondary/data/distribution/points_{time}.geojson",
-      "filter": {
-        "feature": "ICLEVEL",
-        "operator": "=",
-        "value": 2
-      }
-    },
-    "long_description": "Number of schools authorized to award Associates degrees or 2-year or longer certificates per 100k people over 14, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) 2-year schools as listed by the National Center for Education Statistics, with supply values of 1, (b) Census block groups, with supply values as the population over the age of 14 as reported the American Community Survey 5-year summaries, and (c) distances between school locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
-    "long_name": "2-year schools per 100k people over 14",
-    "measure_type": "ratio",
-    "short_description": "Number of 2-year schools per 100k people over 14.",
-    "short_name": "2-year schools",
-    "sources": [
-      {
-        "name": "National Center for Education Statistics",
-        "location": "Integrated Postsecondary Education Data System, Institutional Characteristics",
-        "location_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
-        "date_accessed": 2023,
-        "url": "https://nces.ed.gov"
-      },
-      {
-        "name": "American Community Survey",
-        "location": "data/5_year_seq_by_state",
-        "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
-        "date_accessed": 2023,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      },
-      {
-        "name": "Open Source Routing Machine",
-        "date_accessed": 2022,
-        "url": "http://project-osrm.org"
-      }
-    ],
-    "statement": "There are {value} 2-year schools per 100k people over 14 in {region_name}.",
-    "type": "per 100k",
-    "unit": "per 100k"
-  },
-  "daycare_under_10_per_1k": {
-    "category": "Education",
-    "citations": [
-      "wan12",
-      "bii21"
-    ],
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": {
-      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Daycare/data/distribution/points_{time}.geojson",
-      "filter": {
-        "feature": "age_max",
-        "operator": "<",
-        "value": 10
-      }
-    },
-    "long_description": "Number of day care seats per 1,000 children under 10 years of age, as calculated within floating catchment areas. Catchment area ratios are based on population under 10 within block groups (as estimated in the American Community Survey), day care capacity (as reported by the Virginia Department of Social Services), and travel times between block group centroids and day care locations (as calculated with the Open Source Routing Machine). Catchment areas are weighted by travel time with a Gaussian function with scale of 18, which are normalized for each consumer.",
-    "long_name": "Day Care Seats Per 1k Children Under 10",
-    "measure_type": "ratio",
-    "short_description": "Number of day care seats per 1,000 children under 10 years of age.",
-    "short_name": "Day Care Seats Per 1k Children (<10)",
-    "sources": [
-      {
-        "name": "Virginia Department of Social Services",
-        "location": "Child Day Care Search",
-        "location_url": "https://www.dss.virginia.gov/facility/search/cc2.cgi",
-        "date_accessed": 2023,
-        "url": "https://www.dss.virginia.gov"
-      },
-      {
-        "name": "American Community Survey",
-        "location": "data/5_year_seq_by_state",
-        "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
-        "date_accessed": 2023,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      },
-      {
-        "name": "Open Source Routing Machine",
-        "date_accessed": 2022,
-        "url": "http://project-osrm.org"
-      }
-    ],
-    "statement": "There are {value} day care seats per 1,000 children under 10 in {region_name}.",
-    "type": "per 1k",
-    "unit": ""
-  },
-  "daycare_over_4_per_1k": {
-    "category": "Education",
-    "citations": [
-      "wan12",
-      "bii21"
-    ],
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": {
-      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Daycare/data/distribution/points_{time}.geojson",
-      "filter": {
-        "feature": "age_min",
-        "operator": ">",
-        "value": 4
-      }
-    },
-    "long_description": "Number of day care seats per 1,000 children between 5 and 14 years of age, as calculated within floating catchment areas. Catchment area ratios are based on population 5 and 14 within block groups (as estimated in the American Community Survey), day care capacity (as reported by the Virginia Department of Social Services), and travel times between block group centroids and day care locations (as calculated with the Open Source Routing Machine). Catchment areas are weighted by travel time with a Gaussian function with scale of 18, which are normalized for each consumer.",
-    "long_name": "Day Care Seats Per 1k Children Ages 5 to 14",
-    "measure_type": "ratio",
-    "short_description": "Number of day care seats per 1,000 children between 5 and 14 years of age.",
-    "short_name": "Day Care Seats Per 1k Children (5+)",
-    "sources": [
-      {
-        "name": "Virginia Department of Social Services",
-        "location": "Child Day Care Search",
-        "location_url": "https://www.dss.virginia.gov/facility/search/cc2.cgi",
-        "date_accessed": 2023,
-        "url": "https://www.dss.virginia.gov"
-      },
-      {
-        "name": "American Community Survey",
-        "location": "data/5_year_seq_by_state",
-        "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
-        "date_accessed": 2023,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      },
-      {
-        "name": "Open Source Routing Machine",
-        "date_accessed": 2022,
-        "url": "http://project-osrm.org"
-      }
-    ],
-    "statement": "There are {value} day care seats per 1,000 children between 5 and 14 in {region_name}.",
-    "type": "per 1k",
-    "unit": ""
-  },
-  "daycare_per_1k": {
-    "category": "Education",
-    "citations": [
-      "wan12",
-      "bii21"
-    ],
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": {
-      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Daycare/data/distribution/points_{time}.geojson",
-      "filter": [
-        {
-          "feature": "age_min",
-          "operator": "<",
-          "value": 5
-        },
-        {
-          "feature": "age_max",
-          "operator": ">",
-          "value": 9
-        }
-      ]
-    },
-    "long_description": "Number of day care seats per 1,000 children under 15 years of age, as calculated within floating catchment areas. Catchment area ratios are based on population under 15 within block groups (as estimated in the American Community Survey), day care capacity (as reported by the Virginia Department of Social Services), and travel times between block group centroids and day care locations (as calculated with the Open Source Routing Machine). Catchment areas are weighted by travel time with a Gaussian function with scale of 18, which are normalized for each consumer.",
-    "long_name": "Day Care Seats Per 1k Children Under 15",
-    "measure_type": "ratio",
-    "short_description": "Number of day care seats per 1,000 children under 15 years of age.",
-    "short_name": "Day Care Seats Per 1k Children",
-    "sources": [
-      {
-        "name": "Virginia Department of Social Services",
-        "location": "Child Day Care Search",
-        "location_url": "https://www.dss.virginia.gov/facility/search/cc2.cgi",
-        "date_accessed": 2023,
-        "url": "https://www.dss.virginia.gov"
-      },
-      {
-        "name": "American Community Survey",
-        "location": "data/5_year_seq_by_state",
-        "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
-        "date_accessed": 2023,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      },
-      {
-        "name": "Open Source Routing Machine",
-        "date_accessed": 2022,
-        "url": "http://project-osrm.org"
-      }
-    ],
-    "statement": "There are {value} day care seats per 1,000 children under 15 in {region_name}.",
-    "type": "per 1k",
-    "unit": ""
-  },
-  "daycare_min_drivetime": {
-    "category": "Education",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": {
-      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Daycare/data/distribution/points_{time}.geojson"
-    },
-    "long_description": "Time (minutes) to drive to the nearest day care provider of any type.",
-    "long_name": "Minutes to Nearest Day Care",
-    "measure_type": "time",
-    "short_description": "Time (minutes) to drive to the nearest day care provider.",
-    "short_name": "Day Care Drive Time",
-    "sources": [
-      {
-        "name": "Virginia Department of Social Services",
-        "location": "Child Day Care Search",
-        "location_url": "https://www.dss.virginia.gov/facility/search/cc2.cgi",
-        "date_accessed": 2023,
-        "url": "https://www.dss.virginia.gov"
-      },
-      {
-        "name": "Open Source Routing Machine",
-        "date_accessed": 2022,
-        "url": "http://project-osrm.org"
-      }
-    ],
-    "statement": "It takes {value} to drive to the nearest day care provider in {region_name}.",
-    "type": "minutes",
-    "unit": ""
-  },
-  "daycare_capacity": {
-    "category": "Education",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": {
-      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Daycare/data/distribution/points_{time}.geojson"
-    },
-    "long_description": "Summed capacity (seats) of all day care providers within the region.",
-    "long_name": "Day Care Capacity",
+    "long_description": "",
+    "long_name": "Total sales of fruits and treenuts within a given county",
     "measure_type": "count",
-    "short_description": "Summed capacity (seats) of all day care providers within the region.",
-    "short_name": "Day Care Capacity",
+    "short_description": "Total sales of fruits and treenuts",
+    "short_name": "Total sales of fruits and treenuts",
     "sources": [
       {
-        "name": "Virginia Department of Social Services",
-        "location": "Child Day Care Search",
-        "location_url": "https://www.dss.virginia.gov/facility/search/cc2.cgi",
+        "name": "Department of Agriculture National Agriculture Statistics Service",
         "date_accessed": 2023,
-        "url": "https://www.dss.virginia.gov"
+        "url": "https://www.nass.usda.gov/"
       }
     ],
-    "statement": "There are {value} daycare seats in {region_name}.",
+    "statement": "Total sales of fruit and tree nuts to {features.name} is {value}.",
+    "type": "dollar",
+    "unit": "dollar"
+  },
+  "total_animal_expense": {
+    "category": "Agriculture Industry",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "",
+    "long_name": "County's total expenses towards animal industry",
+    "measure_type": "count",
+    "short_description": "Total expenses towards animal industry",
+    "short_name": "Total expenses towards animal industry",
+    "sources": [
+      {
+        "name": "Department of Agriculture National Agriculture Statistics Service",
+        "date_accessed": 2023,
+        "url": "https://www.nass.usda.gov/"
+      }
+    ],
+    "statement": "The overall expenses towards animals to {features.name} is {value}.",
+    "type": "dollar",
+    "unit": "dollar"
+  },
+  "total_cropland_operations": {
+    "category": "Agriculture Industry",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Number of operations with land devoted to cropland growing",
+    "measure_type": "count",
+    "short_description": "Number of operations with cropland",
+    "short_name": "Number of operations with cropland",
+    "sources": [
+      {
+        "name": "Department of Agriculture National Agriculture Statistics Service",
+        "date_accessed": 2023,
+        "url": "https://www.nass.usda.gov/"
+      }
+    ],
+    "statement": "The total number of operations with cropland to {features.name} is {value}.",
+    "type": "count",
+    "unit": ""
+  },
+  "total_irrigatedCropland_acre": {
+    "category": "Agriculture Industry",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Total acreage used in agriculture for irrigated cropland",
+    "measure_type": "count",
+    "short_description": "Total acerage for irrigated cropland",
+    "short_name": "Total acerage for irrigated cropland",
+    "sources": [
+      {
+        "name": "Department of Agriculture National Agriculture Statistics Service",
+        "date_accessed": 2023,
+        "url": "https://www.nass.usda.gov/"
+      }
+    ],
+    "statement": "The total acreage for irrigated cropland to {features.name} is {value}.",
+    "type": "count",
+    "unit": ""
+  },
+  "total_cropland_acres": {
+    "category": "Agriculture Industry",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Total acerage used in agriculture for cropland",
+    "measure_type": "count",
+    "short_description": "Total acreage for cropland",
+    "short_name": "Total acreage for cropland",
+    "sources": [
+      {
+        "name": "Department of Agriculture National Agriculture Statistics Service",
+        "date_accessed": 2023,
+        "url": "https://www.nass.usda.gov/"
+      }
+    ],
+    "statement": "The total acreage for cropland to {features.name} is {value}.",
     "type": "count",
     "unit": ""
   },
@@ -1624,180 +662,117 @@
     "type": "percent",
     "unit": ""
   },
-  "total_calves_sales": {
-    "category": "Agriculture Industry",
+  "earnings_per_job": {
+    "category": "Employment/Workforce Development",
     "citations": "",
     "data_type": "numeric",
     "equity_category": "Status",
     "layer": "",
-    "long_description": "",
-    "long_name": "Total sales of calves within a given county",
-    "measure_type": "count",
-    "short_description": "Total sales of calves",
-    "short_name": "Total sales of calves",
+    "long_description": "Earnings per job is calculated based on the GDP and Personal Income table from the Bureau of Economic Analysis.",
+    "long_name": "Earnings per job",
+    "measure_type": "dollars",
+    "short_description": "Average of earnings per job.",
+    "short_name": "Earnings per job",
     "sources": [
       {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
-        "date_accessed": 2023,
-        "url": "https://www.nass.usda.gov/"
+        "name": "Bureau of Economic Analysis",
+        "date_accessed": "2021",
+        "url": "https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=1&acrdn=6"
       }
     ],
-    "statement": "Total sales of calves to {feature.name} is {value}.",
-    "type": "count",
+    "statement": "Earnings per job in {features.name} is {value}.",
+    "type": "dollar",
     "unit": ""
   },
-  "total_commodity_sales": {
-    "category": "Agriculture Industry",
+  "gini_index": {
+    "category": "Financial Well Being",
     "citations": "",
     "data_type": "numeric",
-    "equity_category": "Status",
+    "equity_category": "",
     "layer": "",
-    "long_description": "",
-    "long_name": "Total sales of commodities within a given county",
-    "measure_type": "count",
-    "short_description": "Total sales of commodities",
-    "short_name": "Total sales of commodities",
+    "long_description": "The Gini Index is a summary measure of income inequality. The Gini coefficient incorporates the detailed shares data into a single statistic, which summarizes the dispersion of income across the entire income distribution. The Gini coefficient ranges from 0, indicating perfect equality (where everyone receives an equal share), to 1, perfect inequality (where only one recipient or group of recipients receives all the income). The Gini is based on the difference between the Lorenz curve (the observed cumulative income distribution) and the notion of a perfectly equal income distribution.",
+    "long_name": "Income Inequality (Gini Index)",
+    "measure_type": "index",
+    "short_description": "The Gini Index is a summary measure of income inequality.",
+    "short_name": "Income Inequality (Gini Index)",
     "sources": [
       {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
-        "date_accessed": 2023,
-        "url": "https://www.nass.usda.gov/"
+        "name": "U.S. Census American Community Survey",
+        "location": "Table B19083",
+        "date_accessed": "2023"
       }
     ],
-    "statement": "Total sales of commodities to {feature.name} is {value}",
-    "type": "dollar",
-    "unit": "dollar"
-  },
-  "total_animalProducts_sales": {
-    "category": "Agriculture Industry",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Total sales of animal products within a given county",
-    "measure_type": "count",
-    "short_description": "Total sales of animal products",
-    "short_name": "Total sales of animal products",
-    "sources": [
-      {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
-        "date_accessed": 2023,
-        "url": "https://www.nass.usda.gov/"
-      }
-    ],
-    "statement": "Total sales of animal products to {features.name} is {value}.",
-    "type": "dollar",
-    "unit": "dollar"
-  },
-  "fruit_treeNut_total_sales": {
-    "category": "Agriculture Industry",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Total sales of fruits and treenuts within a given county",
-    "measure_type": "count",
-    "short_description": "Total sales of fruits and treenuts",
-    "short_name": "Total sales of fruits and treenuts",
-    "sources": [
-      {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
-        "date_accessed": 2023,
-        "url": "https://www.nass.usda.gov/"
-      }
-    ],
-    "statement": "Total sales of fruit and tree nuts to {features.name} is {value}.",
-    "type": "dollar",
-    "unit": "dollar"
-  },
-  "total_animal_expense": {
-    "category": "Agriculture Industry",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "",
-    "long_name": "County's total expenses towards animal industry",
-    "measure_type": "count",
-    "short_description": "Total expenses towards animal industry",
-    "short_name": "Total expenses towards animal industry",
-    "sources": [
-      {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
-        "date_accessed": 2023,
-        "url": "https://www.nass.usda.gov/"
-      }
-    ],
-    "statement": "The overall expenses towards animals to {features.name} is {value}.",
-    "type": "dollar",
-    "unit": "dollar"
-  },
-  "total_cropland_operations": {
-    "category": "Agriculture Industry",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Number of operations with land devoted to cropland growing",
-    "measure_type": "count",
-    "short_description": "Number of operations with cropland",
-    "short_name": "Number of operations with cropland",
-    "sources": [
-      {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
-        "date_accessed": 2023,
-        "url": "https://www.nass.usda.gov/"
-      }
-    ],
-    "statement": "The total number of operations with cropland to {features.name} is {value}.",
-    "type": "count",
+    "statement": "Income Inequality (Gini Index) in {features.name} is {value}.",
+    "type": "",
     "unit": ""
   },
-  "total_irrigatedCropland_acre": {
-    "category": "Agriculture Industry",
+  "median_household_income": {
+    "category": "Financial Well Being",
     "citations": "",
     "data_type": "numeric",
     "equity_category": "Status",
     "layer": "",
-    "long_description": "",
-    "long_name": "Total acreage used in agriculture for irrigated cropland",
+    "long_description": "Self-reported median household income in the past 12 months (in 2019 inflation adjusted-dollars. Based on the American Community Survey Table B19013 ACS 2015/2019 5-year estimates.",
+    "long_name": "Median household income",
     "measure_type": "count",
-    "short_description": "Total acerage for irrigated cropland",
-    "short_name": "Total acerage for irrigated cropland",
+    "short_description": "Self-reported median household income in the past 12 months (in 2019 inflation adjusted-dollars.",
+    "short_name": "Median household income",
     "sources": [
       {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
-        "date_accessed": 2023,
-        "url": "https://www.nass.usda.gov/"
+        "date_accessed": 2022,
+        "name": "American Community Survey",
+        "location": "Table B19013",
+        "url": "https://www.census.gov/programs-surveys/acs"
       }
     ],
-    "statement": "The total acreage for irrigated cropland to {features.name} is {value}.",
-    "type": "count",
+    "statement": "The median household income in {features.name} is {value} per year.",
+    "type": "dollar",
     "unit": ""
   },
-  "total_cropland_acres": {
-    "category": "Agriculture Industry",
+  "job_participate_rate": {
+    "category": "Employment/Workforce Development",
     "citations": "",
     "data_type": "numeric",
     "equity_category": "Status",
     "layer": "",
-    "long_description": "",
-    "long_name": "Total acerage used in agriculture for cropland",
-    "measure_type": "count",
-    "short_description": "Total acreage for cropland",
-    "short_name": "Total acreage for cropland",
+    "long_description": "The percentage of individuals 16-64 years of age in the active labor force. The job particpation rate is often used by economists as an indicator of economic development and growth.",
+    "long_name": "Job Participation Pecentage",
+    "measure_type": "percent",
+    "short_description": "The percentage of individuals 16-64 years of age in the active labor force.",
+    "short_name": "Job Participation Pecentage",
     "sources": [
       {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
-        "date_accessed": 2023,
-        "url": "https://www.nass.usda.gov/"
+        "name": "American Community Survey",
+        "location": "Table B23025",
+        "date_accessed": "2023",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
       }
     ],
-    "statement": "The total acreage for cropland to {features.name} is {value}.",
-    "type": "count",
+    "statement": "{value} of the population in {features.name} is participating in the civilian job force.",
+    "type": "percent",
+    "unit": ""
+  },
+  "emp_rate": {
+    "category": "Employment/Workforce Development",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Population self-reported as employed as a percentage of total civilian workforce population. Based on American Community Survey Table B23025 ACS 2015/2019 5-year estimates.",
+    "long_name": "Percentage civilian employed",
+    "measure_type": "percent",
+    "short_description": "Population self-reported as employed as a percentage of total civilian workforce population.",
+    "short_name": "Percentage employed",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "location": "Table B23025",
+        "date_accessed": "2021",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "{value} of the population in {features.name} is employed.",
+    "type": "percent",
     "unit": ""
   },
   "no_hlth_ins_pct": {
@@ -2892,7 +1867,738 @@
     "type": "count",
     "unit": ""
   },
+  "average_years_schooling": {
+    "category": "Education",
+    "type": "average",
+    "short_name": "Average Years of Schooling",
+    "long_name": "Education Index (Average Years of Schooling)",
+    "short_description": "Education Index (Average Years of Schooling)",
+    "long_description": "The Education Index measures the average education level achieved by the adult population in an area. This is based on the average years of schooling in an area. The calculation used to calculate the index can be found in (Bennett, D.L. Educational Inequailty in the United States: Methodology and Historical Estimates of Education Gini Coefficients. Econ. Modeling Microeconom. Stud. Health 2001). Higher educational attainment has been shown to have positive impacts on economic earning and positive health outcomes.",
+    "statement": "{value} is the avg yrs of schooling in {features.name}.",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "location": "Table B15001",
+        "date_accessed": "2023",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "unit": "",
+    "data_type": "numeric",
+    "measure_type": "average"
+  },
+  "median_read_pass_rate": {
+    "category": "Education",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Median percentage of 3rd grade population passing reading test. The median is calculated across schools in the region.",
+    "long_name": "Median percentage of 3rd graders passing reading test",
+    "measure_type": "percent",
+    "short_description": "Median percentage of 3rd grade population passing reading test for schools in the region",
+    "short_name": "Median 3rd graders passing reading",
+    "sources": [
+      {
+        "name": "Virginia Department of Education",
+        "location": "Data & Reports > Statistics & Reports > SOL Test Pass Rates & Other Results",
+        "location_url": "https://www.doe.virginia.gov/data-policy-funding/data-reports/statistics-reports/sol-test-pass-rates-other-results",
+        "date_accessed": 2021,
+        "url": "https://www.doe.virginia.gov"
+      }
+    ],
+    "statement": "On average, {value} of 3rd graders pass reading in {region_name}.",
+    "type": "percent",
+    "unit": "%"
+  },
+  "acs_postsecondary_percent": {
+    "category": "Education",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Percentage of the population who reported any postsecondary education, according to the U.S. Census American Community Survey 5-year estimates.",
+    "long_name": "Estimated Percentage of Population With Any Postsecondary Education",
+    "measure_type": "percent",
+    "short_description": "Percentage of the population who reported any postsecondary education.",
+    "short_name": "Postsecondary Education (percent)",
+    "sources": [
+      {
+        "name": "U.S. Census, American Community Survey",
+        "location": "5-Year estimates, table B06009, via the API",
+        "location_url": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
+        "date_accessed": 2023,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "{value} of those in {region_name} report any postsecondary education.",
+    "type": "percent",
+    "unit": "%"
+  },
+  "schools_2year_with_science_program_per_100k": {
+    "category": "Education",
+    "citations": [
+      "wan12",
+      "bii21"
+    ],
+    "data_type": "numeric",
+    "equity_category": "Accessibility",
+    "layer": {
+      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Postsecondary/data/distribution/points_{time}.geojson",
+      "filter": [
+        {
+          "feature": "ICLEVEL",
+          "operator": "=",
+          "value": 2
+        },
+        {
+          "feature": "science",
+          "operator": "=",
+          "value": 1
+        }
+      ]
+    },
+    "long_description": "Number of schools authorized to award Associates degrees or less than 2-year or longer certificates with science programs (any with Classification of Institutional Programs [CIP] codes starting with 41) per 100k people over 14, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) 2-year schools with any degrees conferred in the given year with a CIP code starting with 41, as listed by the National Center for Education Statistics, with supply values of 1, (b) Census block groups, with supply values as the population over the age of 14 as reported the American Community Survey 5-year summaries, and (c) distances between school locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
+    "long_name": "2-year science programs per 100k people over 14",
+    "measure_type": "ratio",
+    "short_description": "Number of 2-year schools with science programs per 100k people over 14, calculated within floating catchment areas.",
+    "short_name": "2-year science programs",
+    "sources": [
+      {
+        "name": "National Center for Education Statistics",
+        "location": "Integrated Postsecondary Education Data System, Institutional Characteristics and Completions files",
+        "location_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "date_accessed": 2023,
+        "url": "https://nces.ed.gov"
+      },
+      {
+        "name": "American Community Survey",
+        "location": "data/5_year_seq_by_state",
+        "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
+        "date_accessed": 2023,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Open Source Routing Machine",
+        "date_accessed": 2022,
+        "url": "http://project-osrm.org"
+      }
+    ],
+    "statement": "There are {value} 2-year schools with a science program per 100k people over 14 in {region_name}.",
+    "type": "per 100k",
+    "unit": "per 100k"
+  },
+  "schools_2year_with_physical_program_per_100k": {
+    "category": "Education",
+    "citations": [
+      "wan12",
+      "bii21"
+    ],
+    "data_type": "numeric",
+    "equity_category": "Accessibility",
+    "layer": {
+      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Postsecondary/data/distribution/points_{time}.geojson",
+      "filter": [
+        {
+          "feature": "ICLEVEL",
+          "operator": "=",
+          "value": 2
+        },
+        {
+          "feature": "physical",
+          "operator": "=",
+          "value": 1
+        }
+      ]
+    },
+    "long_description": "Number of schools authorized to award Associates degrees or less than 2-year or longer certificates with physical science programs (any with Classification of Institutional Programs [CIP] codes starting with 40) per 100k people over 14, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) 2-year schools with any degrees conferred in the given year with a CIP code starting with 40, as listed by the National Center for Education Statistics, with supply values of 1, (b) Census block groups, with supply values as the population over the age of 14 as reported the American Community Survey 5-year summaries, and (c) distances between school locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
+    "long_name": "2-year physical science programs per 100k people over 14",
+    "measure_type": "ratio",
+    "short_description": "Number of 2-year schools with physical science programs per 100k people over 14, calculated within floating catchment areas.",
+    "short_name": "2-year physical science programs",
+    "sources": [
+      {
+        "name": "National Center for Education Statistics",
+        "location": "Integrated Postsecondary Education Data System, Institutional Characteristics and Completions files",
+        "location_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "date_accessed": 2023,
+        "url": "https://nces.ed.gov"
+      },
+      {
+        "name": "American Community Survey",
+        "location": "data/5_year_seq_by_state",
+        "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
+        "date_accessed": 2023,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Open Source Routing Machine",
+        "date_accessed": 2022,
+        "url": "http://project-osrm.org"
+      }
+    ],
+    "statement": "There are {value} 2-year schools with a physical science program per 100k people over 14 in {region_name}.",
+    "type": "per 100k",
+    "unit": "per 100k"
+  },
+  "schools_2year_with_engineering_program_per_100k": {
+    "category": "Education",
+    "citations": [
+      "wan12",
+      "bii21"
+    ],
+    "data_type": "numeric",
+    "equity_category": "Accessibility",
+    "layer": {
+      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Postsecondary/data/distribution/points_{time}.geojson",
+      "filter": [
+        {
+          "feature": "ICLEVEL",
+          "operator": "=",
+          "value": 2
+        },
+        {
+          "feature": "engineering",
+          "operator": "=",
+          "value": 1
+        }
+      ]
+    },
+    "long_description": "Number of schools authorized to award Associates degrees or less than 2-year or longer certificates with engineering or related programs (any with Classification of Institutional Programs [CIP] codes starting with 14 or 15) per 100k people over 14, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) 2-year schools with any degrees conferred in the given year with a CIP code starting with 14 or 15, as listed by the National Center for Education Statistics, with supply values of 1, (b) Census block groups, with supply values as the population over the age of 14 as reported the American Community Survey 5-year summaries, and (c) distances between school locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
+    "long_name": "2-year engineering or related programs per 100k people over 14",
+    "measure_type": "ratio",
+    "short_description": "Number of 2-year schools with engineering or related programs per 100k people over 14, calculated within floating catchment areas.",
+    "short_name": "2-year engineering or related programs",
+    "sources": [
+      {
+        "name": "National Center for Education Statistics",
+        "location": "Integrated Postsecondary Education Data System, Institutional Characteristics and Completions files",
+        "location_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "date_accessed": 2023,
+        "url": "https://nces.ed.gov"
+      },
+      {
+        "name": "American Community Survey",
+        "location": "data/5_year_seq_by_state",
+        "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
+        "date_accessed": 2023,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Open Source Routing Machine",
+        "date_accessed": 2022,
+        "url": "http://project-osrm.org"
+      }
+    ],
+    "statement": "There are {value} 2-year schools with a engineering or related program per 100k people over 14 in {region_name}.",
+    "type": "per 100k",
+    "unit": "per 100k"
+  },
+  "schools_2year_with_computer_program_per_100k": {
+    "category": "Education",
+    "citations": [
+      "wan12",
+      "bii21"
+    ],
+    "data_type": "numeric",
+    "equity_category": "Accessibility",
+    "layer": {
+      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Postsecondary/data/distribution/points_{time}.geojson",
+      "filter": [
+        {
+          "feature": "ICLEVEL",
+          "operator": "=",
+          "value": 2
+        },
+        {
+          "feature": "computer",
+          "operator": "=",
+          "value": 1
+        }
+      ]
+    },
+    "long_description": "Number of schools authorized to award Associates degrees or less than 2-year or longer certificates with computer science programs (any with Classification of Institutional Programs [CIP] codes starting with 11) per 100k people over 14, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) 2-year schools with any degrees conferred in the given year with a CIP code starting with 11, as listed by the National Center for Education Statistics, with supply values of 1, (b) Census block groups, with supply values as the population over the age of 14 as reported the American Community Survey 5-year summaries, and (c) distances between school locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
+    "long_name": "2-year computer science programs per 100k people over 14",
+    "measure_type": "ratio",
+    "short_description": "Number of 2-year schools with computer science programs per 100k people over 14, calculated within floating catchment areas.",
+    "short_name": "2-year computer science programs",
+    "sources": [
+      {
+        "name": "National Center for Education Statistics",
+        "location": "Integrated Postsecondary Education Data System, Institutional Characteristics and Completions files",
+        "location_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "date_accessed": 2023,
+        "url": "https://nces.ed.gov"
+      },
+      {
+        "name": "American Community Survey",
+        "location": "data/5_year_seq_by_state",
+        "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
+        "date_accessed": 2023,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Open Source Routing Machine",
+        "date_accessed": 2022,
+        "url": "http://project-osrm.org"
+      }
+    ],
+    "statement": "There are {value} 2-year schools with a computer science program per 100k people over 14 in {region_name}.",
+    "type": "per 100k",
+    "unit": "per 100k"
+  },
+  "schools_2year_with_biomedical_program_per_100k": {
+    "category": "Education",
+    "citations": [
+      "wan12",
+      "bii21"
+    ],
+    "data_type": "numeric",
+    "equity_category": "Accessibility",
+    "layer": {
+      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Postsecondary/data/distribution/points_{time}.geojson",
+      "filter": [
+        {
+          "feature": "ICLEVEL",
+          "operator": "=",
+          "value": 2
+        },
+        {
+          "feature": "biomedical",
+          "operator": "=",
+          "value": 1
+        }
+      ]
+    },
+    "long_description": "Number of schools authorized to award Associates degrees or less than 2-year or longer certificates with biomedical programs (any with Classification of Institutional Programs [CIP] codes starting with 26) per 100k people over 14, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) 2-year schools with any degrees conferred in the given year with a CIP code starting with 26, as listed by the National Center for Education Statistics, with supply values of 1, (b) Census block groups, with supply values as the population over the age of 14 as reported the American Community Survey 5-year summaries, and (c) distances between school locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
+    "long_name": "2-year biomedical programs per 100k people over 14",
+    "measure_type": "ratio",
+    "short_description": "Number of 2-year schools with biomedical programs per 100k people over 14, calculated within floating catchment areas.",
+    "short_name": "2-year biomedical programs",
+    "sources": [
+      {
+        "name": "National Center for Education Statistics",
+        "location": "Integrated Postsecondary Education Data System, Institutional Characteristics and Completions files",
+        "location_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "date_accessed": 2023,
+        "url": "https://nces.ed.gov"
+      },
+      {
+        "name": "American Community Survey",
+        "location": "data/5_year_seq_by_state",
+        "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
+        "date_accessed": 2023,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Open Source Routing Machine",
+        "date_accessed": 2022,
+        "url": "http://project-osrm.org"
+      }
+    ],
+    "statement": "There are {value} 2-year schools with a biomedical program per 100k people over 14 in {region_name}.",
+    "type": "per 100k",
+    "unit": "per 100k"
+  },
+  "schools_under2year_min_drivetime": {
+    "category": "Education",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Accessibility",
+    "layer": {
+      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Postsecondary/data/distribution/points_{time}.geojson",
+      "filter": {
+        "feature": "ICLEVEL",
+        "operator": "=",
+        "value": 3
+      }
+    },
+    "long_description": "Minimal drive time to a schools authorized to award certificates that are typically obtained in less than 2 years from the Census block group centroid, as calculated by the Open Source Routing Machine in 2022. School locations are from the National Center for Education Statistics. All distances are calculated at the block group level, then averaged up to higher-level geographies.",
+    "long_name": "drive time to nearest <2-year school",
+    "measure_type": "time",
+    "short_description": "Drive time to the nearest <2-year schools.",
+    "short_name": "<2-year school drive time",
+    "sources": [
+      {
+        "name": "National Center for Education Statistics",
+        "location": "Integrated Postsecondary Education Data System, Institutional Characteristics",
+        "location_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "date_accessed": 2023,
+        "url": "https://nces.ed.gov"
+      },
+      {
+        "name": "Open Source Routing Machine",
+        "date_accessed": 2022,
+        "url": "http://project-osrm.org"
+      }
+    ],
+    "statement": "It takes {value} to drive to a <2-year school from {region_name}'s block group centroids on average.",
+    "type": "minutes",
+    "unit": "minutes"
+  },
+  "schools_under2year_per_100k": {
+    "category": "Education",
+    "citations": [
+      "wan12",
+      "bii21"
+    ],
+    "data_type": "numeric",
+    "equity_category": "Accessibility",
+    "layer": {
+      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Postsecondary/data/distribution/points_{time}.geojson",
+      "filter": {
+        "feature": "ICLEVEL",
+        "operator": "=",
+        "value": 3
+      }
+    },
+    "long_description": "Number of schools authorized to award certificates that are typically obtained in less than 2 years per 100k people over 14, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) <2-year schools as listed by the National Center for Education Statistics, with supply values of 1, (b) Census block groups, with supply values as the population over the age of 14 as reported the American Community Survey 5-year summaries, and (c) distances between school locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
+    "long_name": "<2-year schools per 100k people over 14",
+    "measure_type": "ratio",
+    "short_description": "Number of <2-year schools per 100k people over 14, calculated within floating catchment areas.",
+    "short_name": "<2-year schools",
+    "sources": [
+      {
+        "name": "National Center for Education Statistics",
+        "location": "Integrated Postsecondary Education Data System, Institutional Characteristics",
+        "location_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "date_accessed": 2023,
+        "url": "https://nces.ed.gov"
+      },
+      {
+        "name": "American Community Survey",
+        "location": "data/5_year_seq_by_state",
+        "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
+        "date_accessed": 2023,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Open Source Routing Machine",
+        "date_accessed": 2022,
+        "url": "http://project-osrm.org"
+      }
+    ],
+    "statement": "There are {value} <2-year schools per 100k people over 14 in {region_name}.",
+    "type": "per 100k",
+    "unit": "per 100k"
+  },
+  "schools_2year_min_drivetime": {
+    "category": "Education",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Accessibility",
+    "layer": {
+      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Postsecondary/data/distribution/points_{time}.geojson",
+      "filter": {
+        "feature": "ICLEVEL",
+        "operator": "=",
+        "value": 2
+      }
+    },
+    "long_description": "Minimal drive time to a school authorized to award Associates degrees or 2-year or longer certificates from the Census block group centroid, as calculated by the Open Source Routing Machine in 2022. School locations are from the National Center for Education Statistics. All distances are calculated at the block group level, then averaged up to higher-level geographies.",
+    "long_name": "drive time to nearest 2-year school",
+    "measure_type": "time",
+    "short_description": "Drive time to the nearest 2-year schools.",
+    "short_name": "2-year school drive time",
+    "sources": [
+      {
+        "name": "National Center for Education Statistics",
+        "location": "Integrated Postsecondary Education Data System, Institutional Characteristics",
+        "location_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "date_accessed": 2023,
+        "url": "https://nces.ed.gov"
+      },
+      {
+        "name": "Open Source Routing Machine",
+        "date_accessed": 2022,
+        "url": "http://project-osrm.org"
+      }
+    ],
+    "statement": "It takes {value} to drive to a 2-year school from {region_name}'s block group centroids on average.",
+    "type": "minutes",
+    "unit": "minutes"
+  },
+  "schools_2year_per_100k": {
+    "category": "Education",
+    "citations": [
+      "wan12",
+      "bii21"
+    ],
+    "data_type": "numeric",
+    "equity_category": "Accessibility",
+    "layer": {
+      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Postsecondary/data/distribution/points_{time}.geojson",
+      "filter": {
+        "feature": "ICLEVEL",
+        "operator": "=",
+        "value": 2
+      }
+    },
+    "long_description": "Number of schools authorized to award Associates degrees or 2-year or longer certificates per 100k people over 14, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) 2-year schools as listed by the National Center for Education Statistics, with supply values of 1, (b) Census block groups, with supply values as the population over the age of 14 as reported the American Community Survey 5-year summaries, and (c) distances between school locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
+    "long_name": "2-year schools per 100k people over 14",
+    "measure_type": "ratio",
+    "short_description": "Number of 2-year schools per 100k people over 14.",
+    "short_name": "2-year schools",
+    "sources": [
+      {
+        "name": "National Center for Education Statistics",
+        "location": "Integrated Postsecondary Education Data System, Institutional Characteristics",
+        "location_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "date_accessed": 2023,
+        "url": "https://nces.ed.gov"
+      },
+      {
+        "name": "American Community Survey",
+        "location": "data/5_year_seq_by_state",
+        "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
+        "date_accessed": 2023,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Open Source Routing Machine",
+        "date_accessed": 2022,
+        "url": "http://project-osrm.org"
+      }
+    ],
+    "statement": "There are {value} 2-year schools per 100k people over 14 in {region_name}.",
+    "type": "per 100k",
+    "unit": "per 100k"
+  },
+  "daycare_under_10_per_1k": {
+    "category": "Education",
+    "citations": [
+      "wan12",
+      "bii21"
+    ],
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": {
+      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Daycare/data/distribution/points_{time}.geojson",
+      "filter": {
+        "feature": "age_max",
+        "operator": "<",
+        "value": 10
+      }
+    },
+    "long_description": "Number of day care seats per 1,000 children under 10 years of age, as calculated within floating catchment areas. Catchment area ratios are based on population under 10 within block groups (as estimated in the American Community Survey), day care capacity (as reported by the Virginia Department of Social Services), and travel times between block group centroids and day care locations (as calculated with the Open Source Routing Machine). Catchment areas are weighted by travel time with a Gaussian function with scale of 18, which are normalized for each consumer.",
+    "long_name": "Day Care Seats Per 1k Children Under 10",
+    "measure_type": "ratio",
+    "short_description": "Number of day care seats per 1,000 children under 10 years of age.",
+    "short_name": "Day Care Seats Per 1k Children (<10)",
+    "sources": [
+      {
+        "name": "Virginia Department of Social Services",
+        "location": "Child Day Care Search",
+        "location_url": "https://www.dss.virginia.gov/facility/search/cc2.cgi",
+        "date_accessed": 2023,
+        "url": "https://www.dss.virginia.gov"
+      },
+      {
+        "name": "American Community Survey",
+        "location": "data/5_year_seq_by_state",
+        "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
+        "date_accessed": 2023,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Open Source Routing Machine",
+        "date_accessed": 2022,
+        "url": "http://project-osrm.org"
+      }
+    ],
+    "statement": "There are {value} day care seats per 1,000 children under 10 in {region_name}.",
+    "type": "per 1k",
+    "unit": ""
+  },
+  "daycare_over_4_per_1k": {
+    "category": "Education",
+    "citations": [
+      "wan12",
+      "bii21"
+    ],
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": {
+      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Daycare/data/distribution/points_{time}.geojson",
+      "filter": {
+        "feature": "age_min",
+        "operator": ">",
+        "value": 4
+      }
+    },
+    "long_description": "Number of day care seats per 1,000 children between 5 and 14 years of age, as calculated within floating catchment areas. Catchment area ratios are based on population 5 and 14 within block groups (as estimated in the American Community Survey), day care capacity (as reported by the Virginia Department of Social Services), and travel times between block group centroids and day care locations (as calculated with the Open Source Routing Machine). Catchment areas are weighted by travel time with a Gaussian function with scale of 18, which are normalized for each consumer.",
+    "long_name": "Day Care Seats Per 1k Children Ages 5 to 14",
+    "measure_type": "ratio",
+    "short_description": "Number of day care seats per 1,000 children between 5 and 14 years of age.",
+    "short_name": "Day Care Seats Per 1k Children (5+)",
+    "sources": [
+      {
+        "name": "Virginia Department of Social Services",
+        "location": "Child Day Care Search",
+        "location_url": "https://www.dss.virginia.gov/facility/search/cc2.cgi",
+        "date_accessed": 2023,
+        "url": "https://www.dss.virginia.gov"
+      },
+      {
+        "name": "American Community Survey",
+        "location": "data/5_year_seq_by_state",
+        "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
+        "date_accessed": 2023,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Open Source Routing Machine",
+        "date_accessed": 2022,
+        "url": "http://project-osrm.org"
+      }
+    ],
+    "statement": "There are {value} day care seats per 1,000 children between 5 and 14 in {region_name}.",
+    "type": "per 1k",
+    "unit": ""
+  },
+  "daycare_per_1k": {
+    "category": "Education",
+    "citations": [
+      "wan12",
+      "bii21"
+    ],
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": {
+      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Daycare/data/distribution/points_{time}.geojson",
+      "filter": [
+        {
+          "feature": "age_min",
+          "operator": "<",
+          "value": 5
+        },
+        {
+          "feature": "age_max",
+          "operator": ">",
+          "value": 9
+        }
+      ]
+    },
+    "long_description": "Number of day care seats per 1,000 children under 15 years of age, as calculated within floating catchment areas. Catchment area ratios are based on population under 15 within block groups (as estimated in the American Community Survey), day care capacity (as reported by the Virginia Department of Social Services), and travel times between block group centroids and day care locations (as calculated with the Open Source Routing Machine). Catchment areas are weighted by travel time with a Gaussian function with scale of 18, which are normalized for each consumer.",
+    "long_name": "Day Care Seats Per 1k Children Under 15",
+    "measure_type": "ratio",
+    "short_description": "Number of day care seats per 1,000 children under 15 years of age.",
+    "short_name": "Day Care Seats Per 1k Children",
+    "sources": [
+      {
+        "name": "Virginia Department of Social Services",
+        "location": "Child Day Care Search",
+        "location_url": "https://www.dss.virginia.gov/facility/search/cc2.cgi",
+        "date_accessed": 2023,
+        "url": "https://www.dss.virginia.gov"
+      },
+      {
+        "name": "American Community Survey",
+        "location": "data/5_year_seq_by_state",
+        "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
+        "date_accessed": 2023,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Open Source Routing Machine",
+        "date_accessed": 2022,
+        "url": "http://project-osrm.org"
+      }
+    ],
+    "statement": "There are {value} day care seats per 1,000 children under 15 in {region_name}.",
+    "type": "per 1k",
+    "unit": ""
+  },
+  "daycare_min_drivetime": {
+    "category": "Education",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": {
+      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Daycare/data/distribution/points_{time}.geojson"
+    },
+    "long_description": "Time (minutes) to drive to the nearest day care provider of any type.",
+    "long_name": "Minutes to Nearest Day Care",
+    "measure_type": "time",
+    "short_description": "Time (minutes) to drive to the nearest day care provider.",
+    "short_name": "Day Care Drive Time",
+    "sources": [
+      {
+        "name": "Virginia Department of Social Services",
+        "location": "Child Day Care Search",
+        "location_url": "https://www.dss.virginia.gov/facility/search/cc2.cgi",
+        "date_accessed": 2023,
+        "url": "https://www.dss.virginia.gov"
+      },
+      {
+        "name": "Open Source Routing Machine",
+        "date_accessed": 2022,
+        "url": "http://project-osrm.org"
+      }
+    ],
+    "statement": "It takes {value} to drive to the nearest day care provider in {region_name}.",
+    "type": "minutes",
+    "unit": ""
+  },
+  "daycare_capacity": {
+    "category": "Education",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": {
+      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Daycare/data/distribution/points_{time}.geojson"
+    },
+    "long_description": "Summed capacity (seats) of all day care providers within the region.",
+    "long_name": "Day Care Capacity",
+    "measure_type": "count",
+    "short_description": "Summed capacity (seats) of all day care providers within the region.",
+    "short_name": "Day Care Capacity",
+    "sources": [
+      {
+        "name": "Virginia Department of Social Services",
+        "location": "Child Day Care Search",
+        "location_url": "https://www.dss.virginia.gov/facility/search/cc2.cgi",
+        "date_accessed": 2023,
+        "url": "https://www.dss.virginia.gov"
+      }
+    ],
+    "statement": "There are {value} daycare seats in {region_name}.",
+    "type": "count",
+    "unit": ""
+  },
   "_references": {
+    "wan12": {
+      "id": "wan12",
+      "author": [
+        {
+          "given": "Neng",
+          "family": "Wan"
+        },
+        {
+          "given": "Bin",
+          "family": "Zou"
+        },
+        {
+          "given": "Troy",
+          "family": "Sternberg"
+        }
+      ],
+      "year": 2012,
+      "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+      "journal": "International Journal of Geographical Information Science",
+      "volume": "26",
+      "page": "1073–1089",
+      "doi": "10.1080/13658816.2011.624987"
+    },
+    "bii21": {
+      "id": "bii21",
+      "author": "Biocomplexity Institute and Initiative",
+      "year": 2021,
+      "title": "catchment: Calculate spatial access and availability metrics",
+      "version": "0.0.1",
+      "url": "https://github.com/uva-bi-sdad/catchment"
+    },
     "lou04": {
       "id": "lou04",
       "author": [
@@ -2983,37 +2689,6 @@
       "volume": "Preprint",
       "doi": "10.13140/RG.2.2.12396.28807"
     },
-    "wan12": {
-      "id": "wan12",
-      "author": [
-        {
-          "given": "Neng",
-          "family": "Wan"
-        },
-        {
-          "given": "Bin",
-          "family": "Zou"
-        },
-        {
-          "given": "Troy",
-          "family": "Sternberg"
-        }
-      ],
-      "year": 2012,
-      "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-      "journal": "International Journal of Geographical Information Science",
-      "volume": "26",
-      "page": "1073–1089",
-      "doi": "10.1080/13658816.2011.624987"
-    },
-    "bii21": {
-      "id": "bii21",
-      "author": "Biocomplexity Institute and Initiative",
-      "year": 2021,
-      "title": "catchment: Calculate spatial access and availability metrics",
-      "version": "0.0.1",
-      "url": "https://github.com/uva-bi-sdad/catchment"
-    },
     "cdc11a": {
       "id": "cdc11a",
       "author": "Centers for Disease Control and Prevention",
@@ -3051,5 +2726,328 @@
     "statement": "{value} of households in {features.name} do not have a vehicle available at home.",
     "type": "percent",
     "unit": "percent"
+  },
+  "perc_income_avg_nat_package": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Affordability",
+    "layer": "",
+    "long_description": "The national average price for internet ($64) as a percentage of median household income.",
+    "long_name": "The national average price for internet as a percentage of average income",
+    "measure_type": "percent",
+    "short_description": "The national average price for internet ($64) as a percentage of median household income",
+    "short_name": "Percentage of income for internet (average)",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Broadband Now",
+        "date_accessed": 2021,
+        "url": "https://broadbandnow.com/"
+      }
+    ],
+    "statement": "The national average internet package costs {value} of the median household income in {features.name}.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_income_min_price_25": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Affordability",
+    "layer": "",
+    "long_description": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income.",
+    "long_name": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income",
+    "measure_type": "percent",
+    "short_description": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income",
+    "short_name": "Percentage of income for good internet",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Broadband Now",
+        "date_accessed": 2021,
+        "url": "https://broadbandnow.com/"
+      }
+    ],
+    "statement": "Good internet costs {value} of the median household income in {features.name}.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_income_min_price_100": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Affordability",
+    "layer": "",
+    "long_description": "The minimum price for fast internet (100 MB/s upload) as a percentage of median household income.",
+    "long_name": "The minimum price for fast internet (100 MB/s upload) as a percentage of median household income",
+    "measure_type": "percent",
+    "short_description": "The minimum price for fast internet (100 MB/s upload) as a percent of median household income",
+    "short_name": "Percentage of income for fast internet",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Broadband Now",
+        "date_accessed": 2021,
+        "url": "https://broadbandnow.com/"
+      }
+    ],
+    "statement": "Fast internet costs {value} of the median household income in {features.name}.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_hh_without_internet": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "Percentage of households self-reported to not have internet access at home. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+    "long_name": "Percentage of households without internet access",
+    "measure_type": "percent",
+    "short_description": "Percentage of households self-reported to not have internet access at home",
+    "short_name": "Households without internet access",
+    "sources": [
+      {
+        "name": "American Community Survey Table B28002",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "{value} of households in {features.name} do not have internet access.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_hh_without_compdev": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "decimal",
+    "equity_category": "Accessibility",
+    "layer": "",
+    "long_description": "Percentage of the households self-reported to not have a computer or device at home. Based on American Community Survey Table B28001 in ACS 2015/2019 5-year estimates.",
+    "long_name": "Percentage of households without a computer",
+    "measure_type": "percent",
+    "short_description": "Percentage of households self-reported to not have a computer or device at home",
+    "short_name": "Households without a computer",
+    "sources": [
+      {
+        "name": "American Community Survey Table B28001",
+        "date_accessed": 2023,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "{value} of households in {features.name} do not have a computer or device.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_hh_with_cable_fiber_dsl": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "Percentage of households self-reported to have a high speed internet service. A high speed internet service is defined as a cable, fiber optic, or DSL internet connection. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+    "long_name": "Percentage of households with a high speed internet service (cable, fiber optic, or DSL)",
+    "measure_type": "percent",
+    "short_description": "Percentage of households self-reported to have a high speed internet service (cable, fiber optic, or DSL)",
+    "short_name": "Households with cable, fiber optic, or DSL",
+    "sources": [
+      {
+        "name": "American Community Survey Table B28002",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "{value} of households in {features.name} have a cable, fiber optic, or DSL internet connection.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_hh_with_broadband": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "Percentage of households self-reported to have a broadband internet connection. Broadband internet is defined as any type of internet other than a dial-up. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+    "long_name": "Percentage of households with broadband",
+    "measure_type": "percent",
+    "short_description": "Percentage of households self-reported to have a broadband internet connection (any type of internet other than a dial-up)",
+    "short_name": "Households with broadband",
+    "sources": [
+      {
+        "name": "American Community Survey Table B28002",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "{value} of households in {features.name} have a broadband connection.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_total_25_3_using_devices": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Percent of the Total Population with Good Internet Speed",
+    "measure_type": "percent",
+    "short_description": "Percent of the total population with a good internet speed (above 25/3 MB/s, able to stream video or online game for one device).",
+    "short_name": "Percent Good (total)",
+    "sources": [
+      {
+        "name": "Ookla",
+        "date_accessed": 2021,
+        "url": "https://www.ookla.com/ookla-for-good/open-data"
+      }
+    ],
+    "statement": "{value} of the total population in {features.name} has a good internet speed.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_w_int_25_3_using_devices": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Percent of the Internet-Connected Population with Good Internet Speed",
+    "measure_type": "percent",
+    "short_description": "Percent of the internet-connected population with a good internet speed (above 25/3 MB/s, able to stream video or online game for one device).",
+    "short_name": "Percent Good (internet-connected)",
+    "sources": [
+      {
+        "name": "Ookla",
+        "date_accessed": 2021,
+        "url": "https://www.ookla.com/ookla-for-good/open-data"
+      }
+    ],
+    "statement": "{value} of the internet-connected population in {features.name} has a good internet speed.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_total_100_20_using_devices": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Percent of the Total Population with Fast Internet Speed",
+    "measure_type": "percent",
+    "short_description": "Percent of the total population with a fast internet speed (above 100/20 MB/s, able to stream HD video on multiple devices or download large files quickly).",
+    "short_name": "Percent Fast (total)",
+    "sources": [
+      {
+        "name": "Ookla",
+        "date_accessed": 2021,
+        "url": "https://www.ookla.com/ookla-for-good/open-data"
+      }
+    ],
+    "statement": "{value} of the total population in {features.name} has a fast internet speed.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_w_int_100_20_using_devices": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Percent of the Internet-Connected Population with Fast Internet Speed",
+    "measure_type": "percent",
+    "short_description": "Percent of the internet-connected population with a fast internet speed (above 100/20 MB/s, able to stream HD video on multiple devices or download large files quickly).",
+    "short_name": "Percent Fast (internet-connected)",
+    "sources": [
+      {
+        "name": "Ookla",
+        "date_accessed": 2021,
+        "url": "https://www.ookla.com/ookla-for-good/open-data"
+      }
+    ],
+    "statement": "{value} of the internet-connected population in {features.name} has a fast internet speed.",
+    "type": "percent",
+    "unit": ""
+  },
+  "devices": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Accessibility",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Number of devices",
+    "measure_type": "count",
+    "short_description": "The number of unique devices accessing Ookla Internet speed tests.",
+    "short_name": "Number of devices",
+    "sources": [
+      {
+        "name": "Ookla",
+        "date_accessed": 2021,
+        "url": "https://www.ookla.com/ookla-for-good/open-data"
+      }
+    ],
+    "statement": "There are {value} unique devices in {features.name} accessing Ookla Internet speed tests.",
+    "type": "count",
+    "unit": ""
+  },
+  "avg_up_using_devices": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Average Upload Speed",
+    "measure_type": "mean",
+    "short_description": "Average upload speed weighted by number of devices.",
+    "short_name": "Average Upload Speed",
+    "sources": [
+      {
+        "name": "Ookla",
+        "date_accessed": 2021,
+        "url": "https://www.ookla.com/ookla-for-good/open-data"
+      }
+    ],
+    "statement": "The average upload speed is {value} in {features.name}.",
+    "type": "internet speed",
+    "unit": ""
+  },
+  "avg_down_using_devices": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Average Download Speed",
+    "measure_type": "speed",
+    "short_description": "Average download speed weighted by number of devices.",
+    "short_name": "Average Download Speed",
+    "sources": [
+      {
+        "name": "Ookla",
+        "date_accessed": 2021,
+        "url": "https://www.ookla.com/ookla-for-good/open-data"
+      }
+    ],
+    "statement": "The average download speed is {value} in {features.name}.",
+    "type": "internet speed",
+    "unit": ""
   }
 }
