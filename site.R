@@ -50,11 +50,6 @@ page_navbar(
         id = "settings.map_animations", floating_label = FALSE
       ),
       input_switch("Background On Top", default_on = TRUE, id = "settings.background_top"),
-      input_select(
-        "Animations", c("fly", "zoom", "none"), "fly",
-        note = "Fly animates the whole move to different regions; Zoom only animates changes in zoom level.",
-        id = "settings.map_animations", floating_label = FALSE
-      ),
       input_number(
         "Outline Weight", "settings.polygon_outline", default = 1.5, step = .5, floating_label = FALSE,
         note = "Thickness of the outline around region shapes."
