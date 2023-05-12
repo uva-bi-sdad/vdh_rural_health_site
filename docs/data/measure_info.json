@@ -155,180 +155,117 @@
     "type": "",
     "unit": ""
   },
-  "total_calves_sales": {
-    "category": "Agriculture Industry",
+  "earnings_per_job": {
+    "category": "Employment/Workforce Development",
     "citations": "",
     "data_type": "numeric",
     "equity_category": "Status",
     "layer": "",
-    "long_description": "",
-    "long_name": "Total sales of calves within a given county",
-    "measure_type": "count",
-    "short_description": "Total sales of calves",
-    "short_name": "Total sales of calves",
+    "long_description": "Earnings per job is calculated based on the GDP and Personal Income table from the Bureau of Economic Analysis.",
+    "long_name": "Earnings per job",
+    "measure_type": "dollars",
+    "short_description": "Average of earnings per job.",
+    "short_name": "Earnings per job",
     "sources": [
       {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
-        "date_accessed": 2023,
-        "url": "https://www.nass.usda.gov/"
+        "name": "Bureau of Economic Analysis",
+        "date_accessed": "2021",
+        "url": "https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=1&acrdn=6"
       }
     ],
-    "statement": "Total sales of calves to {feature.name} is {value}.",
-    "type": "count",
+    "statement": "Earnings per job in {features.name} is {value}.",
+    "type": "dollar",
     "unit": ""
   },
-  "total_commodity_sales": {
-    "category": "Agriculture Industry",
+  "gini_index": {
+    "category": "Financial Well Being",
     "citations": "",
     "data_type": "numeric",
-    "equity_category": "Status",
+    "equity_category": "",
     "layer": "",
-    "long_description": "",
-    "long_name": "Total sales of commodities within a given county",
-    "measure_type": "count",
-    "short_description": "Total sales of commodities",
-    "short_name": "Total sales of commodities",
+    "long_description": "The Gini Index is a summary measure of income inequality. The Gini coefficient incorporates the detailed shares data into a single statistic, which summarizes the dispersion of income across the entire income distribution. The Gini coefficient ranges from 0, indicating perfect equality (where everyone receives an equal share), to 1, perfect inequality (where only one recipient or group of recipients receives all the income). The Gini is based on the difference between the Lorenz curve (the observed cumulative income distribution) and the notion of a perfectly equal income distribution.",
+    "long_name": "Income Inequality (Gini Index)",
+    "measure_type": "index",
+    "short_description": "The Gini Index is a summary measure of income inequality.",
+    "short_name": "Income Inequality (Gini Index)",
     "sources": [
       {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
-        "date_accessed": 2023,
-        "url": "https://www.nass.usda.gov/"
+        "name": "U.S. Census American Community Survey",
+        "location": "Table B19083",
+        "date_accessed": "2023"
       }
     ],
-    "statement": "Total sales of commodities to {feature.name} is {value}",
-    "type": "dollar",
-    "unit": "dollar"
-  },
-  "total_animalProducts_sales": {
-    "category": "Agriculture Industry",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Total sales of animal products within a given county",
-    "measure_type": "count",
-    "short_description": "Total sales of animal products",
-    "short_name": "Total sales of animal products",
-    "sources": [
-      {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
-        "date_accessed": 2023,
-        "url": "https://www.nass.usda.gov/"
-      }
-    ],
-    "statement": "Total sales of animal products to {features.name} is {value}.",
-    "type": "dollar",
-    "unit": "dollar"
-  },
-  "fruit_treeNut_total_sales": {
-    "category": "Agriculture Industry",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Total sales of fruits and treenuts within a given county",
-    "measure_type": "count",
-    "short_description": "Total sales of fruits and treenuts",
-    "short_name": "Total sales of fruits and treenuts",
-    "sources": [
-      {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
-        "date_accessed": 2023,
-        "url": "https://www.nass.usda.gov/"
-      }
-    ],
-    "statement": "Total sales of fruit and tree nuts to {features.name} is {value}.",
-    "type": "dollar",
-    "unit": "dollar"
-  },
-  "total_animal_expense": {
-    "category": "Agriculture Industry",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "",
-    "long_name": "County's total expenses towards animal industry",
-    "measure_type": "count",
-    "short_description": "Total expenses towards animal industry",
-    "short_name": "Total expenses towards animal industry",
-    "sources": [
-      {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
-        "date_accessed": 2023,
-        "url": "https://www.nass.usda.gov/"
-      }
-    ],
-    "statement": "The overall expenses towards animals to {features.name} is {value}.",
-    "type": "dollar",
-    "unit": "dollar"
-  },
-  "total_cropland_operations": {
-    "category": "Agriculture Industry",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Number of operations with land devoted to cropland growing",
-    "measure_type": "count",
-    "short_description": "Number of operations with cropland",
-    "short_name": "Number of operations with cropland",
-    "sources": [
-      {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
-        "date_accessed": 2023,
-        "url": "https://www.nass.usda.gov/"
-      }
-    ],
-    "statement": "The total number of operations with cropland to {features.name} is {value}.",
-    "type": "count",
+    "statement": "Income Inequality (Gini Index) in {features.name} is {value}.",
+    "type": "",
     "unit": ""
   },
-  "total_irrigatedCropland_acre": {
-    "category": "Agriculture Industry",
+  "median_household_income": {
+    "category": "Financial Well Being",
     "citations": "",
     "data_type": "numeric",
     "equity_category": "Status",
     "layer": "",
-    "long_description": "",
-    "long_name": "Total acreage used in agriculture for irrigated cropland",
+    "long_description": "Self-reported median household income in the past 12 months (in 2019 inflation adjusted-dollars. Based on the American Community Survey Table B19013 ACS 2015/2019 5-year estimates.",
+    "long_name": "Median household income",
     "measure_type": "count",
-    "short_description": "Total acerage for irrigated cropland",
-    "short_name": "Total acerage for irrigated cropland",
+    "short_description": "Self-reported median household income in the past 12 months (in 2019 inflation adjusted-dollars.",
+    "short_name": "Median household income",
     "sources": [
       {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
-        "date_accessed": 2023,
-        "url": "https://www.nass.usda.gov/"
+        "date_accessed": 2022,
+        "name": "American Community Survey",
+        "location": "Table B19013",
+        "url": "https://www.census.gov/programs-surveys/acs"
       }
     ],
-    "statement": "The total acreage for irrigated cropland to {features.name} is {value}.",
-    "type": "count",
+    "statement": "The median household income in {features.name} is {value} per year.",
+    "type": "dollar",
     "unit": ""
   },
-  "total_cropland_acres": {
-    "category": "Agriculture Industry",
+  "job_participate_rate": {
+    "category": "Employment/Workforce Development",
     "citations": "",
     "data_type": "numeric",
     "equity_category": "Status",
     "layer": "",
-    "long_description": "",
-    "long_name": "Total acerage used in agriculture for cropland",
-    "measure_type": "count",
-    "short_description": "Total acreage for cropland",
-    "short_name": "Total acreage for cropland",
+    "long_description": "The percentage of individuals 16-64 years of age in the active labor force. The job particpation rate is often used by economists as an indicator of economic development and growth.",
+    "long_name": "Job Participation Pecentage",
+    "measure_type": "percent",
+    "short_description": "The percentage of individuals 16-64 years of age in the active labor force.",
+    "short_name": "Job Participation Pecentage",
     "sources": [
       {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
-        "date_accessed": 2023,
-        "url": "https://www.nass.usda.gov/"
+        "name": "American Community Survey",
+        "location": "Table B23025",
+        "date_accessed": "2023",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
       }
     ],
-    "statement": "The total acreage for cropland to {features.name} is {value}.",
-    "type": "count",
+    "statement": "{value} of the population in {features.name} is participating in the civilian job force.",
+    "type": "percent",
+    "unit": ""
+  },
+  "emp_rate": {
+    "category": "Employment/Workforce Development",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Population self-reported as employed as a percentage of total civilian workforce population. Based on American Community Survey Table B23025 ACS 2015/2019 5-year estimates.",
+    "long_name": "Percentage civilian employed",
+    "measure_type": "percent",
+    "short_description": "Population self-reported as employed as a percentage of total civilian workforce population.",
+    "short_name": "Percentage employed",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "location": "Table B23025",
+        "date_accessed": "2021",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "{value} of the population in {features.name} is employed.",
+    "type": "percent",
     "unit": ""
   },
   "perc_veteran": {
@@ -662,117 +599,180 @@
     "type": "percent",
     "unit": ""
   },
-  "earnings_per_job": {
-    "category": "Employment/Workforce Development",
+  "total_calves_sales": {
+    "category": "Agriculture Industry",
     "citations": "",
     "data_type": "numeric",
     "equity_category": "Status",
     "layer": "",
-    "long_description": "Earnings per job is calculated based on the GDP and Personal Income table from the Bureau of Economic Analysis.",
-    "long_name": "Earnings per job",
-    "measure_type": "dollars",
-    "short_description": "Average of earnings per job.",
-    "short_name": "Earnings per job",
-    "sources": [
-      {
-        "name": "Bureau of Economic Analysis",
-        "date_accessed": "2021",
-        "url": "https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=1&acrdn=6"
-      }
-    ],
-    "statement": "Earnings per job in {features.name} is {value}.",
-    "type": "dollar",
-    "unit": ""
-  },
-  "gini_index": {
-    "category": "Financial Well Being",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "",
-    "layer": "",
-    "long_description": "The Gini Index is a summary measure of income inequality. The Gini coefficient incorporates the detailed shares data into a single statistic, which summarizes the dispersion of income across the entire income distribution. The Gini coefficient ranges from 0, indicating perfect equality (where everyone receives an equal share), to 1, perfect inequality (where only one recipient or group of recipients receives all the income). The Gini is based on the difference between the Lorenz curve (the observed cumulative income distribution) and the notion of a perfectly equal income distribution.",
-    "long_name": "Income Inequality (Gini Index)",
-    "measure_type": "index",
-    "short_description": "The Gini Index is a summary measure of income inequality.",
-    "short_name": "Income Inequality (Gini Index)",
-    "sources": [
-      {
-        "name": "U.S. Census American Community Survey",
-        "location": "Table B19083",
-        "date_accessed": "2023"
-      }
-    ],
-    "statement": "Income Inequality (Gini Index) in {features.name} is {value}.",
-    "type": "",
-    "unit": ""
-  },
-  "median_household_income": {
-    "category": "Financial Well Being",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "Self-reported median household income in the past 12 months (in 2019 inflation adjusted-dollars. Based on the American Community Survey Table B19013 ACS 2015/2019 5-year estimates.",
-    "long_name": "Median household income",
+    "long_description": "",
+    "long_name": "Total sales of calves within a given county",
     "measure_type": "count",
-    "short_description": "Self-reported median household income in the past 12 months (in 2019 inflation adjusted-dollars.",
-    "short_name": "Median household income",
+    "short_description": "Total sales of calves",
+    "short_name": "Total sales of calves",
     "sources": [
       {
-        "date_accessed": 2022,
-        "name": "American Community Survey",
-        "location": "Table B19013",
-        "url": "https://www.census.gov/programs-surveys/acs"
+        "name": "Department of Agriculture National Agriculture Statistics Service",
+        "date_accessed": 2023,
+        "url": "https://www.nass.usda.gov/"
       }
     ],
-    "statement": "The median household income in {features.name} is {value} per year.",
+    "statement": "Total sales of calves to {feature.name} is {value}.",
+    "type": "count",
+    "unit": ""
+  },
+  "total_commodity_sales": {
+    "category": "Agriculture Industry",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Total sales of commodities within a given county",
+    "measure_type": "count",
+    "short_description": "Total sales of commodities",
+    "short_name": "Total sales of commodities",
+    "sources": [
+      {
+        "name": "Department of Agriculture National Agriculture Statistics Service",
+        "date_accessed": 2023,
+        "url": "https://www.nass.usda.gov/"
+      }
+    ],
+    "statement": "Total sales of commodities to {feature.name} is {value}",
     "type": "dollar",
-    "unit": ""
+    "unit": "dollar"
   },
-  "job_participate_rate": {
-    "category": "Employment/Workforce Development",
+  "total_animalProducts_sales": {
+    "category": "Agriculture Industry",
     "citations": "",
     "data_type": "numeric",
     "equity_category": "Status",
     "layer": "",
-    "long_description": "The percentage of individuals 16-64 years of age in the active labor force. The job particpation rate is often used by economists as an indicator of economic development and growth.",
-    "long_name": "Job Participation Pecentage",
-    "measure_type": "percent",
-    "short_description": "The percentage of individuals 16-64 years of age in the active labor force.",
-    "short_name": "Job Participation Pecentage",
+    "long_description": "",
+    "long_name": "Total sales of animal products within a given county",
+    "measure_type": "count",
+    "short_description": "Total sales of animal products",
+    "short_name": "Total sales of animal products",
     "sources": [
       {
-        "name": "American Community Survey",
-        "location": "Table B23025",
-        "date_accessed": "2023",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
+        "name": "Department of Agriculture National Agriculture Statistics Service",
+        "date_accessed": 2023,
+        "url": "https://www.nass.usda.gov/"
       }
     ],
-    "statement": "{value} of the population in {features.name} is participating in the civilian job force.",
-    "type": "percent",
-    "unit": ""
+    "statement": "Total sales of animal products to {features.name} is {value}.",
+    "type": "dollar",
+    "unit": "dollar"
   },
-  "emp_rate": {
-    "category": "Employment/Workforce Development",
+  "fruit_treeNut_total_sales": {
+    "category": "Agriculture Industry",
     "citations": "",
     "data_type": "numeric",
     "equity_category": "Status",
     "layer": "",
-    "long_description": "Population self-reported as employed as a percentage of total civilian workforce population. Based on American Community Survey Table B23025 ACS 2015/2019 5-year estimates.",
-    "long_name": "Percentage civilian employed",
-    "measure_type": "percent",
-    "short_description": "Population self-reported as employed as a percentage of total civilian workforce population.",
-    "short_name": "Percentage employed",
+    "long_description": "",
+    "long_name": "Total sales of fruits and treenuts within a given county",
+    "measure_type": "count",
+    "short_description": "Total sales of fruits and treenuts",
+    "short_name": "Total sales of fruits and treenuts",
     "sources": [
       {
-        "name": "American Community Survey",
-        "location": "Table B23025",
-        "date_accessed": "2021",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
+        "name": "Department of Agriculture National Agriculture Statistics Service",
+        "date_accessed": 2023,
+        "url": "https://www.nass.usda.gov/"
       }
     ],
-    "statement": "{value} of the population in {features.name} is employed.",
-    "type": "percent",
+    "statement": "Total sales of fruit and tree nuts to {features.name} is {value}.",
+    "type": "dollar",
+    "unit": "dollar"
+  },
+  "total_animal_expense": {
+    "category": "Agriculture Industry",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "",
+    "long_name": "County's total expenses towards animal industry",
+    "measure_type": "count",
+    "short_description": "Total expenses towards animal industry",
+    "short_name": "Total expenses towards animal industry",
+    "sources": [
+      {
+        "name": "Department of Agriculture National Agriculture Statistics Service",
+        "date_accessed": 2023,
+        "url": "https://www.nass.usda.gov/"
+      }
+    ],
+    "statement": "The overall expenses towards animals to {features.name} is {value}.",
+    "type": "dollar",
+    "unit": "dollar"
+  },
+  "total_cropland_operations": {
+    "category": "Agriculture Industry",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Number of operations with land devoted to cropland growing",
+    "measure_type": "count",
+    "short_description": "Number of operations with cropland",
+    "short_name": "Number of operations with cropland",
+    "sources": [
+      {
+        "name": "Department of Agriculture National Agriculture Statistics Service",
+        "date_accessed": 2023,
+        "url": "https://www.nass.usda.gov/"
+      }
+    ],
+    "statement": "The total number of operations with cropland to {features.name} is {value}.",
+    "type": "count",
+    "unit": ""
+  },
+  "total_irrigatedCropland_acre": {
+    "category": "Agriculture Industry",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Total acreage used in agriculture for irrigated cropland",
+    "measure_type": "count",
+    "short_description": "Total acerage for irrigated cropland",
+    "short_name": "Total acerage for irrigated cropland",
+    "sources": [
+      {
+        "name": "Department of Agriculture National Agriculture Statistics Service",
+        "date_accessed": 2023,
+        "url": "https://www.nass.usda.gov/"
+      }
+    ],
+    "statement": "The total acreage for irrigated cropland to {features.name} is {value}.",
+    "type": "count",
+    "unit": ""
+  },
+  "total_cropland_acres": {
+    "category": "Agriculture Industry",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Total acerage used in agriculture for cropland",
+    "measure_type": "count",
+    "short_description": "Total acreage for cropland",
+    "short_name": "Total acreage for cropland",
+    "sources": [
+      {
+        "name": "Department of Agriculture National Agriculture Statistics Service",
+        "date_accessed": 2023,
+        "url": "https://www.nass.usda.gov/"
+      }
+    ],
+    "statement": "The total acreage for cropland to {features.name} is {value}.",
+    "type": "count",
     "unit": ""
   },
   "no_hlth_ins_pct": {
@@ -1867,6 +1867,352 @@
     "type": "count",
     "unit": ""
   },
+  "perc_no_vehicle": {
+    "category": "Transportation",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Percentage of households self-reported to not have a vehicle available at home. Based on American Community Survey Table S2504 ACS 5-year estimates.",
+    "long_name": "Percentage of households without vehicle available",
+    "measure_type": "float",
+    "short_description": "Households self-reported to not have a vehicle available at home.",
+    "short_name": "Without vehicle",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "location": "Table S2504",
+        "date_accessed": "2023",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "{value} of households in {features.name} do not have a vehicle available at home.",
+    "type": "percent",
+    "unit": "percent"
+  },
+  "perc_income_avg_nat_package": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Affordability",
+    "layer": "",
+    "long_description": "The national average price for internet ($64) as a percentage of median household income.",
+    "long_name": "The national average price for internet as a percentage of average income",
+    "measure_type": "percent",
+    "short_description": "The national average price for internet ($64) as a percentage of median household income",
+    "short_name": "Percentage of income for internet (average)",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Broadband Now",
+        "date_accessed": 2021,
+        "url": "https://broadbandnow.com/"
+      }
+    ],
+    "statement": "The national average internet package costs {value} of the median household income in {features.name}.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_income_min_price_25": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Affordability",
+    "layer": "",
+    "long_description": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income.",
+    "long_name": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income",
+    "measure_type": "percent",
+    "short_description": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income",
+    "short_name": "Percentage of income for good internet",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Broadband Now",
+        "date_accessed": 2021,
+        "url": "https://broadbandnow.com/"
+      }
+    ],
+    "statement": "Good internet costs {value} of the median household income in {features.name}.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_income_min_price_100": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Affordability",
+    "layer": "",
+    "long_description": "The minimum price for fast internet (100 MB/s upload) as a percentage of median household income.",
+    "long_name": "The minimum price for fast internet (100 MB/s upload) as a percentage of median household income",
+    "measure_type": "percent",
+    "short_description": "The minimum price for fast internet (100 MB/s upload) as a percent of median household income",
+    "short_name": "Percentage of income for fast internet",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Broadband Now",
+        "date_accessed": 2021,
+        "url": "https://broadbandnow.com/"
+      }
+    ],
+    "statement": "Fast internet costs {value} of the median household income in {features.name}.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_hh_without_internet": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "Percentage of households self-reported to not have internet access at home. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+    "long_name": "Percentage of households without internet access",
+    "measure_type": "percent",
+    "short_description": "Percentage of households self-reported to not have internet access at home",
+    "short_name": "Households without internet access",
+    "sources": [
+      {
+        "name": "American Community Survey Table B28002",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "{value} of households in {features.name} do not have internet access.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_hh_with_cable_fiber_dsl": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "Percentage of households self-reported to have a high speed internet service. A high speed internet service is defined as a cable, fiber optic, or DSL internet connection. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+    "long_name": "Percentage of households with a high speed internet service (cable, fiber optic, or DSL)",
+    "measure_type": "percent",
+    "short_description": "Percentage of households self-reported to have a high speed internet service (cable, fiber optic, or DSL)",
+    "short_name": "Households with cable, fiber optic, or DSL",
+    "sources": [
+      {
+        "name": "American Community Survey Table B28002",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "{value} of households in {features.name} have a cable, fiber optic, or DSL internet connection.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_hh_with_broadband": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "Percentage of households self-reported to have a broadband internet connection. Broadband internet is defined as any type of internet other than a dial-up. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+    "long_name": "Percentage of households with broadband",
+    "measure_type": "percent",
+    "short_description": "Percentage of households self-reported to have a broadband internet connection (any type of internet other than a dial-up)",
+    "short_name": "Households with broadband",
+    "sources": [
+      {
+        "name": "American Community Survey Table B28002",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "{value} of households in {features.name} have a broadband connection.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_hh_without_compdev": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "decimal",
+    "equity_category": "Accessibility",
+    "layer": "",
+    "long_description": "Percentage of the households self-reported to not have a computer or device at home. Based on American Community Survey Table B28001 in ACS 2015/2019 5-year estimates.",
+    "long_name": "Percentage of households without a computer",
+    "measure_type": "percent",
+    "short_description": "Percentage of households self-reported to not have a computer or device at home",
+    "short_name": "Households without a computer",
+    "sources": [
+      {
+        "name": "American Community Survey Table B28001",
+        "date_accessed": 2023,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "{value} of households in {features.name} do not have a computer or device.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_total_25_3_using_devices": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Percent of the Total Population with Good Internet Speed",
+    "measure_type": "percent",
+    "short_description": "Percent of the total population with a good internet speed (above 25/3 MB/s, able to stream video or online game for one device).",
+    "short_name": "Percent Good (total)",
+    "sources": [
+      {
+        "name": "Ookla",
+        "date_accessed": 2021,
+        "url": "https://www.ookla.com/ookla-for-good/open-data"
+      }
+    ],
+    "statement": "{value} of the total population in {features.name} has a good internet speed.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_w_int_25_3_using_devices": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Percent of the Internet-Connected Population with Good Internet Speed",
+    "measure_type": "percent",
+    "short_description": "Percent of the internet-connected population with a good internet speed (above 25/3 MB/s, able to stream video or online game for one device).",
+    "short_name": "Percent Good (internet-connected)",
+    "sources": [
+      {
+        "name": "Ookla",
+        "date_accessed": 2021,
+        "url": "https://www.ookla.com/ookla-for-good/open-data"
+      }
+    ],
+    "statement": "{value} of the internet-connected population in {features.name} has a good internet speed.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_total_100_20_using_devices": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Percent of the Total Population with Fast Internet Speed",
+    "measure_type": "percent",
+    "short_description": "Percent of the total population with a fast internet speed (above 100/20 MB/s, able to stream HD video on multiple devices or download large files quickly).",
+    "short_name": "Percent Fast (total)",
+    "sources": [
+      {
+        "name": "Ookla",
+        "date_accessed": 2021,
+        "url": "https://www.ookla.com/ookla-for-good/open-data"
+      }
+    ],
+    "statement": "{value} of the total population in {features.name} has a fast internet speed.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_w_int_100_20_using_devices": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Percent of the Internet-Connected Population with Fast Internet Speed",
+    "measure_type": "percent",
+    "short_description": "Percent of the internet-connected population with a fast internet speed (above 100/20 MB/s, able to stream HD video on multiple devices or download large files quickly).",
+    "short_name": "Percent Fast (internet-connected)",
+    "sources": [
+      {
+        "name": "Ookla",
+        "date_accessed": 2021,
+        "url": "https://www.ookla.com/ookla-for-good/open-data"
+      }
+    ],
+    "statement": "{value} of the internet-connected population in {features.name} has a fast internet speed.",
+    "type": "percent",
+    "unit": ""
+  },
+  "devices": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Accessibility",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Number of devices",
+    "measure_type": "count",
+    "short_description": "The number of unique devices accessing Ookla Internet speed tests.",
+    "short_name": "Number of devices",
+    "sources": [
+      {
+        "name": "Ookla",
+        "date_accessed": 2021,
+        "url": "https://www.ookla.com/ookla-for-good/open-data"
+      }
+    ],
+    "statement": "There are {value} unique devices in {features.name} accessing Ookla Internet speed tests.",
+    "type": "count",
+    "unit": ""
+  },
+  "avg_up_using_devices": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Average Upload Speed",
+    "measure_type": "mean",
+    "short_description": "Average upload speed weighted by number of devices.",
+    "short_name": "Average Upload Speed",
+    "sources": [
+      {
+        "name": "Ookla",
+        "date_accessed": 2021,
+        "url": "https://www.ookla.com/ookla-for-good/open-data"
+      }
+    ],
+    "statement": "The average upload speed is {value} in {features.name}.",
+    "type": "internet speed",
+    "unit": ""
+  },
+  "avg_down_using_devices": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Average Download Speed",
+    "measure_type": "speed",
+    "short_description": "Average download speed weighted by number of devices.",
+    "short_name": "Average Download Speed",
+    "sources": [
+      {
+        "name": "Ookla",
+        "date_accessed": 2021,
+        "url": "https://www.ookla.com/ookla-for-good/open-data"
+      }
+    ],
+    "statement": "The average download speed is {value} in {features.name}.",
+    "type": "internet speed",
+    "unit": ""
+  },
   "average_years_schooling": {
     "category": "Education",
     "type": "average",
@@ -2703,351 +3049,5 @@
       "title": "Census Tract Level State Maps of the Modified Retail Food Environment Index (mRFEI)",
       "url": "https://www.cdc.gov/obesity/downloads/census-tract-level-state-maps-mrfei_TAG508.pdf"
     }
-  },
-  "perc_no_vehicle": {
-    "category": "Transportation",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "Percentage of households self-reported to not have a vehicle available at home. Based on American Community Survey Table S2504 ACS 5-year estimates.",
-    "long_name": "Percentage of households without vehicle available",
-    "measure_type": "float",
-    "short_description": "Households self-reported to not have a vehicle available at home.",
-    "short_name": "Without vehicle",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "location": "Table S2504",
-        "date_accessed": "2023",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "{value} of households in {features.name} do not have a vehicle available at home.",
-    "type": "percent",
-    "unit": "percent"
-  },
-  "perc_income_avg_nat_package": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Affordability",
-    "layer": "",
-    "long_description": "The national average price for internet ($64) as a percentage of median household income.",
-    "long_name": "The national average price for internet as a percentage of average income",
-    "measure_type": "percent",
-    "short_description": "The national average price for internet ($64) as a percentage of median household income",
-    "short_name": "Percentage of income for internet (average)",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      },
-      {
-        "name": "Broadband Now",
-        "date_accessed": 2021,
-        "url": "https://broadbandnow.com/"
-      }
-    ],
-    "statement": "The national average internet package costs {value} of the median household income in {features.name}.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_income_min_price_25": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Affordability",
-    "layer": "",
-    "long_description": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income.",
-    "long_name": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income",
-    "measure_type": "percent",
-    "short_description": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income",
-    "short_name": "Percentage of income for good internet",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      },
-      {
-        "name": "Broadband Now",
-        "date_accessed": 2021,
-        "url": "https://broadbandnow.com/"
-      }
-    ],
-    "statement": "Good internet costs {value} of the median household income in {features.name}.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_income_min_price_100": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Affordability",
-    "layer": "",
-    "long_description": "The minimum price for fast internet (100 MB/s upload) as a percentage of median household income.",
-    "long_name": "The minimum price for fast internet (100 MB/s upload) as a percentage of median household income",
-    "measure_type": "percent",
-    "short_description": "The minimum price for fast internet (100 MB/s upload) as a percent of median household income",
-    "short_name": "Percentage of income for fast internet",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      },
-      {
-        "name": "Broadband Now",
-        "date_accessed": 2021,
-        "url": "https://broadbandnow.com/"
-      }
-    ],
-    "statement": "Fast internet costs {value} of the median household income in {features.name}.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_hh_without_internet": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "Percentage of households self-reported to not have internet access at home. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
-    "long_name": "Percentage of households without internet access",
-    "measure_type": "percent",
-    "short_description": "Percentage of households self-reported to not have internet access at home",
-    "short_name": "Households without internet access",
-    "sources": [
-      {
-        "name": "American Community Survey Table B28002",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "{value} of households in {features.name} do not have internet access.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_hh_without_compdev": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "decimal",
-    "equity_category": "Accessibility",
-    "layer": "",
-    "long_description": "Percentage of the households self-reported to not have a computer or device at home. Based on American Community Survey Table B28001 in ACS 2015/2019 5-year estimates.",
-    "long_name": "Percentage of households without a computer",
-    "measure_type": "percent",
-    "short_description": "Percentage of households self-reported to not have a computer or device at home",
-    "short_name": "Households without a computer",
-    "sources": [
-      {
-        "name": "American Community Survey Table B28001",
-        "date_accessed": 2023,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "{value} of households in {features.name} do not have a computer or device.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_hh_with_cable_fiber_dsl": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "Percentage of households self-reported to have a high speed internet service. A high speed internet service is defined as a cable, fiber optic, or DSL internet connection. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
-    "long_name": "Percentage of households with a high speed internet service (cable, fiber optic, or DSL)",
-    "measure_type": "percent",
-    "short_description": "Percentage of households self-reported to have a high speed internet service (cable, fiber optic, or DSL)",
-    "short_name": "Households with cable, fiber optic, or DSL",
-    "sources": [
-      {
-        "name": "American Community Survey Table B28002",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "{value} of households in {features.name} have a cable, fiber optic, or DSL internet connection.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_hh_with_broadband": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "Percentage of households self-reported to have a broadband internet connection. Broadband internet is defined as any type of internet other than a dial-up. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
-    "long_name": "Percentage of households with broadband",
-    "measure_type": "percent",
-    "short_description": "Percentage of households self-reported to have a broadband internet connection (any type of internet other than a dial-up)",
-    "short_name": "Households with broadband",
-    "sources": [
-      {
-        "name": "American Community Survey Table B28002",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "{value} of households in {features.name} have a broadband connection.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_total_25_3_using_devices": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Percent of the Total Population with Good Internet Speed",
-    "measure_type": "percent",
-    "short_description": "Percent of the total population with a good internet speed (above 25/3 MB/s, able to stream video or online game for one device).",
-    "short_name": "Percent Good (total)",
-    "sources": [
-      {
-        "name": "Ookla",
-        "date_accessed": 2021,
-        "url": "https://www.ookla.com/ookla-for-good/open-data"
-      }
-    ],
-    "statement": "{value} of the total population in {features.name} has a good internet speed.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_w_int_25_3_using_devices": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Percent of the Internet-Connected Population with Good Internet Speed",
-    "measure_type": "percent",
-    "short_description": "Percent of the internet-connected population with a good internet speed (above 25/3 MB/s, able to stream video or online game for one device).",
-    "short_name": "Percent Good (internet-connected)",
-    "sources": [
-      {
-        "name": "Ookla",
-        "date_accessed": 2021,
-        "url": "https://www.ookla.com/ookla-for-good/open-data"
-      }
-    ],
-    "statement": "{value} of the internet-connected population in {features.name} has a good internet speed.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_total_100_20_using_devices": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Percent of the Total Population with Fast Internet Speed",
-    "measure_type": "percent",
-    "short_description": "Percent of the total population with a fast internet speed (above 100/20 MB/s, able to stream HD video on multiple devices or download large files quickly).",
-    "short_name": "Percent Fast (total)",
-    "sources": [
-      {
-        "name": "Ookla",
-        "date_accessed": 2021,
-        "url": "https://www.ookla.com/ookla-for-good/open-data"
-      }
-    ],
-    "statement": "{value} of the total population in {features.name} has a fast internet speed.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_w_int_100_20_using_devices": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Percent of the Internet-Connected Population with Fast Internet Speed",
-    "measure_type": "percent",
-    "short_description": "Percent of the internet-connected population with a fast internet speed (above 100/20 MB/s, able to stream HD video on multiple devices or download large files quickly).",
-    "short_name": "Percent Fast (internet-connected)",
-    "sources": [
-      {
-        "name": "Ookla",
-        "date_accessed": 2021,
-        "url": "https://www.ookla.com/ookla-for-good/open-data"
-      }
-    ],
-    "statement": "{value} of the internet-connected population in {features.name} has a fast internet speed.",
-    "type": "percent",
-    "unit": ""
-  },
-  "devices": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Accessibility",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Number of devices",
-    "measure_type": "count",
-    "short_description": "The number of unique devices accessing Ookla Internet speed tests.",
-    "short_name": "Number of devices",
-    "sources": [
-      {
-        "name": "Ookla",
-        "date_accessed": 2021,
-        "url": "https://www.ookla.com/ookla-for-good/open-data"
-      }
-    ],
-    "statement": "There are {value} unique devices in {features.name} accessing Ookla Internet speed tests.",
-    "type": "count",
-    "unit": ""
-  },
-  "avg_up_using_devices": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Average Upload Speed",
-    "measure_type": "mean",
-    "short_description": "Average upload speed weighted by number of devices.",
-    "short_name": "Average Upload Speed",
-    "sources": [
-      {
-        "name": "Ookla",
-        "date_accessed": 2021,
-        "url": "https://www.ookla.com/ookla-for-good/open-data"
-      }
-    ],
-    "statement": "The average upload speed is {value} in {features.name}.",
-    "type": "internet speed",
-    "unit": ""
-  },
-  "avg_down_using_devices": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Average Download Speed",
-    "measure_type": "speed",
-    "short_description": "Average download speed weighted by number of devices.",
-    "short_name": "Average Download Speed",
-    "sources": [
-      {
-        "name": "Ookla",
-        "date_accessed": 2021,
-        "url": "https://www.ookla.com/ookla-for-good/open-data"
-      }
-    ],
-    "statement": "The average download speed is {value} in {features.name}.",
-    "type": "internet speed",
-    "unit": ""
   }
 }
