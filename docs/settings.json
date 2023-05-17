@@ -520,20 +520,15 @@
     "combobox": {
         "selected_district": {
             "strict": true,
-            "search": true,
-            "multi": false,
-            "accordion": false
+            "search": true
         },
         "selected_county": {
             "strict": true,
-            "search": true,
-            "multi": false,
-            "accordion": false
+            "search": true
         },
         "selected_variable": {
             "strict": true,
             "search": true,
-            "multi": false,
             "accordion": true,
             "group": "category"
         }
