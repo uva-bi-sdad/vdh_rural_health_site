@@ -275,11 +275,22 @@ page_panel(
   ## VCE UNIT PROFILES PANEL ------------------------------------------------
   page_section(
     type = "", id = "unit_profiles",
-    '<p class="lead" style="font-size:1em;text-weight:bold;">Demographic</p>',
+    ## DEMOGRAPHIC
+    '<p class="lead" style="font-size:1em;text-weight:bold;">Demographic Summary</p>',
+    # Population by Age
     input_button(
-      "Children Raised by Grandparents",
-      list(selected_variable = "perc_children_raised_by_GPs")
+      "Population under 20",
+      list(selected_variable = "perc_pop_under_20")
     ),
+    input_button(
+      "Population between 20 and 64",
+      list(selected_variable = "perc_pop_20_64")
+    ),
+    input_button(
+      "Population over 65",
+      list(selected_variable = "perc_pop_65_plus")
+    ),
+    # Population by Sex
     input_button(
       "Male Population",
       list(selected_variable = "perc_male")
@@ -288,11 +299,53 @@ page_panel(
       "Female Population",
       list(selected_variable = "perc_female")
     ),
+    # Population by Race
+    input_button(
+      "White Population",
+      list(selected_variable = "perc_wht_alone")
+    ),
+    # N. Housing Units
+    input_button(
+      "Black or African American Population",
+      list(selected_variable = "perc_afr_amer_alone")
+    ),
+    input_button(
+      "American Indian Population",
+      list(selected_variable = "perc_native_alone")
+    ),
+    input_button(
+      "Asian/Pacific Islander Population",
+      list(selected_variable = "perc_AAPI")
+    ),
+    # N. Housing Units
+    input_button(
+      "Other Race Population",
+      list(selected_variable = "perc_other")
+    ),
+    input_button(
+      "Two or More Races Population",
+      list(selected_variable = "perc_two_or_more")
+    ),
+    input_button(
+      "Hispanic Population",
+      list(selected_variable = "perc_hispanic_or_latino")
+    ),
+    # Households by Income
+    input_button(
+      "Median Household Income",
+      list(selected_variable = "median_household_income")
+    ),
+    # N. Housing Units
+    input_button(
+      "Children Raised by Grandparents",
+      list(selected_variable = "perc_children_raised_by_GPs")
+    ),
     input_button(
       "Without vehicle",
       list(selected_variable = "perc_no_vehicle")
     ),
-    '<p class="lead" style="font-size:1em;text-weight:bold;">Agriculture</p>',
+    ## AGRICULTURE
+    '<p class="lead" style="font-size:1em;text-weight:bold;">Agriculture Summary</p>',
     input_button(
       "Cropland Acerage",
       list(selected_variable = "total_cropland_acres")
@@ -325,9 +378,43 @@ page_panel(
       "Sales of Calves",
       list(selected_variable = "total_calves_sales")
     ),
-    '<p class="lead" style="font-size:1em;text-weight:bold;">Health</p>',
-    '<p class="lead" style="font-size:1em;text-weight:bold;">Education</p>',
-    '<p class="lead" style="font-size:1em;text-weight:bold;">Business and Employment</p>'),
+    '<p class="lead" style="font-size:1em;text-weight:bold;">Health Summary</p>',
+    # Mortality
+    # Morbidity
+    input_button(
+      "Poor physical health days",
+      list(selected_variable = "perc_poor_phys_hlth_days_14_and_over")
+    ),
+    input_button(
+      "Poor mental health days",
+      list(selected_variable = "perc_poor_ment_hlth_days_14_and_over")
+    ),
+    # Health Behaviors
+    # Clinical Care
+    input_button(
+      "Uninsured",
+      list(selected_variable = "no_hlth_ins_pct")
+    ),
+    input_button(
+      "Primary care physicians",
+      list(selected_variable = "primcare_cnt")
+    ),
+    # Social and Economic Factors
+    # Physical Environment
+    '<p class="lead" style="font-size:1em;text-weight:bold;">Education Summary</p>',
+    # School Enrollment
+    # Educational Attainment
+    input_button(
+      "Postsecondary education",
+      list(selected_variable = "acs_postsecondary_percent")
+    ),
+    # Percent of Age Group Enrolled
+    '<p class="lead" style="font-size:1em;text-weight:bold;">Business and Employment Summary</p>'),
+    # Population
+    # SIC Codes
+    # Retail Summary
+    # Finance, Insurance, Estate Summary
+    # Service Summary
   foot = input_switch("Share use data", "settings.tracking", as.checkbox = TRUE, note = paste(
     "Sharing your use data (via Google Analytics) supports this project,",
     "and can help us improve the site."

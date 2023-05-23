@@ -33,6 +33,7 @@
             "district"
         ],
         "variables": {},
+        "entity_info": {},
         "files": [
             "tract.csv.xz",
             "county.csv.xz",
@@ -696,9 +697,19 @@
                 "selected_variable": "access_care_indicator"
             }
         },
-        "ChildrenRaisedbyGrandparents": {
+        "Populationunder20": {
             "effects": {
-                "selected_variable": "perc_children_raised_by_GPs"
+                "selected_variable": "perc_pop_under_20"
+            }
+        },
+        "Populationbetween20and64": {
+            "effects": {
+                "selected_variable": "perc_pop_20_64"
+            }
+        },
+        "Populationover65": {
+            "effects": {
+                "selected_variable": "perc_pop_65_plus"
             }
         },
         "MalePopulation": {
@@ -709,6 +720,51 @@
         "FemalePopulation": {
             "effects": {
                 "selected_variable": "perc_female"
+            }
+        },
+        "WhitePopulation": {
+            "effects": {
+                "selected_variable": "perc_wht_alone"
+            }
+        },
+        "BlackorAfricanAmericanPopulation": {
+            "effects": {
+                "selected_variable": "perc_afr_amer_alone"
+            }
+        },
+        "AmericanIndianPopulation": {
+            "effects": {
+                "selected_variable": "perc_native_alone"
+            }
+        },
+        "Asian/PacificIslanderPopulation": {
+            "effects": {
+                "selected_variable": "perc_AAPI"
+            }
+        },
+        "OtherRacePopulation": {
+            "effects": {
+                "selected_variable": "perc_other"
+            }
+        },
+        "TwoorMoreRacesPopulation": {
+            "effects": {
+                "selected_variable": "perc_two_or_more"
+            }
+        },
+        "HispanicPopulation": {
+            "effects": {
+                "selected_variable": "perc_hispanic_or_latino"
+            }
+        },
+        "MedianHouseholdIncome": {
+            "effects": {
+                "selected_variable": "median_household_income"
+            }
+        },
+        "ChildrenRaisedbyGrandparents": {
+            "effects": {
+                "selected_variable": "perc_children_raised_by_GPs"
             }
         },
         "Withoutvehicle": {
@@ -754,6 +810,31 @@
         "SalesofCalves": {
             "effects": {
                 "selected_variable": "total_calves_sales"
+            }
+        },
+        "Poorphysicalhealthdays": {
+            "effects": {
+                "selected_variable": "perc_poor_phys_hlth_days_14_and_over"
+            }
+        },
+        "Poormentalhealthdays": {
+            "effects": {
+                "selected_variable": "perc_poor_ment_hlth_days_14_and_over"
+            }
+        },
+        "Uninsured": {
+            "effects": {
+                "selected_variable": "no_hlth_ins_pct"
+            }
+        },
+        "Primarycarephysicians": {
+            "effects": {
+                "selected_variable": "primcare_cnt"
+            }
+        },
+        "Postsecondaryeducation": {
+            "effects": {
+                "selected_variable": "acs_postsecondary_percent"
             }
         },
         "Download": {
@@ -1449,7 +1530,7 @@
         "leaflet": {
             "name": "Leaflet",
             "url": "https://leafletjs.com",
-            "version": "1.9.3",
+            "version": "1.9.4",
             "description": "A JS library for interactive maps"
         },
         "Stamen toner-light": {
@@ -1478,5 +1559,6 @@
         }
     },
     "endpoint": "https://vdh-data-commons.netlify.app/api",
-    "tag_id": "G-WSQPEF0573"
+    "tag_id": "G-WSQPEF0573",
+    "aggregated": true
 }
