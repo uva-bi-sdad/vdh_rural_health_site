@@ -22,7 +22,8 @@
     "trace_limit": 20,
     "map_overlay": true,
     "circle_radius": 7,
-    "tracking": false
+    "tracking": false,
+    "show_empty_times": false
   },
   "metadata": {
     "url": "https://uva-bi-sdad.github.io/community_example/",

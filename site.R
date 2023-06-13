@@ -32,6 +32,7 @@ page_navbar(
       ),
       input_switch("Hide URL Settings", id = "settings.hide_url_parameters"),
       input_switch("Hide Tooltips", id = "settings.hide_tooltips"),
+      input_switch("Show Missing Years", id = "settings.show_empty_times"),
       input_number("Digits", "settings.digits", default = 2, min = 0, max = 6, floating_label = FALSE),
       input_select(
         "Summary Level", options = c("dataset", "filtered", "all"), default = "dataset",

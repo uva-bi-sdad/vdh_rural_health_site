@@ -1,117 +1,4 @@
 {
-  "earnings_per_job": {
-    "category": "Employment/Workforce Development",
-    "citations": "",
-    "data_type": "decimal",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "Earnings per job is calculated based on the GDP and Personal Income table from the Bureau of Economic Analysis.",
-    "long_name": "Earnings per job",
-    "measure_type": "",
-    "short_description": "Average of earnings per job.",
-    "short_name": "Earnings per job",
-    "sources": [
-      {
-        "name": "Bureau of Economic Analysis",
-        "date_accessed": "2021",
-        "url": "https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=1&acrdn=6"
-      }
-    ],
-    "statement": "Earnings per job in {features.name} is {value}.",
-    "type": "dollar",
-    "unit": "dollars"
-  },
-  "gini_index": {
-    "category": "Financial Well Being",
-    "citations": "",
-    "data_type": "decimal",
-    "equity_category": "",
-    "layer": "",
-    "long_description": "The Gini Index is a summary measure of income inequality. The Gini coefficient incorporates the detailed shares data into a single statistic, which summarizes the dispersion of income across the entire income distribution. The Gini coefficient ranges from 0, indicating perfect equality (where everyone receives an equal share), to 1, perfect inequality (where only one recipient or group of recipients receives all the income). The Gini is based on the difference between the Lorenz curve (the observed cumulative income distribution) and the notion of a perfectly equal income distribution.",
-    "long_name": "Income Inequality (Gini Index)",
-    "measure_type": "index",
-    "short_description": "The Gini Index is a summary measure of income inequality.",
-    "short_name": "Income Inequality (Gini Index)",
-    "sources": [
-      {
-        "name": "U.S. Census American Community Survey",
-        "location": "Table B19083",
-        "date_accessed": "2023"
-      }
-    ],
-    "statement": "Income Inequality (Gini Index) in {features.name} is {value}.",
-    "type": "",
-    "unit": ""
-  },
-  "median_household_income": {
-    "category": "Financial Well Being",
-    "citations": "",
-    "data_type": "integer",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "Self-reported median household income in the past 12 months (in 2019 inflation adjusted-dollars. Based on the American Community Survey Table B19013 ACS 2015/2019 5-year estimates. The equation $a_{i} = b^\\frac{c}{d}$ was used.",
-    "long_name": "Median household income",
-    "measure_type": "count",
-    "short_description": "Self-reported median household income in the past 12 months (in 2019 inflation adjusted-dollars.",
-    "short_name": "Median household income",
-    "sources": [
-      {
-        "date_accessed": 2022,
-        "name": "American Community Survey",
-        "location": "Table B19013",
-        "url": "https://www.census.gov/programs-surveys/acs"
-      }
-    ],
-    "statement": "The median household income in {features.name} is {value} per year.",
-    "type": "dollar",
-    "unit": "dollars"
-  },
-  "job_participate_rate": {
-    "category": "Employment/Workforce Development",
-    "citations": "",
-    "data_type": "decimal",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "The percentage of individuals 16-64 years of age in the active labor force. The job particpation rate is often used by economists as an indicator of economic development and growth.",
-    "long_name": "Job Participation Pecentage",
-    "measure_type": "percent",
-    "short_description": "The percentage of individuals 16-64 years of age in the active labor force.",
-    "short_name": "Job Participation Pecentage",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "location": "Table B23025",
-        "date_accessed": "2023",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "{value} of the population in {features.name} is participating in the civilian job force.",
-    "type": "percent",
-    "unit": "people"
-  },
-  "emp_rate": {
-    "category": "Employment/Workforce Development",
-    "citations": "",
-    "data_type": "decimal",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "Population self-reported as employed as a percentage of total civilian workforce population. Based on American Community Survey Table B23025 ACS 2015/2019 5-year estimates.",
-    "long_name": "Percentage civilian employed",
-    "measure_type": "percent",
-    "short_description": "Population self-reported as employed as a percentage of total civilian workforce population.",
-    "short_name": "Percentage employed",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "location": "Table B23025",
-        "date_accessed": "2021",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "{value} of the population in {features.name} is employed.",
-    "type": "percent",
-    "unit": "people"
-  },
   "percent_food_insecure": {
     "category": "Nutrition and Food Security",
     "citations": "",
@@ -292,6 +179,7 @@
     "unit": "percent"
   },
   "perc_income_avg_nat_package": {
+    "aggregation_method": "percent",
     "category": "Broadband",
     "citations": "",
     "data_type": "decimal",
@@ -316,12 +204,13 @@
     ],
     "statement": "The national average internet package costs {value} of the median household income in {features.name}.",
     "type": "percent",
-    "unit": "dollars"
+    "unit": "dollar"
   },
   "perc_income_min_price_25": {
+    "aggregation_method": "percent",
     "category": "Broadband",
     "citations": "",
-    "data_type": "numeric",
+    "data_type": "decimal",
     "equity_category": "Affordability",
     "layer": "",
     "long_description": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income.",
@@ -343,9 +232,10 @@
     ],
     "statement": "Good internet costs {value} of the median household income in {features.name}.",
     "type": "percent",
-    "unit": ""
+    "unit": "dollar"
   },
   "perc_income_min_price_100": {
+    "aggregation_method": "percent",
     "category": "Broadband",
     "citations": "",
     "data_type": "decimal",
@@ -370,9 +260,10 @@
     ],
     "statement": "Fast internet costs {value} of the median household income in {features.name}.",
     "type": "percent",
-    "unit": "dollars"
+    "unit": "dollar"
   },
   "perc_hh_without_internet": {
+    "aggregation_method": "percent",
     "category": "Broadband",
     "citations": "",
     "data_type": "decimal",
@@ -392,9 +283,10 @@
     ],
     "statement": "{value} of households in {features.name} do not have internet access.",
     "type": "percent",
-    "unit": "households"
+    "unit": "household"
   },
   "perc_hh_with_cable_fiber_dsl": {
+    "aggregation_method": "percent",
     "category": "Broadband",
     "citations": "",
     "data_type": "decimal",
@@ -414,9 +306,10 @@
     ],
     "statement": "{value} of households in {features.name} have a cable, fiber optic, or DSL internet connection.",
     "type": "percent",
-    "unit": "households"
+    "unit": "household"
   },
   "perc_hh_with_broadband": {
+    "aggregation_method": "percent",
     "category": "Broadband",
     "citations": "",
     "data_type": "decimal",
@@ -436,9 +329,10 @@
     ],
     "statement": "{value} of households in {features.name} have a broadband connection.",
     "type": "percent",
-    "unit": "households"
+    "unit": "household"
   },
   "perc_hh_without_compdev": {
+    "aggregation_method": "percent",
     "category": "Broadband",
     "citations": "",
     "data_type": "decimal",
@@ -458,9 +352,10 @@
     ],
     "statement": "{value} of households in {features.name} do not have a computer or device.",
     "type": "percent",
-    "unit": "households"
+    "unit": "household"
   },
   "perc_total_25_3_using_devices": {
+    "aggregation_method": "percent",
     "category": "Broadband",
     "citations": "",
     "data_type": "decimal",
@@ -480,12 +375,13 @@
     ],
     "statement": "{value} of the total population in {features.name} has a good internet speed.",
     "type": "percent",
-    "unit": "people"
+    "unit": "individual"
   },
   "perc_w_int_25_3_using_devices": {
+    "aggregation_method": "percent",
     "category": "Broadband",
     "citations": "",
-    "data_type": "numeric",
+    "data_type": "decimal",
     "equity_category": "Availability",
     "layer": "",
     "long_description": "",
@@ -502,9 +398,10 @@
     ],
     "statement": "{value} of the internet-connected population in {features.name} has a good internet speed.",
     "type": "percent",
-    "unit": ""
+    "unit": "individual"
   },
   "perc_total_100_20_using_devices": {
+    "aggregation_method": "percent",
     "category": "Broadband",
     "citations": "",
     "data_type": "decimal",
@@ -524,9 +421,10 @@
     ],
     "statement": "{value} of the total population in {features.name} has a fast internet speed.",
     "type": "percent",
-    "unit": "people"
+    "unit": "individual"
   },
   "perc_w_int_100_20_using_devices": {
+    "aggregation_method": "percent",
     "category": "Broadband",
     "citations": "",
     "data_type": "decimal",
@@ -546,9 +444,10 @@
     ],
     "statement": "{value} of the internet-connected population in {features.name} has a fast internet speed.",
     "type": "percent",
-    "unit": "people"
+    "unit": "individual"
   },
   "devices": {
+    "aggregation_method": "arithmetic mean",
     "category": "Broadband",
     "citations": "",
     "data_type": "decimal",
@@ -571,6 +470,7 @@
     "unit": "devices"
   },
   "avg_up_using_devices": {
+    "aggregation_method": "weighted arithmetic mean",
     "category": "Broadband",
     "citations": "",
     "data_type": "decimal",
@@ -590,9 +490,10 @@
     ],
     "statement": "The average upload speed is {value} in {features.name}.",
     "type": "internet speed",
-    "unit": "MB/s"
+    "unit": "Mb/s"
   },
   "avg_down_using_devices": {
+    "aggregation_method": "weighted arithmetic mean",
     "category": "Broadband",
     "citations": "",
     "data_type": "decimal",
@@ -612,7 +513,407 @@
     ],
     "statement": "The average download speed is {value} in {features.name}.",
     "type": "internet speed",
-    "unit": "MB/s"
+    "unit": "Mb/s"
+  },
+  "per_rent_above30": {
+    "category": "Housing",
+    "citations": "",
+    "data_type": "decimal",
+    "equity_category": "",
+    "layer": "",
+    "long_description": "The percentage of renter-occupied households whose monthly housing costs from rent account for 30% or more of their household income in the past 12 months.",
+    "long_name": "Percentage of Renter-Occupied Households Whose Rent Accounts for 30% or More of Their Household Income",
+    "measure_type": "percent",
+    "short_description": "The percentage of renter-occupied households whose rent accounts for 30% or more of their household income.",
+    "short_name": "Cost-Burdened Households - Renter-Occupied",
+    "sources": [
+      {
+        "date_accessed": 2022,
+        "name": "American Community Survey (ACS)",
+        "location": "Table B25074",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The percentage of renter-occupied households whose monthly housing costs from rent account for 30% or more of their household income in {features.name} is {value}",
+    "type": "percent",
+    "unit": "households"
+  },
+  "per_mor_above30": {
+    "category": "Housing",
+    "citations": "",
+    "data_type": "decimal",
+    "equity_category": "",
+    "layer": "",
+    "long_description": "The percentage of owner-occupied households whose monthly housing costs from mortgage payments account for 30% or more of their household income in the past 12 months.",
+    "long_name": "Percentage of Owner-Occupied Households Whose Mortgage Payments are 30% or More of Their Household Income",
+    "measure_type": "percent",
+    "short_description": "The percentage of owner-occupied households whose mortgage payments are 30% or more of their household income.",
+    "short_name": "Cost-Burdened Households - Owner-Occupied & Mortgaged",
+    "sources": [
+      {
+        "date_accessed": 2022,
+        "name": "American Community Survey (ACS)",
+        "location": "Table B25101",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The percentage of owner-occupied households whose monthly housing costs from mortgage payments account for 30% or more of their household income in {features.name} is {value}",
+    "type": "percent",
+    "unit": "households"
+  },
+  "per_above30": {
+    "category": "Housing",
+    "citations": "",
+    "data_type": "decimal",
+    "equity_category": "",
+    "layer": "",
+    "long_description": "The percentage of households whose monthly housing costs from mortgage payments or rent account for 30% or more of their household income in the past 12 months.",
+    "long_name": "Percentage of Households Whose Mortgage Payments or Rent Account for 30% or More of Their Household Income",
+    "measure_type": "percent",
+    "short_description": "The percentage of households whose mortgage payments or rent account for 30% or more of their household income.",
+    "short_name": "Cost-Burdened Households - Owner-Occupied & Mortgaged, and Renter-Occupied",
+    "sources": [
+      {
+        "date_accessed": 2022,
+        "name": "American Community Survey (ACS)",
+        "location": "Table B25074 and B25101",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The percentage of households whose monthly housing costs from mortgage payments or rent account for 30% or more of their household income in {features.name} is {value}",
+    "type": "percent",
+    "unit": "households"
+  },
+  "perc_veteran": {
+    "category": "Demographics",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "The Veteran population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B21001.",
+    "long_name": "Veteran population (percent)",
+    "measure_type": "percentage",
+    "short_description": "The Veteran population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "short_name": "Veteran population",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The Veteran population is {value} in {features.name}.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_two_or_more": {
+    "category": "Demographics",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "The two or more races population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "long_name": "Two or more races population (percent)",
+    "measure_type": "percentage",
+    "short_description": "The two or more races population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "short_name": "Two or more races population",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The two or more races population is {value} in {features.name}.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_other": {
+    "category": "Demographics",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "The Other racial population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "long_name": "Other racial population (percent)",
+    "measure_type": "percentage",
+    "short_description": "The Other racial population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "short_name": "Other racial population",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The Other racial population is {value} in {features.name}.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_hispanic_or_latino": {
+    "category": "Demographics",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "The Hispanic/Latino population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "long_name": "Hispanic/Latino population (percent)",
+    "measure_type": "percentage",
+    "short_description": "The Hispanic/Latino population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "short_name": "Hispanic/Latino population",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The Hispanic/Latino population is {value} in {features.name}.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_wht_alone": {
+    "category": "Demographics",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "The White population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "long_name": "White population (percent)",
+    "measure_type": "percentage",
+    "short_description": "The White population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "short_name": "White population",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The White population is {value} in {features.name}.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_AAPI": {
+    "category": "Demographics",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "The Asian American/Pacific Islander population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "long_name": "Asian American/Pacific Islander population (percent)",
+    "measure_type": "percentage",
+    "short_description": "The Asian American/Pacific Islander population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "short_name": "Asian American/Pacific Islander population",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The Asian American/Pacific Islander population is {value} in {features.name}.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_native_alone": {
+    "category": "Demographics",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "The Native population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "long_name": "Native population (percent)",
+    "measure_type": "percentage",
+    "short_description": "The Native population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "short_name": "Native population",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The Native population is {value} in {features.name}.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_afr_amer_alone": {
+    "category": "Demographics",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "The Black population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "long_name": "Black population (percent)",
+    "measure_type": "percentage",
+    "short_description": "The Black population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "short_name": "Black population",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The Black population is {value} in {features.name}.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_hh_limited_english": {
+    "category": "Demographics",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "The percent of households with limited English. Based on American Community Survey ACS 2015/2019 5-year estimates Table C16002.",
+    "long_name": "Limited English households (percent)",
+    "measure_type": "percentage",
+    "short_description": "The percent of households with limited English. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "short_name": "Limited English households",
+    "sources": [
+      {
+        "name": "American Community Survey Table C16002",
+        "date_accessed": 2023,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The percent of households with limited English is {value} in {features.name}.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_female": {
+    "category": "Demographics",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "The percent of females in the total population. Based on American Community Survey ACS 2010/2021 5-year estimates table S0101.",
+    "long_name": "Female population (percent)",
+    "measure_type": "percentage",
+    "short_description": "The percent of females in population. Based on American Community Survey ACS 2010/2021 5-year estimates.",
+    "short_name": "Female population",
+    "sources": [
+      {
+        "date_accessed": 2023,
+        "name": "American Community Survey Table S0101",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The female population is {value} in {features.name}.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_children_raised_by_GPs": {
+    "category": "Demographics",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "State",
+    "layer": "",
+    "long_description": "The percent of children in the population being raised by their grandparents. Based on American Community Survey 2010/2021 5-year estimates.",
+    "long_name": "Children Raised by Grandparents (percent)",
+    "measure_type": "percent",
+    "short_description": "The percent of children in the population being raised by their grandparents. Based on American Community Survey 2010/2021 5-year estimates.",
+    "short_name": "Children Raised by Grandparents",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "location": " Table B01003",
+        "date_accessed": 2023,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The population of children raised by grandparents is {value} in {features.name}.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_male": {
+    "category": "Demographics",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "The percent of males in the total population. Based on American Community Survey ACS 2010/2021 5-year estimates table S0101.",
+    "long_name": "Male population (percent)",
+    "measure_type": "percentage",
+    "short_description": "The percent of males in population. Based on American Community Survey ACS 2010/2021 5-year estimates.",
+    "short_name": "Male population",
+    "sources": [
+      {
+        "date_accessed": 2023,
+        "name": "American Community Survey Table S0101",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The male population is {value} in {features.name}.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_pop_under_20": {
+    "category": "Demographics",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "The percent of the population under age 20. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "long_name": "Under 20 population (percent)",
+    "measure_type": "percentage",
+    "short_description": "The percent of the population under age 20. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "short_name": "Under 20 population",
+    "sources": [
+      {
+        "date_accessed": 2023,
+        "name": "American Community Survey Table B01001",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The percent of the population under age 20 is {value} in {features.name}.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_pop_65_plus": {
+    "category": "Demographics",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "long_name": "65 plus population (percent)",
+    "measure_type": "percentage",
+    "short_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "short_name": "65 plus population",
+    "sources": [
+      {
+        "date_accessed": 2023,
+        "name": "American Community Survey Table B01001",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The percent of the population over age 64 is {value} in {features.name}.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_pop_20_64": {
+    "category": "Demographics",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "The percent of the population between age 20 and 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "long_name": "20 to 64 population (percent)",
+    "measure_type": "percentage",
+    "short_description": "The percent of the population between age 20 and 64. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "short_name": "20 to 64 population",
+    "sources": [
+      {
+        "date_accessed": 2023,
+        "name": "American Community Survey Table B01001",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The percent of the population between age 20 and 64 is {value} in {features.name}.",
+    "type": "percent",
+    "unit": ""
   },
   "average_years_schooling": {
     "category": "Education",
@@ -1316,6 +1617,405 @@
     "type": "count",
     "unit": ""
   },
+  "total_operations": {
+    "category": "Business climate",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Total operations used for agriculture within a given county",
+    "measure_type": "count",
+    "short_description": "Total operations in agriculture",
+    "short_name": "Total operations in agriculture",
+    "sources": [
+      {
+        "name": "Department of Agriculture National Agriculture Statistics Service",
+        "date_accessed": 2023,
+        "url": "https://www.nass.usda.gov/"
+      }
+    ],
+    "statement": "Total operations used for agriculture in {features.name} is {value}",
+    "type": "count",
+    "unit": ""
+  },
+  "total_acres": {
+    "category": "Business climate",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Total acres used for agriculture within a given county",
+    "measure_type": "count",
+    "short_description": "Total acres in agriculture",
+    "short_name": "Total acres in agriculture",
+    "sources": [
+      {
+        "name": "Department of Agriculture National Agriculture Statistics Service",
+        "date_accessed": 2023,
+        "url": "https://www.nass.usda.gov/"
+      }
+    ],
+    "statement": "Total acres used for agriculture in {features.name} is {value}",
+    "type": "count",
+    "unit": ""
+  },
+  "operation_farmValue": {
+    "category": "Agriculture Industry",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Total asset value per operation within a given county",
+    "measure_type": "count",
+    "short_description": "Total asset value per operation",
+    "short_name": "Total sales of calves",
+    "sources": [
+      {
+        "name": "Department of Agriculture National Agriculture Statistics Service",
+        "date_accessed": 2023,
+        "url": "https://www.nass.usda.gov/"
+      }
+    ],
+    "statement": "Total asset value per operation to {features.name} is {value}.",
+    "type": "dollar",
+    "unit": "dollar"
+  },
+  "total_calves_sales": {
+    "category": "Agriculture Industry",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Total sales of calves within a given county",
+    "measure_type": "count",
+    "short_description": "Total sales of calves",
+    "short_name": "Total sales of calves",
+    "sources": [
+      {
+        "name": "Department of Agriculture National Agriculture Statistics Service",
+        "date_accessed": 2023,
+        "url": "https://www.nass.usda.gov/"
+      }
+    ],
+    "statement": "Total sales of calves to {features.name} is {value}.",
+    "type": "dollar",
+    "unit": "dollar"
+  },
+  "total_commodity_sales": {
+    "category": "Agriculture Industry",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Total sales of commodities within a given county",
+    "measure_type": "count",
+    "short_description": "Total sales of commodities",
+    "short_name": "Total sales of commodities",
+    "sources": [
+      {
+        "name": "Department of Agriculture National Agriculture Statistics Service",
+        "date_accessed": 2023,
+        "url": "https://www.nass.usda.gov/"
+      }
+    ],
+    "statement": "Total sales of commodities to {features.name} is {value}",
+    "type": "dollar",
+    "unit": "dollar"
+  },
+  "total_animalProducts_sales": {
+    "category": "Agriculture Industry",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Total sales of animal products within a given county",
+    "measure_type": "count",
+    "short_description": "Total sales of animal products",
+    "short_name": "Total sales of animal products",
+    "sources": [
+      {
+        "name": "Department of Agriculture National Agriculture Statistics Service",
+        "date_accessed": 2023,
+        "url": "https://www.nass.usda.gov/"
+      }
+    ],
+    "statement": "Total sales of animal products to {features.name} is {value}.",
+    "type": "dollar",
+    "unit": "dollar"
+  },
+  "fruit_treeNut_total_sales": {
+    "category": "Agriculture Industry",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Total sales of fruits and treenuts within a given county",
+    "measure_type": "count",
+    "short_description": "Total sales of fruits and treenuts",
+    "short_name": "Total sales of fruits and treenuts",
+    "sources": [
+      {
+        "name": "Department of Agriculture National Agriculture Statistics Service",
+        "date_accessed": 2023,
+        "url": "https://www.nass.usda.gov/"
+      }
+    ],
+    "statement": "Total sales of fruit and tree nuts to {features.name} is {value}.",
+    "type": "dollar",
+    "unit": "dollar"
+  },
+  "total_animal_expense": {
+    "category": "Agriculture Industry",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "",
+    "long_name": "County's total expenses towards animal industry",
+    "measure_type": "count",
+    "short_description": "Total expenses towards animal industry",
+    "short_name": "Total expenses towards animal industry",
+    "sources": [
+      {
+        "name": "Department of Agriculture National Agriculture Statistics Service",
+        "date_accessed": 2023,
+        "url": "https://www.nass.usda.gov/"
+      }
+    ],
+    "statement": "The overall expenses towards animals to {features.name} is {value}.",
+    "type": "dollar",
+    "unit": "dollar"
+  },
+  "total_cropland_operations": {
+    "category": "Agriculture Industry",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Number of operations with land devoted to cropland growing",
+    "measure_type": "count",
+    "short_description": "Number of operations with cropland",
+    "short_name": "Number of operations with cropland",
+    "sources": [
+      {
+        "name": "Department of Agriculture National Agriculture Statistics Service",
+        "date_accessed": 2023,
+        "url": "https://www.nass.usda.gov/"
+      }
+    ],
+    "statement": "The total number of operations with cropland to {features.name} is {value}.",
+    "type": "count",
+    "unit": ""
+  },
+  "total_irrigatedCropland_acre": {
+    "category": "Agriculture Industry",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Total acreage used in agriculture for irrigated cropland",
+    "measure_type": "count",
+    "short_description": "Total acreage for irrigated cropland",
+    "short_name": "Total acreage for irrigated cropland",
+    "sources": [
+      {
+        "name": "Department of Agriculture National Agriculture Statistics Service",
+        "date_accessed": 2023,
+        "url": "https://www.nass.usda.gov/"
+      }
+    ],
+    "statement": "The total acreage for irrigated cropland to {features.name} is {value}.",
+    "type": "count",
+    "unit": ""
+  },
+  "total_cropland_acres": {
+    "category": "Agriculture Industry",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Total acerage used in agriculture for cropland",
+    "measure_type": "count",
+    "short_description": "Total acreage for cropland",
+    "short_name": "Total acreage for cropland",
+    "sources": [
+      {
+        "name": "Department of Agriculture National Agriculture Statistics Service",
+        "date_accessed": 2023,
+        "url": "https://www.nass.usda.gov/"
+      }
+    ],
+    "statement": "The total acreage for cropland to {features.name} is {value}.",
+    "type": "count",
+    "unit": ""
+  },
+  "earnings_per_job": {
+    "category": "Employment/Workforce Development",
+    "citations": "",
+    "data_type": "decimal",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Earnings per job is calculated based on the GDP and Personal Income table from the Bureau of Economic Analysis.",
+    "long_name": "Earnings per job",
+    "measure_type": "",
+    "short_description": "Average of earnings per job.",
+    "short_name": "Earnings per job",
+    "sources": [
+      {
+        "name": "Bureau of Economic Analysis",
+        "date_accessed": "2021",
+        "url": "https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=1&acrdn=6"
+      }
+    ],
+    "statement": "Earnings per job in {features.name} is {value}.",
+    "type": "dollar",
+    "unit": "dollars"
+  },
+  "gini_index": {
+    "category": "Financial Well Being",
+    "citations": "",
+    "data_type": "decimal",
+    "equity_category": "",
+    "layer": "",
+    "long_description": "The Gini Index is a summary measure of income inequality. The Gini coefficient incorporates the detailed shares data into a single statistic, which summarizes the dispersion of income across the entire income distribution. The Gini coefficient ranges from 0, indicating perfect equality (where everyone receives an equal share), to 1, perfect inequality (where only one recipient or group of recipients receives all the income). The Gini is based on the difference between the Lorenz curve (the observed cumulative income distribution) and the notion of a perfectly equal income distribution.",
+    "long_name": "Income Inequality (Gini Index)",
+    "measure_type": "index",
+    "short_description": "The Gini Index is a summary measure of income inequality.",
+    "short_name": "Income Inequality (Gini Index)",
+    "sources": [
+      {
+        "name": "U.S. Census American Community Survey",
+        "location": "Table B19083",
+        "date_accessed": "2023"
+      }
+    ],
+    "statement": "Income Inequality (Gini Index) in {features.name} is {value}.",
+    "type": "",
+    "unit": ""
+  },
+  "median_household_income": {
+    "category": "Financial Well Being",
+    "citations": "",
+    "data_type": "integer",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Self-reported median household income in the past 12 months (in 2019 inflation adjusted-dollars. Based on the American Community Survey Table B19013 ACS 2015/2019 5-year estimates. The equation $a_{i} = b^\\frac{c}{d}$ was used.",
+    "long_name": "Median household income",
+    "measure_type": "count",
+    "short_description": "Self-reported median household income in the past 12 months (in 2019 inflation adjusted-dollars.",
+    "short_name": "Median household income",
+    "sources": [
+      {
+        "date_accessed": 2022,
+        "name": "American Community Survey",
+        "location": "Table B19013",
+        "url": "https://www.census.gov/programs-surveys/acs"
+      }
+    ],
+    "statement": "The median household income in {features.name} is {value} per year.",
+    "type": "dollar",
+    "unit": "dollars"
+  },
+  "job_participate_rate": {
+    "category": "Employment/Workforce Development",
+    "citations": "",
+    "data_type": "decimal",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "The percentage of individuals 16-64 years of age in the active labor force. The job particpation rate is often used by economists as an indicator of economic development and growth.",
+    "long_name": "Job Participation Pecentage",
+    "measure_type": "percent",
+    "short_description": "The percentage of individuals 16-64 years of age in the active labor force.",
+    "short_name": "Job Participation Pecentage",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "location": "Table B23025",
+        "date_accessed": "2023",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "{value} of the population in {features.name} is participating in the civilian job force.",
+    "type": "percent",
+    "unit": "people"
+  },
+  "emp_rate": {
+    "category": "Employment/Workforce Development",
+    "citations": "",
+    "data_type": "decimal",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Population self-reported as employed as a percentage of total civilian workforce population. Based on American Community Survey Table B23025 ACS 2015/2019 5-year estimates.",
+    "long_name": "Percentage civilian employed",
+    "measure_type": "percent",
+    "short_description": "Population self-reported as employed as a percentage of total civilian workforce population.",
+    "short_name": "Percentage employed",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "location": "Table B23025",
+        "date_accessed": "2021",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "{value} of the population in {features.name} is employed.",
+    "type": "percent",
+    "unit": "people"
+  },
+  "poverty_pct": {
+    "category": "Financial Well Being",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Percentage of households that are below the Federal Poverty Level. Not being able to afford the basics where they live.",
+    "long_name": "Percentage of households that are below the Federal Poverty Level.",
+    "measure_type": "percentage",
+    "short_description": "The percent of households that are below the Federal Poverty Level.",
+    "short_name": "Percentage of households in poverty",
+    "sources": [
+      {
+        "date_accessed": 2023,
+        "name": "United for Alice",
+        "url": "https://www.unitedforalice.org/"
+      }
+    ],
+    "statement": "{value} percent of the households in {features.name} are in poverty.",
+    "type": "percent",
+    "unit": ""
+  },
+  "alice_pct": {
+    "category": "Financial Well Being",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Percentage of households that are Asset Limited, Income Constrained, Employed. Households Earning more than the Federal Poverty Level, but not enough to afford the basics where they live.",
+    "long_name": "Percentage of households that are Asset Limited, Income Constrained, Employed (ALICE)",
+    "measure_type": "percentage",
+    "short_description": "The percent of households that are above the Federal Poverty Level but still cannot afford the basics where they live.",
+    "short_name": "Percentage of ALICE housholds",
+    "sources": [
+      {
+        "date_accessed": 2023,
+        "name": "United for Alice",
+        "url": "https://www.unitedforalice.org/"
+      }
+    ],
+    "statement": "{value} percent of the households in {features.name} are ALICE.",
+    "type": "percent",
+    "unit": ""
+  },
   "no_hlth_ins_pct": {
     "category": "Health",
     "citations": "",
@@ -1381,6 +2081,116 @@
     ],
     "statement": "The average emergency department visits for drug overdose rate in {features.name} is {value}.",
     "type": "rate",
+    "unit": ""
+  },
+  "vi_housing_transportation": {
+    "category": "Health",
+    "citations": "",
+    "data_type": "decimal",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "The fourth theme in calculating the Social Vulnerability Index, consists of housing type & transportation components from the American Community Survey.",
+    "long_name": "Social Vulnerability Index (Housing type & transportation)",
+    "measure_type": "percentage",
+    "short_description": "Housing type & transportation theme for calculating Social Vulnerability Index.",
+    "short_name": "Social Vulnerability Index (Housing type & transportation)",
+    "sources": [
+      {
+        "name": "Agency for Toxic Substances and Disease Registry (ATSDR)",
+        "date_accessed": 2023,
+        "url": "https://www.atsdr.cdc.gov/placeandhealth/svi/index.html"
+      }
+    ],
+    "statement": "The housing type & transportation index for {feature.name} is {value}.",
+    "type": "percent",
+    "unit": ""
+  },
+  "vi_race_ethnicity": {
+    "category": "Health",
+    "citations": "",
+    "data_type": "decimal",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "The third theme in calculating the Social Vulnerability Index, consists of racial & ethnic minority status components from the American Community Survey.",
+    "long_name": "Social Vulnerability Index (Racial & ethnic minority status)",
+    "measure_type": "percentage",
+    "short_description": "Racial & ethnic minority status theme for calculating Social Vulnerability Index.",
+    "short_name": "Social Vulnerability Index (Racial & ethnic minority status)",
+    "sources": [
+      {
+        "name": "Agency for Toxic Substances and Disease Registry (ATSDR)",
+        "date_accessed": 2023,
+        "url": "https://www.atsdr.cdc.gov/placeandhealth/svi/index.html"
+      }
+    ],
+    "statement": "The racial & ethnic minority status for {feature.name} is {value}.",
+    "type": "percent",
+    "unit": ""
+  },
+  "vi_household": {
+    "category": "Health",
+    "citations": "",
+    "data_type": "decimal",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "The second theme in calculating the Social Vulnerability Index, consists of different housing characteristics from the American Community Survey.",
+    "long_name": "Social Vulnerability Index (Housing characteristics)",
+    "measure_type": "percentage",
+    "short_description": "Housing characteristics index theme for calculating Social Vulnerability Index.",
+    "short_name": "Social Vulnerability Index (Housing characteristics)",
+    "sources": [
+      {
+        "name": "Agency for Toxic Substances and Disease Registry (ATSDR)",
+        "date_accessed": 2023,
+        "url": "https://www.atsdr.cdc.gov/placeandhealth/svi/index.html"
+      }
+    ],
+    "statement": "The Housing characteristics index for {feature.name} is {value}.",
+    "type": "percent",
+    "unit": ""
+  },
+  "vi_socioeconomic": {
+    "category": "Health",
+    "citations": "",
+    "data_type": "decimal",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "The first theme in calculating the Social Vulnerability Index, consists of different socioeconomic components from the American Community Survey.",
+    "long_name": "Social Vulnerability Index (Socioeconomic Status)",
+    "measure_type": "percentage",
+    "short_description": "Socioeconomic status theme for calculating Social Vulnerability Index.",
+    "short_name": "Social Vulnerability Index (Socioeconomic Status)",
+    "sources": [
+      {
+        "name": "Agency for Toxic Substances and Disease Registry (ATSDR)",
+        "date_accessed": 2023,
+        "url": "https://www.atsdr.cdc.gov/placeandhealth/svi/index.html"
+      }
+    ],
+    "statement": "The socioeconomic status for {feature.name} is {value}.",
+    "type": "percent",
+    "unit": ""
+  },
+  "vi_overall": {
+    "category": "Health",
+    "citations": "",
+    "data_type": "decimal",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "The Social Vulnerability Index is a tool that uses U.S. Census data to determine the social vulnerability of every census tract. Four themes are used when calulating: Socioeconomic, household characteristics, racial & ethnic minority, and housing type & transportation.",
+    "long_name": "Social Vulnerability Index",
+    "measure_type": "percentage",
+    "short_description": "The Social Vulnerability Index comprised of four themes.",
+    "short_name": "Social Vulnerability Index",
+    "sources": [
+      {
+        "name": "Agency for Toxic Substances and Disease Registry (ATSDR)",
+        "date_accessed": 2023,
+        "url": "https://www.atsdr.cdc.gov/placeandhealth/svi/index.html"
+      }
+    ],
+    "statement": "The overall Social Vulnerability Index for {feature.name} is {value}.",
+    "type": "percent",
     "unit": ""
   },
   "inadequate": {
@@ -2544,581 +3354,5 @@
       "title": "Census Tract Level State Maps of the Modified Retail Food Environment Index (mRFEI)",
       "url": "https://www.cdc.gov/obesity/downloads/census-tract-level-state-maps-mrfei_TAG508.pdf"
     }
-  },
-  "total_calves_sales": {
-    "category": "Agriculture Industry",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Total sales of calves within a given county",
-    "measure_type": "count",
-    "short_description": "Total sales of calves",
-    "short_name": "Total sales of calves",
-    "sources": [
-      {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
-        "date_accessed": 2023,
-        "url": "https://www.nass.usda.gov/"
-      }
-    ],
-    "statement": "Total sales of calves to {feature.name} is {value}.",
-    "type": "dollar",
-    "unit": "dollar"
-  },
-  "total_commodity_sales": {
-    "category": "Agriculture Industry",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Total sales of commodities within a given county",
-    "measure_type": "count",
-    "short_description": "Total sales of commodities",
-    "short_name": "Total sales of commodities",
-    "sources": [
-      {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
-        "date_accessed": 2023,
-        "url": "https://www.nass.usda.gov/"
-      }
-    ],
-    "statement": "Total sales of commodities to {feature.name} is {value}",
-    "type": "dollar",
-    "unit": "dollar"
-  },
-  "total_animalProducts_sales": {
-    "category": "Agriculture Industry",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Total sales of animal products within a given county",
-    "measure_type": "count",
-    "short_description": "Total sales of animal products",
-    "short_name": "Total sales of animal products",
-    "sources": [
-      {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
-        "date_accessed": 2023,
-        "url": "https://www.nass.usda.gov/"
-      }
-    ],
-    "statement": "Total sales of animal products to {features.name} is {value}.",
-    "type": "dollar",
-    "unit": "dollar"
-  },
-  "fruit_treeNut_total_sales": {
-    "category": "Agriculture Industry",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Total sales of fruits and treenuts within a given county",
-    "measure_type": "count",
-    "short_description": "Total sales of fruits and treenuts",
-    "short_name": "Total sales of fruits and treenuts",
-    "sources": [
-      {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
-        "date_accessed": 2023,
-        "url": "https://www.nass.usda.gov/"
-      }
-    ],
-    "statement": "Total sales of fruit and tree nuts to {features.name} is {value}.",
-    "type": "dollar",
-    "unit": "dollar"
-  },
-  "total_animal_expense": {
-    "category": "Agriculture Industry",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "",
-    "long_name": "County's total expenses towards animal industry",
-    "measure_type": "count",
-    "short_description": "Total expenses towards animal industry",
-    "short_name": "Total expenses towards animal industry",
-    "sources": [
-      {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
-        "date_accessed": 2023,
-        "url": "https://www.nass.usda.gov/"
-      }
-    ],
-    "statement": "The overall expenses towards animals to {features.name} is {value}.",
-    "type": "dollar",
-    "unit": "dollar"
-  },
-  "total_cropland_operations": {
-    "category": "Agriculture Industry",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Number of operations with land devoted to cropland growing",
-    "measure_type": "count",
-    "short_description": "Number of operations with cropland",
-    "short_name": "Number of operations with cropland",
-    "sources": [
-      {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
-        "date_accessed": 2023,
-        "url": "https://www.nass.usda.gov/"
-      }
-    ],
-    "statement": "The total number of operations with cropland to {features.name} is {value}.",
-    "type": "count",
-    "unit": ""
-  },
-  "total_irrigatedCropland_acre": {
-    "category": "Agriculture Industry",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Total acreage used in agriculture for irrigated cropland",
-    "measure_type": "count",
-    "short_description": "Total acreage for irrigated cropland",
-    "short_name": "Total acreage for irrigated cropland",
-    "sources": [
-      {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
-        "date_accessed": 2023,
-        "url": "https://www.nass.usda.gov/"
-      }
-    ],
-    "statement": "The total acreage for irrigated cropland to {features.name} is {value}.",
-    "type": "count",
-    "unit": ""
-  },
-  "total_cropland_acres": {
-    "category": "Agriculture Industry",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Total acerage used in agriculture for cropland",
-    "measure_type": "count",
-    "short_description": "Total acreage for cropland",
-    "short_name": "Total acreage for cropland",
-    "sources": [
-      {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
-        "date_accessed": 2023,
-        "url": "https://www.nass.usda.gov/"
-      }
-    ],
-    "statement": "The total acreage for cropland to {features.name} is {value}.",
-    "type": "count",
-    "unit": ""
-  },
-  "per_rent_above30": {
-    "category": "Housing",
-    "citations": "",
-    "data_type": "decimal",
-    "equity_category": "",
-    "layer": "",
-    "long_description": "The percentage of renter-occupied households whose monthly housing costs from rent account for 30% or more of their household income in the past 12 months.",
-    "long_name": "Percentage of Renter-Occupied Households Whose Rent Accounts for 30% or More of Their Household Income",
-    "measure_type": "percent",
-    "short_description": "The percentage of renter-occupied households whose rent accounts for 30% or more of their household income.",
-    "short_name": "Cost-Burdened Households - Renter-Occupied",
-    "sources": [
-      {
-        "date_accessed": 2022,
-        "name": "American Community Survey (ACS)",
-        "location": "Table B25074",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The percentage of renter-occupied households whose monthly housing costs from rent account for 30% or more of their household income in {features.name} is {value}",
-    "type": "percent",
-    "unit": "households"
-  },
-  "per_mor_above30": {
-    "category": "Housing",
-    "citations": "",
-    "data_type": "decimal",
-    "equity_category": "",
-    "layer": "",
-    "long_description": "The percentage of owner-occupied households whose monthly housing costs from mortgage payments account for 30% or more of their household income in the past 12 months.",
-    "long_name": "Percentage of Owner-Occupied Households Whose Mortgage Payments are 30% or More of Their Household Income",
-    "measure_type": "percent",
-    "short_description": "The percentage of owner-occupied households whose mortgage payments are 30% or more of their household income.",
-    "short_name": "Cost-Burdened Households - Owner-Occupied & Mortgaged",
-    "sources": [
-      {
-        "date_accessed": 2022,
-        "name": "American Community Survey (ACS)",
-        "location": "Table B25101",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The percentage of owner-occupied households whose monthly housing costs from mortgage payments account for 30% or more of their household income in {features.name} is {value}",
-    "type": "percent",
-    "unit": "households"
-  },
-  "per_above30": {
-    "category": "Housing",
-    "citations": "",
-    "data_type": "decimal",
-    "equity_category": "",
-    "layer": "",
-    "long_description": "The percentage of households whose monthly housing costs from mortgage payments or rent account for 30% or more of their household income in the past 12 months.",
-    "long_name": "Percentage of Households Whose Mortgage Payments or Rent Account for 30% or More of Their Household Income",
-    "measure_type": "percent",
-    "short_description": "The percentage of households whose mortgage payments or rent account for 30% or more of their household income.",
-    "short_name": "Cost-Burdened Households - Owner-Occupied & Mortgaged, and Renter-Occupied",
-    "sources": [
-      {
-        "date_accessed": 2022,
-        "name": "American Community Survey (ACS)",
-        "location": "Table B25074 and B25101",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The percentage of households whose monthly housing costs from mortgage payments or rent account for 30% or more of their household income in {features.name} is {value}",
-    "type": "percent",
-    "unit": "households"
-  },
-  "perc_veteran": {
-    "category": "Demographics",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "The Veteran population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B21001.",
-    "long_name": "Veteran population (percent)",
-    "measure_type": "percentage",
-    "short_description": "The Veteran population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "Veteran population",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The Veteran population is {value} in {features.name}.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_two_or_more": {
-    "category": "Demographics",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "The two or more races population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "long_name": "Two or more races population (percent)",
-    "measure_type": "percentage",
-    "short_description": "The two or more races population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "Two or more races population",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The two or more races population is {value} in {features.name}.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_other": {
-    "category": "Demographics",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "The Other racial population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "long_name": "Other racial population (percent)",
-    "measure_type": "percentage",
-    "short_description": "The Other racial population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "Other racial population",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The Other racial population is {value} in {features.name}.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_hispanic_or_latino": {
-    "category": "Demographics",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "The Hispanic/Latino population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "long_name": "Hispanic/Latino population (percent)",
-    "measure_type": "percentage",
-    "short_description": "The Hispanic/Latino population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "Hispanic/Latino population",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The Hispanic/Latino population is {value} in {features.name}.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_wht_alone": {
-    "category": "Demographics",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "The White population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "long_name": "White population (percent)",
-    "measure_type": "percentage",
-    "short_description": "The White population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "White population",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The White population is {value} in {features.name}.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_AAPI": {
-    "category": "Demographics",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "The Asian American/Pacific Islander population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "long_name": "Asian American/Pacific Islander population (percent)",
-    "measure_type": "percentage",
-    "short_description": "The Asian American/Pacific Islander population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "Asian American/Pacific Islander population",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The Asian American/Pacific Islander population is {value} in {features.name}.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_native_alone": {
-    "category": "Demographics",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "The Native population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "long_name": "Native population (percent)",
-    "measure_type": "percentage",
-    "short_description": "The Native population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "Native population",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The Native population is {value} in {features.name}.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_afr_amer_alone": {
-    "category": "Demographics",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "The Black population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "long_name": "Black population (percent)",
-    "measure_type": "percentage",
-    "short_description": "The Black population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "Black population",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The Black population is {value} in {features.name}.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_hh_limited_english": {
-    "category": "Demographics",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "The percent of households with limited English. Based on American Community Survey ACS 2015/2019 5-year estimates Table C16002.",
-    "long_name": "Limited English households (percent)",
-    "measure_type": "percentage",
-    "short_description": "The percent of households with limited English. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "Limited English households",
-    "sources": [
-      {
-        "name": "American Community Survey Table C16002",
-        "date_accessed": 2023,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The percent of households with limited English is {value} in {features.name}.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_female": {
-    "category": "Demographics",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "The percent of females in the total population. Based on American Community Survey ACS 2010/2021 5-year estimates table S0101.",
-    "long_name": "Female population (percent)",
-    "measure_type": "percentage",
-    "short_description": "The percent of females in population. Based on American Community Survey ACS 2010/2021 5-year estimates.",
-    "short_name": "Female population",
-    "sources": [
-      {
-        "date_accessed": 2023,
-        "name": "American Community Survey Table S0101",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The female population is {value} in {features.name}.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_children_raised_by_GPs": {
-    "category": "Demographics",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "State",
-    "layer": "",
-    "long_description": "The percent of children in the population being raised by their grandparents. Based on American Community Survey 2010/2021 5-year estimates.",
-    "long_name": "Children Raised by Grandparents (percent)",
-    "measure_type": "percent",
-    "short_description": "The percent of children in the population being raised by their grandparents. Based on American Community Survey 2010/2021 5-year estimates.",
-    "short_name": "Children Raised by Grandparents",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "location": " Table B01003",
-        "date_accessed": 2023,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The population of children raised by grandparents is {value} in {features.name}.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_male": {
-    "category": "Demographics",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "The percent of males in the total population. Based on American Community Survey ACS 2010/2021 5-year estimates table S0101.",
-    "long_name": "Male population (percent)",
-    "measure_type": "percentage",
-    "short_description": "The percent of males in population. Based on American Community Survey ACS 2010/2021 5-year estimates.",
-    "short_name": "Male population",
-    "sources": [
-      {
-        "date_accessed": 2023,
-        "name": "American Community Survey Table S0101",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The male population is {value} in {features.name}.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_pop_under_20": {
-    "category": "Demographics",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "The percent of the population under age 20. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "long_name": "Under 20 population (percent)",
-    "measure_type": "percentage",
-    "short_description": "The percent of the population under age 20. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "Under 20 population",
-    "sources": [
-      {
-        "date_accessed": 2023,
-        "name": "American Community Survey Table B01001",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The percent of the population under age 20 is {value} in {features.name}.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_pop_65_plus": {
-    "category": "Demographics",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "long_name": "65 plus population (percent)",
-    "measure_type": "percentage",
-    "short_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "65 plus population",
-    "sources": [
-      {
-        "date_accessed": 2023,
-        "name": "American Community Survey Table B01001",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The percent of the population over age 64 is {value} in {features.name}.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_pop_20_64": {
-    "category": "Demographics",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "The percent of the population between age 20 and 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "long_name": "20 to 64 population (percent)",
-    "measure_type": "percentage",
-    "short_description": "The percent of the population between age 20 and 64. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "20 to 64 population",
-    "sources": [
-      {
-        "date_accessed": 2023,
-        "name": "American Community Survey Table B01001",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The percent of the population between age 20 and 64 is {value} in {features.name}.",
-    "type": "percent",
-    "unit": ""
   }
 }
