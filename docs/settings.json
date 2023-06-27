@@ -1488,7 +1488,7 @@
     "plotly": {
       "name": "Plotly",
       "url": "https://plotly.com/javascript/getting-started",
-      "version": "2.20.0"
+      "version": "2.24.2"
     }
   },
   "endpoint": "https://vdh-data-commons.netlify.app/api",

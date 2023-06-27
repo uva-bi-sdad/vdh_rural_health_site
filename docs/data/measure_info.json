@@ -1,183 +1,4 @@
 {
-  "percent_food_insecure": {
-    "category": "Nutrition and Food Security",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "",
-    "layer": "",
-    "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. This measure is an estimate of the percent of people in food insecure households.  The brief providing the methodology of calculating these estimates is available at Feeding America's Map the Meal Gap website (linked below). Food insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
-    "long_name": "Estimated percentage of total people in food insecure households",
-    "measure_type": "percent",
-    "short_description": "Food insecure persons are people living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
-    "short_name": "Food Insecure Population Percentage (Feeding America)",
-    "sources": [
-      {
-        "date_accessed": 2022,
-        "name": "Feeding America",
-        "url": "https://map.feedingamerica.org/"
-      }
-    ],
-    "statement": "{value} percent of the population in {features.name} are food insecure.",
-    "type": "percent",
-    "unit": ""
-  },
-  "number_food_insecure": {
-    "category": "Nutrition and Food Security",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "",
-    "layer": "",
-    "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. This measure is an estimate of the number of people in food insecure households.  The brief providing the methodology of calculating these estimates is available at Feeding America's Map the Meal Gap website (linked below). Food insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
-    "long_name": "Estimated number of total people in food insecure households",
-    "measure_type": "count",
-    "short_description": "Food insecure persons are people living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
-    "short_name": "Food Insecure Population Count (Feeding America)",
-    "sources": [
-      {
-        "date_accessed": 2022,
-        "name": "Feeding America",
-        "url": "https://map.feedingamerica.org/"
-      }
-    ],
-    "statement": "{value} people in {features.name} are food insecure.",
-    "type": "count",
-    "unit": ""
-  },
-  "Cost_Per_Meal": {
-    "category": "Nutrition and Food Security",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Affordability",
-    "layer": "",
-    "long_description": "The average weekly dollar amount food-secure individuals report spending on food, as estimated by the Current Population Survey, divided by 21 (assuming three meals a day, seven days a week). This amount has been adjusted to reflect local food prices and relevant taxes.",
-    "long_name": "Average meal cost ($)",
-    "measure_type": "cost",
-    "short_description": "The average weekly dollar amount food-secure individuals report spending on food.",
-    "short_name": "Average meal cost ($)",
-    "sources": [
-      {
-        "name": "Feeding America",
-        "date_accessed": "2021",
-        "url": "https://www.feedingamerica.org/"
-      }
-    ],
-    "statement": "The average meal cost in {features.name} is {value}.",
-    "type": "dollar",
-    "unit": ""
-  },
-  "Num_Child_Food_Insecure": {
-    "category": "Nutrition and Food Security",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
-    "long_name": "Count of food insecure children",
-    "measure_type": "count",
-    "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
-    "short_name": "Food insecure children (count)",
-    "sources": [
-      {
-        "name": "Feeding America",
-        "date_accessed": "2021",
-        "url": "https://www.feedingamerica.org/"
-      }
-    ],
-    "statement": "The population of food insecure children in {features.name} is {value}.",
-    "type": "count",
-    "unit": ""
-  },
-  "Child_Food_Insecurity_Rate": {
-    "category": "Nutrition and Food Security",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
-    "long_name": "Percentage of food insecure children",
-    "measure_type": "percent",
-    "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
-    "short_name": "Percentage of food insecure children",
-    "sources": [
-      {
-        "name": "Feeding America",
-        "date_accessed": "2021",
-        "url": "https://www.feedingamerica.org/"
-      }
-    ],
-    "statement": "{value} of the population of children in {features.name} are food insecure.",
-    "type": "percent",
-    "unit": ""
-  },
-  "hh_received_snap_pct": {
-    "category": "Nutrition and Food Security",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "",
-    "layer": "",
-    "long_description": "The percentage of households in which at least one member of the household received benefits from the Food Stamp Program or the Supplemental Nutrition Assistance Program (SNAP) in the past 12 months.  This does not include households in which at least one member recieved benefits from WIC, the School Lunch Program, or assistance from food banks and not also from the Food Stamp Program or SNAP in the past 12 months.",
-    "long_name": "Percentage of Households That Received Supplemental Nutrition Assistance Program (SNAP)",
-    "measure_type": "percent",
-    "short_description": "The percentage of households in which at least one member received benefits from the Food Stamp Program or SNAP in the past 12 months",
-    "short_name": "Percentage of Households That Received SNAP",
-    "sources": [
-      {
-        "date_accessed": 2022,
-        "name": "American Community Survey (ACS)",
-        "location": "Table B22010",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The percentage of households that received SNAP in {features.name} is {value}.",
-    "type": "",
-    "unit": ""
-  },
-  "hh_received_snap_cnt": {
-    "category": "Nutrition and Food Security",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "",
-    "layer": "",
-    "long_description": "The number of households in which at least one member of the household received benefits from the Food Stamp Program or the Supplemental Nutrition Assistance Program (SNAP) in the past 12 months.  This does not include households in which at least one member recieved benefits from WIC, the School Lunch Program, or assistance from food banks and not also from the Food Stamp Program or SNAP in the past 12 months.",
-    "long_name": "Count of Households That Received Supplemental Nutrition Assistance Program (SNAP)",
-    "measure_type": "count",
-    "short_description": "The number of households in which at least one member received benefits from the Food Stamp Program or SNAP in the past 12 months",
-    "short_name": "Count of Households That Received SNAP",
-    "sources": [
-      {
-        "date_accessed": 2022,
-        "name": "American Community Survey (ACS)",
-        "location": "Table B22010",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The count of households that received SNAP in {features.name} is {value}.",
-    "type": "",
-    "unit": ""
-  },
-  "perc_no_vehicle": {
-    "category": "Transportation",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "Percentage of households self-reported to not have a vehicle available at home. Based on American Community Survey Table S2504 ACS 5-year estimates.",
-    "long_name": "Percentage of households without vehicle available",
-    "measure_type": "float",
-    "short_description": "Households self-reported to not have a vehicle available at home.",
-    "short_name": "Without vehicle",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "location": "Table S2504",
-        "date_accessed": "2023",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "{value} of households in {features.name} do not have a vehicle available at home.",
-    "type": "percent",
-    "unit": "percent"
-  },
   "perc_income_avg_nat_package": {
     "aggregation_method": "percent",
     "category": "Broadband",
@@ -515,74 +336,258 @@
     "type": "internet speed",
     "unit": "Mb/s"
   },
-  "per_rent_above30": {
-    "category": "Housing",
+  "total_operations": {
+    "aggregation_method": "",
+    "category": "Business climate",
     "citations": "",
-    "data_type": "decimal",
-    "equity_category": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
     "layer": "",
-    "long_description": "The percentage of renter-occupied households whose monthly housing costs from rent account for 30% or more of their household income in the past 12 months.",
-    "long_name": "Percentage of Renter-Occupied Households Whose Rent Accounts for 30% or More of Their Household Income",
-    "measure_type": "percent",
-    "short_description": "The percentage of renter-occupied households whose rent accounts for 30% or more of their household income.",
-    "short_name": "Cost-Burdened Households - Renter-Occupied",
+    "long_description": "",
+    "long_name": "Total operations used for agriculture within a given county",
+    "measure_type": "count",
+    "short_description": "Total operations in agriculture",
+    "short_name": "Total operations in agriculture",
     "sources": [
       {
-        "date_accessed": 2022,
-        "name": "American Community Survey (ACS)",
-        "location": "Table B25074",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
+        "name": "Department of Agriculture National Agriculture Statistics Service",
+        "date_accessed": 2023,
+        "url": "https://www.nass.usda.gov/"
       }
     ],
-    "statement": "The percentage of renter-occupied households whose monthly housing costs from rent account for 30% or more of their household income in {features.name} is {value}",
-    "type": "percent",
-    "unit": "households"
+    "statement": "Total operations used for agriculture in {features.name} is {value}",
+    "type": "count",
+    "unit": ""
   },
-  "per_mor_above30": {
-    "category": "Housing",
+  "total_acres": {
+    "aggregation_method": "",
+    "category": "Business climate",
     "citations": "",
-    "data_type": "decimal",
-    "equity_category": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
     "layer": "",
-    "long_description": "The percentage of owner-occupied households whose monthly housing costs from mortgage payments account for 30% or more of their household income in the past 12 months.",
-    "long_name": "Percentage of Owner-Occupied Households Whose Mortgage Payments are 30% or More of Their Household Income",
-    "measure_type": "percent",
-    "short_description": "The percentage of owner-occupied households whose mortgage payments are 30% or more of their household income.",
-    "short_name": "Cost-Burdened Households - Owner-Occupied & Mortgaged",
+    "long_description": "",
+    "long_name": "Total acres used for agriculture within a given county",
+    "measure_type": "count",
+    "short_description": "Total acres in agriculture",
+    "short_name": "Total acres in agriculture",
     "sources": [
       {
-        "date_accessed": 2022,
-        "name": "American Community Survey (ACS)",
-        "location": "Table B25101",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
+        "name": "Department of Agriculture National Agriculture Statistics Service",
+        "date_accessed": 2023,
+        "url": "https://www.nass.usda.gov/"
       }
     ],
-    "statement": "The percentage of owner-occupied households whose monthly housing costs from mortgage payments account for 30% or more of their household income in {features.name} is {value}",
-    "type": "percent",
-    "unit": "households"
+    "statement": "Total acres used for agriculture in {features.name} is {value}",
+    "type": "count",
+    "unit": ""
   },
-  "per_above30": {
-    "category": "Housing",
+  "operation_farmValue": {
+    "aggregation_method": "",
+    "category": "Agriculture Industry",
     "citations": "",
-    "data_type": "decimal",
-    "equity_category": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
     "layer": "",
-    "long_description": "The percentage of households whose monthly housing costs from mortgage payments or rent account for 30% or more of their household income in the past 12 months.",
-    "long_name": "Percentage of Households Whose Mortgage Payments or Rent Account for 30% or More of Their Household Income",
-    "measure_type": "percent",
-    "short_description": "The percentage of households whose mortgage payments or rent account for 30% or more of their household income.",
-    "short_name": "Cost-Burdened Households - Owner-Occupied & Mortgaged, and Renter-Occupied",
+    "long_description": "",
+    "long_name": "Total asset value per operation within a given county",
+    "measure_type": "count",
+    "short_description": "Total asset value per operation",
+    "short_name": "Total sales of calves",
     "sources": [
       {
-        "date_accessed": 2022,
-        "name": "American Community Survey (ACS)",
-        "location": "Table B25074 and B25101",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
+        "name": "Department of Agriculture National Agriculture Statistics Service",
+        "date_accessed": 2023,
+        "url": "https://www.nass.usda.gov/"
       }
     ],
-    "statement": "The percentage of households whose monthly housing costs from mortgage payments or rent account for 30% or more of their household income in {features.name} is {value}",
-    "type": "percent",
-    "unit": "households"
+    "statement": "Total asset value per operation to {features.name} is {value}.",
+    "type": "dollar",
+    "unit": "dollar"
+  },
+  "total_calves_sales": {
+    "aggregation_method": "",
+    "category": "Agriculture Industry",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Total sales of calves within a given county",
+    "measure_type": "count",
+    "short_description": "Total sales of calves",
+    "short_name": "Total sales of calves",
+    "sources": [
+      {
+        "name": "Department of Agriculture National Agriculture Statistics Service",
+        "date_accessed": 2023,
+        "url": "https://www.nass.usda.gov/"
+      }
+    ],
+    "statement": "Total sales of calves to {features.name} is {value}.",
+    "type": "dollar",
+    "unit": "dollar"
+  },
+  "total_commodity_sales": {
+    "aggregation_method": "",
+    "category": "Agriculture Industry",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Total sales of commodities within a given county",
+    "measure_type": "count",
+    "short_description": "Total sales of commodities",
+    "short_name": "Total sales of commodities",
+    "sources": [
+      {
+        "name": "Department of Agriculture National Agriculture Statistics Service",
+        "date_accessed": 2023,
+        "url": "https://www.nass.usda.gov/"
+      }
+    ],
+    "statement": "Total sales of commodities to {features.name} is {value}",
+    "type": "dollar",
+    "unit": "dollar"
+  },
+  "total_animalProducts_sales": {
+    "aggregation_method": "",
+    "category": "Agriculture Industry",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Total sales of animal products within a given county",
+    "measure_type": "count",
+    "short_description": "Total sales of animal products",
+    "short_name": "Total sales of animal products",
+    "sources": [
+      {
+        "name": "Department of Agriculture National Agriculture Statistics Service",
+        "date_accessed": 2023,
+        "url": "https://www.nass.usda.gov/"
+      }
+    ],
+    "statement": "Total sales of animal products to {features.name} is {value}.",
+    "type": "dollar",
+    "unit": "dollar"
+  },
+  "fruit_treeNut_total_sales": {
+    "aggregation_method": "",
+    "category": "Agriculture Industry",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Total sales of fruits and treenuts within a given county",
+    "measure_type": "count",
+    "short_description": "Total sales of fruits and treenuts",
+    "short_name": "Total sales of fruits and treenuts",
+    "sources": [
+      {
+        "name": "Department of Agriculture National Agriculture Statistics Service",
+        "date_accessed": 2023,
+        "url": "https://www.nass.usda.gov/"
+      }
+    ],
+    "statement": "Total sales of fruit and tree nuts to {features.name} is {value}.",
+    "type": "dollar",
+    "unit": "dollar"
+  },
+  "total_animal_expense": {
+    "aggregation_method": "",
+    "category": "Agriculture Industry",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "",
+    "long_name": "County's total expenses towards animal industry",
+    "measure_type": "count",
+    "short_description": "Total expenses towards animal industry",
+    "short_name": "Total expenses towards animal industry",
+    "sources": [
+      {
+        "name": "Department of Agriculture National Agriculture Statistics Service",
+        "date_accessed": 2023,
+        "url": "https://www.nass.usda.gov/"
+      }
+    ],
+    "statement": "The overall expenses towards animals to {features.name} is {value}.",
+    "type": "dollar",
+    "unit": "dollar"
+  },
+  "total_cropland_operations": {
+    "aggregation_method": "",
+    "category": "Agriculture Industry",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Number of operations with land devoted to cropland growing",
+    "measure_type": "count",
+    "short_description": "Number of operations with cropland",
+    "short_name": "Number of operations with cropland",
+    "sources": [
+      {
+        "name": "Department of Agriculture National Agriculture Statistics Service",
+        "date_accessed": 2023,
+        "url": "https://www.nass.usda.gov/"
+      }
+    ],
+    "statement": "The total number of operations with cropland to {features.name} is {value}.",
+    "type": "count",
+    "unit": ""
+  },
+  "total_irrigatedCropland_acre": {
+    "aggregation_method": "",
+    "category": "Agriculture Industry",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Total acreage used in agriculture for irrigated cropland",
+    "measure_type": "count",
+    "short_description": "Total acreage for irrigated cropland",
+    "short_name": "Total acreage for irrigated cropland",
+    "sources": [
+      {
+        "name": "Department of Agriculture National Agriculture Statistics Service",
+        "date_accessed": 2023,
+        "url": "https://www.nass.usda.gov/"
+      }
+    ],
+    "statement": "The total acreage for irrigated cropland to {features.name} is {value}.",
+    "type": "count",
+    "unit": ""
+  },
+  "total_cropland_acres": {
+    "aggregation_method": "",
+    "category": "Agriculture Industry",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Total acerage used in agriculture for cropland",
+    "measure_type": "count",
+    "short_description": "Total acreage for cropland",
+    "short_name": "Total acreage for cropland",
+    "sources": [
+      {
+        "name": "Department of Agriculture National Agriculture Statistics Service",
+        "date_accessed": 2023,
+        "url": "https://www.nass.usda.gov/"
+      }
+    ],
+    "statement": "The total acreage for cropland to {features.name} is {value}.",
+    "type": "count",
+    "unit": ""
   },
   "perc_veteran": {
     "category": "Demographics",
@@ -916,6 +921,7 @@
     "unit": ""
   },
   "average_years_schooling": {
+    "aggregation_method": "",
     "category": "Education",
     "citations": "",
     "data_type": "numeric",
@@ -939,6 +945,7 @@
     "unit": ""
   },
   "median_read_pass_rate": {
+    "aggregation_method": "",
     "category": "Education",
     "citations": "",
     "data_type": "numeric",
@@ -963,6 +970,7 @@
     "unit": "%"
   },
   "acs_postsecondary_percent": {
+    "aggregation_method": "",
     "category": "Education",
     "citations": "",
     "data_type": "numeric",
@@ -987,6 +995,7 @@
     "unit": "%"
   },
   "schools_2year_with_science_program_per_100k": {
+    "aggregation_method": "",
     "category": "Education",
     "citations": [
       "wan12",
@@ -1040,6 +1049,7 @@
     "unit": "per 100k"
   },
   "schools_2year_with_physical_program_per_100k": {
+    "aggregation_method": "",
     "category": "Education",
     "citations": [
       "wan12",
@@ -1093,6 +1103,7 @@
     "unit": "per 100k"
   },
   "schools_2year_with_engineering_program_per_100k": {
+    "aggregation_method": "",
     "category": "Education",
     "citations": [
       "wan12",
@@ -1146,6 +1157,7 @@
     "unit": "per 100k"
   },
   "schools_2year_with_computer_program_per_100k": {
+    "aggregation_method": "",
     "category": "Education",
     "citations": [
       "wan12",
@@ -1199,6 +1211,7 @@
     "unit": "per 100k"
   },
   "schools_2year_with_biomedical_program_per_100k": {
+    "aggregation_method": "",
     "category": "Education",
     "citations": [
       "wan12",
@@ -1252,6 +1265,7 @@
     "unit": "per 100k"
   },
   "schools_under2year_min_drivetime": {
+    "aggregation_method": "",
     "category": "Education",
     "citations": "",
     "data_type": "numeric",
@@ -1288,6 +1302,7 @@
     "unit": "minutes"
   },
   "schools_under2year_per_100k": {
+    "aggregation_method": "",
     "category": "Education",
     "citations": [
       "wan12",
@@ -1334,6 +1349,7 @@
     "unit": "per 100k"
   },
   "schools_2year_min_drivetime": {
+    "aggregation_method": "",
     "category": "Education",
     "citations": "",
     "data_type": "numeric",
@@ -1370,6 +1386,7 @@
     "unit": "minutes"
   },
   "schools_2year_per_100k": {
+    "aggregation_method": "",
     "category": "Education",
     "citations": [
       "wan12",
@@ -1416,6 +1433,7 @@
     "unit": "per 100k"
   },
   "daycare_under_10_per_1k": {
+    "aggregation_method": "",
     "category": "Education",
     "citations": [
       "wan12",
@@ -1462,6 +1480,7 @@
     "unit": ""
   },
   "daycare_over_4_per_1k": {
+    "aggregation_method": "",
     "category": "Education",
     "citations": [
       "wan12",
@@ -1508,6 +1527,7 @@
     "unit": ""
   },
   "daycare_per_1k": {
+    "aggregation_method": "",
     "category": "Education",
     "citations": [
       "wan12",
@@ -1561,6 +1581,7 @@
     "unit": ""
   },
   "daycare_min_drivetime": {
+    "aggregation_method": "",
     "category": "Education",
     "citations": "",
     "data_type": "numeric",
@@ -1592,6 +1613,7 @@
     "unit": ""
   },
   "daycare_capacity": {
+    "aggregation_method": "",
     "category": "Education",
     "citations": "",
     "data_type": "numeric",
@@ -1617,406 +1639,164 @@
     "type": "count",
     "unit": ""
   },
-  "total_operations": {
-    "category": "Business climate",
+  "percent_food_insecure": {
+    "category": "Nutrition and Food Security",
     "citations": "",
     "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Total operations used for agriculture within a given county",
-    "measure_type": "count",
-    "short_description": "Total operations in agriculture",
-    "short_name": "Total operations in agriculture",
-    "sources": [
-      {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
-        "date_accessed": 2023,
-        "url": "https://www.nass.usda.gov/"
-      }
-    ],
-    "statement": "Total operations used for agriculture in {features.name} is {value}",
-    "type": "count",
-    "unit": ""
-  },
-  "total_acres": {
-    "category": "Business climate",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Total acres used for agriculture within a given county",
-    "measure_type": "count",
-    "short_description": "Total acres in agriculture",
-    "short_name": "Total acres in agriculture",
-    "sources": [
-      {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
-        "date_accessed": 2023,
-        "url": "https://www.nass.usda.gov/"
-      }
-    ],
-    "statement": "Total acres used for agriculture in {features.name} is {value}",
-    "type": "count",
-    "unit": ""
-  },
-  "operation_farmValue": {
-    "category": "Agriculture Industry",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Total asset value per operation within a given county",
-    "measure_type": "count",
-    "short_description": "Total asset value per operation",
-    "short_name": "Total sales of calves",
-    "sources": [
-      {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
-        "date_accessed": 2023,
-        "url": "https://www.nass.usda.gov/"
-      }
-    ],
-    "statement": "Total asset value per operation to {features.name} is {value}.",
-    "type": "dollar",
-    "unit": "dollar"
-  },
-  "total_calves_sales": {
-    "category": "Agriculture Industry",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Total sales of calves within a given county",
-    "measure_type": "count",
-    "short_description": "Total sales of calves",
-    "short_name": "Total sales of calves",
-    "sources": [
-      {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
-        "date_accessed": 2023,
-        "url": "https://www.nass.usda.gov/"
-      }
-    ],
-    "statement": "Total sales of calves to {features.name} is {value}.",
-    "type": "dollar",
-    "unit": "dollar"
-  },
-  "total_commodity_sales": {
-    "category": "Agriculture Industry",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Total sales of commodities within a given county",
-    "measure_type": "count",
-    "short_description": "Total sales of commodities",
-    "short_name": "Total sales of commodities",
-    "sources": [
-      {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
-        "date_accessed": 2023,
-        "url": "https://www.nass.usda.gov/"
-      }
-    ],
-    "statement": "Total sales of commodities to {features.name} is {value}",
-    "type": "dollar",
-    "unit": "dollar"
-  },
-  "total_animalProducts_sales": {
-    "category": "Agriculture Industry",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Total sales of animal products within a given county",
-    "measure_type": "count",
-    "short_description": "Total sales of animal products",
-    "short_name": "Total sales of animal products",
-    "sources": [
-      {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
-        "date_accessed": 2023,
-        "url": "https://www.nass.usda.gov/"
-      }
-    ],
-    "statement": "Total sales of animal products to {features.name} is {value}.",
-    "type": "dollar",
-    "unit": "dollar"
-  },
-  "fruit_treeNut_total_sales": {
-    "category": "Agriculture Industry",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Total sales of fruits and treenuts within a given county",
-    "measure_type": "count",
-    "short_description": "Total sales of fruits and treenuts",
-    "short_name": "Total sales of fruits and treenuts",
-    "sources": [
-      {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
-        "date_accessed": 2023,
-        "url": "https://www.nass.usda.gov/"
-      }
-    ],
-    "statement": "Total sales of fruit and tree nuts to {features.name} is {value}.",
-    "type": "dollar",
-    "unit": "dollar"
-  },
-  "total_animal_expense": {
-    "category": "Agriculture Industry",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "",
-    "long_name": "County's total expenses towards animal industry",
-    "measure_type": "count",
-    "short_description": "Total expenses towards animal industry",
-    "short_name": "Total expenses towards animal industry",
-    "sources": [
-      {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
-        "date_accessed": 2023,
-        "url": "https://www.nass.usda.gov/"
-      }
-    ],
-    "statement": "The overall expenses towards animals to {features.name} is {value}.",
-    "type": "dollar",
-    "unit": "dollar"
-  },
-  "total_cropland_operations": {
-    "category": "Agriculture Industry",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Number of operations with land devoted to cropland growing",
-    "measure_type": "count",
-    "short_description": "Number of operations with cropland",
-    "short_name": "Number of operations with cropland",
-    "sources": [
-      {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
-        "date_accessed": 2023,
-        "url": "https://www.nass.usda.gov/"
-      }
-    ],
-    "statement": "The total number of operations with cropland to {features.name} is {value}.",
-    "type": "count",
-    "unit": ""
-  },
-  "total_irrigatedCropland_acre": {
-    "category": "Agriculture Industry",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Total acreage used in agriculture for irrigated cropland",
-    "measure_type": "count",
-    "short_description": "Total acreage for irrigated cropland",
-    "short_name": "Total acreage for irrigated cropland",
-    "sources": [
-      {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
-        "date_accessed": 2023,
-        "url": "https://www.nass.usda.gov/"
-      }
-    ],
-    "statement": "The total acreage for irrigated cropland to {features.name} is {value}.",
-    "type": "count",
-    "unit": ""
-  },
-  "total_cropland_acres": {
-    "category": "Agriculture Industry",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Total acerage used in agriculture for cropland",
-    "measure_type": "count",
-    "short_description": "Total acreage for cropland",
-    "short_name": "Total acreage for cropland",
-    "sources": [
-      {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
-        "date_accessed": 2023,
-        "url": "https://www.nass.usda.gov/"
-      }
-    ],
-    "statement": "The total acreage for cropland to {features.name} is {value}.",
-    "type": "count",
-    "unit": ""
-  },
-  "earnings_per_job": {
-    "category": "Employment/Workforce Development",
-    "citations": "",
-    "data_type": "decimal",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "Earnings per job is calculated based on the GDP and Personal Income table from the Bureau of Economic Analysis.",
-    "long_name": "Earnings per job",
-    "measure_type": "",
-    "short_description": "Average of earnings per job.",
-    "short_name": "Earnings per job",
-    "sources": [
-      {
-        "name": "Bureau of Economic Analysis",
-        "date_accessed": "2021",
-        "url": "https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=1&acrdn=6"
-      }
-    ],
-    "statement": "Earnings per job in {features.name} is {value}.",
-    "type": "dollar",
-    "unit": "dollars"
-  },
-  "gini_index": {
-    "category": "Financial Well Being",
-    "citations": "",
-    "data_type": "decimal",
     "equity_category": "",
     "layer": "",
-    "long_description": "The Gini Index is a summary measure of income inequality. The Gini coefficient incorporates the detailed shares data into a single statistic, which summarizes the dispersion of income across the entire income distribution. The Gini coefficient ranges from 0, indicating perfect equality (where everyone receives an equal share), to 1, perfect inequality (where only one recipient or group of recipients receives all the income). The Gini is based on the difference between the Lorenz curve (the observed cumulative income distribution) and the notion of a perfectly equal income distribution.",
-    "long_name": "Income Inequality (Gini Index)",
-    "measure_type": "index",
-    "short_description": "The Gini Index is a summary measure of income inequality.",
-    "short_name": "Income Inequality (Gini Index)",
-    "sources": [
-      {
-        "name": "U.S. Census American Community Survey",
-        "location": "Table B19083",
-        "date_accessed": "2023"
-      }
-    ],
-    "statement": "Income Inequality (Gini Index) in {features.name} is {value}.",
-    "type": "",
-    "unit": ""
-  },
-  "median_household_income": {
-    "category": "Financial Well Being",
-    "citations": "",
-    "data_type": "integer",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "Self-reported median household income in the past 12 months (in 2019 inflation adjusted-dollars. Based on the American Community Survey Table B19013 ACS 2015/2019 5-year estimates. The equation $a_{i} = b^\\frac{c}{d}$ was used.",
-    "long_name": "Median household income",
-    "measure_type": "count",
-    "short_description": "Self-reported median household income in the past 12 months (in 2019 inflation adjusted-dollars.",
-    "short_name": "Median household income",
+    "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. This measure is an estimate of the percent of people in food insecure households.  The brief providing the methodology of calculating these estimates is available at Feeding America's Map the Meal Gap website (linked below). Food insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
+    "long_name": "Estimated percentage of total people in food insecure households",
+    "measure_type": "percent",
+    "short_description": "Food insecure persons are people living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
+    "short_name": "Food Insecure Population Percentage (Feeding America)",
     "sources": [
       {
         "date_accessed": 2022,
-        "name": "American Community Survey",
-        "location": "Table B19013",
-        "url": "https://www.census.gov/programs-surveys/acs"
+        "name": "Feeding America",
+        "url": "https://map.feedingamerica.org/"
       }
     ],
-    "statement": "The median household income in {features.name} is {value} per year.",
-    "type": "dollar",
-    "unit": "dollars"
-  },
-  "job_participate_rate": {
-    "category": "Employment/Workforce Development",
-    "citations": "",
-    "data_type": "decimal",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "The percentage of individuals 16-64 years of age in the active labor force. The job particpation rate is often used by economists as an indicator of economic development and growth.",
-    "long_name": "Job Participation Pecentage",
-    "measure_type": "percent",
-    "short_description": "The percentage of individuals 16-64 years of age in the active labor force.",
-    "short_name": "Job Participation Pecentage",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "location": "Table B23025",
-        "date_accessed": "2023",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "{value} of the population in {features.name} is participating in the civilian job force.",
-    "type": "percent",
-    "unit": "people"
-  },
-  "emp_rate": {
-    "category": "Employment/Workforce Development",
-    "citations": "",
-    "data_type": "decimal",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "Population self-reported as employed as a percentage of total civilian workforce population. Based on American Community Survey Table B23025 ACS 2015/2019 5-year estimates.",
-    "long_name": "Percentage civilian employed",
-    "measure_type": "percent",
-    "short_description": "Population self-reported as employed as a percentage of total civilian workforce population.",
-    "short_name": "Percentage employed",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "location": "Table B23025",
-        "date_accessed": "2021",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "{value} of the population in {features.name} is employed.",
-    "type": "percent",
-    "unit": "people"
-  },
-  "poverty_pct": {
-    "category": "Financial Well Being",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "Percentage of households that are below the Federal Poverty Level. Not being able to afford the basics where they live.",
-    "long_name": "Percentage of households that are below the Federal Poverty Level.",
-    "measure_type": "percentage",
-    "short_description": "The percent of households that are below the Federal Poverty Level.",
-    "short_name": "Percentage of households in poverty",
-    "sources": [
-      {
-        "date_accessed": 2023,
-        "name": "United for Alice",
-        "url": "https://www.unitedforalice.org/"
-      }
-    ],
-    "statement": "{value} percent of the households in {features.name} are in poverty.",
+    "statement": "{value} percent of the population in {features.name} are food insecure.",
     "type": "percent",
     "unit": ""
   },
-  "alice_pct": {
-    "category": "Financial Well Being",
+  "number_food_insecure": {
+    "category": "Nutrition and Food Security",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "",
+    "layer": "",
+    "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. This measure is an estimate of the number of people in food insecure households.  The brief providing the methodology of calculating these estimates is available at Feeding America's Map the Meal Gap website (linked below). Food insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
+    "long_name": "Estimated number of total people in food insecure households",
+    "measure_type": "count",
+    "short_description": "Food insecure persons are people living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
+    "short_name": "Food Insecure Population Count (Feeding America)",
+    "sources": [
+      {
+        "date_accessed": 2022,
+        "name": "Feeding America",
+        "url": "https://map.feedingamerica.org/"
+      }
+    ],
+    "statement": "{value} people in {features.name} are food insecure.",
+    "type": "count",
+    "unit": ""
+  },
+  "Cost_Per_Meal": {
+    "category": "Nutrition and Food Security",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Affordability",
+    "layer": "",
+    "long_description": "The average weekly dollar amount food-secure individuals report spending on food, as estimated by the Current Population Survey, divided by 21 (assuming three meals a day, seven days a week). This amount has been adjusted to reflect local food prices and relevant taxes.",
+    "long_name": "Average meal cost ($)",
+    "measure_type": "cost",
+    "short_description": "The average weekly dollar amount food-secure individuals report spending on food.",
+    "short_name": "Average meal cost ($)",
+    "sources": [
+      {
+        "name": "Feeding America",
+        "date_accessed": "2021",
+        "url": "https://www.feedingamerica.org/"
+      }
+    ],
+    "statement": "The average meal cost in {features.name} is {value}.",
+    "type": "dollar",
+    "unit": ""
+  },
+  "Num_Child_Food_Insecure": {
+    "category": "Nutrition and Food Security",
     "citations": "",
     "data_type": "numeric",
     "equity_category": "Status",
     "layer": "",
-    "long_description": "Percentage of households that are Asset Limited, Income Constrained, Employed. Households Earning more than the Federal Poverty Level, but not enough to afford the basics where they live.",
-    "long_name": "Percentage of households that are Asset Limited, Income Constrained, Employed (ALICE)",
-    "measure_type": "percentage",
-    "short_description": "The percent of households that are above the Federal Poverty Level but still cannot afford the basics where they live.",
-    "short_name": "Percentage of ALICE housholds",
+    "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
+    "long_name": "Count of food insecure children",
+    "measure_type": "count",
+    "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
+    "short_name": "Food insecure children (count)",
     "sources": [
       {
-        "date_accessed": 2023,
-        "name": "United for Alice",
-        "url": "https://www.unitedforalice.org/"
+        "name": "Feeding America",
+        "date_accessed": "2021",
+        "url": "https://www.feedingamerica.org/"
       }
     ],
-    "statement": "{value} percent of the households in {features.name} are ALICE.",
+    "statement": "The population of food insecure children in {features.name} is {value}.",
+    "type": "count",
+    "unit": ""
+  },
+  "Child_Food_Insecurity_Rate": {
+    "category": "Nutrition and Food Security",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
+    "long_name": "Percentage of food insecure children",
+    "measure_type": "percent",
+    "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
+    "short_name": "Percentage of food insecure children",
+    "sources": [
+      {
+        "name": "Feeding America",
+        "date_accessed": "2021",
+        "url": "https://www.feedingamerica.org/"
+      }
+    ],
+    "statement": "{value} of the population of children in {features.name} are food insecure.",
     "type": "percent",
+    "unit": ""
+  },
+  "hh_received_snap_pct": {
+    "category": "Nutrition and Food Security",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "",
+    "layer": "",
+    "long_description": "The percentage of households in which at least one member of the household received benefits from the Food Stamp Program or the Supplemental Nutrition Assistance Program (SNAP) in the past 12 months.  This does not include households in which at least one member recieved benefits from WIC, the School Lunch Program, or assistance from food banks and not also from the Food Stamp Program or SNAP in the past 12 months.",
+    "long_name": "Percentage of Households That Received Supplemental Nutrition Assistance Program (SNAP)",
+    "measure_type": "percent",
+    "short_description": "The percentage of households in which at least one member received benefits from the Food Stamp Program or SNAP in the past 12 months",
+    "short_name": "Percentage of Households That Received SNAP",
+    "sources": [
+      {
+        "date_accessed": 2022,
+        "name": "American Community Survey (ACS)",
+        "location": "Table B22010",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The percentage of households that received SNAP in {features.name} is {value}.",
+    "type": "",
+    "unit": ""
+  },
+  "hh_received_snap_cnt": {
+    "category": "Nutrition and Food Security",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "",
+    "layer": "",
+    "long_description": "The number of households in which at least one member of the household received benefits from the Food Stamp Program or the Supplemental Nutrition Assistance Program (SNAP) in the past 12 months.  This does not include households in which at least one member recieved benefits from WIC, the School Lunch Program, or assistance from food banks and not also from the Food Stamp Program or SNAP in the past 12 months.",
+    "long_name": "Count of Households That Received Supplemental Nutrition Assistance Program (SNAP)",
+    "measure_type": "count",
+    "short_description": "The number of households in which at least one member received benefits from the Food Stamp Program or SNAP in the past 12 months",
+    "short_name": "Count of Households That Received SNAP",
+    "sources": [
+      {
+        "date_accessed": 2022,
+        "name": "American Community Survey (ACS)",
+        "location": "Table B22010",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The count of households that received SNAP in {features.name} is {value}.",
+    "type": "",
     "unit": ""
   },
   "no_hlth_ins_pct": {
+    "aggregation_method": "",
     "category": "Health",
     "citations": "",
     "data_type": "numeric",
@@ -2040,6 +1820,7 @@
     "unit": ""
   },
   "prevent_hosp_rate": {
+    "aggregation_method": "",
     "category": "Health",
     "citations": "",
     "data_type": "numeric",
@@ -2062,6 +1843,7 @@
     "unit": ""
   },
   "avg_monthly_rate": {
+    "aggregation_method": "",
     "category": "Behavioral Health, Substance Use Disorder and Recovery",
     "citations": "",
     "data_type": "numeric",
@@ -2084,6 +1866,7 @@
     "unit": ""
   },
   "vi_housing_transportation": {
+    "aggregation_method": "",
     "category": "Health",
     "citations": "",
     "data_type": "decimal",
@@ -2106,6 +1889,7 @@
     "unit": ""
   },
   "vi_race_ethnicity": {
+    "aggregation_method": "",
     "category": "Health",
     "citations": "",
     "data_type": "decimal",
@@ -2128,6 +1912,7 @@
     "unit": ""
   },
   "vi_household": {
+    "aggregation_method": "",
     "category": "Health",
     "citations": "",
     "data_type": "decimal",
@@ -2150,6 +1935,7 @@
     "unit": ""
   },
   "vi_socioeconomic": {
+    "aggregation_method": "",
     "category": "Health",
     "citations": "",
     "data_type": "decimal",
@@ -2172,6 +1958,7 @@
     "unit": ""
   },
   "vi_overall": {
+    "aggregation_method": "",
     "category": "Health",
     "citations": "",
     "data_type": "decimal",
@@ -2194,6 +1981,7 @@
     "unit": ""
   },
   "inadequate": {
+    "aggregation_method": "",
     "category": "Health",
     "citations": "",
     "data_type": "numeric",
@@ -2216,6 +2004,7 @@
     "unit": ""
   },
   "intermediate": {
+    "aggregation_method": "",
     "category": "Health",
     "citations": "",
     "data_type": "numeric",
@@ -2238,6 +2027,7 @@
     "unit": ""
   },
   "adequate": {
+    "aggregation_method": "",
     "category": "Health",
     "citations": "",
     "data_type": "numeric",
@@ -2260,6 +2050,7 @@
     "unit": ""
   },
   "adequateplus": {
+    "aggregation_method": "",
     "category": "Health",
     "citations": "",
     "data_type": "numeric",
@@ -2282,6 +2073,7 @@
     "unit": ""
   },
   "inadequate_pc": {
+    "aggregation_method": "",
     "category": "Health",
     "citations": "",
     "data_type": "numeric",
@@ -2304,6 +2096,7 @@
     "unit": ""
   },
   "intermediate_pc": {
+    "aggregation_method": "",
     "category": "Health",
     "citations": "",
     "data_type": "numeric",
@@ -2326,6 +2119,7 @@
     "unit": ""
   },
   "adequate_pc": {
+    "aggregation_method": "",
     "category": "Health",
     "citations": "",
     "data_type": "numeric",
@@ -2348,6 +2142,7 @@
     "unit": ""
   },
   "adequateplus_pc": {
+    "aggregation_method": "",
     "category": "Health",
     "citations": "",
     "data_type": "numeric",
@@ -2370,6 +2165,7 @@
     "unit": ""
   },
   "perc_poor_phys_hlth_days_14_and_over": {
+    "aggregation_method": "",
     "category": "Health",
     "citations": "",
     "data_type": "numeric",
@@ -2392,6 +2188,7 @@
     "unit": ""
   },
   "perc_poor_ment_hlth_days_14_and_over": {
+    "aggregation_method": "",
     "category": "Health",
     "citations": "",
     "data_type": "numeric",
@@ -2414,6 +2211,7 @@
     "unit": ""
   },
   "access_care_indicator": {
+    "aggregation_method": "",
     "category": "Health Opportunity Index",
     "citations": "",
     "data_type": "numeric",
@@ -2436,6 +2234,7 @@
     "unit": ""
   },
   "community_environment_indicator": {
+    "aggregation_method": "",
     "category": "Health Opportunity Index",
     "citations": "",
     "data_type": "numeric",
@@ -2458,6 +2257,7 @@
     "unit": ""
   },
   "air_quality_indicator": {
+    "aggregation_method": "",
     "category": "Health Opportunity Index",
     "citations": "",
     "data_type": "numeric",
@@ -2480,6 +2280,7 @@
     "unit": ""
   },
   "affordability_indicator": {
+    "aggregation_method": "",
     "category": "Health Opportunity Index",
     "citations": "",
     "data_type": "numeric",
@@ -2502,6 +2303,7 @@
     "unit": ""
   },
   "consumer_opportunity_indicator": {
+    "aggregation_method": "",
     "category": "Health Opportunity Index",
     "citations": "",
     "data_type": "numeric",
@@ -2524,6 +2326,7 @@
     "unit": ""
   },
   "wellness_disparity_indicator": {
+    "aggregation_method": "",
     "category": "Health Opportunity Index",
     "citations": "",
     "data_type": "numeric",
@@ -2546,6 +2349,7 @@
     "unit": ""
   },
   "walkability_indicator": {
+    "aggregation_method": "",
     "category": "Health Opportunity Index",
     "citations": "",
     "data_type": "numeric",
@@ -2568,6 +2372,7 @@
     "unit": ""
   },
   "segregation_indicator": {
+    "aggregation_method": "",
     "category": "Health Opportunity Index",
     "citations": "",
     "data_type": "numeric",
@@ -2590,6 +2395,7 @@
     "unit": ""
   },
   "pop_density_indicator": {
+    "aggregation_method": "",
     "category": "Health Opportunity Index",
     "citations": "",
     "data_type": "numeric",
@@ -2612,6 +2418,7 @@
     "unit": ""
   },
   "pop_churning_indicator": {
+    "aggregation_method": "",
     "category": "Health Opportunity Index",
     "citations": "",
     "data_type": "numeric",
@@ -2634,6 +2441,7 @@
     "unit": ""
   },
   "material_deprivation_indicator": {
+    "aggregation_method": "",
     "category": "Health Opportunity Index",
     "citations": "",
     "data_type": "numeric",
@@ -2656,6 +2464,7 @@
     "unit": ""
   },
   "job_participation_indicator": {
+    "aggregation_method": "",
     "category": "Health Opportunity Index",
     "citations": "",
     "data_type": "numeric",
@@ -2678,6 +2487,7 @@
     "unit": ""
   },
   "income_inequality_indicator": {
+    "aggregation_method": "",
     "category": "Health Opportunity Index",
     "citations": "",
     "data_type": "numeric",
@@ -2700,6 +2510,7 @@
     "unit": ""
   },
   "health_opportunity_indicator": {
+    "aggregation_method": "",
     "category": "Health Opportunity Index",
     "citations": "",
     "data_type": "numeric",
@@ -2722,6 +2533,7 @@
     "unit": ""
   },
   "food_accessibility_indicator": {
+    "aggregation_method": "",
     "category": "Health Opportunity Index",
     "citations": "",
     "data_type": "numeric",
@@ -2744,6 +2556,7 @@
     "unit": ""
   },
   "employment_access_indicator": {
+    "aggregation_method": "",
     "category": "Health Opportunity Index",
     "citations": "",
     "data_type": "numeric",
@@ -2766,6 +2579,7 @@
     "unit": ""
   },
   "education_indicator": {
+    "aggregation_method": "",
     "category": "Health Opportunity Index",
     "citations": "",
     "data_type": "numeric",
@@ -2788,6 +2602,7 @@
     "unit": ""
   },
   "economic_opportunity_indicator": {
+    "aggregation_method": "",
     "category": "Health Opportunity Index",
     "citations": "",
     "data_type": "numeric",
@@ -2810,6 +2625,7 @@
     "unit": ""
   },
   "primcare_3sfca": {
+    "aggregation_method": "",
     "category": "Health",
     "citations": [
       "lou04",
@@ -2837,6 +2653,7 @@
     "unit": ""
   },
   "primcare_cnt": {
+    "aggregation_method": "",
     "category": "Health",
     "citations": "",
     "data_type": "numeric",
@@ -2859,6 +2676,7 @@
     "unit": ""
   },
   "ped_3sfca": {
+    "aggregation_method": "",
     "category": "Health",
     "citations": [
       "lou04",
@@ -2886,6 +2704,7 @@
     "unit": ""
   },
   "ped_cnt": {
+    "aggregation_method": "",
     "category": "Health",
     "citations": "",
     "data_type": "numeric",
@@ -2908,6 +2727,7 @@
     "unit": ""
   },
   "obgyn_3sfca": {
+    "aggregation_method": "",
     "category": "Health",
     "citations": [
       "lou04",
@@ -2935,6 +2755,7 @@
     "unit": ""
   },
   "obgyn_cnt": {
+    "aggregation_method": "",
     "category": "Health",
     "citations": "",
     "data_type": "numeric",
@@ -2957,6 +2778,7 @@
     "unit": ""
   },
   "mental_3sfca": {
+    "aggregation_method": "",
     "category": "Health",
     "citations": [
       "lou04",
@@ -2984,6 +2806,7 @@
     "unit": ""
   },
   "mental_cnt": {
+    "aggregation_method": "",
     "category": "Health",
     "citations": "",
     "data_type": "numeric",
@@ -3006,6 +2829,7 @@
     "unit": ""
   },
   "mental_near_10_median": {
+    "aggregation_method": "",
     "category": "Health",
     "citations": "",
     "data_type": "numeric",
@@ -3028,6 +2852,7 @@
     "unit": ""
   },
   "ems_3sfca": {
+    "aggregation_method": "",
     "category": "Health",
     "citations": [
       "lou04",
@@ -3055,6 +2880,7 @@
     "unit": ""
   },
   "ems_cnt": {
+    "aggregation_method": "",
     "category": "Health",
     "citations": "",
     "data_type": "numeric",
@@ -3077,6 +2903,7 @@
     "unit": ""
   },
   "ems_near_10_median": {
+    "aggregation_method": "",
     "category": "Health",
     "citations": "",
     "data_type": "numeric",
@@ -3099,6 +2926,7 @@
     "unit": ""
   },
   "subs_3sfca": {
+    "aggregation_method": "",
     "category": "Health",
     "citations": [
       "lou04",
@@ -3126,6 +2954,7 @@
     "unit": ""
   },
   "subs_cnt": {
+    "aggregation_method": "",
     "category": "Health",
     "citations": "",
     "data_type": "numeric",
@@ -3148,6 +2977,7 @@
     "unit": ""
   },
   "subs_near_10_median": {
+    "aggregation_method": "",
     "category": "Health",
     "citations": "",
     "data_type": "numeric",
@@ -3170,6 +3000,7 @@
     "unit": ""
   },
   "dent_e2sfca": {
+    "aggregation_method": "",
     "category": "Health",
     "citations": [
       "lou04",
@@ -3197,6 +3028,7 @@
     "unit": ""
   },
   "dent_cnt": {
+    "aggregation_method": "",
     "category": "Health",
     "citations": "",
     "data_type": "numeric",
@@ -3309,6 +3141,20 @@
       "volume": "Preprint",
       "doi": "10.13140/RG.2.2.12396.28807"
     },
+    "cdc11a": {
+      "id": "cdc11a",
+      "author": "Centers for Disease Control and Prevention",
+      "year": 2011,
+      "title": "Children’s Food Environment State Indicator Report",
+      "url": "https://www.cdc.gov/obesity/downloads/ChildrensFoodEnvironment.pdf"
+    },
+    "cdc11b": {
+      "id": "cdc11b",
+      "author": "Centers for Disease Control and Prevention",
+      "year": 2011,
+      "title": "Census Tract Level State Maps of the Modified Retail Food Environment Index (mRFEI)",
+      "url": "https://www.cdc.gov/obesity/downloads/census-tract-level-state-maps-mrfei_TAG508.pdf"
+    },
     "wan12": {
       "id": "wan12",
       "author": [
@@ -3339,20 +3185,262 @@
       "title": "catchment: Calculate spatial access and availability metrics",
       "version": "0.0.1",
       "url": "https://github.com/uva-bi-sdad/catchment"
-    },
-    "cdc11a": {
-      "id": "cdc11a",
-      "author": "Centers for Disease Control and Prevention",
-      "year": 2011,
-      "title": "Children’s Food Environment State Indicator Report",
-      "url": "https://www.cdc.gov/obesity/downloads/ChildrensFoodEnvironment.pdf"
-    },
-    "cdc11b": {
-      "id": "cdc11b",
-      "author": "Centers for Disease Control and Prevention",
-      "year": 2011,
-      "title": "Census Tract Level State Maps of the Modified Retail Food Environment Index (mRFEI)",
-      "url": "https://www.cdc.gov/obesity/downloads/census-tract-level-state-maps-mrfei_TAG508.pdf"
     }
+  },
+  "per_rent_above30": {
+    "category": "Housing",
+    "citations": "",
+    "data_type": "decimal",
+    "equity_category": "",
+    "layer": "",
+    "long_description": "The percentage of renter-occupied households whose monthly housing costs from rent account for 30% or more of their household income in the past 12 months.",
+    "long_name": "Percentage of Renter-Occupied Households Whose Rent Accounts for 30% or More of Their Household Income",
+    "measure_type": "percent",
+    "short_description": "The percentage of renter-occupied households whose rent accounts for 30% or more of their household income.",
+    "short_name": "Cost-Burdened Households - Renter-Occupied",
+    "sources": [
+      {
+        "date_accessed": 2022,
+        "name": "American Community Survey (ACS)",
+        "location": "Table B25074",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The percentage of renter-occupied households whose monthly housing costs from rent account for 30% or more of their household income in {features.name} is {value}",
+    "type": "percent",
+    "unit": "households"
+  },
+  "per_mor_above30": {
+    "category": "Housing",
+    "citations": "",
+    "data_type": "decimal",
+    "equity_category": "",
+    "layer": "",
+    "long_description": "The percentage of owner-occupied households whose monthly housing costs from mortgage payments account for 30% or more of their household income in the past 12 months.",
+    "long_name": "Percentage of Owner-Occupied Households Whose Mortgage Payments are 30% or More of Their Household Income",
+    "measure_type": "percent",
+    "short_description": "The percentage of owner-occupied households whose mortgage payments are 30% or more of their household income.",
+    "short_name": "Cost-Burdened Households - Owner-Occupied & Mortgaged",
+    "sources": [
+      {
+        "date_accessed": 2022,
+        "name": "American Community Survey (ACS)",
+        "location": "Table B25101",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The percentage of owner-occupied households whose monthly housing costs from mortgage payments account for 30% or more of their household income in {features.name} is {value}",
+    "type": "percent",
+    "unit": "households"
+  },
+  "per_above30": {
+    "category": "Housing",
+    "citations": "",
+    "data_type": "decimal",
+    "equity_category": "",
+    "layer": "",
+    "long_description": "The percentage of households whose monthly housing costs from mortgage payments or rent account for 30% or more of their household income in the past 12 months.",
+    "long_name": "Percentage of Households Whose Mortgage Payments or Rent Account for 30% or More of Their Household Income",
+    "measure_type": "percent",
+    "short_description": "The percentage of households whose mortgage payments or rent account for 30% or more of their household income.",
+    "short_name": "Cost-Burdened Households - Owner-Occupied & Mortgaged, and Renter-Occupied",
+    "sources": [
+      {
+        "date_accessed": 2022,
+        "name": "American Community Survey (ACS)",
+        "location": "Table B25074 and B25101",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The percentage of households whose monthly housing costs from mortgage payments or rent account for 30% or more of their household income in {features.name} is {value}",
+    "type": "percent",
+    "unit": "households"
+  },
+  "perc_no_vehicle": {
+    "category": "Transportation",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Percentage of households self-reported to not have a vehicle available at home. Based on American Community Survey Table S2504 ACS 5-year estimates.",
+    "long_name": "Percentage of households without vehicle available",
+    "measure_type": "float",
+    "short_description": "Households self-reported to not have a vehicle available at home.",
+    "short_name": "Without vehicle",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "location": "Table S2504",
+        "date_accessed": "2023",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "{value} of households in {features.name} do not have a vehicle available at home.",
+    "type": "percent",
+    "unit": "percent"
+  },
+  "earnings_per_job": {
+    "aggregation_method": "",
+    "category": "Employment/Workforce Development",
+    "citations": "",
+    "data_type": "decimal",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Earnings per job is calculated based on the GDP and Personal Income table from the Bureau of Economic Analysis. Raw data observations are generally per county/city; however, some observations involve multiple counties/cities. For example, Fairfax County, Fairfax City and Falls Church City are grouped into one observation in the raw data.  We split the multi-county/city raw data observations into multiple observations so that one observation corresponds to only one county/city.  We set the value of each split individual observation to be that of the corresponding raw multi-county/city observation.  These are the multi-county/city groupings in the raw data: Albemarle County, Charlottesville; Alleghany County, Covington; Augusta County, Staunton, Waynesboro; Campbell County,  Lynchburg; Carroll County, Galax; Dinwiddie County, Colonial Heights, Petersburg; Fairfax County, Fairfax City, Falls Church; Frederick County, Winchester; Greensville County, Emporia; Henry County,  Martinsville; James City County, Williamsburg; Montgomery County, Radford; Pittsylvania County, Danville; Prince George County, Hopewell; Prince William County, Manassas, Manassas Park; Roanoke County, Salem; Rockbridge County, Buena Vista, Lexington; Rockingham County, Harrisonburg; Southampton County, Franklin; Spotsylvania County, Fredericksburg; Washington County, Bristol; Wise County, Norton; York County, Poquoson.",
+    "long_name": "Earnings per job",
+    "measure_type": "",
+    "short_description": "Average of earnings per job.",
+    "short_name": "Earnings per job",
+    "sources": [
+      {
+        "name": "Bureau of Economic Analysis",
+        "date_accessed": "2021",
+        "url": "https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=1&acrdn=6"
+      }
+    ],
+    "statement": "Earnings per job in {features.name} is {value}.",
+    "type": "dollar",
+    "unit": "dollar"
+  },
+  "gini_index": {
+    "aggregation_method": "",
+    "category": "Financial Well Being",
+    "citations": "",
+    "data_type": "decimal",
+    "equity_category": "",
+    "layer": "",
+    "long_description": "The Gini Index is a summary measure of income inequality. The Gini coefficient incorporates the detailed shares data into a single statistic, which summarizes the dispersion of income across the entire income distribution. The Gini coefficient ranges from 0, indicating perfect equality (where everyone receives an equal share), to 1, perfect inequality (where only one recipient or group of recipients receives all the income). The Gini is based on the difference between the Lorenz curve (the observed cumulative income distribution) and the notion of a perfectly equal income distribution.",
+    "long_name": "Income Inequality (Gini Index)",
+    "measure_type": "index",
+    "short_description": "The Gini Index is a summary measure of income inequality.",
+    "short_name": "Income Inequality (Gini Index)",
+    "sources": [
+      {
+        "name": "U.S. Census American Community Survey",
+        "location": "Table B19083",
+        "date_accessed": "2023"
+      }
+    ],
+    "statement": "Income Inequality (Gini Index) in {features.name} is {value}.",
+    "type": "",
+    "unit": ""
+  },
+  "median_household_income": {
+    "aggregation_method": "",
+    "category": "Financial Well Being",
+    "citations": "",
+    "data_type": "integer",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Self-reported median household income in the past 12 months (in 2019 inflation adjusted-dollars. Based on the American Community Survey Table B19013 ACS 2015/2019 5-year estimates. The equation $a_{i} = b^\\frac{c}{d}$ was used.",
+    "long_name": "Median household income",
+    "measure_type": "count",
+    "short_description": "Self-reported median household income in the past 12 months (in 2019 inflation adjusted-dollars.",
+    "short_name": "Median household income",
+    "sources": [
+      {
+        "date_accessed": 2022,
+        "name": "American Community Survey",
+        "location": "Table B19013",
+        "url": "https://www.census.gov/programs-surveys/acs"
+      }
+    ],
+    "statement": "The median household income in {features.name} is {value} per year.",
+    "type": "dollar",
+    "unit": "dollars"
+  },
+  "job_participate_rate": {
+    "aggregation_method": "",
+    "category": "Employment/Workforce Development",
+    "citations": "",
+    "data_type": "decimal",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "The percentage of individuals 16-64 years of age in the active labor force. The job particpation rate is often used by economists as an indicator of economic development and growth.",
+    "long_name": "Job Participation Pecentage",
+    "measure_type": "percent",
+    "short_description": "The percentage of individuals 16-64 years of age in the active labor force.",
+    "short_name": "Job Participation Pecentage",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "location": "Table B23025",
+        "date_accessed": "2023",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "{value} of the population in {features.name} is participating in the civilian job force.",
+    "type": "percent",
+    "unit": "people"
+  },
+  "emp_rate": {
+    "aggregation_method": "",
+    "category": "Employment/Workforce Development",
+    "citations": "",
+    "data_type": "decimal",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Population self-reported as employed as a percentage of total civilian workforce population. Based on American Community Survey Table B23025 ACS 2015/2019 5-year estimates.",
+    "long_name": "Percentage civilian employed",
+    "measure_type": "percent",
+    "short_description": "Population self-reported as employed as a percentage of total civilian workforce population.",
+    "short_name": "Percentage employed",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "location": "Table B23025",
+        "date_accessed": "2021",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "{value} of the population in {features.name} is employed.",
+    "type": "percent",
+    "unit": "people"
+  },
+  "poverty_pct": {
+    "aggregation_method": "",
+    "category": "Financial Well Being",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Percentage of households that are below the Federal Poverty Level. Not being able to afford the basics where they live.",
+    "long_name": "Percentage of households that are below the Federal Poverty Level.",
+    "measure_type": "percentage",
+    "short_description": "The percent of households that are below the Federal Poverty Level.",
+    "short_name": "Percentage of households in poverty",
+    "sources": [
+      {
+        "date_accessed": 2023,
+        "name": "United for Alice",
+        "url": "https://www.unitedforalice.org/"
+      }
+    ],
+    "statement": "{value} percent of the households in {features.name} are in poverty.",
+    "type": "percent",
+    "unit": ""
+  },
+  "alice_pct": {
+    "aggregation_method": "",
+    "category": "Financial Well Being",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Percentage of households that are Asset Limited, Income Constrained, Employed. Households Earning more than the Federal Poverty Level, but not enough to afford the basics where they live.",
+    "long_name": "Percentage of households that are Asset Limited, Income Constrained, Employed (ALICE)",
+    "measure_type": "percentage",
+    "short_description": "The percent of households that are above the Federal Poverty Level but still cannot afford the basics where they live.",
+    "short_name": "Percentage of ALICE housholds",
+    "sources": [
+      {
+        "date_accessed": 2023,
+        "name": "United for Alice",
+        "url": "https://www.unitedforalice.org/"
+      }
+    ],
+    "statement": "{value} percent of the households in {features.name} are ALICE.",
+    "type": "percent",
+    "unit": ""
   }
 }
