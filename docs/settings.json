@@ -266,18 +266,6 @@
       "y": "selected_variable",
       "x": "selected_year",
       "time_agg": "selected_year",
-      "time_filters": [
-        {
-          "variable": "time",
-          "type": ">=",
-          "value": "min_year"
-        },
-        {
-          "variable": "time",
-          "type": "<=",
-          "value": "max_year"
-        }
-      ],
       "dataset": "shapes",
       "ids": "selected_region",
       "features": {
@@ -288,14 +276,10 @@
   "info": {
     "variable_info_pane": {
       "title": "variables.short_name",
-      "body": [],
-      "default": [],
-      "floating": false,
       "dataview": "primary_view",
-      "variable_info": false
+      "variable_info": true
     },
     "info17": {
-      "title": "",
       "body": [
         {
           "name": "",
@@ -303,10 +287,8 @@
           "style": "table"
         }
       ],
-      "default": [],
-      "floating": false,
       "dataview": "primary_view",
-      "variable_info": false
+      "variable_info": true
     },
     "info18": {
       "title": "Filters",
@@ -317,25 +299,20 @@
           "style": "table"
         }
       ],
-      "default": [],
-      "floating": false,
       "dataview": "primary_view",
-      "variable_info": false
+      "variable_info": true
     },
     "info19": {
       "title": "features.name",
-      "body": [],
       "default": {
         "title": "Virginia",
         "body": "Hover over or select a region for more information."
       },
-      "floating": false,
       "dataview": "primary_view",
       "subto": ["main_map", "main_plot", "rank_table", "main_legend"],
-      "variable_info": false
+      "variable_info": true
     },
     "info20": {
-      "title": "",
       "body": [
         {
           "name": "Region Type",
@@ -353,11 +330,8 @@
           "style": "table"
         }
       ],
-      "default": [],
-      "floating": false,
       "dataview": "primary_view",
-      "subto": ["main_map", "main_plot", "rank_table", "main_legend"],
-      "variable_info": false
+      "subto": ["main_map", "main_plot", "rank_table", "main_legend"]
     }
   },
   "text": {
@@ -499,15 +473,13 @@
   "button": {
     "DownloadAllData": {
       "effects": "export",
-      "dataview": {},
       "query": {
         "features": {
           "geoid": "id",
           "name": "name",
           "region_type": "type"
         }
-      },
-      "api": false
+      }
     },
     "ChildReadiness": {
       "effects": {
@@ -810,8 +782,7 @@
         },
         "table_format": "export_table_format",
         "file_format": "export_file_format"
-      },
-      "api": false
+      }
     },
     "CopyAPIlink": {
       "effects": "copy",
@@ -825,8 +796,7 @@
         },
         "table_format": "export_table_format",
         "file_format": "export_file_format"
-      },
-      "api": false
+      }
     }
   },
   "datatable": {
@@ -1435,8 +1405,7 @@
           "url": "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
         }
       }
-    },
-    "_raw": []
+    }
   },
   "legend": {
     "main_legend": {
