@@ -497,18 +497,6 @@ input_dataview(
   ids = "selected_region",
   features = c(type = "region_type"),
   time_agg = "selected_year",
-  time_filters = list(
-    list(
-      variable = "time",
-      type = ">=",
-      value = "min_year"
-    ),
-    list(
-      variable = "time",
-      type = "<=",
-      value = "max_year"
-    )
-  ),
   palette = "set_palette"
 )
 

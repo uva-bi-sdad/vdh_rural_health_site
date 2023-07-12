@@ -266,6 +266,7 @@
       "y": "selected_variable",
       "x": "selected_year",
       "time_agg": "selected_year",
+      "time_filters": [],
       "dataset": "shapes",
       "ids": "selected_region",
       "features": {
