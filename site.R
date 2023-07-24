@@ -252,7 +252,7 @@ page_panel(
     ),
     input_button(
       "Population Density",
-      list(selected_variable = "pop_density_indicator")
+      list(selected_variable = "population_density")
     ),
     input_button(
       "Segregation",
