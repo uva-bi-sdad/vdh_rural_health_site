@@ -264,7 +264,7 @@ page_panel(
     ),
     input_button(
       "Affordability (H&T)",
-      list(selected_variable = "affordability_indicator")
+      list(selected_variable = "affordability_index")
     ),
     input_button(
       "Air Quality",
