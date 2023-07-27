@@ -574,7 +574,7 @@
     },
     "EmploymentAccess": {
       "effects": {
-        "selected_variable": "employment_access_indicator"
+        "selected_variable": "employment_access_sqmi"
       }
     },
     "IncomeInequality": {
@@ -619,7 +619,7 @@
     },
     "Affordability(H&T)": {
       "effects": {
-        "selected_variable": "affordability_indicator"
+        "selected_variable": "affordability_index"
       }
     },
     "AirQuality": {
