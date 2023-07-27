@@ -217,7 +217,7 @@ page_panel(
       list(selected_variable = "consumer_opportunity_indicator")
     ),
     input_button(
-      "Wellness Disparity",
+      "Social Impact",
       list(selected_variable = "wellness_disparity_indicator")
     ),
 
