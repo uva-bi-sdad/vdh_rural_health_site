@@ -116,7 +116,7 @@ page_panel(
     wraps = "row",
     conditions = c("", "metric_set == rural_health", "metric_set == hoi", "metric_set == unit_profiles"),
     input_select(
-      "Metric Set", c("rural_health", "hoi", "unit_profiles"), 0, c("Rural Health", "Health Equity", "Unit Profiles"),
+      "Metric Set", c("rural_health", "hoi", "unit_profiles"), 1, c("Rural Health", "Health Equity", "Unit Profiles"),
       id = "metric_set"
     ),
     c(
