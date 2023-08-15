@@ -209,7 +209,7 @@ page_panel(
       list(selected_variable = "economic_opportunity_indicator")
     ),
     input_button(
-      "Community Environment",
+      "Built Environment",
       list(selected_variable = "community_environment_indicator")
     ),
     input_button(
