@@ -70,6 +70,10 @@ page_navbar(
       '<p class="section-heading">Plot Options</p>',
       input_select("Plot Type", c("scatter", "scattergl", "bar"), "scatter", id = "plot_type", floating_label = FALSE),
       input_switch("Box Plots", default_on = TRUE, id = "settings.boxplots"),
+      input_switch(
+        "Use IQR Whiskers", id = "settings.iqr_box",
+        note = "Define the extreme fences of the box plots by 1.5 * interquartile range (true) or min and max (false)."
+      ),
       input_number(
         "Trace Limit", "settings.trace_limit", default = 20, floating_label = FALSE,
         note = "Limit the number of plot traces that can be drawn, split between extremes of the variable."
@@ -97,7 +101,7 @@ page_navbar(
           "[Virginia Department of Health](https://www.vdh.virginia.gov)."
         ),
         "View its source on [GitHub](https://github.com/uva-bi-sdad/vdh_rural_health_site).",
-        input_button("Download All Data", "export", query = list(
+        input_button("Download Loaded Data", "export", query = list(
           features = list(geoid = "id", name = "name", region_type = "type")
         ), class = "btn-full"),
         "Credits",
