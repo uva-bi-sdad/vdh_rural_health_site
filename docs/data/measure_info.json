@@ -145,7 +145,7 @@
   },
   "{variant.name}_read_pass_rate": {
     "data_type": "decimal",
-    "aggregation_method": "{variant} percent",
+    "aggregation_method": "percent",
     "unit": "person",
     "category": "Education",
     "equity_category": "Status",
@@ -173,7 +173,8 @@
         "statement": "On average"
       }
     },
-    "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Reading/data/distribution/measure_info.json"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Reading/code/distribution/measure_info.json",
+    "origin": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Reading/data/distribution/va_hdctsd_vdoe_2019_2021_3rd_grade_mean_median_read_score.csv.xz"
   },
   "access_care_indicator": {
     "aggregation_method": "",
@@ -204,7 +205,7 @@
   },
   "acs_postsecondary_{variant}": {
     "aggregation_method": "{variant}",
-    "unit": "person",
+    "unit": "individual",
     "category": "Education",
     "equity_category": "Status",
     "long_description": "{variant} who reported any postsecondary education, according to the U.S. Census American Community Survey 5-year estimates.",
@@ -235,7 +236,8 @@
         "long_name": "Number of People"
       }
     },
-    "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Postsecondary/data/distribution/measure_info.json"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Postsecondary/code/distribution/measure_info.json",
+    "origin": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Postsecondary/data/distribution/acs.csv.xz"
   },
   "adequate": {
     "aggregation_method": "",
@@ -454,6 +456,7 @@
   },
   "avg_down_using_devices": {
     "aggregation_method": "weighted arithmetic mean",
+    "categories": "",
     "category": "Broadband",
     "citations": "",
     "data_type": "decimal",
@@ -474,8 +477,9 @@
     "statement": "The average download speed is {value} in {features.name}.",
     "type": "internet speed",
     "unit": "Mb/s",
+    "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Accessibility/Average Download Speed/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Accessibility/Average Download Speed/data/distribution/ncr_cttrbg_ookla_download_speeds.csv"
+    "origin": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Accessibility/Average Download Speed/data/distribution/ncr_cttrbg_ookla_download_speeds.csv.xz"
   },
   "avg_monthly_rate": {
     "aggregation_method": "",
@@ -506,6 +510,7 @@
   },
   "avg_up_using_devices": {
     "aggregation_method": "weighted arithmetic mean",
+    "categories": "",
     "category": "Broadband",
     "citations": "",
     "data_type": "decimal",
@@ -526,8 +531,9 @@
     "statement": "The average upload speed is {value} in {features.name}.",
     "type": "internet speed",
     "unit": "Mb/s",
+    "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Accessibility/Average Upload Speed/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Accessibility/Average Upload Speed/data/distribution/ncr_cttrbg_ookla_upload_speeds.csv"
+    "origin": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Accessibility/Average Upload Speed/data/distribution/ncr_cttrbg_ookla_upload_speeds.csv.xz"
   },
   "Child_Food_Insecurity_Rate": {
     "aggregation_method": "",
@@ -660,7 +666,7 @@
     "layer": {
       "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Daycare/data/distribution/points_{time}.geojson"
     },
-    "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Daycare/data/distribution/measure_info.json",
+    "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Daycare/code/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Daycare/data/distribution/vdss.csv.xz"
   },
   "daycare_min_drivetime": {
@@ -691,13 +697,13 @@
     "layer": {
       "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Daycare/data/distribution/points_{time}.geojson"
     },
-    "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Daycare/data/distribution/measure_info.json",
+    "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Daycare/code/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Daycare/data/distribution/vdss.csv.xz"
   },
   "daycare_ratio{category}": {
     "data_type": "decimal",
     "aggregation_method": "ratio",
-    "unit": "day care seat",
+    "unit": "day care seat per 1k children",
     "category": "Education",
     "equity_category": "Availability",
     "short_name": "Day Care Seats Per 1k Children {category}",
@@ -782,7 +788,8 @@
         }
       }
     },
-    "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Daycare/data/distribution/measure_info.json"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Daycare/code/distribution/measure_info.json",
+    "origin": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Daycare/data/distribution/vdss.csv.xz"
   },
   "dent_cnt": {
     "aggregation_method": "",
@@ -845,6 +852,7 @@
   },
   "devices": {
     "aggregation_method": "arithmetic mean",
+    "categories": "",
     "category": "Broadband",
     "citations": "",
     "data_type": "decimal",
@@ -865,11 +873,12 @@
     "statement": "There are {value} unique devices in {features.name} accessing Ookla Internet speed tests.",
     "type": "count",
     "unit": "devices",
+    "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Accessibility/Number of devices/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Accessibility/Number of devices/data/distribution/ncr_hdcttrbg_2019_2021q3_speed_measurements.csv.xz"
   },
   "earnings_per_job": {
-    "aggregation_method": "",
+    "aggregation_method": "arithmetic mean",
     "categories": "",
     "category": "Employment/Workforce Development",
     "citations": "",
@@ -888,8 +897,8 @@
         "url": "https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=1&acrdn=6"
       }
     ],
-    "statement": "Earnings per job in {features.name} is {value}.",
-    "type": "dollar",
+    "statement": "Earnings per job in {region_name} is {value}.",
+    "type": "",
     "unit": "dollar",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Personal Income/data/distribution/measure_info.json",
@@ -950,29 +959,30 @@
     "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/va_hdcttr_vdh_2017_education_index.csv.xz"
   },
   "emp_rate": {
-    "aggregation_method": "",
+    "aggregation_method": "percent",
     "categories": "",
     "category": "Employment/Workforce Development",
     "citations": "",
     "data_type": "decimal",
     "equity_category": "Status",
     "layer": "",
-    "long_description": "Population self-reported as employed as a percentage of total civilian workforce population. Based on American Community Survey Table B23025 ACS 2015/2019 5-year estimates.",
+    "long_description": "Population self-reported as employed as a percentage of total civilian workforce population. Based on American Community Survey Table 2015/2019 5-year estimates.",
     "long_name": "Percentage civilian employed",
-    "measure_type": "percent",
+    "measure_type": "",
     "short_description": "Population self-reported as employed as a percentage of total civilian workforce population.",
     "short_name": "Percentage employed",
     "sources": [
       {
         "name": "American Community Survey",
-        "location": "Table B23025",
-        "date_accessed": "2021",
+        "location": "5-Year estimates, table B23025, via the API",
+        "location_url": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
+        "date_accessed": "2023",
         "url": "https://www.census.gov/programs-surveys/acs.html"
       }
     ],
-    "statement": "{value} of the population in {features.name} is employed.",
+    "statement": "{value} of the population in {region_name} is employed.",
     "type": "percent",
-    "unit": "people",
+    "unit": "individual",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment/data/distribution/ncr_cttr_2015_2021_employment_rate.csv.xz"
@@ -1388,7 +1398,7 @@
     "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Reproductive Health/Prenatal Care Adequacy/data/distribution/va_ct_nchs_2014_2020_kotelchuck.csv.xz"
   },
   "job_participate_rate": {
-    "aggregation_method": "",
+    "aggregation_method": "percent",
     "categories": "",
     "category": "Employment/Workforce Development",
     "citations": "",
@@ -1396,21 +1406,22 @@
     "equity_category": "Status",
     "layer": "",
     "long_description": "The percentage of individuals 16-64 years of age in the active labor force. The job particpation rate is often used by economists as an indicator of economic development and growth.",
-    "long_name": "Job Participation Pecentage",
-    "measure_type": "percent",
+    "long_name": "Job Participation Percentage",
+    "measure_type": "",
     "short_description": "The percentage of individuals 16-64 years of age in the active labor force.",
-    "short_name": "Job Participation Pecentage",
+    "short_name": "Job Participation Percentage",
     "sources": [
       {
         "name": "American Community Survey",
-        "location": "Table B23025",
+        "location": "5-Year estimates, table B23025, via the API",
+        "location_url": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
         "date_accessed": "2023",
         "url": "https://www.census.gov/programs-surveys/acs.html"
       }
     ],
-    "statement": "{value} of the population in {features.name} is participating in the civilian job force.",
+    "statement": "{value} of the population in {region_name} is participating in the civilian job force.",
     "type": "percent",
-    "unit": "people",
+    "unit": "individual",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment/data/distribution/va_cttr_2015_2021_job_participate_rate.csv.xz"
@@ -1887,57 +1898,54 @@
     "origin": "https://github.com/uva-bi-sdad/sdc.housing/blob/main/Cost-burdened HHs/data/distribution/va_hdcttrbg_acs_2014_2021_cost_burdened_hhs.csv.xz"
   },
   "perc_AAPI": {
-    "aggregation_method": "",
     "category": "Demographics",
-    "citations": "",
-    "data_type": "numeric",
+    "data_type": "decimal",
+    "unit": "individual",
     "equity_category": "Status",
-    "layer": "",
-    "long_description": "The Asian American/Pacific Islander population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "long_name": "Asian American/Pacific Islander population (percent)",
-    "measure_type": "percentage",
-    "short_description": "The Asian American/Pacific Islander population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "Asian American/Pacific Islander population",
+    "aggregation_method": "percent",
+    "short_name": "The Asian American/Pacific Islander population percentage ",
+    "long_name": "The Asian American/Pacific Islander population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "short_description": "The Asian American/Pacific Islander population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The Asian American/Pacific Islander population percent.. 5-year ACS estimates in provided census geolevels. For non-census geolevels (such as zip codes), spatial overlaps are calculated between census block groups and target regions, then the value of each block group is aggregated/disaggregated to any intersecting target region based on proportion of overlap. Redistribution to non-census geolevels was performed using the redistribute R package.",
+    "statement": "The Asian American/Pacific Islander population percent is {value} in {region_name}.",
     "sources": [
       {
-        "name": "American Community Survey Table B01001",
+        "name": "American Community Survey",
+        "location": "5-Year estimates, table B01001, via the API",
+        "location_url": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
         "date_accessed": 2021,
         "url": "https://www.census.gov/programs-surveys/acs.html"
       }
     ],
-    "statement": "The Asian American/Pacific Islander population is {value} in {features.name}.",
-    "type": "percent",
-    "unit": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Race/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Race/data/distribution/va_trctbg_acs_20092020_race_demographics.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Race/data/distribution/va_hsrsdpdzccttrbg_sdad_2013_2021_race_demographics1.csv.xz"
   },
   "perc_afr_amer_alone": {
-    "aggregation_method": "",
     "category": "Demographics",
-    "citations": "",
-    "data_type": "numeric",
+    "data_type": "decimal",
+    "unit": "individual",
     "equity_category": "Status",
-    "layer": "",
-    "long_description": "The Black population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "long_name": "Black population (percent)",
-    "measure_type": "percentage",
-    "short_description": "The Black population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "Black population",
+    "aggregation_method": "percent",
+    "short_name": "Black population percentage ",
+    "long_name": "The Black population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "short_description": "The Black population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The Black population percent.. 5-year ACS estimates in provided census geolevels. For non-census geolevels (such as zip codes), spatial overlaps are calculated between census block groups and target regions, then the value of each block group is aggregated/disaggregated to any intersecting target region based on proportion of overlap. Redistribution to non-census geolevels was performed using the redistribute R package.",
+    "statement": "The Black population percent is {value} in {region_name}.",
     "sources": [
       {
-        "name": "American Community Survey Table B01001",
+        "name": "American Community Survey",
+        "location": "5-Year estimates, table B01001, via the API",
+        "location_url": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
         "date_accessed": 2021,
         "url": "https://www.census.gov/programs-surveys/acs.html"
       }
     ],
-    "statement": "The Black population is {value} in {features.name}.",
-    "type": "percent",
-    "unit": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Race/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Race/data/distribution/va_trctbg_acs_20092020_race_demographics.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Race/data/distribution/va_hsrsdpdzccttrbg_sdad_2013_2021_race_demographics1.csv.xz"
   },
   "perc_children_raised_by_GPs": {
     "aggregation_method": "",
+    "categories": "",
     "category": "Demographics",
     "citations": "",
     "data_type": "numeric",
@@ -1959,61 +1967,59 @@
     "statement": "The population of children raised by grandparents is {value} in {features.name}.",
     "type": "percent",
     "unit": "",
+    "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Cooperative extension/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Cooperative extension/data/distribution/va_cttr_2010_2021_perc_children_raised_by_GPs.csv.xz"
   },
   "perc_female": {
-    "aggregation_method": "",
     "category": "Demographics",
-    "citations": "",
-    "data_type": "numeric",
+    "data_type": "decimal",
+    "unit": "individual",
     "equity_category": "Status",
-    "layer": "",
-    "long_description": "The percent of females in the total population. Based on American Community Survey ACS 2010/2021 5-year estimates table S0101.",
-    "long_name": "Female population (percent)",
-    "measure_type": "percentage",
-    "short_description": "The percent of females in population. Based on American Community Survey ACS 2010/2021 5-year estimates.",
-    "short_name": "Female population",
+    "aggregation_method": "percent",
+    "short_name": "Percentage of females ",
+    "long_name": "The percent of females in the total population. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "short_description": "The percent of females in the total population. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The percent of females in the total population. 5-year ACS estimates in provided census geolevels. For non-census geolevels (such as zip codes), spatial overlaps are calculated between census block groups and target regions, then the value of each block group is aggregated/disaggregated to any intersecting target region based on proportion of overlap. Redistribution to non-census geolevels was performed using the redistribute R package.",
+    "statement": "The percent of females is {value} in {region_name}.",
     "sources": [
       {
-        "date_accessed": 2023,
-        "name": "American Community Survey Table S0101",
+        "name": "American Community Survey",
+        "location": "5-Year estimates, table S0101, via the API",
+        "location_url": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
+        "date_accessed": 2021,
         "url": "https://www.census.gov/programs-surveys/acs.html"
       }
     ],
-    "statement": "The female population is {value} in {features.name}.",
-    "type": "percent",
-    "unit": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Gender/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Gender/data/distribution/va_trctbg_acs_20092020_gender_demographics.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Gender/data/distribution/va_hsrsdpdzccttrbg_sdad_2013_2021_gender_demographics1.csv.xz"
   },
   "perc_hh_limited_english": {
-    "aggregation_method": "",
     "category": "Demographics",
-    "citations": "",
-    "data_type": "numeric",
+    "data_type": "decimal",
+    "unit": "individual",
     "equity_category": "Status",
-    "layer": "",
-    "long_description": "The percent of households with limited English. Based on American Community Survey ACS 2015/2019 5-year estimates Table C16002.",
-    "long_name": "Limited English households (percent)",
-    "measure_type": "percentage",
+    "aggregation_method": "percent",
+    "short_name": "Percentage of households with limited English ",
+    "long_name": "The percent of households with limited English. Based on American Community Survey ACS 2015/2019 5-year estimates.",
     "short_description": "The percent of households with limited English. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "Limited English households",
+    "long_description": "The percent of households with limited English. 5-year ACS estimates in provided census geolevels. For non-census geolevels (such as zip codes), spatial overlaps are calculated between census block groups and target regions, then the value of each block group is aggregated/disaggregated to any intersecting target region based on proportion of overlap. Redistribution to non-census geolevels was performed using the redistribute R package.",
+    "statement": "The percent of households with limited English is {value} in {region_name}.",
     "sources": [
       {
-        "name": "American Community Survey Table C16002",
-        "date_accessed": 2023,
+        "name": "American Community Survey",
+        "location": "5-Year estimates, table C16002, via the API",
+        "location_url": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
+        "date_accessed": 2021,
         "url": "https://www.census.gov/programs-surveys/acs.html"
       }
     ],
-    "statement": "The percent of households with limited English is {value} in {features.name}.",
-    "type": "percent",
-    "unit": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Language/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Language/data/distribution/va_trctbg_acs_20092020_language_demographics.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Language/data/distribution/va_hsrsdpdzccttrbg_sdad_2016_2021_language_demographics1.csv.xz"
   },
   "perc_hh_with_broadband": {
     "aggregation_method": "percent",
+    "categories": "",
     "category": "Broadband",
     "citations": "",
     "data_type": "decimal",
@@ -2034,11 +2040,13 @@
     "statement": "{value} of households in {features.name} have a broadband connection.",
     "type": "percent",
     "unit": "household",
+    "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Adoption/Internet Type/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Adoption/Internet Type/data/distribution/va_hdcttrbg_acs_2017_2021_hh_internet_type.csv.xz"
   },
   "perc_hh_with_cable_fiber_dsl": {
     "aggregation_method": "percent",
+    "categories": "",
     "category": "Broadband",
     "citations": "",
     "data_type": "decimal",
@@ -2059,11 +2067,13 @@
     "statement": "{value} of households in {features.name} have a cable, fiber optic, or DSL internet connection.",
     "type": "percent",
     "unit": "household",
+    "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Adoption/Internet Type/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Adoption/Internet Type/data/distribution/va_hdcttrbg_acs_2017_2021_hh_internet_type.csv.xz"
   },
   "perc_hh_without_compdev": {
     "aggregation_method": "percent",
+    "categories": "",
     "category": "Broadband",
     "citations": "",
     "data_type": "decimal",
@@ -2084,11 +2094,13 @@
     "statement": "{value} of households in {features.name} do not have a computer or device.",
     "type": "percent",
     "unit": "household",
+    "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Adoption/Computer Type/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Adoption/Computer Type/data/distribution/va_hdcttrbg_acs_2017_2021_hh_without_compdev.csv.xz"
   },
   "perc_hh_without_internet": {
     "aggregation_method": "percent",
+    "categories": "",
     "category": "Broadband",
     "citations": "",
     "data_type": "decimal",
@@ -2109,36 +2121,36 @@
     "statement": "{value} of households in {features.name} do not have internet access.",
     "type": "percent",
     "unit": "household",
+    "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Adoption/Internet Type/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Adoption/Internet Type/data/distribution/va_hdcttrbg_acs_2017_2021_hh_internet_type.csv.xz"
   },
   "perc_hispanic_or_latino": {
-    "aggregation_method": "",
     "category": "Demographics",
-    "citations": "",
-    "data_type": "numeric",
+    "data_type": "decimal",
+    "unit": "individual",
     "equity_category": "Status",
-    "layer": "",
-    "long_description": "The Hispanic/Latino population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "long_name": "Hispanic/Latino population (percent)",
-    "measure_type": "percentage",
-    "short_description": "The Hispanic/Latino population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "Hispanic/Latino population",
+    "aggregation_method": "percent",
+    "short_name": "The Hispanic/Latino population percentage ",
+    "long_name": "The Hispanic/Latino population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "short_description": "The Hispanic/Latino population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The Hispanic/Latino population percent.. 5-year ACS estimates in provided census geolevels. For non-census geolevels (such as zip codes), spatial overlaps are calculated between census block groups and target regions, then the value of each block group is aggregated/disaggregated to any intersecting target region based on proportion of overlap. Redistribution to non-census geolevels was performed using the redistribute R package.",
+    "statement": "The Hispanic/Latino population percent is {value} in {region_name}.",
     "sources": [
       {
-        "name": "American Community Survey Table B01001",
+        "name": "American Community Survey",
+        "location": "5-Year estimates, table B01001, via the API",
+        "location_url": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
         "date_accessed": 2021,
         "url": "https://www.census.gov/programs-surveys/acs.html"
       }
     ],
-    "statement": "The Hispanic/Latino population is {value} in {features.name}.",
-    "type": "percent",
-    "unit": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Race/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Race/data/distribution/va_trctbg_acs_20092020_race_demographics.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Race/data/distribution/va_hsrsdpdzccttrbg_sdad_2013_2021_race_demographics1.csv.xz"
   },
   "perc_income_avg_nat_package": {
     "aggregation_method": "percent",
+    "categories": "",
     "category": "Broadband",
     "citations": "",
     "data_type": "decimal",
@@ -2164,11 +2176,13 @@
     "statement": "The national average internet package costs {value} of the median household income in {features.name}.",
     "type": "percent",
     "unit": "dollar",
+    "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Affordability/Percentage of income for internet (average)/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Affordability/Percentage of income for internet (average)/data/distribution/ncr_broadbandnow_acs_sdad_2021_perc_income_on_internet.csv.xz"
   },
   "perc_income_min_price_100": {
     "aggregation_method": "percent",
+    "categories": "",
     "category": "Broadband",
     "citations": "",
     "data_type": "decimal",
@@ -2194,11 +2208,13 @@
     "statement": "Fast internet costs {value} of the median household income in {features.name}.",
     "type": "percent",
     "unit": "dollar",
+    "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Affordability/Percentage of income for fast internet/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Affordability/Percentage of income for fast internet/data/distribution/ncr_broadbandnow_acs_sdad_2021_perc_income_on_internet.csv.xz"
   },
   "perc_income_min_price_25": {
     "aggregation_method": "percent",
+    "categories": "",
     "category": "Broadband",
     "citations": "",
     "data_type": "decimal",
@@ -2224,58 +2240,55 @@
     "statement": "Good internet costs {value} of the median household income in {features.name}.",
     "type": "percent",
     "unit": "dollar",
+    "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Affordability/Percentage of income for good internet/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Affordability/Percentage of income for good internet/data/distribution/ncr_broadbandnow_acs_sdad_2021_perc_income_on_internet.csv.xz"
   },
   "perc_male": {
-    "aggregation_method": "",
     "category": "Demographics",
-    "citations": "",
-    "data_type": "numeric",
+    "data_type": "decimal",
+    "unit": "individual",
     "equity_category": "Status",
-    "layer": "",
-    "long_description": "The percent of males in the total population. Based on American Community Survey ACS 2010/2021 5-year estimates table S0101.",
-    "long_name": "Male population (percent)",
-    "measure_type": "percentage",
-    "short_description": "The percent of males in population. Based on American Community Survey ACS 2010/2021 5-year estimates.",
-    "short_name": "Male population",
+    "aggregation_method": "percent",
+    "short_name": "Percentage of males ",
+    "long_name": "The percent of males in the total population. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "short_description": "The percent of males in the total population. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The percent of males in the total population. 5-year ACS estimates in provided census geolevels. For non-census geolevels (such as zip codes), spatial overlaps are calculated between census block groups and target regions, then the value of each block group is aggregated/disaggregated to any intersecting target region based on proportion of overlap. Redistribution to non-census geolevels was performed using the redistribute R package.",
+    "statement": "The percent of males is {value} in {region_name}.",
     "sources": [
       {
-        "date_accessed": 2023,
-        "name": "American Community Survey Table S0101",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The male population is {value} in {features.name}.",
-    "type": "percent",
-    "unit": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Gender/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Gender/data/distribution/va_trctbg_acs_20092020_gender_demographics.csv.xz"
-  },
-  "perc_native_alone": {
-    "aggregation_method": "",
-    "category": "Demographics",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "The Native population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "long_name": "Native population (percent)",
-    "measure_type": "percentage",
-    "short_description": "The Native population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "Native population",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
+        "name": "American Community Survey",
+        "location": "5-Year estimates, table S0101, via the API",
+        "location_url": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
         "date_accessed": 2021,
         "url": "https://www.census.gov/programs-surveys/acs.html"
       }
     ],
-    "statement": "The Native population is {value} in {features.name}.",
-    "type": "percent",
-    "unit": "",
+    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Gender/data/distribution/measure_info.json",
+    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Gender/data/distribution/va_hsrsdpdzccttrbg_sdad_2013_2021_gender_demographics1.csv.xz"
+  },
+  "perc_native_alone": {
+    "category": "Demographics",
+    "data_type": "decimal",
+    "unit": "individual",
+    "equity_category": "Status",
+    "aggregation_method": "percent",
+    "short_name": "The Native population percentage ",
+    "long_name": "The Native population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "short_description": "The Native population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The Native population percent.. 5-year ACS estimates in provided census geolevels. For non-census geolevels (such as zip codes), spatial overlaps are calculated between census block groups and target regions, then the value of each block group is aggregated/disaggregated to any intersecting target region based on proportion of overlap. Redistribution to non-census geolevels was performed using the redistribute R package.",
+    "statement": "The Native population percent is {value} in {region_name}.",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "location": "5-Year estimates, table B01001, via the API",
+        "location_url": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
     "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Race/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Race/data/distribution/va_trctbg_acs_20092020_race_demographics.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Race/data/distribution/va_hsrsdpdzccttrbg_sdad_2013_2021_race_demographics1.csv.xz"
   },
   "perc_no_vehicle": {
     "aggregation_method": "",
@@ -2304,29 +2317,27 @@
     "origin": "https://github.com/uva-bi-sdad/sdc.transportation/blob/main/Population Characteristics/data/distribution/va_cttr_2010_2021_perc_no_car_households.csv.xz"
   },
   "perc_other": {
-    "aggregation_method": "",
     "category": "Demographics",
-    "citations": "",
-    "data_type": "numeric",
+    "data_type": "decimal",
+    "unit": "individual",
     "equity_category": "Status",
-    "layer": "",
-    "long_description": "The Other racial population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "long_name": "Other racial population (percent)",
-    "measure_type": "percentage",
-    "short_description": "The Other racial population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "Other racial population",
+    "aggregation_method": "percent",
+    "short_name": "The Other racial population percentage ",
+    "long_name": "The Other racial population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "short_description": "The Other racial population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The Other racial population percent.. 5-year ACS estimates in provided census geolevels. For non-census geolevels (such as zip codes), spatial overlaps are calculated between census block groups and target regions, then the value of each block group is aggregated/disaggregated to any intersecting target region based on proportion of overlap. Redistribution to non-census geolevels was performed using the redistribute R package.",
+    "statement": "The Other racial population percent is {value} in {region_name}.",
     "sources": [
       {
-        "name": "American Community Survey Table B01001",
+        "name": "American Community Survey",
+        "location": "5-Year estimates, table B01001, via the API",
+        "location_url": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
         "date_accessed": 2021,
         "url": "https://www.census.gov/programs-surveys/acs.html"
       }
     ],
-    "statement": "The Other racial population is {value} in {features.name}.",
-    "type": "percent",
-    "unit": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Race/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Race/data/distribution/va_trctbg_acs_20092020_race_demographics.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Race/data/distribution/va_hsrsdpdzccttrbg_sdad_2013_2021_race_demographics1.csv.xz"
   },
   "perc_poor_ment_hlth_days_14_and_over": {
     "aggregation_method": "",
@@ -2383,82 +2394,77 @@
     "origin": ["https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Mental Health/Mental and Physical Healthy Days/data/distribution/ncr_trct_sdad_2015_2019_brfss_sae.csv.xz", "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Mental Health/Mental and Physical Healthy Days/data/distribution/va_trcthd_sdad_2015_2019_brfss_sae.csv.xz"]
   },
   "perc_pop_20_64": {
-    "aggregation_method": "",
     "category": "Demographics",
-    "citations": "",
-    "data_type": "numeric",
+    "data_type": "decimal",
+    "unit": "individual",
     "equity_category": "Status",
-    "layer": "",
-    "long_description": "The percent of the population between age 20 and 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "long_name": "20 to 64 population (percent)",
-    "measure_type": "percentage",
-    "short_description": "The percent of the population between age 20 and 64. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "20 to 64 population",
+    "aggregation_method": "percent",
+    "short_name": "Percent of the population between age 20 and 64 ",
+    "long_name": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "short_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The percent of the population over age 64. 5-year ACS estimates in provided census geolevels. For non-census geolevels (such as zip codes), spatial overlaps are calculated between census block groups and target regions, then the value of each block group is aggregated/disaggregated to any intersecting target region based on proportion of overlap. Redistribution to non-census geolevels was performed using the redistribute R package.",
+    "statement": "The percent of the population over age 64 is {value} in {region_name}.",
     "sources": [
       {
-        "date_accessed": 2023,
-        "name": "American Community Survey Table B01001",
+        "name": "American Community Survey",
+        "location": "5-Year estimates, table B01001, via the API",
+        "location_url": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
+        "date_accessed": 2021,
         "url": "https://www.census.gov/programs-surveys/acs.html"
       }
     ],
-    "statement": "The percent of the population between age 20 and 64 is {value} in {features.name}.",
-    "type": "percent",
-    "unit": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Age/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Age/data/distribution/va_trctbg_acs_20092020_age_demographics.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Age/data/distribution/va_hsrsdpdzccttrbg_sdad_2013_2021_age_demographics1.csv.xz"
   },
   "perc_pop_65_plus": {
-    "aggregation_method": "",
     "category": "Demographics",
-    "citations": "",
-    "data_type": "numeric",
+    "data_type": "decimal",
+    "unit": "individual",
     "equity_category": "Status",
-    "layer": "",
-    "long_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "long_name": "65 plus population (percent)",
-    "measure_type": "percentage",
+    "aggregation_method": "percent",
+    "short_name": "Percent of the population over age 64 ",
+    "long_name": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates.",
     "short_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "65 plus population",
+    "long_description": "The percent of the population over age 64. 5-year ACS estimates in provided census geolevels. For non-census geolevels (such as zip codes), spatial overlaps are calculated between census block groups and target regions, then the value of each block group is aggregated/disaggregated to any intersecting target region based on proportion of overlap. Redistribution to non-census geolevels was performed using the redistribute R package.",
+    "statement": "The percent of the population over age 64 is {value} in {region_name}.",
     "sources": [
       {
-        "date_accessed": 2023,
-        "name": "American Community Survey Table B01001",
+        "name": "American Community Survey",
+        "location": "5-Year estimates, table B01001, via the API",
+        "location_url": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
+        "date_accessed": 2021,
         "url": "https://www.census.gov/programs-surveys/acs.html"
       }
     ],
-    "statement": "The percent of the population over age 64 is {value} in {features.name}.",
-    "type": "percent",
-    "unit": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Age/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Age/data/distribution/va_trctbg_acs_20092020_age_demographics.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Age/data/distribution/va_hsrsdpdzccttrbg_sdad_2013_2021_age_demographics1.csv.xz"
   },
   "perc_pop_under_20": {
-    "aggregation_method": "",
     "category": "Demographics",
-    "citations": "",
-    "data_type": "numeric",
+    "data_type": "decimal",
+    "unit": "individual",
     "equity_category": "Status",
-    "layer": "",
-    "long_description": "The percent of the population under age 20. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "long_name": "Under 20 population (percent)",
-    "measure_type": "percentage",
+    "aggregation_method": "percent",
+    "short_name": "Percent of the population under age 20 ",
+    "long_name": "The percent of the population under age 20. Based on American Community Survey ACS 2015/2019 5-year estimates.",
     "short_description": "The percent of the population under age 20. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "Under 20 population",
+    "long_description": "The percent of the population under age 20. 5-year ACS estimates in provided census geolevels. For non-census geolevels (such as zip codes), spatial overlaps are calculated between census block groups and target regions, then the value of each block group is aggregated/disaggregated to any intersecting target region based on proportion of overlap. Redistribution to non-census geolevels was performed using the redistribute R package.",
+    "statement": "The percent of the population under age 20 is {value} in {region_name}.",
     "sources": [
       {
-        "date_accessed": 2023,
-        "name": "American Community Survey Table B01001",
+        "name": "American Community Survey",
+        "location": "5-Year estimates, table B01001, via the API",
+        "location_url": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
+        "date_accessed": 2021,
         "url": "https://www.census.gov/programs-surveys/acs.html"
       }
     ],
-    "statement": "The percent of the population under age 20 is {value} in {features.name}.",
-    "type": "percent",
-    "unit": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Age/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Age/data/distribution/va_trctbg_acs_20092020_age_demographics.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Age/data/distribution/va_hsrsdpdzccttrbg_sdad_2013_2021_age_demographics1.csv.xz"
   },
   "perc_total_100_20_using_devices": {
     "aggregation_method": "percent",
+    "categories": "",
     "category": "Broadband",
     "citations": "",
     "data_type": "decimal",
@@ -2479,11 +2485,13 @@
     "statement": "{value} of the total population in {features.name} has a fast internet speed.",
     "type": "percent",
     "unit": "individual",
+    "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Accessibility/Percent Fast (total)/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Accessibility/Percent Fast (total)/data/distribution/ncr_hdcttrbg_2019_2021q3_percent_above_threshold.csv.xz"
   },
   "perc_total_25_3_using_devices": {
     "aggregation_method": "percent",
+    "categories": "",
     "category": "Broadband",
     "citations": "",
     "data_type": "decimal",
@@ -2504,61 +2512,59 @@
     "statement": "{value} of the total population in {features.name} has a good internet speed.",
     "type": "percent",
     "unit": "individual",
+    "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Accessibility/Percent Good (total)/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Accessibility/Percent Good (total)/data/distribution/ncr_hdcttrbg_2019_2021q3_percent_above_threshold.csv.xz"
   },
   "perc_two_or_more": {
-    "aggregation_method": "",
     "category": "Demographics",
-    "citations": "",
-    "data_type": "numeric",
+    "data_type": "decimal",
+    "unit": "individual",
     "equity_category": "Status",
-    "layer": "",
-    "long_description": "The two or more races population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "long_name": "Two or more races population (percent)",
-    "measure_type": "percentage",
+    "aggregation_method": "percent",
+    "short_name": "The two or more races population percentage ",
+    "long_name": "The two or more races population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
     "short_description": "The two or more races population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "Two or more races population",
+    "long_description": "The two or more races population percent.. 5-year ACS estimates in provided census geolevels. For non-census geolevels (such as zip codes), spatial overlaps are calculated between census block groups and target regions, then the value of each block group is aggregated/disaggregated to any intersecting target region based on proportion of overlap. Redistribution to non-census geolevels was performed using the redistribute R package.",
+    "statement": "The two or more races population percent is {value} in {region_name}.",
     "sources": [
       {
-        "name": "American Community Survey Table B01001",
+        "name": "American Community Survey",
+        "location": "5-Year estimates, table B01001, via the API",
+        "location_url": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
         "date_accessed": 2021,
         "url": "https://www.census.gov/programs-surveys/acs.html"
       }
     ],
-    "statement": "The two or more races population is {value} in {features.name}.",
-    "type": "percent",
-    "unit": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Race/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Race/data/distribution/va_trctbg_acs_20092020_race_demographics.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Race/data/distribution/va_hsrsdpdzccttrbg_sdad_2013_2021_race_demographics1.csv.xz"
   },
   "perc_veteran": {
-    "aggregation_method": "",
     "category": "Demographics",
-    "citations": "",
-    "data_type": "numeric",
+    "data_type": "decimal",
+    "unit": "individual",
     "equity_category": "Status",
-    "layer": "",
-    "long_description": "The Veteran population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B21001.",
-    "long_name": "Veteran population (percent)",
-    "measure_type": "percentage",
-    "short_description": "The Veteran population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "Veteran population",
+    "aggregation_method": "percent",
+    "short_name": "The Veteran population percentage ",
+    "long_name": "The Veteran population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "short_description": "The Veteran population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The Veteran population percent. 5-year ACS estimates in provided census geolevels. For non-census geolevels (such as zip codes), spatial overlaps are calculated between census block groups and target regions, then the value of each block group is aggregated/disaggregated to any intersecting target region based on proportion of overlap. Redistribution to non-census geolevels was performed using the redistribute R package.",
+    "statement": "The Veteran population percent is {value} in {region_name}.",
     "sources": [
       {
-        "name": "American Community Survey Table B01001",
+        "name": "American Community Survey",
+        "location": "5-Year estimates, table B21001, via the API",
+        "location_url": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
         "date_accessed": 2021,
         "url": "https://www.census.gov/programs-surveys/acs.html"
       }
     ],
-    "statement": "The Veteran population is {value} in {features.name}.",
-    "type": "percent",
-    "unit": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Veteran/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Veteran/data/distribution/va_trctbg_acs_20092020_veteran_demographics.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Veteran/data/distribution/va_hsrsdpdzccttrbg_sdad_2013_2021_veteran_demographics1.csv.xz"
   },
   "perc_w_int_100_20_using_devices": {
     "aggregation_method": "percent",
+    "categories": "",
     "category": "Broadband",
     "citations": "",
     "data_type": "decimal",
@@ -2579,11 +2585,13 @@
     "statement": "{value} of the internet-connected population in {features.name} has a fast internet speed.",
     "type": "percent",
     "unit": "individual",
+    "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Accessibility/Percent Fast (internet-connected)/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Accessibility/Percent Fast (internet-connected)/data/distribution/ncr_hdcttrbg_2019_2021q3_percent_above_threshold.csv.xz"
   },
   "perc_w_int_25_3_using_devices": {
     "aggregation_method": "percent",
+    "categories": "",
     "category": "Broadband",
     "citations": "",
     "data_type": "decimal",
@@ -2604,33 +2612,32 @@
     "statement": "{value} of the internet-connected population in {features.name} has a good internet speed.",
     "type": "percent",
     "unit": "individual",
+    "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Accessibility/Percent Good (internet-connected)/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Accessibility/Percent Good (internet-connected)/data/distribution/ncr_hdcttrbg_2019_2021q3_percent_above_threshold.csv.xz"
   },
   "perc_wht_alone": {
-    "aggregation_method": "",
     "category": "Demographics",
-    "citations": "",
-    "data_type": "numeric",
+    "data_type": "decimal",
+    "unit": "individual",
     "equity_category": "Status",
-    "layer": "",
-    "long_description": "The White population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "long_name": "White population (percent)",
-    "measure_type": "percentage",
-    "short_description": "The White population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "White population",
+    "aggregation_method": "percent",
+    "short_name": "The White population percentage ",
+    "long_name": "The White population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "short_description": "The White population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The White population percent.. 5-year ACS estimates in provided census geolevels. For non-census geolevels (such as zip codes), spatial overlaps are calculated between census block groups and target regions, then the value of each block group is aggregated/disaggregated to any intersecting target region based on proportion of overlap. Redistribution to non-census geolevels was performed using the redistribute R package.",
+    "statement": "The White population percent is {value} in {region_name}.",
     "sources": [
       {
-        "name": "American Community Survey Table B01001",
+        "name": "American Community Survey",
+        "location": "5-Year estimates, table B01001, via the API",
+        "location_url": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
         "date_accessed": 2021,
         "url": "https://www.census.gov/programs-surveys/acs.html"
       }
     ],
-    "statement": "The White population is {value} in {features.name}.",
-    "type": "percent",
-    "unit": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Race/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Race/data/distribution/va_trctbg_acs_20092020_race_demographics.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Race/data/distribution/va_hsrsdpdzccttrbg_sdad_2013_2021_race_demographics1.csv.xz"
   },
   "percent_food_insecure": {
     "aggregation_method": "",
@@ -2686,32 +2693,35 @@
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/va_hdcttr_vdh_2017_pop_churning_index.csv.xz"
   },
-  "pop_density_indicator": {
-    "aggregation_method": "",
-    "categories": "",
-    "category": "Health Opportunity Index",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "",
-    "layer": "",
-    "long_description": "A measure of population density that takes into account the density levels most people in the community experience.",
-    "long_name": "Population density indicator",
-    "measure_type": "index",
-    "short_description": "A measure of population density that takes into account the density levels most people in the community experience.",
-    "short_name": "Population density indicator",
+  "population_density": {
+    "category": "Demographics",
+    "data_type": "decimal",
+    "unit": "individual per square mile",
+    "equity_category": "Status",
+    "aggregation_method": "ratio",
+    "short_name": "Population Density",
+    "long_name": "Population Density: People Per Square Mile",
+    "short_description": "People per square mile.",
+    "long_description": "Population density, or number of people per square mile, as calculated from census ACS population data and shapefile areas: \\[\\frac{population_{r}}{meters^{2}_{r}}1609.344^{2}\\] Where r is each region (e.g., census tract or county).",
+    "statement": "There are {value} people per square mile in {region_name}.",
     "sources": [
       {
-        "name": "Virginia Department of Health",
+        "name": "American Community Survey",
+        "location": "5-Year estimates, table B01003, via the API",
+        "location_url": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
         "date_accessed": 2023,
-        "url": "https://apps.vdh.virginia.gov/omhhe/hoi/"
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "TIGER/Line Shapefiles",
+        "location": "FTP Archive: TIGER{year} > TRACT > tl_{year}_{fips}_tract.zip",
+        "location_url": "https://www2.census.gov/geo/tiger",
+        "date_accessed": 2023,
+        "url": "https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html"
       }
     ],
-    "statement": "The population density indicator in {features.name} is {value}.",
-    "type": "index",
-    "unit": "",
-    "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/va_hdcttr_vdh_2017_pop_density_index.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Population Density/data/distribution/measure_info.json",
+    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Population Density/data/distribution/va_hdcttr_acs_2015_2021.csv.xz"
   },
   "poverty_pct": {
     "aggregation_method": "",
@@ -2765,7 +2775,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/System Usage and Insurance/Preventable Hospitalizations/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/System Usage and Insurance/Preventable Hospitalizations/data/distribution/va_ct_chr_2015_2021_preventable_hospitalizations.csv"
+    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/System Usage and Insurance/Preventable Hospitalizations/data/distribution/va_ct_chr_2015_2021_preventable_hospitalizations.csv.xz"
   },
   "primcare_3sfca": {
     "aggregation_method": "",
@@ -2877,12 +2887,13 @@
         }
       }
     },
-    "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Postsecondary/data/distribution/measure_info.json"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Postsecondary/code/distribution/measure_info.json",
+    "origin": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Postsecondary/data/distribution/nces.csv.xz"
   },
   "schools_2year_{category.name}": {
     "data_type": "decimal",
     "aggregation_method": "ratio",
-    "unit": "school",
+    "unit": "school per 100k people over 14",
     "category": "Education",
     "equity_category": "Accessibility",
     "short_name": "2-year schools{category}",
@@ -2967,7 +2978,7 @@
         }
       },
       "with_physical_program": {
-        "default": "with physical programs",
+        "default": " with physical programs",
         "long_description": " with science programs (any with Classification of Institutional Programs [CIP] codes starting with 40)",
         "layer": {
           "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Postsecondary/data/distribution/points_{time}.geojson",
@@ -3024,12 +3035,13 @@
         }
       }
     },
-    "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Postsecondary/data/distribution/measure_info.json"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Postsecondary/code/distribution/measure_info.json",
+    "origin": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Postsecondary/data/distribution/nces.csv.xz"
   },
   "schools_under2year": {
     "data_type": "decimal",
     "aggregation_method": "ratio",
-    "unit": "school",
+    "unit": "school per 100k people over 14",
     "category": "Education",
     "equity_category": "Accessibility",
     "short_name": "<2-year schools",
@@ -3070,7 +3082,7 @@
         "value": 3
       }
     },
-    "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Postsecondary/data/distribution/measure_info.json",
+    "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Postsecondary/code/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Postsecondary/data/distribution/nces.csv.xz"
   },
   "segregation_indicator": {

@@ -472,7 +472,7 @@
     }
   },
   "button": {
-    "DownloadAllData": {
+    "DownloadLoadedData": {
       "effects": "export",
       "query": {
         "features": {
