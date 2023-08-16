@@ -552,7 +552,7 @@
         "selected_variable": "economic_opportunity_indicator"
       }
     },
-    "CommunityEnvironment": {
+    "BuiltEnvironment": {
       "effects": {
         "selected_variable": "community_environment_indicator"
       }
