@@ -485,12 +485,18 @@ input_variable("selected_region", list(
 ), "selected_district")
 
 input_variable("set_palette", list(
-  "settings.color_by_order" = "lajolla"
+  "color_by_setting == rank" = "lajolla",
+  "color_by_setting == quartile" = "paired4"
 ), "vik")
 
 input_variable("county_subset", list(
   "selected_district" = "siblings"
 ), "full_filter")
+
+input_rule("color_by_setting == value", list(settings.color_by_order = FALSE))
+input_rule("color_by_setting != value", list(settings.color_by_order = TRUE))
+input_rule("!settings.color_by_order", list(color_by_setting = "value"))
+input_rule("settings.color_by_order && color_by_setting == value", list(color_by_setting = "rank"))
 
 ## `input_dataview` can collect multiple inputs as filters for a shared data view
 input_dataview(
@@ -575,76 +581,6 @@ page_section(
           )
         )
       ),
-      overlays = {
-        layers <- lapply(2013:2020, function(year) list(
-          url = paste0("https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_", year, ".geojson"),
-          time = year
-        ))
-        hospital_layer <- list(list(
-          url = "https://raw.githubusercontent.com/uva-bi-sdad/dc.hifld.hosp/master/docs/points_2020.geojson",
-          time = 2020
-        ))
-        c(
-          list(
-            list(
-              variable = "hhs:hospitals_per_100k",
-              source = hospital_layer
-            ),
-            list(
-              variable = "hhs:hospitals_min_drivetime",
-              source = hospital_layer
-            ),
-            list(
-              variable = "hhs:intensive_care_per_100k",
-              source = hospital_layer,
-              filter = list(feature = "total_icu_beds_7_day_avg", operator = "!=", value = 0)
-            ),
-            list(
-              variable = "hhs:intensive_care_min_drivetime",
-              source = hospital_layer,
-              filter = list(feature = "total_icu_beds_7_day_avg", operator = "!=", value = 0)
-            ),
-            list(
-              variable = "hhs:childrens_hospitals_per_100k",
-              source = hospital_layer,
-              filter = list(feature = "hospital_subtype", operator = "=", value = "Childrens Hospitals")
-            ),
-            list(
-              variable = "hhs:childrens_hospitals_min_drivetime",
-              source = hospital_layer,
-              filter = list(feature = "hospital_subtype", operator = "=", value = "Childrens Hospitals")
-            ),
-            list(
-              variable = "nces:schools_2year_per_100k",
-              source = layers,
-              filter = list(feature = "ICLEVEL", operator = "=", value = 2)
-            ),
-            list(
-              variable = "nces:schools_under2year_per_100k",
-              source = layers,
-              filter = list(feature = "ICLEVEL", operator = "=", value = 3)
-            ),
-            list(
-              variable = "nces:schools_2year_min_drivetime",
-              source = layers,
-              filter = list(feature = "ICLEVEL", operator = "=", value = 2)
-            ),
-            list(
-              variable = "nces:schools_under2year_min_drivetime",
-              source = layers,
-              filter = list(feature = "ICLEVEL", operator = "=", value = 3)
-            )
-          ),
-          lapply(c("biomedical", "computer", "engineering", "physical", "science"), function(p) list(
-            variable = paste0("nces:schools_2year_with_", p, "_program_per_100k"),
-            source = layers,
-            filter = list(
-              list(feature = "ICLEVEL", operator = "=", value = 2),
-              list(feature = p, operator = "=", value = 1)
-            )
-          ))
-        )
-      },
       dataview = "primary_view",
       click = "region_select",
       id = "main_map",
@@ -735,9 +671,17 @@ page_section(
     wraps = "col",
     sizes = c(5, 7),
     page_section(
-      output_legend(
-        "settings.palette", dataview = "primary_view", click = "region_select",
-        subto = c("main_map", "main_plot", "rank_table"), id = "main_legend"
+      page_section(
+        wraps = "col-md",
+        sizes = c(NA, 1),
+        output_legend(
+          "settings.palette", dataview = "primary_view", click = "region_select",
+          subto = c("main_map", "main_plot", "rank_table"), id = "main_legend"
+        ),
+        input_checkbox(
+          "Color By", c("value", "rank", "quartile"), 0,
+          id = "color_by_setting", multi = FALSE, class = "compact"
+        )
       ),
       output_table("selected_variable", dataview = "primary_view", options = list(
         info = FALSE,
