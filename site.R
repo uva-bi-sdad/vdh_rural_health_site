@@ -486,7 +486,7 @@ input_variable("selected_region", list(
 
 input_variable("set_palette", list(
   "color_by_setting == rank" = "lajolla",
-  "color_by_setting == quartile" = "paired4"
+  "color_by_setting == quintile" = "greens5"
 ), "vik")
 
 input_variable("county_subset", list(
@@ -679,7 +679,7 @@ page_section(
           subto = c("main_map", "main_plot", "rank_table"), id = "main_legend"
         ),
         input_checkbox(
-          "Color By", c("value", "rank", "quartile"), 0,
+          "Color By", c("value", "rank", "quintile"), 0,
           id = "color_by_setting", multi = FALSE, class = "compact"
         )
       ),

@@ -278,10 +278,10 @@
             {
               "id": "color_by_setting",
               "type": "=",
-              "value": "quartile"
+              "value": "quintile"
             }
           ],
-          "value": "paired4"
+          "value": "greens5"
         }
       ],
       "default": "vik"
