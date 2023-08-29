@@ -256,7 +256,7 @@ page_panel(
     ),
     input_button(
       "Population Density",
-      list(selected_variable = "population_density")
+      list(selected_variable = "population_density_direct")
     ),
     input_button(
       "Segregation",
