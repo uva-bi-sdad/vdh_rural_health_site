@@ -29,6 +29,8 @@
     "url": "https://uva-bi-sdad.github.io/community_example/",
     "package": "data/datapackage.json",
     "datasets": ["tract", "county", "district"],
+    "variables": {},
+    "entity_info": {},
     "files": ["tract.csv.xz", "county.csv.xz", "health_district.csv.xz"]
   },
   "rules": [
@@ -37,7 +39,8 @@
         {
           "id": "metric_set",
           "type": "=",
-          "value": "rural_health"
+          "value": "rural_health",
+          "any": false
         }
       ],
       "effects": {
@@ -49,7 +52,8 @@
         {
           "id": "metric_set",
           "type": "=",
-          "value": "hoi"
+          "value": "hoi",
+          "any": false
         }
       ],
       "effects": {
@@ -61,7 +65,8 @@
         {
           "id": "metric_set",
           "type": "=",
-          "value": "unit_profiles"
+          "value": "unit_profiles",
+          "any": false
         }
       ],
       "effects": {
@@ -73,7 +78,8 @@
         {
           "id": "metric_set",
           "type": "=",
-          "value": "rural_health"
+          "value": "rural_health",
+          "any": false
         }
       ],
       "effects": {
@@ -85,7 +91,8 @@
         {
           "id": "metric_set",
           "type": "=",
-          "value": "hoi"
+          "value": "hoi",
+          "any": false
         }
       ],
       "effects": {
@@ -97,7 +104,8 @@
         {
           "id": "metric_set",
           "type": "=",
-          "value": "unit_profiles"
+          "value": "unit_profiles",
+          "any": false
         }
       ],
       "effects": {
@@ -109,7 +117,8 @@
         {
           "id": "selected_county",
           "type": "!",
-          "value": ""
+          "value": "",
+          "any": false
         }
       ],
       "effects": {
@@ -140,7 +149,8 @@
         {
           "id": "color_by_setting",
           "type": "=",
-          "value": "value"
+          "value": "value",
+          "any": false
         }
       ],
       "effects": {
@@ -152,7 +162,8 @@
         {
           "id": "color_by_setting",
           "type": "!=",
-          "value": "value"
+          "value": "value",
+          "any": false
         }
       ],
       "effects": {
@@ -164,7 +175,8 @@
         {
           "id": "settings.color_by_order",
           "type": "!",
-          "value": ""
+          "value": "",
+          "any": false
         }
       ],
       "effects": {
@@ -176,12 +188,14 @@
         {
           "id": "settings.color_by_order",
           "type": "",
-          "value": ""
+          "value": "",
+          "any": false
         },
         {
           "id": "color_by_setting",
           "type": "=",
-          "value": "value"
+          "value": "value",
+          "any": false
         }
       ],
       "effects": {
@@ -198,12 +212,14 @@
             {
               "id": "starting_shapes",
               "type": "=",
-              "value": "district"
+              "value": "district",
+              "any": false
             },
             {
               "id": "selected_district",
               "type": "!",
-              "value": ""
+              "value": "",
+              "any": false
             }
           ],
           "value": "district"
@@ -226,7 +242,8 @@
           "value": "tract"
         }
       ],
-      "default": "county"
+      "default": "county",
+      "display": []
     },
     {
       "id": "region_select",
@@ -236,13 +253,15 @@
             {
               "id": "shapes",
               "type": "=",
-              "value": "county"
+              "value": "county",
+              "any": false
             }
           ],
           "value": "selected_county"
         }
       ],
-      "default": "selected_district"
+      "default": "selected_district",
+      "display": []
     },
     {
       "id": "selected_region",
@@ -252,13 +271,15 @@
             {
               "id": "selected_county",
               "type": "",
-              "value": ""
+              "value": "",
+              "any": false
             }
           ],
           "value": "selected_county"
         }
       ],
-      "default": "selected_district"
+      "default": "selected_district",
+      "display": []
     },
     {
       "id": "set_palette",
@@ -268,7 +289,8 @@
             {
               "id": "color_by_setting",
               "type": "=",
-              "value": "rank"
+              "value": "rank",
+              "any": false
             }
           ],
           "value": "lajolla"
@@ -278,13 +300,15 @@
             {
               "id": "color_by_setting",
               "type": "=",
-              "value": "quintile"
+              "value": "quintile",
+              "any": false
             }
           ],
           "value": "greens5"
         }
       ],
-      "default": "vik"
+      "default": "vik",
+      "display": []
     },
     {
       "id": "county_subset",
@@ -294,13 +318,15 @@
             {
               "id": "selected_district",
               "type": "",
-              "value": ""
+              "value": "",
+              "any": false
             }
           ],
           "value": "siblings"
         }
       ],
-      "default": "full_filter"
+      "default": "full_filter",
+      "display": []
     }
   ],
   "dataviews": {
@@ -398,7 +424,8 @@
             {
               "id": "selected_district",
               "type": "",
-              "value": ""
+              "value": "",
+              "any": false
             }
           ],
           "button": {
@@ -418,7 +445,8 @@
             {
               "id": "selected_county",
               "type": "",
-              "value": ""
+              "value": "",
+              "any": false
             }
           ],
           "text": [" > ", "selected_county"]
@@ -434,7 +462,8 @@
               {
                 "id": "default",
                 "type": "",
-                "value": ""
+                "value": "",
+                "any": false
               }
             ]
           },
@@ -444,7 +473,8 @@
               {
                 "id": "starting_shapes",
                 "type": "=",
-                "value": "tract"
+                "value": "tract",
+                "any": false
               }
             ]
           },
@@ -463,7 +493,8 @@
               {
                 "id": "starting_shapes",
                 "type": "=",
-                "value": "district"
+                "value": "district",
+                "any": false
               }
             ]
           },
@@ -473,7 +504,8 @@
               {
                 "id": "selected_district",
                 "type": "",
-                "value": ""
+                "value": "",
+                "any": false
               }
             ]
           },
@@ -483,7 +515,8 @@
               {
                 "id": "selected_county",
                 "type": "",
-                "value": ""
+                "value": "",
+                "any": false
               }
             ]
           }
@@ -640,7 +673,7 @@
     },
     "PopulationDensity": {
       "effects": {
-        "selected_variable": "population_density"
+        "selected_variable": "population_density_direct"
       }
     },
     "Segregation": {
@@ -965,7 +998,7 @@
     "bootstrap": {
       "name": "Bootstrap",
       "url": "https://getbootstrap.com",
-      "version": "5.3.1"
+      "version": "5.3.0"
     },
     "colorbrewer": {
       "name": "ColorBrewer",
@@ -1000,12 +1033,12 @@
     "datatables": {
       "name": "DataTables",
       "url": "https://datatables.net",
-      "version": "1.13.6"
+      "version": "1.13.4"
     },
     "plotly": {
       "name": "Plotly",
       "url": "https://plotly.com/javascript/getting-started",
-      "version": "2.25.2"
+      "version": "2.24.2"
     }
   },
   "endpoint": "https://vdh-data-commons.netlify.app/api",
