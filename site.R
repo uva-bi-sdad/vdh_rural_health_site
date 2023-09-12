@@ -485,18 +485,18 @@ input_variable("selected_region", list(
 ), "selected_district")
 
 input_variable("set_palette", list(
-  "color_by_setting == rank" = "lajolla",
-  "color_by_setting == quintile" = "greens5"
+  "settings.color_by_order" = "lajolla"
+  # "color_by_setting == quintile" = "greens5"
 ), "vik")
 
 input_variable("county_subset", list(
   "selected_district" = "siblings"
 ), "full_filter")
 
-input_rule("color_by_setting == value", list(settings.color_by_order = FALSE))
-input_rule("color_by_setting != value", list(settings.color_by_order = TRUE))
-input_rule("!settings.color_by_order", list(color_by_setting = "value"))
-input_rule("settings.color_by_order && color_by_setting == value", list(color_by_setting = "rank"))
+# input_rule("color_by_setting == value", list(settings.color_by_order = FALSE))
+# input_rule("color_by_setting != value", list(settings.color_by_order = TRUE))
+# input_rule("!settings.color_by_order", list(color_by_setting = "value"))
+# input_rule("settings.color_by_order && color_by_setting == value", list(color_by_setting = "rank"))
 
 ## `input_dataview` can collect multiple inputs as filters for a shared data view
 input_dataview(
@@ -677,11 +677,11 @@ page_section(
         output_legend(
           "settings.palette", dataview = "primary_view", click = "region_select",
           subto = c("main_map", "main_plot", "rank_table"), id = "main_legend"
-        ),
-        input_checkbox(
-          "Color By", c("value", "rank", "quintile"), 0,
-          id = "color_by_setting", multi = FALSE, class = "compact"
         )
+        # input_checkbox(
+        #   "Color By", c("value", "rank", "quintile"), 0,
+        #   id = "color_by_setting", multi = FALSE, class = "compact"
+        # )
       ),
       output_table("selected_variable", dataview = "primary_view", options = list(
         info = FALSE,

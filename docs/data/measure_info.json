@@ -1,44 +1,5 @@
 {
   "_references": {
-    "bii-redist": {
-      "id": "bii-redist",
-      "author": "Biocomplexity Institute and Initiative",
-      "year": 2022,
-      "title": "redistribute: An R package to redistribute data",
-      "version": "0.0.1",
-      "url": "https://github.com/uva-bi-sdad/redistribute"
-    },
-    "wan12": {
-      "id": "wan12",
-      "author": [
-        {
-          "given": "Neng",
-          "family": "Wan"
-        },
-        {
-          "given": "Bin",
-          "family": "Zou"
-        },
-        {
-          "given": "Troy",
-          "family": "Sternberg"
-        }
-      ],
-      "year": 2012,
-      "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-      "journal": "International Journal of Geographical Information Science",
-      "volume": "26",
-      "page": "1073–1089",
-      "doi": "10.1080/13658816.2011.624987"
-    },
-    "bii21": {
-      "id": "bii21",
-      "author": "Biocomplexity Institute and Initiative",
-      "year": 2021,
-      "title": "catchment: Calculate spatial access and availability metrics",
-      "version": "0.0.1",
-      "url": "https://github.com/uva-bi-sdad/catchment"
-    },
     "lou04": {
       "id": "lou04",
       "author": [
@@ -142,6 +103,45 @@
       "year": 2011,
       "title": "Census Tract Level State Maps of the Modified Retail Food Environment Index (mRFEI)",
       "url": "https://www.cdc.gov/obesity/downloads/census-tract-level-state-maps-mrfei_TAG508.pdf"
+    },
+    "wan12": {
+      "id": "wan12",
+      "author": [
+        {
+          "given": "Neng",
+          "family": "Wan"
+        },
+        {
+          "given": "Bin",
+          "family": "Zou"
+        },
+        {
+          "given": "Troy",
+          "family": "Sternberg"
+        }
+      ],
+      "year": 2012,
+      "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+      "journal": "International Journal of Geographical Information Science",
+      "volume": "26",
+      "page": "1073–1089",
+      "doi": "10.1080/13658816.2011.624987"
+    },
+    "bii21": {
+      "id": "bii21",
+      "author": "Biocomplexity Institute and Initiative",
+      "year": 2021,
+      "title": "catchment: Calculate spatial access and availability metrics",
+      "version": "0.0.1",
+      "url": "https://github.com/uva-bi-sdad/catchment"
+    },
+    "bii-redist": {
+      "id": "bii-redist",
+      "author": "Biocomplexity Institute and Initiative",
+      "year": 2022,
+      "title": "redistribute: An R package to redistribute data",
+      "version": "0.0.1",
+      "url": "https://github.com/uva-bi-sdad/redistribute"
     }
   },
   "{variant.name}_read_pass_rate": {
@@ -160,7 +160,7 @@
         "name": "Virginia Department of Education",
         "location": "Data & Reports > Statistics & Reports > SOL Test Pass Rates & Other Results",
         "location_url": "https://www.doe.virginia.gov/data-policy-funding/data-reports/statistics-reports/sol-test-pass-rates-other-results",
-        "date_accessed": 2021,
+        "date_accessed": 2023,
         "url": "https://www.doe.virginia.gov"
       }
     ],
@@ -174,8 +174,7 @@
         "statement": "On average"
       }
     },
-    "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Reading/code/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Reading/data/distribution/va_hdctsd_vdoe_2019_2021_3rd_grade_mean_median_read_score.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Reading/code/distribution/measure_info.json"
   },
   "{variant.name}{category.name}": {
     "category": "Demographics",
@@ -261,8 +260,7 @@
         "statement": "The Veteran population percent is {value} in {region_name}."
       }
     },
-    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Veteran/code/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Veteran/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_veteran_demographics.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Veteran/code/distribution/measure_info.json"
   },
   "access_care_indicator": {
     "aggregation_method": "",
@@ -288,8 +286,7 @@
     "type": "index",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/va_tr_vdh_2017_2022_access_to_care_index.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json"
   },
   "acs_postsecondary_{variant}": {
     "aggregation_method": "{variant}",
@@ -324,8 +321,7 @@
         "long_name": "Number of People"
       }
     },
-    "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Postsecondary/code/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Postsecondary/data/distribution/acs.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Postsecondary/code/distribution/measure_info.json"
   },
   "adequate": {
     "aggregation_method": "",
@@ -351,8 +347,7 @@
     "type": "integer",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Reproductive Health/Prenatal Care Adequacy/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Reproductive Health/Prenatal Care Adequacy/data/distribution/va_ct_nchs_2014_2020_kotelchuck.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Reproductive Health/Prenatal Care Adequacy/data/distribution/measure_info.json"
   },
   "adequate_pc": {
     "aggregation_method": "",
@@ -378,8 +373,7 @@
     "type": "percent",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Reproductive Health/Prenatal Care Adequacy/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Reproductive Health/Prenatal Care Adequacy/data/distribution/va_ct_nchs_2014_2020_kotelchuck.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Reproductive Health/Prenatal Care Adequacy/data/distribution/measure_info.json"
   },
   "adequateplus": {
     "aggregation_method": "",
@@ -405,8 +399,7 @@
     "type": "integer",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Reproductive Health/Prenatal Care Adequacy/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Reproductive Health/Prenatal Care Adequacy/data/distribution/va_ct_nchs_2014_2020_kotelchuck.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Reproductive Health/Prenatal Care Adequacy/data/distribution/measure_info.json"
   },
   "adequateplus_pc": {
     "aggregation_method": "",
@@ -432,8 +425,7 @@
     "type": "percent",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Reproductive Health/Prenatal Care Adequacy/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Reproductive Health/Prenatal Care Adequacy/data/distribution/va_ct_nchs_2014_2020_kotelchuck.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Reproductive Health/Prenatal Care Adequacy/data/distribution/measure_info.json"
   },
   "affordability_index": {
     "aggregation_method": "",
@@ -461,8 +453,7 @@
     "type": "",
     "unit": "percent",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.housing/blob/main/Cost/Affordability_HT/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.housing/blob/main/Cost/Affordability_HT/data/distribution/va_cttr_2015_2020_affordability_index.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.housing/blob/main/Cost/Affordability_HT/data/distribution/measure_info.json"
   },
   "affordability_indicator": {
     "aggregation_method": "",
@@ -488,8 +479,7 @@
     "type": "index",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/va_hdcttr_vdh_2017_affordability_index.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json"
   },
   "age_{variant.name}{category.name}": {
     "category": "Demographics",
@@ -615,8 +605,7 @@
         "statement": "Total count of the population is {value} in {region_name}."
       }
     },
-    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Age/code/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Age/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_age_demographics.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Age/code/distribution/measure_info.json"
   },
   "air_quality_indicator": {
     "aggregation_method": "",
@@ -642,8 +631,7 @@
     "type": "index",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/va_tr_vdh_2017_2022_air_quality_index.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json"
   },
   "alice_pct": {
     "aggregation_method": "",
@@ -669,8 +657,7 @@
     "type": "percent",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Asset Limited Income Constrained Employed (ALICE)/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Asset Limited Income Constrained Employed (ALICE)/data/distribution/va_ct_2010_2021_alice.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Asset Limited Income Constrained Employed (ALICE)/data/distribution/measure_info.json"
   },
   "average_years_schooling": {
     "aggregation_method": "",
@@ -695,8 +682,7 @@
     "statement": "{value} is the avg yrs of schooling in {features.name}.",
     "type": "average",
     "unit": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Years of Schooling/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Years of Schooling/data/distribution/ncr_tr_acs5_2017_2021_years_of_schooling.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Years of Schooling/data/distribution/measure_info.json"
   },
   "avg_down_using_devices": {
     "aggregation_method": "weighted arithmetic mean",
@@ -722,8 +708,7 @@
     "type": "internet speed",
     "unit": "Mb/s",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Accessibility/Average Download Speed/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Accessibility/Average Download Speed/data/distribution/ncr_cttrbg_ookla_download_speeds.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Accessibility/Average Download Speed/data/distribution/measure_info.json"
   },
   "avg_monthly_rate": {
     "aggregation_method": "",
@@ -749,8 +734,7 @@
     "type": "rate",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Substance Abuse/Drug Overdose ED Visits/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Substance Abuse/Drug Overdose ED Visits/data/distribution/va_hdct_vdh_2015_2021_drug_overdose_ed_visits.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Substance Abuse/Drug Overdose ED Visits/data/distribution/measure_info.json"
   },
   "avg_up_using_devices": {
     "aggregation_method": "weighted arithmetic mean",
@@ -776,8 +760,7 @@
     "type": "internet speed",
     "unit": "Mb/s",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Accessibility/Average Upload Speed/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Accessibility/Average Upload Speed/data/distribution/ncr_cttrbg_ookla_upload_speeds.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Accessibility/Average Upload Speed/data/distribution/measure_info.json"
   },
   "Child_Food_Insecurity_Rate": {
     "aggregation_method": "",
@@ -803,8 +786,7 @@
     "type": "percent",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Children's Food Insecurity/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Children's Food Insecurity/data/distribution/ncr_ct_fa_2014_2019_childrens_food_insecurity.csv.xz", "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Children's Food Insecurity/data/distribution/va_hdct_fa_2014_2019_childrens_food_insecurity.csv.xz"]
+    "source_file": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Children's Food Insecurity/data/distribution/measure_info.json"
   },
   "community_environment_indicator": {
     "aggregation_method": "",
@@ -815,10 +797,10 @@
     "equity_category": "",
     "layer": "",
     "long_description": "A measure of the natural, built and social environment of a community. It includes the air quality indicator, the population churning indicator, the population density indicator, and the walkability indicator.",
-    "long_name": "Community environmental profile",
+    "long_name": "Built Environment Profile",
     "measure_type": "index",
     "short_description": "A measure of the natural, built and social environment of a community.",
-    "short_name": "Community environmental profile",
+    "short_name": "Built Environment Profile",
     "sources": [
       {
         "name": "Virginia Department of Health",
@@ -830,8 +812,7 @@
     "type": "index",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/va_tr_vdh_2022_community_environment_profile.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json"
   },
   "consumer_opportunity_indicator": {
     "aggregation_method": "",
@@ -857,8 +838,7 @@
     "type": "index",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/va_tr_vdh_2022_consumer_opportunity_profile.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json"
   },
   "Cost_Per_Meal": {
     "aggregation_method": "",
@@ -884,8 +864,7 @@
     "type": "dollar",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Food Secure Average Meal Cost/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Food Secure Average Meal Cost/data/distribution/ncr_ct_fa_2014_2019_food_secure_avg_meal_cost.csv.xz", "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Food Secure Average Meal Cost/data/distribution/va_hdct_fa_2014_2019_food_secure_avg_meal_cost.csv.xz"]
+    "source_file": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Food Secure Average Meal Cost/data/distribution/measure_info.json"
   },
   "daycare_capacity": {
     "data_type": "integer",
@@ -910,8 +889,7 @@
     "layer": {
       "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Daycare/data/distribution/points_{time}.geojson"
     },
-    "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Daycare/code/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Daycare/data/distribution/vdss.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Daycare/code/distribution/measure_info.json"
   },
   "daycare_min_drivetime": {
     "data_type": "decimal",
@@ -941,8 +919,7 @@
     "layer": {
       "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Daycare/data/distribution/points_{time}.geojson"
     },
-    "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Daycare/code/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Daycare/data/distribution/vdss.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Daycare/code/distribution/measure_info.json"
   },
   "daycare_ratio{category}": {
     "data_type": "decimal",
@@ -1032,8 +1009,7 @@
         }
       }
     },
-    "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Daycare/code/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Daycare/data/distribution/vdss.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Daycare/code/distribution/measure_info.json"
   },
   "dent_cnt": {
     "aggregation_method": "",
@@ -1059,8 +1035,7 @@
     "type": "count",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Dentists/Service Catchment Scores/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Dentists/Service Catchment Scores/data/distribution/va_hdcttrbgca_webmd_2021_access_scores_dentists.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Dentists/Service Catchment Scores/data/distribution/measure_info.json"
   },
   "dent_e2sfca": {
     "aggregation_method": "",
@@ -1091,8 +1066,7 @@
     "type": "index",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Dentists/Service Catchment Scores/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Dentists/Service Catchment Scores/data/distribution/va_hdcttrbgca_webmd_2021_access_scores_dentists.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Dentists/Service Catchment Scores/data/distribution/measure_info.json"
   },
   "devices": {
     "aggregation_method": "arithmetic mean",
@@ -1118,8 +1092,7 @@
     "type": "count",
     "unit": "devices",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Accessibility/Number of devices/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Accessibility/Number of devices/data/distribution/ncr_hdcttrbg_2019_2021q3_speed_measurements.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Accessibility/Number of devices/data/distribution/measure_info.json"
   },
   "disconnectedYouth": {
     "category": "Demographics",
@@ -1142,8 +1115,7 @@
     "statement": "Disconnected youth account for {value} in {features.name}.",
     "type": "percent",
     "unit": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Cooperative extension/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Cooperative extension/data/distribution/va_ct_20172023_vote_youth.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Cooperative extension/data/distribution/measure_info.json"
   },
   "earnings_per_job": {
     "aggregation_method": "arithmetic mean",
@@ -1169,8 +1141,7 @@
     "type": "",
     "unit": "dollar",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Personal Income/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Personal Income/data/distribution/va_hdct_bea_2015_2020_earnings_per_job.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Personal Income/data/distribution/measure_info.json"
   },
   "economic_opportunity_indicator": {
     "aggregation_method": "",
@@ -1196,8 +1167,7 @@
     "type": "index",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/va_tr_vdh_2022_economic_opportunity_profile.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json"
   },
   "education_indicator": {
     "aggregation_method": "",
@@ -1223,8 +1193,7 @@
     "type": "index",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/va_hdcttr_vdh_2017_education_index.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json"
   },
   "emp_rate": {
     "aggregation_method": "percent",
@@ -1252,8 +1221,7 @@
     "type": "percent",
     "unit": "individual",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment/data/distribution/ncr_cttr_2015_2021_employment_rate.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment/data/distribution/measure_info.json"
   },
   "employment_access_indicator": {
     "aggregation_method": "",
@@ -1279,8 +1247,7 @@
     "type": "index",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/va_hdcttr_vdh_2017_employment_accessibility_index.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json"
   },
   "employment_access_sqmi": {
     "aggregation_method": "weighted sum",
@@ -1291,10 +1258,10 @@
     "equity_category": "Accessibility",
     "layer": "",
     "long_description": "Employment access measures the accessibility of jobs in a particular area. Poor job access can include barriers such as distance from residents and transportation availability. The index is obtained from the Housing + Transportation (H+T) Affordability Index provided by Center for Neighborhood technology. We downloaded and cleaned the dataset from their website for years 2015, 2020, and 2021. H+T calculated the index using a gravity model. The index is calculated by summing the total number of jobs divided by the square of the distance to those jobs. The index is based on jobs and distance decay function. We directly downloaded the data from their website",
-    "long_name": "Employment Access - Jobs per Sq Mi",
+    "long_name": "Employment Access Index",
     "measure_type": "",
     "short_description": "Employment access is the job accessibility at a location",
-    "short_name": "Employment Access - Jobs per Sq Mi",
+    "short_name": "Employment Access Index",
     "sources": [
       {
         "name": "Housing + Transportation Affordability Index, Center for Neighborhood Technology",
@@ -1308,8 +1275,7 @@
     "type": "",
     "unit": "job",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment Access/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment Access/data/distribution/va_cttr_2015_2019_2020_employment_access_index.csv"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment Access/data/distribution/measure_info.json"
   },
   "ems_3sfca": {
     "aggregation_method": "",
@@ -1340,8 +1306,7 @@
     "type": "index",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/EMS/Service Catchment Scores/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/EMS/Service Catchment Scores/data/distribution/va_hdcttrbgca_hifld_2021_access_scores_ems.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/EMS/Service Catchment Scores/data/distribution/measure_info.json"
   },
   "ems_cnt": {
     "aggregation_method": "",
@@ -1367,8 +1332,7 @@
     "type": "count",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/EMS/Service Catchment Scores/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/EMS/Service Catchment Scores/data/distribution/va_hdcttrbgca_hifld_2021_access_scores_ems.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/EMS/Service Catchment Scores/data/distribution/measure_info.json"
   },
   "ems_near_10_median": {
     "aggregation_method": "",
@@ -1394,8 +1358,7 @@
     "type": "drive time",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/EMS/Service Catchment Scores/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/EMS/Service Catchment Scores/data/distribution/va_hdcttrbgca_hifld_2021_access_scores_ems.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/EMS/Service Catchment Scores/data/distribution/measure_info.json"
   },
   "food_accessibility_indicator": {
     "aggregation_method": "",
@@ -1421,8 +1384,7 @@
     "type": "index",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/va_tr_vdh_2017_2022_food_accessibility_index.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json"
   },
   "fruit_treeNut_total_sales": {
     "aggregation_method": "",
@@ -1448,8 +1410,7 @@
     "type": "dollar",
     "unit": "dollar",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2017_industry_agriculture.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json"
   },
   "gender_{variant.name}{category.name}": {
     "category": "Demographics",
@@ -1559,8 +1520,7 @@
         "statement": "Total count of the population is {value} in {region_name}."
       }
     },
-    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Gender/code/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Gender/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_gender_demographics.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Gender/code/distribution/measure_info.json"
   },
   "gini_index": {
     "aggregation_method": "",
@@ -1586,8 +1546,7 @@
     "type": "",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Income Inequality/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Income Inequality/data/distribution/va_cttr_2015_2021_income_inequality_gini_index.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Income Inequality/data/distribution/measure_info.json"
   },
   "health_opportunity_indicator": {
     "aggregation_method": "",
@@ -1613,8 +1572,7 @@
     "type": "index",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/va_tr_vdh_2022_health_opportunity_profile.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json"
   },
   "hh_received_snap_cnt": {
     "aggregation_method": "",
@@ -1641,8 +1599,7 @@
     "type": "",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food and Nutrition Assistance/Supplemental Nutrition Assistance Program (SNAP)/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food and Nutrition Assistance/Supplemental Nutrition Assistance Program (SNAP)/data/distribution/va_hdcttrbg_acs_2013_2020_hh_receiving_snap.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food and Nutrition Assistance/Supplemental Nutrition Assistance Program (SNAP)/data/distribution/measure_info.json"
   },
   "hh_received_snap_pct": {
     "aggregation_method": "",
@@ -1669,8 +1626,7 @@
     "type": "",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food and Nutrition Assistance/Supplemental Nutrition Assistance Program (SNAP)/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food and Nutrition Assistance/Supplemental Nutrition Assistance Program (SNAP)/data/distribution/va_hdcttrbg_acs_2013_2020_hh_receiving_snap.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food and Nutrition Assistance/Supplemental Nutrition Assistance Program (SNAP)/data/distribution/measure_info.json"
   },
   "inadequate": {
     "aggregation_method": "",
@@ -1696,8 +1652,7 @@
     "type": "integer",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Reproductive Health/Prenatal Care Adequacy/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Reproductive Health/Prenatal Care Adequacy/data/distribution/va_ct_nchs_2014_2020_kotelchuck.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Reproductive Health/Prenatal Care Adequacy/data/distribution/measure_info.json"
   },
   "inadequate_pc": {
     "aggregation_method": "",
@@ -1723,8 +1678,7 @@
     "type": "percent",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Reproductive Health/Prenatal Care Adequacy/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Reproductive Health/Prenatal Care Adequacy/data/distribution/va_ct_nchs_2014_2020_kotelchuck.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Reproductive Health/Prenatal Care Adequacy/data/distribution/measure_info.json"
   },
   "income_inequality_indicator": {
     "aggregation_method": "",
@@ -1750,8 +1704,7 @@
     "type": "index",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/va_hdcttr_vdh_2017_income_inequality_index.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json"
   },
   "intermediate": {
     "aggregation_method": "",
@@ -1777,8 +1730,7 @@
     "type": "integer",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Reproductive Health/Prenatal Care Adequacy/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Reproductive Health/Prenatal Care Adequacy/data/distribution/va_ct_nchs_2014_2020_kotelchuck.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Reproductive Health/Prenatal Care Adequacy/data/distribution/measure_info.json"
   },
   "intermediate_pc": {
     "aggregation_method": "",
@@ -1804,8 +1756,7 @@
     "type": "percent",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Reproductive Health/Prenatal Care Adequacy/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Reproductive Health/Prenatal Care Adequacy/data/distribution/va_ct_nchs_2014_2020_kotelchuck.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Reproductive Health/Prenatal Care Adequacy/data/distribution/measure_info.json"
   },
   "job_participate_rate": {
     "aggregation_method": "percent",
@@ -1833,8 +1784,7 @@
     "type": "percent",
     "unit": "individual",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment/data/distribution/va_cttr_2015_2021_job_participate_rate.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment/data/distribution/measure_info.json"
   },
   "job_participation_indicator": {
     "aggregation_method": "",
@@ -1860,8 +1810,7 @@
     "type": "index",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/va_hdcttr_vdh_2017_job_participation_index.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json"
   },
   "language_{variant.name}{category.name}": {
     "category": "Demographics",
@@ -1947,8 +1896,7 @@
         "statement": "The percent of households with limited English is {value} in {region_name}."
       }
     },
-    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Language/code/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Language/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_language_demographics.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Language/code/distribution/measure_info.json"
   },
   "material_deprivation_indicator": {
     "aggregation_method": "",
@@ -1974,8 +1922,7 @@
     "type": "index",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Material Deprivation/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Material Deprivation/data/distribution/va_hdcttr_vdh_2017_2022_material_deprivation_index.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Material_Deprivation/data/distribution/measure_info.json"
   },
   "median_household_income": {
     "aggregation_method": "",
@@ -2002,8 +1949,7 @@
     "type": "dollar",
     "unit": "dollars",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Household Income/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Household Income/data/distribution/va_cttrbg_2015_2019_median_household_income.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Household Income/data/distribution/measure_info.json"
   },
   "mental_3sfca": {
     "aggregation_method": "",
@@ -2034,8 +1980,7 @@
     "type": "index",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Mental Health/Service Access Scores/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Mental Health/Service Access Scores/data/distribution/va_hdcttrbgca_samhsa_2021_access_scores_mental.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Mental Health/Service Access Scores/data/distribution/measure_info.json"
   },
   "mental_cnt": {
     "aggregation_method": "",
@@ -2061,8 +2006,7 @@
     "type": "count",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Mental Health/Service Access Scores/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Mental Health/Service Access Scores/data/distribution/va_hdcttrbgca_samhsa_2021_access_scores_mental.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Mental Health/Service Access Scores/data/distribution/measure_info.json"
   },
   "mental_near_10_median": {
     "aggregation_method": "",
@@ -2088,8 +2032,7 @@
     "type": "drive time",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Mental Health/Service Access Scores/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Mental Health/Service Access Scores/data/distribution/va_hdcttrbgca_samhsa_2021_access_scores_mental.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Mental Health/Service Access Scores/data/distribution/measure_info.json"
   },
   "no_hlth_ins_pct": {
     "aggregation_method": "",
@@ -2116,8 +2059,7 @@
     "type": "percent",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/System Usage and Insurance/Without Health Insurance/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/System Usage and Insurance/Without Health Insurance/data/distribution/va_hdcttr_acs5_2015_2019_no_health_insurance_19_to_64.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/System Usage and Insurance/Without Health Insurance/data/distribution/measure_info.json"
   },
   "Num_Child_Food_Insecure": {
     "aggregation_method": "",
@@ -2143,8 +2085,7 @@
     "type": "count",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Children's Food Insecurity/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Children's Food Insecurity/data/distribution/ncr_ct_fa_2014_2019_childrens_food_insecurity.csv.xz", "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Children's Food Insecurity/data/distribution/va_hdct_fa_2014_2019_childrens_food_insecurity.csv.xz"]
+    "source_file": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Children's Food Insecurity/data/distribution/measure_info.json"
   },
   "number_food_insecure": {
     "aggregation_method": "",
@@ -2170,8 +2111,7 @@
     "type": "count",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Overall Food Insecurity/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Overall Food Insecurity/data/distribution/va_hdcttr_fa_2014_2020_overall_food_insecurity.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Overall Food Insecurity/data/distribution/measure_info.json"
   },
   "obgyn_3sfca": {
     "aggregation_method": "",
@@ -2202,8 +2142,7 @@
     "type": "index",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Physicians/OB-GYN/Service Access Scores/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Physicians/OB-GYN/Service Access Scores/data/distribution/va_hdcttrbgca_webmd_2021_access_scores_obgyn.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Physicians/OB-GYN/Service Access Scores/data/distribution/measure_info.json"
   },
   "obgyn_cnt": {
     "aggregation_method": "",
@@ -2229,8 +2168,7 @@
     "type": "count",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Physicians/OB-GYN/Service Access Scores/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Physicians/OB-GYN/Service Access Scores/data/distribution/va_hdcttrbgca_webmd_2021_access_scores_obgyn.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Physicians/OB-GYN/Service Access Scores/data/distribution/measure_info.json"
   },
   "operation_farmValue": {
     "aggregation_method": "",
@@ -2256,8 +2194,7 @@
     "type": "dollar",
     "unit": "dollar",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2017_industry_agriculture.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json"
   },
   "ped_3sfca": {
     "aggregation_method": "",
@@ -2288,8 +2225,7 @@
     "type": "index",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Physicians/Pediatric/Service Access Scores/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Physicians/Pediatric/Service Access Scores/data/distribution/va_hdcttrbgca_webmd_2021_access_scores_pediatrics.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Physicians/Pediatric/Service Access Scores/data/distribution/measure_info.json"
   },
   "ped_cnt": {
     "aggregation_method": "",
@@ -2315,8 +2251,7 @@
     "type": "count",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Physicians/Pediatric/Service Access Scores/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Physicians/Pediatric/Service Access Scores/data/distribution/va_hdcttrbgca_webmd_2021_access_scores_pediatrics.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Physicians/Pediatric/Service Access Scores/data/distribution/measure_info.json"
   },
   "per_above30": {
     "aggregation_method": "",
@@ -2343,8 +2278,7 @@
     "type": "percent",
     "unit": "households",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.housing/blob/main/Cost-burdened HHs/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.housing/blob/main/Cost-burdened HHs/data/distribution/va_hdcttrbg_acs_2014_2021_cost_burdened_hhs.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.housing/blob/main/Cost-burdened HHs/data/distribution/measure_info.json"
   },
   "per_mor_above30": {
     "aggregation_method": "",
@@ -2371,8 +2305,7 @@
     "type": "percent",
     "unit": "households",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.housing/blob/main/Cost-burdened HHs/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.housing/blob/main/Cost-burdened HHs/data/distribution/va_hdcttrbg_acs_2014_2021_cost_burdened_hhs.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.housing/blob/main/Cost-burdened HHs/data/distribution/measure_info.json"
   },
   "per_rent_above30": {
     "aggregation_method": "",
@@ -2399,8 +2332,7 @@
     "type": "percent",
     "unit": "households",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.housing/blob/main/Cost-burdened HHs/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.housing/blob/main/Cost-burdened HHs/data/distribution/va_hdcttrbg_acs_2014_2021_cost_burdened_hhs.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.housing/blob/main/Cost-burdened HHs/data/distribution/measure_info.json"
   },
   "perc_children_raised_by_GPs": {
     "aggregation_method": "",
@@ -2427,8 +2359,7 @@
     "type": "percent",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Cooperative extension/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Cooperative extension/data/distribution/va_cttr_2010_2021_perc_children_raised_by_GPs.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Cooperative extension/data/distribution/measure_info.json"
   },
   "perc_hh_with_broadband": {
     "aggregation_method": "percent",
@@ -2454,8 +2385,7 @@
     "type": "percent",
     "unit": "household",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Adoption/Internet Type/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Adoption/Internet Type/data/distribution/va_hdcttrbg_acs_2017_2021_hh_internet_type.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Adoption/Internet Type/data/distribution/measure_info.json"
   },
   "perc_hh_with_cable_fiber_dsl": {
     "aggregation_method": "percent",
@@ -2481,8 +2411,7 @@
     "type": "percent",
     "unit": "household",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Adoption/Internet Type/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Adoption/Internet Type/data/distribution/va_hdcttrbg_acs_2017_2021_hh_internet_type.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Adoption/Internet Type/data/distribution/measure_info.json"
   },
   "perc_hh_without_compdev": {
     "aggregation_method": "percent",
@@ -2508,8 +2437,7 @@
     "type": "percent",
     "unit": "household",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Adoption/Computer Type/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Adoption/Computer Type/data/distribution/va_hdcttrbg_acs_2017_2021_hh_without_compdev.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Adoption/Computer Type/data/distribution/measure_info.json"
   },
   "perc_hh_without_internet": {
     "aggregation_method": "percent",
@@ -2535,8 +2463,7 @@
     "type": "percent",
     "unit": "household",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Adoption/Internet Type/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Adoption/Internet Type/data/distribution/va_hdcttrbg_acs_2017_2021_hh_internet_type.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Adoption/Internet Type/data/distribution/measure_info.json"
   },
   "perc_income_avg_nat_package": {
     "aggregation_method": "percent",
@@ -2567,8 +2494,7 @@
     "type": "percent",
     "unit": "dollar",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Affordability/Percentage of income for internet (average)/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Affordability/Percentage of income for internet (average)/data/distribution/ncr_broadbandnow_acs_sdad_2021_perc_income_on_internet.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Affordability/Percentage of income for internet (average)/data/distribution/measure_info.json"
   },
   "perc_income_min_price_100": {
     "aggregation_method": "percent",
@@ -2599,8 +2525,7 @@
     "type": "percent",
     "unit": "dollar",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Affordability/Percentage of income for fast internet/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Affordability/Percentage of income for fast internet/data/distribution/ncr_broadbandnow_acs_sdad_2021_perc_income_on_internet.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Affordability/Percentage of income for fast internet/data/distribution/measure_info.json"
   },
   "perc_income_min_price_25": {
     "aggregation_method": "percent",
@@ -2631,11 +2556,11 @@
     "type": "percent",
     "unit": "dollar",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Affordability/Percentage of income for good internet/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Affordability/Percentage of income for good internet/data/distribution/ncr_broadbandnow_acs_sdad_2021_perc_income_on_internet.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Affordability/Percentage of income for good internet/data/distribution/measure_info.json"
   },
   "perc_no_vehicle": {
     "aggregation_method": "",
+    "categories": "",
     "category": "Transportation",
     "citations": "",
     "data_type": "numeric",
@@ -2657,8 +2582,8 @@
     "statement": "{value} of households in {features.name} do not have a vehicle available at home.",
     "type": "percent",
     "unit": "percent",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.transportation/blob/main/Population Characteristics/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.transportation/blob/main/Population Characteristics/data/distribution/va_cttr_2010_2021_perc_no_car_households.csv.xz"
+    "variants": "",
+    "source_file": "https://github.com/uva-bi-sdad/sdc.transportation/blob/main/Population Characteristics/data/distribution/measure_info.json"
   },
   "perc_poor_ment_hlth_days_14_and_over": {
     "aggregation_method": "",
@@ -2684,8 +2609,7 @@
     "type": "percent",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Mental Health/Mental and Physical Healthy Days/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Mental Health/Mental and Physical Healthy Days/data/distribution/ncr_trct_sdad_2015_2019_brfss_sae.csv.xz", "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Mental Health/Mental and Physical Healthy Days/data/distribution/va_trcthd_sdad_2015_2019_brfss_sae.csv.xz"]
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Mental Health/Mental and Physical Healthy Days/data/distribution/measure_info.json"
   },
   "perc_poor_phys_hlth_days_14_and_over": {
     "aggregation_method": "",
@@ -2711,8 +2635,7 @@
     "type": "percent",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Mental Health/Mental and Physical Healthy Days/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Mental Health/Mental and Physical Healthy Days/data/distribution/ncr_trct_sdad_2015_2019_brfss_sae.csv.xz", "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Mental Health/Mental and Physical Healthy Days/data/distribution/va_trcthd_sdad_2015_2019_brfss_sae.csv.xz"]
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Mental Health/Mental and Physical Healthy Days/data/distribution/measure_info.json"
   },
   "perc_total_100_20_using_devices": {
     "aggregation_method": "percent",
@@ -2738,8 +2661,7 @@
     "type": "percent",
     "unit": "individual",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Accessibility/Percent Fast (total)/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Accessibility/Percent Fast (total)/data/distribution/ncr_hdcttrbg_2019_2021q3_percent_above_threshold.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Accessibility/Percent Fast (total)/data/distribution/measure_info.json"
   },
   "perc_total_25_3_using_devices": {
     "aggregation_method": "percent",
@@ -2765,8 +2687,7 @@
     "type": "percent",
     "unit": "individual",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Accessibility/Percent Good (total)/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Accessibility/Percent Good (total)/data/distribution/ncr_hdcttrbg_2019_2021q3_percent_above_threshold.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Accessibility/Percent Good (total)/data/distribution/measure_info.json"
   },
   "perc_w_int_100_20_using_devices": {
     "aggregation_method": "percent",
@@ -2792,8 +2713,7 @@
     "type": "percent",
     "unit": "individual",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Accessibility/Percent Fast (internet-connected)/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Accessibility/Percent Fast (internet-connected)/data/distribution/ncr_hdcttrbg_2019_2021q3_percent_above_threshold.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Accessibility/Percent Fast (internet-connected)/data/distribution/measure_info.json"
   },
   "perc_w_int_25_3_using_devices": {
     "aggregation_method": "percent",
@@ -2819,8 +2739,7 @@
     "type": "percent",
     "unit": "individual",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Accessibility/Percent Good (internet-connected)/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Accessibility/Percent Good (internet-connected)/data/distribution/ncr_hdcttrbg_2019_2021q3_percent_above_threshold.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Accessibility/Percent Good (internet-connected)/data/distribution/measure_info.json"
   },
   "percent_food_insecure": {
     "aggregation_method": "",
@@ -2846,8 +2765,7 @@
     "type": "percent",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Overall Food Insecurity/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Overall Food Insecurity/data/distribution/va_hdcttr_fa_2014_2020_overall_food_insecurity.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Overall Food Insecurity/data/distribution/measure_info.json"
   },
   "pop_churning_indicator": {
     "aggregation_method": "",
@@ -2873,8 +2791,7 @@
     "type": "index",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/va_hdcttr_vdh_2017_pop_churning_index.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json"
   },
   "population{variant}{category.name}": {
     "data_type": "decimal",
@@ -2975,8 +2892,7 @@
         "long_description": "from census block groups to parcels, based on proportional geometric overlap and weighted by number of living units per parcel, then from parcels to the local regions based on proportional geometric overlap"
       }
     },
-    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Overall/code/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Overall/data/distribution/census.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Overall/code/distribution/measure_info.json"
   },
   "poverty_pct": {
     "aggregation_method": "",
@@ -3002,8 +2918,7 @@
     "type": "percent",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Asset Limited Income Constrained Employed (ALICE)/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Asset Limited Income Constrained Employed (ALICE)/data/distribution/va_ct_2010_2021_alice.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Asset Limited Income Constrained Employed (ALICE)/data/distribution/measure_info.json"
   },
   "prevent_hosp_rate": {
     "aggregation_method": "",
@@ -3029,8 +2944,7 @@
     "type": "rate",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/System Usage and Insurance/Preventable Hospitalizations/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/System Usage and Insurance/Preventable Hospitalizations/data/distribution/va_ct_chr_2015_2021_preventable_hospitalizations.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/System Usage and Insurance/Preventable Hospitalizations/data/distribution/measure_info.json"
   },
   "primcare_3sfca": {
     "aggregation_method": "",
@@ -3061,8 +2975,7 @@
     "type": "index",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Physicians/Primary Care/Service Access Scores/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Physicians/Primary Care/Service Access Scores/data/distribution/va_hdcttrbgca_webmd_2021_access_scores_primcare.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Physicians/Primary Care/Service Access Scores/data/distribution/measure_info.json"
   },
   "primcare_cnt": {
     "aggregation_method": "",
@@ -3088,8 +3001,7 @@
     "type": "count",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Physicians/Primary Care/Service Access Scores/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Physicians/Primary Care/Service Access Scores/data/distribution/va_hdcttrbgca_webmd_2021_access_scores_primcare.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Physicians/Primary Care/Service Access Scores/data/distribution/measure_info.json"
   },
   "race_{variant.name}{category.name}": {
     "category": "Demographics",
@@ -3287,8 +3199,7 @@
         "statement": "The two or more races population percent is {value} in {region_name}."
       }
     },
-    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Race/code/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Race/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_race_demographics.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Race/code/distribution/measure_info.json"
   },
   "schoolFundAdequacy": {
     "category": "Education",
@@ -3311,8 +3222,7 @@
     "statement": "The average gap between actual and required spending per pupil is {value} in {features.name}.",
     "type": "dollar",
     "unit": "dollars",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Funding/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Funding/data/distribution/va_ct_20222023_fundingAdequacy.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Funding/data/distribution/measure_info.json"
   },
   "schools_{variant.name}_min_drivetime": {
     "data_type": "decimal",
@@ -3365,8 +3275,7 @@
         }
       }
     },
-    "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Postsecondary/code/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Postsecondary/data/distribution/nces.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Postsecondary/code/distribution/measure_info.json"
   },
   "schools_2year_{category.name}": {
     "data_type": "decimal",
@@ -3513,8 +3422,7 @@
         }
       }
     },
-    "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Postsecondary/code/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Postsecondary/data/distribution/nces.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Postsecondary/code/distribution/measure_info.json"
   },
   "schools_under2year": {
     "data_type": "decimal",
@@ -3560,8 +3468,7 @@
         "value": 3
       }
     },
-    "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Postsecondary/code/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Postsecondary/data/distribution/nces.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Postsecondary/code/distribution/measure_info.json"
   },
   "segregation_indicator": {
     "aggregation_method": "",
@@ -3587,8 +3494,7 @@
     "type": "index",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/va_hdcttr_vdh_2017_2022_segregation_index.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json"
   },
   "subs_3sfca": {
     "aggregation_method": "",
@@ -3619,8 +3525,7 @@
     "type": "index",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Drug and Rehab/Service Catchment Scores/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Drug and Rehab/Service Catchment Scores/data/distribution/va_hdcttrbgca_samhsa_2021_access_scores_substance.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Drug and Rehab/Service Catchment Scores/data/distribution/measure_info.json"
   },
   "subs_cnt": {
     "aggregation_method": "",
@@ -3646,8 +3551,7 @@
     "type": "count",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Drug and Rehab/Service Catchment Scores/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Drug and Rehab/Service Catchment Scores/data/distribution/va_hdcttrbgca_samhsa_2021_access_scores_substance.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Drug and Rehab/Service Catchment Scores/data/distribution/measure_info.json"
   },
   "subs_near_10_median": {
     "aggregation_method": "",
@@ -3673,8 +3577,7 @@
     "type": "drive time",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Drug and Rehab/Service Catchment Scores/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Drug and Rehab/Service Catchment Scores/data/distribution/va_hdcttrbgca_samhsa_2021_access_scores_substance.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Drug and Rehab/Service Catchment Scores/data/distribution/measure_info.json"
   },
   "total_acres": {
     "aggregation_method": "",
@@ -3700,8 +3603,7 @@
     "type": "count",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2017_industry_agriculture.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json"
   },
   "total_animal_expense": {
     "aggregation_method": "",
@@ -3727,8 +3629,7 @@
     "type": "dollar",
     "unit": "dollar",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2017_industry_agriculture.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json"
   },
   "total_animalProducts_sales": {
     "aggregation_method": "",
@@ -3754,8 +3655,7 @@
     "type": "dollar",
     "unit": "dollar",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2017_industry_agriculture.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json"
   },
   "total_calves_sales": {
     "aggregation_method": "",
@@ -3781,8 +3681,7 @@
     "type": "dollar",
     "unit": "dollar",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2017_industry_agriculture.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json"
   },
   "total_commodity_sales": {
     "aggregation_method": "",
@@ -3808,8 +3707,7 @@
     "type": "dollar",
     "unit": "dollar",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2017_industry_agriculture.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json"
   },
   "total_cropland_acres": {
     "aggregation_method": "",
@@ -3835,8 +3733,7 @@
     "type": "count",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2017_industry_agriculture.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json"
   },
   "total_cropland_operations": {
     "aggregation_method": "",
@@ -3862,8 +3759,7 @@
     "type": "count",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2017_industry_agriculture.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json"
   },
   "total_irrigatedCropland_acre": {
     "aggregation_method": "",
@@ -3889,8 +3785,7 @@
     "type": "count",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2017_industry_agriculture.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json"
   },
   "total_operations": {
     "aggregation_method": "",
@@ -3916,8 +3811,7 @@
     "type": "count",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2017_industry_agriculture.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json"
   },
   "vi_household": {
     "aggregation_method": "",
@@ -3943,8 +3837,7 @@
     "type": "percent",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Social Vulnerability Index/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Social Vulnerability Index/data/distribution/va_cttr_2014_2020_social_vulnerability_index.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Social Vulnerability Index/data/distribution/measure_info.json"
   },
   "vi_housing_transportation": {
     "aggregation_method": "",
@@ -3970,8 +3863,7 @@
     "type": "percent",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Social Vulnerability Index/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Social Vulnerability Index/data/distribution/va_cttr_2014_2020_social_vulnerability_index.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Social Vulnerability Index/data/distribution/measure_info.json"
   },
   "vi_overall": {
     "aggregation_method": "",
@@ -3997,8 +3889,7 @@
     "type": "percent",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Social Vulnerability Index/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Social Vulnerability Index/data/distribution/va_cttr_2014_2020_social_vulnerability_index.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Social Vulnerability Index/data/distribution/measure_info.json"
   },
   "vi_race_ethnicity": {
     "aggregation_method": "",
@@ -4024,8 +3915,7 @@
     "type": "percent",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Social Vulnerability Index/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Social Vulnerability Index/data/distribution/va_cttr_2014_2020_social_vulnerability_index.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Social Vulnerability Index/data/distribution/measure_info.json"
   },
   "vi_socioeconomic": {
     "aggregation_method": "",
@@ -4051,8 +3941,7 @@
     "type": "percent",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Social Vulnerability Index/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Social Vulnerability Index/data/distribution/va_cttr_2014_2020_social_vulnerability_index.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Social Vulnerability Index/data/distribution/measure_info.json"
   },
   "voterTurnout": {
     "category": "Demographics",
@@ -4075,8 +3964,7 @@
     "statement": "The voter turnout is {value} in {features.name}.",
     "type": "percent",
     "unit": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Cooperative extension/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Cooperative extension/data/distribution/va_ct_20172023_vote_youth.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Cooperative extension/data/distribution/measure_info.json"
   },
   "walkability_indicator": {
     "aggregation_method": "",
@@ -4102,8 +3990,7 @@
     "type": "index",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/va_hdcttr_vdh_2017_2022_walkability_index.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json"
   },
   "wellness_disparity_indicator": {
     "aggregation_method": "",
@@ -4129,7 +4016,6 @@
     "type": "index",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/va_tr_vdh_2022_wellness_disparity_profile.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json"
   }
 }
