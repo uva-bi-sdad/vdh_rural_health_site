@@ -605,6 +605,11 @@
         "selected_variable": "access_care_indicator"
       }
     },
+    "IncarcerationRate(PPI)": {
+      "effects": {
+        "selected_variable": "incarceration_rate_per_100000"
+      }
+    },
     "Populationunder20": {
       "effects": {
         "selected_variable": "perc_pop_under_20"

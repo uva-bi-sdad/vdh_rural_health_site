@@ -276,7 +276,11 @@ page_panel(
     ),
     input_button(
       "Care Access (VDH)",
-      list(selected_variable = "access_care_indicator"))),
+      list(selected_variable = "access_care_indicator")
+    ),
+    input_button(
+      "Incarceration Rate (PPI)",
+      list(selected_variable = "incarceration_rate_per_100000"))),
   ## VCE UNIT PROFILES PANEL ------------------------------------------------
   page_section(
     type = "", id = "unit_profiles",
