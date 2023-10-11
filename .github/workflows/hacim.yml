@@ -40,9 +40,9 @@ jobs:
         uses: actions/cache@v3
         with:
           path: ${{ github.workspace }}/parent/social_data_commons/repos
-          key: ${{ runner.os }}-repos
+          key: ${{ runner.os }}-repos-${{ hashFiles('${{ github.workspace }}/parent/social_data_commons/repos)'}}
           restore-keys: |
-            ${{ runner.os }}-repos
+            ${{ runner.os }}-repos-
       - run: echo "💡 The ${{ github.repository }} repository have been cloned to the runner."
       - name: Set up "data commons"
         working-directory: ${{ github.workspace }}/parent/social_data_commons
