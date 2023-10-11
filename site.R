@@ -251,7 +251,7 @@ page_panel(
       list(selected_variable = "food_accessibility_indicator")
     ),
     input_button(
-      "Population Churn",
+      "Geographic Mobility",
       list(selected_variable = "pop_churning_indicator")
     ),
     input_button(
@@ -271,7 +271,7 @@ page_panel(
       list(selected_variable = "affordability_index")
     ),
     input_button(
-      "Air Quality",
+      "Environmental Hazard",
       list(selected_variable = "air_quality_indicator")
     ),
     input_button(
