@@ -1,7 +1,5 @@
 name: build_vdh_dashboard
 on:
-  schedule:
-    - cron: '0 21 * * *' # utc
   push:
     branches:
         - main
