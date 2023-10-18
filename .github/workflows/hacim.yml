@@ -41,8 +41,10 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-renv-
       - name: Tell renv to ignore all files
+        working-directory: ${{ github.workspace }}/parent/social_data_commons
         run: |
-          echo "*" >> ${{ github.workspace }}/parent/${{ github.event.repository.name }}/.renvignore
+          echo "*" >> .renvignore
+          cat .renvignore
       - uses: r-lib/actions/setup-r@v2
       - name: Cache downloaded repositories
         uses: actions/cache@v3
