@@ -232,7 +232,7 @@ page_panel(
     ),
     input_button(
       "Employment Access",
-      list(selected_variable = "employment_access_sqmi")
+      list(selected_variable = "employment_access_index")
     ),
     input_button(
       "Income Inequality",
