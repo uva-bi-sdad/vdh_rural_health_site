@@ -643,7 +643,7 @@
     },
     "EmploymentAccess": {
       "effects": {
-        "selected_variable": "employment_access_sqmi"
+        "selected_variable": "employment_access_index"
       }
     },
     "IncomeInequality": {
