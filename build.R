@@ -5,7 +5,7 @@ site_make_child("../community_example", "../vdh_rural_health_site", include = "d
 
 # build site
 site_build(
-  "../vdh_rural_health_site", serve = TRUE,
+  "../vdh_rural_health_site", serve = TRUE, aggregate = TRUE,
   parent = "https://uva-bi-sdad.github.io/community_example/",
   endpoint = "https://vdh-data-commons.netlify.app/api",
   tag_id = "G-WSQPEF0573"
