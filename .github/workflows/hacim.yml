@@ -25,6 +25,10 @@ jobs:
         with:
           repository: uva-bi-sdad/social_data_commons
           path: 'parent/social_data_commons'
+      - uses: actions/checkout@main
+        with:
+          repository: uva-bi-sdad/community_example
+          path: 'parent/community_example'
       - name: Run tree
         run: |
           tree ..
