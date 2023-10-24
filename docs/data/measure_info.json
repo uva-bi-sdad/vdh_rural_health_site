@@ -90,6 +90,20 @@
       "volume": "Preprint",
       "doi": "10.13140/RG.2.2.12396.28807"
     },
+    "cdc11a": {
+      "id": "cdc11a",
+      "author": "Centers for Disease Control and Prevention",
+      "year": 2011,
+      "title": "Children’s Food Environment State Indicator Report",
+      "url": "https://www.cdc.gov/obesity/downloads/ChildrensFoodEnvironment.pdf"
+    },
+    "cdc11b": {
+      "id": "cdc11b",
+      "author": "Centers for Disease Control and Prevention",
+      "year": 2011,
+      "title": "Census Tract Level State Maps of the Modified Retail Food Environment Index (mRFEI)",
+      "url": "https://www.cdc.gov/obesity/downloads/census-tract-level-state-maps-mrfei_TAG508.pdf"
+    },
     "wan12": {
       "id": "wan12",
       "author": [
@@ -128,20 +142,6 @@
       "title": "redistribute: An R package to redistribute data",
       "version": "0.0.1",
       "url": "https://github.com/uva-bi-sdad/redistribute"
-    },
-    "cdc11a": {
-      "id": "cdc11a",
-      "author": "Centers for Disease Control and Prevention",
-      "year": 2011,
-      "title": "Children’s Food Environment State Indicator Report",
-      "url": "https://www.cdc.gov/obesity/downloads/ChildrensFoodEnvironment.pdf"
-    },
-    "cdc11b": {
-      "id": "cdc11b",
-      "author": "Centers for Disease Control and Prevention",
-      "year": 2011,
-      "title": "Census Tract Level State Maps of the Modified Retail Food Environment Index (mRFEI)",
-      "url": "https://www.cdc.gov/obesity/downloads/census-tract-level-state-maps-mrfei_TAG508.pdf"
     }
   },
   "{variant.name}_read_pass_rate": {
@@ -443,7 +443,7 @@
     "data_type": "numeric",
     "equity_category": "Affordability",
     "layer": "",
-    "long_description": "The Affordability index is developed to measure the proportion of income spent on housing and transportation.The index of affordability is calculated by combining housing and transportation costs in a neighborhood and dividing that number by income.We extracted the affordability index by using H+T index.H+T index have three different affordability index to account for different households like Regional Typical Household, Regional Moderate Household and National Typical Household",
+    "long_description": "The Affordability index is developed to measure the proportion of income spent on housing and transportation. The affordability index is obtained from the Housing + Transportation (H+T) Affordability Index data provided by Center for Neighborhood Technology (CNT). The index of affordability is calculated by combining housing and transportation costs in a neighborhood and dividing that number by income . H+T index provides three different affordability index to account for different households like Regional Typical Household, Regional Moderate Household and National Typical Household. In our analysis, we focused on the Regional Typical Household. \n We downloaded and cleaned the dataset from the CNT H+T index website for years 2015, 2019, and 2020.  To fill in the missing data for the years 2016-2018, we performed interpolation using the available data points from 2015 and 2019. Additionally, for the year 2021, we estimated employment access values by multiplying the rate of change observed from 2019 to 2020 by the values for the year 2020. Employment access data is available at the tract, county and health district level for the state of Virginia.",
     "long_name": "Affordability index",
     "measure_type": "",
     "short_description": "Affordability index is developed to measure the proportion of income spent on housing and transportation",
@@ -462,7 +462,7 @@
     "unit": "percent",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.housing/blob/main/Cost/Affordability_HT/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.housing/blob/main/Cost/Affordability_HT/data/distribution/va_cttr_2015_2020_affordability_index.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.housing/blob/main/Cost/Affordability_HT/data/distribution/va_hdcttr_2015_2021_affordability_index.csv.xz"
   },
   "affordability_indicator": {
     "aggregation_method": "",
@@ -661,6 +661,8 @@
     "sources": [
       {
         "date_accessed": 2023,
+        "location": "",
+        "location_url": "",
         "name": "United for Alice",
         "url": "https://www.unitedforalice.org/"
       }
@@ -696,7 +698,7 @@
     "type": "average",
     "unit": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Years of Schooling/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Years of Schooling/data/distribution/ncr_tr_acs5_2017_2021_years_of_schooling.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Years of Schooling/data/distribution/va_tr_acs5_2017_2021_years_of_schooling.csv.xz"
   },
   "avg_down_using_devices": {
     "aggregation_method": "weighted arithmetic mean",
@@ -713,8 +715,10 @@
     "short_name": "Average Download Speed",
     "sources": [
       {
-        "name": "Ookla",
         "date_accessed": 2021,
+        "location": "",
+        "location_url": "",
+        "name": "Ookla",
         "url": "https://www.ookla.com/ookla-for-good/open-data"
       }
     ],
@@ -767,8 +771,10 @@
     "short_name": "Average Upload Speed",
     "sources": [
       {
-        "name": "Ookla",
         "date_accessed": 2021,
+        "location": "",
+        "location_url": "",
+        "name": "Ookla",
         "url": "https://www.ookla.com/ookla-for-good/open-data"
       }
     ],
@@ -794,8 +800,10 @@
     "short_name": "Percentage of food insecure children",
     "sources": [
       {
-        "name": "Feeding America",
         "date_accessed": "2021",
+        "location": "",
+        "location_url": "",
+        "name": "Feeding America",
         "url": "https://www.feedingamerica.org/"
       }
     ],
@@ -804,7 +812,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Children's Food Insecurity/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Children's Food Insecurity/data/distribution/ncr_ct_fa_2014_2019_childrens_food_insecurity.csv.xz", "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Children's Food Insecurity/data/distribution/va_hdct_fa_2014_2019_childrens_food_insecurity.csv.xz"]
+    "origin": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Children's Food Insecurity/data/distribution/va_hdct_fa_2014_2019_childrens_food_insecurity.csv.xz"
   },
   "community_environment_indicator": {
     "aggregation_method": "",
@@ -875,8 +883,10 @@
     "short_name": "Average meal cost ($)",
     "sources": [
       {
-        "name": "Feeding America",
         "date_accessed": "2021",
+        "location": "",
+        "location_url": "",
+        "name": "Feeding America",
         "url": "https://www.feedingamerica.org/"
       }
     ],
@@ -885,7 +895,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Food Secure Average Meal Cost/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Food Secure Average Meal Cost/data/distribution/ncr_ct_fa_2014_2019_food_secure_avg_meal_cost.csv.xz", "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Food Secure Average Meal Cost/data/distribution/va_hdct_fa_2014_2019_food_secure_avg_meal_cost.csv.xz"]
+    "origin": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Food Secure Average Meal Cost/data/distribution/va_hdct_fa_2014_2019_food_secure_avg_meal_cost.csv.xz"
   },
   "daycare_capacity": {
     "data_type": "integer",
@@ -1109,8 +1119,10 @@
     "short_name": "Number of devices",
     "sources": [
       {
-        "name": "Ookla",
         "date_accessed": 2021,
+        "location": "",
+        "location_url": "",
+        "name": "Ookla",
         "url": "https://www.ookla.com/ookla-for-good/open-data"
       }
     ],
@@ -1160,8 +1172,10 @@
     "short_name": "Earnings per job",
     "sources": [
       {
-        "name": "Bureau of Economic Analysis",
         "date_accessed": "2021",
+        "location": "",
+        "location_url": "",
+        "name": "Bureau of Economic Analysis",
         "url": "https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=1&acrdn=6"
       }
     ],
@@ -1253,7 +1267,7 @@
     "unit": "individual",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment/data/distribution/ncr_cttr_2015_2021_employment_rate.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment/data/distribution/va_cttr_2015_2021_employment_rate.csv.xz"
   },
   "employment_access_indicator": {
     "aggregation_method": "",
@@ -1290,7 +1304,7 @@
     "data_type": "numeric",
     "equity_category": "Accessibility",
     "layer": "",
-    "long_description": "Employment access measures the accessibility of jobs in a particular area. Poor job access can include barriers such as distance from residents and transportation availability. The employment access index is obtained from the Housing + Transportation (H+T) Affordability Index data provided by Center for Neighborhood Technology (CNT).  H+T calculated the index using a gravity model. The index is calculated by summing the total number of jobs divided by the square of the distance to those jobs. The index is based on jobs and distance decay function. We downloaded and cleaned the dataset from the CNT H+T index website for years 2015, 2019, and 2020.",
+    "long_description": "Employment access measures the accessibility of jobs in a particular area. Poor job access can include barriers such as distance from residents and transportation availability. The employment access index is obtained from the Housing + Transportation (H+T) Affordability Index data provided by Center for Neighborhood Technology (CNT).  H+T calculated the index using a gravity model. The index is calculated by summing the total number of jobs divided by the square of the distance to those jobs. The index is based on jobs and distance decay function. \n We downloaded and cleaned the dataset from the CNT H+T index website for years 2015, 2019, and 2020. To fill in the missing data for the years 2016-2018, we performed interpolation using the available data points from 2015 and 2019. Additionally, for the year 2021, we estimated employment access values by multiplying the rate of change observed from 2019 to 2020 by the values for the year 2020. Employment access data is available at the tract, county and health district level for the state of Virginia.",
     "long_name": "Employment Access Index",
     "measure_type": "",
     "short_description": "Employment access is the job accessibility at a location",
@@ -1308,8 +1322,7 @@
     "type": "",
     "unit": "job",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment Access/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment Access/data/distribution/va_cttr_2015_2019_2020_employment_access_index.csv"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment Access/data/distribution/measure_info.json"
   },
   "ems_3sfca": {
     "aggregation_method": "",
@@ -1439,8 +1452,10 @@
     "short_name": "Total sales of fruits and treenuts",
     "sources": [
       {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
         "date_accessed": 2023,
+        "location": "",
+        "location_url": "",
+        "name": "Department of Agriculture National Agriculture Statistics Service",
         "url": "https://www.nass.usda.gov/"
       }
     ],
@@ -1577,9 +1592,11 @@
     "short_name": "Income Inequality (Gini Index)",
     "sources": [
       {
-        "name": "U.S. Census American Community Survey",
+        "date_accessed": "2023",
         "location": "Table B19083",
-        "date_accessed": "2023"
+        "location_url": "",
+        "name": "U.S. Census American Community Survey",
+        "url": ""
       }
     ],
     "statement": "Income Inequality (Gini Index) in {features.name} is {value}.",
@@ -1632,8 +1649,9 @@
     "sources": [
       {
         "date_accessed": 2022,
-        "name": "American Community Survey (ACS)",
         "location": "Table B22010",
+        "location_url": "",
+        "name": "American Community Survey (ACS)",
         "url": "https://www.census.gov/programs-surveys/acs.html"
       }
     ],
@@ -1660,8 +1678,9 @@
     "sources": [
       {
         "date_accessed": 2022,
-        "name": "American Community Survey (ACS)",
         "location": "Table B22010",
+        "location_url": "",
+        "name": "American Community Survey (ACS)",
         "url": "https://www.census.gov/programs-surveys/acs.html"
       }
     ],
@@ -1831,35 +1850,6 @@
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Reproductive Health/Prenatal Care Adequacy/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Reproductive Health/Prenatal Care Adequacy/data/distribution/va_ct_nchs_2014_2020_kotelchuck.csv.xz"
   },
-  "job_participate_rate": {
-    "aggregation_method": "percent",
-    "categories": "",
-    "category": "Employment/Workforce Development",
-    "citations": "",
-    "data_type": "decimal",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "The percentage of individuals 16-64 years of age in the active labor force. The job particpation rate is often used by economists as an indicator of economic development and growth.",
-    "long_name": "Job Participation Percentage",
-    "measure_type": "",
-    "short_description": "The percentage of individuals 16-64 years of age in the active labor force.",
-    "short_name": "Job Participation Percentage",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "location": "5-Year estimates, table B23025, via the API",
-        "location_url": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
-        "date_accessed": "2023",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "{value} of the population in {region_name} is participating in the civilian job force.",
-    "type": "percent",
-    "unit": "individual",
-    "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment/data/distribution/va_cttr_2015_2021_job_participate_rate.csv.xz"
-  },
   "job_participation_indicator": {
     "aggregation_method": "",
     "categories": "",
@@ -1989,8 +1979,10 @@
     "short_name": "Material deprivation indicator",
     "sources": [
       {
-        "name": "Virginia Department of Health",
         "date_accessed": 2023,
+        "location": "",
+        "location_url": "",
+        "name": "Virginia Department of Health",
         "url": "https://apps.vdh.virginia.gov/omhhe/hoi/"
       }
     ],
@@ -2017,8 +2009,9 @@
     "sources": [
       {
         "date_accessed": 2022,
-        "name": "American Community Survey",
         "location": "Table B19013",
+        "location_url": "",
+        "name": "American Community Survey",
         "url": "https://www.census.gov/programs-surveys/acs"
       }
     ],
@@ -2158,8 +2151,10 @@
     "short_name": "Food insecure children (count)",
     "sources": [
       {
-        "name": "Feeding America",
         "date_accessed": "2021",
+        "location": "",
+        "location_url": "",
+        "name": "Feeding America",
         "url": "https://www.feedingamerica.org/"
       }
     ],
@@ -2168,7 +2163,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Children's Food Insecurity/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Children's Food Insecurity/data/distribution/ncr_ct_fa_2014_2019_childrens_food_insecurity.csv.xz", "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Children's Food Insecurity/data/distribution/va_hdct_fa_2014_2019_childrens_food_insecurity.csv.xz"]
+    "origin": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Children's Food Insecurity/data/distribution/va_hdct_fa_2014_2019_childrens_food_insecurity.csv.xz"
   },
   "number_food_insecure": {
     "aggregation_method": "",
@@ -2186,6 +2181,8 @@
     "sources": [
       {
         "date_accessed": 2022,
+        "location": "",
+        "location_url": "",
         "name": "Feeding America",
         "url": "https://map.feedingamerica.org/"
       }
@@ -2271,8 +2268,10 @@
     "short_name": "Total sales of calves",
     "sources": [
       {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
         "date_accessed": 2023,
+        "location": "",
+        "location_url": "",
+        "name": "Department of Agriculture National Agriculture Statistics Service",
         "url": "https://www.nass.usda.gov/"
       }
     ],
@@ -2358,8 +2357,9 @@
     "sources": [
       {
         "date_accessed": 2022,
-        "name": "American Community Survey (ACS)",
         "location": "Table B25074 and B25101",
+        "location_url": "",
+        "name": "American Community Survey (ACS)",
         "url": "https://www.census.gov/programs-surveys/acs.html"
       }
     ],
@@ -2386,8 +2386,9 @@
     "sources": [
       {
         "date_accessed": 2022,
-        "name": "American Community Survey (ACS)",
         "location": "Table B25101",
+        "location_url": "",
+        "name": "American Community Survey (ACS)",
         "url": "https://www.census.gov/programs-surveys/acs.html"
       }
     ],
@@ -2414,8 +2415,9 @@
     "sources": [
       {
         "date_accessed": 2022,
-        "name": "American Community Survey (ACS)",
         "location": "Table B25074",
+        "location_url": "",
+        "name": "American Community Survey (ACS)",
         "url": "https://www.census.gov/programs-surveys/acs.html"
       }
     ],
@@ -2469,8 +2471,10 @@
     "short_name": "Households with broadband",
     "sources": [
       {
-        "name": "American Community Survey Table B28002",
         "date_accessed": 2021,
+        "location": "",
+        "location_url": "",
+        "name": "American Community Survey Table B28002",
         "url": "https://www.census.gov/programs-surveys/acs.html"
       }
     ],
@@ -2496,8 +2500,10 @@
     "short_name": "Households with cable, fiber optic, or DSL",
     "sources": [
       {
-        "name": "American Community Survey Table B28002",
         "date_accessed": 2021,
+        "location": "",
+        "location_url": "",
+        "name": "American Community Survey Table B28002",
         "url": "https://www.census.gov/programs-surveys/acs.html"
       }
     ],
@@ -2523,8 +2529,10 @@
     "short_name": "Households without a computer",
     "sources": [
       {
-        "name": "American Community Survey Table B28001",
         "date_accessed": 2023,
+        "location": "",
+        "location_url": "",
+        "name": "American Community Survey Table B28001",
         "url": "https://www.census.gov/programs-surveys/acs.html"
       }
     ],
@@ -2550,8 +2558,10 @@
     "short_name": "Households without internet access",
     "sources": [
       {
-        "name": "American Community Survey Table B28002",
         "date_accessed": 2021,
+        "location": "",
+        "location_url": "",
+        "name": "American Community Survey Table B28002",
         "url": "https://www.census.gov/programs-surveys/acs.html"
       }
     ],
@@ -2577,13 +2587,17 @@
     "short_name": "Percentage of income for internet (average)",
     "sources": [
       {
-        "name": "American Community Survey",
         "date_accessed": 2021,
+        "location": "",
+        "location_url": "",
+        "name": "American Community Survey",
         "url": "https://www.census.gov/programs-surveys/acs.html"
       },
       {
-        "name": "Broadband Now",
         "date_accessed": 2021,
+        "location": "",
+        "location_url": "",
+        "name": "Broadband Now",
         "url": "https://broadbandnow.com/"
       }
     ],
@@ -2609,13 +2623,17 @@
     "short_name": "Percentage of income for fast internet",
     "sources": [
       {
-        "name": "American Community Survey",
         "date_accessed": 2021,
+        "location": "",
+        "location_url": "",
+        "name": "American Community Survey",
         "url": "https://www.census.gov/programs-surveys/acs.html"
       },
       {
-        "name": "Broadband Now",
         "date_accessed": 2021,
+        "location": "",
+        "location_url": "",
+        "name": "Broadband Now",
         "url": "https://broadbandnow.com/"
       }
     ],
@@ -2641,13 +2659,17 @@
     "short_name": "Percentage of income for good internet",
     "sources": [
       {
-        "name": "American Community Survey",
         "date_accessed": 2021,
+        "location": "",
+        "location_url": "",
+        "name": "American Community Survey",
         "url": "https://www.census.gov/programs-surveys/acs.html"
       },
       {
-        "name": "Broadband Now",
         "date_accessed": 2021,
+        "location": "",
+        "location_url": "",
+        "name": "Broadband Now",
         "url": "https://broadbandnow.com/"
       }
     ],
@@ -2711,7 +2733,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Mental Health/Mental and Physical Healthy Days/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Mental Health/Mental and Physical Healthy Days/data/distribution/ncr_trct_sdad_2015_2019_brfss_sae.csv.xz", "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Mental Health/Mental and Physical Healthy Days/data/distribution/va_trcthd_sdad_2015_2019_brfss_sae.csv.xz"]
+    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Mental Health/Mental and Physical Healthy Days/data/distribution/va_trcthd_sdad_2015_2019_brfss_sae.csv.xz"
   },
   "perc_poor_phys_hlth_days_14_and_over": {
     "aggregation_method": "",
@@ -2738,7 +2760,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Mental Health/Mental and Physical Healthy Days/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Mental Health/Mental and Physical Healthy Days/data/distribution/ncr_trct_sdad_2015_2019_brfss_sae.csv.xz", "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Mental Health/Mental and Physical Healthy Days/data/distribution/va_trcthd_sdad_2015_2019_brfss_sae.csv.xz"]
+    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Mental Health/Mental and Physical Healthy Days/data/distribution/va_trcthd_sdad_2015_2019_brfss_sae.csv.xz"
   },
   "perc_total_100_20_using_devices": {
     "aggregation_method": "percent",
@@ -2755,8 +2777,10 @@
     "short_name": "Percent Fast (total)",
     "sources": [
       {
-        "name": "Ookla",
         "date_accessed": 2021,
+        "location": "",
+        "location_url": "",
+        "name": "Ookla",
         "url": "https://www.ookla.com/ookla-for-good/open-data"
       }
     ],
@@ -2782,8 +2806,10 @@
     "short_name": "Percent Good (total)",
     "sources": [
       {
-        "name": "Ookla",
         "date_accessed": 2021,
+        "location": "",
+        "location_url": "",
+        "name": "Ookla",
         "url": "https://www.ookla.com/ookla-for-good/open-data"
       }
     ],
@@ -2809,8 +2835,10 @@
     "short_name": "Percent Fast (internet-connected)",
     "sources": [
       {
-        "name": "Ookla",
         "date_accessed": 2021,
+        "location": "",
+        "location_url": "",
+        "name": "Ookla",
         "url": "https://www.ookla.com/ookla-for-good/open-data"
       }
     ],
@@ -2836,8 +2864,10 @@
     "short_name": "Percent Good (internet-connected)",
     "sources": [
       {
-        "name": "Ookla",
         "date_accessed": 2021,
+        "location": "",
+        "location_url": "",
+        "name": "Ookla",
         "url": "https://www.ookla.com/ookla-for-good/open-data"
       }
     ],
@@ -2864,6 +2894,8 @@
     "sources": [
       {
         "date_accessed": 2022,
+        "location": "",
+        "location_url": "",
         "name": "Feeding America",
         "url": "https://map.feedingamerica.org/"
       }
@@ -3020,6 +3052,8 @@
     "sources": [
       {
         "date_accessed": 2023,
+        "location": "",
+        "location_url": "",
         "name": "United for Alice",
         "url": "https://www.unitedforalice.org/"
       }
@@ -3717,8 +3751,10 @@
     "short_name": "Total acres in agriculture",
     "sources": [
       {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
         "date_accessed": 2023,
+        "location": "",
+        "location_url": "",
+        "name": "Department of Agriculture National Agriculture Statistics Service",
         "url": "https://www.nass.usda.gov/"
       }
     ],
@@ -3744,8 +3780,10 @@
     "short_name": "Total expenses towards animal industry",
     "sources": [
       {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
         "date_accessed": 2023,
+        "location": "",
+        "location_url": "",
+        "name": "Department of Agriculture National Agriculture Statistics Service",
         "url": "https://www.nass.usda.gov/"
       }
     ],
@@ -3771,8 +3809,10 @@
     "short_name": "Total sales of animal products",
     "sources": [
       {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
         "date_accessed": 2023,
+        "location": "",
+        "location_url": "",
+        "name": "Department of Agriculture National Agriculture Statistics Service",
         "url": "https://www.nass.usda.gov/"
       }
     ],
@@ -3798,8 +3838,10 @@
     "short_name": "Total sales of calves",
     "sources": [
       {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
         "date_accessed": 2023,
+        "location": "",
+        "location_url": "",
+        "name": "Department of Agriculture National Agriculture Statistics Service",
         "url": "https://www.nass.usda.gov/"
       }
     ],
@@ -3825,8 +3867,10 @@
     "short_name": "Total sales of commodities",
     "sources": [
       {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
         "date_accessed": 2023,
+        "location": "",
+        "location_url": "",
+        "name": "Department of Agriculture National Agriculture Statistics Service",
         "url": "https://www.nass.usda.gov/"
       }
     ],
@@ -3852,8 +3896,10 @@
     "short_name": "Total acreage for cropland",
     "sources": [
       {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
         "date_accessed": 2023,
+        "location": "",
+        "location_url": "",
+        "name": "Department of Agriculture National Agriculture Statistics Service",
         "url": "https://www.nass.usda.gov/"
       }
     ],
@@ -3879,8 +3925,10 @@
     "short_name": "Number of operations with cropland",
     "sources": [
       {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
         "date_accessed": 2023,
+        "location": "",
+        "location_url": "",
+        "name": "Department of Agriculture National Agriculture Statistics Service",
         "url": "https://www.nass.usda.gov/"
       }
     ],
@@ -3906,8 +3954,10 @@
     "short_name": "Total acreage for irrigated cropland",
     "sources": [
       {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
         "date_accessed": 2023,
+        "location": "",
+        "location_url": "",
+        "name": "Department of Agriculture National Agriculture Statistics Service",
         "url": "https://www.nass.usda.gov/"
       }
     ],
@@ -3933,8 +3983,10 @@
     "short_name": "Total operations in agriculture",
     "sources": [
       {
-        "name": "Department of Agriculture National Agriculture Statistics Service",
         "date_accessed": 2023,
+        "location": "",
+        "location_url": "",
+        "name": "Department of Agriculture National Agriculture Statistics Service",
         "url": "https://www.nass.usda.gov/"
       }
     ],

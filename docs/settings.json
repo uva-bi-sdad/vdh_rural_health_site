@@ -889,7 +889,7 @@
       },
       "tiles": {
         "light": {
-          "url": "https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.png"
+          "url": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
         },
         "dark": {
           "url": "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
@@ -907,7 +907,7 @@
     "bootstrap": {
       "name": "Bootstrap",
       "url": "https://getbootstrap.com",
-      "version": "5.3.2"
+      "version": "5.3.1"
     },
     "colorbrewer": {
       "name": "ColorBrewer",
@@ -947,7 +947,7 @@
     "plotly": {
       "name": "Plotly",
       "url": "https://plotly.com/javascript/getting-started",
-      "version": "2.26.0"
+      "version": "2.25.2"
     }
   },
   "endpoint": "https://vdh-data-commons.netlify.app/api",
