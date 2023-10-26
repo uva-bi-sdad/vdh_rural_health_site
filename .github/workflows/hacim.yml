@@ -1,13 +1,23 @@
 name: build_vdh_dashboard
 on:
+  # schedule:
+  #   - cron: '0 21 * * 2,5' # Run on Tuesday and Friday 9pm UTC (5pm EST)
   push:
     branches:
         - main
   pull_request:
     branches:
         - main
+
+# Cacnel previous runs if a new push is sent
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+  
 jobs:
   generate-dashboard:
+    # Don't run if a pull request but not closed
+    if: github.event_name == 'schedule' || ((github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged == 'true') || github.event_name == 'push')
     runs-on: ubuntu-latest
     permissions:
       id-token: write
@@ -25,10 +35,6 @@ jobs:
         with:
           repository: uva-bi-sdad/social_data_commons
           path: 'parent/social_data_commons'
-      - uses: actions/checkout@main
-        with:
-          repository: uva-bi-sdad/community_example
-          path: 'parent/community_example'
       - name: Run tree
         run: |
           tree ..
@@ -44,9 +50,9 @@ jobs:
         uses: actions/cache@v3
         with:
           path: ${{ github.workspace }}/parent/social_data_commons/repos
-          key: ${{ runner.os }}-repos-${{ hashFiles('**/parent/social_data_commons/repos') }}
+          key: ${{ runner.os }}-repos
           restore-keys: |
-            ${{ runner.os }}-repos-
+            ${{ runner.os }}-repos
       - run: echo "💡 The ${{ github.repository }} repository have been cloned to the runner."
       - name: Set up "data commons"
         working-directory: ${{ github.workspace }}/parent/social_data_commons
@@ -58,6 +64,10 @@ jobs:
           install.packages('remotes')
           remotes::install_github('uva-bi-sdad/community')
           source("build.R")
+          datacommons_view(
+            "../social_data_commons", "${{ github.event.repository.name }}",
+            metadata = entities, entity_info = NULL
+          )
           renv::snapshot()
       - name: build ${{ github.event.repository.name }}
         working-directory: ${{ github.workspace }}/parent/${{ github.event.repository.name }}
@@ -73,7 +83,7 @@ jobs:
       - name: List files
         run: |
           ls -la
-      - name: Commit files # Commit changes
+      - name: Commit files # Commit changes. You need to do this so child sites work...
         working-directory: parent/${{ github.event.repository.name }}
         run: |
           ls -la
