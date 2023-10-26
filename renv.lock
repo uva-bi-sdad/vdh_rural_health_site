@@ -207,7 +207,11 @@
     },
     "httpuv": {
       "Package": "httpuv",
+<<<<<<< HEAD
       "Version": "1.6.11",
+=======
+      "Version": "1.6.12",
+>>>>>>> ae04b738c7f88679aa0f548c6cdafa7cb334e95d
       "Source": "Repository",
       "Repository": "RSPM",
       "Requirements": [
@@ -218,7 +222,11 @@
         "promises",
         "utils"
       ],
+<<<<<<< HEAD
       "Hash": "838602f54e32c1a0f8cc80708cefcefa"
+=======
+      "Hash": "c992f75861325961c29a188b45e549f7"
+>>>>>>> ae04b738c7f88679aa0f548c6cdafa7cb334e95d
     },
     "jsonlite": {
       "Package": "jsonlite",
