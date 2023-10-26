@@ -1,6 +1,8 @@
 [build]
-  functions = 'docs/functions'
+  publish = 'docs'
 [[redirects]]
   from = '/api'
   to = '/.netlify/functions/api'
   status = 200
+[functions]
+  directory = 'docs/functions'

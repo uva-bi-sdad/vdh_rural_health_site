@@ -14,17 +14,13 @@
   --highlight: #173a64;
 }
 
-.output-text {
-  margin: 0;
-}
-
-.panel {
-  width: 261px;
-}
-
-.panel .select-wrapper {
-  font-size: 0.9em;
-  font-weight: normal;
+#variable_info_pane .info-title {
   text-align: left;
-  margin: 0 0 1em 0;
+}
+.info-body table {
+  margin: 0.2em 0 0.5em 0;
+}
+
+.output-text{
+	margin: 0;
 }

@@ -26,7 +26,7 @@
     "show_empty_times": false
   },
   "metadata": {
-    "url": "https://uva-bi-sdad.github.io/community_example/",
+    "url": "",
     "package": "data/datapackage.json",
     "datasets": ["tract", "county", "district"],
     "files": ["tract.csv.xz", "county.csv.xz", "health_district.csv.xz"]
@@ -540,14 +540,14 @@
         "selected_variable": "wellness_disparity_indicator"
       }
     },
-    "JobParticipation": {
+    "LaborForceParticipationRate": {
       "effects": {
-        "selected_variable": "job_participate_rate"
+        "selected_variable": "labor_participate_rate"
       }
     },
     "EmploymentAccess": {
       "effects": {
-        "selected_variable": "employment_access_sqmi"
+        "selected_variable": "employment_access_index"
       }
     },
     "IncomeInequality": {
@@ -570,9 +570,9 @@
         "selected_variable": "food_accessibility_indicator"
       }
     },
-    "PopulationChurn": {
+    "GeographicMobility": {
       "effects": {
-        "selected_variable": "pop_churning_indicator"
+        "selected_variable": "perc_moving"
       }
     },
     "PopulationDensity": {
@@ -612,62 +612,62 @@
     },
     "Populationunder20": {
       "effects": {
-        "selected_variable": "perc_pop_under_20"
+        "selected_variable": "age_under_20_percent_direct"
       }
     },
     "Populationbetween20and64": {
       "effects": {
-        "selected_variable": "perc_pop_20_64"
+        "selected_variable": "age_20_64_percent_direct"
       }
     },
     "Populationover65": {
       "effects": {
-        "selected_variable": "perc_pop_65_plus"
+        "selected_variable": "age_65_plus_percent_direct"
       }
     },
     "MalePopulation": {
       "effects": {
-        "selected_variable": "perc_male"
+        "selected_variable": "gender_male_percent_direct"
       }
     },
     "FemalePopulation": {
       "effects": {
-        "selected_variable": "perc_female"
+        "selected_variable": "gender_female_percent_direct"
       }
     },
     "WhitePopulation": {
       "effects": {
-        "selected_variable": "perc_wht_alone"
+        "selected_variable": "race_wht_alone_percent_direct"
       }
     },
     "BlackorAfricanAmericanPopulation": {
       "effects": {
-        "selected_variable": "perc_afr_amer_alone"
+        "selected_variable": "race_afr_amer_alone_percent_direct"
       }
     },
     "AmericanIndianPopulation": {
       "effects": {
-        "selected_variable": "perc_native_alone"
+        "selected_variable": "race_native_alone_percent_direct"
       }
     },
     "Asian/PacificIslanderPopulation": {
       "effects": {
-        "selected_variable": "perc_AAPI"
+        "selected_variable": "race_AAPI_percent_direct"
       }
     },
     "OtherRacePopulation": {
       "effects": {
-        "selected_variable": "perc_other"
+        "selected_variable": "race_other_percent_direct"
       }
     },
     "TwoorMoreRacesPopulation": {
       "effects": {
-        "selected_variable": "perc_two_or_more"
+        "selected_variable": "race_two_or_more_percent_direct"
       }
     },
     "HispanicPopulation": {
       "effects": {
-        "selected_variable": "perc_hispanic_or_latino"
+        "selected_variable": "race_hispanic_or_latino_percent_direct"
       }
     },
     "MedianHouseholdIncome": {
@@ -889,7 +889,7 @@
       },
       "tiles": {
         "light": {
-          "url": "https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.png"
+          "url": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
         },
         "dark": {
           "url": "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
@@ -907,7 +907,7 @@
     "bootstrap": {
       "name": "Bootstrap",
       "url": "https://getbootstrap.com",
-      "version": "5.3.2"
+      "version": "5.3.1"
     },
     "colorbrewer": {
       "name": "ColorBrewer",
@@ -947,10 +947,9 @@
     "plotly": {
       "name": "Plotly",
       "url": "https://plotly.com/javascript/getting-started",
-      "version": "2.26.0"
+      "version": "2.25.2"
     }
   },
   "endpoint": "https://vdh-data-commons.netlify.app/api",
-  "tag_id": "G-WSQPEF0573",
   "aggregated": true
 }

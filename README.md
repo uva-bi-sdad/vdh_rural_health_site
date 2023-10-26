@@ -1,16 +1,28 @@
-# VDH Rural Health Data Commons
+# Community Example
 
-This is a child site of [community_example](https://github.com/uva-bi-sdad/community_example), generated with this:
+This site was generated from the [Social Data Commons](https://github.com/uva-bi-sdad/social_data_commons)'s
+[community_example](https://github.com/uva-bi-sdad/social_data_commons/blob/main/views/community_example/view.json) view
+
+To recompile from source repositories, clone that repository, and run this (assuming this repository is in the same directory):
+
 ```R
+# remotes::install_github("uva-bi-sdad/community")
 library(community)
 
-# make copy (could be "uva-bi-sdad/community_example" to get from repo)
-site_make_child("../community_example", "../vdh_rural_health_site", include = "docs/data/measure_info.json")
+# clone/pull the data repositories
+datacommons_refresh("../social_data_commons")
 
-# build site
-vars <- jsonlite::read_json('../vdh_rural_health_site/docs/data/measure_info.json')
+# rebuild the view
+datacommons_view(
+  "../social_data_commons", "community_example", entity_info = NULL, prefer_repo = TRUE
+)
+```
+
+To run the site locally, run this:
+
+```R
 site_build(
-  '../vdh_rural_health_site', variables = names(vars), version = "dev",
-  parent = "https://uva-bi-sdad.github.io/community_example/"
+  "../community_example", version = "dev", serve = TRUE,
+  endpoint = "https://vdh-data-commons.netlify.app/api"
 )
 ```
