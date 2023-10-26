@@ -907,7 +907,7 @@
     "bootstrap": {
       "name": "Bootstrap",
       "url": "https://getbootstrap.com",
-      "version": "5.3.1"
+      "version": "5.3.2"
     },
     "colorbrewer": {
       "name": "ColorBrewer",
@@ -947,7 +947,7 @@
     "plotly": {
       "name": "Plotly",
       "url": "https://plotly.com/javascript/getting-started",
-      "version": "2.25.2"
+      "version": "2.26.0"
     }
   },
   "endpoint": "https://vdh-data-commons.netlify.app/api",
