@@ -12,7 +12,7 @@
 "age_under_20_percent_direct",1,1734,455,24200
 "air_quality_indicator",1,0,0,4052
 "alice_pct",1,933,0,0
-"average_years_schooling",1,588,112,9942
+"average_years_schooling",1,0,0,9942
 "avg_down_using_devices",1,27,0,1678
 "avg_monthly_rate",1,926,245,0
 "avg_up_using_devices",1,27,0,1678
@@ -533,7 +533,7 @@
 "schools_2year_with_science_program",1,1197,315,17659
 "schools_under2year",1,1197,315,17659
 "schools_under2year_min_drivetime",1,1197,315,17659
-"segregation_indicator",1,0,0,4052
+"segregation_indicator",1,133,35,4052
 "subs_3sfca",1,133,35,2218
 "subs_cnt",1,133,35,2235
 "subs_near_10_median",1,133,35,2217

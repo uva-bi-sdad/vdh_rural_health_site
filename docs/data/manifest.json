@@ -145,9 +145,9 @@
   "uva-bi-sdad/sdc.demographics": {
     "files": {
       "Segregation (HOI)/data/distribution/va_tr_ct_hd_vdh_2020_segregation_index.csv.xz": {
-        "size": 21136,
-        "sha": "a64d5a8bad99f1f9fe452007cbb685a9dc7b93db",
-        "md5": "5185d3c3ab7ed6f5b00440ba37b05705"
+        "size": 22860,
+        "sha": "42a45c8ced49c8015b1c526a4562b134a9798266",
+        "md5": "70ff5232694ee42e9363e94343390a09"
       },
       "Veteran/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_veteran_demographics.csv.xz": {
         "size": 1500820,
@@ -218,6 +218,16 @@
   },
   "uva-bi-sdad/sdc.education": {
     "files": {
+      "Funding/data/distribution/va_ct_20222023_fundingAdequacy.csv.xz": {
+        "size": 1320,
+        "sha": "6612c11a7eade71d16e3f485ad50cf1959101b99",
+        "md5": "ce2eb1060fb2745bd78fbaef86b8ec3d"
+      },
+      "Years of Schooling/data/distribution/va_tr_acs5_2017_2021_years_of_schooling.csv.xz": {
+        "size": 96612,
+        "sha": "6c306422f069d061913a964a994274a0bd010abb",
+        "md5": "68ae235f027ceadb6baa62f81fb2af82"
+      },
       "Reading/data/distribution/va_hdctsd_vdoe_2015_2021_3rd_grade_mean_read_score.csv.xz": {
         "size": 3800,
         "sha": "2c203b2ac687d43c81687cb719ace1c5f22b005b",
@@ -227,11 +237,6 @@
         "size": 58644,
         "sha": "bbe17f6d1f31fd98d8b5f43152c4ebacb42c509e",
         "md5": "030de4800eb78c5af9a39288293f0f6b"
-      },
-      "Years of Schooling/data/distribution/va_hdcttr_acs5_2017_2021_years_of_schooling.csv.xz": {
-        "size": 87164,
-        "sha": "be2a915d287ce1b416322d3e12b5f2a20828aa00",
-        "md5": "4bfa8d3160c37876418d91b43178ca99"
       },
       "Postsecondary/data/distribution/nces.csv.xz": {
         "size": 11384852,
@@ -247,20 +252,15 @@
         "size": 479776,
         "sha": "618a712ba55812a38fdcf707a96c897486d4874b",
         "md5": "1cc349a536182702e4eb2fcd4a55eb82"
-      },
-      "Funding/data/distribution/va_ct_2022_2023_funding_adequacy.csv.xz": {
-        "size": 1324,
-        "sha": "a2f1e494fbe9af9f48f5747900dbf7b404e59ec5",
-        "md5": "253f56814f55e74281bd5414cd5dd2b6"
       }
     }
   },
   "uva-bi-sdad/sdc.financial_well_being": {
     "files": {
       "Material_Deprivation/data/distribution/va_hdcttr_vdh_2017_2021_material_deprivation_index.csv.xz": {
-        "size": 94440,
-        "sha": "4df054eed35cc461abc0d58adf80f2ff0f2dab5f",
-        "md5": "f4abd43ff2953e8a244f9828f6e36627"
+        "size": 94920,
+        "sha": "68900090de688e501d495bddc39f3f9bcc628946",
+        "md5": "072e5d408f48807a10a6ecc4cc87ca43"
       },
       "Pay and Benefits/Income Inequality/data/distribution/ncr_cttr_2015_2021_income_inequality_gini_index.csv.xz": {
         "size": 63020,
