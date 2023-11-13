@@ -240,7 +240,7 @@ page_panel(
     ),
     input_button(
       "Material Deprivation",
-      list(selected_variable = "material_deprivation_index")
+      list(selected_variable = "material_deprivation_indicator")
     ),
     input_button(
       "Years of Schooling",
