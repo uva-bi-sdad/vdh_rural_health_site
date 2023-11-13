@@ -557,7 +557,7 @@
     },
     "MaterialDeprivation": {
       "effects": {
-        "selected_variable": "material_deprivation_indicator"
+        "selected_variable": "material_deprivation_index"
       }
     },
     "YearsofSchooling": {
@@ -595,9 +595,9 @@
         "selected_variable": "affordability_index"
       }
     },
-    "AirQuality": {
+    "EnvironmentalHazardIndex": {
       "effects": {
-        "selected_variable": "air_quality_indicator"
+        "selected_variable": "environmental_hazard_index"
       }
     },
     "CareAccess(VDH)": {

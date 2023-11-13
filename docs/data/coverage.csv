@@ -38,6 +38,7 @@
 "ems_3sfca",1,133,35,2218
 "ems_cnt",1,133,35,2235
 "ems_near_10_median",1,133,35,2218
+"environmental_hazard_index",0,0,0,0
 "food_accessibility_indicator",1,0,0,4052
 "fruit_treeNut_total_sales",1,70,0,0
 "gender_female_percent_direct",1,1734,455,24200
@@ -56,7 +57,7 @@
 "job_participation_indicator",1,133,35,1884
 "labor_participate_rate",1,931,245,13723
 "language_hh_limited_english_percent_direct",1,798,210,11808
-"material_deprivation_indicator",1,665,35,9933
+"material_deprivation_index",0,0,0,0
 "median_household_income",1,683,0,10463
 "median_read_pass_rate",1,778,0,0
 "mental_3sfca",1,133,35,2218
