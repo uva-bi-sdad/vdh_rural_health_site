@@ -240,7 +240,7 @@ page_panel(
     ),
     input_button(
       "Material Deprivation",
-      list(selected_variable = "material_deprivation_indicator")
+      list(selected_variable = "material_deprivation_index")
     ),
     input_button(
       "Years of Schooling",
@@ -271,8 +271,8 @@ page_panel(
       list(selected_variable = "affordability_index")
     ),
     input_button(
-      "Air Quality",
-      list(selected_variable = "air_quality_indicator")
+      "Environmental Hazard Index",
+      list(selected_variable = "environmental_hazard_index")
     ),
     input_button(
       "Care Access (VDH)",
