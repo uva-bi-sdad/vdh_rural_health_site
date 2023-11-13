@@ -255,8 +255,22 @@
       }
     }
   },
+  "uva-bi-sdad/sdc.environment": {
+    "files": {
+      "data_commons/eqi_index/distribution/va_hdcttr_vdh_2022_environmental_hazard_index.csv.xz": {
+        "size": 22608,
+        "sha": "1d512ad0a8ff6fd6af41a65b8d506518471524d5",
+        "md5": "f468a5fd142348f1024402aa462dca85"
+      }
+    }
+  },
   "uva-bi-sdad/sdc.financial_well_being": {
     "files": {
+      "Material_Deprivation/data/distribution/va_hdcttr_vdh_2017_2021_material_deprivation_index.csv.xz": {
+        "size": 96036,
+        "sha": "e74d2ab7a1190bbcb3a23b604eee86364979d61a",
+        "md5": "30e9ae26065f66b978846e8d5f7bb8ec"
+      },
       "Pay and Benefits/Household Income/data/distribution/ncr_cttrbg_2015_2019_median_household_income.csv.xz": {
         "size": 188944,
         "sha": "f3e7b7721ed574025ffd52a38862d6b8d8f8a9e9",

@@ -557,7 +557,7 @@
     },
     "MaterialDeprivation": {
       "effects": {
-        "selected_variable": "material_deprivation_index"
+        "selected_variable": "material_deprivation_indicator"
       }
     },
     "YearsofSchooling": {
