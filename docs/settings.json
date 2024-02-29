@@ -587,7 +587,7 @@
     },
     "Walkability": {
       "effects": {
-        "selected_variable": "walkability_indicator"
+        "selected_variable": "walkability_index_raw"
       }
     },
     "Affordability(H&T)": {
