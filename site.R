@@ -264,7 +264,7 @@ page_panel(
     ),
     input_button(
       "Walkability",
-      list(selected_variable = "walkability_indicator")
+      list(selected_variable = "walkability_index_raw")
     ),
     input_button(
       "Affordability (H&T)",
