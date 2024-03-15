@@ -643,7 +643,7 @@ page_section(
               selectedVar = "perc_hh_with_broadband"; // The default starting variable name for this repository
             }
 
-            window.location = "https://github.com/uva-bi-sdad/sdc.measures/raw/main/"+ selectedVar + ".csv.xz";            
+            window.location = "https://github.com/uva-bi-sdad/sdc.measures/raw/main/"+ selectedVar + ".zip";            
             gtag("event", "file_download", {
               "measure": selectedVar
             });
