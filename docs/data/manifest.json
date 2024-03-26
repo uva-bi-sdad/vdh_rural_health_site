@@ -266,6 +266,16 @@
   },
   "uva-bi-sdad/sdc.financial_well_being": {
     "files": {
+      "Employment Access/data/distribution/va_hdcttr_2015_2021_employment_access_index.csv.xz": {
+        "size": 55180,
+        "sha": "5a3f5e897f18a162194952f73fc00643c74e5629",
+        "md5": "b1f4d861f6f31f20a9b2c332798c5ef1"
+      },
+      "Employment/data/distribution/va_cttr_acs_2015_2019_emp_rate.csv.xz": {
+        "size": 157836,
+        "sha": "c7c168a02d62ef9a098c53cf06f2ceeb422f8f13",
+        "md5": "820f52866e5ffeaef1550adf943ccd11"
+      },
       "Pay and Benefits/Household Income/data/distribution/ncr_cttrbg_2015_2021_median_household_income.csv.xz": {
         "size": 290740,
         "sha": "8f1a3cb2c2eff357c536d272bafbc1d4480c9402",
@@ -296,11 +306,6 @@
         "sha": "23ca442c9762513ae6cdf59f668ac442c8007703",
         "md5": "615acd9f289582c3b0b485dad934bf53"
       },
-      "Employment Access/data/distribution/va_hdcttr_2015_2021_employment_access_index.csv.xz": {
-        "size": 57292,
-        "sha": "5d5738023fce33680389ee7cbf8e9b3a25b41937",
-        "md5": "70f3ff432c13082f39c73dae417f3e11"
-      },
       "Employment/data/distribution/ncr_cttr_2015_2021_employment_rate.csv.xz": {
         "size": 43868,
         "sha": "45e930f2693cd6b1ea9c2c790da24f9fd6cd1eef",
@@ -315,11 +320,6 @@
         "size": 71704,
         "sha": "17ec687e136ebdd65bfaa8d26a41dbb1b2a25671",
         "md5": "6fc06ee05e675d92f33f0a2002bbd5c9"
-      },
-      "Employment/data/distribution/va_cttr_acs_2015_2019_emp_rate.csv.xz": {
-        "size": 146824,
-        "sha": "d8f09ca05215b5dc3539243ca5a61331e9e58c2e",
-        "md5": "618d6f68f0a9502e0032d0258689ce20"
       },
       "Employment/data/distribution/va_hdcttr_2015_2021_labor_participate_rate.csv.xz": {
         "size": 68728,
