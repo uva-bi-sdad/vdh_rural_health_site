@@ -14991,6 +14991,35 @@
     "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Affordability/Percentage of income for good internet/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Affordability/Percentage of income for good internet/data/distribution/ncr_broadbandnow_acs_sdad_2021_perc_income_on_internet.csv.xz"
   },
+  "perc_moving": {
+    "aggregation_method": "Population Weighted Average",
+    "categories": "",
+    "category": "Demographics",
+    "citations": "",
+    "data_type": "decimal",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Population moving in the past year from the current residence. 5-year ACS estimates in provided census geolevels.",
+    "long_name": "Population moving in the past year.",
+    "measure_type": "",
+    "short_description": "Population moving in the past year from the current residence.",
+    "short_name": "Population moving in the past year.",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "location": "5-Year estimates, table B01001, via the API",
+        "location_url": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
+        "date_accessed": 2023,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "Population moving is {value} in {region_name}.",
+    "type": "",
+    "unit": "individual",
+    "variants": "",
+    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Geographic Mobility (HOI)/data/distribution/measure_info.json",
+    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Geographic Mobility (HOI)/data/distribution/va_cttrbg_acs_2015_2021_moving_demographics.csv.xz"
+  },
   "perc_no_vehicle": {
     "aggregation_method": "",
     "categories": "",
