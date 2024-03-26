@@ -255,7 +255,7 @@
       }
     },
     "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Veteran/code/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Veteran/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_veteran_demographics.csv.xz"
+    "origin": ["https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Veteran/data/distribution/ncr_cttrbg_acs_2009_2021_veteran_demographics.csv.xz", "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Veteran/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_veteran_demographics.csv.xz"]
   },
   "access_care_indicator": {
     "aggregation_method": "",
@@ -708,7 +708,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Years of Schooling/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Years of Schooling/data/distribution/ncr_tr_acs5_2017_2021_years_of_schooling.csv.xz"
+    "origin": ["https://github.com/uva-bi-sdad/sdc.education/blob/main/Years of Schooling/data/distribution/va_hdcttr_acs5_2017_2021_years_of_schooling.csv.xz", "https://github.com/uva-bi-sdad/sdc.education/blob/main/Years of Schooling/data/distribution/ncr_tr_acs5_2017_2021_years_of_schooling.csv.xz"]
   },
   "avg_down_using_devices": {
     "aggregation_method": "weighted arithmetic mean",
@@ -2077,7 +2077,7 @@
       }
     },
     "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Language/code/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Language/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_language_demographics.csv.xz"
+    "origin": ["https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Language/data/distribution/ncr_cttrbg_acs_2016_2021_language_demographics.csv.xz", "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Language/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_language_demographics.csv.xz"]
   },
   "material_deprivation_indicator": {
     "aggregation_method": "",
@@ -2135,7 +2135,7 @@
     "unit": "dollars",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Household Income/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Household Income/data/distribution/ncr_cttrbg_2015_2019_median_household_income.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Household Income/data/distribution/ncr_cttrbg_2015_2021_median_household_income.csv.xz"
   },
   "mental_3sfca": {
     "aggregation_method": "",
