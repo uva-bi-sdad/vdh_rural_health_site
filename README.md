@@ -4,6 +4,7 @@ This site was generated from the [Social Data Commons](https://github.com/uva-bi
 [community_example](https://github.com/uva-bi-sdad/social_data_commons/blob/main/views/community_example/view.json) view.
 
 To recompile from source repositories, clone that repository, and run this (assuming this repository is in the same directory):
+.
 
 ```R
 # remotes::install_github("uva-bi-sdad/community")
