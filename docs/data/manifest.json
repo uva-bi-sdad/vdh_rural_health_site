@@ -272,14 +272,19 @@
   "uva-bi-sdad/sdc.financial_well_being": {
     "files": {
       "Employment Access/data/distribution/va_hdcttr_2015_2021_employment_access_index.csv.xz": {
-        "size": 55180,
-        "sha": "5a3f5e897f18a162194952f73fc00643c74e5629",
-        "md5": "b1f4d861f6f31f20a9b2c332798c5ef1"
+        "size": 56520,
+        "sha": "9157daef2df72b41793c9e0352a185a61547eeb1",
+        "md5": "a982a1df41b0d67e82ec9d7033e6b63d"
       },
       "Employment/data/distribution/va_cttr_acs_2015_2019_emp_rate.csv.xz": {
         "size": 157836,
         "sha": "c7c168a02d62ef9a098c53cf06f2ceeb422f8f13",
         "md5": "820f52866e5ffeaef1550adf943ccd11"
+      },
+      "Material_Deprivation/data/distribution/va_hdcttr_vdh_2015_2021_material_deprivation_index.csv.xz": {
+        "size": 132964,
+        "sha": "5a96bccdca87e81f7bdabc729c2509a4c79c2c1b",
+        "md5": "b06a418acbce3df68ae31241f31daeff"
       },
       "Pay and Benefits/Household Income/data/distribution/ncr_cttrbg_2015_2021_median_household_income.csv.xz": {
         "size": 290740,
@@ -330,11 +335,6 @@
         "size": 68728,
         "sha": "00c1e94b637863198032a5af0fd688f72cafc8a9",
         "md5": "d66a986a1f011c1a4753890e3ac1b095"
-      },
-      "Material_Deprivation/data/distribution/va_hdcttr_vdh_2017_2021_material_deprivation_index.csv.xz": {
-        "size": 96548,
-        "sha": "01f3b740c32ac6860de32ace7d4870712d4eb9da",
-        "md5": "6cb15e1a45900cdf4dbd7547a92ebbd8"
       },
       "Pay and Benefits/Household Income/data/distribution/ncr_cttrbg_2015_2019_median_household_income.csv.xz": {
         "size": 188944,

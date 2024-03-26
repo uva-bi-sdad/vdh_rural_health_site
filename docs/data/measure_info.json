@@ -2106,7 +2106,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Material_Deprivation/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Material_Deprivation/data/distribution/va_hdcttr_vdh_2017_2021_material_deprivation_index.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Material_Deprivation/data/distribution/va_hdcttr_vdh_2015_2021_material_deprivation_index.csv.xz"
   },
   "median_household_income": {
     "aggregation_method": "",
