@@ -1,5 +1,36 @@
 {
   "_references": {
+    "wan12": {
+      "id": "wan12",
+      "author": [
+        {
+          "given": "Neng",
+          "family": "Wan"
+        },
+        {
+          "given": "Bin",
+          "family": "Zou"
+        },
+        {
+          "given": "Troy",
+          "family": "Sternberg"
+        }
+      ],
+      "year": 2012,
+      "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+      "journal": "International Journal of Geographical Information Science",
+      "volume": "26",
+      "page": "1073–1089",
+      "doi": "10.1080/13658816.2011.624987"
+    },
+    "bii21": {
+      "id": "bii21",
+      "author": "Biocomplexity Institute and Initiative",
+      "year": 2021,
+      "title": "catchment: Calculate spatial access and availability metrics",
+      "version": "0.0.1",
+      "url": "https://github.com/uva-bi-sdad/catchment"
+    },
     "lou04": {
       "id": "lou04",
       "author": [
@@ -96,37 +127,6 @@
       "year": 2021,
       "title": "Food Access Research Atlas",
       "url": "https://www.ers.usda.gov/data-products/food-access-research-atlas/download-the-data/"
-    },
-    "wan12": {
-      "id": "wan12",
-      "author": [
-        {
-          "given": "Neng",
-          "family": "Wan"
-        },
-        {
-          "given": "Bin",
-          "family": "Zou"
-        },
-        {
-          "given": "Troy",
-          "family": "Sternberg"
-        }
-      ],
-      "year": 2012,
-      "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-      "journal": "International Journal of Geographical Information Science",
-      "volume": "26",
-      "page": "1073–1089",
-      "doi": "10.1080/13658816.2011.624987"
-    },
-    "bii21": {
-      "id": "bii21",
-      "author": "Biocomplexity Institute and Initiative",
-      "year": 2021,
-      "title": "catchment: Calculate spatial access and availability metrics",
-      "version": "0.0.1",
-      "url": "https://github.com/uva-bi-sdad/catchment"
     },
     "bii-redist": {
       "id": "bii-redist",
@@ -708,7 +708,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Years of Schooling/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.education/blob/main/Years of Schooling/data/distribution/va_hdcttr_acs5_2017_2021_years_of_schooling.csv.xz", "https://github.com/uva-bi-sdad/sdc.education/blob/main/Years of Schooling/data/distribution/ncr_tr_acs5_2017_2021_years_of_schooling.csv.xz"]
+    "origin": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Years of Schooling/data/distribution/va_hdcttr_acs5_2015_2021_years_of_schooling.csv.xz"
   },
   "avg_down_using_devices": {
     "aggregation_method": "weighted arithmetic mean",
