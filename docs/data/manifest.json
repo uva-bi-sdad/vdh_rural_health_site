@@ -224,9 +224,9 @@
   "uva-bi-sdad/sdc.education": {
     "files": {
       "Years of Schooling/data/distribution/va_hdcttr_acs5_2015_2021_years_of_schooling.csv.xz": {
-        "size": 131260,
-        "sha": "01029c773ae1b050ea8e677a4a2c6f0d140b7170",
-        "md5": "3c095d63dcd726b5016bf30f56c0d10d"
+        "size": 131372,
+        "sha": "b17147dd93de18d85c486e71d8025618919c89a1",
+        "md5": "00ccd9f08b341426fd4dc1b204860d78"
       },
       "Reading/data/distribution/va_hdctsd_vdoe_2015_2021_3rd_grade_mean_read_score.csv.xz": {
         "size": 3800,
