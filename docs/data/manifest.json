@@ -389,6 +389,11 @@
         "size": 34412,
         "sha": "29633862979058fb0367722c54891a661ab08968",
         "md5": "2074251468096f1eb5fe4dac56ae813a"
+      },
+      "Food Access/Food Accessibility Indicator (HOI)/data/distribution/va_tr_usda_2015_2019_food_access.csv": {
+        "size": 695541,
+        "sha": "01e99fbe39299c36a546a8e554e8eb75316a6186",
+        "md5": "4a0b341b78d26337b892d0a7e88b8dd3"
       }
     }
   },
@@ -463,11 +468,6 @@
         "size": 10468,
         "sha": "25b55480789dbfe6fae711e20ce4a6652aeb1e96",
         "md5": "0ef8b3a8891eef57316a01182acfb10d"
-      },
-      "Population Health/Health Opportunity Index/data/distribution/va_tr_vdh_2017_2020_food_accessibility_index.csv.xz": {
-        "size": 11476,
-        "sha": "f5bb46686e772f4e273c95053970de9af89d9730",
-        "md5": "c192bc2be5f059ec7237e5211761e3b5"
       },
       "Population Health/Health Opportunity Index/data/distribution/va_tr_vdh_2020_community_environment_profile.csv.xz": {
         "size": 7140,
