@@ -1533,7 +1533,7 @@
     "unit": "dollar",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2017_industry_agriculture.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2022_industry_agriculture.csv.xz"
   },
   "gender_{variant.name}{category.name}": {
     "category": "Demographics",
@@ -14588,7 +14588,7 @@
     "unit": "dollar",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2017_industry_agriculture.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2022_industry_agriculture.csv.xz"
   },
   "ped_3sfca": {
     "aggregation_method": "",
@@ -16131,7 +16131,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2017_industry_agriculture.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2022_industry_agriculture.csv.xz"
   },
   "total_animal_expense": {
     "aggregation_method": "",
@@ -16160,7 +16160,7 @@
     "unit": "dollar",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2017_industry_agriculture.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2022_industry_agriculture.csv.xz"
   },
   "total_animalProducts_sales": {
     "aggregation_method": "",
@@ -16189,7 +16189,7 @@
     "unit": "dollar",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2017_industry_agriculture.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2022_industry_agriculture.csv.xz"
   },
   "total_calves_sales": {
     "aggregation_method": "",
@@ -16218,7 +16218,7 @@
     "unit": "dollar",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2017_industry_agriculture.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2022_industry_agriculture.csv.xz"
   },
   "total_commodity_sales": {
     "aggregation_method": "",
@@ -16247,7 +16247,7 @@
     "unit": "dollar",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2017_industry_agriculture.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2022_industry_agriculture.csv.xz"
   },
   "total_cropland_acres": {
     "aggregation_method": "",
@@ -16276,7 +16276,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2017_industry_agriculture.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2022_industry_agriculture.csv.xz"
   },
   "total_cropland_operations": {
     "aggregation_method": "",
@@ -16305,7 +16305,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2017_industry_agriculture.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2022_industry_agriculture.csv.xz"
   },
   "total_irrigatedCropland_acre": {
     "aggregation_method": "",
@@ -16334,7 +16334,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2017_industry_agriculture.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2022_industry_agriculture.csv.xz"
   },
   "total_operations": {
     "aggregation_method": "",
@@ -16363,7 +16363,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2017_industry_agriculture.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2022_industry_agriculture.csv.xz"
   },
   "vi_household": {
     "aggregation_method": "",

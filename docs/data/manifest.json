@@ -75,6 +75,11 @@
   },
   "uva-bi-sdad/sdc.business_climate": {
     "files": {
+      "Industry specific/Agriculture/data/distribution/va_ct_2022_industry_agriculture.csv.xz": {
+        "size": 5468,
+        "sha": "c1a8d10ef29976bb4cd432193bb5bfcdbddc24e1",
+        "md5": "2a3c91007743a34eb0177c506d0da186"
+      },
       "Industry specific/Agriculture/data/distribution/va_ct_2017_industry_agriculture.csv.xz": {
         "size": 5436,
         "sha": "92080bc449dea3c73ad785f728fa7e038608edfb",
