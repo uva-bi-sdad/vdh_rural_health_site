@@ -1702,7 +1702,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2017.csv"
+    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2015.csv"
   },
   "hh_received_snap_cnt": {
     "aggregation_method": "",
