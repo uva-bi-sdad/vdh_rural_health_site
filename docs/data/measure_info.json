@@ -1702,7 +1702,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2019.csv"
+    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2017_quintiles.csv"
   },
   "hh_received_snap_cnt": {
     "aggregation_method": "",
@@ -15984,32 +15984,32 @@
     "origin": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Postsecondary/data/distribution/nces.csv.xz"
   },
   "segregation_indicator": {
-    "aggregation_method": "",
+    "aggregation_method": " ",
     "categories": "",
-    "category": "Health Opportunity Index",
+    "category": "Demographics",
     "citations": "",
     "data_type": "numeric",
     "equity_category": "",
     "layer": "",
-    "long_description": "A measure of whether and how much people of different racial and ethnic backgrounds live together in diverse communities. It includes measures of both community diversity and the distance between communities with different racial or ethnic profiles.",
+    "long_description": "The Segregation indicator, or the spatial dissimilarity index, measures how the racial composition of a population in a census tract compares to that of the rest of the state.Since there are multiple categories of population, We are following Entropy index. An Entropy Index measures the spatial distribution of multiple groups simultaneously",
     "long_name": "Segregation indicator",
     "measure_type": "index",
-    "short_description": "A measure of whether and how much people of different racial and ethnic backgrounds live together in diverse communities.",
+    "short_description": "It measures how different the population composition of a subarea is from the population composition of the State as a whole",
     "short_name": "Segregation indicator",
     "sources": [
       {
-        "date_accessed": 2023,
-        "location": "",
+        "date_accessed": "2023",
+        "location": "Table DP05",
         "location_url": "",
-        "name": "Virginia Department of Health",
-        "url": "https://apps.vdh.virginia.gov/omhhe/hoi/"
+        "name": "American Community Survey",
+        "url": ""
       }
     ],
     "statement": "The segregation indicator in {features.name} is {value}.",
-    "type": "index",
-    "unit": "",
+    "type": "",
+    "unit": "individual",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json",
+    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Segregation (HOI)/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Segregation (HOI)/data/distribution/va_tr_ct_hd_vdh_2015_2021_segregation_index.csv.xz"
   },
   "subs_3sfca": {
