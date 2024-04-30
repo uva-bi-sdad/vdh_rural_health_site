@@ -149,6 +149,11 @@
   },
   "uva-bi-sdad/sdc.demographics": {
     "files": {
+      "Segregation (HOI)/data/distribution/va_tr_ct_hd_vdh_2015_2021_segregation_index.csv.xz": {
+        "size": 41360,
+        "sha": "a92740bc6b5bb6e509ea7dd48f9a368c385e2c4e",
+        "md5": "8f8ecf9546dbbb8cbb792b12e08d5ad2"
+      },
       "Veteran/data/distribution/ncr_cttrbg_acs_2009_2021_veteran_demographics.csv.xz": {
         "size": 1420628,
         "sha": "e7bf2eaebc1e838fd624c6d6d36aebf67baf6868",
@@ -163,11 +168,6 @@
         "size": 11206828,
         "sha": "019ab6b1246a0f5bc57f02494757ed3e147134a6",
         "md5": "eff78ec16bc5f77be43493e27e37b7c8"
-      },
-      "Segregation (HOI)/data/distribution/va_tr_ct_hd_vdh_2015_2020_segregation_index.csv.xz": {
-        "size": 34772,
-        "sha": "6d61fca55ec674805ede743e96ee20b84fcc82b7",
-        "md5": "893c65ce7570ea9422aca77381b365e3"
       },
       "Race/data/distribution/ncr_cttrbg_acs_2009_2021_race_demographics.csv.xz": {
         "size": 10785396,
@@ -404,30 +404,50 @@
   },
   "uva-bi-sdad/sdc.health": {
     "files": {
-      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2015.csv": {
-        "size": 150449,
-        "sha": "9ab55668027a1803c9f050a1c9ce348120dfaf77",
-        "md5": "4a12dedb05ec09b442086fe07fd56842"
+      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2019.csv": {
+        "size": 150461,
+        "sha": "24e108b1422c9213ebcfe84666a0e48e4f173495",
+        "md5": "cb525a1c23b8df34e0c8ba3e22d525bc"
+      },
+      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2015_quintiles.csv": {
+        "size": 133340,
+        "sha": "c7a053e498b73822993ba3e159f906b31d8df81d",
+        "md5": "4a955be53792296fa85f6e76287d0294"
+      },
+      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2016_quintiles.csv": {
+        "size": 133340,
+        "sha": "f9935d6f9225a5c467755bb7dff7e9c28f0a3d53",
+        "md5": "86bbe02ee3a57cd48340951af2c0f707"
       },
       "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2016.csv": {
         "size": 150413,
         "sha": "97aad3073a951da79b127328179ff239f424eed6",
         "md5": "30acb97cd88b89291bf9b3bbee212e3f"
       },
+      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2017_quintiles.csv": {
+        "size": 133340,
+        "sha": "5724b3b0b09dc454c03f09784104e5d6750c5e2f",
+        "md5": "905c8387207ad99a8003e665f36ee066"
+      },
       "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2017.csv": {
         "size": 150456,
         "sha": "757ef7137a2df3e0b1f52b8849bd00878e772e73",
         "md5": "0404d94f4c98c9689772bae4877ca13c"
+      },
+      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2018_quintiles.csv": {
+        "size": 133340,
+        "sha": "a5f049da34f6fa0e8162d8c164c132326d8ebd30",
+        "md5": "ee1baadbd25a341b7a2b52a0195ded30"
       },
       "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2018.csv": {
         "size": 150447,
         "sha": "b2c8ffc83a255ce4654a8c72d8b3900376987446",
         "md5": "e877d1cc49b6b7aa6ad44e6c1a2478c4"
       },
-      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2019.csv": {
-        "size": 150461,
-        "sha": "24e108b1422c9213ebcfe84666a0e48e4f173495",
-        "md5": "cb525a1c23b8df34e0c8ba3e22d525bc"
+      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2015.csv": {
+        "size": 150449,
+        "sha": "9ab55668027a1803c9f050a1c9ce348120dfaf77",
+        "md5": "4a12dedb05ec09b442086fe07fd56842"
       },
       "Population Health/Reproductive Health/Prenatal Care Adequacy/data/distribution/va_ct_nchs_2014_2020_kotelchuck.csv.xz": {
         "size": 30888,
