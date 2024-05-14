@@ -550,7 +550,7 @@ page_section(
           time = 2010,
           url = paste0(
             "https://raw.githubusercontent.com/uva-bi-sdad/sdc.geographies/main/VA/Census%20Geographies/",
-            "Tract/2010/data/distribution/va_geo_census_cb_2010_census_tracts.geojson"
+            "Tract/2020/data/distribution/va_geo_census_cb_2020_census_tracts.geojson"
           )
         ),
         list(
@@ -558,7 +558,7 @@ page_section(
           time = 2010,
           url = paste0(
             "https://raw.githubusercontent.com/uva-bi-sdad/sdc.geographies/main/VA/Census%20Geographies/",
-            "County/2010/data/distribution/va_geo_census_cb_2010_counties.geojson"
+            "County/2020/data/distribution/va_geo_census_cb_2020_counties.geojson"
           )
         ),
         list(
