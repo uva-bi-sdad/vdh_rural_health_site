@@ -404,20 +404,40 @@
   },
   "uva-bi-sdad/sdc.health": {
     "files": {
-      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2019_quintiles.csv": {
-        "size": 133340,
-        "sha": "e02b56d7b6a7981a674734aefccf217e139f55d9",
-        "md5": "4c95e034706bc38f8884d92d07bc83bd"
-      },
       "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2021_quintiles.csv": {
-        "size": 115994,
-        "sha": "688e39340464d20a07c93346cf35dcc82aab26eb",
-        "md5": "581e34a6021bdb380f7b81caab22cbe3"
+        "size": 133340,
+        "sha": "f493f6be1a4a1c4694847a7d857c028c12224066",
+        "md5": "bfd79bc55d37d37711f293a58b30f08f"
       },
       "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2021.csv": {
         "size": 150422,
         "sha": "e4ff34a7e1f03f114e2249913bde8c6434dd4e23",
         "md5": "d480afe5ad7f9f2c38d29a18e82e5297"
+      },
+      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2015_quintiles.csv": {
+        "size": 133340,
+        "sha": "d03997ead949d19b39d4bee6720a75f61f19d6e7",
+        "md5": "a194f1d540cecc2d0563242c4768c100"
+      },
+      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2016_quintiles.csv": {
+        "size": 133340,
+        "sha": "e7d37f15a65150a67ea9bf1174ea5f1735f724a4",
+        "md5": "465056a2181d433e3bc71709ce87437e"
+      },
+      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2017_quintiles.csv": {
+        "size": 133340,
+        "sha": "80ca4d4a4751aa827bbb0ea3c0125c2c313380f9",
+        "md5": "1983778b12cf729b2525c7ffc1799312"
+      },
+      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2018_quintiles.csv": {
+        "size": 133340,
+        "sha": "c2a4228a0415078bc72b39d5b6dcc248ad00a4bb",
+        "md5": "6356b11eff79ca24da99771109dba807"
+      },
+      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2019_quintiles.csv": {
+        "size": 133340,
+        "sha": "1cd5e4116607d1bea8b283af83f474f2b8b72471",
+        "md5": "8ba99303ac19dfedfc44674ce5d7597b"
       },
       "Population Health/System Usage and Insurance/Without Health Insurance/data/distribution/ncr_cttrbg_acs5_2015_2019_no_health_insurance_19_to_64.csv.xz": {
         "size": 397856,
@@ -459,20 +479,10 @@
         "sha": "b70dd7cbd18f4ed0f05c3673da78e3305896ad61",
         "md5": "24fbd62eb7d93e3543be166c8c6c7308"
       },
-      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2017_quintiles.csv": {
-        "size": 115994,
-        "sha": "9e8004f541eb09a85c3fc516935ac3d92bb6600c",
-        "md5": "080cab527a2cc39813ac38323d0214a9"
-      },
       "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2017.csv": {
         "size": 150456,
         "sha": "757ef7137a2df3e0b1f52b8849bd00878e772e73",
         "md5": "0404d94f4c98c9689772bae4877ca13c"
-      },
-      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2018_quintiles.csv": {
-        "size": 115994,
-        "sha": "f2419faf2e54f7ad6691315e152b03457815e11d",
-        "md5": "913ff5f73ce85e0f262e79d392050848"
       },
       "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2018.csv": {
         "size": 150447,
@@ -554,20 +564,10 @@
         "sha": "f6b0c4221b036f95e548ee07973a47ad2b355e5b",
         "md5": "8e08ac23b63c00deaa62124e804ba622"
       },
-      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2015_quintiles.csv": {
-        "size": 115994,
-        "sha": "e6b2b8a72783f04c8c2ec11c76b0dc49162315ea",
-        "md5": "7deb77e0b365d7c27b0e183f27db56f9"
-      },
       "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2015.csv": {
         "size": 150449,
         "sha": "9ab55668027a1803c9f050a1c9ce348120dfaf77",
         "md5": "4a12dedb05ec09b442086fe07fd56842"
-      },
-      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2016_quintiles.csv": {
-        "size": 115994,
-        "sha": "becabd6998237130b4fc45d22e85c309f0359fa7",
-        "md5": "c8cac320f0a117a146816e58dd973d0d"
       },
       "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2016.csv": {
         "size": 150413,
