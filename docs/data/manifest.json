@@ -404,6 +404,21 @@
   },
   "uva-bi-sdad/sdc.health": {
     "files": {
+      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2019_quintiles.csv": {
+        "size": 133340,
+        "sha": "e02b56d7b6a7981a674734aefccf217e139f55d9",
+        "md5": "4c95e034706bc38f8884d92d07bc83bd"
+      },
+      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2021_quintiles.csv": {
+        "size": 115994,
+        "sha": "688e39340464d20a07c93346cf35dcc82aab26eb",
+        "md5": "581e34a6021bdb380f7b81caab22cbe3"
+      },
+      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2021.csv": {
+        "size": 150422,
+        "sha": "e4ff34a7e1f03f114e2249913bde8c6434dd4e23",
+        "md5": "d480afe5ad7f9f2c38d29a18e82e5297"
+      },
       "Population Health/System Usage and Insurance/Without Health Insurance/data/distribution/ncr_cttrbg_acs5_2015_2019_no_health_insurance_19_to_64.csv.xz": {
         "size": 397856,
         "sha": "024fa2d52806101e48c9ded5e9c24682653e856d",

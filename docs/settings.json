@@ -850,13 +850,13 @@
         {
           "name": "tract",
           "time": 2010,
-          "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.geographies/main/VA/Census%20Geographies/Tract/2010/data/distribution/va_geo_census_cb_2010_census_tracts.geojson",
+          "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.geographies/main/VA/Census%20Geographies/Tract/2020/data/distribution/va_geo_census_cb_2020_census_tracts.geojson",
           "id_property": "geoid"
         },
         {
           "name": "county",
           "time": 2010,
-          "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.geographies/main/VA/Census%20Geographies/County/2010/data/distribution/va_geo_census_cb_2010_counties.geojson",
+          "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.geographies/main/VA/Census%20Geographies/County/2020/data/distribution/va_geo_census_cb_2020_counties.geojson",
           "id_property": "geoid"
         },
         {
