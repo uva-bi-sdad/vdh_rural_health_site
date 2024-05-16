@@ -276,6 +276,11 @@
   },
   "uva-bi-sdad/sdc.financial_well_being": {
     "files": {
+      "Employment Access/data/distribution/va_tr_2019_employment_access_index_geo20.csv": {
+        "size": 130890,
+        "sha": "6bba6689dc1aa89c7e80c92e189a98fbd913261d",
+        "md5": "1fbf06a33c4f85e1da289df969a055c5"
+      },
       "Pay and Benefits/Household Income/data/distribution/ncr_cttrbg_2015_2019_median_household_income.csv.xz": {
         "size": 188944,
         "sha": "f3e7b7721ed574025ffd52a38862d6b8d8f8a9e9",
@@ -355,6 +360,11 @@
   },
   "uva-bi-sdad/sdc.food": {
     "files": {
+      "Food Access/Food Accessibility Indicator (HOI)/data/distribution/va_tr_usda_2019_food_access_geo20.csv": {
+        "size": 128268,
+        "sha": "21173cd43026c8e3a05f81dd8c413b4dffc50fc5",
+        "md5": "7010c7b5a8a05919388afe958cf52019"
+      },
       "Food and Nutrition Assistance/Supplemental Nutrition Assistance Program (SNAP)/data/distribution/ncr_cttrbg_acs_2013_2020_hh_receiving_snap.csv.xz": {
         "size": 571372,
         "sha": "03fcf2b93e18440e4357b903df920fee57f26488",
@@ -409,11 +419,6 @@
         "sha": "f493f6be1a4a1c4694847a7d857c028c12224066",
         "md5": "bfd79bc55d37d37711f293a58b30f08f"
       },
-      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2021.csv": {
-        "size": 150422,
-        "sha": "e4ff34a7e1f03f114e2249913bde8c6434dd4e23",
-        "md5": "d480afe5ad7f9f2c38d29a18e82e5297"
-      },
       "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2015_quintiles.csv": {
         "size": 133340,
         "sha": "d03997ead949d19b39d4bee6720a75f61f19d6e7",
@@ -438,6 +443,11 @@
         "size": 133340,
         "sha": "1cd5e4116607d1bea8b283af83f474f2b8b72471",
         "md5": "8ba99303ac19dfedfc44674ce5d7597b"
+      },
+      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2021.csv": {
+        "size": 150422,
+        "sha": "e4ff34a7e1f03f114e2249913bde8c6434dd4e23",
+        "md5": "d480afe5ad7f9f2c38d29a18e82e5297"
       },
       "Population Health/System Usage and Insurance/Without Health Insurance/data/distribution/ncr_cttrbg_acs5_2015_2019_no_health_insurance_19_to_64.csv.xz": {
         "size": 397856,

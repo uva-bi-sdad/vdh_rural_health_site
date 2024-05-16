@@ -1325,7 +1325,7 @@
     "unit": "job",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment Access/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment Access/data/distribution/va_hdcttr_2015_2021_employment_access_index.csv.xz"
+    "origin": ["https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment Access/data/distribution/va_hdcttr_2015_2021_employment_access_index.csv.xz", "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment Access/data/distribution/va_tr_2019_employment_access_index_geo20.csv"]
   },
   "employment_access_indicator": {
     "aggregation_method": "",
@@ -1504,7 +1504,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Access/Food Accessibility Indicator (HOI)/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Access/Food Accessibility Indicator (HOI)/data/distribution/va_tr_usda_2015_2019_food_access.csv"
+    "origin": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Access/Food Accessibility Indicator (HOI)/data/distribution/va_tr_usda_2019_food_access_geo20.csv"
   },
   "fruit_treeNut_total_sales": {
     "aggregation_method": "",
