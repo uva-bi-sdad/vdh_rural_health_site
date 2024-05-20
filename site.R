@@ -248,7 +248,7 @@ page_panel(
     ),
     input_button(
       "Access to Food (VDH)",
-      list(selected_variable = "food_access_percentage")
+      list(selected_variable = "food_access_percentage_geo20")
     ),
     input_button(
       "Geographic Mobility",
