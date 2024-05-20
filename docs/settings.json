@@ -567,7 +567,7 @@
     },
     "AccesstoFood(VDH)": {
       "effects": {
-        "selected_variable": "food_access_percentage"
+        "selected_variable": "food_access_percentage_geo20"
       }
     },
     "GeographicMobility": {

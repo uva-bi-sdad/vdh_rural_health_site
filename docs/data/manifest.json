@@ -149,11 +149,6 @@
   },
   "uva-bi-sdad/sdc.demographics": {
     "files": {
-      "Overall/data/distribution/va_tr_2019_population_density_geo20.csv": {
-        "size": 135001,
-        "sha": "94718ae7baf97912157937e5254bc4abbc159278",
-        "md5": "641311934630e6404f29f9ed5cd0b2f7"
-      },
       "Overall/data/distribution/va_tr_2021_population_density_geo20.csv": {
         "size": 134625,
         "sha": "6bcd42bdad7d5b15d4161abc1060c9c6e3842971",
@@ -218,6 +213,11 @@
         "size": 135024,
         "sha": "cb07c7eda3a66410770164137427ae2bc4d1c7aa",
         "md5": "8c966c1259201e1f538362d9b8e5575d"
+      },
+      "Overall/data/distribution/va_tr_2019_population_density_geo20.csv": {
+        "size": 135001,
+        "sha": "94718ae7baf97912157937e5254bc4abbc159278",
+        "md5": "641311934630e6404f29f9ed5cd0b2f7"
       },
       "Geographic Mobility (HOI)/data/distribution/va_tr_acs_2015_moving_demographics_geo20.csv": {
         "size": 104896,
@@ -435,35 +435,10 @@
   },
   "uva-bi-sdad/sdc.food": {
     "files": {
-      "Food Access/Food Accessibility Indicator (HOI)/data/distribution/va_tr_usda_2017_food_access_geo20.csv": {
-        "size": 128268,
-        "sha": "c6d38aa81151ee51bf4aa6718de81eecd7a62c44",
-        "md5": "1b0621c03df97d7eba77d9efb35fa1c1"
-      },
-      "Food Access/Food Accessibility Indicator (HOI)/data/distribution/va_tr_usda_2018_food_access_geo20.csv": {
-        "size": 128268,
-        "sha": "f977a241f5d289a49901f86750c9402a5227ea32",
-        "md5": "2517b28df76c4a3f17fce9283b21485c"
-      },
-      "Food Access/Food Accessibility Indicator (HOI)/data/distribution/va_tr_usda_2019_food_access_geo20.csv": {
-        "size": 111190,
-        "sha": "d91e440015a08574f77f2464d5064eaae520ec26",
-        "md5": "407a78baabe16a2f4fe7d2ffbda4fca2"
-      },
-      "Food Access/Food Accessibility Indicator (HOI)/data/distribution/va_tr_usda_2021_food_access_geo20.csv": {
-        "size": 128268,
-        "sha": "0f9d9b3c005c37758df6c4cb9f422717ae74830a",
-        "md5": "decea421d3290031b11b91fa295461bb"
-      },
-      "Food Access/Food Accessibility Indicator (HOI)/data/distribution/va_tr_usda_2015_food_access_geo20.csv": {
-        "size": 128268,
-        "sha": "dbcc3c1b6882744b8198a67d2557e4818ae4ae4c",
-        "md5": "2d96e3e976350ec45e3face525892fc1"
-      },
-      "Food Access/Food Accessibility Indicator (HOI)/data/distribution/va_tr_usda_2016_food_access_geo20.csv": {
-        "size": 128268,
-        "sha": "2ce913b5cfb3e074fde094f56d561b5ee0cabe7d",
-        "md5": "88ee60e126d6d09a2eea2e16dfae31b8"
+      "Food Access/Food Accessibility Indicator (HOI)/data/distribution/va_tr_usda_2015_2019_food_access_std.csv.xz": {
+        "size": 146988,
+        "sha": "9f73c45c98e45d98f9c3787b56e7c43df31bd166",
+        "md5": "da3db3705a6aae8adfa8852be137cdf5"
       },
       "Food and Nutrition Assistance/Supplemental Nutrition Assistance Program (SNAP)/data/distribution/ncr_cttrbg_acs_2013_2020_hh_receiving_snap.csv.xz": {
         "size": 571372,
@@ -504,21 +479,11 @@
         "size": 34412,
         "sha": "29633862979058fb0367722c54891a661ab08968",
         "md5": "2074251468096f1eb5fe4dac56ae813a"
-      },
-      "Food Access/Food Accessibility Indicator (HOI)/data/distribution/va_tr_usda_2015_2019_food_access.csv": {
-        "size": 695541,
-        "sha": "01e99fbe39299c36a546a8e554e8eb75316a6186",
-        "md5": "4a0b341b78d26337b892d0a7e88b8dd3"
       }
     }
   },
   "uva-bi-sdad/sdc.health": {
     "files": {
-      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2015_quintiles.csv": {
-        "size": 133340,
-        "sha": "d03997ead949d19b39d4bee6720a75f61f19d6e7",
-        "md5": "a194f1d540cecc2d0563242c4768c100"
-      },
       "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2016_quintiles.csv": {
         "size": 133340,
         "sha": "e7d37f15a65150a67ea9bf1174ea5f1735f724a4",
@@ -548,6 +513,11 @@
         "size": 150422,
         "sha": "e4ff34a7e1f03f114e2249913bde8c6434dd4e23",
         "md5": "d480afe5ad7f9f2c38d29a18e82e5297"
+      },
+      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2015_quintiles.csv": {
+        "size": 133340,
+        "sha": "d03997ead949d19b39d4bee6720a75f61f19d6e7",
+        "md5": "a194f1d540cecc2d0563242c4768c100"
       },
       "Population Health/System Usage and Insurance/Without Health Insurance/data/distribution/ncr_cttrbg_acs5_2015_2019_no_health_insurance_19_to_64.csv.xz": {
         "size": 397856,
@@ -758,16 +728,6 @@
   },
   "uva-bi-sdad/sdc.housing": {
     "files": {
-      "Cost/Affordability_HT/data/distribution/va_tr_2019_affordability_index_geo20.csv": {
-        "size": 122306,
-        "sha": "e3582a19b4e1cd00536e331e22c6060fcdca6ba3",
-        "md5": "a3a4ed36a6ae91129a1071c72cef26d7"
-      },
-      "Cost/Affordability_HT/data/distribution/va_tr_2021_affordability_index_geo20.csv": {
-        "size": 122314,
-        "sha": "59d236cda905f953fa24b3d9fb4331cfa8db75a3",
-        "md5": "1fab8cfaf1fe078d7ec4b4976038a284"
-      },
       "Cost/Affordability_HT/data/distribution/va_hdcttr_2015_2021_affordability_index.csv.xz": {
         "size": 38992,
         "sha": "f2a729cf06034edf2c943761c1cd03c54e955270",
@@ -793,6 +753,16 @@
         "sha": "4cffcba817ea7d058d378b545e378e958df9993a",
         "md5": "7717dbe03fd5558c85d10e52b35acc37"
       },
+      "Cost/Affordability_HT/data/distribution/va_tr_2019_affordability_index_geo20.csv": {
+        "size": 122306,
+        "sha": "e3582a19b4e1cd00536e331e22c6060fcdca6ba3",
+        "md5": "a3a4ed36a6ae91129a1071c72cef26d7"
+      },
+      "Cost/Affordability_HT/data/distribution/va_tr_2021_affordability_index_geo20.csv": {
+        "size": 122314,
+        "sha": "59d236cda905f953fa24b3d9fb4331cfa8db75a3",
+        "md5": "1fab8cfaf1fe078d7ec4b4976038a284"
+      },
       "Cost-burdened HHs/data/distribution/va_hdcttrbg_acs_2014_2021_cost_burdened_hhs.csv.xz": {
         "size": 1049528,
         "sha": "8cb0ef37496a25ded17b33653c78582ec5c1a3e5",
@@ -807,21 +777,6 @@
   },
   "uva-bi-sdad/sdc.public_safety": {
     "files": {
-      "Incarceration/data/distribution/va_hdcttr_2015_incarceration_rate_geo20.csv": {
-        "size": 169631,
-        "sha": "b7b669145609ef6060a5b307668060083123d389",
-        "md5": "9bd7697b753b391e65b45ac2cb5b03ed"
-      },
-      "Incarceration/data/distribution/va_hdcttr_2016_incarceration_rate_geo20.csv": {
-        "size": 169526,
-        "sha": "d30d59f7c449ef8c811b9a0a0f43d1d7d6982e4e",
-        "md5": "2d2458a4873d7b71a0cf637c21efecca"
-      },
-      "Incarceration/data/distribution/va_hdcttr_2017_incarceration_rate_geo20.csv": {
-        "size": 169386,
-        "sha": "8b27ef5f316a80e6dc2cfd0d34ecb195faf1fe66",
-        "md5": "51562899a872ce8b93d3780a0d26acb8"
-      },
       "Incarceration/data/distribution/va_hdcttr_2018_incarceration_rate_geo20.csv": {
         "size": 169562,
         "sha": "29fd307a06f0ca47acf6d93d6921b5870a5a7365",
@@ -836,6 +791,21 @@
         "size": 169911,
         "sha": "6ab6c0a92697a5961ce5ccd3c87b79a0c1ba8a1d",
         "md5": "d35f74fcc4bef3bb2226ded34f77dfe6"
+      },
+      "Incarceration/data/distribution/va_hdcttr_2015_incarceration_rate_geo20.csv": {
+        "size": 169631,
+        "sha": "b7b669145609ef6060a5b307668060083123d389",
+        "md5": "9bd7697b753b391e65b45ac2cb5b03ed"
+      },
+      "Incarceration/data/distribution/va_hdcttr_2016_incarceration_rate_geo20.csv": {
+        "size": 169526,
+        "sha": "d30d59f7c449ef8c811b9a0a0f43d1d7d6982e4e",
+        "md5": "2d2458a4873d7b71a0cf637c21efecca"
+      },
+      "Incarceration/data/distribution/va_hdcttr_2017_incarceration_rate_geo20.csv": {
+        "size": 169386,
+        "sha": "8b27ef5f316a80e6dc2cfd0d34ecb195faf1fe66",
+        "md5": "51562899a872ce8b93d3780a0d26acb8"
       },
       "Incarceration/data/distribution/va_hdcttr_2015_2020_incarceration_rate.csv.xz": {
         "size": 11724,
