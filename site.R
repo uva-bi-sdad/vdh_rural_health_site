@@ -232,15 +232,15 @@ page_panel(
     ),
     input_button(
       "Employment Access",
-      list(selected_variable = "employment_access_index")
+      list(selected_variable = "employment_access_index_geo20")
     ),
     input_button(
       "Income Inequality",
-      list(selected_variable = "gini_index")
+      list(selected_variable = "gini_index_geo20")
     ),
     input_button(
       "Material Deprivation",
-      list(selected_variable = "material_deprivation_indicator")
+      list(selected_variable = "material_deprivation_indicator_geo20")
     ),
     input_button(
       "Years of Schooling",
