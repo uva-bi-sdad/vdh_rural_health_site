@@ -547,17 +547,17 @@
     },
     "EmploymentAccess": {
       "effects": {
-        "selected_variable": "employment_access_index"
+        "selected_variable": "employment_access_index_geo20"
       }
     },
     "IncomeInequality": {
       "effects": {
-        "selected_variable": "gini_index"
+        "selected_variable": "gini_index_geo20"
       }
     },
     "MaterialDeprivation": {
       "effects": {
-        "selected_variable": "material_deprivation_indicator"
+        "selected_variable": "material_deprivation_indicator_geo20"
       }
     },
     "YearsofSchooling": {

@@ -33,7 +33,7 @@
 "economic_opportunity_indicator",1,0,0,2168
 "education_indicator",1,133,35,1884
 "emp_rate",1,931,0,13688
-"employment_access_index",1,931,245,16509
+"employment_access_index_geo20",1,931,245,15054
 "employment_access_indicator",1,133,35,1884
 "ems_3sfca",1,133,35,2218
 "ems_cnt",1,133,35,2235
@@ -43,7 +43,7 @@
 "fruit_treeNut_total_sales",1,144,0,0
 "gender_female_percent_direct",1,1734,455,24200
 "gender_male_percent_direct",1,1734,455,24200
-"gini_index",1,931,245,16501
+"gini_index_geo20",1,931,245,15004
 "health_opportunity_indicator",1,0,0,15170
 "hh_received_snap_cnt",1,1065,280,15518
 "hh_received_snap_pct",1,1065,280,15518
@@ -55,9 +55,9 @@
 "intermediate_pc",1,925,0,0
 "job_participate_rate",0,63,0,3720
 "job_participation_indicator",1,133,35,1884
-"labor_participate_rate_geo20",0,931,245,15108
+"labor_participate_rate_geo20",1,931,245,15108
 "language_hh_limited_english_percent_direct",1,798,210,11808
-"material_deprivation_indicator",1,931,35,16513
+"material_deprivation_indicator_geo20",1,931,35,15041
 "median_household_income",1,683,0,10463
 "median_read_pass_rate",1,778,0,0
 "mental_3sfca",1,133,35,2218
