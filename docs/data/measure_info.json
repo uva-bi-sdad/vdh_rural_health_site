@@ -465,7 +465,7 @@
     "unit": "percent",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.housing/blob/main/Cost/Affordability_HT/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.housing/blob/main/Cost/Affordability_HT/data/distribution/va_hdcttr_2015_2021_affordability_index.csv.xz", "https://github.com/uva-bi-sdad/sdc.housing/blob/main/Cost/Affordability_HT/data/distribution/va_tr_2016_affordability_index_geo20.csv"]
+    "origin": ["https://github.com/uva-bi-sdad/sdc.housing/blob/main/Cost/Affordability_HT/data/distribution/va_hdcttr_2015_2021_affordability_index.csv.xz", "https://github.com/uva-bi-sdad/sdc.housing/blob/main/Cost/Affordability_HT/data/distribution/va_tr_2019_affordability_index_geo20.csv"]
   },
   "affordability_indicator": {
     "aggregation_method": "",
@@ -708,7 +708,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Years of Schooling/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Years of Schooling/data/distribution/va_hdcttr_acs5_2015_2021_years_of_schooling.csv.xz"
+    "origin": ["https://github.com/uva-bi-sdad/sdc.education/blob/main/Years of Schooling/data/distribution/va_hdcttr_acs5_2015_2021_years_of_schooling.csv.xz", "https://github.com/uva-bi-sdad/sdc.education/blob/main/Years of Schooling/data/distribution/va_tr_acs5_2021_years_of_schooling_geo20.csv"]
   },
   "avg_down_using_devices": {
     "aggregation_method": "weighted arithmetic mean",
@@ -1325,7 +1325,7 @@
     "unit": "job",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment Access/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment Access/data/distribution/va_hdcttr_2015_2021_employment_access_index.csv.xz", "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment Access/data/distribution/va_tr_2015_employment_access_index_geo20.csv"]
+    "origin": ["https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment Access/data/distribution/va_hdcttr_2015_2021_employment_access_index.csv.xz", "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment Access/data/distribution/va_tr_2019_employment_access_index_geo20.csv"]
   },
   "employment_access_indicator": {
     "aggregation_method": "",
@@ -1504,7 +1504,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Access/Food Accessibility Indicator (HOI)/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Access/Food Accessibility Indicator (HOI)/data/distribution/va_tr_usda_2019_food_access_geo20.csv"
+    "origin": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Access/Food Accessibility Indicator (HOI)/data/distribution/va_tr_usda_2015_food_access_geo20.csv"
   },
   "fruit_treeNut_total_sales": {
     "aggregation_method": "",
@@ -1673,7 +1673,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Income Inequality/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Income Inequality/data/distribution/ncr_cttr_2015_2021_income_inequality_gini_index.csv.xz", "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Income Inequality/data/distribution/va_hdcttr_2015_2021_income_inequality_gini_index.csv.xz", "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Income Inequality/data/distribution/va_tr_2021_income_inequality_gini_index_geo20.csv"]
+    "origin": ["https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Income Inequality/data/distribution/ncr_cttr_2015_2021_income_inequality_gini_index.csv.xz", "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Income Inequality/data/distribution/va_hdcttr_2015_2021_income_inequality_gini_index.csv.xz", "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Income Inequality/data/distribution/va_tr_2015_income_inequality_gini_index_geo20.csv"]
   },
   "health_opportunity_indicator": {
     "aggregation_method": "",
@@ -1702,7 +1702,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2017_quintiles.csv"
+    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2021_quintiles.csv"
   },
   "hh_received_snap_cnt": {
     "aggregation_method": "",
@@ -1847,7 +1847,7 @@
     "unit": "individual",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.public_safety/blob/main/Incarceration/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.public_safety/blob/main/Incarceration/data/distribution/va_hdcttr_2015_2020_incarceration_rate.csv.xz", "https://github.com/uva-bi-sdad/sdc.public_safety/blob/main/Incarceration/data/distribution/va_hdcttr_2016_incarceration_rate_geo20.csv"]
+    "origin": ["https://github.com/uva-bi-sdad/sdc.public_safety/blob/main/Incarceration/data/distribution/va_hdcttr_2015_2020_incarceration_rate.csv.xz", "https://github.com/uva-bi-sdad/sdc.public_safety/blob/main/Incarceration/data/distribution/va_hdcttr_2021_incarceration_rate_geo20.csv"]
   },
   "income_inequality_indicator": {
     "aggregation_method": "",
@@ -1965,35 +1965,6 @@
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/va_hdcttr_vdh_2017_job_participation_index.csv.xz"
   },
-  "labor_participate_rate": {
-    "aggregation_method": "percent",
-    "categories": "",
-    "category": "Employment/Workforce Development",
-    "citations": "",
-    "data_type": "decimal",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "The percentage of individuals aged 16 years and over in the labor force. In other words, the labor force participation rate is the number of people who are either working or actively looking for work. The labor force participation rate is often used by economists as an indicator of economic development and growth. /n Here the labor force includes all people classified in the civilian labor force and members of the members of the U.S. Armed Forces (people on active duty with the United States Army, Air Force, Navy, Marine Corps, or Coast Guard). The civilian labor force population consists of all people aged 16 and older who are classified as employed and unemployed. /n Based on American Community Survey Table 5-year estimates from 2015 to 2021. Labor force participation rate data is available at the tract, county and health district level for the state of Virginia.",
-    "long_name": "Labor Force Participation Rate",
-    "measure_type": "",
-    "short_description": "The percentage of individuals aged 16 years and over in the labor force.",
-    "short_name": "Labor Force Participation Rate",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "location": "5-Year estimates, table S2301_C02_001, via the API",
-        "location_url": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
-        "date_accessed": "2023",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "{value} of the population in {region_name} is participating in the civilian job force.",
-    "type": "percent",
-    "unit": "individual",
-    "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment/data/distribution/va_hdcttr_2015_2021_labor_participate_rate.csv.xz", "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment/data/distribution/va_tr_2015_labor_participate_rate_geo20.csv"]
-  },
   "language_{variant.name}{category.name}": {
     "category": "Demographics",
     "data_type": "{variant}",
@@ -2108,7 +2079,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Material_Deprivation/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Material_Deprivation/data/distribution/va_hdcttr_vdh_2015_2021_material_deprivation_index.csv.xz", "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Material_Deprivation/data/distribution/va_tr_vdh_2017_material_deprivation_index_geo20.csv"]
+    "origin": ["https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Material_Deprivation/data/distribution/va_hdcttr_vdh_2015_2021_material_deprivation_index.csv.xz", "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Material_Deprivation/data/distribution/va_tr_vdh_2021_material_deprivation_index_geo20.csv"]
   },
   "median_household_income": {
     "aggregation_method": "",
@@ -15383,7 +15354,7 @@
       }
     },
     "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Overall/code/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Overall/data/distribution/census.csv", "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Overall/data/distribution/va_tr_2015_population_density_geo20.csv"]
+    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Overall/data/distribution/census.csv"
   },
   "poverty_pct": {
     "aggregation_method": "",
@@ -16010,7 +15981,7 @@
     "unit": "individual",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Segregation (HOI)/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Segregation (HOI)/data/distribution/va_trcthd_vdh_2015_2021_segregation_index.csv.xz", "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Segregation (HOI)/data/distribution/va_trcthd_vdh_2017_segregation_index_geo20.csv"]
+    "origin": ["https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Segregation (HOI)/data/distribution/va_trcthd_vdh_2015_2021_segregation_index.csv.xz", "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Segregation (HOI)/data/distribution/va_trcthd_vdh_2015_segregation_index_geo20.csv"]
   },
   "subs_3sfca": {
     "aggregation_method": "",

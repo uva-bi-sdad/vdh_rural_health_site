@@ -542,7 +542,7 @@
     },
     "LaborForceParticipationRate": {
       "effects": {
-        "selected_variable": "labor_participate_rate"
+        "selected_variable": "labor_participate_rate_geo20"
       }
     },
     "EmploymentAccess": {

@@ -55,7 +55,7 @@
 "intermediate_pc",1,925,0,0
 "job_participate_rate",0,63,0,3720
 "job_participation_indicator",1,133,35,1884
-"labor_participate_rate",1,931,245,16521
+"labor_participate_rate_geo20",0,931,245,15108
 "language_hh_limited_english_percent_direct",1,798,210,11808
 "material_deprivation_indicator",1,931,35,16513
 "median_household_income",1,683,0,10463
