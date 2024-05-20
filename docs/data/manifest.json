@@ -149,6 +149,16 @@
   },
   "uva-bi-sdad/sdc.demographics": {
     "files": {
+      "Overall/data/distribution/va_tr_2019_population_density_geo20.csv": {
+        "size": 135001,
+        "sha": "94718ae7baf97912157937e5254bc4abbc159278",
+        "md5": "641311934630e6404f29f9ed5cd0b2f7"
+      },
+      "Overall/data/distribution/va_tr_2021_population_density_geo20.csv": {
+        "size": 134625,
+        "sha": "6bcd42bdad7d5b15d4161abc1060c9c6e3842971",
+        "md5": "9a6234fd0dfac793df3574d28353476b"
+      },
       "Segregation (HOI)/data/distribution/va_trcthd_vdh_2015_2021_segregation_index.csv.xz": {
         "size": 41360,
         "sha": "a92740bc6b5bb6e509ea7dd48f9a368c385e2c4e",
@@ -208,16 +218,6 @@
         "size": 135024,
         "sha": "cb07c7eda3a66410770164137427ae2bc4d1c7aa",
         "md5": "8c966c1259201e1f538362d9b8e5575d"
-      },
-      "Overall/data/distribution/va_tr_2019_population_density_geo20.csv": {
-        "size": 135001,
-        "sha": "94718ae7baf97912157937e5254bc4abbc159278",
-        "md5": "641311934630e6404f29f9ed5cd0b2f7"
-      },
-      "Overall/data/distribution/va_tr_2021_population_density_geo20.csv": {
-        "size": 134625,
-        "sha": "6bcd42bdad7d5b15d4161abc1060c9c6e3842971",
-        "md5": "9a6234fd0dfac793df3574d28353476b"
       },
       "Geographic Mobility (HOI)/data/distribution/va_tr_acs_2015_moving_demographics_geo20.csv": {
         "size": 104896,
@@ -323,50 +323,15 @@
   },
   "uva-bi-sdad/sdc.education": {
     "files": {
-      "Years of Schooling/data/distribution/va_tr_acs5_2015_years_of_schooling_geo20.csv": {
-        "size": 130907,
-        "sha": "af9ea26f81f022d228df22cc9a1d8c2ef39efe69",
-        "md5": "29297df301795b412e923bd57505cccf"
-      },
-      "Years of Schooling/data/distribution/va_tr_acs5_2016_years_of_schooling_geo20.csv": {
-        "size": 130923,
-        "sha": "8ab7690a3d02fadfe4c556d858e8dbcf2f434f91",
-        "md5": "7605e762258feba73f085bede6ec948c"
-      },
-      "Years of Schooling/data/distribution/va_tr_acs5_2017_years_of_schooling_geo20.csv": {
-        "size": 130923,
-        "sha": "b561795550d68f33a12f1602d9be54f705c15c62",
-        "md5": "6c14770c585634f516b9a6190632a08a"
-      },
-      "Years of Schooling/data/distribution/va_tr_acs5_2018_years_of_schooling_geo20.csv": {
-        "size": 130925,
-        "sha": "908f17bbe5349d915c3608c35d0ff3a874827d5d",
-        "md5": "512f5766c24cebcc760d9d5991d74d49"
-      },
-      "Years of Schooling/data/distribution/va_tr_acs5_2019_years_of_schooling_geo20.csv": {
-        "size": 130911,
-        "sha": "5d8c44d5e00155f9bdb7ca39fa6ae7ed318595c6",
-        "md5": "7e70ded7494ac96570a3988d2609b43e"
-      },
-      "Years of Schooling/data/distribution/va_tr_acs5_2021_years_of_schooling_geo20.csv": {
-        "size": 130949,
-        "sha": "e8274857ca03b140cb714be9e27732cc74881e2d",
-        "md5": "33ba968e6ad9af50bd409990f36446c2"
-      },
-      "Years of Schooling/data/distribution/va_hdcttr_acs5_2015_2021_years_of_schooling.csv.xz": {
-        "size": 131732,
-        "sha": "75ecff37dc85de952b89c56b55b2b15441741406",
-        "md5": "69a789559a5389c92eca7fa77425b99c"
+      "Years of Schooling/data/distribution/va_trct_acs5_2015_2021_years_of_schooling_std.csv": {
+        "size": 171348,
+        "sha": "f39d6882c30bda419a327d07f3598b747ff404ec",
+        "md5": "f6da39a6e61bc52859fe78ddd71f19b6"
       },
       "Reading/data/distribution/va_hdctsd_vdoe_2015_2021_3rd_grade_mean_read_score.csv.xz": {
         "size": 3800,
         "sha": "2c203b2ac687d43c81687cb719ace1c5f22b005b",
         "md5": "2e14b7b8e956beba08d80e0d57d11862"
-      },
-      "Years of Schooling/data/distribution/ncr_tr_acs5_2017_2021_years_of_schooling.csv.xz": {
-        "size": 59996,
-        "sha": "d23d1dcbf9af671de80f7fb270ce7b14b7d2634d",
-        "md5": "93daa293820fc63c044d785104028592"
       },
       "Postsecondary/data/distribution/nces.csv.xz": {
         "size": 11384852,
@@ -470,6 +435,11 @@
   },
   "uva-bi-sdad/sdc.food": {
     "files": {
+      "Food Access/Food Accessibility Indicator (HOI)/data/distribution/va_tr_usda_2017_food_access_geo20.csv": {
+        "size": 128268,
+        "sha": "c6d38aa81151ee51bf4aa6718de81eecd7a62c44",
+        "md5": "1b0621c03df97d7eba77d9efb35fa1c1"
+      },
       "Food Access/Food Accessibility Indicator (HOI)/data/distribution/va_tr_usda_2018_food_access_geo20.csv": {
         "size": 128268,
         "sha": "f977a241f5d289a49901f86750c9402a5227ea32",
@@ -494,11 +464,6 @@
         "size": 128268,
         "sha": "2ce913b5cfb3e074fde094f56d561b5ee0cabe7d",
         "md5": "88ee60e126d6d09a2eea2e16dfae31b8"
-      },
-      "Food Access/Food Accessibility Indicator (HOI)/data/distribution/va_tr_usda_2017_food_access_geo20.csv": {
-        "size": 128268,
-        "sha": "c6d38aa81151ee51bf4aa6718de81eecd7a62c44",
-        "md5": "1b0621c03df97d7eba77d9efb35fa1c1"
       },
       "Food and Nutrition Assistance/Supplemental Nutrition Assistance Program (SNAP)/data/distribution/ncr_cttrbg_acs_2013_2020_hh_receiving_snap.csv.xz": {
         "size": 571372,
@@ -549,16 +514,6 @@
   },
   "uva-bi-sdad/sdc.health": {
     "files": {
-      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2021_quintiles.csv": {
-        "size": 133340,
-        "sha": "f493f6be1a4a1c4694847a7d857c028c12224066",
-        "md5": "bfd79bc55d37d37711f293a58b30f08f"
-      },
-      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2021.csv": {
-        "size": 150422,
-        "sha": "e4ff34a7e1f03f114e2249913bde8c6434dd4e23",
-        "md5": "d480afe5ad7f9f2c38d29a18e82e5297"
-      },
       "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2015_quintiles.csv": {
         "size": 133340,
         "sha": "d03997ead949d19b39d4bee6720a75f61f19d6e7",
@@ -583,6 +538,16 @@
         "size": 133340,
         "sha": "1cd5e4116607d1bea8b283af83f474f2b8b72471",
         "md5": "8ba99303ac19dfedfc44674ce5d7597b"
+      },
+      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2021_quintiles.csv": {
+        "size": 133340,
+        "sha": "f493f6be1a4a1c4694847a7d857c028c12224066",
+        "md5": "bfd79bc55d37d37711f293a58b30f08f"
+      },
+      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2021.csv": {
+        "size": 150422,
+        "sha": "e4ff34a7e1f03f114e2249913bde8c6434dd4e23",
+        "md5": "d480afe5ad7f9f2c38d29a18e82e5297"
       },
       "Population Health/System Usage and Insurance/Without Health Insurance/data/distribution/ncr_cttrbg_acs5_2015_2019_no_health_insurance_19_to_64.csv.xz": {
         "size": 397856,
@@ -842,16 +807,6 @@
   },
   "uva-bi-sdad/sdc.public_safety": {
     "files": {
-      "Incarceration/data/distribution/va_hdcttr_2019_incarceration_rate_geo20.csv": {
-        "size": 169558,
-        "sha": "6926db011a00a6bc43b5c20a633ec01a2377966b",
-        "md5": "56d3459a0798fd8154d3e93a5c073a79"
-      },
-      "Incarceration/data/distribution/va_hdcttr_2021_incarceration_rate_geo20.csv": {
-        "size": 169911,
-        "sha": "6ab6c0a92697a5961ce5ccd3c87b79a0c1ba8a1d",
-        "md5": "d35f74fcc4bef3bb2226ded34f77dfe6"
-      },
       "Incarceration/data/distribution/va_hdcttr_2015_incarceration_rate_geo20.csv": {
         "size": 169631,
         "sha": "b7b669145609ef6060a5b307668060083123d389",
@@ -871,6 +826,16 @@
         "size": 169562,
         "sha": "29fd307a06f0ca47acf6d93d6921b5870a5a7365",
         "md5": "78be844fac58b7a281163e342cbbdb88"
+      },
+      "Incarceration/data/distribution/va_hdcttr_2019_incarceration_rate_geo20.csv": {
+        "size": 169558,
+        "sha": "6926db011a00a6bc43b5c20a633ec01a2377966b",
+        "md5": "56d3459a0798fd8154d3e93a5c073a79"
+      },
+      "Incarceration/data/distribution/va_hdcttr_2021_incarceration_rate_geo20.csv": {
+        "size": 169911,
+        "sha": "6ab6c0a92697a5961ce5ccd3c87b79a0c1ba8a1d",
+        "md5": "d35f74fcc4bef3bb2226ded34f77dfe6"
       },
       "Incarceration/data/distribution/va_hdcttr_2015_2020_incarceration_rate.csv.xz": {
         "size": 11724,

@@ -562,7 +562,7 @@
     },
     "YearsofSchooling": {
       "effects": {
-        "selected_variable": "average_years_schooling"
+        "selected_variable": "average_years_schooling_geo20"
       }
     },
     "AccesstoFood(VDH)": {

@@ -681,7 +681,7 @@
     "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Asset Limited Income Constrained Employed (ALICE)/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Asset Limited Income Constrained Employed (ALICE)/data/distribution/va_ct_2010_2021_alice.csv.xz"
   },
-  "average_years_schooling": {
+  "average_years_schooling_geo20": {
     "aggregation_method": "",
     "categories": "",
     "category": "Education",
@@ -708,7 +708,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Years of Schooling/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.education/blob/main/Years of Schooling/data/distribution/va_hdcttr_acs5_2015_2021_years_of_schooling.csv.xz", "https://github.com/uva-bi-sdad/sdc.education/blob/main/Years of Schooling/data/distribution/va_tr_acs5_2015_years_of_schooling_geo20.csv"]
+    "origin": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Years of Schooling/data/distribution/va_trct_acs5_2015_2021_years_of_schooling_std.csv"
   },
   "avg_down_using_devices": {
     "aggregation_method": "weighted arithmetic mean",
@@ -1504,7 +1504,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Access/Food Accessibility Indicator (HOI)/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Access/Food Accessibility Indicator (HOI)/data/distribution/va_tr_usda_2018_food_access_geo20.csv"
+    "origin": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Access/Food Accessibility Indicator (HOI)/data/distribution/va_tr_usda_2017_food_access_geo20.csv"
   },
   "fruit_treeNut_total_sales": {
     "aggregation_method": "",
@@ -1702,7 +1702,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2021_quintiles.csv"
+    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2015_quintiles.csv"
   },
   "hh_received_snap_cnt": {
     "aggregation_method": "",
@@ -1847,7 +1847,7 @@
     "unit": "individual",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.public_safety/blob/main/Incarceration/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.public_safety/blob/main/Incarceration/data/distribution/va_hdcttr_2015_2020_incarceration_rate.csv.xz", "https://github.com/uva-bi-sdad/sdc.public_safety/blob/main/Incarceration/data/distribution/va_hdcttr_2019_incarceration_rate_geo20.csv"]
+    "origin": ["https://github.com/uva-bi-sdad/sdc.public_safety/blob/main/Incarceration/data/distribution/va_hdcttr_2015_2020_incarceration_rate.csv.xz", "https://github.com/uva-bi-sdad/sdc.public_safety/blob/main/Incarceration/data/distribution/va_hdcttr_2015_incarceration_rate_geo20.csv"]
   },
   "income_inequality_indicator": {
     "aggregation_method": "",
@@ -15383,7 +15383,7 @@
       }
     },
     "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Overall/code/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Overall/data/distribution/census.csv"
+    "origin": ["https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Overall/data/distribution/census.csv", "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Overall/data/distribution/va_tr_2019_population_density_geo20.csv"]
   },
   "poverty_pct": {
     "aggregation_method": "",
