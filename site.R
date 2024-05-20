@@ -228,7 +228,7 @@ page_panel(
     '<p class="lead" style="font-size:1em;text-weight:bold;">Related Measures</p>',
     input_button(
       "Labor Force Participation Rate",
-      list(selected_variable = "labor_participate_rate")
+      list(selected_variable = "labor_participate_rate_geo20")
     ),
     input_button(
       "Employment Access",
