@@ -244,7 +244,7 @@ page_panel(
     ),
     input_button(
       "Years of Schooling",
-      list(selected_variable = "average_years_schooling")
+      list(selected_variable = "average_years_schooling_geo20")
     ),
     input_button(
       "Access to Food (VDH)",
