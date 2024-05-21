@@ -268,7 +268,7 @@ page_panel(
     ),
     input_button(
       "Affordability (H&T)",
-      list(selected_variable = "affordability_index")
+      list(selected_variable = "affordability_index_geo20")
     ),
     input_button(
       "Environmental Hazard Index",
