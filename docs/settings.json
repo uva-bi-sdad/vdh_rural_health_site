@@ -572,7 +572,7 @@
     },
     "GeographicMobility": {
       "effects": {
-        "selected_variable": "perc_moving"
+        "selected_variable": "perc_moving_geo20"
       }
     },
     "PopulationDensity": {
