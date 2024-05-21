@@ -260,7 +260,7 @@ page_panel(
     ),
     input_button(
       "Segregation",
-      list(selected_variable = "segregation_indicator")
+      list(selected_variable = "segregation_indicator_geo20")
     ),
     input_button(
       "Walkability",
