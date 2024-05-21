@@ -149,26 +149,6 @@
   },
   "uva-bi-sdad/sdc.demographics": {
     "files": {
-      "Overall/data/distribution/va_tr_2021_population_density_geo20.csv": {
-        "size": 134625,
-        "sha": "6bcd42bdad7d5b15d4161abc1060c9c6e3842971",
-        "md5": "9a6234fd0dfac793df3574d28353476b"
-      },
-      "Segregation (HOI)/data/distribution/va_trcthd_vdh_2015_2021_segregation_index.csv.xz": {
-        "size": 41360,
-        "sha": "a92740bc6b5bb6e509ea7dd48f9a368c385e2c4e",
-        "md5": "8f8ecf9546dbbb8cbb792b12e08d5ad2"
-      },
-      "Segregation (HOI)/data/distribution/va_trcthd_vdh_2015_segregation_index_geo20.csv": {
-        "size": 126402,
-        "sha": "cd1080f84081007e0c4adc3a883ca1a3dbc7ac51",
-        "md5": "b0f3de8a1a5c0eabbcb4f62bff7b1cae"
-      },
-      "Segregation (HOI)/data/distribution/va_trcthd_vdh_2016_segregation_index_geo20.csv": {
-        "size": 126601,
-        "sha": "d66aab6b660eff5e39761efa66a6c21bc443ad4b",
-        "md5": "4a1a25fc96b8ee0751bdddc970427512"
-      },
       "Segregation (HOI)/data/distribution/va_trcthd_vdh_2017_segregation_index_geo20.csv": {
         "size": 126411,
         "sha": "7b39f378e54d018619769287e3e5135826b77cc1",
@@ -188,11 +168,6 @@
         "size": 126674,
         "sha": "12da3cadb81d673101cb1c8e7fd50b72bf49b7e9",
         "md5": "dd2e768eca3751b6a7c4d2d80168f9c2"
-      },
-      "Overall/data/distribution/census.csv": {
-        "size": 24529013,
-        "sha": "066459531bc3e7d3531992bf29b8d2913a05bdfa",
-        "md5": "4bdede5b3013f9f5a969b338ae0d0011"
       },
       "Overall/data/distribution/va_tr_2015_population_density_geo20.csv": {
         "size": 134986,
@@ -219,10 +194,30 @@
         "sha": "94718ae7baf97912157937e5254bc4abbc159278",
         "md5": "641311934630e6404f29f9ed5cd0b2f7"
       },
-      "Geographic Mobility (HOI)/data/distribution/va_tr_acs_2015_moving_demographics_geo20.csv": {
-        "size": 104896,
-        "sha": "3379379224736e69cb06fd563e3da9338ce7c26b",
-        "md5": "e12858fa1b70678f1114dab4fca6e4b8"
+      "Overall/data/distribution/va_tr_2021_population_density_geo20.csv": {
+        "size": 134625,
+        "sha": "6bcd42bdad7d5b15d4161abc1060c9c6e3842971",
+        "md5": "9a6234fd0dfac793df3574d28353476b"
+      },
+      "Segregation (HOI)/data/distribution/va_trcthd_vdh_2015_2021_segregation_index.csv.xz": {
+        "size": 41360,
+        "sha": "a92740bc6b5bb6e509ea7dd48f9a368c385e2c4e",
+        "md5": "8f8ecf9546dbbb8cbb792b12e08d5ad2"
+      },
+      "Segregation (HOI)/data/distribution/va_trcthd_vdh_2015_segregation_index_geo20.csv": {
+        "size": 126402,
+        "sha": "cd1080f84081007e0c4adc3a883ca1a3dbc7ac51",
+        "md5": "b0f3de8a1a5c0eabbcb4f62bff7b1cae"
+      },
+      "Segregation (HOI)/data/distribution/va_trcthd_vdh_2016_segregation_index_geo20.csv": {
+        "size": 126601,
+        "sha": "d66aab6b660eff5e39761efa66a6c21bc443ad4b",
+        "md5": "4a1a25fc96b8ee0751bdddc970427512"
+      },
+      "Overall/data/distribution/census.csv": {
+        "size": 24529013,
+        "sha": "066459531bc3e7d3531992bf29b8d2913a05bdfa",
+        "md5": "4bdede5b3013f9f5a969b338ae0d0011"
       },
       "Geographic Mobility (HOI)/data/distribution/va_tr_acs_2016_moving_demographics_geo20.csv": {
         "size": 104902,
@@ -248,6 +243,11 @@
         "size": 104895,
         "sha": "ea8d1caa47542dba5d669bc11b1c9aa3f11ab664",
         "md5": "665af90d0bedead7982d0e6e0c658523"
+      },
+      "Geographic Mobility (HOI)/data/distribution/va_tr_acs_2015_moving_demographics_geo20.csv": {
+        "size": 104896,
+        "sha": "3379379224736e69cb06fd563e3da9338ce7c26b",
+        "md5": "e12858fa1b70678f1114dab4fca6e4b8"
       },
       "Veteran/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_veteran_demographics.csv.xz": {
         "size": 1500820,
@@ -323,10 +323,10 @@
   },
   "uva-bi-sdad/sdc.education": {
     "files": {
-      "Years of Schooling/data/distribution/va_trct_acs5_2015_2021_years_of_schooling_std.csv": {
-        "size": 171348,
-        "sha": "f39d6882c30bda419a327d07f3598b747ff404ec",
-        "md5": "f6da39a6e61bc52859fe78ddd71f19b6"
+      "Years of Schooling/data/distribution/va_hdtrct_acs5_2015_2021_years_of_schooling_std.csv.xz": {
+        "size": 101428,
+        "sha": "c4246a760f3739fdc2c0489201c797828abbd034",
+        "md5": "46e7ed281339551ec60d904caf7becd9"
       },
       "Reading/data/distribution/va_hdctsd_vdoe_2015_2021_3rd_grade_mean_read_score.csv.xz": {
         "size": 3800,
@@ -484,6 +484,11 @@
   },
   "uva-bi-sdad/sdc.health": {
     "files": {
+      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2015_quintiles.csv": {
+        "size": 133340,
+        "sha": "d03997ead949d19b39d4bee6720a75f61f19d6e7",
+        "md5": "a194f1d540cecc2d0563242c4768c100"
+      },
       "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2016_quintiles.csv": {
         "size": 133340,
         "sha": "e7d37f15a65150a67ea9bf1174ea5f1735f724a4",
@@ -513,11 +518,6 @@
         "size": 150422,
         "sha": "e4ff34a7e1f03f114e2249913bde8c6434dd4e23",
         "md5": "d480afe5ad7f9f2c38d29a18e82e5297"
-      },
-      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2015_quintiles.csv": {
-        "size": 133340,
-        "sha": "d03997ead949d19b39d4bee6720a75f61f19d6e7",
-        "md5": "a194f1d540cecc2d0563242c4768c100"
       },
       "Population Health/System Usage and Insurance/Without Health Insurance/data/distribution/ncr_cttrbg_acs5_2015_2019_no_health_insurance_19_to_64.csv.xz": {
         "size": 397856,
