@@ -371,10 +371,10 @@
         "sha": "8cfbb5fb6274c74f3feae36ec79f0de4cd786a0b",
         "md5": "b369bdb56a89e42c10a95c5ceda67c35"
       },
-      "Employment/data/distribution/va_hdcttr_2015_2021_labor_participate_rate_std.csv.xz": {
-        "size": 126540,
-        "sha": "7b0d927032b6e68d0f03ffec2cace2a51e54c1e0",
-        "md5": "4785ecf2597bca4013f381d4c37e6b27"
+      "Employment/data/distribution/va_hdcttr_2015_2022_labor_participate_rate_std.csv.xz": {
+        "size": 139484,
+        "sha": "e8befcb508ebd735f7541f37d82a92e682327066",
+        "md5": "21ce9c86bdfb648f25638c6cc6620323"
       },
       "Material_Deprivation/data/distribution/va_hdcttr_vdh_2015_2021_material_deprivation_index_std.csv.xz": {
         "size": 188088,
@@ -436,9 +436,9 @@
   "uva-bi-sdad/sdc.food": {
     "files": {
       "Food Access/Food Accessibility Indicator (HOI)/data/distribution/va_tr_usda_2015_2019_food_access_std.csv.xz": {
-        "size": 146988,
-        "sha": "9f73c45c98e45d98f9c3787b56e7c43df31bd166",
-        "md5": "da3db3705a6aae8adfa8852be137cdf5"
+        "size": 183004,
+        "sha": "8083e7b32b15a77707646cdfb11fee23ce99f02e",
+        "md5": "15b910335534995fd09e7edb3d53fc15"
       },
       "Food and Nutrition Assistance/Supplemental Nutrition Assistance Program (SNAP)/data/distribution/ncr_cttrbg_acs_2013_2020_hh_receiving_snap.csv.xz": {
         "size": 571372,
@@ -484,21 +484,6 @@
   },
   "uva-bi-sdad/sdc.health": {
     "files": {
-      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2015_quintiles.csv": {
-        "size": 133340,
-        "sha": "d03997ead949d19b39d4bee6720a75f61f19d6e7",
-        "md5": "a194f1d540cecc2d0563242c4768c100"
-      },
-      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2016_quintiles.csv": {
-        "size": 133340,
-        "sha": "e7d37f15a65150a67ea9bf1174ea5f1735f724a4",
-        "md5": "465056a2181d433e3bc71709ce87437e"
-      },
-      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2017_quintiles.csv": {
-        "size": 133340,
-        "sha": "80ca4d4a4751aa827bbb0ea3c0125c2c313380f9",
-        "md5": "1983778b12cf729b2525c7ffc1799312"
-      },
       "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2018_quintiles.csv": {
         "size": 133340,
         "sha": "c2a4228a0415078bc72b39d5b6dcc248ad00a4bb",
@@ -518,6 +503,21 @@
         "size": 150422,
         "sha": "e4ff34a7e1f03f114e2249913bde8c6434dd4e23",
         "md5": "d480afe5ad7f9f2c38d29a18e82e5297"
+      },
+      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2015_quintiles.csv": {
+        "size": 133340,
+        "sha": "d03997ead949d19b39d4bee6720a75f61f19d6e7",
+        "md5": "a194f1d540cecc2d0563242c4768c100"
+      },
+      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2016_quintiles.csv": {
+        "size": 133340,
+        "sha": "e7d37f15a65150a67ea9bf1174ea5f1735f724a4",
+        "md5": "465056a2181d433e3bc71709ce87437e"
+      },
+      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2017_quintiles.csv": {
+        "size": 133340,
+        "sha": "80ca4d4a4751aa827bbb0ea3c0125c2c313380f9",
+        "md5": "1983778b12cf729b2525c7ffc1799312"
       },
       "Population Health/System Usage and Insurance/Without Health Insurance/data/distribution/ncr_cttrbg_acs5_2015_2019_no_health_insurance_19_to_64.csv.xz": {
         "size": 397856,
@@ -777,11 +777,6 @@
   },
   "uva-bi-sdad/sdc.public_safety": {
     "files": {
-      "Incarceration/data/distribution/va_hdcttr_2018_incarceration_rate_geo20.csv": {
-        "size": 169562,
-        "sha": "29fd307a06f0ca47acf6d93d6921b5870a5a7365",
-        "md5": "78be844fac58b7a281163e342cbbdb88"
-      },
       "Incarceration/data/distribution/va_hdcttr_2019_incarceration_rate_geo20.csv": {
         "size": 169558,
         "sha": "6926db011a00a6bc43b5c20a633ec01a2377966b",
@@ -806,6 +801,11 @@
         "size": 169386,
         "sha": "8b27ef5f316a80e6dc2cfd0d34ecb195faf1fe66",
         "md5": "51562899a872ce8b93d3780a0d26acb8"
+      },
+      "Incarceration/data/distribution/va_hdcttr_2018_incarceration_rate_geo20.csv": {
+        "size": 169562,
+        "sha": "29fd307a06f0ca47acf6d93d6921b5870a5a7365",
+        "md5": "78be844fac58b7a281163e342cbbdb88"
       },
       "Incarceration/data/distribution/va_hdcttr_2015_2020_incarceration_rate.csv.xz": {
         "size": 11724,
