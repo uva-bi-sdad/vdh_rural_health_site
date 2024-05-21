@@ -252,7 +252,7 @@ page_panel(
     ),
     input_button(
       "Geographic Mobility",
-      list(selected_variable = "perc_moving")
+      list(selected_variable = "perc_moving_geo20")
     ),
     input_button(
       "Population Density",
