@@ -577,12 +577,12 @@
     },
     "PopulationDensity": {
       "effects": {
-        "selected_variable": "population_density_direct"
+        "selected_variable": "population_density_geo20"
       }
     },
     "Segregation": {
       "effects": {
-        "selected_variable": "segregation_indicator"
+        "selected_variable": "segregation_indicator_geo20"
       }
     },
     "Walkability": {

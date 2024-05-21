@@ -465,7 +465,7 @@
     "unit": "percent",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.housing/blob/main/Cost/Affordability_HT/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.housing/blob/main/Cost/Affordability_HT/data/distribution/va_hdcttr_2015_2021_affordability_index.csv.xz", "https://github.com/uva-bi-sdad/sdc.housing/blob/main/Cost/Affordability_HT/data/distribution/va_tr_2017_affordability_index_geo20.csv"]
+    "origin": ["https://github.com/uva-bi-sdad/sdc.housing/blob/main/Cost/Affordability_HT/data/distribution/va_hdcttr_2015_2021_affordability_index.csv.xz", "https://github.com/uva-bi-sdad/sdc.housing/blob/main/Cost/Affordability_HT/data/distribution/va_tr_2021_affordability_index_geo20.csv"]
   },
   "affordability_indicator": {
     "aggregation_method": "",
@@ -1702,7 +1702,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2017_quintiles.csv"
+    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicator_2019_quintiles.csv"
   },
   "hh_received_snap_cnt": {
     "aggregation_method": "",
@@ -1847,7 +1847,7 @@
     "unit": "individual",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.public_safety/blob/main/Incarceration/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.public_safety/blob/main/Incarceration/data/distribution/va_hdcttr_2015_2020_incarceration_rate.csv.xz", "https://github.com/uva-bi-sdad/sdc.public_safety/blob/main/Incarceration/data/distribution/va_hdcttr_2015_incarceration_rate_geo20.csv"]
+    "origin": ["https://github.com/uva-bi-sdad/sdc.public_safety/blob/main/Incarceration/data/distribution/va_hdcttr_2015_2020_incarceration_rate.csv.xz", "https://github.com/uva-bi-sdad/sdc.public_safety/blob/main/Incarceration/data/distribution/va_hdcttr_2021_incarceration_rate_geo20.csv"]
   },
   "income_inequality_indicator": {
     "aggregation_method": "",
@@ -15283,6 +15283,42 @@
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/va_hdcttr_vdh_2017_pop_churning_index.csv.xz"
   },
+  "population_density_geo20": {
+    "aggregation_method": "Population Weighted Average",
+    "categories": "",
+    "category": "Demographics",
+    "citations": "",
+    "data_type": "decimal",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Population density calculated as persons per square mile.",
+    "long_name": "Population density calculated as persons per square mile.",
+    "measure_type": "",
+    "short_description": "Population density calculated as persons per square mile.",
+    "short_name": "Population Density, Persons per Square Mile",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "location": "5-Year estimates, table B01001, via the API",
+        "location_url": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
+        "date_accessed": 2023,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Census Tiger Files",
+        "location": "tracts and counties, via the API",
+        "location_url": "https://www2.census.gov/geo/tiger/",
+        "date_accessed": 2024,
+        "url": "https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html"
+      }
+    ],
+    "statement": "Population density is {value} persons per sq mi in {region_name}.",
+    "type": "",
+    "unit": "individual",
+    "variants": "",
+    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Population Density/data/distribution/measure_info.json",
+    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Population Density/data/distribution/va_hdtrct_2015_2022_population_density.csv.xz"
+  },
   "population{variant}{category.name}": {
     "data_type": "decimal",
     "category": "Demographics",
@@ -15983,7 +16019,7 @@
     "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Postsecondary/code/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Postsecondary/data/distribution/nces.csv.xz"
   },
-  "segregation_indicator": {
+  "segregation_indicator_geo20": {
     "aggregation_method": " ",
     "categories": "",
     "category": "Demographics",
@@ -16010,7 +16046,7 @@
     "unit": "individual",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Segregation (HOI)/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Segregation (HOI)/data/distribution/va_trcthd_vdh_2015_2021_segregation_index.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Segregation (HOI)/data/distribution/va_hdtrct_2015_2022_segregation_index_std.csv.xz"
   },
   "subs_3sfca": {
     "aggregation_method": "",
