@@ -592,7 +592,7 @@
     },
     "Affordability(H&T)": {
       "effects": {
-        "selected_variable": "affordability_index"
+        "selected_variable": "affordability_index_geo20"
       }
     },
     "EnvironmentalHazardIndex": {
