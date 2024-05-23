@@ -30,10 +30,10 @@
 "disconnectedYouth",1,352,0,0
 "earnings_per_job",1,931,245,0
 "economic_opportunity_indicator",1,0,0,2168
-"education_indicator",1,133,35,1884
+"education_indicator",1,0,0,0
 "emp_rate",1,931,0,13688
 "employment_access_index_geo20",1,931,245,15054
-"employment_access_indicator",1,133,35,1884
+"employment_access_indicator",1,0,0,0
 "ems_3sfca",1,133,35,2218
 "ems_cnt",1,133,35,2235
 "ems_near_10_median",1,133,35,2218
@@ -48,12 +48,12 @@
 "hh_received_snap_pct",1,1065,280,15518
 "inadequate",1,925,0,0
 "inadequate_pc",1,925,0,0
-"incarceration_rate_per_100000",1,798,210,13176
-"income_inequality_indicator",1,133,35,1884
+"incarceration_rate_per_100000",0,133,35,15198
+"income_inequality_indicator",1,0,0,0
 "intermediate",1,925,0,0
 "intermediate_pc",1,925,0,0
 "job_participate_rate",0,63,0,3720
-"job_participation_indicator",1,133,35,1884
+"job_participation_indicator",1,0,0,0
 "labor_participate_rate_geo20",1,1064,280,17278
 "language_hh_limited_english_percent_direct",1,798,210,11808
 "material_deprivation_indicator_geo20",1,931,35,15041
@@ -510,7 +510,7 @@
 "perc_w_int_100_20_using_devices",1,399,105,5613
 "perc_w_int_25_3_using_devices",1,399,105,5613
 "percent_food_insecure",1,798,210,2078
-"pop_churning_indicator",1,133,35,1884
+"pop_churning_indicator",1,0,0,0
 "population_density_geo20",1,1064,280,17463
 "population_direct",1,931,245,13907
 "poverty_pct",1,933,0,0
