@@ -149,11 +149,6 @@
   },
   "uva-bi-sdad/sdc.demographics": {
     "files": {
-      "Population Density/data/distribution/va_hdtrct_2015_2022_population_density.csv.xz": {
-        "size": 146624,
-        "sha": "406ec2c43e4cfb455e4f9b6e002596cc03ea1b42",
-        "md5": "f85a209914cb63564b248519a694b3f5"
-      },
       "Segregation (HOI)/data/distribution/va_hdtrct_2015_2022_segregation_index_std.csv.xz": {
         "size": 99444,
         "sha": "bbd84be888ace1ac67d8c9ddac6cb7df4008b3e1",
@@ -163,6 +158,11 @@
         "size": 24529013,
         "sha": "066459531bc3e7d3531992bf29b8d2913a05bdfa",
         "md5": "4bdede5b3013f9f5a969b338ae0d0011"
+      },
+      "Population Density/data/distribution/va_hdtrct_2015_2022_population_density.csv.xz": {
+        "size": 146624,
+        "sha": "406ec2c43e4cfb455e4f9b6e002596cc03ea1b42",
+        "md5": "f85a209914cb63564b248519a694b3f5"
       },
       "Geographic Mobility (HOI)/data/distribution/va_hdcttrbg_2015_2022_moving_demographics.csv.xz": {
         "size": 223040,
@@ -399,6 +399,11 @@
   },
   "uva-bi-sdad/sdc.health": {
     "files": {
+      "Access to Care (HOI)/data/distribution/va_tr_2020_2021_care_access_indicator.csv.xz": {
+        "size": 45236,
+        "sha": "9c3fc05b8dabd65987e1ec6841046f6456197d33",
+        "md5": "923fceb41d00b3bbd4cb8d89a10cfadf"
+      },
       "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicators_new/health_opportunity_indicator_2015_quintiles.csv.xz": {
         "size": 11112,
         "sha": "2012fba47295e66ec4af1948b74b4945d97313fd",
@@ -473,11 +478,6 @@
         "size": 10680,
         "sha": "f8653cff524977d448adcca58efda18c15554615",
         "md5": "83c038a708e39b51a065e40c7a0a1052"
-      },
-      "Population Health/Health Opportunity Index/data/distribution/va_tr_vdh_2017_2020_access_to_care_index.csv.xz": {
-        "size": 10412,
-        "sha": "fddd52ab0d92c5e45b97be95a4da445d76cc740a",
-        "md5": "02951a177b99cb5e84ab917f85692eef"
       },
       "Population Health/Health Opportunity Index/data/distribution/va_tr_vdh_2017_2020_air_quality_index.csv.xz": {
         "size": 10468,
