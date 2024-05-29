@@ -257,7 +257,7 @@
     "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Veteran/code/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Veteran/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_veteran_demographics.csv.xz"
   },
-  "access_care_indicator": {
+  "access_care_indicator_geo20": {
     "aggregation_method": "",
     "categories": "",
     "category": "Health Opportunity Index",
@@ -283,8 +283,8 @@
     "type": "index",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Access to Care (HOI)/data/distribution/va_tr_2017_2021_care_access_indicator.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Access to Care (HOI)/data/distribution/measure_info.json",
+    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Access to Care (HOI)/data/distribution/va_tr_2017_2021_care_access_indicator_std.csv.xz"
   },
   "acs_postsecondary_{variant}": {
     "aggregation_method": "{variant}",
@@ -1671,7 +1671,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicators_new_inc2020/health_opportunity_indicator_2017_quintiles_inc2020.csv"
+    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicators_new_inc2020/health_opportunity_indicator_2018_inc2020.csv"
   },
   "hh_received_snap_cnt": {
     "aggregation_method": "",
