@@ -276,7 +276,7 @@ page_panel(
     ),
     input_button(
       "Care Access (VDH)",
-      list(selected_variable = "access_care_indicator")
+      list(selected_variable = "access_care_indicator_geo20")
     ),
     input_button(
       "Incarceration Rate (PPI)",
