@@ -1441,8 +1441,7 @@
     "type": "index",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.environment/blob/main/data_commons/eqi_index/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.environment/blob/main/data_commons/eqi_index/distribution/va_hdcttr_vdh_2022_environmental_hazard_index.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.environment/blob/main/data_commons/eqi_index/distribution/measure_info.json"
   },
   "food_access_percentage_geo20": {
     "aggregation_method": "",

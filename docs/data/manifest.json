@@ -149,6 +149,11 @@
   },
   "uva-bi-sdad/sdc.demographics": {
     "files": {
+      "Segregation (HOI)/data/distribution/va_hdtrct_2015_2022_segregation_index_std.csv.xz": {
+        "size": 99444,
+        "sha": "bbd84be888ace1ac67d8c9ddac6cb7df4008b3e1",
+        "md5": "a097a69f1a309fb569d8c20b0e959c60"
+      },
       "Overall/data/distribution/census.csv": {
         "size": 24529013,
         "sha": "066459531bc3e7d3531992bf29b8d2913a05bdfa",
@@ -158,11 +163,6 @@
         "size": 146624,
         "sha": "406ec2c43e4cfb455e4f9b6e002596cc03ea1b42",
         "md5": "f85a209914cb63564b248519a694b3f5"
-      },
-      "Segregation (HOI)/data/distribution/va_hdtrct_2015_2022_segregation_index_std.csv.xz": {
-        "size": 99444,
-        "sha": "bbd84be888ace1ac67d8c9ddac6cb7df4008b3e1",
-        "md5": "a097a69f1a309fb569d8c20b0e959c60"
       },
       "Geographic Mobility (HOI)/data/distribution/va_hdcttrbg_2015_2022_moving_demographics.csv.xz": {
         "size": 223040,
@@ -272,10 +272,35 @@
   },
   "uva-bi-sdad/sdc.environment": {
     "files": {
-      "data_commons/eqi_index/distribution/va_hdcttr_vdh_2022_environmental_hazard_index.csv.xz": {
-        "size": 22608,
-        "sha": "1d512ad0a8ff6fd6af41a65b8d506518471524d5",
-        "md5": "f468a5fd142348f1024402aa462dca85"
+      "environmental_justice/data/distribution/va_bg_2016_env_haz_inx.csv.xz": {
+        "size": 56652,
+        "sha": "b7829422e03b17b4949e98f800a2ecdc03251f6b",
+        "md5": "0aa2d625631deea75684bd06b2f3ef61"
+      },
+      "environmental_justice/data/distribution/va_bg_2017_env_haz_inx.csv.xz": {
+        "size": 56808,
+        "sha": "049b861b6c7e54787e61b6f0b05b1acf2375dd34",
+        "md5": "6c2c69ee76f0575417e24787721af7e0"
+      },
+      "environmental_justice/data/distribution/va_bg_2018_env_haz_inx.csv.xz": {
+        "size": 56892,
+        "sha": "485a447712c8f77a2945e9b245718d20fda7e51b",
+        "md5": "deef476ecec6391c9039c94de0f01705"
+      },
+      "environmental_justice/data/distribution/va_bg_2019_env_haz_inx.csv.xz": {
+        "size": 56568,
+        "sha": "2ebc621de5696631bd4fc60fcb42fb411739898c",
+        "md5": "86f5be94c8dfc038b425bbae9999b546"
+      },
+      "environmental_justice/data/distribution/va_bg_2020_env_haz_inx.csv.xz": {
+        "size": 56636,
+        "sha": "af6d104a27fe162964de2386d45904d19fa8f3f4",
+        "md5": "092ff1a27fd8ea3e07d9e496cdb4b930"
+      },
+      "environmental_justice/data/distribution/va_bg_2021_env_haz_inx.csv.xz": {
+        "size": 56844,
+        "sha": "f626c73663f744c9623da25a2a0d4e3ff9a58a49",
+        "md5": "83a7a775866cd9d6ad8729ab6544128c"
       }
     }
   },
