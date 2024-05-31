@@ -149,20 +149,15 @@
   },
   "uva-bi-sdad/sdc.demographics": {
     "files": {
-      "Segregation (HOI)/data/distribution/va_hdtrct_2015_2022_segregation_index_std.csv.xz": {
-        "size": 99444,
-        "sha": "bbd84be888ace1ac67d8c9ddac6cb7df4008b3e1",
-        "md5": "a097a69f1a309fb569d8c20b0e959c60"
-      },
-      "Overall/data/distribution/census.csv": {
-        "size": 24529013,
-        "sha": "066459531bc3e7d3531992bf29b8d2913a05bdfa",
-        "md5": "4bdede5b3013f9f5a969b338ae0d0011"
-      },
       "Population Density/data/distribution/va_hdtrct_2015_2022_population_density.csv.xz": {
         "size": 146624,
         "sha": "406ec2c43e4cfb455e4f9b6e002596cc03ea1b42",
         "md5": "f85a209914cb63564b248519a694b3f5"
+      },
+      "Segregation (HOI)/data/distribution/va_hdtrct_2015_2022_segregation_index_std.csv.xz": {
+        "size": 102848,
+        "sha": "9faeaada0f226dc3d4c9e86249873d4c1bff76f1",
+        "md5": "9bb4f5e30bcd56f7c01f85501fc1dd13"
       },
       "Geographic Mobility (HOI)/data/distribution/va_hdcttrbg_2015_2022_moving_demographics.csv.xz": {
         "size": 223040,
@@ -272,35 +267,35 @@
   },
   "uva-bi-sdad/sdc.environment": {
     "files": {
-      "environmental_justice/data/distribution/va_bg_2016_env_haz_inx.csv.xz": {
-        "size": 56652,
-        "sha": "b7829422e03b17b4949e98f800a2ecdc03251f6b",
-        "md5": "0aa2d625631deea75684bd06b2f3ef61"
+      "environmental_justice/data/distribution/va_tr_2016_env_haz_inx.csv.xz": {
+        "size": 19336,
+        "sha": "18481a4961fbe8276f071d0048d919dcca54fb00",
+        "md5": "f8b1caa1efd0178084305f39aea9c911"
       },
-      "environmental_justice/data/distribution/va_bg_2017_env_haz_inx.csv.xz": {
-        "size": 56808,
-        "sha": "049b861b6c7e54787e61b6f0b05b1acf2375dd34",
-        "md5": "6c2c69ee76f0575417e24787721af7e0"
+      "environmental_justice/data/distribution/va_tr_2017_env_haz_inx.csv.xz": {
+        "size": 19384,
+        "sha": "65fd84e762e5788608e5704c2d74dcd3138d2cf9",
+        "md5": "514e1317158ed1c3c4f17b7f6bd2b33e"
       },
-      "environmental_justice/data/distribution/va_bg_2018_env_haz_inx.csv.xz": {
-        "size": 56892,
-        "sha": "485a447712c8f77a2945e9b245718d20fda7e51b",
-        "md5": "deef476ecec6391c9039c94de0f01705"
+      "environmental_justice/data/distribution/va_tr_2018_env_haz_inx.csv.xz": {
+        "size": 19416,
+        "sha": "994de9edb976c0c096fe5f964e7239e5c3aafa5a",
+        "md5": "7fefb9832eea8d8f43d41c63158424a7"
       },
-      "environmental_justice/data/distribution/va_bg_2019_env_haz_inx.csv.xz": {
-        "size": 56568,
-        "sha": "2ebc621de5696631bd4fc60fcb42fb411739898c",
-        "md5": "86f5be94c8dfc038b425bbae9999b546"
+      "environmental_justice/data/distribution/va_tr_2019_env_haz_inx.csv.xz": {
+        "size": 19248,
+        "sha": "59d3daa41c1ce5edf9292f9ca5409023a91c6a2f",
+        "md5": "4843bec9b91984043e70ebe4f0eb44eb"
       },
-      "environmental_justice/data/distribution/va_bg_2020_env_haz_inx.csv.xz": {
-        "size": 56636,
-        "sha": "af6d104a27fe162964de2386d45904d19fa8f3f4",
-        "md5": "092ff1a27fd8ea3e07d9e496cdb4b930"
+      "environmental_justice/data/distribution/va_tr_2020_env_haz_inx.csv.xz": {
+        "size": 17700,
+        "sha": "fc532375cababf0088011d2c76cbab924d8d1147",
+        "md5": "3e671de6c0b3f9484d93f0e26deed1e9"
       },
-      "environmental_justice/data/distribution/va_bg_2021_env_haz_inx.csv.xz": {
-        "size": 56844,
-        "sha": "f626c73663f744c9623da25a2a0d4e3ff9a58a49",
-        "md5": "83a7a775866cd9d6ad8729ab6544128c"
+      "environmental_justice/data/distribution/va_tr_2021_env_haz_inx.csv.xz": {
+        "size": 17684,
+        "sha": "8f94dfefa545d87a67bfa3be828361b379aceb8d",
+        "md5": "7d5833a45d635c9ffdc27e9ffb29ebd2"
       }
     }
   },
@@ -424,6 +419,11 @@
   },
   "uva-bi-sdad/sdc.health": {
     "files": {
+      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicators_new_inc2020/health_opportunity_indicator_2018_quintiles_inc2020.csv": {
+        "size": 133340,
+        "sha": "4f382dbe6890bcf3c22c14b7c17451a3bdb2d982",
+        "md5": "2bdb89ecec6d6115af71bb43f58d26d1"
+      },
       "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicators_new_inc2020/health_opportunity_indicator_2019_quintiles_inc2020.csv": {
         "size": 133340,
         "sha": "e76cfcc7f5f3836a63fdd06ba58aa92830b6e12d",
@@ -453,11 +453,6 @@
         "size": 133340,
         "sha": "6419c51dc42456ff1b3db5d5401a7badf4f5c58c",
         "md5": "72042618a4c9c07b3304ed2e21b10d0f"
-      },
-      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicators_new_inc2020/health_opportunity_indicator_2018_quintiles_inc2020.csv": {
-        "size": 133340,
-        "sha": "4f382dbe6890bcf3c22c14b7c17451a3bdb2d982",
-        "md5": "2bdb89ecec6d6115af71bb43f58d26d1"
       },
       "Population Health/System Usage and Insurance/Without Health Insurance/data/distribution/ncr_cttrbg_acs5_2015_2019_no_health_insurance_19_to_64.csv.xz": {
         "size": 397856,
