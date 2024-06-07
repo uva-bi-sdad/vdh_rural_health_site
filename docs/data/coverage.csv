@@ -16,8 +16,8 @@
 "avg_monthly_rate",1,926,245,0
 "avg_up_using_devices",1,27,0,1678
 "Child_Food_Insecurity_Rate",1,798,210,0
-"community_environment_indicator",1,0,0,2168
-"consumer_opportunity_indicator",1,0,0,2168
+"community_environment_indicator",1,0,0,13008
+"consumer_opportunity_indicator",1,0,0,13008
 "Cost_Per_Meal",1,798,210,0
 "daycare_capacity",1,133,35,2190
 "daycare_min_drivetime",1,133,35,2190
@@ -29,7 +29,7 @@
 "devices",1,399,105,5670
 "disconnectedYouth",1,352,0,0
 "earnings_per_job",1,931,245,0
-"economic_opportunity_indicator",1,0,0,2168
+"economic_opportunity_indicator",1,0,0,13008
 "education_indicator",1,0,0,0
 "emp_rate",1,931,0,13688
 "employment_access_index_geo20",1,931,245,15054
@@ -43,7 +43,7 @@
 "gender_female_percent_direct",1,1734,455,24200
 "gender_male_percent_direct",1,1734,455,24200
 "gini_index_geo20",1,931,245,15004
-"health_opportunity_indicator",1,0,0,15170
+"health_opportunity_indicator",1,0,0,13003
 "hh_received_snap_cnt",1,1065,280,15518
 "hh_received_snap_pct",1,1065,280,15518
 "inadequate",1,925,0,0
@@ -556,4 +556,4 @@
 "voterTurnout",1,133,0,0
 "walkability_index_raw",1,133,35,1878
 "walkability_indicator",1,0,0,4052
-"wellness_disparity_indicator",1,0,0,2168
+"wellness_disparity_indicator",1,0,0,13008
