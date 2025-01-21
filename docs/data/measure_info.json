@@ -1,5 +1,13 @@
 {
   "_references": {
+    "bii-redist": {
+      "id": "bii-redist",
+      "author": "Biocomplexity Institute and Initiative",
+      "year": 2022,
+      "title": "redistribute: An R package to redistribute data",
+      "version": "0.0.1",
+      "url": "https://github.com/uva-bi-sdad/redistribute"
+    },
     "lou04": {
       "id": "lou04",
       "author": [
@@ -127,14 +135,6 @@
       "title": "catchment: Calculate spatial access and availability metrics",
       "version": "0.0.1",
       "url": "https://github.com/uva-bi-sdad/catchment"
-    },
-    "bii-redist": {
-      "id": "bii-redist",
-      "author": "Biocomplexity Institute and Initiative",
-      "year": 2022,
-      "title": "redistribute: An R package to redistribute data",
-      "version": "0.0.1",
-      "url": "https://github.com/uva-bi-sdad/redistribute"
     }
   },
   "{variant.name}_read_pass_rate": {
@@ -1613,7 +1613,7 @@
       }
     },
     "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Gender/code/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Gender/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_gender_demographics.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Gender/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2023_gender_demographics.csv.xz"
   },
   "gini_index_geo20": {
     "aggregation_method": "",
@@ -15676,7 +15676,7 @@
       }
     },
     "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Race/code/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Race/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_race_demographics.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Race/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2023_race_demographics.csv.xz"
   },
   "schoolFundAdequacy": {
     "aggregation_method": "",

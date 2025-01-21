@@ -149,6 +149,21 @@
   },
   "uva-bi-sdad/sdc.demographics": {
     "files": {
+      "Segregation (HOI)/data/distribution/va_hdtrct_2015_2023_segregation_index_std.csv.xz": {
+        "size": 107860,
+        "sha": "aae9281525eb27835d320aa6b4a445d547854272",
+        "md5": "cf42738b57923b0c91801c8599a5b605"
+      },
+      "Race/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2023_race_demographics.csv.xz": {
+        "size": 6848832,
+        "sha": "921901362ff9fa06000861b4c74bff2ab9010aa8",
+        "md5": "ad29a4af1811942a1e30b2e29ea6a4ab"
+      },
+      "Gender/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2023_gender_demographics.csv.xz": {
+        "size": 2629704,
+        "sha": "a8164b7997b23744faf4b7ca7c361877af16e4e4",
+        "md5": "c6b2e09e50ef9d8c9a9fd720b92b45d1"
+      },
       "Veteran/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_veteran_demographics.csv.xz": {
         "size": 1500820,
         "sha": "e7ca55be1cb3a602ef8171d2ddf60db5dbe1baaf",
@@ -158,16 +173,6 @@
         "size": 1420628,
         "sha": "e7bf2eaebc1e838fd624c6d6d36aebf67baf6868",
         "md5": "dc3b3feb3e2a170999e7cb8d23fab5a6"
-      },
-      "Segregation (HOI)/data/distribution/va_hdtrct_2015_2023_segregation_index_std.csv.xz": {
-        "size": 104220,
-        "sha": "418f4d031304662c8addb4f4917ab6f48f286315",
-        "md5": "e03291e4725f4b76d28933360343c50f"
-      },
-      "Race/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_race_demographics.csv.xz": {
-        "size": 11206828,
-        "sha": "019ab6b1246a0f5bc57f02494757ed3e147134a6",
-        "md5": "eff78ec16bc5f77be43493e27e37b7c8"
       },
       "Race/data/distribution/ncr_cttrbg_acs_2009_2023_race_demographics.csv.xz": {
         "size": 13721364,
@@ -198,11 +203,6 @@
         "size": 1128472,
         "sha": "dc68435c5734a9279007666dad97169fdbbe8a0c",
         "md5": "2f97a5633c785d33554df14580698d0c"
-      },
-      "Gender/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_gender_demographics.csv.xz": {
-        "size": 3634976,
-        "sha": "032fb959e4d0abb2716426dc114e006447ba9427",
-        "md5": "f9343f8eb544ac5048f6498eeb391ce5"
       },
       "Geographic Mobility (HOI)/data/distribution/va_hdcttrbg_2015_2023_moving_demographics.csv.xz": {
         "size": 244360,
