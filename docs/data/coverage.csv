@@ -490,9 +490,9 @@
 "operation_farmValue",1,196,0,0
 "ped_3sfca",1,133,35,2206
 "ped_cnt",1,133,35,2235
-"per_above30",1,1064,280,15810
-"per_mor_above30",1,1064,280,15810
-"per_rent_above30",1,1064,280,15810
+"per_above30",1,1330,350,20202
+"per_mor_above30",1,1330,350,20202
+"per_rent_above30",1,1330,350,20202
 "perc_children_raised_by_GPs",1,1600,0,23119
 "perc_hh_with_broadband",1,665,175,10101
 "perc_hh_with_cable_fiber_dsl",1,665,175,10101

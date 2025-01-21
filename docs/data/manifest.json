@@ -149,15 +149,15 @@
   },
   "uva-bi-sdad/sdc.demographics": {
     "files": {
-      "Segregation (HOI)/data/distribution/va_hdtrct_2015_2023_segregation_index_std.csv.xz": {
-        "size": 107860,
-        "sha": "aae9281525eb27835d320aa6b4a445d547854272",
-        "md5": "cf42738b57923b0c91801c8599a5b605"
-      },
       "Race/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2023_race_demographics.csv.xz": {
         "size": 6848832,
         "sha": "921901362ff9fa06000861b4c74bff2ab9010aa8",
         "md5": "ad29a4af1811942a1e30b2e29ea6a4ab"
+      },
+      "Segregation (HOI)/data/distribution/va_hdtrct_2015_2023_segregation_index_std.csv.xz": {
+        "size": 107860,
+        "sha": "aae9281525eb27835d320aa6b4a445d547854272",
+        "md5": "cf42738b57923b0c91801c8599a5b605"
       },
       "Gender/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2023_gender_demographics.csv.xz": {
         "size": 2629704,
@@ -693,20 +693,20 @@
   },
   "uva-bi-sdad/sdc.housing": {
     "files": {
+      "Cost-burdened HHs/data/distribution/va_hdcttrbg_acs_2014_2023_cost_burdened_hhs.csv.xz": {
+        "size": 1322512,
+        "sha": "dfd06bb12d01940649296e1753bb3a669dfe2d84",
+        "md5": "da6dfef5d35a637f44acf2c6f504f8d1"
+      },
+      "Cost-burdened HHs/data/distribution/ncr_cttrbg_acs_2014_2023_cost_burdened_hhs.csv.xz": {
+        "size": 792012,
+        "sha": "4fec9f1bdcd9d9e952d01ff63d63ea0e6c644a8a",
+        "md5": "04acfd46971ad629e04c334069514dfa"
+      },
       "Cost/Affordability_HT/data/distribution/va_hdcttr_2015_2021_affordability_index_std.csv.xz": {
         "size": 93676,
         "sha": "3fce4dd9dada1ea58833e70322c0b836a87bc983",
         "md5": "9002c486abdad4b47a0519d9852367b3"
-      },
-      "Cost-burdened HHs/data/distribution/va_hdcttrbg_acs_2014_2021_cost_burdened_hhs.csv.xz": {
-        "size": 1049528,
-        "sha": "8cb0ef37496a25ded17b33653c78582ec5c1a3e5",
-        "md5": "e0494b4692fd3c37ba0e4d64ec7f551e"
-      },
-      "Cost-burdened HHs/data/distribution/ncr_cttrbg_acs_2014_2021_cost_burdened_hhs.csv.xz": {
-        "size": 632816,
-        "sha": "54201a53416640773f3f73ea154237c5e49f5f6d",
-        "md5": "8704399e13422585ced46668487cb18e"
       }
     }
   },
