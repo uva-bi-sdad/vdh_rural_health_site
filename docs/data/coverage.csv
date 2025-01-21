@@ -11,7 +11,7 @@
 "age_under_20_percent_direct",1,1734,455,24200
 "air_quality_indicator",1,0,0,4052
 "alice_pct",1,933,0,0
-"average_years_schooling_geo20",1,1064,280,17278
+"average_years_schooling_geo20",1,1197,315,19447
 "avg_down_using_devices",1,27,0,1678
 "avg_monthly_rate",1,926,245,0
 "avg_up_using_devices",1,27,0,1678
@@ -42,7 +42,7 @@
 "fruit_treeNut_total_sales",1,144,0,0
 "gender_female_percent_direct",1,2000,525,28539
 "gender_male_percent_direct",1,2000,525,28539
-"gini_index_geo20",1,931,245,15004
+"gini_index_geo20",1,1197,280,19322
 "health_opportunity_indicator",1,0,0,13003
 "hh_received_snap_cnt",1,1065,280,15518
 "hh_received_snap_pct",1,1065,280,15518

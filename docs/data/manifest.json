@@ -149,15 +149,15 @@
   },
   "uva-bi-sdad/sdc.demographics": {
     "files": {
-      "Race/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2023_race_demographics.csv.xz": {
-        "size": 6848832,
-        "sha": "921901362ff9fa06000861b4c74bff2ab9010aa8",
-        "md5": "ad29a4af1811942a1e30b2e29ea6a4ab"
-      },
       "Segregation (HOI)/data/distribution/va_hdtrct_2015_2023_segregation_index_std.csv.xz": {
         "size": 107860,
         "sha": "aae9281525eb27835d320aa6b4a445d547854272",
         "md5": "cf42738b57923b0c91801c8599a5b605"
+      },
+      "Race/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2023_race_demographics.csv.xz": {
+        "size": 6848832,
+        "sha": "921901362ff9fa06000861b4c74bff2ab9010aa8",
+        "md5": "ad29a4af1811942a1e30b2e29ea6a4ab"
       },
       "Gender/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2023_gender_demographics.csv.xz": {
         "size": 2629704,
@@ -238,10 +238,10 @@
   },
   "uva-bi-sdad/sdc.education": {
     "files": {
-      "Years of Schooling/data/distribution/va_hdtrct_acs5_2015_2021_years_of_schooling_std.csv.xz": {
-        "size": 101864,
-        "sha": "bd3a7466b78b41d6bad108ad36b5403f794c57f0",
-        "md5": "8ba1fbf32fd788ad578ab207eebe5072"
+      "Years of Schooling/data/distribution/va_hdtrct_acs5_2015_2023_years_of_schooling_std.csv.xz": {
+        "size": 106800,
+        "sha": "402038134855a11dee0db89fd56ffad39a055461",
+        "md5": "487025b571f40f172d812d4953bb22c0"
       },
       "Reading/data/distribution/va_hdctsd_vdoe_2015_2023_3rd_grade_mean_read_score.csv.xz": {
         "size": 3156,
@@ -301,10 +301,10 @@
   },
   "uva-bi-sdad/sdc.financial_well_being": {
     "files": {
-      "Pay and Benefits/Income Inequality/data/distribution/va_hdcttr_2015_2021_income_inequality_gini_index_std.csv.xz": {
-        "size": 148308,
-        "sha": "f5e1cd84c1709da626e35f14e6d73a8afaf6c3fb",
-        "md5": "896da0b1c92a93534aef2129a392f911"
+      "Pay and Benefits/Income Inequality/data/distribution/va_hdcttr_2015_2023_income_inequality_gini_index_std.csv.xz": {
+        "size": 166964,
+        "sha": "dd41bcdf298a048949651ea1e809c8193e138fcd",
+        "md5": "5cbcd1c34afc7fbcf873b4c6ccb938e2"
       },
       "Pay and Benefits/Personal Income/data/distribution/va_hdct_bea_2015_2021_earnings_per_job.csv.xz": {
         "size": 21376,
