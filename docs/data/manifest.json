@@ -1,10 +1,10 @@
 {
   "uva-bi-sdad/sdc.broadband": {
     "files": {
-      "Wired/Adoption/Internet Type/data/distribution/va_hdcttrbg_acs_2017_2021_hh_internet_type.csv.xz": {
-        "size": 1993984,
-        "sha": "a41fa9c23e96760421a5e5444849c7b10ff89125",
-        "md5": "1742a5f1753c415735d8047ef858458e"
+      "Wired/Affordability/Percentage of income for internet (average)/data/distribution/ncr_broadbandnow_acs_sdad_2021_perc_income_on_internet.csv.xz": {
+        "size": 207380,
+        "sha": "feed45a3e6deddb2bd041e78e9d8d6e13894b061",
+        "md5": "df020286d8313347478fd0fbc5bff398"
       },
       "Wired/Affordability/Percentage of income for fast internet/data/distribution/ncr_broadbandnow_acs_sdad_2021_perc_income_on_internet.csv.xz": {
         "size": 200184,
@@ -16,15 +16,20 @@
         "sha": "fef1bedebb6455fc13813b705369f1c098b226c1",
         "md5": "208dd4d0422e6e1918bfbbfc982b7782"
       },
-      "Wired/Affordability/Percentage of income for internet (average)/data/distribution/ncr_broadbandnow_acs_sdad_2021_perc_income_on_internet.csv.xz": {
-        "size": 207380,
-        "sha": "feed45a3e6deddb2bd041e78e9d8d6e13894b061",
-        "md5": "df020286d8313347478fd0fbc5bff398"
+      "Wired/Adoption/Internet Type/data/distribution/va_hdcttrbg_acs_2017_2021_hh_internet_type.csv.xz": {
+        "size": 1993984,
+        "sha": "a41fa9c23e96760421a5e5444849c7b10ff89125",
+        "md5": "1742a5f1753c415735d8047ef858458e"
       },
       "Wired/Adoption/Internet Type/data/distribution/ncr_cttrbg_acs_2017_2021_hh_internet_type.csv.xz": {
         "size": 1144600,
         "sha": "ae987dd3124e3a0f5cda1a452bad221cfa476e22",
         "md5": "7e62ca6cd1aa69e5237f2e2de5561873"
+      },
+      "Wired/Adoption/Computer Type/data/distribution/va_hdcttrbg_acs_2017_2021_hh_without_compdev.csv.xz": {
+        "size": 729500,
+        "sha": "47f598aee072e2c8e239eb965205cd9433eca469",
+        "md5": "123079ca68209af279f2bf223db17743"
       },
       "Wired/Accessibility/Percent Good (total)/data/distribution/ncr_hdcttrbg_2019_2021q3_percent_above_threshold.csv.xz": {
         "size": 472452,
@@ -36,25 +41,25 @@
         "sha": "5eb8c4650c7d6d9fecb4b67b44619317fc7f51b8",
         "md5": "6b9a11f0cf947637c1186af3a80ef8b8"
       },
-      "Wired/Adoption/Computer Type/data/distribution/va_hdcttrbg_acs_2017_2021_hh_without_compdev.csv.xz": {
-        "size": 729500,
-        "sha": "47f598aee072e2c8e239eb965205cd9433eca469",
-        "md5": "123079ca68209af279f2bf223db17743"
-      },
-      "Wired/Accessibility/Percent Fast (internet-connected)/data/distribution/ncr_hdcttrbg_2019_2021q3_percent_above_threshold.csv.xz": {
-        "size": 484276,
-        "sha": "57393d6fe55088dd30c8c3d394e252ee5eed0829",
-        "md5": "16f4d4ac795a5022c5637509d568d629"
+      "Wired/Accessibility/Percent Good (internet-connected)/data/distribution/ncr_hdcttrbg_2019_2021q3_percent_above_threshold.csv.xz": {
+        "size": 465220,
+        "sha": "4be08cebd93e88b40d3e4d78d9ee97ec48065908",
+        "md5": "bf82a2d0e7a69284d29655f0afa8072a"
       },
       "Wired/Accessibility/Percent Fast (total)/data/distribution/ncr_hdcttrbg_2019_2021q3_percent_above_threshold.csv.xz": {
         "size": 481696,
         "sha": "38db1740bd44cb22281692606938e8fb2273c15e",
         "md5": "c16793809891558aa576d6c63350b878"
       },
-      "Wired/Accessibility/Percent Good (internet-connected)/data/distribution/ncr_hdcttrbg_2019_2021q3_percent_above_threshold.csv.xz": {
-        "size": 465220,
-        "sha": "4be08cebd93e88b40d3e4d78d9ee97ec48065908",
-        "md5": "bf82a2d0e7a69284d29655f0afa8072a"
+      "Wired/Accessibility/Percent Fast (internet-connected)/data/distribution/ncr_hdcttrbg_2019_2021q3_percent_above_threshold.csv.xz": {
+        "size": 484276,
+        "sha": "57393d6fe55088dd30c8c3d394e252ee5eed0829",
+        "md5": "16f4d4ac795a5022c5637509d568d629"
+      },
+      "Wired/Accessibility/Number of devices/data/distribution/ncr_hdcttrbg_2019_2021q3_speed_measurements.csv.xz": {
+        "size": 418776,
+        "sha": "d72caf3c107a3b95fa70359f5c875a14610447ae",
+        "md5": "ab7638d184616212944a56d5aa3c16aa"
       },
       "Wired/Accessibility/Average Download Speed/data/distribution/ncr_cttrbg_ookla_download_speeds.csv.xz": {
         "size": 55512,
@@ -65,11 +70,6 @@
         "size": 57228,
         "sha": "c78bddf370d6a31e94de5384d576267362cfe39f",
         "md5": "43305faae2a97164fbac4c2b12b2c38d"
-      },
-      "Wired/Accessibility/Number of devices/data/distribution/ncr_hdcttrbg_2019_2021q3_speed_measurements.csv.xz": {
-        "size": 418776,
-        "sha": "d72caf3c107a3b95fa70359f5c875a14610447ae",
-        "md5": "ab7638d184616212944a56d5aa3c16aa"
       }
     }
   },
@@ -95,16 +95,6 @@
         "sha": "346ba6ae4acdfdf7789a8904cb91884703d798bb",
         "md5": "429b95770942fea8a7a30d90b0b292ce"
       },
-      "Employment/Industry/data/distribution/ncr_cttrbg_mi_2010_2020_location_quotient_by_industry.csv.xz": {
-        "size": 1925908,
-        "sha": "b23749c4e78e4d72bb2d22ea38b6a8e0bde6a7cf",
-        "md5": "207e6389d6a935e21f94bde92f129186"
-      },
-      "Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz": {
-        "size": 2520,
-        "sha": "9a993e5f74dc1a9cd0d9a3d0c40c4b8120429fae",
-        "md5": "9fb76e88948d00260c65ae54b1400397"
-      },
       "Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz": {
         "size": 1123820,
         "sha": "581f0988c58287a57932eaa064d986e1d9ed3617",
@@ -119,6 +109,16 @@
         "size": 1464,
         "sha": "fb10df7b231179fbd2c6312d0a0f53eac66b7c99",
         "md5": "37d151cf1c4aa9f7dcaeab60b02c5fd7"
+      },
+      "Employment/Industry/data/distribution/ncr_cttrbg_mi_2010_2020_location_quotient_by_industry.csv.xz": {
+        "size": 1925908,
+        "sha": "b23749c4e78e4d72bb2d22ea38b6a8e0bde6a7cf",
+        "md5": "207e6389d6a935e21f94bde92f129186"
+      },
+      "Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz": {
+        "size": 2520,
+        "sha": "9a993e5f74dc1a9cd0d9a3d0c40c4b8120429fae",
+        "md5": "9fb76e88948d00260c65ae54b1400397"
       },
       "Employment/Industry/data/distribution/ncr_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz": {
         "size": 10702740,
@@ -135,15 +135,15 @@
         "sha": "cd9d7e0e1d9bf9fb1f7722e71b930dffdb031501",
         "md5": "3004046a4a99ed141e8cb6c0a8221d1a"
       },
-      "Business_characteristics/Industry/data/distribution/ncr_cttrbg_mi_2010_2020_business_metrics_by_Industry.csv.xz": {
-        "size": 7055520,
-        "sha": "46836f2e4a5a6991b319ddc55cefb9b2faa8dd6a",
-        "md5": "2a190e098d8f6719bb6bc57cb0e47044"
-      },
       "Business_characteristics/Industry/data/distribution/rva_cttrbg_mi_2010_2020_business_metrics_by_Industry.csv.xz": {
         "size": 757104,
         "sha": "4f8891458a46e745745639b25d0a2fcc8d6c1672",
         "md5": "1fe80477e6f2f7751b78000b94e7a740"
+      },
+      "Business_characteristics/Industry/data/distribution/ncr_cttrbg_mi_2010_2020_business_metrics_by_Industry.csv.xz": {
+        "size": 7055520,
+        "sha": "46836f2e4a5a6991b319ddc55cefb9b2faa8dd6a",
+        "md5": "2a190e098d8f6719bb6bc57cb0e47044"
       }
     }
   },
@@ -159,60 +159,60 @@
         "sha": "e7bf2eaebc1e838fd624c6d6d36aebf67baf6868",
         "md5": "dc3b3feb3e2a170999e7cb8d23fab5a6"
       },
+      "Segregation (HOI)/data/distribution/va_hdtrct_2015_2023_segregation_index_std.csv.xz": {
+        "size": 104220,
+        "sha": "418f4d031304662c8addb4f4917ab6f48f286315",
+        "md5": "e03291e4725f4b76d28933360343c50f"
+      },
       "Race/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_race_demographics.csv.xz": {
         "size": 11206828,
         "sha": "019ab6b1246a0f5bc57f02494757ed3e147134a6",
         "md5": "eff78ec16bc5f77be43493e27e37b7c8"
       },
-      "Segregation (HOI)/data/distribution/va_hdtrct_2015_2022_segregation_index_std.csv.xz": {
-        "size": 102848,
-        "sha": "9faeaada0f226dc3d4c9e86249873d4c1bff76f1",
-        "md5": "9bb4f5e30bcd56f7c01f85501fc1dd13"
-      },
-      "Race/data/distribution/ncr_cttrbg_acs_2009_2021_race_demographics.csv.xz": {
-        "size": 10785396,
-        "sha": "776744b51e72a727feb37444fdbf34b7267bccd1",
-        "md5": "e1e30079a001c6110fa976add31384e0"
-      },
-      "Overall/data/distribution/census.csv.xz": {
-        "size": 3276644,
-        "sha": "26926945fbf967a39b2562813e8b2313232a1057",
-        "md5": "75bd4b9af5e5553135f793c61e1373e8"
+      "Race/data/distribution/ncr_cttrbg_acs_2009_2023_race_demographics.csv.xz": {
+        "size": 13721364,
+        "sha": "b6a2c10337eed49e5534a5393c6740087220d973",
+        "md5": "5a7b6a6b176953dfecda28fea1d77ff6"
       },
       "Population Density/data/distribution/va_hdtrct_2015_2022_population_density.csv.xz": {
         "size": 146624,
         "sha": "406ec2c43e4cfb455e4f9b6e002596cc03ea1b42",
         "md5": "f85a209914cb63564b248519a694b3f5"
       },
-      "Geographic Mobility (HOI)/data/distribution/va_hdcttrbg_2015_2022_moving_demographics.csv.xz": {
-        "size": 223040,
-        "sha": "e213e5fec441714939aab58daac6e6b835123b3b",
-        "md5": "8f76744031b954013a0b7e91db4ebb62"
+      "Population Density/data/distribution/va_hdtrct_2015_2023_population_density.csv.xz": {
+        "size": 155108,
+        "sha": "8c31f399244d4e0b1c8082b75b50e3f6f094b01f",
+        "md5": "92c0d7cf10f0b386584e2664e551b4dd"
       },
-      "Language/data/distribution/ncr_cttrbg_acs_2016_2021_language_demographics.csv.xz": {
-        "size": 745700,
-        "sha": "1df4c8fad9b59b00fc411f2c1b674f094acfab8f",
-        "md5": "998a78f6ab894ad855913181bb621720"
+      "Overall/data/distribution/census.csv.xz": {
+        "size": 3276644,
+        "sha": "26926945fbf967a39b2562813e8b2313232a1057",
+        "md5": "75bd4b9af5e5553135f793c61e1373e8"
       },
       "Language/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_language_demographics.csv.xz": {
         "size": 737472,
         "sha": "ac78bbf22d8fce3d41e1a40d4bb5a6574be6173c",
         "md5": "822515c16be30948f342620f31b470bc"
       },
+      "Language/data/distribution/ncr_cttrbg_acs_2016_2023_language_demographics.csv.xz": {
+        "size": 1128472,
+        "sha": "dc68435c5734a9279007666dad97169fdbbe8a0c",
+        "md5": "2f97a5633c785d33554df14580698d0c"
+      },
       "Gender/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_gender_demographics.csv.xz": {
         "size": 3634976,
         "sha": "032fb959e4d0abb2716426dc114e006447ba9427",
         "md5": "f9343f8eb544ac5048f6498eeb391ce5"
       },
-      "Gender/data/distribution/ncr_cttrbg_acs_2009_2021_gender_demographics.csv.xz": {
-        "size": 3603876,
-        "sha": "b6c8e84af66fe3372bc329ef8dbb7fbb31e04849",
-        "md5": "adece9470a6adcc1c86ca2f9f5dd516d"
+      "Geographic Mobility (HOI)/data/distribution/va_hdcttrbg_2015_2023_moving_demographics.csv.xz": {
+        "size": 244360,
+        "sha": "58c740e7d713122b75f05647361518e208673eb2",
+        "md5": "1a9463bfb1eb45b86d08018955374093"
       },
-      "Age/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_age_demographics.csv.xz": {
-        "size": 5195140,
-        "sha": "58c3590b79c9f9622ba5180fe832252936d0bac2",
-        "md5": "7727ed43315797fe06f659d6e41a9b3d"
+      "Gender/data/distribution/ncr_cttrbg_acs_2009_2023_gender_demographics.csv.xz": {
+        "size": 4634256,
+        "sha": "02960e4182f86cb22e9c6678876d08f9ac213ce5",
+        "md5": "77674afdf3567a7f2a7454144d5103bd"
       },
       "Cooperative extension/data/distribution/va_ct_20172023_vote_youth.csv.xz": {
         "size": 1964,
@@ -224,6 +224,11 @@
         "sha": "4c07e38d8c03b9fe6c88678bb6a94cb5e5467e80",
         "md5": "e4bf65de1b0cc320cf9bf7d7d85ffb0c"
       },
+      "Age/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_age_demographics.csv.xz": {
+        "size": 5195140,
+        "sha": "58c3590b79c9f9622ba5180fe832252936d0bac2",
+        "md5": "7727ed43315797fe06f659d6e41a9b3d"
+      },
       "Age/data/distribution/ncr_cttrbg_acs_2009_2021_age_demographics.csv.xz": {
         "size": 5193592,
         "sha": "99a3a706ec62cb22a0c56e55e2b16b3f70c25a77",
@@ -234,19 +239,19 @@
   "uva-bi-sdad/sdc.education": {
     "files": {
       "Years of Schooling/data/distribution/va_hdtrct_acs5_2015_2021_years_of_schooling_std.csv.xz": {
-        "size": 101428,
-        "sha": "c4246a760f3739fdc2c0489201c797828abbd034",
-        "md5": "46e7ed281339551ec60d904caf7becd9"
+        "size": 101864,
+        "sha": "bd3a7466b78b41d6bad108ad36b5403f794c57f0",
+        "md5": "8ba1fbf32fd788ad578ab207eebe5072"
+      },
+      "Reading/data/distribution/va_hdctsd_vdoe_2015_2023_3rd_grade_mean_read_score.csv.xz": {
+        "size": 3156,
+        "sha": "7efdb5a414f3839ba959d9562a582c5c72dda24b",
+        "md5": "44982f2bd318a00ef79f9ef505d182f7"
       },
       "Postsecondary/data/distribution/nces.csv.xz": {
         "size": 11384852,
         "sha": "bab886dcb05a3a7a681f8385fac86e19b247ce43",
         "md5": "081bb20b8e6c7ba94f693715642102f4"
-      },
-      "Reading/data/distribution/va_hdctsd_vdoe_2015_2021_3rd_grade_mean_read_score.csv.xz": {
-        "size": 3800,
-        "sha": "2c203b2ac687d43c81687cb719ace1c5f22b005b",
-        "md5": "2e14b7b8e956beba08d80e0d57d11862"
       },
       "Postsecondary/data/distribution/acs.csv.xz": {
         "size": 1367956,
@@ -257,11 +262,6 @@
         "size": 479776,
         "sha": "618a712ba55812a38fdcf707a96c897486d4874b",
         "md5": "1cc349a536182702e4eb2fcd4a55eb82"
-      },
-      "Funding/data/distribution/va_ct_2022_2023_funding_adequacy.csv.xz": {
-        "size": 1324,
-        "sha": "a2f1e494fbe9af9f48f5747900dbf7b404e59ec5",
-        "md5": "253f56814f55e74281bd5414cd5dd2b6"
       }
     }
   },
@@ -301,45 +301,30 @@
   },
   "uva-bi-sdad/sdc.financial_well_being": {
     "files": {
-      "Pay and Benefits/Personal Income/data/distribution/va_hdct_bea_2015_2021_earnings_per_job.csv.xz": {
-        "size": 21376,
-        "sha": "23ca442c9762513ae6cdf59f668ac442c8007703",
-        "md5": "615acd9f289582c3b0b485dad934bf53"
-      },
-      "Material_Deprivation/data/distribution/va_hdcttr_vdh_2015_2021_material_deprivation_index_std.csv.xz": {
-        "size": 188088,
-        "sha": "1e28fc6d4028d5551d3ca27274570bcde21dbfbc",
-        "md5": "6aff0cb6ab1bafea159c4f218b702135"
-      },
-      "Pay and Benefits/Household Income/data/distribution/ncr_cttrbg_2015_2019_median_household_income.csv.xz": {
-        "size": 188944,
-        "sha": "f3e7b7721ed574025ffd52a38862d6b8d8f8a9e9",
-        "md5": "b62c7c109fcd1a549592d37ec31bd4f1"
-      },
-      "Pay and Benefits/Household Income/data/distribution/ncr_cttrbg_2015_2021_median_household_income.csv.xz": {
-        "size": 290740,
-        "sha": "8f1a3cb2c2eff357c536d272bafbc1d4480c9402",
-        "md5": "70782517c5436e40017189869debcd12"
-      },
-      "Pay and Benefits/Household Income/data/distribution/va_cttrbg_2015_2019_median_household_income.csv.xz": {
-        "size": 305404,
-        "sha": "13146389615ac09f3474f5b4e53a1eb02a43a81b",
-        "md5": "78a088c063921d099504a79ee1e35097"
-      },
       "Pay and Benefits/Income Inequality/data/distribution/va_hdcttr_2015_2021_income_inequality_gini_index_std.csv.xz": {
         "size": 148308,
         "sha": "f5e1cd84c1709da626e35f14e6d73a8afaf6c3fb",
         "md5": "896da0b1c92a93534aef2129a392f911"
       },
-      "Asset Limited Income Constrained Employed (ALICE)/data/distribution/va_ct_2010_2021_alice.csv.xz": {
-        "size": 7812,
-        "sha": "122543ddb6f7833826319f25bcfe34debb537bc6",
-        "md5": "baa13910f9a95549314af0ea17a1dffa"
+      "Pay and Benefits/Personal Income/data/distribution/va_hdct_bea_2015_2021_earnings_per_job.csv.xz": {
+        "size": 21376,
+        "sha": "23ca442c9762513ae6cdf59f668ac442c8007703",
+        "md5": "615acd9f289582c3b0b485dad934bf53"
       },
-      "Employment Access/data/distribution/va_hdcttr_2015_2021_employment_access_index_std.csv.xz": {
-        "size": 117732,
-        "sha": "8cfbb5fb6274c74f3feae36ec79f0de4cd786a0b",
-        "md5": "b369bdb56a89e42c10a95c5ceda67c35"
+      "Pay and Benefits/Household Income/data/distribution/ncr_cttrbg_2015_2023_median_household_income.csv.xz": {
+        "size": 301240,
+        "sha": "577246cb9a5b1597ebd2b020c647bbbe891c464b",
+        "md5": "e0f86a069c15e1a3e3589bc7f6096193"
+      },
+      "Pay and Benefits/Household Income/data/distribution/va_cttrbg_2015_2023_median_household_income.csv.xz": {
+        "size": 136280,
+        "sha": "58b5a63dd6fd3d64c1305f783d93b5e9a6b726ea",
+        "md5": "11be90927512a0618053044111a8878d"
+      },
+      "Material_Deprivation/data/distribution/va_hdcttr_vdh_2015_2021_material_deprivation_index_std.csv.xz": {
+        "size": 188088,
+        "sha": "1e28fc6d4028d5551d3ca27274570bcde21dbfbc",
+        "md5": "6aff0cb6ab1bafea159c4f218b702135"
       },
       "Employment/data/distribution/ncr_cttr_2015_2021_employment_rate.csv.xz": {
         "size": 43868,
@@ -365,6 +350,16 @@
         "size": 135240,
         "sha": "8c3cbce7471eff6fd8cde0c1ac3081ba85744b81",
         "md5": "0184769d0f0ea0d1f77088cd21ec0eeb"
+      },
+      "Employment Access/data/distribution/va_hdcttr_2015_2021_employment_access_index_std.csv.xz": {
+        "size": 117732,
+        "sha": "8cfbb5fb6274c74f3feae36ec79f0de4cd786a0b",
+        "md5": "b369bdb56a89e42c10a95c5ceda67c35"
+      },
+      "Asset Limited Income Constrained Employed (ALICE)/data/distribution/va_ct_2010_2021_alice.csv.xz": {
+        "size": 7812,
+        "sha": "122543ddb6f7833826319f25bcfe34debb537bc6",
+        "md5": "baa13910f9a95549314af0ea17a1dffa"
       }
     }
   },
@@ -390,10 +385,15 @@
         "sha": "29633862979058fb0367722c54891a661ab08968",
         "md5": "2074251468096f1eb5fe4dac56ae813a"
       },
-      "Food Access/Food Accessibility Indicator (HOI)/data/distribution/va_tr_usda_2015_2019_food_access_std.csv.xz": {
-        "size": 183004,
-        "sha": "8083e7b32b15a77707646cdfb11fee23ce99f02e",
-        "md5": "15b910335534995fd09e7edb3d53fc15"
+      "Food Security/Feeding America/Food Secure Average Meal Cost/data/distribution/ncr_ct_fa_2014_2019_food_secure_avg_meal_cost.csv.xz": {
+        "size": 684,
+        "sha": "d33305d448288fd84608e67fa16aac7bf3ded9ac",
+        "md5": "88c4798c1339b51160d726188c6b4b86"
+      },
+      "Food Security/Feeding America/Food Secure Average Meal Cost/data/distribution/va_hdct_fa_2014_2019_food_secure_avg_meal_cost.csv.xz": {
+        "size": 5440,
+        "sha": "bc04744112fb9bd766d3ec2193709351482f814b",
+        "md5": "5afdffc624da50f388861a5cf2f1749c"
       },
       "Food Security/Feeding America/Children's Food Insecurity/data/distribution/ncr_ct_fa_2014_2019_childrens_food_insecurity.csv.xz": {
         "size": 1196,
@@ -405,34 +405,24 @@
         "sha": "1aba2a27b211bc7d141b39968372ad313ca8d9c4",
         "md5": "4c85bafd3962ea3734eff46a06fbff2c"
       },
-      "Food Security/Feeding America/Food Secure Average Meal Cost/data/distribution/ncr_ct_fa_2014_2019_food_secure_avg_meal_cost.csv.xz": {
-        "size": 684,
-        "sha": "d33305d448288fd84608e67fa16aac7bf3ded9ac",
-        "md5": "88c4798c1339b51160d726188c6b4b86"
-      },
-      "Food Security/Feeding America/Food Secure Average Meal Cost/data/distribution/va_hdct_fa_2014_2019_food_secure_avg_meal_cost.csv.xz": {
-        "size": 5440,
-        "sha": "bc04744112fb9bd766d3ec2193709351482f814b",
-        "md5": "5afdffc624da50f388861a5cf2f1749c"
+      "Food Access/Food Accessibility Indicator (HOI)/data/distribution/va_tr_usda_2015_2019_food_access_std.csv.xz": {
+        "size": 183004,
+        "sha": "8083e7b32b15a77707646cdfb11fee23ce99f02e",
+        "md5": "15b910335534995fd09e7edb3d53fc15"
       }
     }
   },
   "uva-bi-sdad/sdc.health": {
     "files": {
-      "Population Health/Mental Health/Mental and Physical Healthy Days/data/distribution/ncr_trct_sdad_2015_2019_brfss_sae.csv.xz": {
-        "size": 94520,
-        "sha": "62334bd073c56f5d199477fba2845991d91cfd33",
-        "md5": "6c961ff4e6f5e8ea32d43f1e94b509b2"
+      "Population Health/System Usage and Insurance/Without Health Insurance/data/distribution/ncr_cttrbg_acs5_2015_2023_no_health_insurance_19_to_64.csv.xz": {
+        "size": 629816,
+        "sha": "d5c30e42ef63bd7a1236ce9fbb05118da3cd5e9b",
+        "md5": "deb0a24ea5eb5cca3d1d499acf1394f2"
       },
-      "Population Health/Mental Health/Mental and Physical Healthy Days/data/distribution/va_trcthd_sdad_2015_2019_brfss_sae.csv.xz": {
-        "size": 138816,
-        "sha": "85a0150f705ae01b5375b8302e8ac561214fc667",
-        "md5": "478808d5acd6e4efe2c0890cf016eba9"
-      },
-      "Population Health/Reproductive Health/Prenatal Care Adequacy/data/distribution/va_ct_nchs_2014_2020_kotelchuck.csv.xz": {
-        "size": 30888,
-        "sha": "5a9f4e6d364ebeb29bb2193693d1105a102b980f",
-        "md5": "844ce08404a0cc479c28fb45025da67d"
+      "Population Health/System Usage and Insurance/Without Health Insurance/data/distribution/va_hdcttr_acs5_2015_2023_no_health_insurance_19_to_64.csv.xz": {
+        "size": 353244,
+        "sha": "8c699071efe8fe52e97cf572630384a80b151172",
+        "md5": "82fa77b5310a4656890de389c8760ca3"
       },
       "Population Health/Social Vulnerability Index/data/distribution/va_cttr_2014_2020_social_vulnerability_index.csv.xz": {
         "size": 145776,
@@ -449,30 +439,20 @@
         "sha": "b70dd7cbd18f4ed0f05c3673da78e3305896ad61",
         "md5": "24fbd62eb7d93e3543be166c8c6c7308"
       },
-      "Population Health/System Usage and Insurance/Without Health Insurance/data/distribution/ncr_cttrbg_acs5_2015_2019_no_health_insurance_19_to_64.csv.xz": {
-        "size": 397856,
-        "sha": "024fa2d52806101e48c9ded5e9c24682653e856d",
-        "md5": "c2600bbf5e0a297433c68e559ac02ff7"
+      "Population Health/Reproductive Health/Prenatal Care Adequacy/data/distribution/va_ct_nchs_2014_2020_kotelchuck.csv.xz": {
+        "size": 30888,
+        "sha": "5a9f4e6d364ebeb29bb2193693d1105a102b980f",
+        "md5": "844ce08404a0cc479c28fb45025da67d"
       },
-      "Population Health/System Usage and Insurance/Without Health Insurance/data/distribution/va_hdcttr_acs5_2015_2019_no_health_insurance_19_to_64.csv.xz": {
-        "size": 202628,
-        "sha": "8588f273fcfbc71e3510b71bd2a389b74e0a2284",
-        "md5": "9848772e50179691fb5367dbb10c6465"
+      "Population Health/Mental Health/Mental and Physical Healthy Days/data/distribution/ncr_trct_sdad_2015_2019_brfss_sae.csv.xz": {
+        "size": 94520,
+        "sha": "62334bd073c56f5d199477fba2845991d91cfd33",
+        "md5": "6c961ff4e6f5e8ea32d43f1e94b509b2"
       },
-      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicators_new_inc2020/health_opportunity_indicator_2016_quintiles_inc2020.csv": {
-        "size": 133340,
-        "sha": "30e6ee0cf2833e883c75b6cf393bb1e034050da7",
-        "md5": "ad748c1d15168fd5b0689cff19035b5a"
-      },
-      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicators_new_inc2020/health_opportunity_indicator_2017_quintiles_inc2020.csv": {
-        "size": 133340,
-        "sha": "6419c51dc42456ff1b3db5d5401a7badf4f5c58c",
-        "md5": "72042618a4c9c07b3304ed2e21b10d0f"
-      },
-      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicators_new_inc2020/health_opportunity_indicator_2018_quintiles_inc2020.csv": {
-        "size": 133340,
-        "sha": "4f382dbe6890bcf3c22c14b7c17451a3bdb2d982",
-        "md5": "2bdb89ecec6d6115af71bb43f58d26d1"
+      "Population Health/Mental Health/Mental and Physical Healthy Days/data/distribution/va_trcthd_sdad_2015_2019_brfss_sae.csv.xz": {
+        "size": 138816,
+        "sha": "85a0150f705ae01b5375b8302e8ac561214fc667",
+        "md5": "478808d5acd6e4efe2c0890cf016eba9"
       },
       "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicators_new_inc2020/health_opportunity_indicator_2019_quintiles_inc2020.csv": {
         "size": 133340,
@@ -539,6 +519,56 @@
         "sha": "6f7c680cc530acd45d36b1eac7877b3beba047ef",
         "md5": "4edb55ea229cbce4df5cc3021881e86b"
       },
+      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicators_new_inc2020/health_opportunity_indicator_2016_quintiles_inc2020.csv": {
+        "size": 133340,
+        "sha": "30e6ee0cf2833e883c75b6cf393bb1e034050da7",
+        "md5": "ad748c1d15168fd5b0689cff19035b5a"
+      },
+      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicators_new_inc2020/health_opportunity_indicator_2017_quintiles_inc2020.csv": {
+        "size": 133340,
+        "sha": "6419c51dc42456ff1b3db5d5401a7badf4f5c58c",
+        "md5": "72042618a4c9c07b3304ed2e21b10d0f"
+      },
+      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicators_new_inc2020/health_opportunity_indicator_2018_quintiles_inc2020.csv": {
+        "size": 133340,
+        "sha": "4f382dbe6890bcf3c22c14b7c17451a3bdb2d982",
+        "md5": "2bdb89ecec6d6115af71bb43f58d26d1"
+      },
+      "Population Health/Health Opportunity Index/data/distribution/consumer_opportunity_indicator_2019_quintile.csv.xz": {
+        "size": 8060,
+        "sha": "ec99b8d6e13b7e89cf742e37685b38f1329c2a33",
+        "md5": "9b07483f30fa37306944c2454043bf16"
+      },
+      "Population Health/Health Opportunity Index/data/distribution/economic_opportunity_indicator_2015_quintile.csv.xz": {
+        "size": 8132,
+        "sha": "aa7b04fde13cc20302c796290f13e8589a11b2bd",
+        "md5": "5e1de40844bc3403fffc1632715b0225"
+      },
+      "Population Health/Health Opportunity Index/data/distribution/economic_opportunity_indicator_2016_quintile.csv.xz": {
+        "size": 8196,
+        "sha": "5ad92fd3646104f315252426c0719a3e8ca3f22f",
+        "md5": "648d8060f18361e826432c8807fe1300"
+      },
+      "Population Health/Health Opportunity Index/data/distribution/economic_opportunity_indicator_2017_quintile.csv.xz": {
+        "size": 8120,
+        "sha": "9694127816bd1bb3e9553d853685f2114c69eaa9",
+        "md5": "5f346b7be060ee2daebd8fa8e176bc8d"
+      },
+      "Population Health/Health Opportunity Index/data/distribution/economic_opportunity_indicator_2018_quintile.csv.xz": {
+        "size": 8140,
+        "sha": "cf9339ad8d26d5c8366e412ae9fbfbbb7f4d87b2",
+        "md5": "14355f788549361020521c97a7e61ec5"
+      },
+      "Population Health/Health Opportunity Index/data/distribution/economic_opportunity_indicator_2019_quintile.csv.xz": {
+        "size": 8152,
+        "sha": "ae0a2377d7f2ebb81b631b1104c8fc107fb94659",
+        "md5": "5f4fd6e3501835ff6765d7cfdfaed6e6"
+      },
+      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicators_new_inc2020/health_opportunity_indicator_2015_quintiles_inc2020.csv": {
+        "size": 133340,
+        "sha": "c0a09f0cc6d6c7c665049b79d971b43a5ac975f4",
+        "md5": "c8ff43bcee90feb72652859b5a412338"
+      },
       "Population Health/Health Opportunity Index/data/distribution/community_environment_indicator_2015_quintile.csv.xz": {
         "size": 7700,
         "sha": "4a143e3aa1d0c4dbd8e4e620723d08f0970c9a49",
@@ -584,65 +614,30 @@
         "sha": "8f892abaa869383b217009c10e2387bcbbdb47e3",
         "md5": "7f16da8f766d832e40bd170512fe3a42"
       },
-      "Population Health/Health Opportunity Index/data/distribution/consumer_opportunity_indicator_2019_quintile.csv.xz": {
-        "size": 8060,
-        "sha": "ec99b8d6e13b7e89cf742e37685b38f1329c2a33",
-        "md5": "9b07483f30fa37306944c2454043bf16"
-      },
-      "Population Health/Health Opportunity Index/data/distribution/economic_opportunity_indicator_2015_quintile.csv.xz": {
-        "size": 8132,
-        "sha": "aa7b04fde13cc20302c796290f13e8589a11b2bd",
-        "md5": "5e1de40844bc3403fffc1632715b0225"
-      },
-      "Population Health/Health Opportunity Index/data/distribution/economic_opportunity_indicator_2016_quintile.csv.xz": {
-        "size": 8196,
-        "sha": "5ad92fd3646104f315252426c0719a3e8ca3f22f",
-        "md5": "648d8060f18361e826432c8807fe1300"
-      },
-      "Population Health/Health Opportunity Index/data/distribution/economic_opportunity_indicator_2017_quintile.csv.xz": {
-        "size": 8120,
-        "sha": "9694127816bd1bb3e9553d853685f2114c69eaa9",
-        "md5": "5f346b7be060ee2daebd8fa8e176bc8d"
-      },
-      "Population Health/Health Opportunity Index/data/distribution/economic_opportunity_indicator_2018_quintile.csv.xz": {
-        "size": 8140,
-        "sha": "cf9339ad8d26d5c8366e412ae9fbfbbb7f4d87b2",
-        "md5": "14355f788549361020521c97a7e61ec5"
-      },
-      "Population Health/Health Opportunity Index/data/distribution/economic_opportunity_indicator_2019_quintile.csv.xz": {
-        "size": 8152,
-        "sha": "ae0a2377d7f2ebb81b631b1104c8fc107fb94659",
-        "md5": "5f4fd6e3501835ff6765d7cfdfaed6e6"
-      },
-      "Population Health/Health Opportunity Index/data/distribution/health_opportunity_indicators_new_inc2020/health_opportunity_indicator_2015_quintiles_inc2020.csv": {
-        "size": 133340,
-        "sha": "c0a09f0cc6d6c7c665049b79d971b43a5ac975f4",
-        "md5": "c8ff43bcee90feb72652859b5a412338"
-      },
       "Health Care Services/Physicians/Primary Care/Service Access Scores/data/distribution/va_hdcttrbgca_webmd_2021_access_scores_primcare.csv.xz": {
         "size": 493840,
         "sha": "7212700021dae9fbed370d9eb6ba7fb406da1c03",
         "md5": "7f4e66ca29850477ff740ed5ec0ee6fd"
       },
-      "Health Care Services/Physicians/OB-GYN/Service Access Scores/data/distribution/va_hdcttrbgca_webmd_2021_access_scores_obgyn.csv.xz": {
-        "size": 464456,
-        "sha": "8aaf9865b9d87130be07884a60e7994ec3e31287",
-        "md5": "951804d564de54c1af42db71566adf6c"
-      },
-      "Health Care Services/Physicians/Pediatric/Service Access Scores/data/distribution/ncr_cttrbg_webmd_2021_access_scores_pediatrics.csv.xz": {
-        "size": 245056,
-        "sha": "711001384c7b93ad1849f67c1a2abdb8beb86747",
-        "md5": "4c07602074cccaccc48be16148d21edd"
+      "Health Care Services/Physicians/Primary Care/Service Access Scores/data/distribution/ncr_cttrbg_webmd_2021_acccess_scores_primcare.csv.xz": {
+        "size": 194416,
+        "sha": "014f65a5ea8ccd340edc6e001f15ed76ef1e541d",
+        "md5": "091cb0a04252a9319f2339cdea42660e"
       },
       "Health Care Services/Physicians/Pediatric/Service Access Scores/data/distribution/va_hdcttrbgca_webmd_2021_access_scores_pediatrics.csv.xz": {
         "size": 467520,
         "sha": "77993e567c000ab198d7bdaafc3c36112ff24842",
         "md5": "e59c8149465d94bb69c7b7f225668779"
       },
-      "Health Care Services/Physicians/Primary Care/Service Access Scores/data/distribution/ncr_cttrbg_webmd_2021_acccess_scores_primcare.csv.xz": {
-        "size": 194416,
-        "sha": "014f65a5ea8ccd340edc6e001f15ed76ef1e541d",
-        "md5": "091cb0a04252a9319f2339cdea42660e"
+      "Health Care Services/Physicians/Pediatric/Service Access Scores/data/distribution/ncr_cttrbg_webmd_2021_access_scores_pediatrics.csv.xz": {
+        "size": 245056,
+        "sha": "711001384c7b93ad1849f67c1a2abdb8beb86747",
+        "md5": "4c07602074cccaccc48be16148d21edd"
+      },
+      "Health Care Services/Physicians/OB-GYN/Service Access Scores/data/distribution/va_hdcttrbgca_webmd_2021_access_scores_obgyn.csv.xz": {
+        "size": 464456,
+        "sha": "8aaf9865b9d87130be07884a60e7994ec3e31287",
+        "md5": "951804d564de54c1af42db71566adf6c"
       },
       "Health Care Services/Physicians/OB-GYN/Service Access Scores/data/distribution/ncr_cttrbg_webmd_2021_access_scores_obgyn.csv.xz": {
         "size": 189256,
@@ -659,25 +654,25 @@
         "sha": "f8c7b75d549cbb5aaf1e3560d6de4ad970ca5dbf",
         "md5": "ace5477d48fc63a90a2c79b48842ee36"
       },
-      "Health Care Services/EMS/Service Catchment Scores/data/distribution/ncr_cttrbg_hifld_2021_access_scores_ems.csv.xz": {
-        "size": 196248,
-        "sha": "a61acae00770bd5d94ebc7c3295a2ed5c5921702",
-        "md5": "fa19a35f325a2e97a5e05dc859121ad9"
-      },
       "Health Care Services/EMS/Service Catchment Scores/data/distribution/va_hdcttrbgca_hifld_2021_access_scores_ems.csv.xz": {
         "size": 480532,
         "sha": "436bed65e67121a9edfecec223eb25ac55b4ad50",
         "md5": "7fe30c0bee7f6baf86f5ee386c9910a7"
       },
-      "Health Care Services/Drug and Rehab/Service Catchment Scores/data/distribution/ncr_cttrbg_samhsa_2021_access_scores_substance.csv.xz": {
-        "size": 235832,
-        "sha": "3338776b26cee63acf762e6d25f1b3000db93234",
-        "md5": "f0e6127c086269903a6658c4009f6838"
-      },
       "Health Care Services/Drug and Rehab/Service Catchment Scores/data/distribution/va_hdcttrbgca_samhsa_2021_access_scores_substance.csv.xz": {
         "size": 421272,
         "sha": "9ff0b7b6b6ec84d2cf1547d4a9bc8d067fd2e539",
         "md5": "277c9e3ca90283ab9fda98fcd051f972"
+      },
+      "Health Care Services/EMS/Service Catchment Scores/data/distribution/ncr_cttrbg_hifld_2021_access_scores_ems.csv.xz": {
+        "size": 196248,
+        "sha": "a61acae00770bd5d94ebc7c3295a2ed5c5921702",
+        "md5": "fa19a35f325a2e97a5e05dc859121ad9"
+      },
+      "Health Care Services/Drug and Rehab/Service Catchment Scores/data/distribution/ncr_cttrbg_samhsa_2021_access_scores_substance.csv.xz": {
+        "size": 235832,
+        "sha": "3338776b26cee63acf762e6d25f1b3000db93234",
+        "md5": "f0e6127c086269903a6658c4009f6838"
       },
       "Health Care Services/Dentists/Service Catchment Scores/data/distribution/va_hdcttrbgca_webmd_2021_access_scores_dentists.csv.xz": {
         "size": 479092,
@@ -698,20 +693,20 @@
   },
   "uva-bi-sdad/sdc.housing": {
     "files": {
-      "Cost-burdened HHs/data/distribution/ncr_cttrbg_acs_2014_2021_cost_burdened_hhs.csv.xz": {
-        "size": 632816,
-        "sha": "54201a53416640773f3f73ea154237c5e49f5f6d",
-        "md5": "8704399e13422585ced46668487cb18e"
+      "Cost/Affordability_HT/data/distribution/va_hdcttr_2015_2021_affordability_index_std.csv.xz": {
+        "size": 93676,
+        "sha": "3fce4dd9dada1ea58833e70322c0b836a87bc983",
+        "md5": "9002c486abdad4b47a0519d9852367b3"
       },
       "Cost-burdened HHs/data/distribution/va_hdcttrbg_acs_2014_2021_cost_burdened_hhs.csv.xz": {
         "size": 1049528,
         "sha": "8cb0ef37496a25ded17b33653c78582ec5c1a3e5",
         "md5": "e0494b4692fd3c37ba0e4d64ec7f551e"
       },
-      "Cost/Affordability_HT/data/distribution/va_hdcttr_2015_2021_affordability_index_std.csv.xz": {
-        "size": 92476,
-        "sha": "3e0acfc4c9d3c407b06f6bdbb26bc1f2a6498d10",
-        "md5": "6416fd6d10a89a8fc37618050128490b"
+      "Cost-burdened HHs/data/distribution/ncr_cttrbg_acs_2014_2021_cost_burdened_hhs.csv.xz": {
+        "size": 632816,
+        "sha": "54201a53416640773f3f73ea154237c5e49f5f6d",
+        "md5": "8704399e13422585ced46668487cb18e"
       }
     }
   },
@@ -756,11 +751,6 @@
   },
   "uva-bi-sdad/sdc.transportation": {
     "files": {
-      "Infrastructure/Walkability (HOI)/data/distribution/va_hdcttr_2021_walkability_index.csv.xz": {
-        "size": 41392,
-        "sha": "bfadf2413a8651350ab0d410ae51ee695b6fd853",
-        "md5": "abb09fbb574c9d903519ac4feb906d46"
-      },
       "Population Characteristics/data/distribution/ncr_cttr_acs_2016_2020_vehicles.csv.xz": {
         "size": 27848,
         "sha": "d8e5f6953496059bfbeb004e64639bd7845748de",
@@ -770,6 +760,11 @@
         "size": 116884,
         "sha": "661f68e58fc31739c31884969498beeadfaa25e6",
         "md5": "bce0c0cc4cc67ab22a7de21cc2795a57"
+      },
+      "Infrastructure/Walkability (HOI)/data/distribution/va_hdcttr_2021_walkability_index.csv.xz": {
+        "size": 41392,
+        "sha": "bfadf2413a8651350ab0d410ae51ee695b6fd853",
+        "md5": "abb09fbb574c9d903519ac4feb906d46"
       }
     }
   }

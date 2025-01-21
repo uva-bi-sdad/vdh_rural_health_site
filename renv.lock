@@ -1,6 +1,6 @@
 {
   "R": {
-    "Version": "4.4.0",
+    "Version": "4.4.2",
     "Repositories": [
       {
         "Name": "CRAN",
@@ -151,7 +151,6 @@
       "RemoteHost": "api.github.com",
       "RemoteRepo": "community",
       "RemoteUsername": "uva-bi-sdad",
-      "RemoteRef": "HEAD",
       "RemoteSha": "ab1feed14267ea9aae129f9ea5c2a89d8c89964f",
       "Requirements": [
         "R",
