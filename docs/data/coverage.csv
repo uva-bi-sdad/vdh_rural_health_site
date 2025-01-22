@@ -28,10 +28,10 @@
 "dent_e2sfca",1,133,35,2218
 "devices",1,399,105,5670
 "disconnectedYouth",1,352,0,0
-"earnings_per_job",1,931,245,0
+"earnings_per_job",1,1197,315,0
 "economic_opportunity_indicator",1,0,0,13008
 "education_indicator",1,0,0,0
-"emp_rate",1,931,0,13688
+"emp_rate",1,1197,0,18014
 "employment_access_index_geo20",1,931,245,15054
 "employment_access_indicator",1,0,0,0
 "ems_3sfca",1,133,35,2218
@@ -52,11 +52,11 @@
 "income_inequality_indicator",1,0,0,0
 "intermediate",1,925,0,0
 "intermediate_pc",1,925,0,0
-"job_participate_rate",0,63,0,3720
+"job_participate_rate",0,81,0,4865
 "job_participation_indicator",1,0,0,0
-"labor_participate_rate_geo20",1,1064,280,17278
+"labor_participate_rate_geo20",1,1197,280,19447
 "language_hh_limited_english_percent_direct",1,816,210,12951
-"material_deprivation_indicator_geo20",1,931,35,15041
+"material_deprivation_indicator_geo20",1,1197,70,19365
 "median_household_income",1,1197,0,17933
 "median_read_pass_rate",1,1008,280,0
 "mental_3sfca",1,133,35,2218
