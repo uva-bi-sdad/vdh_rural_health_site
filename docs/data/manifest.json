@@ -233,15 +233,15 @@
   },
   "uva-bi-sdad/sdc.education": {
     "files": {
-      "Postsecondary/data/distribution/acs.csv.xz": {
-        "size": 1602380,
-        "sha": "8991697cf518c5cf9635ef943c1d84b88f3d1b47",
-        "md5": "70e16b4ca6cabdd72fcfec053d50163b"
-      },
       "Years of Schooling/data/distribution/va_hdtrct_acs5_2015_2023_years_of_schooling_std.csv.xz": {
         "size": 106808,
         "sha": "77a0cdf87da245787e8bf0d4a4616d453e281df5",
         "md5": "415c58fc26bbba621eed10a088668588"
+      },
+      "Postsecondary/data/distribution/acs.csv.xz": {
+        "size": 1602380,
+        "sha": "8991697cf518c5cf9635ef943c1d84b88f3d1b47",
+        "md5": "70e16b4ca6cabdd72fcfec053d50163b"
       },
       "Reading/data/distribution/va_hdctsd_vdoe_2015_2023_3rd_grade_mean_read_score.csv.xz": {
         "size": 3156,
@@ -296,40 +296,35 @@
   },
   "uva-bi-sdad/sdc.financial_well_being": {
     "files": {
-      "Pay and Benefits/Income Inequality/data/distribution/va_hdcttr_2015_2023_income_inequality_gini_index_std.csv.xz": {
-        "size": 174052,
-        "sha": "1086191ae52f6a135d268230a20a19fb8fe12d58",
-        "md5": "4ca3532512b07d835c8ddf7cccfec503"
-      },
       "Pay and Benefits/Personal Income/data/distribution/va_hdct_bea_2015_2023_earnings_per_job.csv.xz": {
         "size": 27968,
         "sha": "17d9c1eb0bc938a14cad24dfcd8dc08d6b643512",
         "md5": "521398f306a7de238f7ebbe29ecd307a"
-      },
-      "Material_Deprivation/data/distribution/va_hdcttr_vdh_2015_2023_material_deprivation_index_std.csv.xz": {
-        "size": 229428,
-        "sha": "f143aa62bafa8a1e2f20056325256c2c63af8198",
-        "md5": "7926d5b35ac252b78e8f92967f0660f1"
       },
       "Pay and Benefits/Income Inequality/data/distribution/ncr_cttr_2015_2023_income_inequality_gini_index.csv.xz": {
         "size": 101832,
         "sha": "a1654cd4448c08e6df6c3f2e2705400779ac14f9",
         "md5": "7c20e4fe64cb6751b2613339c30c9ab6"
       },
+      "Pay and Benefits/Income Inequality/data/distribution/va_hdcttr_2015_2023_income_inequality_gini_index_std.csv.xz": {
+        "size": 174052,
+        "sha": "1086191ae52f6a135d268230a20a19fb8fe12d58",
+        "md5": "4ca3532512b07d835c8ddf7cccfec503"
+      },
       "Employment/data/distribution/va_hdcttr_2015_2023_labor_participate_rate_std.csv.xz": {
         "size": 145544,
         "sha": "1bd9c55e6eede8621d1bcf2248c15dcf4dd358c8",
         "md5": "4feff5515d1ac607a07ce7ecf963b862"
       },
+      "Material_Deprivation/data/distribution/va_hdcttr_vdh_2015_2023_material_deprivation_index_std.csv.xz": {
+        "size": 229428,
+        "sha": "f143aa62bafa8a1e2f20056325256c2c63af8198",
+        "md5": "7926d5b35ac252b78e8f92967f0660f1"
+      },
       "Employment/data/distribution/ncr_cttr_2015_2023_employment_rate.csv.xz": {
         "size": 39528,
         "sha": "82fe93f60158059f67d9423425f9e304cebc1d7f",
         "md5": "8aa83a31954ad67614841eb789f4e800"
-      },
-      "Employment/data/distribution/ncr_cttr_2015_2023_job_participate_rate.csv.xz": {
-        "size": 43624,
-        "sha": "56ef31c45a625904da6343d0789c0b71186bc7d0",
-        "md5": "20363028c9fc53ddf0e7d014c637907a"
       },
       "Employment/data/distribution/va_cttr_2015_2023_employment_rate.csv.xz": {
         "size": 69256,
@@ -717,40 +712,40 @@
   },
   "uva-bi-sdad/sdc.public_safety": {
     "files": {
-      "Incarceration/data/distribution/va_hdcttr_2015_incarceration_rate.csv.xz": {
-        "size": 13816,
-        "sha": "3c14c4d1d5b6831b7b341ef5e8c8b2fba8dde9d2",
-        "md5": "0c07505fe5e54f49b5d08feb6b38843d"
-      },
-      "Incarceration/data/distribution/va_hdcttr_2016_incarceration_rate.csv.xz": {
-        "size": 13720,
-        "sha": "44926fe603d51fd0bae71d3ce0e3e3e0adf66a31",
-        "md5": "4fdea5e53163e0a7e2d056b58434d6a7"
-      },
-      "Incarceration/data/distribution/va_hdcttr_2017_incarceration_rate.csv.xz": {
-        "size": 13568,
-        "sha": "a0239fabcc50b0ebb9b50b0a3409cb7e9dbc8ac8",
-        "md5": "638c1fc30165993bf57424575a449c77"
-      },
       "Incarceration/data/distribution/va_hdcttr_2018_incarceration_rate.csv.xz": {
-        "size": 13720,
-        "sha": "d245165c2a6c252e048c07536b42dd6304c79796",
-        "md5": "6be673439c68145afc96c60ec3c51600"
+        "size": 13540,
+        "sha": "f8e0aade3b8d055b608e498f64a2c7e13f35f085",
+        "md5": "64af4914a726400965bc93bdb0d09dd6"
       },
       "Incarceration/data/distribution/va_hdcttr_2019_incarceration_rate.csv.xz": {
-        "size": 13776,
-        "sha": "15a29ca0ec5b1971e60a7c1433c8bba44cdc4490",
-        "md5": "1858bf8e8547ba1b0b364d77053cfd67"
+        "size": 13492,
+        "sha": "510ed3b21484db09fb241754b6f2fad74c1717cb",
+        "md5": "a613c7014cfcbbf443988134b58cc99b"
+      },
+      "Incarceration/data/distribution/va_hdcttr_2021_incarceration_rate.csv.xz": {
+        "size": 14088,
+        "sha": "ec2fca8c30e7dcf26b100f70ae1da011e49361fc",
+        "md5": "f7da0bb44d81d40f70002d25affff0be"
+      },
+      "Incarceration/data/distribution/va_hdcttr_2015_incarceration_rate.csv.xz": {
+        "size": 13600,
+        "sha": "c9cf83fc61659cc3de45126efdfecb7a4be8e07e",
+        "md5": "6c20cf874157b265856d7fa879c1e741"
+      },
+      "Incarceration/data/distribution/va_hdcttr_2016_incarceration_rate.csv.xz": {
+        "size": 13444,
+        "sha": "04075b47bf27ae34f4896b03717b9acf3519f545",
+        "md5": "771b55ac6e0881eef79ac993033121f2"
+      },
+      "Incarceration/data/distribution/va_hdcttr_2017_incarceration_rate.csv.xz": {
+        "size": 13348,
+        "sha": "4663a9d956d17bd73bfd18eea030a85486ef8b8a",
+        "md5": "72c4230b1e78f25773ca726e4ec75e0c"
       },
       "Incarceration/data/distribution/va_hdcttr_2020_incarceration_rate.csv.xz": {
         "size": 8020,
         "sha": "78890df5c3bc11da24988632a4a9af40750448d4",
         "md5": "b8da738643f293490d97f26c1d6bdc95"
-      },
-      "Incarceration/data/distribution/va_hdcttr_2021_incarceration_rate.csv.xz": {
-        "size": 14316,
-        "sha": "6757785f62643099c3b0bd98255fb8e3723e50d2",
-        "md5": "514d4d81ae04865f47f92e9063b10a81"
       }
     }
   },

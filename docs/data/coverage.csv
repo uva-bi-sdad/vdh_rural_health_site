@@ -48,11 +48,10 @@
 "hh_received_snap_pct",1,1065,280,15518
 "inadequate",1,925,0,0
 "inadequate_pc",1,925,0,0
-"incarceration_rate_per_100000",0,133,35,15198
+"incarceration_rate_per_100000",1,133,35,15198
 "income_inequality_indicator",1,0,0,0
 "intermediate",1,925,0,0
 "intermediate_pc",1,925,0,0
-"job_participate_rate",0,81,0,4865
 "job_participation_indicator",1,0,0,0
 "labor_participate_rate_geo20",1,1197,280,19447
 "language_hh_limited_english_percent_direct",1,816,210,12951
