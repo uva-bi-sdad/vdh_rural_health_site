@@ -149,15 +149,15 @@
   },
   "uva-bi-sdad/sdc.demographics": {
     "files": {
-      "Race/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2023_race_demographics.csv.xz": {
-        "size": 6848832,
-        "sha": "921901362ff9fa06000861b4c74bff2ab9010aa8",
-        "md5": "ad29a4af1811942a1e30b2e29ea6a4ab"
-      },
       "Segregation (HOI)/data/distribution/va_hdtrct_2015_2023_segregation_index_std.csv.xz": {
         "size": 107860,
         "sha": "aae9281525eb27835d320aa6b4a445d547854272",
         "md5": "cf42738b57923b0c91801c8599a5b605"
+      },
+      "Race/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2023_race_demographics.csv.xz": {
+        "size": 6848832,
+        "sha": "921901362ff9fa06000861b4c74bff2ab9010aa8",
+        "md5": "ad29a4af1811942a1e30b2e29ea6a4ab"
       },
       "Gender/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2023_gender_demographics.csv.xz": {
         "size": 2629704,
@@ -178,11 +178,6 @@
         "size": 13721364,
         "sha": "b6a2c10337eed49e5534a5393c6740087220d973",
         "md5": "5a7b6a6b176953dfecda28fea1d77ff6"
-      },
-      "Population Density/data/distribution/va_hdtrct_2015_2022_population_density.csv.xz": {
-        "size": 146624,
-        "sha": "406ec2c43e4cfb455e4f9b6e002596cc03ea1b42",
-        "md5": "f85a209914cb63564b248519a694b3f5"
       },
       "Population Density/data/distribution/va_hdtrct_2015_2023_population_density.csv.xz": {
         "size": 155108,
@@ -243,6 +238,11 @@
         "sha": "77a0cdf87da245787e8bf0d4a4616d453e281df5",
         "md5": "415c58fc26bbba621eed10a088668588"
       },
+      "Postsecondary/data/distribution/acs.csv.xz": {
+        "size": 1602380,
+        "sha": "8991697cf518c5cf9635ef943c1d84b88f3d1b47",
+        "md5": "70e16b4ca6cabdd72fcfec053d50163b"
+      },
       "Reading/data/distribution/va_hdctsd_vdoe_2015_2023_3rd_grade_mean_read_score.csv.xz": {
         "size": 3156,
         "sha": "7efdb5a414f3839ba959d9562a582c5c72dda24b",
@@ -252,11 +252,6 @@
         "size": 11384852,
         "sha": "bab886dcb05a3a7a681f8385fac86e19b247ce43",
         "md5": "081bb20b8e6c7ba94f693715642102f4"
-      },
-      "Postsecondary/data/distribution/acs.csv.xz": {
-        "size": 1367956,
-        "sha": "6e341c27b47fdfe358779e11467319a11f95bdba",
-        "md5": "98aa1d4b10bf9f0793e537c1d3fb052a"
       },
       "Daycare/data/distribution/vdss.csv.xz": {
         "size": 479776,
