@@ -149,15 +149,15 @@
   },
   "uva-bi-sdad/sdc.demographics": {
     "files": {
-      "Segregation (HOI)/data/distribution/va_hdtrct_2015_2023_segregation_index_std.csv.xz": {
-        "size": 107860,
-        "sha": "aae9281525eb27835d320aa6b4a445d547854272",
-        "md5": "cf42738b57923b0c91801c8599a5b605"
-      },
       "Race/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2023_race_demographics.csv.xz": {
         "size": 6848832,
         "sha": "921901362ff9fa06000861b4c74bff2ab9010aa8",
         "md5": "ad29a4af1811942a1e30b2e29ea6a4ab"
+      },
+      "Segregation (HOI)/data/distribution/va_hdtrct_2015_2023_segregation_index_std.csv.xz": {
+        "size": 107860,
+        "sha": "aae9281525eb27835d320aa6b4a445d547854272",
+        "md5": "cf42738b57923b0c91801c8599a5b605"
       },
       "Gender/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2023_gender_demographics.csv.xz": {
         "size": 2629704,
@@ -233,15 +233,15 @@
   },
   "uva-bi-sdad/sdc.education": {
     "files": {
-      "Years of Schooling/data/distribution/va_hdtrct_acs5_2015_2023_years_of_schooling_std.csv.xz": {
-        "size": 106808,
-        "sha": "77a0cdf87da245787e8bf0d4a4616d453e281df5",
-        "md5": "415c58fc26bbba621eed10a088668588"
-      },
       "Postsecondary/data/distribution/acs.csv.xz": {
         "size": 1602380,
         "sha": "8991697cf518c5cf9635ef943c1d84b88f3d1b47",
         "md5": "70e16b4ca6cabdd72fcfec053d50163b"
+      },
+      "Years of Schooling/data/distribution/va_hdtrct_acs5_2015_2023_years_of_schooling_std.csv.xz": {
+        "size": 106808,
+        "sha": "77a0cdf87da245787e8bf0d4a4616d453e281df5",
+        "md5": "415c58fc26bbba621eed10a088668588"
       },
       "Reading/data/distribution/va_hdctsd_vdoe_2015_2023_3rd_grade_mean_read_score.csv.xz": {
         "size": 3156,
@@ -296,30 +296,30 @@
   },
   "uva-bi-sdad/sdc.financial_well_being": {
     "files": {
+      "Pay and Benefits/Income Inequality/data/distribution/va_hdcttr_2015_2023_income_inequality_gini_index_std.csv.xz": {
+        "size": 174052,
+        "sha": "1086191ae52f6a135d268230a20a19fb8fe12d58",
+        "md5": "4ca3532512b07d835c8ddf7cccfec503"
+      },
       "Pay and Benefits/Personal Income/data/distribution/va_hdct_bea_2015_2023_earnings_per_job.csv.xz": {
         "size": 27968,
         "sha": "17d9c1eb0bc938a14cad24dfcd8dc08d6b643512",
         "md5": "521398f306a7de238f7ebbe29ecd307a"
       },
       "Material_Deprivation/data/distribution/va_hdcttr_vdh_2015_2023_material_deprivation_index_std.csv.xz": {
-        "size": 227668,
-        "sha": "0b263af52bcb16de98112d97f289e45152734b02",
-        "md5": "675e041eaf0e817d1bd11fb6cf448dae"
+        "size": 229428,
+        "sha": "f143aa62bafa8a1e2f20056325256c2c63af8198",
+        "md5": "7926d5b35ac252b78e8f92967f0660f1"
       },
       "Pay and Benefits/Income Inequality/data/distribution/ncr_cttr_2015_2023_income_inequality_gini_index.csv.xz": {
         "size": 101832,
         "sha": "a1654cd4448c08e6df6c3f2e2705400779ac14f9",
         "md5": "7c20e4fe64cb6751b2613339c30c9ab6"
       },
-      "Pay and Benefits/Income Inequality/data/distribution/va_hdcttr_2015_2023_income_inequality_gini_index_std.csv.xz": {
-        "size": 174052,
-        "sha": "1086191ae52f6a135d268230a20a19fb8fe12d58",
-        "md5": "4ca3532512b07d835c8ddf7cccfec503"
-      },
       "Employment/data/distribution/va_hdcttr_2015_2023_labor_participate_rate_std.csv.xz": {
-        "size": 150236,
-        "sha": "cf5e86122edb7379eceecad70511d3fe0126dd08",
-        "md5": "6dc9d9ba0ee64de8fae23fb656ab3e52"
+        "size": 145544,
+        "sha": "1bd9c55e6eede8621d1bcf2248c15dcf4dd358c8",
+        "md5": "4feff5515d1ac607a07ce7ecf963b862"
       },
       "Employment/data/distribution/ncr_cttr_2015_2023_employment_rate.csv.xz": {
         "size": 39528,
@@ -350,6 +350,11 @@
         "size": 188088,
         "sha": "1e28fc6d4028d5551d3ca27274570bcde21dbfbc",
         "md5": "6aff0cb6ab1bafea159c4f218b702135"
+      },
+      "Employment/data/distribution/va_cttr_acs_2015_2019_emp_rate.csv.xz": {
+        "size": 157836,
+        "sha": "c7c168a02d62ef9a098c53cf06f2ceeb422f8f13",
+        "md5": "820f52866e5ffeaef1550adf943ccd11"
       },
       "Employment Access/data/distribution/va_hdcttr_2015_2021_employment_access_index_std.csv.xz": {
         "size": 117732,

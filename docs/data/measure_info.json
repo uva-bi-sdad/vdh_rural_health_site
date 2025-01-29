@@ -1642,7 +1642,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Income Inequality/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Income Inequality/data/distribution/ncr_cttr_2015_2023_income_inequality_gini_index.csv.xz", "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Income Inequality/data/distribution/va_hdcttr_2015_2023_income_inequality_gini_index_std.csv.xz"]
+    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Income Inequality/data/distribution/va_hdcttr_2015_2023_income_inequality_gini_index_std.csv.xz"
   },
   "health_opportunity_indicator": {
     "aggregation_method": "",
