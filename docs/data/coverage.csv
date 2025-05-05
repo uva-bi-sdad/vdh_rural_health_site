@@ -44,8 +44,8 @@
 "gender_male_percent_direct",1,2000,525,28539
 "gini_index_geo20",1,1197,280,19322
 "health_opportunity_indicator",1,0,0,13003
-"hh_received_snap_cnt",1,1065,280,15518
-"hh_received_snap_pct",1,1065,280,15518
+"hh_received_snap_cnt",1,1464,385,22106
+"hh_received_snap_pct",1,1464,385,22106
 "inadequate",1,925,0,0
 "inadequate_pc",1,925,0,0
 "incarceration_rate_per_100000",1,133,35,15198
@@ -493,10 +493,10 @@
 "per_mor_above30",1,1330,350,20202
 "per_rent_above30",1,1330,350,20202
 "perc_children_raised_by_GPs",1,1600,0,23119
-"perc_hh_with_broadband",1,665,175,10101
-"perc_hh_with_cable_fiber_dsl",1,665,175,10101
-"perc_hh_without_compdev",1,665,175,10101
-"perc_hh_without_internet",1,665,175,10101
+"perc_hh_with_broadband",1,931,245,14493
+"perc_hh_with_cable_fiber_dsl",1,931,245,14493
+"perc_hh_without_compdev",1,931,245,14493
+"perc_hh_without_internet",1,931,245,14493
 "perc_income_avg_nat_package",1,133,0,1863
 "perc_income_min_price_100",1,132,0,1839
 "perc_income_min_price_25",1,133,0,1839
