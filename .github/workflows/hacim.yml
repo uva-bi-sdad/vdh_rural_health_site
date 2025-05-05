@@ -27,14 +27,14 @@ jobs:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}    
       RENV_PATHS_ROOT: ~/.local/share/renv
     steps:
-      - uses: actions/checkout@main
+      - uses: actions/checkout@v4
         with:
           repository: uva-bi-sdad/pre-pack-community
           path: 'parent/pre-pack-community'
-      - uses: actions/checkout@main
+      - uses: actions/checkout@v4
         with:
           path: 'parent/${{ github.event.repository.name }}'
-      - uses: actions/checkout@main
+      - uses: actions/checkout@v4
         with:
           repository: uva-bi-sdad/social_data_commons
           path: 'parent/social_data_commons'
