@@ -1816,7 +1816,7 @@
     "unit": "individual",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.public_safety/blob/main/Incarceration/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.public_safety/blob/main/Incarceration/data/distribution/va_hdcttr_2020_incarceration_rate.csv.xz", "https://github.com/uva-bi-sdad/sdc.public_safety/blob/main/Incarceration/data/distribution/va_hdcttr_2015_incarceration_rate.csv.xz"]
+    "origin": ["https://github.com/uva-bi-sdad/sdc.public_safety/blob/main/Incarceration/data/distribution/va_hdcttr_2020_incarceration_rate.csv.xz", "https://github.com/uva-bi-sdad/sdc.public_safety/blob/main/Incarceration/data/distribution/va_hdcttr_2019_incarceration_rate.csv.xz"]
   },
   "income_inequality_indicator": {
     "aggregation_method": "",
