@@ -1442,7 +1442,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.environment/blob/main/data_commons/eqi_index/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.environment/blob/main/environmental_justice/data/distribution/va_tr_2016_env_haz_inx.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.environment/blob/main/environmental_justice/data/distribution/va_tr_2020_env_haz_inx.csv.xz"
   },
   "food_access_percentage_geo20": {
     "aggregation_method": "",
@@ -1816,7 +1816,7 @@
     "unit": "individual",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.public_safety/blob/main/Incarceration/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.public_safety/blob/main/Incarceration/data/distribution/va_hdcttr_2020_incarceration_rate.csv.xz", "https://github.com/uva-bi-sdad/sdc.public_safety/blob/main/Incarceration/data/distribution/va_hdcttr_2019_incarceration_rate.csv.xz"]
+    "origin": ["https://github.com/uva-bi-sdad/sdc.public_safety/blob/main/Incarceration/data/distribution/va_hdcttr_2020_incarceration_rate.csv.xz", "https://github.com/uva-bi-sdad/sdc.public_safety/blob/main/Incarceration/data/distribution/va_hdcttr_2015_incarceration_rate.csv.xz"]
   },
   "income_inequality_indicator": {
     "aggregation_method": "",
@@ -2075,7 +2075,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Material_Deprivation/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Material_Deprivation/data/distribution/va_hdcttr_vdh_2015_2021_material_deprivation_index_std.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Material_Deprivation/data/distribution/va_hdcttr_vdh_2015_2023_material_deprivation_index_std.csv.xz"
   },
   "median_household_income": {
     "aggregation_method": "",
@@ -2138,7 +2138,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Mental Health/Service Access Scores/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Mental Health/Service Access Scores/data/distribution/va_hdcttrbgca_samhsa_2021_access_scores_mental.csv.xz"
+    "origin": ["https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Mental Health/Service Access Scores/data/distribution/ncr_cttrbg_samhsa_2021_access_scores_mental.csv.xz", "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Mental Health/Service Access Scores/data/distribution/va_hdcttrbgca_samhsa_2021_access_scores_mental.csv.xz"]
   },
   "mental_cnt": {
     "aggregation_method": "",
@@ -2167,7 +2167,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Mental Health/Service Access Scores/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Mental Health/Service Access Scores/data/distribution/va_hdcttrbgca_samhsa_2021_access_scores_mental.csv.xz"
+    "origin": ["https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Mental Health/Service Access Scores/data/distribution/ncr_cttrbg_samhsa_2021_access_scores_mental.csv.xz", "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Mental Health/Service Access Scores/data/distribution/va_hdcttrbgca_samhsa_2021_access_scores_mental.csv.xz"]
   },
   "mental_near_10_median": {
     "aggregation_method": "",
@@ -2196,7 +2196,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Mental Health/Service Access Scores/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Mental Health/Service Access Scores/data/distribution/va_hdcttrbgca_samhsa_2021_access_scores_mental.csv.xz"
+    "origin": ["https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Mental Health/Service Access Scores/data/distribution/ncr_cttrbg_samhsa_2021_access_scores_mental.csv.xz", "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Mental Health/Service Access Scores/data/distribution/va_hdcttrbgca_samhsa_2021_access_scores_mental.csv.xz"]
   },
   "NAICS11_business_create_job": {
     "aggregation_method": "count",
@@ -15016,7 +15016,7 @@
     "unit": "percent",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.transportation/blob/main/Population Characteristics/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.transportation/blob/main/Population Characteristics/data/distribution/va_cttr_2010_2021_perc_no_car_households.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.transportation/blob/main/Population Characteristics/data/distribution/ncr_cttr_acs_2016_2020_vehicles.csv.xz"
   },
   "perc_poor_ment_hlth_days_14_and_over": {
     "aggregation_method": "",
