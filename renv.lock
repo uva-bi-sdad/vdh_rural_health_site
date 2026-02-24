@@ -1,6 +1,6 @@
 {
   "R": {
-    "Version": "4.5.1",
+    "Version": "4.5.2",
     "Repositories": [
       {
         "Name": "CRAN",
@@ -432,15 +432,14 @@
         "xml2"
       ],
       "Config/testthat/edition": "3",
+      "Author": "Biocomplexity Institute [cph, fnd], Micah Iserman [aut, cre], Alan Wang [ctb], Prashanth Wagle [ctb]",
+      "Maintainer": "Micah Iserman <micah.iserman@gmail.com>",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteRepo": "community",
       "RemoteUsername": "uva-bi-sdad",
       "RemoteRef": "HEAD",
-      "RemoteSha": "985874f5a6aba45f6a8587e119cf9f2ec884e143",
-      "NeedsCompilation": "no",
-      "Author": "Biocomplexity Institute [cph, fnd], Micah Iserman [aut, cre], Alan Wang [ctb], Prashanth Wagle [ctb]",
-      "Maintainer": "Micah Iserman <micah.iserman@gmail.com>"
+      "RemoteSha": "985874f5a6aba45f6a8587e119cf9f2ec884e143"
     },
     "cpp11": {
       "Package": "cpp11",
